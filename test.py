@@ -43,11 +43,19 @@ if __name__ == "__main__":
     model = NER_RE_Model(checkpoint['ner_classifier_dim'], checkpoint['re_classifier_dim'])
     model.load_state_dict(checkpoint['model_state_dict'])
     model.to(device)
+    idx2ner_label = checkpoint['idx2ner_label']
+    idx2re_label = checkpoint['idx2re_label']
 
     tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
     input_ids, attention_mask, token_type_ids = tokenize_input_text(text, tokenizer)
 
     ner_predictions, re_predictions = predict(model, input_ids, attention_mask, token_type_ids, device)
+    
+    ner_label = idx2ner_label[ner_predictions[0]]
+    re_label = idx2re_label[re_predictions[0]]
+
+    print("NER Predictions:", ner_label)
+    print("RE Predictions:", re_label)
 
     print("NER Predictions:", ner_predictions)
     print("RE Predictions:", re_predictions)
