@@ -13,8 +13,8 @@ def tokenize_data(dataset, tokenizer):
     tokenized_data = []
     for sentence, ner_label, re_label in dataset:
         tokens = tokenizer(sentence, truncation=True, padding='max_length', max_length=128, return_tensors='pt')
-        ner_label_tensor = torch.tensor(ner_label if ner_label is not None else ner_label2idx[None], dtype=torch.long)
-        re_label_tensor = torch.tensor(re_label if re_label is not None else re_label2idx[None], dtype=torch.long)
+        ner_label_tensor = torch.tensor(ner_label2idx[ner_label] if ner_label is not None else ner_label2idx[None], dtype=torch.long)
+        re_label_tensor = torch.tensor(re_label2idx[re_label] if re_label is not None else re_label2idx[None], dtype=torch.long)
         tokenized_data.append((tokens, ner_label_tensor, re_label_tensor))
     return tokenized_data
 
