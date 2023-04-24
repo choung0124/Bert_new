@@ -9,7 +9,7 @@ from data_processing import read_json_files, extract_sentences, create_label_map
 from dataset import NERRE_Dataset
 from model import NER_RE_Model
 
-def tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx):
+tokenized_data = tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx)
     tokenized_data = []
     for sentence, ner_label, re_label in dataset:
         tokens = tokenizer(sentence, truncation=True, padding='max_length', max_length=128, return_tensors='pt')
