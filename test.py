@@ -9,6 +9,12 @@ def tokenize_input_text(text, tokenizer):
     input_ids = tokens['input_ids'].squeeze()
     attention_mask = tokens['attention_mask'].squeeze()
     token_type_ids = tokens['token_type_ids'].squeeze()
+
+    # Add batch dimension
+    input_ids = input_ids.unsqueeze(0)
+    attention_mask = attention_mask.unsqueeze(0)
+    token_type_ids = token_type_ids.unsqueeze(0)
+
     return input_ids, attention_mask, token_type_ids
 
 def predict(model, input_ids, attention_mask, token_type_ids, device):
