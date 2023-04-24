@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     dataloader = DataLoader(tokenized_data, batch_size=8, shuffle=False)
     ner_true, ner_preds, re_true, re_preds = evaluate(model, dataloader, device)
-    
+
     ner_unique_labels = sorted(list(set(ner_true + ner_preds)))
     re_unique_labels = sorted(list(set(re_true + re_preds)))
 
