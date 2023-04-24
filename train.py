@@ -13,31 +13,37 @@ def tokenize_data(dataset, tokenizer):
     tokenized_data = []
     for sentence, ner_label, re_label in dataset:
         tokens = tokenizer(sentence, truncation=True, padding='max_length', max_length=128, return_tensors='pt')
+        input_ids = tokens['input_ids'].squeeze()
+        attention_mask = tokens['attention_mask'].squeeze()
+        token_type_ids = tokens['token_type_ids'].squeeze()
         ner_label_tensor = torch.tensor(ner_label2idx[ner_label] if ner_label is not None else ner_label2idx[None], dtype=torch.long)
         re_label_tensor = torch.tensor(re_label2idx[re_label] if re_label is not None else re_label2idx[None], dtype=torch.long)
-        tokenized_data.append((tokens, ner_label_tensor, re_label_tensor))
+        tokenized_data.append((input_ids, attention_mask, token_type_ids, ner_label_tensor, re_label_tensor))
     return tokenized_data
 
 def train(model, dataloader, optimizer, device):
     model.train()
     total_loss = 0
-    for batch in tqdm(dataloader, desc="Training"):
-        tokens, ner_labels, re_labels = batch
-        input_ids = tokens['input_ids'].to(device)
-        attention_mask = tokens['attention_mask'].to(device)
-        token_type_ids = tokens['token_type_ids'].to(device)
+
+    for input_ids, attention_mask, token_type_ids, ner_labels, re_labels in dataloader:
+        optimizer.zero_grad()
+
+        input_ids = input_ids.to(device)
+        attention_mask = attention_mask.to(device)
+        token_type_ids = token_type_ids.to(device)
         ner_labels = ner_labels.to(device)
         re_labels = re_labels.to(device)
 
-        optimizer.zero_grad()
         ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
-        ner_loss = nn.CrossEntropyLoss()(ner_logits, ner_labels)
-        re_loss = nn.CrossEntropyLoss()(re_logits, re_labels)
+        ner_loss = criterion(ner_logits, ner_labels)
+        re_loss = criterion(re_logits, re_labels)
         loss = ner_loss + re_loss
+
         loss.backward()
         optimizer.step()
 
         total_loss += loss.item()
+
     return total_loss / len(dataloader)
 
 if __name__ == "__main__":
