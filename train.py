@@ -25,7 +25,8 @@ def train(model, dataloader, optimizer, device):
     model.train()
     total_loss = 0
 
-    for input_ids, attention_mask, token_type_ids, ner_labels, re_labels in dataloader:
+    progress_bar = tqdm(dataloader, desc="Training", unit="batch")
+    for input_ids, attention_mask, token_type_ids, ner_labels, re_labels in progress_bar:
         optimizer.zero_grad()
 
         input_ids = input_ids.to(device)
@@ -43,6 +44,8 @@ def train(model, dataloader, optimizer, device):
         optimizer.step()
 
         total_loss += loss.item()
+
+        progress_bar.set_postfix({"loss": loss.item()})
 
     return total_loss / len(dataloader)
 
@@ -75,9 +78,11 @@ if __name__ == "__main__":
 
     num_epochs = 3
     for epoch in range(num_epochs):
-        print(f"Epoch {epoch+1}/{num_epochs}")
-        loss = train(model, dataloader, optimizer, device)
-        print(f"Loss: {loss:.4f}")
+        print(f"{'-' * 15} Epoch {epoch + 1}/{num_epochs} {'-' * 15}")
+
+        # Train the model
+        avg_train_loss = train(model, dataloader, optimizer, device)
+        print(f"{'*' * 10} Average Training Loss: {avg_train_loss:.4f} {'*' * 10}")
 
     # Save the model's state_dict and configuration
     torch.save({
