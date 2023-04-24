@@ -65,8 +65,14 @@ if __name__ == "__main__":
     dataloader = DataLoader(tokenized_data, batch_size=8, shuffle=True)
     optimizer = AdamW(model.parameters(), lr=3e-5)
 
+# ... (rest of the code)
+
     num_epochs = 3
     for epoch in range(num_epochs):
         print(f"Epoch {epoch+1}/{num_epochs}")
         loss = train(model, dataloader, optimizer, device)
         print(f"Loss: {loss:.4f}")
+
+    # Save the model
+    torch.save(model.state_dict(), "trained_model.pt")
+
