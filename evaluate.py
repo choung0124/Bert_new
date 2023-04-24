@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from data_processing import read_json_files, extract_sentences, create_label_mappings
 from dataset import NERRE_Dataset
 from model import NER_RE_Model
-from train import tokenize_data
+from train import tokenize_our_data
 
 def evaluate(model, dataloader, device):
     model.eval()
