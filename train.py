@@ -72,7 +72,6 @@ if __name__ == "__main__":
     optimizer = AdamW(model.parameters(), lr=3e-5)
     criterion = torch.nn.CrossEntropyLoss()
 
-# ... (rest of the code)
 
     num_epochs = 3
     for epoch in range(num_epochs):
@@ -80,6 +79,11 @@ if __name__ == "__main__":
         loss = train(model, dataloader, optimizer, device)
         print(f"Loss: {loss:.4f}")
 
-    # Save the model
-    torch.save(model.state_dict(), "trained_model.pt")
+    # Save the model's state_dict and configuration
+    torch.save({
+        'model_state_dict': model.state_dict(),
+        'ner_classifier_dim': model.ner_classifier.out_features,
+        're_classifier_dim': model.re_classifier.out_features
+    }, "trained_model.pt")
+
 
