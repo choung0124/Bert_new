@@ -70,6 +70,7 @@ if __name__ == "__main__":
 
     dataloader = DataLoader(tokenized_data, batch_size=8, shuffle=True)
     optimizer = AdamW(model.parameters(), lr=3e-5)
+    criterion = torch.nn.CrossEntropyLoss()
 
 # ... (rest of the code)
 
