@@ -88,7 +88,10 @@ if __name__ == "__main__":
     torch.save({
         'model_state_dict': model.state_dict(),
         'ner_classifier_dim': model.ner_classifier.out_features,
-        're_classifier_dim': model.re_classifier.out_features
+        're_classifier_dim': model.re_classifier.out_features,
+        'idx2ner_label': idx2ner_label,
+        'idx2re_label': idx2re_label
     }, "trained_model.pt")
+
 
 
