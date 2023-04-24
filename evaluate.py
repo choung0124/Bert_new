@@ -58,9 +58,9 @@ if __name__ == "__main__":
     checkpoint = torch.load(model_path)
 
     # Create the model with the saved configuration
-    model = NER_RE_Model(len(ner_label2idx), len(re_label2idx),
-                         ner_dim=checkpoint['ner_classifier_dim'],
+    model = NER_RE_Model(ner_dim=checkpoint['ner_classifier_dim'],
                          re_dim=checkpoint['re_classifier_dim'])
+
     model.load_state_dict(checkpoint['model_state_dict'])
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
