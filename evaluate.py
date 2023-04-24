@@ -71,9 +71,16 @@ if __name__ == "__main__":
     ner_unique_labels = sorted(list(set(ner_true + ner_preds)))
     re_unique_labels = sorted(list(set(re_true + re_preds)))
 
-    print("NER Evaluation:")
-    print(classification_report(ner_true, ner_preds, labels=ner_unique_labels, target_names=[idx2ner_label[l] for l in ner_unique_labels], digits=4))
+    if not ner_unique_labels:
+        print("No NER labels found in the dataset.")
+    else:
+        print("NER Evaluation:")
+        print(classification_report(ner_true, ner_preds, labels=ner_unique_labels, target_names=[idx2ner_label[l] for l in ner_unique_labels], digits=4))
 
-    print("RE Evaluation:")
-    print(classification_report(re_true, re_preds, labels=re_unique_labels, target_names=[idx2re_label[l] for l in re_unique_labels], digits=4))
+    if not re_unique_labels:
+        print("No RE labels found in the dataset.")
+    else:
+        print("RE Evaluation:")
+        print(classification_report(re_true, re_preds, labels=re_unique_labels, target_names=[idx2re_label[l] for l in re_unique_labels], digits=4))
+
 
