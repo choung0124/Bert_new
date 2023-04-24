@@ -1,36 +1,47 @@
+import sys
 import torch
-import argparse
-from transformers import BertTokenizer
-from train import MyModel, idx2ner_label, idx2re_label
+from transformers import BertTokenizerFast
+from dataset import NERRE_Dataset
+from model import NER_RE_Model
 
-# Set up the argument parser
-parser = argparse.ArgumentParser(description="Test the model with a random text.")
-parser.add_argument("input_text", type=str, help="The input text to be labeled.")
-args = parser.parse_args()
+def tokenize_input_text(text, tokenizer):
+    tokens = tokenizer(text, truncation=True, padding='max_length', max_length=128, return_tensors='pt')
+    input_ids = tokens['input_ids'].squeeze()
+    attention_mask = tokens['attention_mask'].squeeze()
+    token_type_ids = tokens['token_type_ids'].squeeze()
+    return input_ids, attention_mask, token_type_ids
 
-# Load the trained model
-model = MyModel()
-model.load_state_dict(torch.load("trained_model.pt"))
-model.eval()
+def predict(model, input_ids, attention_mask, token_type_ids, device):
+    model.eval()
+    with torch.no_grad():
+        input_ids = input_ids.to(device)
+        attention_mask = attention_mask.to(device)
+        token_type_ids = token_type_ids.to(device)
 
-# Tokenize the input text
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-tokens = tokenizer(args.input_text, truncation=True, padding='max_length', max_length=128, return_tensors='pt')
-input_ids = tokens['input_ids']
-attention_mask = tokens['attention_mask']
-token_type_ids = tokens['token_type_ids']
+        ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
+        ner_predictions = torch.argmax(ner_logits, dim=-1).cpu().numpy()
+        re_predictions = torch.argmax(re_logits, dim=-1).cpu().numpy()
 
-# Pass the tokenized input to the model
-with torch.no_grad():
-    ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
+    return ner_predictions, re_predictions
 
-# Decode the output logits to get the predicted labels
-ner_predictions = torch.argmax(ner_logits, dim=-1)
-re_predictions = torch.argmax(re_logits, dim=-1)
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python predict.py <text>")
+        sys.exit(1)
 
-# Convert the predicted label indices to their corresponding label names
-ner_label = idx2ner_label[ner_predictions.item()]
-re_label = idx2re_label[re_predictions.item()]
+    text = sys.argv[1]
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-print(f"Predicted NER label: {ner_label}")
-print(f"Predicted RE label: {re_label}")
+    # Load the model and its configuration
+    checkpoint = torch.load("trained_model.pt")
+    model = NER_RE_Model(checkpoint['ner_classifier_dim'], checkpoint['re_classifier_dim'])
+    model.load_state_dict(checkpoint['model_state_dict'])
+    model.to(device)
+
+    tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
+    input_ids, attention_mask, token_type_ids = tokenize_input_text(text, tokenizer)
+
+    ner_predictions, re_predictions = predict(model, input_ids, attention_mask, token_type_ids, device)
+
+    print("NER Predictions:", ner_predictions)
+    print("RE Predictions:", re_predictions)
