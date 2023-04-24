@@ -1,0 +1,3748 @@
+{
+    "sourcid": "PMC1802732",
+    "publisher": "BioMed Central",
+    "journal": "Cardiovascular Diabetology",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1802732/",
+    "text": "Persistent hyperglycemia is an independent predictor of outcome in acute myocardial infarction Background Elevated blood glucose values are a prognostic factor in myocardial infarction (MI) patients. The unfavourable relation between hyperglycemia and outcome is known for admission glucose and fasting glucose after admission. These predictors are single measurements and thus not indicative of overall hyperglycemia. Increased persistent hyperglycemia may better predict adverse events in MI patients. Methods In a prospective study of MI patients treated with primary percutaneous coronary intervention (PCI) frequent blood glucose measurements were obtained to investigate the relation between glucose and the occurrence of major adverse cardiac events (MACE) at 30 days follow-up. MACE was defined as death, recurrent infarction, repeat primary coronary intervention, and left ventricular ejection fraction equal to or smaller than 30%. Results MACE occurred in 89 (21.3%) out 417 patients. In 17 patients (4.1%) it was a fatal event. A mean of 7.4 glucose determinations were available per patient. Mean +/- SD admission glucose was 10.1 +/- 3.7 mmol/L in patients with a MACE versus 9.1 +/- 2.7 mmol/L in event-free patients (P = 0.0024). Mean glucose during the first two days after admission was 9.0 +/- 2.8 mmol/L in patients with MACE compared to 8.1 +/- 2.0 mmol/L in event free patients (P < 0.0001). The area under the receiver operator characteristic curve was 0.64 for persistent hyperglycemia and 0.59 for admission glucose. Persistent hyperglycemia emerged as a significant independent predictor (P < 0.001). Conclusion Persistent hyperglycemia in MI has a stronger relation with 30-day MACE than elevated glucose at admission. Background Acute myocardial infarction (MI) patients with hyperglycaemia at admission have a worse prognosis than patients that are normoglycemic at admission. This relation is found in both patients with diabetes mellitus (DM) and in patients without DM. It has been argued that in patients without DM hyperglycaemia may be caused by undetected diabetes. Some patients who present with hyperglycaemia are indeed diabetic but many patients with an admission glucose above 11.0 mmol/L are not diabetic. Elevated fasting glucose after admission for MI also predicts an unfavourable outcome. Admission glucose and fasting glucose as predictors of outcome have the drawback that they are based on a single measurement and thus are not indicative of persistent hyperglycaemia. A first step to define persistent hyperglycaemia is to compute the mean of all glucose values. However, an ordinary arithmetic mean of glucoses ignores the unequal time distribution between measurements. The calculation of the time-averaged glucose addresses this problem. In this post-hoc analysis of data collected in a prospective study of MI patients we sought to investigate whether persistent hyperglycemia, defined as an elevated time-averaged glucose over the first 48 hours after admission is a better predictor of major adverse cardiac events than elevated glucose at admission. Subjects and methods Subjects All patients with symptoms consistent with an acute MI of >30 min duration, presenting within 24 hour after the onset of symptoms and with a ST-segment elevation of more than 1 mm (0.1 mV) in two or more contiguous leads on the electrocardiogram and treated with primary percutaneous coronary intervention (PCI) were included in this study. At baseline age, gender, previous cardiovascular disease defined as a history of coronary artery bypass grafting (CABG), previous PCI, stroke and MI, existence of DM, smoking status, Killip class, electrocardiographic site of infarction, time of onset of symptoms, and time of hospital admission were recorded. Patients were defined as diabetic when treated with a diet, oral hypoglycaemic drugs and/or insulin. The research protocol was reviewed and approved by the medical ethics committee, and patients were included after informed consent. Glucose measures Glucose levels were based on measurements of whole-blood glucose (Modular System, Roche/Hitachi, Basel, Switzerland). The first glucose available after admission was defined as admission glucose. To determine the time-averaged glucose level for an individual patient, a dedicated computer algorithm interpolated all glucose measurements into a curve, after which the area under this glucose curve was calculated for the first 48 hours (persistent hyperglycemia). The area under the curve was then divided by 48 hours. Enzymatic infarct size Enzymatic infarct size was estimated by serial measurements of creatine kinase (CK) fraction. CK was determined enzymatically on a Hitachi 717 automatic analyzer according to the International Federation of Clinical Chemistry (IFCC) recommendation at 30 degrees Celsius. Frequent CK determinations were performed according to a schedule that called for 4 to 8 measurements in the first 96 hours to calculate the area under the CK curves. Left ventricular function Left ventricular ejection fraction (LVEF) was measured before discharge by radionuclide ventriculography or by echocardiography. Radionuclide ventriculography was performed with the multiple-gated equilibrium method following the labeling of red blood cells of the patient with technetium (99mTc-pertechnate). A General Electric 300 gamma-camera with a low-energy all-purpose parallel-hole collimator was used. Global ejection fraction was calculated by a Star View computer (General Electric, Wisconsin, USA) using the fully automatic PAGE program. LVEF as assessed by two-dimensional transthoracicechocardiography was reported as a descriptive grade of function, using subjective visual assessment by two independent observers. This approach is less time-consuming than other methods, such as Simpson's rule or the wall motion index score. Nevertheless, studies of subjective visual assessment of LVEF suggest that this approach can be at least as accurate as other methods. A LVEF <= 30% was defined as a poor left ventricular function before the analysis.  Cardiac events In all patients data were obtained with respect to mortality, recurrent myocardial infarction or repeat PCI during the first 30 days after admission. The primary endpoint of the study was the presence of a major adverse cardiac event (MACE) during the first 30 days after admission for acute MI. MACE was defined as the composite incidence of death, recurrent infarction, repeat PCI or a LVEF <= 30%. The combination of death and non-fatal major events as recurrent infarction, repeat intervention, and heart failure has been shown to be a valid predictor of 1-year mortality. If in one patient more than one event occurred, these events accounted for one MACE. Recurrent myocardial infarction was defined as the occurrence of symptoms consistent with an acute MI of >30 min duration, signs of infarction on the electrocardiogram, and a second increase in serum CK level to more than twice the upper limit of normal. If the CK level had not decreased to normal levels, a second increase of more than 200 IU per litre over the previous value was regarded as indicative of a recurrent infarction. Repeat PCI was defined as angioplasty performed within 30 days due to repeat signs and symptoms of myocardial ischemia. If an event occurred within 48 hours after admission persistent hyperglycemia was calculated based on the values available before the event.  Statistical analysis Differences between groups were assessed with the Student's t-test or the Mann-Whitney U-test. The Chi-square test and the Chi-square test for trend were used to test differences between proportions. Receiver operator characteristic (ROC) curves were computed to assess the ability of glucose-derived parameters to predict MACE or mortality. We also performed a Cox proportional-hazards regression model with factors at admission related to MACE at least with a single-sided level of significance of 0.2 or less. The Statistical Package for the Social Sciences (SPSS Inc., Chicago, IL, USA) version 11.5 was used for all statistical analysis. Results Between April 1, 1998 and October 1, 2001, 417 patients were included. After 30 days a MACE had occurred in 89 patients (21.3%); in 17 patients (4.1%) it was a fatal event and in 72 patients (17.3%) a non-fatal event. A repeat PCI was performed in 20 patients (4.8%). Left ventricular function data were available of 377 patients (90.4%). In only 6 patients (1.4%) a reinfarction occurred within 30 days, whereas in 68 patients (18%) the LVEF was equal or smaller than 30% was observed. Baseline demographic and clinical characteristics of patients with a MACE and patients without an event are represented in table 1 and table 2. A mean of 7.4 glucose determinations were available per patient. Mean +- SD admission glucose was 10.1 +- 3.7 mmol/L in patients with a MACE versus 9.1 +- 2.7 mmol/L in event-free patients (P = 0.0024) (table 3). Mean persistent hyperglycemia was 9.0 +- 2.8 mmol/L in patients with MACE compared to 8.1 +- 2.0 mmol/L in event-free patients (P < 0.0001). A total of 44 patients had DM, of whom in two cases DM had not been diagnosed before. In A glucose level at admission in the highest quartile was observed in 34 DM patients (77.3%) and 38 DM patients (86.4%) had persistent hyperglycemia. Baseline characteristics patients with a major adverse cardiac events (MACE) and without an adverse event within 30-days Characteristics\tMACE group\tEvent-free group\tP-value\t \tNumber of patients\t89\t328\t\t \tAge, years (mean +- SD)\t62.5 +- 12.6\t60.1 +- 11.8\t0.11\t \tMen\t70 (78.7)\t263 (80.2)\t0.77\t \tPrevious cardiovascular events\t17 (19.1)\t47 (14.3)\t0.17\t \tDiabetes mellitus\t11 (12.4)\t33 (10.1)\t0.33\t \t Type 2 diabetes mellitus\t11 (12.4)\t28 (8.5)\t0.29\t \t Tablets\t6 (6.7)\t17 (5.1)\t0.82\t \t Insulin\t2 (2.2)\t13 (3.4)\t\t \tHypertension\t32 (36.0)\t87 (26.5)\t0.06\t \tDyslipidaemia\t16 (18.0)\t75 (22.9)\t0.20\t \tCurrently smoker\t41 (46.1)\t178 (54.3)\t0.11\t \tPositive family history\t27 (30.3)\t133 (40.5)\t0.05          Data are numbers (%) unless otherwise indicated. Infarct characteristics, hemodynamic status and reperfusion treatment Characteristics\tMACE group\tEvent-free group\tP-value\t \tNumber of patients\t89\t328\t\t \tSystolic blood pressure, mmHg (mean +- SD)\t125 +- 23\t132 +- 21\t0.03\t \tDiastolic blood pressure, mmHg (mean +- SD)\t76 +- 17\t78 +- 14\t0.13\t \tHeart rate (mean +- SD)\t79 +- 15\t73 +- 16\t0.02\t \tAnterior MI\t69 (77.5)\t131 (39.9)\t<0.001\t \tKillip class 1\t79 (88.8)\t311 (95.0)\t0.04\t \tKillip class >= 2\t10 (11.2)\t17 (5.0)\t\t \tMulti-vessel disease\t58 (65.2)\t156 (47.6)\t0.002\t \tTIMI grade 0 flow before PCI\t60 (67.4)\t212 (64.6)\t0.36\t \tStent\t48 (53.9)\t184 (56.1)\t0.82\t \tGP IIb/IIIa receptor blocker\t28 (26.2)\t79 (24.1)\t0.33\t \tTIMI grade 3 flow after PCI\t75 (86.2)\t305 (93.3)\t0.03     Data are number (%) unless otherwise indicated. Relation between glucose measures and major adverse cardiac events MACE group\tEvent-free group\tP-value\t \tNumber of patients\t89\t328\t\t \tAdmission glucose\t10.1 +- 3.7\t9.1 +- 2.7\t0.0024\t \tPersistent hyperglycemia\t9.1 +- 2.8\t8.0 +- 2.0\t<0.0001     Glucose data expressed as mmol/L (mean +- SD). The area under the ROC-curve for admission glucose was 0.59 (95% confidence interval 0.52-0.65) and for persistent hyperglycemia was 0.64 (0.57-0.70). Factors related with MACE in univariate analysis were previous cardiovascular events, hypertension, dyslipidemia, smoking, positive family history, anterior site of infarction, Killip class >= 2, multi-vessel disease, TIMI grade 3 flow after PCI, admission glucose, and persistent hyperglycemia (table 1 and 2; all P <= 0.2). In the Cox proportional hazard model, after correction for these factors anterior site of infarction (hazard ratio (95% confidence interval) 4.06 (2.46-6.68), P < 0.001), Killip class >= 2 (1.97 (1.02-3.83), P = 0.045), multi-vessel disease (1.99 (1.28-3.09), P = 0.002), TIMI grade 3 flow after PCI (2.33 (1.26-4.31), P = 0.007) and persistent hyperglycemia (1.12 (1.04-1.20), P = 0.003) remained independent prognostic factors of MACE. In the subgroup of patients without known diabetes mellitus also an independent relation of persistent hyperglycemia with 30-day MACE could be observed (1.19 (1.05-1.36), P = 0.006).                   The positive relation between admission glucose and MACE is illustrated in figure 1. In the lowest quartile of admission glucose MACE occurred in 13.5% compared to 26.7% in the highest quartile (P for trend 0.023). That persistent hyperglycemia has a stronger relation with 30-day MACE than admission hyperglycemia is also illustrated in figure 1. The stepwise increase is more pronounced with persistent hyperglycemia than with admission hyperglycemia. The lowest quartile of persistent hyperglycemia was 11.5% compared to 33.3% in the highest quartile (P for trend < 0.0001). 30-day major adverse cardiac events (MACE) according to quartiles of admission glucose and persistent hyperglycemia in MI patients. P value for trend in admission glucose is 0.023 and for persistent hyperglycemia is <0.0001. 30-day mortality increased with each quartile of persistent hyperglycemia, with 1 patient that had died in the lowest quartile versus 9 patients (8.6%) in the highest quartile (table 4). All patients in the lowest quartile for admission glucose survived and 8 patients (7.7%) and 7 patients (6.7%) in the two highest quartiles did not survive the first 30 days after admission (table 5). Relation of quartiles of persistent hyperglycemia with major adverse cardiac events, mortality and infarct size Quartile 1\tQuartile 2\tQuartile 3\tQuartile 4\tP-value*\t \tGlucose range (mmol/L)\t5.4-6.9\t7.0-7.6\t7.7-8.8\t8.9-20.6\t\t \tMACE (%)\t12 (11.5)\t17 (16.3)\t25 (24.0)\t35 (33.3)\t<0.0001\t \t30-day mortality\t1 (1.0)\t2 (1.9)\t5 (4.8)\t9 (8.6)\t0.003\t \tLVEF (% +- SD)\t45.3 +- 9.8\t43.3 +- 9.8\t40.9 +- 12.3\t39.4 +- 13.2\t<0.001\t \tCK AUC (IU +- SD)\t919 +- 669\t1430 +- 1547\t1560 +- 1307\t1579 +- 1402\t<0.001             MACE = major adverse cardiac events. LVEF = left ventricular ejection fraction. SD = standard deviation. CK = creatine kinase. AUC = area under the curve. *P value denotes P value for trend. Relation of quartiles of admission glucose with major adverse cardiac events, mortality and infarct size Quartile 1\tQuartile 2\tQuartile 3\tQuartile 4\tP-value*\t \tGlucose range (mmol/L)\t4.3-7.2\t7.3-8.5\t8.6-10.3\t10.4-22.9\t\t \tMACE (%)\t14 (13.5)\t23 (22.1)\t24 (23.1)\t28 (26.7)\t0.023\t \t30-day mortality (%)\t0 (-)\t2 (1.9)\t8 (7.7)\t7 (6.7)\t0.003\t \tLVEF (% +- SD)\t44.6 +- 10.6\t41.9 +- 11.4\t41.8 +- 11.7\t40.7 +- 12.0\t<0.001\t \tCK AUC (IU +- SD)\t1001 +- 771\t1283 +- 975\t1505 +- 1349\t1690 +- 1783\t<0.001             MACE = major adverse cardiac events. LVEF = left ventricular ejection fraction. SD = standard deviation. CK = creatine kinase. AUC = area under the curve. *P value denotes P value for trend. The relation between admission glucose and persistent hyperglycemia and reduced LVEF and increased enzymatic infarct size is strong (table 4 and 5). In the quartiles of admission glucose the LVEF was 44.6%, 41.9%, 41.8% and 40.7%, and in persistent hyperglycemia the LVEF was 45.3%, 43.3%, 40.9% and 39.4% (both P < 0.0001). The mean +- SD enzymatic infarct size was 1001 +- 771 IU in the lowest quartile of admission glucose versus 1690 +- 1783 IU in the highest quartile (P < 0.0001) and 919 +- 669 IU in the lowest quartile of persistent hyperglycemia compared to 1579 +- 1402 IU in the highest quartile (P < 0.0001). Discussion In this study we observed that persistent hyperglycemia in acute MI has a stronger relation with unfavourable short-term outcome than glucose at admission. Previous studies have primarily focused on the prognostic value of admission hyperglycaemia in both patients with and without DM. Some studies showed that an elevated fasting glucose after admission also predicts unfavourable outcome. Only one study used a measure of persistent hyperglycaemia in the analysis of the relation between deregulation of the glucose metabolism during MI. In a study of 662 MI patients hyperglycaemia was defined as the presence of a glucose level on admission or a 4-day mean blood glucose level higher than 6.67 mmol/L. A total of 457 patients (69.0%) had hyperglycaemia and only 195 (29.7%) had previously known diabetes mellitus. These patients developed more complications, and had higher 28-day mortality. The relation of persistent hyperglycemia was observed both in the overall population as in the subgroup of patients without known diabetes. Mechanisms of action Several mechanisms can be postulated to explain the relation between acute and persistent hyperglycaemia and an unfavourable outcome after reperfusion therapy for MI. First, the relation between persistent hyperglycaemia and outcome may be related to the presence of ongoing stress in more severely ill patients. During myocardial ischemia an increase in glucose levels is observed. It has been reported that glucose was related to adrenalin and cortisol in patients with ST-segment elevation MI. In the current study, Killip class >= 2 on admission was more frequent and enzymatic infarct size was larger, suggesting that hyperglycaemia reflects extensive myocardial damage.  The second possible explanation is that patients with hyperglycaemia are likely to have diabetes, even if it has not been diagnosed. It has been described that patients with DM have an impaired outcome after MI. Potentially, patients with persistent hyperglycaemia are more likely to have DM either known or unknown. In our study, patients with DM had indeed an elevated glucose at admission and a persistent hyperglycemia. The number of patients without DM in the highest quartile of admission glucose and persistent hyperglycemia was approximately 2 out of 3 patients. Diabetes is associated with extensive coronary artery disease and adverse outcomes in MI patients. In the current study, elevated admission glucose and persistent hyperglycemia were related to a higher prevalence of DM. Persistent hyperglycemia may reflect insulin resistance. Insulin resistance is more often present in non-diabetic patients with an acute MI compared to matched controls. When 181 patients admitted with acute MI and no history of diabetes mellitus were compared to 180 matched controls without previously known diabetes or cardiovascular disease, glucose, HbA1c, proinsulin, proinsulin/insulin ratio, triglycerides, insulin resistance and fibrinogen were all consistently higher in patients than controls (P < 0.01). Recently, in a retrospective study, it was shown that non-diabetic patients with signs of insulin resistance had impaired left ventricular function recovery after coronary angioplasty compared to patients without insulin resistance. Finally, it is possible that hyperglycemia and concomitant metabolic abnormalities may exacerbate myocardial damage in MI. A recent study in 4102 non-diabetic patients admitted for heart failure found a strong association between admission glucose and short-term mortality. As in our study, the heart failure study does not allow conclusions whether hyperglycemia was an indicator or cause of adverse outcome. Role for insulin infusion The obvious clinical difference between admission glucose and persistent hyperglycemia is that hyperglycemia during hospital stay is amenable to therapy, whereas hyperglycemia already present on admission cannot be modified. Therefore, in the clinical setting, the ultimate proof that the hyperglycemic state may have harmful effects on the ischemic myocardium is to demonstrate that cardiac outcomes can be improved by strict glucose regulation. The beneficial effect of an infusion of insulin during myocardial ischemia has been suggested by a small number of clinical studies, although they lacked a randomized design and were not conclusive. The only large trials to investigate treatment focussed on hyperglycemia in MI patients were the Diabetes Insulin-Glucose in Acute Myocardial Infarction (DIGAMI) studies. The DIGAMI included 620 patients with known diabetes mellitus or serum-glucose concentrations of over 11.0 mmol/L. Patients were randomized for an insulin-glucose infusion for 24 hours, followed by a minimum of 3 months of intensive insulin therapy or conventional treatment. After 1 year, patients that had no previous insulin treatment gained most by glucose-metabolism intervention, with a mortality of 8.6 versus 18.0% in the control group. For the study population as a whole, the authors found an absolute reduction in mortality of 7.5%. The recently published DIGAMI 2 randomized 1253 MI patients with hyperglycemia to 24 hour insulin-glucose infusion to obtain glucose levels between 7.0 and 10.0 mmol/L and subcutaneous long-term insulin treatment thereafter, to 24 hours glucose control followed by standard glucose control thereafter, or to standard glucose control started after admission. After a follow-up of 2 years no difference in mortality could be observed: 23.4% versus 21.2% and 17.9% (NS). Glucose levels at admission averaged 12.7 mmol/L and fall to 9.1 mmol/L in the intensive treatment group compared to 10.0 mmol/L after standard treatment. The drop in glucose level of 3.4 mmol/L obtained in DIGAMI 2 was thereby smaller than in their first trial (5.8 mmol/L). Moreover, in the smaller Hyperglycemia: Intensive Insulin Infusion In Infarction (HI-5) study with 240 patients, the mean blood glucose level after 24 hours was 8.3 mmol/L in the treatment group compared to 9.0 mmol/L in the conventional group (NS). A mean insulin dose administered over this time in the treatment group was (only) 1.9 units/hours. An effect on mortality could not be observed. The relation between hyperglycemia and outcome could be one of the explanations for the lack of benefit of trials using insulin in combination with glucose-potassium, i.e. GIK. Patients randomized to GIK suffered more often from hyperglycemia after 24 hours. Future trials have to determine whether or not to aim for strict glucose regulation during acute MI, since in critically ill patients it has been studied and proven to be effective in critically ill patients. The level of glucose levels obtained (4.4-6.1 mmol/L) were much lower than in both DIGAMI, HI-5 and GIK trials.   Study limitations Although in this analysis persistent hyperglycemia depicted 30-day MACE over admission glucose the area under the ROC curves for both measures were small. Other factors than glucose deregulation must account for unfavourable outcome after MI. On the other hand admission glucose is seen as one among other measures that help to predict outcome and possibly persistent hyperglycemia could serve as a better prognostic value. The number of patients in our analysis is not large, although the level of significance for observed relations was strong. The number of patients with diabetes was too small to draw conclusions on the relation of persistent hyperglycemia and outcome in the subgroup of patients with diabetes mellitus. It would have been useful if we had been informed about the degree of chronic hyperglycemia before the myocardial infarction, as reflected by glycated hemoglobin (HbA1c). Unfortunately, we did not systematically record HbA1c. Diabetes was diagnosed after admission in two patients, although the true number of diabetics might still have been higher. Finally, in a recent study, fasting glucose was superior to admission glucose with regard to 30-day mortality. We did collect glucose measures according to a time-scheme but had no information whether the measures collected during the morning were in the fasting state. Therefore, we could not perform an analysis on the relation of fasting glucose. Conclusion In patients with acute MI treated with primary PCI, hyperglycemia defined by the time-averaged glucose during the first 48 hours of hospital stay predicts unfavourable short-term outcome better than admission hyperglycemia. Persistent hyperglycemia could serve as a tool to compare algorithms to obtain more strict glucose control in MI patients, as well as in other critically ill patients. Possibly, it could serve as a tool to recognize patients with unknown diabetes. It is of great interest to see whether studies directed to lower glucose levels after admission lead to a reduction of unfavourable events and preservation of infarct-size. Competing interests The author(s) declare that they have no competing interests. Financial disclosures None declared. Glycometabolic state at admission: important risk marker of mortality in conventionally treated patients with diabetes mellitus and acute myocardial infarction: long-term results from the Diabetes and Insulin-Glucose Infusion in Acute Myocardial Infarction (DIGAMI) study Prognostic value of admission glucose in non-diabetic patients with myocardial infarction Is nondiabetic hyperglycemia a risk factor for cardiovascular disease? A meta-analysis of prospective studies Admission blood glucose level as risk indicator of death after myocardial infarction in patients with and without diabetes mellitus Stress hyperglycaemia and increased risk of death after myocardial infarction in patients with and without diabetes: a systematic overview Admission plasma glucose. Independent risk factor for long-term prognosis after myocardial infarction even in nondiabetic patients Prevalence and risks of hyperglycaemia and undiagnosed diabetes in patients with acute myocardial infarction \"Stress\" hyperglycaemia during acute myocardial infarction: an indicator of pre-existing diabetes? Myocardial infarction and prevalence of diabetes mellitus. Is increased casual blood glucose at admission a reliable criterion for the diagnosis of diabetes? In-hospital prognosis of patients with fasting hyperglycemia after first myocardial infarction Hyperglycemia during acute myocardial infarction. A six-year follow-up study Fasting glucose is an important independent risk factor for 30-day mortality in patients with acute myocardial infarction: a prospective study Glucose metabolism in patients with acute myocardial infarction and no previous diagnosis of diabetes mellitus: a prospective study Short-term mortality of myocardial infarction patients with diabetes or hyperglycaemia during admission Reliability of reporting left ventricular systolic function by echocardiography: a systematic review of 3 methods Analysis of mortality events in the Multicenter Automatic Defibrillator Implantation Trial (MADIT-II) Use of composite endpoints in thrombolysis trials of acute myocardial infarction Prospective validation of a composite end point in thrombolytic trials of acute myocardial infarction (TIMI 4 and 5). Thrombosis In Myocardial Infarction A comparison of immediate coronary angioplasty with intravenous streptokinase in acute myocardial infarction Hyperglycemia: an independent marker of in-hospital mortality in patients with undiagnosed diabetes Initial metabolic and hormonal response to acute myocardial infarction Determinants and importance of stress hyperglycaemia in non-diabetic patients with myocardial infarction Prognostic value of admission plasma glucose and HbA in acute myocardial infarction Abnormal glucose tolerance-a common risk factor in patients with acute myocardial infarction in comparison with population-based controls Recovery of BMIPP uptake and regional wall motion in insulin resistant patients following angioplasty for acute myocardial infarction Admission blood glucose level and mortality among hospitalized nondiabetic patients with heart failure Effect of intravenous infusion of insulin in diabetics with acute myocardial infarction Use of low-dose insulin infusions in diabetics after myocardial infarction Insulin therapy for critically ill hospitalized patients: a meta-analysis of randomized controlled trials Randomized trial of insulin-glucose infusion followed by subcutaneous insulin treatment in diabetic patients with acute myocardial infarction (DIGAMI study): effects on mortality at 1 year Prospective randomised study of intensive insulin treatment on long term survival after acute myocardial infarction in patients with diabetes mellitus. DIGAMI (Diabetes Mellitus, Insulin Glucose Infusion in Acute Myocardial Infarction) Study Group Intense metabolic control by means of insulin in patients with diabetes mellitus and acute myocardial infarction (DIGAMI 2): effects on mortality and morbidity A The Hyperglycemia: Intensive Insulin Infusion in Infarction (HI-5) study: a randomized controlled trial of insulin infusion therapy for myocardial infarction A randomized evaluation of the effects of glucose-insulin-potassium infusion on myocardial salvage in patients with acute myocardial infarction treated with reperfusion therapy Glucose-insulin-potassium infusion in patients treated with primary angioplasty for acute myocardial infarction: the glucose-insulin-potassium study: a randomized trial Glucose-insulin-potassium infusion in patients with acute myocardial infarction without signs of heart failure: the Glucose-Insulin-Potassium Study (GIPS)-II Effect of glucose-insulin-potassium infusion on mortality in patients with acute ST-segment elevation myocardial infarction: the CREATE-ECLA randomized controlled trial Intensive insulin therapy in the critically ill patients Intensive insulin therapy in the medical ICU",
+    "entities": [
+        {
+            "entityId": "11_24",
+            "span": {
+                "begin": 11,
+                "end": 24
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "67_94",
+            "span": {
+                "begin": 67,
+                "end": 94
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "121_128",
+            "span": {
+                "begin": 121,
+                "end": 128
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "163_184",
+            "span": {
+                "begin": 163,
+                "end": 184
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "186_188",
+            "span": {
+                "begin": 186,
+                "end": 188
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "190_198",
+            "span": {
+                "begin": 190,
+                "end": 198
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "234_247",
+            "span": {
+                "begin": 234,
+                "end": 247
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "283_290",
+            "span": {
+                "begin": 283,
+                "end": 290
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "303_310",
+            "span": {
+                "begin": 303,
+                "end": 310
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "404_417",
+            "span": {
+                "begin": 404,
+                "end": 417
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "440_453",
+            "span": {
+                "begin": 440,
+                "end": 453
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "491_493",
+            "span": {
+                "begin": 491,
+                "end": 493
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "494_502",
+            "span": {
+                "begin": 494,
+                "end": 502
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "538_540",
+            "span": {
+                "begin": 538,
+                "end": 540
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "541_549",
+            "span": {
+                "begin": 541,
+                "end": 549
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "627_634",
+            "span": {
+                "begin": 627,
+                "end": 634
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "698_705",
+            "span": {
+                "begin": 698,
+                "end": 705
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "728_755",
+            "span": {
+                "begin": 728,
+                "end": 755
+            },
+            "entityType": "disease",
+            "entityName": "major adverse cardiac event",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "758_762",
+            "span": {
+                "begin": 758,
+                "end": 762
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "786_790",
+            "span": {
+                "begin": 786,
+                "end": 790
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "823_833",
+            "span": {
+                "begin": 823,
+                "end": 833
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "950_954",
+            "span": {
+                "begin": 950,
+                "end": 954
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "986_994",
+            "span": {
+                "begin": 986,
+                "end": 994
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1002_1010",
+            "span": {
+                "begin": 1002,
+                "end": 1010
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1054_1061",
+            "span": {
+                "begin": 1054,
+                "end": 1061
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "1096_1103",
+            "span": {
+                "begin": 1096,
+                "end": 1103
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1127_1134",
+            "span": {
+                "begin": 1127,
+                "end": 1134
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "1162_1170",
+            "span": {
+                "begin": 1162,
+                "end": 1170
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1178_1182",
+            "span": {
+                "begin": 1178,
+                "end": 1182
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "1223_1231",
+            "span": {
+                "begin": 1223,
+                "end": 1231
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1251_1258",
+            "span": {
+                "begin": 1251,
+                "end": 1258
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "1327_1335",
+            "span": {
+                "begin": 1327,
+                "end": 1335
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1341_1345",
+            "span": {
+                "begin": 1341,
+                "end": 1345
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "1391_1399",
+            "span": {
+                "begin": 1391,
+                "end": 1399
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1496_1509",
+            "span": {
+                "begin": 1496,
+                "end": 1509
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1533_1540",
+            "span": {
+                "begin": 1533,
+                "end": 1540
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "1553_1566",
+            "span": {
+                "begin": 1553,
+                "end": 1566
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1649_1662",
+            "span": {
+                "begin": 1649,
+                "end": 1662
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1666_1668",
+            "span": {
+                "begin": 1666,
+                "end": 1668
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "1705_1709",
+            "span": {
+                "begin": 1705,
+                "end": 1709
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "1724_1731",
+            "span": {
+                "begin": 1724,
+                "end": 1731
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "1757_1784",
+            "span": {
+                "begin": 1757,
+                "end": 1784
+            },
+            "entityType": "disease",
+            "entityName": "Acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "1786_1788",
+            "span": {
+                "begin": 1786,
+                "end": 1788
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "1790_1798",
+            "span": {
+                "begin": 1790,
+                "end": 1798
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1804_1818",
+            "span": {
+                "begin": 1804,
+                "end": 1818
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1860_1868",
+            "span": {
+                "begin": 1860,
+                "end": 1868
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1937_1945",
+            "span": {
+                "begin": 1937,
+                "end": 1945
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1951_1968",
+            "span": {
+                "begin": 1951,
+                "end": 1968
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "1970_1972",
+            "span": {
+                "begin": 1970,
+                "end": 1972
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "1981_1989",
+            "span": {
+                "begin": 1981,
+                "end": 1989
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1998_2000",
+            "span": {
+                "begin": 1998,
+                "end": 2000
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "2029_2037",
+            "span": {
+                "begin": 2029,
+                "end": 2037
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2046_2048",
+            "span": {
+                "begin": 2046,
+                "end": 2048
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "2049_2063",
+            "span": {
+                "begin": 2049,
+                "end": 2063
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2092_2100",
+            "span": {
+                "begin": 2092,
+                "end": 2100
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "2107_2115",
+            "span": {
+                "begin": 2107,
+                "end": 2115
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2133_2147",
+            "span": {
+                "begin": 2133,
+                "end": 2147
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2177_2185",
+            "span": {
+                "begin": 2177,
+                "end": 2185
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2204_2211",
+            "span": {
+                "begin": 2204,
+                "end": 2211
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2265_2272",
+            "span": {
+                "begin": 2265,
+                "end": 2272
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2293_2295",
+            "span": {
+                "begin": 2293,
+                "end": 2295
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2345_2352",
+            "span": {
+                "begin": 2345,
+                "end": 2352
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2365_2372",
+            "span": {
+                "begin": 2365,
+                "end": 2372
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2502_2516",
+            "span": {
+                "begin": 2502,
+                "end": 2516
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2552_2566",
+            "span": {
+                "begin": 2552,
+                "end": 2566
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2597_2604",
+            "span": {
+                "begin": 2597,
+                "end": 2604
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2653_2661",
+            "span": {
+                "begin": 2653,
+                "end": 2661
+            },
+            "entityType": "drug",
+            "entityName": "glucoses",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2759_2766",
+            "span": {
+                "begin": 2759,
+                "end": 2766
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "2861_2863",
+            "span": {
+                "begin": 2861,
+                "end": 2863
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2864_2872",
+            "span": {
+                "begin": 2864,
+                "end": 2872
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2917_2930",
+            "span": {
+                "begin": 2917,
+                "end": 2930
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2969_2976",
+            "span": {
+                "begin": 2969,
+                "end": 2976
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "3042_3069",
+            "span": {
+                "begin": 3042,
+                "end": 3069
+            },
+            "entityType": "disease",
+            "entityName": "major adverse cardiac event",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "3085_3092",
+            "span": {
+                "begin": 3085,
+                "end": 3092
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "3141_3149",
+            "span": {
+                "begin": 3141,
+                "end": 3149
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3183_3191",
+            "span": {
+                "begin": 3183,
+                "end": 3191
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "3512_3534",
+            "span": {
+                "begin": 3512,
+                "end": 3534
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "3613_3619",
+            "span": {
+                "begin": 3613,
+                "end": 3619
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "3624_3626",
+            "span": {
+                "begin": 3624,
+                "end": 3626
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "3641_3643",
+            "span": {
+                "begin": 3641,
+                "end": 3643
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "3704_3714",
+            "span": {
+                "begin": 3704,
+                "end": 3714
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "3789_3797",
+            "span": {
+                "begin": 3789,
+                "end": 3797
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3881_3888",
+            "span": {
+                "begin": 3881,
+                "end": 3888
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "3975_3983",
+            "span": {
+                "begin": 3975,
+                "end": 3983
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4022_4029",
+            "span": {
+                "begin": 4022,
+                "end": 4029
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4039_4046",
+            "span": {
+                "begin": 4039,
+                "end": 4046
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4096_4103",
+            "span": {
+                "begin": 4096,
+                "end": 4103
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4167_4174",
+            "span": {
+                "begin": 4167,
+                "end": 4174
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4226_4233",
+            "span": {
+                "begin": 4226,
+                "end": 4233
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4266_4273",
+            "span": {
+                "begin": 4266,
+                "end": 4273
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4298_4305",
+            "span": {
+                "begin": 4298,
+                "end": 4305
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4355_4362",
+            "span": {
+                "begin": 4355,
+                "end": 4362
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4422_4429",
+            "span": {
+                "begin": 4422,
+                "end": 4429
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4486_4499",
+            "span": {
+                "begin": 4486,
+                "end": 4499
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "4643_4658",
+            "span": {
+                "begin": 4643,
+                "end": 4658
+            },
+            "entityType": "gene",
+            "entityName": "creatine kinase",
+            "id": "UMLS:C0010287"
+        },
+        {
+            "entityId": "4660_4662",
+            "span": {
+                "begin": 4660,
+                "end": 4662
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "4674_4676",
+            "span": {
+                "begin": 4674,
+                "end": 4676
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "4860_4862",
+            "span": {
+                "begin": 4860,
+                "end": 4862
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "5007_5009",
+            "span": {
+                "begin": 5007,
+                "end": 5009
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "5286_5301",
+            "span": {
+                "begin": 5286,
+                "end": 5301
+            },
+            "entityType": "cell",
+            "entityName": "red blood cells",
+            "id": "UMLS:C0014792"
+        },
+        {
+            "entityId": "5309_5316",
+            "span": {
+                "begin": 5309,
+                "end": 5316
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5322_5332",
+            "span": {
+                "begin": 5322,
+                "end": 5332
+            },
+            "entityType": "drug",
+            "entityName": "technetium",
+            "id": "mesh:D013667"
+        },
+        {
+            "entityId": "6127_6135",
+            "span": {
+                "begin": 6127,
+                "end": 6135
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6192_6213",
+            "span": {
+                "begin": 6192,
+                "end": 6213
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "6326_6353",
+            "span": {
+                "begin": 6326,
+                "end": 6353
+            },
+            "entityType": "disease",
+            "entityName": "major adverse cardiac event",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "6355_6359",
+            "span": {
+                "begin": 6355,
+                "end": 6359
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "6406_6414",
+            "span": {
+                "begin": 6406,
+                "end": 6414
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "6416_6420",
+            "span": {
+                "begin": 6416,
+                "end": 6420
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "6480_6490",
+            "span": {
+                "begin": 6480,
+                "end": 6490
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "6586_6596",
+            "span": {
+                "begin": 6586,
+                "end": 6596
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "6623_6636",
+            "span": {
+                "begin": 6623,
+                "end": 6636
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "6707_6714",
+            "span": {
+                "begin": 6707,
+                "end": 6714
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6792_6813",
+            "span": {
+                "begin": 6792,
+                "end": 6813
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "6875_6883",
+            "span": {
+                "begin": 6875,
+                "end": 6883
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "6914_6924",
+            "span": {
+                "begin": 6914,
+                "end": 6924
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "6976_6984",
+            "span": {
+                "begin": 6976,
+                "end": 6984
+            },
+            "entityType": "gene",
+            "entityName": "serum CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "7044_7046",
+            "span": {
+                "begin": 7044,
+                "end": 7046
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "7203_7213",
+            "span": {
+                "begin": 7203,
+                "end": 7213
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "7314_7333",
+            "span": {
+                "begin": 7314,
+                "end": 7333
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "7399_7412",
+            "span": {
+                "begin": 7399,
+                "end": 7412
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "7783_7790",
+            "span": {
+                "begin": 7783,
+                "end": 7790
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "7821_7825",
+            "span": {
+                "begin": 7821,
+                "end": 7825
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "8196_8204",
+            "span": {
+                "begin": 8196,
+                "end": 8204
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8236_8240",
+            "span": {
+                "begin": 8236,
+                "end": 8240
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "8260_8268",
+            "span": {
+                "begin": 8260,
+                "end": 8268
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8284_8292",
+            "span": {
+                "begin": 8284,
+                "end": 8292
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8331_8339",
+            "span": {
+                "begin": 8331,
+                "end": 8339
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8400_8408",
+            "span": {
+                "begin": 8400,
+                "end": 8408
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8470_8478",
+            "span": {
+                "begin": 8470,
+                "end": 8478
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8498_8506",
+            "span": {
+                "begin": 8498,
+                "end": 8506
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8568_8576",
+            "span": {
+                "begin": 8568,
+                "end": 8576
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8689_8697",
+            "span": {
+                "begin": 8689,
+                "end": 8697
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8705_8709",
+            "span": {
+                "begin": 8705,
+                "end": 8709
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "8714_8722",
+            "span": {
+                "begin": 8714,
+                "end": 8722
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8794_8801",
+            "span": {
+                "begin": 8794,
+                "end": 8801
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "8836_8843",
+            "span": {
+                "begin": 8836,
+                "end": 8843
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8866_8873",
+            "span": {
+                "begin": 8866,
+                "end": 8873
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "8900_8908",
+            "span": {
+                "begin": 8900,
+                "end": 8908
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8916_8920",
+            "span": {
+                "begin": 8916,
+                "end": 8920
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "8960_8968",
+            "span": {
+                "begin": 8960,
+                "end": 8968
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9009_9022",
+            "span": {
+                "begin": 9009,
+                "end": 9022
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "9048_9056",
+            "span": {
+                "begin": 9048,
+                "end": 9056
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9062_9066",
+            "span": {
+                "begin": 9062,
+                "end": 9066
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "9111_9119",
+            "span": {
+                "begin": 9111,
+                "end": 9119
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9148_9156",
+            "span": {
+                "begin": 9148,
+                "end": 9156
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9161_9163",
+            "span": {
+                "begin": 9161,
+                "end": 9163
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "9186_9188",
+            "span": {
+                "begin": 9186,
+                "end": 9188
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "9225_9232",
+            "span": {
+                "begin": 9225,
+                "end": 9232
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9295_9297",
+            "span": {
+                "begin": 9295,
+                "end": 9297
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "9298_9306",
+            "span": {
+                "begin": 9298,
+                "end": 9306
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9322_9324",
+            "span": {
+                "begin": 9322,
+                "end": 9324
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "9325_9333",
+            "span": {
+                "begin": 9325,
+                "end": 9333
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9357_9370",
+            "span": {
+                "begin": 9357,
+                "end": 9370
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11218_11225",
+            "span": {
+                "begin": 11218,
+                "end": 11225
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "11290_11303",
+            "span": {
+                "begin": 11290,
+                "end": 11303
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11347_11351",
+            "span": {
+                "begin": 11347,
+                "end": 11351
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "11412_11424",
+            "span": {
+                "begin": 11412,
+                "end": 11424
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "11426_11438",
+            "span": {
+                "begin": 11426,
+                "end": 11438
+            },
+            "entityType": "disease",
+            "entityName": "dyslipidemia",
+            "id": "UMLS:C0242339"
+        },
+        {
+            "entityId": "11491_11501",
+            "span": {
+                "begin": 11491,
+                "end": 11501
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "11583_11590",
+            "span": {
+                "begin": 11583,
+                "end": 11590
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "11607_11620",
+            "span": {
+                "begin": 11607,
+                "end": 11620
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11742_11752",
+            "span": {
+                "begin": 11742,
+                "end": 11752
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "11872_11892",
+            "span": {
+                "begin": 11872,
+                "end": 11892
+            },
+            "entityType": "disease",
+            "entityName": "multi-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "11997_12010",
+            "span": {
+                "begin": 11997,
+                "end": 12010
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12084_12088",
+            "span": {
+                "begin": 12084,
+                "end": 12088
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "12109_12117",
+            "span": {
+                "begin": 12109,
+                "end": 12117
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12132_12149",
+            "span": {
+                "begin": 12132,
+                "end": 12149
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "12193_12206",
+            "span": {
+                "begin": 12193,
+                "end": 12206
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12219_12223",
+            "span": {
+                "begin": 12219,
+                "end": 12223
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "12331_12338",
+            "span": {
+                "begin": 12331,
+                "end": 12338
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "12343_12347",
+            "span": {
+                "begin": 12343,
+                "end": 12347
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "12412_12419",
+            "span": {
+                "begin": 12412,
+                "end": 12419
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "12420_12424",
+            "span": {
+                "begin": 12420,
+                "end": 12424
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "12522_12535",
+            "span": {
+                "begin": 12522,
+                "end": 12535
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12572_12576",
+            "span": {
+                "begin": 12572,
+                "end": 12576
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "12592_12605",
+            "span": {
+                "begin": 12592,
+                "end": 12605
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12696_12709",
+            "span": {
+                "begin": 12696,
+                "end": 12709
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12730_12743",
+            "span": {
+                "begin": 12730,
+                "end": 12743
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12779_12792",
+            "span": {
+                "begin": 12779,
+                "end": 12792
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "13154_13167",
+            "span": {
+                "begin": 13154,
+                "end": 13167
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "13176_13183",
+            "span": {
+                "begin": 13176,
+                "end": 13183
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13230_13238",
+            "span": {
+                "begin": 13230,
+                "end": 13238
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13285_13293",
+            "span": {
+                "begin": 13285,
+                "end": 13293
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13331_13338",
+            "span": {
+                "begin": 13331,
+                "end": 13338
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "13354_13362",
+            "span": {
+                "begin": 13354,
+                "end": 13362
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13376_13384",
+            "span": {
+                "begin": 13376,
+                "end": 13384
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14898_14905",
+            "span": {
+                "begin": 14898,
+                "end": 14905
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "14921_14934",
+            "span": {
+                "begin": 14921,
+                "end": 14934
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15046_15053",
+            "span": {
+                "begin": 15046,
+                "end": 15053
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "15116_15129",
+            "span": {
+                "begin": 15116,
+                "end": 15129
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15285_15292",
+            "span": {
+                "begin": 15285,
+                "end": 15292
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "15408_15421",
+            "span": {
+                "begin": 15408,
+                "end": 15421
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15541_15554",
+            "span": {
+                "begin": 15541,
+                "end": 15554
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15558_15566",
+            "span": {
+                "begin": 15558,
+                "end": 15566
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "15633_15640",
+            "span": {
+                "begin": 15633,
+                "end": 15640
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "15732_15746",
+            "span": {
+                "begin": 15732,
+                "end": 15746
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15755_15763",
+            "span": {
+                "begin": 15755,
+                "end": 15763
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15781_15783",
+            "span": {
+                "begin": 15781,
+                "end": 15783
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "15830_15837",
+            "span": {
+                "begin": 15830,
+                "end": 15837
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "15934_15948",
+            "span": {
+                "begin": 15934,
+                "end": 15948
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "16009_16016",
+            "span": {
+                "begin": 16009,
+                "end": 16016
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "16035_16037",
+            "span": {
+                "begin": 16035,
+                "end": 16037
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "16057_16059",
+            "span": {
+                "begin": 16057,
+                "end": 16059
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "16060_16068",
+            "span": {
+                "begin": 16060,
+                "end": 16068
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16069_16083",
+            "span": {
+                "begin": 16069,
+                "end": 16083
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "16117_16124",
+            "span": {
+                "begin": 16117,
+                "end": 16124
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "16166_16173",
+            "span": {
+                "begin": 16166,
+                "end": 16173
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "16220_16228",
+            "span": {
+                "begin": 16220,
+                "end": 16228
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16241_16255",
+            "span": {
+                "begin": 16241,
+                "end": 16255
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "16298_16315",
+            "span": {
+                "begin": 16298,
+                "end": 16315
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "16323_16331",
+            "span": {
+                "begin": 16323,
+                "end": 16331
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16422_16435",
+            "span": {
+                "begin": 16422,
+                "end": 16435
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "16502_16510",
+            "span": {
+                "begin": 16502,
+                "end": 16510
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16525_16533",
+            "span": {
+                "begin": 16525,
+                "end": 16533
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "16646_16660",
+            "span": {
+                "begin": 16646,
+                "end": 16660
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "16719_16721",
+            "span": {
+                "begin": 16719,
+                "end": 16721
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "16762_16776",
+            "span": {
+                "begin": 16762,
+                "end": 16776
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "16859_16867",
+            "span": {
+                "begin": 16859,
+                "end": 16867
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16876_16895",
+            "span": {
+                "begin": 16876,
+                "end": 16895
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "16911_16918",
+            "span": {
+                "begin": 16911,
+                "end": 16918
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "16965_16972",
+            "span": {
+                "begin": 16965,
+                "end": 16972
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "16988_16997",
+            "span": {
+                "begin": 16988,
+                "end": 16997
+            },
+            "entityType": "drug",
+            "entityName": "adrenalin",
+            "id": "UMLS:C1963284"
+        },
+        {
+            "entityId": "17002_17010",
+            "span": {
+                "begin": 17002,
+                "end": 17010
+            },
+            "entityType": "drug",
+            "entityName": "cortisol",
+            "id": "UMLS:C0020268"
+        },
+        {
+            "entityId": "17014_17022",
+            "span": {
+                "begin": 17014,
+                "end": 17022
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17028_17051",
+            "span": {
+                "begin": 17028,
+                "end": 17051
+            },
+            "entityType": "disease",
+            "entityName": "ST-segment elevation MI",
+            "id": "mesh:D000072657"
+        },
+        {
+            "entityId": "17179_17193",
+            "span": {
+                "begin": 17179,
+                "end": 17193
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17273_17281",
+            "span": {
+                "begin": 17273,
+                "end": 17281
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17287_17301",
+            "span": {
+                "begin": 17287,
+                "end": 17301
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17321_17329",
+            "span": {
+                "begin": 17321,
+                "end": 17329
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "17393_17401",
+            "span": {
+                "begin": 17393,
+                "end": 17401
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17407_17409",
+            "span": {
+                "begin": 17407,
+                "end": 17409
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "17441_17443",
+            "span": {
+                "begin": 17441,
+                "end": 17443
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "17458_17466",
+            "span": {
+                "begin": 17458,
+                "end": 17466
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17483_17497",
+            "span": {
+                "begin": 17483,
+                "end": 17497
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycaemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17522_17524",
+            "span": {
+                "begin": 17522,
+                "end": 17524
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "17564_17572",
+            "span": {
+                "begin": 17564,
+                "end": 17572
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17578_17580",
+            "span": {
+                "begin": 17578,
+                "end": 17580
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "17604_17611",
+            "span": {
+                "begin": 17604,
+                "end": 17611
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "17642_17655",
+            "span": {
+                "begin": 17642,
+                "end": 17655
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17671_17679",
+            "span": {
+                "begin": 17671,
+                "end": 17679
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17688_17690",
+            "span": {
+                "begin": 17688,
+                "end": 17690
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "17728_17735",
+            "span": {
+                "begin": 17728,
+                "end": 17735
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "17751_17764",
+            "span": {
+                "begin": 17751,
+                "end": 17764
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17794_17802",
+            "span": {
+                "begin": 17794,
+                "end": 17802
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17804_17812",
+            "span": {
+                "begin": 17804,
+                "end": 17812
+            },
+            "entityType": "disease",
+            "entityName": "Diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "17842_17865",
+            "span": {
+                "begin": 17842,
+                "end": 17865
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "17890_17892",
+            "span": {
+                "begin": 17890,
+                "end": 17892
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "17893_17901",
+            "span": {
+                "begin": 17893,
+                "end": 17901
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17944_17951",
+            "span": {
+                "begin": 17944,
+                "end": 17951
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "17967_17980",
+            "span": {
+                "begin": 17967,
+                "end": 17980
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "18020_18022",
+            "span": {
+                "begin": 18020,
+                "end": 18022
+            },
+            "entityType": "disease",
+            "entityName": "DM",
+            "id": "UMLS:C3250443"
+        },
+        {
+            "entityId": "18035_18048",
+            "span": {
+                "begin": 18035,
+                "end": 18048
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "18061_18068",
+            "span": {
+                "begin": 18061,
+                "end": 18068
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "18081_18088",
+            "span": {
+                "begin": 18081,
+                "end": 18088
+            },
+            "entityType": "gene",
+            "entityName": "Insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "18138_18146",
+            "span": {
+                "begin": 18138,
+                "end": 18146
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18203_18211",
+            "span": {
+                "begin": 18203,
+                "end": 18211
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18226_18234",
+            "span": {
+                "begin": 18226,
+                "end": 18234
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "18253_18270",
+            "span": {
+                "begin": 18253,
+                "end": 18270
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "18334_18342",
+            "span": {
+                "begin": 18334,
+                "end": 18342
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "18346_18368",
+            "span": {
+                "begin": 18346,
+                "end": 18368
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "18370_18377",
+            "span": {
+                "begin": 18370,
+                "end": 18377
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "18379_18384",
+            "span": {
+                "begin": 18379,
+                "end": 18384
+            },
+            "entityType": "gene",
+            "entityName": "HbA1c",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "18386_18396",
+            "span": {
+                "begin": 18386,
+                "end": 18396
+            },
+            "entityType": "gene",
+            "entityName": "proinsulin",
+            "id": "UMLS:C0033362"
+        },
+        {
+            "entityId": "18398_18408",
+            "span": {
+                "begin": 18398,
+                "end": 18408
+            },
+            "entityType": "gene",
+            "entityName": "proinsulin",
+            "id": "UMLS:C0033362"
+        },
+        {
+            "entityId": "18409_18416",
+            "span": {
+                "begin": 18409,
+                "end": 18416
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "18424_18437",
+            "span": {
+                "begin": 18424,
+                "end": 18437
+            },
+            "entityType": "drug",
+            "entityName": "triglycerides",
+            "id": "UMLS:C0041004"
+        },
+        {
+            "entityId": "18439_18446",
+            "span": {
+                "begin": 18439,
+                "end": 18446
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "18462_18472",
+            "span": {
+                "begin": 18462,
+                "end": 18472
+            },
+            "entityType": "gene",
+            "entityName": "fibrinogen",
+            "id": "UMLS:C0016006"
+        },
+        {
+            "entityId": "18505_18513",
+            "span": {
+                "begin": 18505,
+                "end": 18513
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18607_18615",
+            "span": {
+                "begin": 18607,
+                "end": 18615
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18630_18637",
+            "span": {
+                "begin": 18630,
+                "end": 18637
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "18736_18744",
+            "span": {
+                "begin": 18736,
+                "end": 18744
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18753_18771",
+            "span": {
+                "begin": 18753,
+                "end": 18771
+            },
+            "entityType": "disease",
+            "entityName": "insulin resistance",
+            "id": "UMLS:C0021655"
+        },
+        {
+            "entityId": "18802_18815",
+            "span": {
+                "begin": 18802,
+                "end": 18815
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "18832_18855",
+            "span": {
+                "begin": 18832,
+                "end": 18855
+            },
+            "entityType": "disease",
+            "entityName": "metabolic abnormalities",
+            "id": "UMLS:C0000768"
+        },
+        {
+            "entityId": "18892_18894",
+            "span": {
+                "begin": 18892,
+                "end": 18894
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "18932_18940",
+            "span": {
+                "begin": 18932,
+                "end": 18940
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18954_18967",
+            "span": {
+                "begin": 18954,
+                "end": 18967
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "19013_19020",
+            "span": {
+                "begin": 19013,
+                "end": 19020
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19068_19081",
+            "span": {
+                "begin": 19068,
+                "end": 19081
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "19123_19136",
+            "span": {
+                "begin": 19123,
+                "end": 19136
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "19192_19199",
+            "span": {
+                "begin": 19192,
+                "end": 19199
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "19259_19266",
+            "span": {
+                "begin": 19259,
+                "end": 19266
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19282_19295",
+            "span": {
+                "begin": 19282,
+                "end": 19295
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "19304_19317",
+            "span": {
+                "begin": 19304,
+                "end": 19317
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "19371_19384",
+            "span": {
+                "begin": 19371,
+                "end": 19384
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "19498_19511",
+            "span": {
+                "begin": 19498,
+                "end": 19511
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemic",
+            "id": "mesh:D006943"
+        },
+        {
+            "entityId": "19636_19643",
+            "span": {
+                "begin": 19636,
+                "end": 19643
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19696_19703",
+            "span": {
+                "begin": 19696,
+                "end": 19703
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "19711_19730",
+            "span": {
+                "begin": 19711,
+                "end": 19730
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "19914_19927",
+            "span": {
+                "begin": 19914,
+                "end": 19927
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "19931_19933",
+            "span": {
+                "begin": 19931,
+                "end": 19933
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "19934_19942",
+            "span": {
+                "begin": 19934,
+                "end": 19942
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19952_19960",
+            "span": {
+                "begin": 19952,
+                "end": 19960
+            },
+            "entityType": "disease",
+            "entityName": "Diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "19961_19968",
+            "span": {
+                "begin": 19961,
+                "end": 19968
+            },
+            "entityType": "gene",
+            "entityName": "Insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "19969_19976",
+            "span": {
+                "begin": 19969,
+                "end": 19976
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19980_20007",
+            "span": {
+                "begin": 19980,
+                "end": 20007
+            },
+            "entityType": "disease",
+            "entityName": "Acute Myocardial Infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "20050_20058",
+            "span": {
+                "begin": 20050,
+                "end": 20058
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20070_20087",
+            "span": {
+                "begin": 20070,
+                "end": 20087
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "20097_20104",
+            "span": {
+                "begin": 20097,
+                "end": 20104
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20141_20149",
+            "span": {
+                "begin": 20141,
+                "end": 20149
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20173_20180",
+            "span": {
+                "begin": 20173,
+                "end": 20180
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "20181_20188",
+            "span": {
+                "begin": 20181,
+                "end": 20188
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20259_20266",
+            "span": {
+                "begin": 20259,
+                "end": 20266
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "20316_20324",
+            "span": {
+                "begin": 20316,
+                "end": 20324
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20346_20353",
+            "span": {
+                "begin": 20346,
+                "end": 20353
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "20379_20386",
+            "span": {
+                "begin": 20379,
+                "end": 20386
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20618_20620",
+            "span": {
+                "begin": 20618,
+                "end": 20620
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "20621_20629",
+            "span": {
+                "begin": 20621,
+                "end": 20629
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20635_20648",
+            "span": {
+                "begin": 20635,
+                "end": 20648
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "20660_20667",
+            "span": {
+                "begin": 20660,
+                "end": 20667
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "20668_20675",
+            "span": {
+                "begin": 20668,
+                "end": 20675
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20695_20702",
+            "span": {
+                "begin": 20695,
+                "end": 20702
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20765_20772",
+            "span": {
+                "begin": 20765,
+                "end": 20772
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "20807_20814",
+            "span": {
+                "begin": 20807,
+                "end": 20814
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20844_20851",
+            "span": {
+                "begin": 20844,
+                "end": 20851
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "20887_20894",
+            "span": {
+                "begin": 20887,
+                "end": 20894
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "21038_21045",
+            "span": {
+                "begin": 21038,
+                "end": 21045
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "21205_21212",
+            "span": {
+                "begin": 21205,
+                "end": 21212
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "21339_21352",
+            "span": {
+                "begin": 21339,
+                "end": 21352
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21364_21371",
+            "span": {
+                "begin": 21364,
+                "end": 21371
+            },
+            "entityType": "gene",
+            "entityName": "Insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "21417_21425",
+            "span": {
+                "begin": 21417,
+                "end": 21425
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21442_21449",
+            "span": {
+                "begin": 21442,
+                "end": 21449
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "21571_21578",
+            "span": {
+                "begin": 21571,
+                "end": 21578
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "21730_21743",
+            "span": {
+                "begin": 21730,
+                "end": 21743
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21829_21836",
+            "span": {
+                "begin": 21829,
+                "end": 21836
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "21857_21864",
+            "span": {
+                "begin": 21857,
+                "end": 21864
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "21865_21874",
+            "span": {
+                "begin": 21865,
+                "end": 21874
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "21886_21894",
+            "span": {
+                "begin": 21886,
+                "end": 21894
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21938_21951",
+            "span": {
+                "begin": 21938,
+                "end": 21951
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22033_22040",
+            "span": {
+                "begin": 22033,
+                "end": 22040
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "22093_22101",
+            "span": {
+                "begin": 22093,
+                "end": 22101
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22152_22166",
+            "span": {
+                "begin": 22152,
+                "end": 22166
+            },
+            "entityType": "disease",
+            "entityName": "critically ill",
+            "id": "UMLS:C0010340"
+        },
+        {
+            "entityId": "22167_22175",
+            "span": {
+                "begin": 22167,
+                "end": 22175
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22190_22197",
+            "span": {
+                "begin": 22190,
+                "end": 22197
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "22346_22359",
+            "span": {
+                "begin": 22346,
+                "end": 22359
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22376_22380",
+            "span": {
+                "begin": 22376,
+                "end": 22380
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "22396_22403",
+            "span": {
+                "begin": 22396,
+                "end": 22403
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "22483_22490",
+            "span": {
+                "begin": 22483,
+                "end": 22490
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "22548_22550",
+            "span": {
+                "begin": 22548,
+                "end": 22550
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "22580_22587",
+            "span": {
+                "begin": 22580,
+                "end": 22587
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "22677_22690",
+            "span": {
+                "begin": 22677,
+                "end": 22690
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22747_22755",
+            "span": {
+                "begin": 22747,
+                "end": 22755
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22870_22878",
+            "span": {
+                "begin": 22870,
+                "end": 22878
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22884_22892",
+            "span": {
+                "begin": 22884,
+                "end": 22892
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "22957_22970",
+            "span": {
+                "begin": 22957,
+                "end": 22970
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "23002_23010",
+            "span": {
+                "begin": 23002,
+                "end": 23010
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23016_23033",
+            "span": {
+                "begin": 23016,
+                "end": 23033
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "23105_23126",
+            "span": {
+                "begin": 23105,
+                "end": 23126
+            },
+            "entityType": "disease",
+            "entityName": "chronic hyperglycemia",
+            "id": "UMLS:C0342300"
+        },
+        {
+            "entityId": "23138_23159",
+            "span": {
+                "begin": 23138,
+                "end": 23159
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "23177_23196",
+            "span": {
+                "begin": 23177,
+                "end": 23196
+            },
+            "entityType": "gene",
+            "entityName": "glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "23198_23203",
+            "span": {
+                "begin": 23198,
+                "end": 23203
+            },
+            "entityType": "gene",
+            "entityName": "HbA1c",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "23254_23259",
+            "span": {
+                "begin": 23254,
+                "end": 23259
+            },
+            "entityType": "gene",
+            "entityName": "HbA1c",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "23261_23269",
+            "span": {
+                "begin": 23261,
+                "end": 23269
+            },
+            "entityType": "disease",
+            "entityName": "Diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23307_23315",
+            "span": {
+                "begin": 23307,
+                "end": 23315
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23421_23428",
+            "span": {
+                "begin": 23421,
+                "end": 23428
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "23455_23462",
+            "span": {
+                "begin": 23455,
+                "end": 23462
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "23511_23518",
+            "span": {
+                "begin": 23511,
+                "end": 23518
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "23726_23733",
+            "span": {
+                "begin": 23726,
+                "end": 23733
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "23749_23757",
+            "span": {
+                "begin": 23749,
+                "end": 23757
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23763_23771",
+            "span": {
+                "begin": 23763,
+                "end": 23771
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "23798_23811",
+            "span": {
+                "begin": 23798,
+                "end": 23811
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "23841_23848",
+            "span": {
+                "begin": 23841,
+                "end": 23848
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "23955_23968",
+            "span": {
+                "begin": 23955,
+                "end": 23968
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "23981_23994",
+            "span": {
+                "begin": 23981,
+                "end": 23994
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "24061_24068",
+            "span": {
+                "begin": 24061,
+                "end": 24068
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "24080_24082",
+            "span": {
+                "begin": 24080,
+                "end": 24082
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "24083_24091",
+            "span": {
+                "begin": 24083,
+                "end": 24091
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24113_24127",
+            "span": {
+                "begin": 24113,
+                "end": 24127
+            },
+            "entityType": "disease",
+            "entityName": "critically ill",
+            "id": "UMLS:C0010340"
+        },
+        {
+            "entityId": "24128_24136",
+            "span": {
+                "begin": 24128,
+                "end": 24136
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24186_24194",
+            "span": {
+                "begin": 24186,
+                "end": 24194
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24208_24216",
+            "span": {
+                "begin": 24208,
+                "end": 24216
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "24283_24290",
+            "span": {
+                "begin": 24283,
+                "end": 24290
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "538_540",
+            "subjectText": "MI",
+            "rel_name": "treat",
+            "objectId": "627_634",
+            "objectText": "glucose"
+        }
+    ]
+}

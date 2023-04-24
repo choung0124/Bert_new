@@ -1,0 +1,2958 @@
+{
+    "sourcid": "PMC2909149",
+    "publisher": "BioMed Central",
+    "journal": "BMC Cardiovascular Disorders",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2909149/",
+    "text": "In-hospital complications after invasive strategy for the management of Non STEMI: women fare as well as men Background To analyze the in-hospital complication rate in women suffering from non-ST elevation myocardial infarction treated with percutaneous coronary intervention (PCI) compared to men. Methods The files of 479 consecutive patients (133 women and 346 men) suffering from a Non STEMI (Non ST-segment elevation myocardial infarction) between the January 1st 2006 and March 21st 2009 were retrospectively analyzed with special attention to every single complication occurring during hospital stay. Data were analyzed using nonparametric tests and are reported as median unless otherwise specified. A p value < .05 was considered significant. Results As compared to men, women were significantly older (75.8 vs. 65.2 years; p < .005). All cardiovascular risk factors but tobacco and hypertension were similar between the groups: men were noticeably more often smoker (p < .0001) and women more hypertensive (p < .005). No difference was noticed for pre-hospital cardiovascular drug treatment. However women were slightly more severe at entry (more Killip class IV; p = .0023; higher GRACE score for in-hospital death - p = .008 and CRUSADE score for bleeding - p < .0001). All the patients underwent PCI of the infarct-related artery after 24 or 48 hrs post admission without sex-related difference either for timing of PCI or primary success rate. During hospitalization, 130 complications were recorded. Though the event rate was slightly higher in women (30% vs. 26% - p = NS), no single event was significantly gender related. The logistic regression identified age and CRP concentration as the only predictive variables in the whole group. After splitting for genders, these parameters were still predictive of events in men. In women however, CRP was the only one with a borderline p value. Conclusions Our study does not support any gender difference for in-hospital adverse events in patients treated invasively for an acute coronary syndrome without ST-segment elevation and elevated troponin. Background Percutaneous Coronary Intervention (PCI) is the preferred technique for the treatment of acute coronary syndrome with or without ST-segment elevation according to the Guidelines. The available data raise concerns about sex differences in outcome after invasive treatment for acute coronary syndromes (ACS). However every day, PCI is offered to everybody suffering from ACS regardless of its gender. In the study reported by Bell et al. in 1993 from a large cohort of 2955 men and 1106 women, a greater in-hospital mortality was recorded in women and was related, at least partly, to the severity of the underlying disease rather that gender alone. On the other hand, no gender related differences in outcome was found by Mehilli et al  after PCI in women and men who underwent stent placement for stable angina. Malenka and co-workers analyzed the impact of PCI techniques improvement on sex difference in outcome and found no sex specificity in a sample of 33666 patients of both sex. These authors related their results upon the improvement in PCI procedures overtime. More recently, Berger et al  analyzed data issued from 11 studies merged in one single database. They reported on 30-day mortality following ACS and found no gender related difference after adjustment for baseline variables. More recently, the sex difference in outcome following PCI have been reassessed in a report from Duvernoy et al about a large population of 24,725 patients (31.8% were women) from 17 hospitals in Michigan between January 2002 and December 2003. PCI was offered in every case for various clinical presentations. They concluded that differences in mortality rates between men and women no longer exist after PCI. They also suggested that technological advancements have not completely offset the relationship between gender and adverse outcomes after PCI. All these studies included different clinical presentations of coronary artery disease with a mixed of ST- segment elevation myocardial infarction, Non ST-segment elevation myocardial infarction (NSTEMI), unstable and stable angina, a heterogeneity which could minimized a difference to some extent. PCI data about sex related differences are limited in the area of NSTE-ACS (non ST elevation-acute coronary syndrome), a growing subset of coronary artery disease with an annual incidence of hospital admission of 3 per 1000 inhabitants. Therefore, we aimed to compare the in-hospital outcome between men and women with NSTEMI only and treated with PCI. Methods Patients and data collection The files of all consecutive patients admitted to our university hospital with the diagnosis of NSTEMI (code 410.7 from ICD-9) between January 1st 2006 and March 21st 2009 was retrospectively analyzed. The diagnosis of NSTEMI was made according to the classical criteria enacted by the 2007 Guidelines of the European Society of Cardiology taking into account clinical data, ECG changes and raise of cardiac troponin I plasma level. We collected from the medical files all administrative data: last name, first name, gender, date of birth, time to angioplasty, length of stay; the past medical history (cardiovascular and non cardiovascular); cardiovascular risk factors: body mass index, diabetes mellitus, hypertension, dyslipidemia, smoking habits, family history of premature cardiovascular disease and anxiety. The clinical characteristics (blood pressure, pulse pressure, heart rate, Killip class) were also noted as well as the biological data (hemoglobin, hematocrit, platelets count, hemostasis, higher plasma troponin as a surrogate of infarct size, B-type natriuretic peptide (BNP) or N Terminal pro-BNP, plasma glucose at entry, Glycated hemoglobin, CRP (C reactive protein), plasma creatinine from which glomerular filtration rate was derived from the Cockcroft formula; ECG parameters (sinus rhythm or not and ST-T changes); left ventricular ejection fraction derived from 2-dimensional echocardiography and the PCI procedure reports for the extension of the coronary artery disease, number of stents and all other procedure related specificities - e.g. number of coronary arteries treated, amount of contrast media administered. We also recorded the number of succeeded or failed procedures and all reported complications (cardiac, hemorrhagic, renal, embolic, infectious events) as well as death during the hospital stay. The appropriate GRACE likelihood for in-hospital death and complications and the CRUSADE bleeding score were also entered. The ethical committee of our institution approved the study design and data collection. Statistical analysis Data are presented as median and inter quartile range, unless otherwise specified. The normality of the distribution of all continuous variables was checked using the D'Agostino and Pearson omnibus normality test. In case of non normal distribution, continuous data were compared using the Mann and Whitney test in case of unpaired values and with the Wilcoxon signed rank test in case of paired data. The time course of some continuous parameters was also assessed using a nonparametric ANOVA for repeated measures: the Friedman test with localization of differences by Dunn's multiple comparison test. Proportions were compared using the Chi-Square test with Fischer exact test if necessary after. The p value was considered significant if less than 0.05. The statistical power was calculated using a 'not significant' chi-square test comparing two proportions. All statistical analyses but one were performed using the PRISM package (Prism 4.0c and Statemate for Macintosh; GraphPad software Inc., USA). Logistic regression was performed with the Statview for Windows software (SAS Institute 1992-98; Version 5.0). Results Population The study population consisted in 479 patients, with a predominance of men (72%). Patients' characteristics are summarized in Table 1. Women represented 28% of our sample. They were significantly older (p < 0.005). Among the cardiovascular risk factors, one can notice that women were less often smokers (p < 0.0001) and had more hypertension (p < 0.005). Though diabetes mellitus was more often reported in men with a borderline p value, the glycated hemoglobin level was higher in women (p < 0.03) likely related to a poorer control of their diabetes. All other reported parameter showed no gender related difference (Table 1). Demographic data Men (N = 346)\tWomen (N = 133)\tp Value\t \tAge (yrs)\t65.2 (56.3-75.6)\t75.8 (66-80.5)\t0.0034\t \tBMI (kg/m2)\t27.1 (17-31)\t27.1 (17-30)\tNS\t \tDyslipemia (%)\t36.1\t43.6\tNS\t \tTotal cholesterol (mg/dl)\t1.71 (1.39-2.02)\t1.65 (1.47-2.14)\tNS\t \tLDL cholesterol (mg/dl)\t1.04 (0.77-1.31)\t0.97 (0.7-1.36)\tNS\t \tHDL cholesterol (mg/dl)\t0.4 (0.3-0.43)\t0.4 (0.3-.53)\tNS\t \tDiabetes (%)\t34.1\t21.0\t0.0574\t \tSmoker (%) [current]\t70.8 [34.1]\t33.1 [18]\t< .0001\t \tHypertension\t64.7\t78\t0.0043\t \tFamily history (%)\t17.1\t10.8\tNS\t \tAnxiety (%)\t2.31\t4.60\tNS     Abbreviations: BMI: body mass index. Current in brackets stands for active smokers. Family history stands for a family history of premature cardiovascular disease. yrs: years. Considering the past medical history (Table 2), no difference was found for the rate of pre-existing cardiovascular disease of any etiology, atrial fibrillation, peripheral arterial disease and stroke or pacemaker holders. Non-cardiovascular past history was also similar in both genders except for chronic obstructive pulmonary disease, which was significantly more frequent in men (p < 0.04). Likewise, the patients' pre-hospital drug treatment was similar whatever the therapeutic class considered: angiotensin converting enzyme inhibitors; angiotensin receptor blockers; beta-blockers; antiarrhythmic agents; calcium channel blockers; lipids lowering agents (statins and fibrates); antithrombotic agents either antiplatelets or anticoagulants; diuretics; oral antidiabetic agents also accounting for metformine; insulin; nitrates. For angiotensin system antagonists, beta-blockers and statins, not only the rate of prescription but also the optimal doses were similar between genders. The rate of prescription of antidepressants was however significantly different, women being more likely to receive this class of drugs than men (p < 0.03). Past history of cardiovascular diseases Men(N = 346)\tWomen(N = 133)\tp Value\t \tNon-ischemic heart disease (%)\t2.6\t11.3\tNS\t \tIschemic heart disease (%)\t37\t30.8\tNS\t \t Left main\t1.2\t3.8\tNS\t \t LAD\t27.5\t27.1\tNS\t \t Circumflex or 1st Marginal\t20.8\t21.8\tNS\t \t Right coronary artery\t25.7\t19.6\tNS\t \tCoronary Artery Bypass Grafting (%)\t9.3\t6.8\tNS\t \t LAD\t8.4\t4.5\tNS\t \t Circumflex or 1st Marginal\t1.7\t0.8\tNS\t \t Right coronary artery\t3.8\t2.3\tNS\t \tAtrial Fibrillation (%)\t7.8\t8.3\tNS\t \tPeripheral Arterial Disease (%)\t\t\t\t \t Lower Limb\t17.1\t17.3\tNS\t \t Carotid\t12.7\t10.5\tNS\t \tVenous thrombo-embolic diseases (%)\t3.5\t11.3\t0.0017\t \tPace Maker (%)\t4.1\t3.8\tNS\t \tStroke (%)\t8.4\t9.8\tNS                       Abbreviations: LAD: left descending coronary artery. Clinical characteristics The clinical characteristics on admission are described in Table 3. As compared to men, women had a higher pulse pressure (68 vs. 60 mm Hg - p < 0.05). Pulse pressure was slightly but significantly related to age in men (rho = 0.15; p = 0.008). In women, this wasn't the case (rho = 0.14; p = 0.1 - NS). Moreover, women had also more severe heart failure. Indeed, 6.5% of women were in Killip class IV and only 0.9% of men (p < 0.003). This difference could be, at least partly, related to the higher rate of right heart failure in women (24% of our female population; p < 0.02). This trend to a less favorable clinical profile on admission was also suggested by the probability of in-hospital death derived from the appropriate GRACE probability (p < 0.01). The likelihood of in-hospital complications according to the specific GRACE probability was borderline (p = 0.068). The CRUSADE bleeding likelihood was clearly higher in women (11%; IQR: 8 - 15 vs. 6%; IQR: 4 - 10 in men; p < 0.02). In spite of the more compromised hemodynamic profile in women, no difference could be noted for mean arterial pressure or heart rate between the groups (Table 3). Clinical data at entry Men (N = 346)\tWomen (N = 133)\tp Value\t \tBlood pressure (mmHg)\t \t MAP\t107 (97-119)\t106 (95-120)\tNS\t \t PP\t60 (50-74)\t68 (50.5-80)\t0.0477\t \tHR (bpm)\t75 (64-85)\t76 (64-85)\tNS\t \tKillip class\t \t I (%)\t65.5\t61.5\tNS\t \t II (%)\t25.07\t22.3\tNS\t \t III (%)\t8.6\t10\tNS\t \t IV (%)\t0.9\t6.15\t0.0023\t \tRight heart failure (%)\t13.7\t23.8\t0.0119\t \tGRACE likelihood (In-hospital)\t\t\t \t Death (%)\t2 (1-6)\t3 (1-8)\t0.0080\t \t Complications (%)\t14 (9-20.0)\t16 (10-22.5)\t0.0678\t \tCRUSADE likelihood\t6 (4-10)\t11 (8-15)\t< 0.02                     Abbreviations: bpm: beats per minute. HR: heart rate. MAP: mean arterial pressure. PP: pulse pressure. ECG changes in anterior leads only were similar in both groups. ECG changes in all lateral leads were more frequent in women (6.8% vs. 2.3%; p < 0.03) whereas ECG changes solely in inferior leads were more common in men (11.8% vs. 5.2%). Most of the patients had combined ECG changes: 53% of women and 47% of men - p = NS. One third of the women population and 33.5% of men had no ECG changes at entry without any statistical difference. These patients remained in the study on the basis of clinical presentation and elevation of plasma troponin I. One atrioventricular block was recorded at entry in each group. No difference was noted for the presence of atrial fibrillation on admission (6.1% in men and 7.5% in women; p = NS). Apart from isolated lateral and inferior leads concerning a few patients, no difference could be noted between the groups. Biological characteristics The biological characteristics at hospital entry are displayed in Table 4. Many classical parameters as well as Troponin I and BNP plasma level were similar between genders. Plasma glucose was significantly higher in women (p < 0.05). Hence, women also had more inflammation as suggested by both CRP (p < 0.05) and plasma fibrinogen (p < 0.002). In women we noted lower levels of hemoglobin (p < 0.0001) and of hematocrit (p < 0.0001) however with the same time course during hospitalization in both groups (Figure 1). Baseline renal function was reduced in women (p < 0.0001). Biological data at entry Men (N = 346)\tWomen (N = 133)\tp Value\t \tPlatelets count (n*103/l)\t229 (192-278)\t252 (201-295)\tNS\t \tHemoglobin (g/dl)\t14.0 (12.7-15.0)\t12.6 (11.3-13.7)\t0.0001\t \tHematocrit (%)\t40.8 (37.3-43.3)\t37.0 (33.6-40.2)\t0.0001\t \tAPTT (s)\t34 (32-39)\t34 (31-39)\tNS\t \tBNP (ng/l)\t104 (46-307)\t159 (67-386)\tNS\t \teGFR (ml/min)\t82 (54-110)\t57 (42-81)\t< 0.0001\t \tTroponin I (mug/l)\t1.66 (0.46-6.72)\t1.62 (0.47-6.8)\tNS\t \tPlasma glucose (g/l)\t1.24 (1.03-1.69)\t1.33 (1.10-2.03)\t< 0.05\t \tGlycated Hemoglobin (%)\t6.1 (5.7-7.1)\t6.6 (5.8-7.7)\t0.0204\t \tCRP (mg/l)\t4.3 (4.0-12.5)\t26.7 (7.5-71.0)\t< 0.05\t \tFibrinogen (g/l)\t3.8 (3.2-4.7)\t4.2 (3.2-5.2)\t< 0.002     Abbreviations: APPT: activated partial thromboplastin time. BNP: B-natriuretic peptide. CRP: C Reactive Protein. eGFR: estimated glomerular filtration rate. Time course of hemoglobin during hospital stay. Compared to baseline, both group as the same course as suggested by a 2-way ANOVA showing no significant group interaction.     : p < 0.0001 compared to baseline.    : p < 0.0001 compared to minimal value.  ***: p < 0.0001 between women and men.          PCI procedure All the patients underwent a coronary angiogram with PCI in a similar median time (Table 5). The contrast media used was ioxaglic acid in the vast majority of patients. The remaining was given either iodixanol or iomeprol. No difference existed between genders for iodixanol and Iomeprol doses. Men received substantially more ioxaglic acid (p < 0.02). This apparent excess in contrast volume did not translate into renal disorder as reflected by plasma creatinine and estimated glomerular filtration rate during hospitalization. Glomerular filtration rate at the end of hospitalization was 76 ml/min (IQR: 52 - 103) in men and 54 ml/min (IQR: 40 - 74) in women, not different from baseline values within groups. Contrast use, CAD extent and PCI procedures Men (N = 346)\tWomen (N = 133)\tp Value\t \tContrast agents\t\t\t \tIoxaglic acid (ml)\t250 (200-340)\t211 (180-260)\t< 0.02\t \tIodixanol (ml)\t220 (171-300)\t200 (160-300)\tNS\t \tIomeprol (ml)\t215 (134-334)\t226 (219-350)\tNS\t \tCAD extent\t\t\t \t1-vessel disease (%)\t29\t34\tNS\t \t2-vessel diseases (%)\t36\t34\t\t \t3-vessel diseases (%)\t35\t32\t\t \tPCI procedure\t\t\t \tTime interval to PCI (days)\t1 (1-4)\t2 (1-4)\tNS\t \tBMS (%)\t51\t61\t0.052\t \tDES (%)\t40\t32\tNS\t \tBalloon angioplasty (%)\t9\t14\tNS\t \tThrombus aspiration (%)\t1\t0\tNS\t \tUse of closure devices (%)\t83\t81.5\tNS\t \tFailure (%)\t5\t8\tNS\t \tGPIIb/IIIa antagonists (%)\t22\t20\tNS     Abbreviations: BMS: bare-metal stent. CAD: coronary artery disease. DES: drug eluting stent. GPIIb-IIIa antagonists: Glycoprotein IIb-IIIa antagonists. PCI: percutaneous coronary intervention. The extent of coronary artery disease was similar between genders. Though there was no sex related difference for time to PCI and type of procedure, a tendency to more bare metal stent placement in women was noted (Table 5). Glycoprotein IIb-IIIa antagonists were used in 22% of men and 20% of women without any difference. Closure devices were equally used between the groups: 83% of men and 81.5% of women (p = 0.69) (Table 4). Outcomes Left ventricular ejection fraction derived from 2-dimensional echocardiography after PCI was near normal and similar in both groups: 56%; IQR: 47 - 62 in women vs. 55%; IQR: 45 - 60 in men; p = NS). Length of stay was longer in women (median = 10 days; IQR: 5.5 - 17 vs. 7.5 days; IQR: 5 - 11; p < 0.01). One hundred and thirty in-hospital complications were recorded: 90 in men and 40 in women. Thus 30% of women had experienced at least one complication as compared to 26% of men (p = NS). The procedure was unsuccessful in 19 men and 11 women, but the difference was not significant (p = NS). In-hospital mortality was only 1.9% of the study population: 9 patients died (6 men and 3 women; p = NS). Among men, 1 died from a complete atrioventricular block, 2 from septic shock, 1 from cardiogenic shock and 2 from stent thrombosis. Among women, 1 died from severe congestive heart failure, 1 from septic shock and the last one from per procedure cardiac arrest. The septic shocks were all related to Staphylococcus Aureus. Nineteen patients presented severe hypotension requiring catecholamine support and 16 of them required transfer to the coronary care unit afterward (10 men vs. 9 women; p = NS). Two among these 19 collapses were a consequence of cardiac tamponade. All the others were related to severe congestive heart failure. The power of the study to detect a significant change of 0.04 between the groups is at least 80%. Sixty-nine patients had a hemorrhagic event: 45 men and 24 women, p = NS. Most of the hemorrhagic events were confined to the femoral puncture point without gender difference: 17 women vs. 30 in men, p = NS. Other bleedings, including from gastrointestinal tract, were limited to a few patients (7 women vs. 15 men; p = NS). As a whole, hemoglobin loss was moderate: median value was -1.4 mg/dl; IQR = -2.2, -0.7 in women and -1.2 mg/dl; IQR = -2.1, -0.5 in men; p = NS). Only 39 patients (8% of the study population) were given blood transfusion without any sex related difference. As previously, the power of the study to detect a significant change of 0.10 between the groups for bleeding is at least 80%. We also recorded some other complications figured in Table 6. These events were observed in 29% of women and 28% of men. Once more, no difference could be found between genders. Complications Men (N = 346)\tWomen (N = 133)\tp Value\t \tDeath (%)\t1.7\t2.3\tNS\t \tIntensive care unit transfer (%)\t2.3\t6\t0.0832\t \tCounter pulsation intra aortic balloon (%)\t1.4\t1.5\tNS\t \tCollapse (%)\t2.9\t6.8\t0.0662\t \tAcute pulmonary edema (%)\t1.5\t0.8\tNS\t \tBleeding (%)\t13\t18\tNS\t \tRecurrent ischemia (%)\t2.6\t1.5\tNS\t \tStent thrombosis (%)\t1.5\t1.5\tNS\t \tArrhythmia/conduction disturbances (%)\t3.8\t3\tNS\t \tStroke (%)\t0.3\t0.8\tNS\t \tInfection (%)\t6.1\t7.6\tNS\t \tAllergic reaction (%)\t1.2\t2.3\tNS     A logistic regression analysis taking into account sex, age, CRP, glomerular filtration rate, glycated hemoglobin, number of coronary vessel disease, pulse pressure, GRACE scores and CRUSADE score showed that the only independent predictive parameter was CRP (Chi-2 = 5.873; p = 0.0154). Some of these data were obviously correlated with age and sex (GRACE scores, CRUSADE score and Cockcroft formula). However, we wanted to include them in a first step in order to stress the strength of their relationship with the response variable and choose the best one. Afterward, the parameters remaining in the study were age, CRP, glycated hemoglobin, number of vessel disease, pulse pressure and sex. After removing from the model all variables but age, CRP and sex, because of significance level, we were left with 2 predictive variables: patients age: (Chi-2 = 13.141; p = 0.0003) and CRP (Chi-2 = 8.989; p = 0.0027) with a poor deviance goodness of fit as derived from its p-value (Chi-square = 499.044; p = 0.0212). After Splitting the result according to genders, this holds true for men: Chi-2 for age was 12.968 with a p value = 0.0003 and Chi-2 for CRP was 5.917 and p = 0.015. The deviance became not significant, suitable with a satisfactory Goodness of fit (deviance = 344.951; p = NS). In women, age was not significant anymore and CRP was of borderline significance (Chi-2: 3.562 and p < 0.06; deviance = 152.62; p = NS). However, keeping pulse pressure in the final model resulted in an increased weight for CRP in women: Chi-2 = 4.536 and p < 0.04 without noticeable change in men. Discussion Our data showed no difference in outcome between men and women treated invasively for NSTEMI. The only parameters that matter are age and inflammation status, a possible reflection of a more advanced disease state. The problem of a worse outcome in women undergoing PCI has been underscored for a long time. In 1993, Bell and coworkers reported a higher in-hospital and periprocedural mortality in women in a large sample of patients (n = 4071) after emergency PCI for STEMI, unstable angina or elective procedure for stable angina. In this study, genders were similar only for prior myocardial infarction and number of coronary vessel disease. All other variables were significantly different. They failed to find any strong relationship between female gender and outcome and came to the conclusion that their results could be more likely related to the severity of the underlying disease. Though their sample size was large, the population was heterogeneous and could have undermined their findings. Our data, obtained from a series of homogeneous patients are online with their conclusions. There is no obvious sex related effect per se explaining any difference in outcome. More recently, Mehilli and others reported about a series of 1001 women and 3263 men treated with coronary stenting for symptomatic coronary artery disease in the nineties on an elective basis. They did not mention the in-hospital outcome but reported a higher 30-day event rate in female gender, though this difference had disappeared at 1 year. They acknowledged that some heterogeneousness in baseline characteristics could have explained their findings. Our data emphasize this aspect. When one can reduce the discrepancies between genders regarding most of the baseline characteristics, the outcome seems identical. The data reported by Malenka et al referred to 33,666 patients having undergone PCI between 1994 and 1999. They had the basic concept that women were at higher risk for adverse outcomes after PCI. Though their female patients were older, had more diabetes, chronic obstructive pulmonary disease, renal failure, peripheral artery disease and heart failure, they found no sex related difference for post PCI coronary bypass grafting or myocardial infarction rate. They stated that the improvement in PCI techniques could explain their results. Even in a more contemporary era, PCI techniques are still improving and we cannot rule out such a possibility, as we could not analyze this aspect. However, the progress made during the study period that could account for our results are unlikely. There was just a trend to have more women implanted with bare-metal stents and the rate of drug-eluted stents was similar between genders. In no way the number of complications was influenced by the type of stent. The conclusion we made is also suggested by a recent study from Berger et al  who investigated the relationship between gender and 30-day mortality in acute coronary syndromes. The differences they found were largely explained by differences at presentation and severity of the coronary artery disease. Weintraub et al.  also reported a higher in-hospital mortality post PCI in women. However, in the multivariate analysis, the correlates of in-hospital death were by far the severity of the disease state whereas there was only a trend for female gender. Welty et al.  found no difference between genders for procedural outcome of PCI and both sex had a similar success rate in their study. Schuhlen et al.  also found that female gender had no excess risk for major adverse cardiac events after intracoronary stenting. Our data confirm that women fared as well as men for success rate after PCI for NSTEMI. Indeed, failing procedures were low in both groups. Even though we found no sex related difference for outcomes, the women we studied were ten years older and had clearly more hypertension and a trend to lower rate of diabetes mellitus. They were less likely smokers. These features are well established not only in coronary artery disease but also in heart failure and reports dealing with gender related differences underlined these aspects. Therefore, such characteristics don't change our conclusion. In spite of a lower rate of diabetes mellitus, women appeared to have significantly higher plasma glucose and glycated hemoglobin, likely linked to a poorer control of their diabetes. Plasma glucose at entry is predictive of in-hospital mortality as stated by several studies. Hence, the cutoff value of impaired fasting glucose defining the risk for worse outcome has been specified by Verges et al.  to be above 110 mg/dl. In our study, we only considered plasma glucose on admission. No correlation was evidenced with outcomes. Though statistically different, the gap was weak and could account for the reported result. Neither plasma glucose at entry nor glycated hemoglobin remained after the multivariate analysis. Our data are corroborated by the paper from Vivas et al.  and from Suleiman et al.  who found that admission plasma glucose had no predictive value unlike the first fasting plasma glucose that was not analyzed in our study.  There are several scores for risk prediction at hospital entry, each of which facilitates patient management with ACS - GRACE, TIMI, PURSUIT -. All these scores have a good predictive value to identify high-risk subsets of patients who will benefit most from myocardial revascularization performed during initial hospitalization. For this study we have chosen the in-hospital GRACE risk score which is widely used in the setting of NSTEMI and seems perhaps better than the equivalent TIMI score. We noticed that women had a significantly higher GRACE risk score for death and a trend to a greater likelihood for in-hospital complications. However, we failed to confirm this difference in the multivariate analysis either for death or for overall complications. The in-hospital mortality was in agreement with other reports. Such discrepancy has been stressed in the literature. Indeed, the predictive power of the GRACE score is well established. Nevertheless, it can be suboptimal is some cases and might require some recalibration as emphasized recently by Elbarouni et al. . We didn't find genders difference for hemorrhagic complications either. The recently reported CRUSADE score we used has been validated in the NSTEMI setting. This score takes female gender into account as risk marker for bleeding and is online with various reported data. The higher CRUSADE likelihood we found in women could be related to the weight factor of female gender in CRUSADE. Another reason for discrepancy might be linked to the way we analyzed bleeds. In CRUSADE, bleeding definition is according to GUSTO whereas we included all bleeds. We cannot rule out the effect of the high use of closure device to explain the recorded data. We recorded a worse renal function in women, the negative prognostic value of which has been re-emphasized recently. These authors concluded from the large database of the SYNERGY trial, that chronic kidney disease derived from the estimated glomerular filtration rate was predictive of 30-day mortality, myocardial infarction and bleeding. We agree with this claim when age is not entered in our logistic model. Once this was done, estimated glomerular filtration rate retained no more value. In our patients, we analyzed the inflammation status as various reports underscored the interest of doing so. Considering the role of inflammation in the initiation, progression and destabilization of atheroma, the reported result is not surprising. Our data on CRP and prediction of complications including death in NSTEMI patients are in harmony with other results summarized by Blake and Ridker and others. Study Limitation We studied a sample of NSTEMI according to the available guidelines. However, the sample size is small though comparable to others. Our study is from one site and included only 28% of female gender and was of retrospective nature. Though we do believe that female gender is not at higher risk for PCI in NSTEMI, more data are needed to draw final conclusion. Conclusions In spite of a higher risk profile in female as stated by various well-established parameters, female patients treated with PCI for Non STEMI have the same in-hospital course outcome than men. The only predictive variables for adverse events were age and inflammation status. This latter could be the expression of the stage of the underlying pathological process at least to some extent. Competing interests The authors declare that they have no competing interests. Authors' contributions CB collected, analyzed the data and wrote the manuscript. GR designed the study, performed the statistical study, and contributed to the analysis of the data and the writing of the manuscript. DS and MC read the manuscript and contributed to its improvement. All authors have read and approved the final manuscript. Pre-publication history The pre-publication history for this paper can be accessed here: http://www.biomedcentral.com/1471-2261/10/31/prepub Acknowledgements We thank Mrs. A. Decuenca, the secretary, for her valuable assistance. Management of Acute Coronary Syndromes (ACS) in patients presenting without persistent ST-elevation The changing In-Hospital Mortality of Women Undergoing Percutaneous Transluminal Coronary Angioplasty Differences in Prognostic Factor and outcomes Between Women and Men Undergoing Coronary Artery Stenting Northern New England Cardiovascular Disease Study Group. Gender-related changes in the practice and outcomes of percutaneous coronary interventions in northern New England from 1994 to 1999 Sex Differences in Mortality Following Acute Coronary Syndromes Gender Differences in adverse outcomes after contemporary percutaneous coronary intervention: An analysis from the Blue Cross Blue Shield of Michigan Cardiovascular Consortium (BMC2) percutaneous coronary intervention registry Prediction of creatinine clearance from serum creatinine Etude quantitative de la fonction ventriculaire gauche par l'echocardiographie bidimensionnelle  Rationale and design of the GRACE (Global Registry of Acute Coronary Events) project: a multinational registry of patients hospitalized with acute coronary syndromes Management of acute coronary syndromes. Variations in practice and outcome; findings from the Global Registry of Acute Coronary Events (GRACE) Baseline Risk of Major Bleeding in Non-ST-Segment-Elevation Myocardial Infarction. The CRUSADE ( Can Rapid risk stratification of Unstable angina patients Suppress Adverse outcomes with Early implementation of the ACC/AHA guidelines) Bleeding Score Percutaneous transluminal coronary angioplasty in women compared with men Similar results of percutaneous transluminal coronary angioplasty for women and men with post myocardial infarction ischemia Intracoronary stenting and risk for major adverse cardiac events during the first month Heart disease and stroke statistics--2008 update: a report from the American Heart Association statistics Committee and Stroke Statistics Subcommittee Gender related differences in patients presenting with acute heart failure. Results from EuroHeart Failure Survey II Predictive value of glycemia in acute coronary syndromes Glycemia at admission: the metabolic echocardiography in acute coronary syndrome patients Admission glycemia: a predictor of death after acute coronary syndrome in non-diabetic patients? Initial Serum Glucose Level as a Prognostic Factor in the First Acute Myocardial Infarction Admission glycaemia and outcome patients with acute coronary syndrome Impact of fasting glycemia on short-term prognosis after acute myocardial Infarction Valor pronostico de la primera glucemia en ayunas en comparacion con la glucemia al ingreso en pacientes con sindrome coronario agudo Fasting glucose is an important independent risk factor for 30-day mortality in patients with acute myocardial infarction The TIMI risk score for unstable angina/non-ST elevation MI Clinical trial-derived risk model may not generalize to real-world patients with acute coronary syndrome Predictors of outcome in patients with acute coronary syndromes without persistent ST-segment elevation: results from an international trial of 9461 patients TIMI, PURSUIT, and GRACE risk scores: sustained prognostic value and interaction with revascularization in NSTE-ACS Validity of the GRACE (Global Registry of Acute Coronary Events) acute coronary syndrome prediction model for six month post-discharge death in an independent data set Risk scores for risk stratification in acute coronary syndromes: useful but simpler is not necessarily better Validation of the Global Registry of Acute Coronary Event (GRACE) risk score for in-hospital mortality in patients with acute coronary syndrome in Canada Relationship between renal function and outcomes in high-risk patients with non-ST-segment elevation acute coronary syndromes: Results from SYNERGY Inflammation, aspirin, and the risk of cardiovascular disease in apparently healthy men C-reactive protein and other markers of inflammation in the prediction of cardiovascular disease in women Inflammatory biomarkers and cardiovascular risk prediction Inflammatory markers and the risk of coronary heart disease in men and women C-reactive protein and aortic stiffness and wave reflection in middle-aged and elderly men from the community C-reactive protein and arterial stiffness in older adults: the Rotterdam Study",
+    "entities": [
+        {
+            "entityId": "83_88",
+            "span": {
+                "begin": 83,
+                "end": 88
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "105_108",
+            "span": {
+                "begin": 105,
+                "end": 108
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "168_173",
+            "span": {
+                "begin": 168,
+                "end": 173
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "189_227",
+            "span": {
+                "begin": 189,
+                "end": 227
+            },
+            "entityType": "disease",
+            "entityName": "non-ST elevation myocardial infarction",
+            "id": "UMLS:C1536222"
+        },
+        {
+            "entityId": "294_297",
+            "span": {
+                "begin": 294,
+                "end": 297
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "336_344",
+            "span": {
+                "begin": 336,
+                "end": 344
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "350_355",
+            "span": {
+                "begin": 350,
+                "end": 355
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "364_367",
+            "span": {
+                "begin": 364,
+                "end": 367
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "397_443",
+            "span": {
+                "begin": 397,
+                "end": 443
+            },
+            "entityType": "disease",
+            "entityName": "Non ST-segment elevation myocardial infarction",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "775_778",
+            "span": {
+                "begin": 775,
+                "end": 778
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "780_785",
+            "span": {
+                "begin": 780,
+                "end": 785
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "892_904",
+            "span": {
+                "begin": 892,
+                "end": 904
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "938_941",
+            "span": {
+                "begin": 938,
+                "end": 941
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "992_997",
+            "span": {
+                "begin": 992,
+                "end": 997
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1003_1015",
+            "span": {
+                "begin": 1003,
+                "end": 1015
+            },
+            "entityType": "disease",
+            "entityName": "hypertensive",
+            "id": "mesh:D006973"
+        },
+        {
+            "entityId": "1110_1115",
+            "span": {
+                "begin": 1110,
+                "end": 1115
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1290_1298",
+            "span": {
+                "begin": 1290,
+                "end": 1298
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1560_1565",
+            "span": {
+                "begin": 1560,
+                "end": 1565
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1683_1686",
+            "span": {
+                "begin": 1683,
+                "end": 1686
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "1835_1838",
+            "span": {
+                "begin": 1835,
+                "end": 1838
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1843_1848",
+            "span": {
+                "begin": 1843,
+                "end": 1848
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1858_1861",
+            "span": {
+                "begin": 1858,
+                "end": 1861
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "2001_2009",
+            "span": {
+                "begin": 2001,
+                "end": 2009
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2036_2059",
+            "span": {
+                "begin": 2036,
+                "end": 2059
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndrome",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "2102_2110",
+            "span": {
+                "begin": 2102,
+                "end": 2110
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "2212_2235",
+            "span": {
+                "begin": 2212,
+                "end": 2235
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndrome",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "2398_2422",
+            "span": {
+                "begin": 2398,
+                "end": 2422
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndromes",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "2424_2427",
+            "span": {
+                "begin": 2424,
+                "end": 2427
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "2492_2495",
+            "span": {
+                "begin": 2492,
+                "end": 2495
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "2595_2598",
+            "span": {
+                "begin": 2595,
+                "end": 2598
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2608_2613",
+            "span": {
+                "begin": 2608,
+                "end": 2613
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2663_2668",
+            "span": {
+                "begin": 2663,
+                "end": 2668
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2872_2877",
+            "span": {
+                "begin": 2872,
+                "end": 2877
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2882_2885",
+            "span": {
+                "begin": 2882,
+                "end": 2885
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2927_2933",
+            "span": {
+                "begin": 2927,
+                "end": 2933
+            },
+            "entityType": "disease",
+            "entityName": "angina",
+            "id": "UMLS:C0002962"
+        },
+        {
+            "entityId": "3087_3095",
+            "span": {
+                "begin": 3087,
+                "end": 3095
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3335_3338",
+            "span": {
+                "begin": 3335,
+                "end": 3338
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "3566_3574",
+            "span": {
+                "begin": 3566,
+                "end": 3574
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3587_3592",
+            "span": {
+                "begin": 3587,
+                "end": 3592
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3789_3792",
+            "span": {
+                "begin": 3789,
+                "end": 3792
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3797_3802",
+            "span": {
+                "begin": 3797,
+                "end": 3802
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4036_4059",
+            "span": {
+                "begin": 4036,
+                "end": 4059
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "4076_4119",
+            "span": {
+                "begin": 4076,
+                "end": 4119
+            },
+            "entityType": "disease",
+            "entityName": "ST- segment elevation myocardial infarction",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "4121_4167",
+            "span": {
+                "begin": 4121,
+                "end": 4167
+            },
+            "entityType": "disease",
+            "entityName": "Non ST-segment elevation myocardial infarction",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "4169_4175",
+            "span": {
+                "begin": 4169,
+                "end": 4175
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "4198_4204",
+            "span": {
+                "begin": 4198,
+                "end": 4204
+            },
+            "entityType": "disease",
+            "entityName": "angina",
+            "id": "UMLS:C0002962"
+        },
+        {
+            "entityId": "4339_4347",
+            "span": {
+                "begin": 4339,
+                "end": 4347
+            },
+            "entityType": "disease",
+            "entityName": "NSTE-ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "4349_4389",
+            "span": {
+                "begin": 4349,
+                "end": 4389
+            },
+            "entityType": "disease",
+            "entityName": "non ST elevation-acute coronary syndrome",
+            "id": "UMLS:C3160886"
+        },
+        {
+            "entityId": "4412_4435",
+            "span": {
+                "begin": 4412,
+                "end": 4435
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "4573_4576",
+            "span": {
+                "begin": 4573,
+                "end": 4576
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4581_4586",
+            "span": {
+                "begin": 4581,
+                "end": 4586
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4592_4598",
+            "span": {
+                "begin": 4592,
+                "end": 4598
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "4634_4642",
+            "span": {
+                "begin": 4634,
+                "end": 4642
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4692_4700",
+            "span": {
+                "begin": 4692,
+                "end": 4700
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4759_4765",
+            "span": {
+                "begin": 4759,
+                "end": 4765
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "4882_4888",
+            "span": {
+                "begin": 4882,
+                "end": 4888
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "5063_5081",
+            "span": {
+                "begin": 5063,
+                "end": 5081
+            },
+            "entityType": "gene",
+            "entityName": "cardiac troponin I",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "5352_5369",
+            "span": {
+                "begin": 5352,
+                "end": 5369
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "5371_5383",
+            "span": {
+                "begin": 5371,
+                "end": 5383
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "5385_5397",
+            "span": {
+                "begin": 5385,
+                "end": 5397
+            },
+            "entityType": "disease",
+            "entityName": "dyslipidemia",
+            "id": "UMLS:C0242339"
+        },
+        {
+            "entityId": "5433_5465",
+            "span": {
+                "begin": 5433,
+                "end": 5465
+            },
+            "entityType": "disease",
+            "entityName": "premature cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "5470_5477",
+            "span": {
+                "begin": 5470,
+                "end": 5477
+            },
+            "entityType": "disease",
+            "entityName": "anxiety",
+            "id": "UMLS:C0003467"
+        },
+        {
+            "entityId": "5615_5625",
+            "span": {
+                "begin": 5615,
+                "end": 5625
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "5639_5648",
+            "span": {
+                "begin": 5639,
+                "end": 5648
+            },
+            "entityType": "cell",
+            "entityName": "platelets",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "5682_5690",
+            "span": {
+                "begin": 5682,
+                "end": 5690
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "5723_5749",
+            "span": {
+                "begin": 5723,
+                "end": 5749
+            },
+            "entityType": "gene",
+            "entityName": "B-type natriuretic peptide",
+            "id": "UMLS:C0054015"
+        },
+        {
+            "entityId": "5751_5754",
+            "span": {
+                "begin": 5751,
+                "end": 5754
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "5759_5777",
+            "span": {
+                "begin": 5759,
+                "end": 5777
+            },
+            "entityType": "gene",
+            "entityName": "N Terminal pro-BNP",
+            "id": "UMLS:C0669479"
+        },
+        {
+            "entityId": "5786_5793",
+            "span": {
+                "begin": 5786,
+                "end": 5793
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "5804_5823",
+            "span": {
+                "begin": 5804,
+                "end": 5823
+            },
+            "entityType": "gene",
+            "entityName": "Glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "5825_5828",
+            "span": {
+                "begin": 5825,
+                "end": 5828
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "5830_5848",
+            "span": {
+                "begin": 5830,
+                "end": 5848
+            },
+            "entityType": "gene",
+            "entityName": "C reactive protein",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "5858_5868",
+            "span": {
+                "begin": 5858,
+                "end": 5868
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "6136_6159",
+            "span": {
+                "begin": 6136,
+                "end": 6159
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "7908_7916",
+            "span": {
+                "begin": 7908,
+                "end": 7916
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "7941_7944",
+            "span": {
+                "begin": 7941,
+                "end": 7944
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "7952_7960",
+            "span": {
+                "begin": 7952,
+                "end": 7960
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8005_8010",
+            "span": {
+                "begin": 8005,
+                "end": 8010
+            },
+            "entityType": "species",
+            "entityName": "Women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8144_8149",
+            "span": {
+                "begin": 8144,
+                "end": 8149
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8200_8212",
+            "span": {
+                "begin": 8200,
+                "end": 8212
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "8233_8250",
+            "span": {
+                "begin": 8233,
+                "end": 8250
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "8278_8281",
+            "span": {
+                "begin": 8278,
+                "end": 8281
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8313_8332",
+            "span": {
+                "begin": 8313,
+                "end": 8332
+            },
+            "entityType": "gene",
+            "entityName": "glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "8353_8358",
+            "span": {
+                "begin": 8353,
+                "end": 8358
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8414_8422",
+            "span": {
+                "begin": 8414,
+                "end": 8422
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "9321_9343",
+            "span": {
+                "begin": 9321,
+                "end": 9343
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "9361_9380",
+            "span": {
+                "begin": 9361,
+                "end": 9380
+            },
+            "entityType": "disease",
+            "entityName": "atrial fibrillation",
+            "id": "UMLS:C0004238"
+        },
+        {
+            "entityId": "9382_9409",
+            "span": {
+                "begin": 9382,
+                "end": 9409
+            },
+            "entityType": "disease",
+            "entityName": "peripheral arterial disease",
+            "id": "UMLS:C1704436"
+        },
+        {
+            "entityId": "9414_9420",
+            "span": {
+                "begin": 9414,
+                "end": 9420
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9519_9556",
+            "span": {
+                "begin": 9519,
+                "end": 9556
+            },
+            "entityType": "disease",
+            "entityName": "chronic obstructive pulmonary disease",
+            "id": "UMLS:C0024117"
+        },
+        {
+            "entityId": "9599_9602",
+            "span": {
+                "begin": 9599,
+                "end": 9602
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9629_9637",
+            "span": {
+                "begin": 9629,
+                "end": 9637
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9722_9751",
+            "span": {
+                "begin": 9722,
+                "end": 9751
+            },
+            "entityType": "gene",
+            "entityName": "angiotensin converting enzyme",
+            "id": "UMLS:C1452534"
+        },
+        {
+            "entityId": "9764_9784",
+            "span": {
+                "begin": 9764,
+                "end": 9784
+            },
+            "entityType": "gene",
+            "entityName": "angiotensin receptor",
+            "id": "UMLS:C0034787"
+        },
+        {
+            "entityId": "9833_9840",
+            "span": {
+                "begin": 9833,
+                "end": 9840
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "9883_9890",
+            "span": {
+                "begin": 9883,
+                "end": 9890
+            },
+            "entityType": "drug",
+            "entityName": "statins",
+            "id": "UMLS:C0360714"
+        },
+        {
+            "entityId": "9895_9903",
+            "span": {
+                "begin": 9895,
+                "end": 9903
+            },
+            "entityType": "drug",
+            "entityName": "fibrates",
+            "id": "UMLS:C1449704"
+        },
+        {
+            "entityId": "10024_10034",
+            "span": {
+                "begin": 10024,
+                "end": 10034
+            },
+            "entityType": "drug",
+            "entityName": "metformine",
+            "id": "UMLS:C0025598"
+        },
+        {
+            "entityId": "10036_10043",
+            "span": {
+                "begin": 10036,
+                "end": 10043
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "10045_10053",
+            "span": {
+                "begin": 10045,
+                "end": 10053
+            },
+            "entityType": "drug",
+            "entityName": "nitrates",
+            "id": "UMLS:C0699857"
+        },
+        {
+            "entityId": "10059_10070",
+            "span": {
+                "begin": 10059,
+                "end": 10070
+            },
+            "entityType": "gene",
+            "entityName": "angiotensin",
+            "id": "UMLS:C4521302"
+        },
+        {
+            "entityId": "10109_10116",
+            "span": {
+                "begin": 10109,
+                "end": 10116
+            },
+            "entityType": "drug",
+            "entityName": "statins",
+            "id": "UMLS:C0360714"
+        },
+        {
+            "entityId": "10290_10295",
+            "span": {
+                "begin": 10290,
+                "end": 10295
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10350_10353",
+            "span": {
+                "begin": 10350,
+                "end": 10353
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11210_11213",
+            "span": {
+                "begin": 11210,
+                "end": 11213
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11215_11220",
+            "span": {
+                "begin": 11215,
+                "end": 11220
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11343_11346",
+            "span": {
+                "begin": 11343,
+                "end": 11346
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11375_11380",
+            "span": {
+                "begin": 11375,
+                "end": 11380
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11441_11446",
+            "span": {
+                "begin": 11441,
+                "end": 11446
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11468_11481",
+            "span": {
+                "begin": 11468,
+                "end": 11481
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "11499_11504",
+            "span": {
+                "begin": 11499,
+                "end": 11504
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11546_11549",
+            "span": {
+                "begin": 11546,
+                "end": 11549
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11636_11655",
+            "span": {
+                "begin": 11636,
+                "end": 11655
+            },
+            "entityType": "disease",
+            "entityName": "right heart failure",
+            "id": "UMLS:C0235527"
+        },
+        {
+            "entityId": "11659_11664",
+            "span": {
+                "begin": 11659,
+                "end": 11664
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12056_12061",
+            "span": {
+                "begin": 12056,
+                "end": 12061
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12103_12106",
+            "span": {
+                "begin": 12103,
+                "end": 12106
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12175_12180",
+            "span": {
+                "begin": 12175,
+                "end": 12180
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13040_13045",
+            "span": {
+                "begin": 13040,
+                "end": 13045
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13137_13140",
+            "span": {
+                "begin": 13137,
+                "end": 13140
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13171_13179",
+            "span": {
+                "begin": 13171,
+                "end": 13179
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13213_13218",
+            "span": {
+                "begin": 13213,
+                "end": 13218
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13230_13233",
+            "span": {
+                "begin": 13230,
+                "end": 13233
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13261_13266",
+            "span": {
+                "begin": 13261,
+                "end": 13266
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13291_13294",
+            "span": {
+                "begin": 13291,
+                "end": 13294
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13365_13373",
+            "span": {
+                "begin": 13365,
+                "end": 13373
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13451_13468",
+            "span": {
+                "begin": 13451,
+                "end": 13468
+            },
+            "entityType": "gene",
+            "entityName": "plasma troponin I",
+            "id": "UMLS:C0077401"
+        },
+        {
+            "entityId": "13474_13496",
+            "span": {
+                "begin": 13474,
+                "end": 13496
+            },
+            "entityType": "disease",
+            "entityName": "atrioventricular block",
+            "id": "UMLS:C0004245"
+        },
+        {
+            "entityId": "13578_13597",
+            "span": {
+                "begin": 13578,
+                "end": 13597
+            },
+            "entityType": "disease",
+            "entityName": "atrial fibrillation",
+            "id": "UMLS:C0004238"
+        },
+        {
+            "entityId": "13620_13623",
+            "span": {
+                "begin": 13620,
+                "end": 13623
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13636_13641",
+            "span": {
+                "begin": 13636,
+                "end": 13641
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13716_13724",
+            "span": {
+                "begin": 13716,
+                "end": 13724
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13914_13924",
+            "span": {
+                "begin": 13914,
+                "end": 13924
+            },
+            "entityType": "gene",
+            "entityName": "Troponin I",
+            "id": "UMLS:C0077401"
+        },
+        {
+            "entityId": "13929_13932",
+            "span": {
+                "begin": 13929,
+                "end": 13932
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "13983_13990",
+            "span": {
+                "begin": 13983,
+                "end": 13990
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "14019_14024",
+            "span": {
+                "begin": 14019,
+                "end": 14024
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14044_14049",
+            "span": {
+                "begin": 14044,
+                "end": 14049
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14064_14076",
+            "span": {
+                "begin": 14064,
+                "end": 14076
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        },
+        {
+            "entityId": "14098_14101",
+            "span": {
+                "begin": 14098,
+                "end": 14101
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "14117_14134",
+            "span": {
+                "begin": 14117,
+                "end": 14134
+            },
+            "entityType": "gene",
+            "entityName": "plasma fibrinogen",
+            "id": "UMLS:C3540039"
+        },
+        {
+            "entityId": "14151_14156",
+            "span": {
+                "begin": 14151,
+                "end": 14156
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14182_14192",
+            "span": {
+                "begin": 14182,
+                "end": 14192
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "14360_14365",
+            "span": {
+                "begin": 14360,
+                "end": 14365
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15521_15529",
+            "span": {
+                "begin": 15521,
+                "end": 15529
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15634_15647",
+            "span": {
+                "begin": 15634,
+                "end": 15647
+            },
+            "entityType": "drug",
+            "entityName": "ioxaglic acid",
+            "id": "UMLS:C0022041"
+        },
+        {
+            "entityId": "15672_15680",
+            "span": {
+                "begin": 15672,
+                "end": 15680
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15713_15722",
+            "span": {
+                "begin": 15713,
+                "end": 15722
+            },
+            "entityType": "drug",
+            "entityName": "iodixanol",
+            "id": "UMLS:C0063757"
+        },
+        {
+            "entityId": "15726_15734",
+            "span": {
+                "begin": 15726,
+                "end": 15734
+            },
+            "entityType": "drug",
+            "entityName": "iomeprol",
+            "id": "UMLS:C0063810"
+        },
+        {
+            "entityId": "15778_15787",
+            "span": {
+                "begin": 15778,
+                "end": 15787
+            },
+            "entityType": "drug",
+            "entityName": "iodixanol",
+            "id": "UMLS:C0063757"
+        },
+        {
+            "entityId": "15792_15800",
+            "span": {
+                "begin": 15792,
+                "end": 15800
+            },
+            "entityType": "drug",
+            "entityName": "Iomeprol",
+            "id": "UMLS:C0063810"
+        },
+        {
+            "entityId": "15808_15811",
+            "span": {
+                "begin": 15808,
+                "end": 15811
+            },
+            "entityType": "species",
+            "entityName": "Men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15840_15853",
+            "span": {
+                "begin": 15840,
+                "end": 15853
+            },
+            "entityType": "drug",
+            "entityName": "ioxaglic acid",
+            "id": "UMLS:C0022041"
+        },
+        {
+            "entityId": "15929_15943",
+            "span": {
+                "begin": 15929,
+                "end": 15943
+            },
+            "entityType": "disease",
+            "entityName": "renal disorder",
+            "id": "UMLS:C0022658"
+        },
+        {
+            "entityId": "15967_15977",
+            "span": {
+                "begin": 15967,
+                "end": 15977
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "16133_16136",
+            "span": {
+                "begin": 16133,
+                "end": 16136
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16169_16174",
+            "span": {
+                "begin": 16169,
+                "end": 16174
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17073_17096",
+            "span": {
+                "begin": 17073,
+                "end": 17096
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "17257_17262",
+            "span": {
+                "begin": 17257,
+                "end": 17262
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17284_17305",
+            "span": {
+                "begin": 17284,
+                "end": 17305
+            },
+            "entityType": "gene",
+            "entityName": "Glycoprotein IIb-IIIa",
+            "id": "UMLS:C0016011"
+        },
+        {
+            "entityId": "17338_17341",
+            "span": {
+                "begin": 17338,
+                "end": 17341
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17353_17358",
+            "span": {
+                "begin": 17353,
+                "end": 17358
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17444_17447",
+            "span": {
+                "begin": 17444,
+                "end": 17447
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17461_17466",
+            "span": {
+                "begin": 17461,
+                "end": 17466
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17652_17657",
+            "span": {
+                "begin": 17652,
+                "end": 17657
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17683_17686",
+            "span": {
+                "begin": 17683,
+                "end": 17686
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17726_17731",
+            "span": {
+                "begin": 17726,
+                "end": 17731
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17873_17876",
+            "span": {
+                "begin": 17873,
+                "end": 17876
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17887_17892",
+            "span": {
+                "begin": 17887,
+                "end": 17892
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17906_17911",
+            "span": {
+                "begin": 17906,
+                "end": 17911
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17976_17979",
+            "span": {
+                "begin": 17976,
+                "end": 17979
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18027_18030",
+            "span": {
+                "begin": 18027,
+                "end": 18030
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18038_18043",
+            "span": {
+                "begin": 18038,
+                "end": 18043
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18157_18165",
+            "span": {
+                "begin": 18157,
+                "end": 18165
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18174_18177",
+            "span": {
+                "begin": 18174,
+                "end": 18177
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18184_18189",
+            "span": {
+                "begin": 18184,
+                "end": 18189
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18206_18209",
+            "span": {
+                "begin": 18206,
+                "end": 18209
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18265_18277",
+            "span": {
+                "begin": 18265,
+                "end": 18277
+            },
+            "entityType": "disease",
+            "entityName": "septic shock",
+            "id": "UMLS:C0036983"
+        },
+        {
+            "entityId": "18286_18303",
+            "span": {
+                "begin": 18286,
+                "end": 18303
+            },
+            "entityType": "disease",
+            "entityName": "cardiogenic shock",
+            "id": "UMLS:C0036980"
+        },
+        {
+            "entityId": "18315_18331",
+            "span": {
+                "begin": 18315,
+                "end": 18331
+            },
+            "entityType": "disease",
+            "entityName": "stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "18339_18344",
+            "span": {
+                "begin": 18339,
+                "end": 18344
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18365_18389",
+            "span": {
+                "begin": 18365,
+                "end": 18389
+            },
+            "entityType": "disease",
+            "entityName": "congestive heart failure",
+            "id": "UMLS:C0018802"
+        },
+        {
+            "entityId": "18398_18410",
+            "span": {
+                "begin": 18398,
+                "end": 18410
+            },
+            "entityType": "disease",
+            "entityName": "septic shock",
+            "id": "UMLS:C0036983"
+        },
+        {
+            "entityId": "18447_18461",
+            "span": {
+                "begin": 18447,
+                "end": 18461
+            },
+            "entityType": "disease",
+            "entityName": "cardiac arrest",
+            "id": "UMLS:C0018790"
+        },
+        {
+            "entityId": "18467_18480",
+            "span": {
+                "begin": 18467,
+                "end": 18480
+            },
+            "entityType": "disease",
+            "entityName": "septic shocks",
+            "id": "UMLS:C0036983"
+        },
+        {
+            "entityId": "18501_18522",
+            "span": {
+                "begin": 18501,
+                "end": 18522
+            },
+            "entityType": "species",
+            "entityName": "Staphylococcus Aureus",
+            "id": "UMLS:C0038172"
+        },
+        {
+            "entityId": "18533_18541",
+            "span": {
+                "begin": 18533,
+                "end": 18541
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18559_18570",
+            "span": {
+                "begin": 18559,
+                "end": 18570
+            },
+            "entityType": "disease",
+            "entityName": "hypotension",
+            "id": "mesh:D007022"
+        },
+        {
+            "entityId": "18581_18594",
+            "span": {
+                "begin": 18581,
+                "end": 18594
+            },
+            "entityType": "drug",
+            "entityName": "catecholamine",
+            "id": "UMLS:C3536742"
+        },
+        {
+            "entityId": "18676_18679",
+            "span": {
+                "begin": 18676,
+                "end": 18679
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18686_18691",
+            "span": {
+                "begin": 18686,
+                "end": 18691
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18753_18770",
+            "span": {
+                "begin": 18753,
+                "end": 18770
+            },
+            "entityType": "disease",
+            "entityName": "cardiac tamponade",
+            "id": "UMLS:C0007177"
+        },
+        {
+            "entityId": "18810_18834",
+            "span": {
+                "begin": 18810,
+                "end": 18834
+            },
+            "entityType": "disease",
+            "entityName": "congestive heart failure",
+            "id": "UMLS:C0018802"
+        },
+        {
+            "entityId": "18945_18953",
+            "span": {
+                "begin": 18945,
+                "end": 18953
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18982_18985",
+            "span": {
+                "begin": 18982,
+                "end": 18985
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18993_18998",
+            "span": {
+                "begin": 18993,
+                "end": 18998
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19020_19031",
+            "span": {
+                "begin": 19020,
+                "end": 19031
+            },
+            "entityType": "disease",
+            "entityName": "hemorrhagic",
+            "id": "mesh:D006474"
+        },
+        {
+            "entityId": "19113_19118",
+            "span": {
+                "begin": 19113,
+                "end": 19118
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19129_19132",
+            "span": {
+                "begin": 19129,
+                "end": 19132
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19220_19228",
+            "span": {
+                "begin": 19220,
+                "end": 19228
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19232_19237",
+            "span": {
+                "begin": 19232,
+                "end": 19237
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19245_19248",
+            "span": {
+                "begin": 19245,
+                "end": 19248
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19271_19281",
+            "span": {
+                "begin": 19271,
+                "end": 19281
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "19350_19355",
+            "span": {
+                "begin": 19350,
+                "end": 19355
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19392_19395",
+            "span": {
+                "begin": 19392,
+                "end": 19395
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19414_19422",
+            "span": {
+                "begin": 19414,
+                "end": 19422
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19742_19747",
+            "span": {
+                "begin": 19742,
+                "end": 19747
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19759_19762",
+            "span": {
+                "begin": 19759,
+                "end": 19762
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20364_20367",
+            "span": {
+                "begin": 20364,
+                "end": 20367
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "20397_20416",
+            "span": {
+                "begin": 20397,
+                "end": 20416
+            },
+            "entityType": "gene",
+            "entityName": "glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "20428_20451",
+            "span": {
+                "begin": 20428,
+                "end": 20451
+            },
+            "entityType": "disease",
+            "entityName": "coronary vessel disease",
+            "id": "UMLS:C0549517"
+        },
+        {
+            "entityId": "20558_20561",
+            "span": {
+                "begin": 20558,
+                "end": 20561
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "20922_20925",
+            "span": {
+                "begin": 20922,
+                "end": 20925
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "20927_20946",
+            "span": {
+                "begin": 20927,
+                "end": 20946
+            },
+            "entityType": "gene",
+            "entityName": "glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "20958_20972",
+            "span": {
+                "begin": 20958,
+                "end": 20972
+            },
+            "entityType": "disease",
+            "entityName": "vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "21051_21054",
+            "span": {
+                "begin": 21051,
+                "end": 21054
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "21137_21145",
+            "span": {
+                "begin": 21137,
+                "end": 21145
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21184_21187",
+            "span": {
+                "begin": 21184,
+                "end": 21187
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "21386_21389",
+            "span": {
+                "begin": 21386,
+                "end": 21389
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21454_21457",
+            "span": {
+                "begin": 21454,
+                "end": 21457
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "21598_21603",
+            "span": {
+                "begin": 21598,
+                "end": 21603
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21641_21644",
+            "span": {
+                "begin": 21641,
+                "end": 21644
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "21819_21822",
+            "span": {
+                "begin": 21819,
+                "end": 21822
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "21826_21831",
+            "span": {
+                "begin": 21826,
+                "end": 21831
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21889_21892",
+            "span": {
+                "begin": 21889,
+                "end": 21892
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21954_21957",
+            "span": {
+                "begin": 21954,
+                "end": 21957
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21962_21967",
+            "span": {
+                "begin": 21962,
+                "end": 21967
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21991_21997",
+            "span": {
+                "begin": 21991,
+                "end": 21997
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "22043_22055",
+            "span": {
+                "begin": 22043,
+                "end": 22055
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        },
+        {
+            "entityId": "22154_22159",
+            "span": {
+                "begin": 22154,
+                "end": 22159
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22303_22308",
+            "span": {
+                "begin": 22303,
+                "end": 22308
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22330_22338",
+            "span": {
+                "begin": 22330,
+                "end": 22338
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22374_22379",
+            "span": {
+                "begin": 22374,
+                "end": 22379
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "22381_22396",
+            "span": {
+                "begin": 22381,
+                "end": 22396
+            },
+            "entityType": "disease",
+            "entityName": "unstable angina",
+            "id": "UMLS:C0002965"
+        },
+        {
+            "entityId": "22423_22436",
+            "span": {
+                "begin": 22423,
+                "end": 22436
+            },
+            "entityType": "disease",
+            "entityName": "stable angina",
+            "id": "UMLS:C0340288"
+        },
+        {
+            "entityId": "22489_22510",
+            "span": {
+                "begin": 22489,
+                "end": 22510
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "22525_22548",
+            "span": {
+                "begin": 22525,
+                "end": 22548
+            },
+            "entityType": "disease",
+            "entityName": "coronary vessel disease",
+            "id": "UMLS:C0549517"
+        },
+        {
+            "entityId": "22955_22963",
+            "span": {
+                "begin": 22955,
+                "end": 22963
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23149_23154",
+            "span": {
+                "begin": 23149,
+                "end": 23154
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23164_23167",
+            "span": {
+                "begin": 23164,
+                "end": 23167
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23215_23238",
+            "span": {
+                "begin": 23215,
+                "end": 23238
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "23758_23766",
+            "span": {
+                "begin": 23758,
+                "end": 23766
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23843_23848",
+            "span": {
+                "begin": 23843,
+                "end": 23848
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23921_23929",
+            "span": {
+                "begin": 23921,
+                "end": 23929
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23951_23959",
+            "span": {
+                "begin": 23951,
+                "end": 23959
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23961_23998",
+            "span": {
+                "begin": 23961,
+                "end": 23998
+            },
+            "entityType": "disease",
+            "entityName": "chronic obstructive pulmonary disease",
+            "id": "UMLS:C0024117"
+        },
+        {
+            "entityId": "24000_24013",
+            "span": {
+                "begin": 24000,
+                "end": 24013
+            },
+            "entityType": "disease",
+            "entityName": "renal failure",
+            "id": "UMLS:C0035078"
+        },
+        {
+            "entityId": "24015_24040",
+            "span": {
+                "begin": 24015,
+                "end": 24040
+            },
+            "entityType": "disease",
+            "entityName": "peripheral artery disease",
+            "id": "UMLS:C1704436"
+        },
+        {
+            "entityId": "24045_24058",
+            "span": {
+                "begin": 24045,
+                "end": 24058
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "24138_24159",
+            "span": {
+                "begin": 24138,
+                "end": 24159
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "24530_24535",
+            "span": {
+                "begin": 24530,
+                "end": 24535
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24859_24883",
+            "span": {
+                "begin": 24859,
+                "end": 24883
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndromes",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "24986_25009",
+            "span": {
+                "begin": 24986,
+                "end": 25009
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "25086_25091",
+            "span": {
+                "begin": 25086,
+                "end": 25091
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25551_25556",
+            "span": {
+                "begin": 25551,
+                "end": 25556
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25574_25577",
+            "span": {
+                "begin": 25574,
+                "end": 25577
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25609_25615",
+            "span": {
+                "begin": 25609,
+                "end": 25615
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "25734_25739",
+            "span": {
+                "begin": 25734,
+                "end": 25739
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25793_25805",
+            "span": {
+                "begin": 25793,
+                "end": 25805
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "25835_25852",
+            "span": {
+                "begin": 25835,
+                "end": 25852
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "25933_25956",
+            "span": {
+                "begin": 25933,
+                "end": 25956
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "25969_25982",
+            "span": {
+                "begin": 25969,
+                "end": 25982
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "26150_26167",
+            "span": {
+                "begin": 26150,
+                "end": 26167
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "26169_26174",
+            "span": {
+                "begin": 26169,
+                "end": 26174
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "26220_26227",
+            "span": {
+                "begin": 26220,
+                "end": 26227
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "26232_26251",
+            "span": {
+                "begin": 26232,
+                "end": 26251
+            },
+            "entityType": "gene",
+            "entityName": "glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "26296_26304",
+            "span": {
+                "begin": 26296,
+                "end": 26304
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "26313_26320",
+            "span": {
+                "begin": 26313,
+                "end": 26320
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "26587_26594",
+            "span": {
+                "begin": 26587,
+                "end": 26594
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "26760_26767",
+            "span": {
+                "begin": 26760,
+                "end": 26767
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "26781_26800",
+            "span": {
+                "begin": 26781,
+                "end": 26800
+            },
+            "entityType": "gene",
+            "entityName": "glycated hemoglobin",
+            "id": "UMLS:C0017853"
+        },
+        {
+            "entityId": "26959_26966",
+            "span": {
+                "begin": 26959,
+                "end": 26966
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "27023_27030",
+            "span": {
+                "begin": 27023,
+                "end": 27030
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "27158_27165",
+            "span": {
+                "begin": 27158,
+                "end": 27165
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27182_27185",
+            "span": {
+                "begin": 27182,
+                "end": 27185
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "27291_27299",
+            "span": {
+                "begin": 27291,
+                "end": 27299
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27500_27506",
+            "span": {
+                "begin": 27500,
+                "end": 27506
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "27580_27585",
+            "span": {
+                "begin": 27580,
+                "end": 27585
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28184_28209",
+            "span": {
+                "begin": 28184,
+                "end": 28209
+            },
+            "entityType": "disease",
+            "entityName": "hemorrhagic complications",
+            "id": "UMLS:C0940931"
+        },
+        {
+            "entityId": "28288_28294",
+            "span": {
+                "begin": 28288,
+                "end": 28294
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "28460_28465",
+            "span": {
+                "begin": 28460,
+                "end": 28465
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28829_28834",
+            "span": {
+                "begin": 28829,
+                "end": 28834
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28983_29005",
+            "span": {
+                "begin": 28983,
+                "end": 29005
+            },
+            "entityType": "disease",
+            "entityName": "chronic kidney disease",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "29096_29117",
+            "span": {
+                "begin": 29096,
+                "end": 29117
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "29292_29300",
+            "span": {
+                "begin": 29292,
+                "end": 29300
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29318_29330",
+            "span": {
+                "begin": 29318,
+                "end": 29330
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        },
+        {
+            "entityId": "29419_29431",
+            "span": {
+                "begin": 29419,
+                "end": 29431
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        },
+        {
+            "entityId": "29486_29494",
+            "span": {
+                "begin": 29486,
+                "end": 29494
+            },
+            "entityType": "disease",
+            "entityName": "atheroma",
+            "id": "UMLS:C0264956"
+        },
+        {
+            "entityId": "29547_29550",
+            "span": {
+                "begin": 29547,
+                "end": 29550
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "29602_29608",
+            "span": {
+                "begin": 29602,
+                "end": 29608
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "29609_29617",
+            "span": {
+                "begin": 29609,
+                "end": 29617
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29735_29741",
+            "span": {
+                "begin": 29735,
+                "end": 29741
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "30016_30022",
+            "span": {
+                "begin": 30016,
+                "end": 30022
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "30184_30192",
+            "span": {
+                "begin": 30184,
+                "end": 30192
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "30270_30273",
+            "span": {
+                "begin": 30270,
+                "end": 30273
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "30337_30349",
+            "span": {
+                "begin": 30337,
+                "end": 30349
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "2102_2110",
+            "subjectText": "troponin",
+            "rel_name": "treat",
+            "objectId": "2036_2059",
+            "objectText": "acute coronary syndrome"
+        }
+    ]
+}
