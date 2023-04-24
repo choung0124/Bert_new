@@ -52,7 +52,8 @@ if __name__ == "__main__":
 
     dataset = NERRE_Dataset(sentences, ner_labels, re_labels)
     tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
-    tokenized_data = tokenize_our_data(dataset, tokenizer)
+    tokenized_data = tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx)
+
     
     # Load the saved model's state_dict and configuration
     checkpoint = torch.load(model_path)
