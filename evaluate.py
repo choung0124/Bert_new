@@ -67,9 +67,13 @@ if __name__ == "__main__":
 
     dataloader = DataLoader(tokenized_data, batch_size=8, shuffle=False)
     ner_true, ner_preds, re_true, re_preds = evaluate(model, dataloader, device)
+    
+    ner_unique_labels = sorted(list(set(ner_true + ner_preds)))
+    re_unique_labels = sorted(list(set(re_true + re_preds)))
 
     print("NER Evaluation:")
-    print(classification_report(ner_true, ner_preds, target_names=list(idx2ner_label.values()), digits=4))
+    print(classification_report(ner_true, ner_preds, labels=ner_unique_labels, target_names=[idx2ner_label[l] for l in ner_unique_labels], digits=4))
 
     print("RE Evaluation:")
-    print(classification_report(re_true, re_preds, target_names=list(idx2re_label.values()), digits=4))
+    print(classification_report(re_true, re_preds, labels=re_unique_labels, target_names=[idx2re_label[l] for l in re_unique_labels], digits=4))
+
