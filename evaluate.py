@@ -18,10 +18,12 @@ def evaluate(model, dataloader, device):
 
     with torch.no_grad():
         for batch in dataloader:
-            tokens, ner_labels, re_labels = batch
-            input_ids = tokens['input_ids'].to(device)
-            attention_mask = tokens['attention_mask'].to(device)
-            token_type_ids = tokens['token_type_ids'].to(device)
+            input_ids, attention_mask, token_type_ids, ner_labels, re_labels = batch
+            input_ids = input_ids.to(device)
+            attention_mask = attention_mask.to(device)
+            token_type_ids = token_type_ids.to(device)
+            ner_labels = ner_labels.to(device)
+            re_labels = re_labels.to(device)
 
             ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
             ner_pred = torch.argmax(ner_logits, dim=1).cpu().numpy()
@@ -29,8 +31,8 @@ def evaluate(model, dataloader, device):
 
             ner_preds.extend(ner_pred)
             re_preds.extend(re_pred)
-            ner_true.extend(ner_labels.numpy())
-            re_true.extend(re_labels.numpy())
+            ner_true.extend(ner_labels.cpu().numpy())
+            re_true.extend(re_labels.cpu().numpy())
 
     return ner_true, ner_preds, re_true, re_preds
 
