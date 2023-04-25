@@ -32,7 +32,7 @@ def extract_sentences(full_text, full_entities, full_relations):
             start = entity["span"]["begin"]
             end = entity["span"]["end"]
             entity_sentence = text[max(0, start - 10):min(end + 10, len(text))]
-            entity_sentences.append({"sentence": entity_sentence, "entity": entity["Type"]})
+            entity_sentences.append({"sentence": entity_sentence, "entity": entity["entityType"]})
 
         for relation in relations:
             subject_start, subject_end = map(int, relation["subjectID"].split("_"))
