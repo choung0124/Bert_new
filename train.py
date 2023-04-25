@@ -27,19 +27,21 @@ def train(model, dataloader, optimizer, device):
     total_loss = 0
 
     progress_bar = tqdm(dataloader, desc="Training", unit="batch")
-    for input_ids, attention_mask, token_type_ids, ner_labels, re_labels in progress_bar:
+    for input_ids, attention_mask, token_type_ids, subject_labels, object_labels, re_labels in progress_bar:
         optimizer.zero_grad()
 
         input_ids = input_ids.to(device)
         attention_mask = attention_mask.to(device)
         token_type_ids = token_type_ids.to(device)
-        ner_labels = ner_labels.to(device)
+        subject_labels = subject_labels.to(device)
+        object_labels = object_labels.to(device)
         re_labels = re_labels.to(device)
 
-        ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
-        ner_loss = criterion(ner_logits, ner_labels)
+        ner_logits_subject, ner_logits_object, re_logits = model(input_ids, attention_mask, token_type_ids)
+        ner_loss_subject = criterion(ner_logits_subject, subject_labels)
+        ner_loss_object = criterion(ner_logits_object, object_labels)
         re_loss = criterion(re_logits, re_labels)
-        loss = ner_loss + re_loss
+        loss = ner_loss_subject + ner_loss_object + re_loss
 
         loss.backward()
         optimizer.step()
