@@ -101,5 +101,24 @@ if __name__ == "__main__":
         'idx2ner_label': idx2ner_label,
         'idx2re_label': idx2re_label
     }, "trained_model.pt")
+    
+def check_labels(labels, ner_label2idx, re_label2idx):
+    max_ner_label = len(ner_label2idx) - 1
+    max_re_label = len(re_label2idx) - 1
+
+    for label in labels:
+        if label is not None:
+            ner_label_idx = ner_label2idx.get(label)
+            re_label_idx = re_label2idx.get(label)
+            if ner_label_idx is not None and (ner_label_idx < 0 or ner_label_idx > max_ner_label):
+                print(f"Invalid NER label: {label} (index: {ner_label_idx})")
+            if re_label_idx is not None and (re_label_idx < 0 or re_label_idx > max_re_label):
+                print(f"Invalid RE label: {label} (index: {re_label_idx})")
+
+# Check subject_labels, object_labels, and re_labels for invalid values
+check_labels(subject_labels, ner_label2idx, re_label2idx)
+check_labels(object_labels, ner_label2idx, re_label2idx)
+check_labels(re_labels, ner_label2idx, re_label2idx)
+
 
 
