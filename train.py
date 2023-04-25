@@ -37,7 +37,7 @@ def train(model, dataloader, optimizer, device):
         object_labels = object_labels.to(device)
         re_labels = re_labels.to(device)
 
-        ner_logits_subject, ner_logits_object, re_logits = model(input_ids, attention_mask, token_type_ids)
+        ner_logits_subject, ner_logits_object, ner_logits_regular, re_logits = model(input_ids, attention_mask, token_type_ids)
         ner_loss_subject = criterion(ner_logits_subject, subject_labels)
         ner_loss_object = criterion(ner_logits_object, object_labels)
         re_loss = criterion(re_logits, re_labels)
