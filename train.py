@@ -92,11 +92,14 @@ if __name__ == "__main__":
     # Save the model's state_dict and configuration
     torch.save({
         'model_state_dict': model.state_dict(),
-        'ner_classifier_dim': model.ner_classifier.out_features,
+        'subject_ner_classifier_dim': model.subject_ner_classifier.out_features,
+        'object_ner_classifier_dim': model.object_ner_classifier.out_features,
+        'regular_ner_classifier_dim': model.regular_ner_classifier.out_features,  # Save regular NER classifier dimensions
         're_classifier_dim': model.re_classifier.out_features,
         'idx2ner_label': idx2ner_label,
         'idx2re_label': idx2re_label
     }, "trained_model.pt")
+
 
 
 
