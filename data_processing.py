@@ -29,8 +29,8 @@ def extract_sentences(full_text, full_entities, full_relations):
 
     for text, entities, relations in zip(full_text, full_entities, full_relations):
         for entity in entities:
-            start, end = entity["charOffset"].split("-")
-            start, end = int(start), int(end)
+            start = entity["span"]["begin"]
+            end = entity["span"]["end"]
             entity_sentence = text[max(0, start - 10):min(end + 10, len(text))]
             entity_sentences.append({"sentence": entity_sentence, "entity": entity["type"]})
 
@@ -48,6 +48,7 @@ def extract_sentences(full_text, full_entities, full_relations):
             })
 
     return entity_sentences, relation_sentences
+
 
 def create_label_mappings(entity_sentences, relation_sentences):
     ner_labels = [item['entity'] for item in entity_sentences] + [None] * len(relation_sentences)
