@@ -14,9 +14,10 @@ class NER_RE_Model(nn.Module):
         bert_output = self.bert(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
         sequence_output = bert_output[0]
 
-        ner_logits_subject = self.subject_ner_classifier(sequence_output)
-        ner_logits_object = self.object_ner_classifier(sequence_output)
-        re_logits = self.re_classifier(sequence_output)
+        ner_logits_subject = self.subject_ner_classifier(sequence_output).view(-1, self.subject_ner_classifier.out_features)
+        ner_logits_object = self.object_ner_classifier(sequence_output).view(-1, self.object_ner_classifier.out_features)
+        re_logits = self.re_classifier(sequence_output).view(-1, self.re_classifier.out_features)
 
-        return ner_logits_subject, ner_logits_object, re_logits  # Remove ner_logits_regular from the returned values
+        return ner_logits_subject, ner_logits_object, re_logits
+
 
