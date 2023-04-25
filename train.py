@@ -40,8 +40,10 @@ def train(model, dataloader, optimizer, device):
         ner_logits_subject, ner_logits_object, ner_logits_regular, re_logits = model(input_ids, attention_mask, token_type_ids)
         ner_loss_subject = criterion(ner_logits_subject, subject_labels)
         ner_loss_object = criterion(ner_logits_object, object_labels)
+        ner_loss_regular = criterion(ner_logits_regular, re_labels)  # Calculate regular NER loss
         re_loss = criterion(re_logits, re_labels)
-        loss = ner_loss_subject + ner_loss_object + re_loss
+
+        loss = ner_loss_subject + ner_loss_object + ner_loss_regular + re_loss  # Add regular NER loss to the total loss
 
         loss.backward()
         optimizer.step()
@@ -99,7 +101,5 @@ if __name__ == "__main__":
         'idx2ner_label': idx2ner_label,
         'idx2re_label': idx2re_label
     }, "trained_model.pt")
-
-
 
 
