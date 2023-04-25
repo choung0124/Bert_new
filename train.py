@@ -11,14 +11,15 @@ from model import NER_RE_Model
 
 def tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx):
     tokenized_data = []
-    for sentence, ner_label, re_label in dataset:
+    for sentence, subject_label, object_label, re_label in dataset:
         tokens = tokenizer(sentence, truncation=True, padding='max_length', max_length=128, return_tensors='pt')
         input_ids = tokens['input_ids'].squeeze()
         attention_mask = tokens['attention_mask'].squeeze()
         token_type_ids = tokens['token_type_ids'].squeeze()
-        ner_label_tensor = torch.tensor(ner_label2idx[ner_label] if ner_label is not None else ner_label2idx[None], dtype=torch.long)
+        subject_label_tensor = torch.tensor(ner_label2idx[subject_label] if subject_label is not None else ner_label2idx[None], dtype=torch.long)
+        object_label_tensor = torch.tensor(ner_label2idx[object_label] if object_label is not None else ner_label2idx[None], dtype=torch.long)
         re_label_tensor = torch.tensor(re_label2idx[re_label] if re_label is not None else re_label2idx[None], dtype=torch.long)
-        tokenized_data.append((input_ids, attention_mask, token_type_ids, ner_label_tensor, re_label_tensor))
+        tokenized_data.append((input_ids, attention_mask, token_type_ids, subject_label_tensor, object_label_tensor, re_label_tensor))
     return tokenized_data
 
 def train(model, dataloader, optimizer, device):
