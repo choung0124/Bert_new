@@ -24,11 +24,12 @@ def predict(model, input_ids, attention_mask, token_type_ids, device):
         attention_mask = attention_mask.to(device)
         token_type_ids = token_type_ids.to(device)
 
-        ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
-        ner_predictions = torch.argmax(ner_logits, dim=-1).cpu().numpy()
-        re_predictions = torch.argmax(re_logits, dim=-1).cpu().numpy()
+        ner_logits_subject, ner_logits_object, re_logits = model(input_ids, attention_mask, token_type_ids)
+        ner_predictions_subject = torch.argmax(ner_logits_subject, dim=-1).squeeze().cpu()
+        ner_predictions_object = torch.argmax(ner_logits_object, dim=-1).squeeze().cpu()
+        re_predictions = torch.argmax(re_logits, dim=-1).squeeze().cpu()
 
-    return ner_predictions, re_predictions
+    return ner_predictions_subject, ner_predictions_object, re_predictions
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -49,13 +50,14 @@ if __name__ == "__main__":
     tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
     input_ids, attention_mask, token_type_ids = tokenize_input_text(text, tokenizer)
 
-    ner_predictions, re_predictions = predict(model, input_ids, attention_mask, token_type_ids, device)
-    
-    ner_label = idx2ner_label[ner_predictions[0]]
-    re_label = idx2re_label[re_predictions[0]]
+    ner_predictions_subject, ner_predictions_object, re_predictions = predict(model, input_ids, attention_mask, token_type_ids, device)
 
-    print("NER Predictions:", ner_label)
-    print("RE Predictions:", re_label)
+    # Convert the input_ids back to tokens
+    tokens = tokenizer.convert_ids_to_tokens(input_ids.squeeze())[1:-1]  # Remove [CLS] and [SEP] tokens
 
-    print("NER Predictions:", ner_predictions)
-    print("RE Predictions:", re_predictions)
+    subject, object_, relationship = extract_entities_and_relationship(tokens, ner_predictions_subject, ner_predictions_object, re_predictions, idx2ner_label, idx2re_label)
+
+    print("Subject:", subject)
+    print("Object:", object_)
+    print("Relationship:", relationship)
+
