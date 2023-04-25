@@ -60,10 +60,12 @@ if __name__ == "__main__":
     ner_label2idx, re_label2idx, idx2ner_label, idx2re_label = create_label_mappings(entity_sentences, relation_sentences)
 
     sentences = [item['sentence'] for item in entity_sentences + relation_sentences]
-    ner_labels = [item['entity'] for item in entity_sentences] + [None] * len(relation_sentences)
+    subject_labels = [None] * len(entity_sentences) + [item['subject'] for item in relation_sentences]
+    object_labels = [None] * len(entity_sentences) + [item['object'] for item in relation_sentences]
     re_labels = [None] * len(entity_sentences) + [item['relation'] for item in relation_sentences]
 
-    dataset = NERRE_Dataset(sentences, ner_labels, re_labels)
+    dataset = NERRE_Dataset(sentences, subject_labels, object_labels, re_labels)
+
     tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
     tokenized_data = tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx)
 
