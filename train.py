@@ -17,7 +17,7 @@ def tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx):
         attention_mask = tokens['attention_mask'].squeeze()
         token_type_ids = tokens['token_type_ids'].squeeze()
         subject_label_tensor = torch.tensor(ner_label2idx.get(subject_label, ner_label2idx.get(None)), dtype=torch.long)
-        object_label_tensor = torch.tensor(ner_label2idx[object_label] if object_label is not None else ner_label2idx[None], dtype=torch.long)
+        object_label_tensor = torch.tensor(ner_label2idx.get(object_label, ner_label2idx.get(None)), dtype=torch.long)
         re_label_tensor = torch.tensor(re_label2idx[re_label] if re_label is not None else re_label2idx[None], dtype=torch.long)
         tokenized_data.append((input_ids, attention_mask, token_type_ids, subject_label_tensor, object_label_tensor, re_label_tensor))
     return tokenized_data
