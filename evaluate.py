@@ -11,30 +11,36 @@ from train import tokenize_our_data
 
 def evaluate(model, dataloader, device):
     model.eval()
-    ner_preds = []
+    ner_subject_preds = []
+    ner_object_preds = []
     re_preds = []
-    ner_true = []
+    ner_subject_true = []
+    ner_object_true = []
     re_true = []
 
     with torch.no_grad():
         for batch in dataloader:
-            input_ids, attention_mask, token_type_ids, ner_labels, re_labels = batch
+            input_ids, attention_mask, token_type_ids, subject_labels, object_labels, re_labels = batch
             input_ids = input_ids.to(device)
             attention_mask = attention_mask.to(device)
             token_type_ids = token_type_ids.to(device)
-            ner_labels = ner_labels.to(device)
+            subject_labels = subject_labels.to(device)
+            object_labels = object_labels.to(device)
             re_labels = re_labels.to(device)
 
-            ner_logits, re_logits = model(input_ids, attention_mask, token_type_ids)
-            ner_pred = torch.argmax(ner_logits, dim=1).cpu().numpy()
+            ner_logits_subject, ner_logits_object, re_logits = model(input_ids, attention_mask, token_type_ids)
+            ner_subject_pred = torch.argmax(ner_logits_subject, dim=1).cpu().numpy()
+            ner_object_pred = torch.argmax(ner_logits_object, dim=1).cpu().numpy()
             re_pred = torch.argmax(re_logits, dim=1).cpu().numpy()
 
-            ner_preds.extend(ner_pred)
+            ner_subject_preds.extend(ner_subject_pred)
+            ner_object_preds.extend(ner_object_pred)
             re_preds.extend(re_pred)
-            ner_true.extend(ner_labels.cpu().numpy())
+            ner_subject_true.extend(subject_labels.cpu().numpy())
+            ner_object_true.extend(object_labels.cpu().numpy())
             re_true.extend(re_labels.cpu().numpy())
 
-    return ner_true, ner_preds, re_true, re_preds
+    return ner_subject_true, ner_subject_preds, ner_object_true, ner_object_preds, re_true, re_preds
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -69,16 +75,19 @@ if __name__ == "__main__":
     model.to(device)
 
     dataloader = DataLoader(tokenized_data, batch_size=8, shuffle=False)
-    ner_true, ner_preds, re_true, re_preds = evaluate(model, dataloader, device)
+    ner_subject_true, ner_subject_preds, ner_object_true, ner_object_preds, re_true, re_preds = evaluate(model, dataloader, device)
 
-    ner_unique_labels = sorted(list(set(ner_true + ner_preds)))
+    ner_unique_labels = sorted(list(set(ner_subject_true + ner_subject_preds + ner_object_true + ner_object_preds)))
     re_unique_labels = sorted(list(set(re_true + re_preds)))
 
     if not ner_unique_labels:
         print("No NER labels found in the dataset.")
     else:
-        print("NER Evaluation:")
-        print(classification_report(ner_true, ner_preds, labels=ner_unique_labels, target_names=[idx2ner_label[l] for l in ner_unique_labels], digits=4))
+        print("NER Subject Evaluation:")
+        print(classification_report(ner_subject_true, ner_subject_preds, labels=ner_unique_labels, target_names=[idx2ner_label[l] for l in ner_unique_labels], digits=4))
+
+        print("NER Object Evaluation:")
+        print(classification_report(ner_object_true, ner_object_preds, labels=ner_unique_labels, target_names=[idx2ner_label[l] for l in ner_unique_labels], digits=4))
 
     if not re_unique_labels:
         print("No RE labels found in the dataset.")
