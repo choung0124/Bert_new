@@ -22,24 +22,6 @@ def tokenize_our_data(dataset, tokenizer, ner_label2idx, re_label2idx):
         tokenized_data.append((input_ids, attention_mask, token_type_ids, subject_label_tensor, object_label_tensor, re_label_tensor))
     return tokenized_data
 
-def check_labels(labels, ner_label2idx, re_label2idx):
-    max_ner_label = len(ner_label2idx) - 1
-    max_re_label = len(re_label2idx) - 1
-
-    for label in labels:
-        if label is not None:
-            ner_label_idx = ner_label2idx.get(label)
-            re_label_idx = re_label2idx.get(label)
-            if ner_label_idx is not None and (ner_label_idx < 0 or ner_label_idx > max_ner_label):
-                print(f"Invalid NER label: {label} (index: {ner_label_idx})")
-            if re_label_idx is not None and (re_label_idx < 0 or re_label_idx > max_re_label):
-                print(f"Invalid RE label: {label} (index: {re_label_idx})")
-
-# Check subject_labels, object_labels, and re_labels for invalid values
-check_labels(subject_labels, ner_label2idx, re_label2idx)
-check_labels(object_labels, ner_label2idx, re_label2idx)
-check_labels(re_labels, ner_label2idx, re_label2idx)
-
 def train(model, dataloader, optimizer, device):
     model.train()
     total_loss = 0
@@ -55,13 +37,12 @@ def train(model, dataloader, optimizer, device):
         object_labels = object_labels.to(device)
         re_labels = re_labels.to(device)
 
-        ner_logits_subject, ner_logits_object, ner_logits_regular, re_logits = model(input_ids, attention_mask, token_type_ids)
+        ner_logits_subject, ner_logits_object, re_logits = model(input_ids, attention_mask, token_type_ids)
         ner_loss_subject = criterion(ner_logits_subject, subject_labels)
         ner_loss_object = criterion(ner_logits_object, object_labels)
-        ner_loss_regular = criterion(ner_logits_regular, re_labels)  # Calculate regular NER loss
         re_loss = criterion(re_logits, re_labels)
 
-        loss = ner_loss_subject + ner_loss_object + ner_loss_regular + re_loss  # Add regular NER loss to the total loss
+        loss = ner_loss_subject + ner_loss_object + re_loss
 
         loss.backward()
         optimizer.step()
@@ -100,7 +81,6 @@ if __name__ == "__main__":
     optimizer = AdamW(model.parameters(), lr=3e-5)
     criterion = torch.nn.CrossEntropyLoss()
 
-
     num_epochs = 3
     for epoch in range(num_epochs):
         print(f"{'-' * 15} Epoch {epoch + 1}/{num_epochs} {'-' * 15}")
@@ -114,7 +94,6 @@ if __name__ == "__main__":
         'model_state_dict': model.state_dict(),
         'subject_ner_classifier_dim': model.subject_ner_classifier.out_features,
         'object_ner_classifier_dim': model.object_ner_classifier.out_features,
-        'regular_ner_classifier_dim': model.regular_ner_classifier.out_features,  # Save regular NER classifier dimensions
         're_classifier_dim': model.re_classifier.out_features,
         'idx2ner_label': idx2ner_label,
         'idx2re_label': idx2re_label
