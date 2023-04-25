@@ -27,25 +27,25 @@ def extract_sentences(full_text, full_entities, full_relations):
     entity_sentences = []
     relation_sentences = []
 
-    pattern = re.compile(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s')
-
     for text, entities, relations in zip(full_text, full_entities, full_relations):
         for entity in entities:
-            span_begin = entity['span']['begin']
-            span_end = entity['span']['end']
-            sentences = pattern.split(text)
-            for sentence in sentences:
-                if text.find(sentence) <= span_begin and text.find(sentence) + len(sentence) >= span_end:
-                    entity_sentences.append({'entity': entity['entityName'], 'sentence': sentence})
+            start, end = entity["charOffset"].split("-")
+            start, end = int(start), int(end)
+            entity_sentence = text[max(0, start - 10):min(end + 10, len(text))]
+            entity_sentences.append({"sentence": entity_sentence, "entity": entity["type"]})
 
         for relation in relations:
-            subject_text = relation['subjectText']
-            object_text = relation['objectText']
-            if subject_text in text and object_text in text:
-                sentences = pattern.split(text)
-                for sentence in sentences:
-                    if subject_text in sentence and object_text in sentence:
-                        relation_sentences.append({'relation': relation['rel_name'], 'sentence': sentence})
+            subject_start, subject_end = map(int, relation["subjectID"].split("_"))
+            object_start, object_end = map(int, relation["objectId"].split("_"))
+
+            relation_sentence = text[min(subject_start, object_start) - 10:max(subject_end, object_end) + 10]
+
+            relation_sentences.append({
+                "sentence": relation_sentence,
+                "subject": relation["subjectText"],
+                "object": relation["objectText"],
+                "relation": relation["rel_name"]
+            })
 
     return entity_sentences, relation_sentences
 
