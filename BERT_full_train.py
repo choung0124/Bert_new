@@ -6,10 +6,8 @@ from transformers import BertTokenizer, BertModel, BertPreTrainedModel
 from tqdm import tqdm
 from torch import nn
 import warnings
-from transformers import logging
-
-warnings.filterwarnings("ignore", message=".*Some weights of the model checkpoint.*", category=UserWarning, module="transformers")
-logging.set_verbosity_warning()
+import logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
