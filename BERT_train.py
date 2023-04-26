@@ -107,21 +107,16 @@ for file_name in os.listdir(json_directory):
         with open(json_path, "r") as json_file:
             json_data = json.load(json_file)
 
-        # Preprocess the data for NER tasks
-        ner_data, relation_dict, label_to_id, relation_to_id = preprocess_data(json_data, tokenizer)
+        # Preprocess the data for NER and RE tasks
+        ner_data, re_data, _, _ = preprocess_data(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
-        
-        # Preprocess the data for RE tasks
-# Preprocess the data for RE tasks
-        _, re_data = preprocess_data(json_data, tokenizer)
-        preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
+        preprocessed_re_data.append(re_data)
 
         #print(f"Processed: {file_name}")
         #print(f"Number of entities: {len(json_data['entities'])}")
         #for entity in json_data['entities']:
         #    print(entity)
 
-            
 
 # New custom model based on BERT
 class BertForNERAndRE(BertPreTrainedModel):
