@@ -116,7 +116,8 @@ for file_name in os.listdir(json_directory):
         preprocessed_ner_data.append(ner_data)
         
         # Preprocess the data for RE tasks
-        re_data = preprocess_re(json_data, relation_dict, tokenizer)  # <-- Call preprocess_re
+        re_data = preprocess_re(json_data, relation_dict, tokenizer)
+        print(re_data)# <-- Call preprocess_re
         preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
         #print(f"Processed: {file_name}")
