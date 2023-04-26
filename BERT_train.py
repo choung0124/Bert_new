@@ -39,7 +39,7 @@ def preprocess_data(json_data, tokenizer):
     for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
         begin, end = entity["span"]["begin"], entity["span"]["end"]
         entity_type = entity["entityType"]
-        entity_id = entity["entityId"]
+        entity_id = entity["entityId"].strip('"')
 
         # Process NER data
         entity_text = text[begin:end]
@@ -191,7 +191,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
-        re_labels.append(relation_label_to_id[re_data_dict["relation"]])
+        re_labels.append(relation_to_id[re_data_dict["relation"]])
 
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
