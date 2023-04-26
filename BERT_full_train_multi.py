@@ -24,59 +24,50 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-def preprocess_re(json_data, tokenizer):
-    re_data = []
-    if "relation_info" not in json_data:
-        #print("No relation information found for the text.")
-        return re_data
-
-    entities = {entity['entityId']: entity['entityName'] for entity in json_data['entities']}
-    for rel_info in json_data["relation_info"]:
-        subject_id = rel_info["subjectID"]
-        object_id = rel_info["objectId"]
-        relation_name = rel_info["rel_name"]
-        if subject_id not in entities or object_id not in entities:
-            continue
-        subject = entities[subject_id]
-        obj = entities[object_id]
-        unique_relation_labels.add(relation_name)
-        re_data.append({'id': (subject_id, object_id), 'subject': subject, 'object': obj, 'relation': relation_name})
-        #print(f"Processed relation: ({subject}, {obj}, {relation_name})")
-            
-    if not re_data:
-        print("No relations found for entities in the text.")
-    
-    return re_data
-
-def preprocess_ner(json_data, tokenizer):
+def preprocess_ner_and_re(json_data, tokenizer):
     ner_data = []
-    relation_dict = {}
+    re_data = []
+    entities_dict = {}
 
-    # Create an entities_dict
-    entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
+    for entity in json_data["entities"]:
+        entities_dict[entity["entityId"]] = {
+            "entityType": entity["entityType"],
+            "entityName": entity["entityName"],
+            "span": entity["span"]
+        }
 
     for relation in json_data["relation_info"]:
         subject_id = relation["subjectID"]
         obj_id = relation["objectId"]
-        if subject_id not in relation_dict:
-            relation_dict[subject_id] = {}
-        relation_dict[subject_id][obj_id] = relation["rel_name"]
+        relation_name = relation["rel_name"]
+        if subject_id not in entities_dict or obj_id not in entities_dict:
+            continue
 
-        
-    for entity in json_data["entities"]:
+        subject = entities_dict[subject_id]["entityName"]
+        obj = entities_dict[obj_id]["entityName"]
+        unique_relation_labels.add(relation_name)
+        re_data.append({'id': (subject_id, obj_id), 'subject': subject, 'object': obj, 'relation': relation_name})
+
+    for entity_id, entity in entities_dict.items():
         begin = entity["span"]["begin"]
         end = entity["span"]["end"]
         entity_type = entity["entityType"]
         entity_text = json_data["text"][begin:end]
         relation_ids = []
 
-        # Check if the entity has any relations
-        if entity["entityId"] in relation_dict:
-            for obj_id, rel_name in relation_dict[entity["entityId"]].items():
-                relation_ids.append((obj_id, rel_name))
+        if entity_id not in [r['id'][0] for r in re_data]:
+            ner_data.append((begin, end, entity_type, entity_text, []))
+            continue
+
+        for re_data_dict in re_data:
+            if entity_id == re_data_dict['id'][0]:
+                obj_id = re_data_dict['id'][1]
+                relation_name = re_data_dict['relation']
+                obj = entities_dict[obj_id]["entityName"]
+                relation_ids.append((obj, relation_name))
 
         ner_data.append((begin, end, entity_type, entity_text, relation_ids))
-    
+
     ner_data.sort(key=lambda x: x[0])
     
     text = json_data["text"]
@@ -85,8 +76,8 @@ def preprocess_ner(json_data, tokenizer):
     
     for begin, end, entity_type, entity_text, relation_ids in ner_data:
         unique_ner_labels.add(entity_type)
-        if entity_type != "O":  # Add this line
-            unique_ner_labels.add(f"I-{entity_type}")  # Add this line
+        if entity_type != "O":
+            unique_ner_labels.add(f"I-{entity_type}")
         while current_idx < begin:
             ner_tags.append((text[current_idx], "O"))
             current_idx += 1
@@ -96,7 +87,7 @@ def preprocess_ner(json_data, tokenizer):
             if i == 0:
                 ner_tags.append((entity_tokens[i], f"{entity_type}"))
             else:
-                ner_tags.append((entity_tokens[i], f"I-{entity_type}"))  # <-- Use "I-" prefix for continuation
+                ner_tags.append((entity_tokens[i], f"I-{entity_type}"))
             current_idx += 1
 
         current_idx = end
@@ -105,8 +96,7 @@ def preprocess_ner(json_data, tokenizer):
         ner_tags.append((text[current_idx], "O"))
         current_idx += 1
     
-    return ner_tags, relation_dict
-
+    return ner_tags, re_data
 
 def process_file(file_name, json_directory, tokenizer, unique_ner_labels, unique_relation_labels):
     json_path = os.path.join(json_directory, file_name)
