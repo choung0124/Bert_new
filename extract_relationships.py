@@ -1,68 +1,92 @@
-import argparse
-import json
 import torch
-from transformers import BertTokenizer, BertForTokenClassification, BertConfig
-from model import BertForNERAndRE
+from transformers import BertTokenizer, BertPreTrainedModel
+from torch import nn
 
-parser = argparse.ArgumentParser(description="Extract relationships from input text")
-parser.add_argument("--model_dir", type=str, default="models/combined", help="Directory containing the fine-tuned model and tokenizer")
-parser.add_argument("--text", type=str, required=True, help="Input text to extract relationships from")
-args = parser.parse_args()
+# Custom BERT model for NER and RE tasks
+class BertForNERAndRE(BertPreTrainedModel):
+    def __init__(self, config, num_ner_labels, num_re_labels):
+        super().__init__(config)
+        self.bert = BertModel(config)
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.ner_classifier = nn.Linear(config.hidden_size, num_ner_labels)
+        self.re_classifier = nn.Linear(config.hidden_size, num_re_labels)
+
+    def forward(
+        self,
+        input_ids=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        ner_labels=None,
+        re_labels=None,
+    ):
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+        )
+
+        sequence_output = outputs[0]
+        pooled_output = outputs[1]
+
+        sequence_output = self.dropout(sequence_output)
+        pooled_output = self.dropout(pooled_output)
+
+        ner_logits = self.ner_classifier(sequence_output)
+        re_logits = self.re_classifier(pooled_output)
+
+        total_loss = 0
+        if ner_labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            ner_loss = loss_fct(ner_logits.view(-1, self.config.num_ner_labels), ner_labels.view(-1))
+            total_loss += ner_loss
+
+        if re_labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            re_loss = loss_fct(re_logits.view(-1, self.config.num_re_labels), re_labels.view(-1))
+            total_loss += re_loss
+
+        return (total_loss, ner_logits, re_logits) if total_loss > 0 else (ner_logits, re_logits)
+
+# Load the fine-tuned custom BERT model and tokenizer
+model_dir = "models/combined"
+tokenizer = BertTokenizer.from_pretrained(model_dir)
+model = BertForNERAndRE.from_pretrained(model_dir)
+model.eval()
+model.to("cpu")
 
 # Load the label_to_id and relation_to_id mappings
-with open(f"{args.model_dir}/label_to_id.json", "r") as f:
+with open(os.path.join(model_dir, "label_to_id.json"), "r") as f:
     label_to_id = json.load(f)
+id_to_label = {v: k for k, v in label_to_id.items()}
 
-with open(f"{args.model_dir}/relation_to_id.json", "r") as f:
+with open(os.path.join(model_dir, "relation_to_id.json"), "r") as f:
     relation_to_id = json.load(f)
+id_to_relation = {v: k for k, v in relation_to_id.items()}
 
-# Load the fine-tuned model and tokenizer
-# Initialize the custom BERT model
-model = BertForNERAndRE(
-    config=BertConfig.from_pretrained(args.model_dir),
-    num_ner_labels=len(label_to_id),
-    num_re_labels=len(relation_to_id)
-)
-tokenizer = BertTokenizer.from_pretrained(args.model_dir)
+# Input text
+input_text = "The incidence of myocardial injury following post-operative Goal Directed Therapy Background Studies suggest that Goal Directed Therapy (GDT) results in improved outcome following major surgery. However, there is concern that pre-emptive use of inotropic therapy may lead to an increased incidence of myocardial ischaemia and infarction. Methods Post hoc analysis of data collected prospectively during a randomised controlled trial of the effects of post-operative GDT in high-risk general surgical patients. Serum troponin T concentrations were measured at baseline and on"
 
 # Tokenize the input text
-tokens = tokenizer.tokenize(args.text)
-input_ids = tokenizer.convert_tokens_to_ids(tokens)
-attention_mask = [1] * len(input_ids)
+encoded_input = tokenizer.encode_plus(input_text, return_tensors="pt", padding="max_length", truncation=True, max_length=512)
 
-# Make predictions using the model
+# Perform NER and RE tasks
 with torch.no_grad():
-    inputs = {
-        "input_ids": torch.tensor([input_ids]),
-        "attention_mask": torch.tensor([attention_mask]),
-    }
-    outputs = model(**inputs)
-    ner_predictions = outputs[1].argmax(dim=2).tolist()[0]
-    re_predictions = outputs["re_logits"].argmax(dim=1).tolist()
+    ner_logits, re_logits = model(**encoded_input)
 
-# Extract the relationships from the predictions
-relationships = []
-current_entity = None
-current_relation = None
+# Decode NER predictions
+ner_predictions = torch.argmax(ner_logits, dim=2).squeeze(0).tolist()
+ner_labels = [id_to_label[pred] for pred in ner_predictions]
 
-for i, (token, label) in enumerate(zip(tokens, ner_predictions)):
-    label = list(label_to_id.keys())[list(label_to_id.values()).index(label)]
-    if label.startswith("B-"):
-        if current_relation is not None:
-            relationships.append((current_entity, current_relation, entity))
-        current_entity = token
-        current_relation = label.split("-")[1]
-    elif label.startswith("I-"):
-        if current_entity is None:
-            current_entity = token
-        else:
-            current_entity += " " + token
-    else:
-        if current_entity is not None and current_relation is not None:
-            relationships.append((current_entity, current_relation, entity))
-        current_entity = None
-        current_relation = None
+# Decode RE predictions
+re_prediction = torch.argmax(re_logits, dim=1).item()
+re_label = id_to_relation[re_prediction]
 
-# Print the extracted relationships
-for relationship in relationships:
-    print(relationship)
+# Print results
+print(f"NER labels: {ner_labels}")
+print(f"Extracted relation: {re_label}")
