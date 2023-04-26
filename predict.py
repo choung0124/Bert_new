@@ -20,7 +20,7 @@ id_to_label = {v: k for k, v in label_to_id.items()}
 id_to_relation = {v: k for k, v in relation_to_id.items()}
 
 
-def predict_ner(text: str, confidence_threshold: float = 0.8) -> List[dict]:
+def predict_ner(text: str, confidence_threshold: float = 0.5) -> List[dict]:
     with open("models/combined/label_to_id.json", "r") as f:
         label_to_id = json.load(f)
     
