@@ -182,11 +182,15 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_input_ids.append(encoded_ner["input_ids"])
     ner_attention_masks.append(encoded_ner["attention_mask"])
 
-    aligned_ner_labels = []
+    aaligned_ner_labels = []
     for label in ner_labels_:
         label_id = label_to_id[label]
         sub_tokens = tokenizer.tokenize(label.split()[0])
-        aligned_ner_labels.extend([label_id] + [label_to_id[f"I-{label}"]] * (len(sub_tokens) - 1))
+        if label == "O":
+            aligned_ner_labels.extend([label_id] * len(sub_tokens))
+        else:
+            aligned_ner_labels.extend([label_id] + [label_to_id[f"I-{label}"]] * (len(sub_tokens) - 1))
+
 
 
     padded_ner_labels = aligned_ner_labels[:512]
