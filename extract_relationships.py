@@ -104,16 +104,17 @@ ner_labels = [id_to_label[pred] for pred in ner_predictions]
 # Extract subject, object, and relationship from RE prediction
 re_prediction = torch.argmax(re_logits, dim=1).item()
 re_label = id_to_relation[re_prediction]
-subject = ner_labels[ner_predictions.index("B-Subject")]
-object = ner_labels[ner_predictions.index("B-Object")]
+subject_start = ner_predictions.index(label_to_id["B-Subject"])
+subject_end = subject_start + ner_predictions[subject_start:].index(label_to_id["O"]) - 1
+object_start = ner_predictions.index(label_to_id["B-Object"])
+object_end = object_start + ner_predictions[object_start:].index(label_to_id["O"]) - 1
+subject = " ".join(ner_labels[subject_start:subject_end+1])
+object = " ".join(ner_labels[object_start:object_end+1])
 
 # Print results
 print(f"Subject: {subject}")
 print(f"Object: {object}")
 print(f"Relationship: {re_label}")
-
-
-# Print results
 print(f"NER labels: {ner_labels}")
-print(f"Extracted relationship: {ner_labels[subject_start:subject_end+1]} -> {re_label} -> {ner_labels[object_start:object_end+1]}")
+print(f"Extracted relationship: {subject} -> {re_label} -> {object}")
 
