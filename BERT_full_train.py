@@ -42,6 +42,7 @@ def preprocess_re(json_data, tokenizer):
     return re_data
 
 
+
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
     relation_dict = {}
