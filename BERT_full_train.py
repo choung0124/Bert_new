@@ -43,7 +43,7 @@ def preprocess_ner(json_data, tokenizer):
         if relation["subjectID"] in entity_dict and relation["objectId"] in entity_dict:
             print("Subject entity:", entity_dict[relation["subjectID"]])
             print("Object entity:", entity_dict[relation["objectId"]])
-        subject_id, obj_id = relation["subjectID"], relation["objectId"]
+            
         if subject_id not in relation_dict:
             relation_dict[subject_id] = {}
         relation_dict[subject_id][obj_id] = relation["rel_name"]
