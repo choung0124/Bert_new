@@ -15,11 +15,11 @@ tokenizer = BertTokenizer.from_pretrained(output_dir)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-with open(os.path.join(output_dir, "label_to_id.json"), "r") as f:
+with open(os.path.join(output_dir, "models/combined/label_to_id.json"), "r") as f:
     label_to_id = json.load(f)
     id_to_label = {idx: label for label, idx in label_to_id.items()}
 
-with open(os.path.join(output_dir, "relation_to_id.json"), "r") as f:
+with open(os.path.join(output_dir, "models/combined/relation_to_id.json"), "r") as f:
     relation_to_id = json.load(f)
     id_to_relation = {idx: relation for relation, idx in relation_to_id.items()}
 
