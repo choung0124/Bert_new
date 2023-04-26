@@ -1,6 +1,8 @@
 import argparse
 from predict import predict_ner, predict_re
 import json
+import logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
 
 parser = argparse.ArgumentParser(description='Predict entities and relations from text.')
 parser.add_argument('text', type=str, help='input text')
@@ -23,3 +25,4 @@ print("Entities:")
 print(entities)
 print("\nRelations:")
 print(relations)
+
