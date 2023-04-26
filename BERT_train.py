@@ -69,7 +69,7 @@ def preprocess_data(json_data, tokenizer):
                         'object_tokens': tokenizer.tokenize(text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]])
                     })
                 else:
-                    print(f"Warning: obj_id '{obj_id}' not found in entities_dict. Skipping this relation.")
+                    #print(f"Warning: obj_id '{obj_id}' not found in entities_dict. Skipping this relation.")
                     continue
 
 
