@@ -68,6 +68,8 @@ def preprocess_ner(json_data, tokenizer):
     
     for begin, end, entity_type, entity_text, relation_ids in ner_data:
         unique_ner_labels.add(entity_type)
+        if entity_type != "O":  # Add this line
+            unique_ner_labels.add(f"I-{entity_type}")  # Add this line
         while current_idx < begin:
             ner_tags.append((text[current_idx], "O"))
             current_idx += 1
