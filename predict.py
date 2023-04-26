@@ -20,36 +20,36 @@ id_to_label = {v: k for k, v in label_to_id.items()}
 id_to_relation = {v: k for k, v in relation_to_id.items()}
 
 
-def predict_ner(text: str) -> List[dict]:
+def predict_ner(text: str, confidence_threshold: float = 0.8) -> List[dict]:
     with open("models/combined/label_to_id.json", "r") as f:
         label_to_id = json.load(f)
-
+    
     # Load the id_to_label dictionary using the label_to_id dictionary
     id_to_label = {v: k for k, v in label_to_id.items()}
-
+    
     input_ids = tokenizer.encode(text, add_special_tokens=True, return_tensors="pt")
     with torch.no_grad():
         outputs = model(input_ids)
-    predictions = outputs.last_hidden_state.argmax(-1).tolist()[0]
+    predictions = outputs.last_hidden_state.softmax(-1).tolist()[0]
+    predicted_labels = outputs.last_hidden_state.argmax(-1).tolist()[0]
     tokens = tokenizer.convert_ids_to_tokens(input_ids.tolist()[0])
 
     entities = []
-    current_entity = {"entityName": "", "entityType": "", "entityId": ""}
-    for i, (token, prediction) in enumerate(zip(tokens, predictions)):
+    current_entity = {"entityName": "", "entityType": "", "entityId": "", "confidence": 0.0}
+    for i, (token, prediction) in enumerate(zip(tokens, predicted_labels)):
         if token.startswith("##"):
             current_entity["entityName"] += token[2:]
         else:
-            if current_entity["entityType"]:
+            if current_entity["entityType"] and current_entity["confidence"] >= confidence_threshold:
                 entities.append(current_entity.copy())
             current_entity["entityName"] = token
+            current_entity["entityType"] = id_to_label[prediction]
             current_entity["entityId"] = f"T{i}"
-            if prediction in id_to_label:
-                current_entity["entityType"] = id_to_label[prediction]
-            else:
-                current_entity["entityType"] = "O"
-    if current_entity["entityType"]:
+            current_entity["confidence"] = predictions[i][prediction].item()
+    if current_entity["entityType"] and current_entity["confidence"] >= confidence_threshold:
         entities.append(current_entity.copy())
     return entities
+
 
 
 def predict_re(text: str, entities: List[dict]) -> List[dict]:
@@ -72,12 +72,10 @@ def predict_re(text: str, entities: List[dict]) -> List[dict]:
                 input_ids = tokenizer.encode(input_text, add_special_tokens=True, return_tensors="pt")
                 with torch.no_grad():
                     outputs = model(input_ids)
-                try:
-                    prediction = outputs.pooler_output.argmax(-1).item()
-                    relation_name = id_to_relation[prediction]
-                except KeyError:
-                    continue
+                prediction = outputs.pooler_output.argmax(-1).item()
+                relation_name = id_to_relation.get(prediction, "UNKNOWN")
                 relation_data.append({"subjectId": subject_id, "objectId": object_id, "subjectName": subject, "objectName": obj, "relationName": relation_name})
     return relation_data
+
 
 
