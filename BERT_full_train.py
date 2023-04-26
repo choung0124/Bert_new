@@ -182,7 +182,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_input_ids.append(encoded_ner["input_ids"])
     ner_attention_masks.append(encoded_ner["attention_mask"])
 
-    aaligned_ner_labels = []
+    aligned_ner_labels = []
     for label in ner_labels_:
         label_id = label_to_id[label]
         sub_tokens = tokenizer.tokenize(label.split()[0])
