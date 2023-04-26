@@ -20,7 +20,7 @@ unique_ner_labels.add("O")
 def preprocess_re(json_data, tokenizer):
     re_data = []
     if "relation_info" not in json_data:
-        print("No relation information found for the text.")
+        #print("No relation information found for the text.")
         return re_data
 
     entities = {entity['entityId']: entity['entityName'] for entity in json_data['entities']}
@@ -34,7 +34,7 @@ def preprocess_re(json_data, tokenizer):
         obj = entities[object_id]
         unique_relation_labels.add(relation_name)
         re_data.append({'id': (subject_id, object_id), 'subject': subject, 'object': obj, 'relation': relation_name})
-        print(f"Processed relation: ({subject}, {obj}, {relation_name})")
+        #print(f"Processed relation: ({subject}, {obj}, {relation_name})")
             
     if not re_data:
         print("No relations found for entities in the text.")
@@ -51,8 +51,8 @@ def preprocess_ner(json_data, tokenizer):
     # Extract the relation info and build a dictionary
     for relation in json_data["relation_info"]:
         if relation["subjectID"] in entities_dict and relation["objectId"] in entities_dict:
-            print("Subject entity:", entities_dict[relation["subjectID"]]["entityName"])
-            print("Object entity:", entities_dict[relation["objectId"]]["entityName"])
+            #print("Subject entity:", entities_dict[relation["subjectID"]]["entityName"])
+            #print("Object entity:", entities_dict[relation["objectId"]]["entityName"])
             
         subject_id = relation["subjectID"]
         obj_id = relation["objectId"]
@@ -124,7 +124,7 @@ for file_name in os.listdir(json_directory):
         
         # Preprocess the data for RE tasks
         re_data = preprocess_re(json_data, tokenizer)
-        print(re_data)# <-- Call preprocess_re
+        #print(re_data)# <-- Call preprocess_re
         preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
         #print(f"Processed: {file_name}")
@@ -192,7 +192,7 @@ ner_input_ids, ner_attention_masks, ner_labels = [], [], []
 re_input_ids, re_attention_masks, re_labels = [], [], []
 
 for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels"):
-    print(re_data)
+    #print(re_data)
     # Tokenize and align NER labels
     ner_tokens, ner_labels_ = zip(*ner_data)
     encoded_ner = tokenizer.encode_plus(ner_tokens, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
@@ -213,7 +213,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     padded_ner_labels.extend([-100] * (512 - len(padded_ner_labels)))
     ner_labels.append(torch.tensor(padded_ner_labels))
 
-    print(re_data)
+    #print(re_data)
     # Tokenize RE data
     for re_data_dict in re_data:
         subject_id, object_id = re_data_dict['id']
