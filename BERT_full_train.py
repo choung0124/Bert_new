@@ -213,24 +213,29 @@ ner_input_ids = torch.cat(ner_input_ids, dim=0)
 ner_attention_masks = torch.cat(ner_attention_masks, dim=0)
 ner_labels = torch.stack(ner_labels, dim=0)
 
-re_input_ids = torch.stack(re_input_ids, dim=0)
-re_attention_masks = torch.stack(re_attention_masks, dim=0)
-re_labels = torch.cat(re_labels)
-
+if re_input_ids:
+    re_input_ids = torch.stack(re_input_ids, dim=0)
+    re_attention_masks = torch.stack(re_attention_masks, dim=0)
+    re_labels = torch.cat(re_labels)
+    
+    print(f"re_input_ids shape: {re_input_ids.shape}")
+    print(f"re_attention_masks shape: {re_attention_masks.shape}")
+    print(f"re_labels shape: {re_labels.shape}")
+    
+    re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
+    re_loader = DataLoader(re_dataset, batch_size=batch_size)
+else:
+    print("No relation data to process.")
+    
 print(f"ner_input_ids shape: {ner_input_ids.shape}")
 print(f"ner_attention_masks shape: {ner_attention_masks.shape}")
 print(f"ner_labels shape: {ner_labels.shape}")
-
-print(f"re_input_ids shape: {re_input_ids.shape}")
-print(f"re_attention_masks shape: {re_attention_masks.shape}")
-print(f"re_labels shape: {re_labels.shape}")
 
 # Create separate DataLoaders for NER and RE tasks
 ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
 ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
 
-re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
-re_loader = DataLoader(re_dataset, batch_size=batch_size)
+
 
 # Initialize the custom BERT model
 model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
