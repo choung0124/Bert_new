@@ -1,7 +1,7 @@
 import argparse
 import json
 import torch
-from transformers import BertTokenizer, BertForTokenClassification
+from transformers import BertTokenizer, BertForTokenClassification, BertConfig
 from model import BertForNERAndRE
 
 parser = argparse.ArgumentParser(description="Extract relationships from input text")
