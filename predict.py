@@ -3,6 +3,8 @@ import torch
 import json
 from transformers import BertTokenizer, BertModel
 from typing import List
+import logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
 
 tokenizer = BertTokenizer.from_pretrained("models/combined")
 model = BertModel.from_pretrained("models/combined")
