@@ -6,12 +6,12 @@ import json
 # Load label_to_id
 with open("models/combined/label_to_id.json", "r") as f:
     label_to_id = json.load(f)
-    print(len(label_to_id)
+    print(len(label_to_id))
           
 # Load relation_to_id
-with open("models/combined/relation_to_id.json", "r") as f:
+with open("path/to/relation_to_id.json", "r") as f:
     relation_to_id = json.load(f)
-    print(len(relation_to_id)
+    print(len(relation_to_id))
 
 # Custom BERT model for NER and RE tasks
 class BertForNERAndRE(BertPreTrainedModel):
