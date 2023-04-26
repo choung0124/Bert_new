@@ -1,5 +1,5 @@
 import torch
-from transformers import BertTokenizer, BertForSequenceClassification
+from transformers import BertTokenizer, BertForSequenceClassification, BertConfig
 from BERT_full_train import BertForNERAndRE
 import json
 import sys
@@ -14,9 +14,16 @@ with open(os.path.join(model_path, "label_to_id.json"), "r") as f:
 with open(os.path.join(model_path, "relation_to_id.json"), "r") as f:
     relation_to_id = json.load(f)
 
-# Load the pretrained model and tokenizer
+    # Load the configuration of the pre-trained BERT model
+config = BertConfig.from_pretrained("bert-base-uncased")
+
+# Determine the number of NER and RE labels in your dataset
+num_ner_labels = len(label_to_id)
+num_re_labels = len(relation_to_id)
+
+# Load the fine-tuned model with the correct number of labels
+model = BertForNERAndRE.from_pretrained(model_path, config=config, num_ner_labels=num_ner_labels, num_re_labels=num_re_labels)
 tokenizer = BertTokenizer.from_pretrained(model_path)
-model = BertForSequenceClassification.from_pretrained(model_path, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 
 # Set the device (CPU or GPU) to use for inference
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
