@@ -88,6 +88,7 @@ for file_name in os.listdir(json_directory):
         # Load the JSON data
         with open(json_path, "r") as json_file:
             json_data = json.load(json_file)
+        print(f"Processing: {file_name}")
 
         # Preprocess the data for NER tasks
         ner_data, relation_dict = preprocess_data(json_data, tokenizer)
@@ -214,7 +215,7 @@ ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
 
 
 # Initialize the custom BERT model
-model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
+model = BertForNERAndRE.from_pretrained("bert-large-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 
 model.config.num_ner_labels = len(label_to_id)
 model.config.num_re_labels = len(relation_to_id)
