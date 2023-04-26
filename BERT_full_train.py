@@ -18,54 +18,44 @@ unique_ner_labels.add("O")
 
 
 # Existing preprocessing functions
-def preprocess_re(ner_data, tokenizer):
+def preprocess_re(json_data, relation_dict, tokenizer):
     re_data = []
-
-    for i, (begin, end, entity_type, entity_text, relation_ids) in enumerate(ner_data):
-        for j in range(i + 1, len(ner_data)):
-            _, _, other_type, other_text, other_relation_ids = ner_data[j]
-            if entity_type == other_type:
+    
+    for subject_id, obj_dict in relation_dict.items():
+        if subject_id not in json_data["entities"]:
+            continue
+        subject = json_data["entities"][subject_id]["entityName"]
+        for obj_id, relation_name in obj_dict.items():
+            if obj_id not in json_data["entities"]:
                 continue
-            for relation_id in relation_ids:
-                if relation_id in other_relation_ids:
-                    tokens = tokenizer.tokenize(f"{entity_text} [SEP] {other_text}")
-                    re_data.append((tokens, relation_id))
+            obj = json_data["entities"][obj_id]["entityName"]
+            re_data.append((subject, relation_name, obj))
 
     return re_data
 
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
+    relation_dict = {}
     
-    # Extract entity information
-    entities = {}
+    # Extract the relation info and build a dictionary
+    for relation in json_data["relation_info"]:
+        subject_id, obj_id = relation["subjectID"], relation["objectId"]
+        if subject_id not in relation_dict:
+            relation_dict[subject_id] = {}
+        relation_dict[subject_id][obj_id] = relation["rel_name"]
+        
     for entity in json_data["entities"]:
         begin = entity["span"]["begin"]
         end = entity["span"]["end"]
         entity_type = entity["entityType"]
         entity_text = json_data["text"][begin:end]
-        entity_id = entity["entityId"]
-        entities[entity_id] = {
-            "begin": begin,
-            "end": end,
-            "entity_type": entity_type,
-            "entity_text": entity_text,
-            "relation_ids": set(),
-        }
-    
-    # Extract relationship information
-    for relation in json_data["relation_info"]:
-        subject_id, obj_id = relation["subjectID"], relation["objectId"]
-        if subject_id in entities and obj_id in entities:
-            entities[subject_id]["relation_ids"].add(relation["rel_name"])
-            entities[obj_id]["relation_ids"].add(relation["rel_name"])
-    
-    # Convert entity and relationship information to NER training data
-    for entity_id, entity in entities.items():
-        begin, end = entity["begin"], entity["end"]
-        entity_type = entity["entity_type"]
-        entity_text = entity["entity_text"]
-        relation_ids = entity["relation_ids"]
-        
+        relation_ids = []
+
+        # Check if the entity has any relations
+        if entity["entityId"] in relation_dict:
+            for obj_id, rel_name in relation_dict[entity["entityId"]].items():
+                relation_ids.append((obj_id, rel_name))
+
         ner_data.append((begin, end, entity_type, entity_text, relation_ids))
     
     ner_data.sort(key=lambda x: x[0])
@@ -91,7 +81,8 @@ def preprocess_ner(json_data, tokenizer):
         ner_tags.append((text[current_idx], "O"))
         current_idx += 1
     
-    return ner_tags
+    return ner_tags, relation_dict
+
 
 json_directory = "test"
 preprocessed_ner_data = []
@@ -107,12 +98,9 @@ for file_name in os.listdir(json_directory):
             json_data = json.load(json_file)
 
         # Preprocess the data for NER tasks
-        ner_data = preprocess_ner(json_data, tokenizer)
+        ner_data, relation_dict = preprocess_ner(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
-
-        # Preprocess the data for RE tasks
-        re_data = preprocess_re(json_data, tokenizer)
-        preprocessed_re_data.append(re_data)
+        preprocessed_re_data.append(relation_dict)
 
         print(f"Processed: {file_name}")
         print(f"Number of entities: {len(json_data['entities'])}")
