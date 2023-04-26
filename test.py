@@ -1,5 +1,5 @@
 import argparse
-from predict import predict_ner, predict_re
+from predict import tokenizer, model, id_to_relation
 import json
 import logging
 from tqdm import tqdm
