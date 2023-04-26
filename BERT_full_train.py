@@ -29,7 +29,8 @@ def preprocess_re(json_data, relation_dict, tokenizer):
             if obj_id not in json_data["entities"]:
                 continue
             obj = json_data["entities"][obj_id]["entityName"]
-            re_data.append((subject_id, obj_id, relation_name, obj))  # <-- add obj to the tuple
+            unique_relation_labels.add(relation_name)  # <-- Add this line
+            re_data.append((subject_id, obj_id, relation_name, obj))
             print(f"Processed relation: ({subject}, {obj}, {relation_name})")
             
     return re_data
@@ -73,9 +74,12 @@ def preprocess_ner(json_data, tokenizer):
         
         entity_tokens = tokenizer.tokenize(entity_text)
         for i in range(len(entity_tokens)):
-            ner_tags.append((entity_tokens[i], f"{entity_type}"))
+            if i == 0:
+                ner_tags.append((entity_tokens[i], f"{entity_type}"))
+            else:
+                ner_tags.append((entity_tokens[i], f"I-{entity_type}"))  # <-- Use "I-" prefix for continuation
             current_idx += 1
-    
+
         current_idx = end
     
     while current_idx < len(text):
@@ -182,14 +186,15 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     for label in ner_labels_:
         label_id = label_to_id[label]
         sub_tokens = tokenizer.tokenize(label.split()[0])
-        aligned_ner_labels.extend([label_id] + [f"I-{label}"] * (len(sub_tokens) - 1))
+        aligned_ner_labels.extend([label_id] + [label_to_id[f"I-{label}"]] * (len(sub_tokens) - 1))
+
 
     padded_ner_labels = aligned_ner_labels[:512]
     padded_ner_labels.extend([-100] * (512 - len(padded_ner_labels)))
     ner_labels.append(torch.tensor(padded_ner_labels))
 
     # Tokenize RE data
-    for subject_id, obj_id, relation, _ in re_data:
+    for subject_id, obj_id, relation, obj in re_data:
         subject = json_data["entities"][subject_id]["entityName"]
         obj = json_data["entities"][obj_id]["entityName"]
         tokens = tokenizer.tokenize(f"{subject} [SEP] {obj}")
@@ -247,31 +252,32 @@ for epoch in range(num_epochs):
     re_num_batches = 0
 
     # Training loop for NER and RE combined
-    for ner_batch, re_batch in tqdm(zip(ner_loader, re_loader), desc="Training NER and RE", unit="batch"):
+    for ner_batch, re_batch in zip(ner_loader, re_loader):
         # Training NER
+        optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
         outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels)
         ner_loss = outputs[0]
         ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
+        ner_loss.backward()
+        optimizer.step()
 
         # Training RE
+        optimizer.zero_grad()
         input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
         outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels)
         re_loss = outputs[0]
         re_epoch_loss += re_loss.item()
         re_num_batches += 1
-
-        # Combine losses and backpropagate
-        total_loss = ner_loss + re_loss
-        total_loss.backward()
+        re_loss.backward()
         optimizer.step()
-        optimizer.zero_grad()
 
     ner_avg_epoch_loss = ner_epoch_loss / ner_num_batches
     re_avg_epoch_loss = re_epoch_loss / re_num_batches
     print(f"Average NER training loss: {ner_avg_epoch_loss:.4f}")
     print(f"Average RE training loss: {re_avg_epoch_loss:.4f}")
+
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
