@@ -34,8 +34,6 @@ def preprocess_re(json_data, relation_dict, tokenizer):
             
     return re_data
 
-
-
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
     relation_dict = {}
@@ -103,12 +101,16 @@ for file_name in os.listdir(json_directory):
         # Preprocess the data for NER tasks
         ner_data, relation_dict = preprocess_ner(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
-        preprocessed_re_data.append(relation_dict)
+        
+        # Preprocess the data for RE tasks
+        re_data = preprocess_re(json_data, relation_dict, tokenizer)  # <-- Call preprocess_re
+        preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
         print(f"Processed: {file_name}")
         print(f"Number of entities: {len(json_data['entities'])}")
         for entity in json_data['entities']:
             print(entity)
+
             
 label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
 relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_relation_labels))}
