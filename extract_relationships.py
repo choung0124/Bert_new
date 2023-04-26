@@ -1,7 +1,8 @@
 import argparse
 import json
 import torch
-from transformers import BertTokenizer, BertForNERAndRE
+from transformers import BertTokenizer
+from BERT_full_train import BertForNERAndRE
 
 parser = argparse.ArgumentParser(description="Extract relationships from input text")
 parser.add_argument("--model_dir", type=str, default="models/combined", help="Directory containing the fine-tuned model and tokenizer")
