@@ -88,11 +88,11 @@ for file_name in os.listdir(json_directory):
             json_data = json.load(json_file)
 
         # Preprocess the data for NER tasks
-        ner_data, relation_dict = preprocess_ner(json_data, tokenizer)
+        ner_data, relation_dict = preprocess_data(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
         
         # Preprocess the data for RE tasks
-        re_data = preprocess_re(json_data, tokenizer)
+        re_data = preprocess_data(json_data, tokenizer)
         #print(re_data)# <-- Call preprocess_re
         preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
