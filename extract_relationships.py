@@ -2,7 +2,7 @@ import argparse
 import json
 import torch
 from transformers import BertTokenizer
-from model import BertForNERAndRE
+from BERT_full_train import BertForNERAndRE
 
 # Define command line arguments
 parser = argparse.ArgumentParser(description="Extract relationships from text using a fine-tuned BERT model.")
