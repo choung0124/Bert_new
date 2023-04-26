@@ -37,7 +37,7 @@ with torch.no_grad():
         "attention_mask": torch.tensor([attention_mask]),
     }
     outputs = model(**inputs)
-    ner_predictions = outputs["ner_logits"].argmax(dim=2).tolist()[0]
+    ner_predictions = outputs[1].argmax(dim=2).tolist()[0]
     re_predictions = outputs["re_logits"].argmax(dim=1).tolist()
 
 # Extract the relationships from the predictions
