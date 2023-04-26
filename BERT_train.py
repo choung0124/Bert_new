@@ -58,17 +58,20 @@ def preprocess_data(json_data, tokenizer):
         # Process RE data
         if entity_id in relation_dict:
             for obj_id, rel_name in relation_dict[entity_id].items():
-                print("entities_dict:", entities_dict)
-                print("relation_dict:", relation_dict)
-                obj_entity = entities_dict[obj_id]
-                re_data.append({
-                    'id': (entity_id, obj_id),
-                    'subject': entity_text,
-                    'object': text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]],
-                    'relation': rel_name,
-                    'subject_tokens': entity_tokens,
-                    'object_tokens': tokenizer.tokenize(text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]])
-                })
+                if obj_id in entities_dict:
+                    obj_entity = entities_dict[obj_id]
+                    re_data.append({
+                        'id': (entity_id, obj_id),
+                        'subject': entity_text,
+                        'object': text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]],
+                        'relation': rel_name,
+                        'subject_tokens': entity_tokens,
+                        'object_tokens': tokenizer.tokenize(text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]])
+                    })
+                else:
+                    print(f"Warning: obj_id '{obj_id}' not found in entities_dict. Skipping this relation.")
+                    continue
+
 
     while current_idx < len(text):
         ner_data.append((text[current_idx], "O"))
