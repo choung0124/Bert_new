@@ -1,5 +1,5 @@
 import torch
-from transformers import BertTokenizer, BertPreTrainedModel
+from transformers import BertTokenizer, BertPreTrainedModel, BertModel
 from torch import nn
 import json
 
