@@ -28,8 +28,8 @@ def preprocess_data(json_data, tokenizer):
 
     relation_dict = {}
     for relation in json_data["relation_info"]:
-        subject_id = relation["subjectID"]
-        obj_id = relation["objectId"]
+        subject_id = relation["subjectID"].strip('"')  # Remove extra quotes
+        obj_id = relation["objectId"].strip('"')  # Remove extra quotes
         if subject_id not in relation_dict:
             relation_dict[subject_id] = {}
         relation_dict[subject_id][obj_id] = relation["rel_name"]
