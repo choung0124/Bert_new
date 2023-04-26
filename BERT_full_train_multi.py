@@ -137,7 +137,7 @@ for ner_data, relation_dict, re_data in results:
     preprocessed_ner_data.append(ner_data)
     preprocessed_re_data.append(re_data)
 
- label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
+label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
 relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_relation_labels))}
 
 # New custom model based on BERT
