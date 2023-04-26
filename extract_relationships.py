@@ -1,7 +1,7 @@
 import argparse
 import json
 import torch
-from transformers import BertTokenizer
+from transformers import BertTokenizer, BertForTokenClassification
 from model import BertForNERAndRE
 
 parser = argparse.ArgumentParser(description="Extract relationships from input text")
@@ -32,40 +32,31 @@ with torch.no_grad():
         "attention_mask": torch.tensor([attention_mask]),
     }
     outputs = model(**inputs)
-    ner_predictions = outputs[1].argmax(dim=2).tolist()[0]
-    re_predictions = outputs[2].argmax(dim=1).tolist()[0]
+    ner_predictions = outputs["ner_logits"].argmax(dim=2).tolist()[0]
+    re_predictions = outputs["re_logits"].argmax(dim=1).tolist()
 
-# Extract the entities from the NER predictions
-entities = []
+# Extract the relationships from the predictions
+relationships = []
 current_entity = None
+current_relation = None
 
-for token, label in zip(tokens, ner_predictions):
+for i, (token, label) in enumerate(zip(tokens, ner_predictions)):
     label = list(label_to_id.keys())[list(label_to_id.values()).index(label)]
     if label.startswith("B-"):
-        if current_entity is not None:
-            entities.append(current_entity)
+        if current_relation is not None:
+            relationships.append((current_entity, current_relation, entity))
         current_entity = token
+        current_relation = label.split("-")[1]
     elif label.startswith("I-"):
         if current_entity is None:
             current_entity = token
         else:
             current_entity += " " + token
     else:
-        if current_entity is not None:
-            entities.append(current_entity)
+        if current_entity is not None and current_relation is not None:
+            relationships.append((current_entity, current_relation, entity))
         current_entity = None
-
-if current_entity is not None:
-    entities.append(current_entity)
-
-# Extract the relationships from the RE predictions
-relationships = []
-
-for i, relation_id in enumerate(re_predictions):
-    relation_name = list(relation_to_id.keys())[list(relation_to_id.values()).index(relation_id)]
-    subject = entities[i]
-    obj = entities[i+1]
-    relationships.append((subject, relation_name, obj))
+        current_relation = None
 
 # Print the extracted relationships
 for relationship in relationships:
