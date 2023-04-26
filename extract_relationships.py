@@ -1,120 +1,37 @@
-import torch
-from transformers import BertTokenizer, BertPreTrainedModel, BertModel
-from torch import nn
-import json
-import os
+import re
 
-# Load label_to_id
-with open("models/combined/label_to_id.json", "r") as f:
-    label_to_id = json.load(f)
-    print(len(label_to_id))
-          
-# Load relation_to_id
-with open("models/combined/relation_to_id.json", "r") as f:
-    relation_to_id = json.load(f)
-    print(len(relation_to_id))
+# Define a regular expression pattern to match entity IDs in brackets, e.g. [e1]
+entity_id_pattern = re.compile(r"\[e\d+\]")
 
-# Custom BERT model for NER and RE tasks
-class BertForNERAndRE(BertPreTrainedModel):
-    def __init__(self, config, num_ner_labels, num_re_labels):
-        super().__init__(config)
-        self.bert = BertModel(config)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.ner_classifier = nn.Linear(config.hidden_size, num_ner_labels)
-        self.re_classifier = nn.Linear(config.hidden_size, num_re_labels)
+def extract_entities(text):
+    entities = {}
+    # Find all matches of entity ID pattern
+    for entity_id in entity_id_pattern.findall(text):
+        # Remove brackets from entity ID
+        entity_id = entity_id[1:-1]
+        # Replace entity ID in text with a placeholder
+        text = text.replace(entity_id_pattern.sub(f"@{entity_id}@", entity_id), "")
+        # Extract entity type and name from entity ID
+        entity_type, entity_name = entity_id.split("_")
+        entities[entity_id] = {"type": entity_type, "name": entity_name}
+    return text, entities
 
-        self.num_ner_labels = num_ner_labels
-        self.num_re_labels = num_re_labels
-
-    def forward(
-        self,
-        input_ids=None,
-        attention_mask=None,
-        token_type_ids=None,
-        position_ids=None,
-        head_mask=None,
-        inputs_embeds=None,
-        ner_labels=None,
-        re_labels=None,
-    ):
-        outputs = self.bert(
-            input_ids,
-            attention_mask=attention_mask,
-            token_type_ids=token_type_ids,
-            position_ids=position_ids,
-            head_mask=head_mask,
-            inputs_embeds=inputs_embeds,
-        )
-
-        sequence_output = outputs[0]
-        pooled_output = outputs[1]
-
-        sequence_output = self.dropout(sequence_output)
-        pooled_output = self.dropout(pooled_output)
-
-        ner_logits = self.ner_classifier(sequence_output)
-        re_logits = self.re_classifier(pooled_output)
-
-        total_loss = 0
-        if ner_labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            ner_loss = loss_fct(ner_logits.view(-1, self.config.num_ner_labels), ner_labels.view(-1))
-            total_loss += ner_loss
-
-        if re_labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            re_loss = loss_fct(re_logits.view(-1, self.config.num_re_labels), re_labels.view(-1))
-            total_loss += re_loss
-
-        return (total_loss, ner_logits, re_logits) if total_loss > 0 else (ner_logits, re_logits)
-
-# Load the fine-tuned custom BERT model and tokenizer
-model_dir = "models/combined"
-tokenizer = BertTokenizer.from_pretrained(model_dir)
-num_ner_labels=len(label_to_id)
-num_re_labels=len(relation_to_id)
-model = BertForNERAndRE.from_pretrained(model_dir, num_ner_labels, num_re_labels)
-model.eval()
-model.to("cpu")
-
-# Load the label_to_id and relation_to_id mappings
-with open(os.path.join(model_dir, "label_to_id.json"), "r") as f:
-    label_to_id = json.load(f)
-id_to_label = {v: k for k, v in label_to_id.items()}
-
-with open(os.path.join(model_dir, "relation_to_id.json"), "r") as f:
-    relation_to_id = json.load(f)
-id_to_relation = {v: k for k, v in relation_to_id.items()}
-
-# Input text
-input_text = "The incidence of myocardial injury following post-operative Goal Directed Therapy Background Studies suggest that Goal Directed Therapy (GDT) results in improved outcome following major surgery. However, there is concern that pre-emptive use of inotropic therapy may lead to an increased incidence of myocardial ischaemia and infarction. Methods Post hoc analysis of data collected prospectively during a randomised controlled trial of the effects of post-operative GDT in high-risk general surgical patients. Serum troponin T concentrations were measured at baseline and on"
-
-# Tokenize the input text
-encoded_input = tokenizer.encode_plus(input_text, return_tensors="pt", padding="max_length", truncation=True, max_length=512)
-
-# Perform NER and RE tasks
-with torch.no_grad():
-    ner_logits, re_logits = model(**encoded_input)
-
-# Decode NER predictions
-ner_predictions = torch.argmax(ner_logits, dim=2).squeeze(0).tolist()
-ner_labels = [id_to_label[pred] for pred in ner_predictions]
-
-# Decode RE predictions
-# Extract subject, object, and relationship from RE prediction
-re_prediction = torch.argmax(re_logits, dim=1).item()
-re_label = id_to_relation[re_prediction]
-subject_start = ner_predictions.index(label_to_id["B-Subject"])
-subject_end = subject_start + ner_predictions[subject_start:].index(label_to_id["O"]) - 1
-object_start = ner_predictions.index(label_to_id["B-Object"])
-object_end = object_start + ner_predictions[object_start:].index(label_to_id["O"]) - 1
-subject = " ".join(ner_labels[subject_start:subject_end+1])
-object = " ".join(ner_labels[object_start:object_end+1])
-
-# Print results
-print(f"Subject: {subject}")
-print(f"Object: {object}")
-print(f"Relationship: {re_label}")
-print(f"NER labels: {ner_labels}")
-print(f"Extracted relationship: {subject} -> {re_label} -> {object}")
+def extract_relations(text, entities):
+    relations = []
+    # Split text into sentences
+    sentences = re.split(r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s", text)
+    for sentence in sentences:
+        # Find all matches of relation pattern
+        for match in relation_pattern.finditer(sentence):
+            # Extract subject and object entities using entity IDs
+            subject_id = match.group("subject")
+            object_id = match.group("object")
+            # Ignore relations with unknown entities
+            if subject_id not in entities or object_id not in entities:
+                continue
+            # Extract relation name and add relation to list
+            relation_name = match.group("relation")
+            relation = {"subject": entities[subject_id], "object": entities[object_id], "name": relation_name}
+            relations.append(relation)
+    return relations
 
