@@ -187,7 +187,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.tensor(padded_ner_labels))
 
     # Tokenize RE data
-    for subject_id, obj_id, relation in re_data:
+    for subject_id, obj_id, relation, _ in re_data:
         subject = json_data["entities"][subject_id]["entityName"]
         obj = json_data["entities"][obj_id]["entityName"]
         tokens = tokenizer.tokenize(f"{subject} [SEP] {obj}")
