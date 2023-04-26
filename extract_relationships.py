@@ -2,6 +2,7 @@ import torch
 from transformers import BertTokenizer, BertPreTrainedModel, BertModel
 from torch import nn
 import json
+import os
 
 # Load label_to_id
 with open("models/combined/label_to_id.json", "r") as f:
