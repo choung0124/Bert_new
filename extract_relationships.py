@@ -4,6 +4,8 @@ from BERT_full_train import BertForNERAndRE
 import json
 import sys
 
+model_path = "models/combined/" # Change this to the path of your pretrained model directory
+
 # Load the label_to_id and relation_to_id mappings from the training data
 with open(os.path.join(model_path, "label_to_id.json"), "r") as f:
     label_to_id = json.load(f)
@@ -12,7 +14,6 @@ with open(os.path.join(model_path, "relation_to_id.json"), "r") as f:
     relation_to_id = json.load(f)
 
 # Load the pretrained model and tokenizer
-model_path = "models/combined/" # Change this to the path of your pretrained model directory
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForSequenceClassification.from_pretrained(model_path)
 
