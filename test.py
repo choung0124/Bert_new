@@ -43,10 +43,11 @@ for i, entity1 in tqdm(enumerate(entities), desc="Entity pairs"):
             prediction = outputs.pooler_output.argmax(-1).item()
             if prediction in id_to_relation:
                 relation_name = id_to_relation[prediction]
+                relation_data = {"subjectId": subject_id, "objectId": object_id, "subjectName": subject, "objectName": obj, "relationName": relation_name}
+                relations.append(relation_data)
             else:
                 relation_name = "unknown"
-            relation_data = {"subjectId": subject_id, "objectId": object_id, "subjectName": subject, "objectName": obj, "relationName": relation_name}
-            relations.append(relation_data)
+                
 print(f"Found {len(relations)} relations:")
 for relation in relations:
     print(relation)
