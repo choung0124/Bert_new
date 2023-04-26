@@ -14,16 +14,9 @@ with open(os.path.join(model_path, "label_to_id.json"), "r") as f:
 with open(os.path.join(model_path, "relation_to_id.json"), "r") as f:
     relation_to_id = json.load(f)
 
-# Load the configuration of the pre-trained BERT model
-config = BertForNERAndRE.config_class.from_pretrained(model_path)
-
-# Determine the number of NER and RE labels in your dataset
-num_ner_labels = len(label_to_id)
-num_re_labels = len(relation_to_id)
-
 # Load the fine-tuned model with the correct number of labels
-model = BertForNERAndRE.from_pretrained(model_path, config=config, num_ner_labels=num_ner_labels, num_re_labels=num_re_labels)
-
+config = BertConfig.from_pretrained(os.path.join(model_path, "config.json"))
+model = BertForNERAndRE.from_pretrained(model_path, config=config, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 tokenizer = BertTokenizer.from_pretrained(model_path)
 
 # Set the device (CPU or GPU) to use for inference
@@ -31,14 +24,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # Define a function to extract relationships from input text
-def extract_relationships(text, model_path, max_length=512, batch_size=8):
-    # Load the pretrained model and tokenizer
-    tokenizer = BertTokenizer.from_pretrained(model_path)
-    config = BertConfig.from_pretrained(os.path.join(model_path, "config.json"))
-    num_ner_labels = len(label_to_id)
-    num_re_labels = len(relation_to_id)
-    model = BertForNERAndRE.from_pretrained(model_path, config=config, num_ner_labels=num_ner_labels, num_re_labels=num_re_labels)
-    
+def extract_relationships(text, max_length=512, batch_size=8):
     # Split the input text into chunks of length max_length
     chunks = []
     for i in range(0, len(text), max_length):
@@ -56,10 +42,8 @@ def extract_relationships(text, model_path, max_length=512, batch_size=8):
     # Run the model on each chunk separately and concatenate the outputs
     relationships = []
     for i in range(0, len(chunks), batch_size):
-        input_ids = torch.cat(input_ids_list[i:i+batch_size], dim=0)
-        attention_masks = torch.cat(attention_masks_list[i:i+batch_size], dim=0)
-        input_ids = input_ids.to(device)
-        attention_masks = attention_masks.to(device)
+        input_ids = torch.cat(input_ids_list[i:i+batch_size], dim=0).to(device)
+        attention_masks = torch.cat(attention_masks_list[i:i+batch_size], dim=0).to(device)
         with torch.no_grad():
             outputs = model(input_ids, attention_mask=attention_masks)
         ner_logits = outputs[0]
@@ -78,12 +62,11 @@ def extract_relationships(text, model_path, max_length=512, batch_size=8):
     return relationships
 
 
-
 # Get the input text from the command line argument
 text = sys.argv[1]
 
 # Extract the relationships from the input text
-relationships = extract_relationships(text, model_path)
+relationships = extract_relationships(text)
 
 # Print the extracted relationships
 print("Extracted relationships:")
