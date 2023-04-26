@@ -20,7 +20,7 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-def preprocess_data(json_data, tokenizer):
+def preprocess_data(json_data, tokenizer, label_to_id):
     ner_data = []
     re_data = []
 
@@ -40,6 +40,7 @@ def preprocess_data(json_data, tokenizer):
         begin, end = entity["span"]["begin"], entity["span"]["end"]
         entity_type = entity["entityType"]
         entity_id = entity["entityId"].strip('"')
+        entity_name = entity["entityName"]
 
         # Process NER data
         entity_text = text[begin:end]
@@ -50,15 +51,17 @@ def preprocess_data(json_data, tokenizer):
             current_idx += 1
 
         for i, token in enumerate(entity_tokens):
-            ner_data.append((token, f"{entity_type}" if i == 0 else f"I-{entity_type}"))
+            if i == 0:
+                ner_data.append((token, f"B-{entity_type}-{entity_name}"))
+            else:
+                ner_data.append((token, f"I-{entity_type}-{entity_name}"))
             current_idx += 1
 
         current_idx = end
 
         # Add any new labels to the label_to_id mapping
-        if entity_type not in unique_ner_labels:
-            unique_ner_labels.add(entity_type)
-            label_to_id[entity_type] = len(label_to_id)
+        if f"{entity_type}-{entity_name}" not in label_to_id:
+            label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
 
         # Process RE data
         if entity_id in relation_dict:
@@ -78,8 +81,7 @@ def preprocess_data(json_data, tokenizer):
                     continue
 
                 # Add any new relations to the relation_to_id mapping
-                if rel_name not in unique_relation_labels:
-                    unique_relation_labels.add(rel_name)
+                if rel_name not in relation_to_id:
                     relation_to_id[rel_name] = len(relation_to_id)
 
 
@@ -87,8 +89,7 @@ def preprocess_data(json_data, tokenizer):
         ner_data.append((text[current_idx], "O"))
         current_idx += 1
 
-    return ner_data, re_data, label_to_id, relation_to_id
-
+    return ner_data, re_data
 
 json_directory = "test"
 preprocessed_ner_data = []
