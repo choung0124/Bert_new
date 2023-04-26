@@ -1,3 +1,6 @@
+from transformers import BertPreTrainedModel, BertModel
+from torch import nn
+
 class BertForNERAndRE(BertPreTrainedModel):
     def __init__(self, config, num_ner_labels, num_re_labels):
         super().__init__(config)
