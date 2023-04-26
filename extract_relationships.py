@@ -1,6 +1,15 @@
 import torch
 from transformers import BertTokenizer, BertPreTrainedModel
 from torch import nn
+import json
+
+# Load label_to_id
+with open("models/combined/label_to_id.json", "r") as f:
+    label_to_id = json.load(f)
+
+# Load relation_to_id
+with open("models/combined/relation_to_id.json", "r") as f:
+    relation_to_id = json.load(f)
 
 # Custom BERT model for NER and RE tasks
 class BertForNERAndRE(BertPreTrainedModel):
