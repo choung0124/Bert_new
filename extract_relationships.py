@@ -16,7 +16,7 @@ with open(os.path.join(model_path, "relation_to_id.json"), "r") as f:
 
 # Load the pretrained model and tokenizer
 tokenizer = BertTokenizer.from_pretrained(model_path)
-model = BertForSequenceClassification.from_pretrained(model_path, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id)))
+model = BertForSequenceClassification.from_pretrained(model_path, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 
 # Set the device (CPU or GPU) to use for inference
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
