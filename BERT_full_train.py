@@ -8,7 +8,7 @@ from torch import nn
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
-batch_size = 16
+batch_size = 8
 num_epochs = 4
 learning_rate = 5e-5
 
