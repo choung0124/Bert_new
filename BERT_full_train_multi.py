@@ -106,7 +106,7 @@ def process_file(file_name, json_directory, tokenizer, unique_ner_labels, unique
         json_data = json.load(json_file)
 
     # Preprocess the data for NER tasks
-    ner_data, relation_dict = preprocess_ner(json_data, tokenizer)
+    ner_data, relation_dict, re_data = preprocess_ner_and_re(json_data, tokenizer)
         
     # Preprocess the data for RE tasks
     if "relation_info" in json_data:
