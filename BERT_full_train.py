@@ -33,14 +33,13 @@ def preprocess_re(json_data, tokenizer):
         subject = entities[subject_id]
         obj = entities[object_id]
         unique_relation_labels.add(relation_name)
-        re_data.append((subject_id, object_id, relation_name, subject, obj))
+        re_data.append({'id': (subject_id, object_id), 'subject': subject, 'object': obj, 'relation': relation_name})
         print(f"Processed relation: ({subject}, {obj}, {relation_name})")
             
     if not re_data:
         print("No relations found for entities in the text.")
     
     return re_data
-
 
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
@@ -216,9 +215,11 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     print(re_data)
     # Tokenize RE data
-    for subject_id, obj_id, relation, obj in re_data:
-        subject = json_data["entities"][subject_id]["entityName"]
-        obj = json_data["entities"][obj_id]["entityName"]
+    for re_data_dict in re_data:
+        subject_id, object_id = re_data_dict['id']
+        subject = re_data_dict['subject']
+        obj = re_data_dict['object']
+        relation = re_data_dict['relation']
         tokens = tokenizer.tokenize(f"{subject} [SEP] {obj}")
         encoded_re = tokenizer.encode_plus(tokens, add_special_tokens=True, padding="max_length", truncation=True, max_length=128, return_tensors="pt")
 
