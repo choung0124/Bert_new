@@ -205,7 +205,7 @@ re_loader = DataLoader(re_dataset, batch_size=batch_size)
 # Initialize the custom BERT model
 model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 
-model.config.num_ner_labels = num_unique_labels
+model.config.num_ner_labels = len(label_to_id)
 model.config.num_re_labels = len(relation_to_id)
 
 # Fine-tune the custom BERT model
