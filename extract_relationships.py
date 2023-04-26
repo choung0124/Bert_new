@@ -14,36 +14,49 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # Define a function to extract relationships from input text
-def extract_relationships(text):
-    # Tokenize the input text
-    tokens = tokenizer.encode_plus(text, add_special_tokens=True, return_tensors="pt")
-    input_ids = tokens["input_ids"].to(device)
-    attention_mask = tokens["attention_mask"].to(device)
-
-    # Make predictions with the model
-    outputs = model(input_ids, attention_mask=attention_mask)
-    _, predicted = torch.max(outputs[0], dim=1)
-
-    # Map the predicted labels back to relation names using the relation_to_id mapping
-    with open(f"{model_path}/relation_to_id.json", "r") as f:
-        relation_to_id = json.load(f)
-        id_to_relation = {v: k for k, v in relation_to_id.items()}
-        predicted_relations = [id_to_relation[label.item()] for label in predicted]
-
-    # Extract subject-object pairs from the input text and the predicted relations
-    subject, object_ = None, None
+def extract_relationships(text, model_path, max_length=512, batch_size=8):
+    # Load the pretrained model and tokenizer
+    tokenizer = BertTokenizer.from_pretrained(model_path)
+    model = BertForNERAndRE.from_pretrained(model_path)
+    
+    # Split the input text into chunks of length max_length
+    chunks = []
+    for i in range(0, len(text), max_length):
+        chunk = text[i:i+max_length]
+        chunks.append(chunk)
+    
+    # Tokenize and align the NER labels for each chunk
+    input_ids_list = []
+    attention_masks_list = []
+    for chunk in chunks:
+        tokens = tokenizer.encode_plus(chunk, add_special_tokens=True, padding="max_length", truncation=True, max_length=max_length, return_tensors="pt")
+        input_ids_list.append(tokens["input_ids"])
+        attention_masks_list.append(tokens["attention_mask"])
+    
+    # Run the model on each chunk separately and concatenate the outputs
     relationships = []
-    for token, relation in zip(tokenizer.tokenize(text), predicted_relations):
-        if relation == "SUBJECT":
-            subject = token
-        elif relation == "OBJECT":
-            object_ = token
-        elif relation != "O":
-            relationships.append((subject, relation, object_))
-            subject, object_ = None, None
-
-    # Return the extracted relationships
+    for i in range(0, len(chunks), batch_size):
+        input_ids = torch.cat(input_ids_list[i:i+batch_size], dim=0)
+        attention_masks = torch.cat(attention_masks_list[i:i+batch_size], dim=0)
+        input_ids = input_ids.to(device)
+        attention_masks = attention_masks.to(device)
+        with torch.no_grad():
+            outputs = model(input_ids, attention_mask=attention_masks)
+        ner_logits = outputs[0]
+        ner_label_ids = ner_logits.argmax(dim=2)
+        for j in range(len(input_ids)):
+            ner_tokens = tokenizer.convert_ids_to_tokens(input_ids[j])
+            ner_labels = [label_list[label_id] for label_id in ner_label_ids[j].tolist()]
+            entities = extract_entities(ner_tokens, ner_labels)
+            if len(entities) >= 2:
+                # Extract relations between entities
+                for i in range(len(entities)-1):
+                    for j in range(i+1, len(entities)):
+                        relation = extract_relation(text, entities[i], entities[j])
+                        if relation:
+                            relationships.append((entities[i], relation, entities[j]))
     return relationships
+
 
 # Get the input text from the command line argument
 text = sys.argv[1]
