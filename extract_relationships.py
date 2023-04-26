@@ -2,7 +2,7 @@ import argparse
 import json
 import torch
 from transformers import BertTokenizer
-from BERT_full_train import BertForNERAndRE
+from model import BertForNERAndRE
 
 parser = argparse.ArgumentParser(description="Extract relationships from input text")
 parser.add_argument("--model_dir", type=str, default="models/combined", help="Directory containing the fine-tuned model and tokenizer")
@@ -17,7 +17,11 @@ with open(f"{args.model_dir}/relation_to_id.json", "r") as f:
     relation_to_id = json.load(f)
 
 # Load the fine-tuned model and tokenizer
-model = BertForNERAndRE.from_pretrained(args.model_dir, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
+model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
+
+model.config.num_ner_labels = len(label_to_id)
+model.config.num_re_labels = len(relation_to_id)
+
 tokenizer = BertTokenizer.from_pretrained(args.model_dir)
 
 # Tokenize the input text
