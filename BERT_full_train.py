@@ -40,6 +40,7 @@ def preprocess_ner(json_data, tokenizer):
     
     # Extract the relation info and build a dictionary
     for relation in json_data["relation_info"]:
+        print("Relation:", relation)
         subject_id, obj_id = relation["subjectID"], relation["objectId"]
         if subject_id not in relation_dict:
             relation_dict[subject_id] = {}
@@ -218,23 +219,21 @@ if re_input_ids:
     re_attention_masks = torch.stack(re_attention_masks, dim=0)
     re_labels = torch.cat(re_labels)
     
-    print(f"re_input_ids shape: {re_input_ids.shape}")
-    print(f"re_attention_masks shape: {re_attention_masks.shape}")
-    print(f"re_labels shape: {re_labels.shape}")
-    
+if len(re_input_ids) > 0:
+    re_input_ids = torch.stack(re_input_ids, dim=0)
+else:
+    re_input_ids = torch.tensor([])
+
+# Defining re_loader if there is relation data
+if len(re_input_ids) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
     re_loader = DataLoader(re_dataset, batch_size=batch_size)
 else:
-    print("No relation data to process.")
-    
-print(f"ner_input_ids shape: {ner_input_ids.shape}")
-print(f"ner_attention_masks shape: {ner_attention_masks.shape}")
-print(f"ner_labels shape: {ner_labels.shape}")
+    re_loader = None
 
 # Create separate DataLoaders for NER and RE tasks
 ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
 ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
-
 
 
 # Initialize the custom BERT model
@@ -250,18 +249,16 @@ model.to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 total_steps = len(ner_loader) * num_epochs  # You can adjust this based on your requirements
 
-for epoch in range(num_epochs):
-    print(f"Epoch {epoch + 1}/{num_epochs}")
-    print("-" * 40)
+for epoch in range(epochs):
+    print(f'Epoch {epoch+1}/{epochs}')
+    print('-' * 40)
 
-    model.train()
     ner_epoch_loss = 0
     re_epoch_loss = 0
     ner_num_batches = 0
     re_num_batches = 0
 
-    # Training loop for NER and RE combined
-    for ner_batch, re_batch in zip(ner_loader, re_loader):
+    for ner_batch, re_batch in zip(ner_loader, re_loader) if re_loader is not None else zip(ner_loader, [None] * len(ner_loader)):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
@@ -273,19 +270,20 @@ for epoch in range(num_epochs):
         optimizer.step()
 
         # Training RE
-        optimizer.zero_grad()
-        input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
-        outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels)
-        re_loss = outputs[0]
-        re_epoch_loss += re_loss.item()
-        re_num_batches += 1
-        re_loss.backward()
-        optimizer.step()
+        if re_batch is not None:
+            optimizer.zero_grad()
+            input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
+            outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels)
+            re_loss = outputs[0]
+            re_epoch_loss += re_loss.item()
+            re_num_batches += 1
+            re_loss.backward()
+            optimizer.step()
 
-    ner_avg_epoch_loss = ner_epoch_loss / ner_num_batches
-    re_avg_epoch_loss = re_epoch_loss / re_num_batches
-    print(f"Average NER training loss: {ner_avg_epoch_loss:.4f}")
-    print(f"Average RE training loss: {re_avg_epoch_loss:.4f}")
+    ner_epoch_loss /= ner_num_batches
+    re_epoch_loss /= re_num_batches if re_num_batches > 0 else 1
+
+    print(f'Train loss NER: {ner_epoch_loss} Train loss RE: {re_epoch_loss}')
 
 
 # Save the fine-tuned custom BERT model and tokenizer
