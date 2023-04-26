@@ -23,10 +23,10 @@ id_to_relation = {v: k for k, v in relation_to_id.items()}
 def predict_ner(text: str) -> List[dict]:
     with open("models/combined/label_to_id.json", "r") as f:
         label_to_id = json.load(f)
-    
+
     # Load the id_to_label dictionary using the label_to_id dictionary
     id_to_label = {v: k for k, v in label_to_id.items()}
-    
+
     input_ids = tokenizer.encode(text, add_special_tokens=True, return_tensors="pt")
     with torch.no_grad():
         outputs = model(input_ids)
@@ -42,8 +42,11 @@ def predict_ner(text: str) -> List[dict]:
             if current_entity["entityType"]:
                 entities.append(current_entity.copy())
             current_entity["entityName"] = token
-            current_entity["entityType"] = id_to_label[prediction]
             current_entity["entityId"] = f"T{i}"
+            if prediction in id_to_label:
+                current_entity["entityType"] = id_to_label[prediction]
+            else:
+                current_entity["entityType"] = "O"
     if current_entity["entityType"]:
         entities.append(current_entity.copy())
     return entities
@@ -52,10 +55,10 @@ def predict_ner(text: str) -> List[dict]:
 def predict_re(text: str, entities: List[dict]) -> List[dict]:
     with open("models/combined/relation_to_id.json", "r") as f:
         relation_to_id = json.load(f)
-    
+
     # Load the id_to_relation dictionary using the relation_to_id dictionary
     id_to_relation = {v: k for k, v in relation_to_id.items()}
-    
+
     relation_data = []
     for i, entity1 in enumerate(entities):
         for j, entity2 in enumerate(entities):
@@ -69,8 +72,12 @@ def predict_re(text: str, entities: List[dict]) -> List[dict]:
                 input_ids = tokenizer.encode(input_text, add_special_tokens=True, return_tensors="pt")
                 with torch.no_grad():
                     outputs = model(input_ids)
-                prediction = outputs.pooler_output.argmax(-1).item()
-                relation_name = id_to_relation[prediction]
+                try:
+                    prediction = outputs.pooler_output.argmax(-1).item()
+                    relation_name = id_to_relation[prediction]
+                except KeyError:
+                    continue
                 relation_data.append({"subjectId": subject_id, "objectId": object_id, "subjectName": subject, "objectName": obj, "relationName": relation_name})
     return relation_data
+
 
