@@ -1,82 +1,83 @@
 import torch
-from transformers import BertTokenizer, BertConfig
-from BERT_full_train import BertForNERAndRE
 import json
-import sys
-import os
+import argparse
+from transformers import BertTokenizer
+from models.combined import BertForNERAndRE
 
-model_path = "models/combined/" # Change this to the path of your pretrained model directory
+parser = argparse.ArgumentParser(description="Extract relationships from text using a fine-tuned BERT model")
+parser.add_argument("text", type=str, help="the input text")
+args = parser.parse_args()
 
-# Load the label_to_id and relation_to_id mappings from the training data
-with open(os.path.join(model_path, "label_to_id.json"), "r") as f:
+tokenizer = BertTokenizer.from_pretrained("models/combined")
+
+with open("models/combined/label_to_id.json", "r") as f:
     label_to_id = json.load(f)
 
-with open(os.path.join(model_path, "relation_to_id.json"), "r") as f:
+with open("models/combined/relation_to_id.json", "r") as f:
     relation_to_id = json.load(f)
 
-# Load the configuration of the pre-trained BERT model
-config = BertConfig.from_pretrained(model_path)
+model = BertForNERAndRE.from_pretrained("models/combined")
 
-# Determine the number of NER and RE labels in your dataset
-num_ner_labels = len(label_to_id)
-num_re_labels = len(relation_to_id)
-
-# Load the fine-tuned model with the correct number of labels
-model = BertForNERAndRE.from_pretrained(model_path, config=config, num_ner_labels=num_ner_labels, num_re_labels=num_re_labels)
-tokenizer = BertTokenizer.from_pretrained(model_path)
-
-# Set the device (CPU or GPU) to use for inference
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-# Define a function to extract relationships from input text
-def extract_relationships(text, max_length=512, batch_size=8):
-    # Split the input text into chunks of length max_length
-    chunks = []
-    for i in range(0, len(text), max_length):
-        chunk = text[i:i+max_length]
-        chunks.append(chunk)
-    
-    # Tokenize and align the NER labels for each chunk
-    input_ids_list = []
-    attention_masks_list = []
-    for chunk in chunks:
-        tokens = tokenizer.encode_plus(chunk, add_special_tokens=True, padding="max_length", truncation=True, max_length=max_length, return_tensors="pt")
-        input_ids_list.append(tokens["input_ids"])
-        attention_masks_list.append(tokens["attention_mask"])
-    
-    # Run the model on each chunk separately and concatenate the outputs
-    relationships = []
-    for i in range(0, len(chunks), batch_size):
-        input_ids = torch.cat(input_ids_list[i:i+batch_size], dim=0)
-        attention_masks = torch.cat(attention_masks_list[i:i+batch_size], dim=0)
-        input_ids = input_ids.to(device)
-        attention_masks = attention_masks.to(device)
-        with torch.no_grad():
-            outputs = model(input_ids, attention_mask=attention_masks)
-        ner_logits, re_logits = outputs[0], outputs[1]
-        ner_label_ids = ner_logits.argmax(dim=2)
-        for j in range(len(input_ids)):
-            ner_tokens = tokenizer.convert_ids_to_tokens(input_ids[j])
-            ner_labels = [label_to_id[label] for label in ner_labels_list]
-            entities = extract_entities(ner_tokens, ner_labels)
-            if len(entities) >= 2:
-                # Extract relations between entities
-                for i in range(len(entities)-1):
-                    for j in range(i+1, len(entities)):
-                        relation = extract_relation(text, entities[i], entities[j])
-                        if relation:
-                            relationships.append((entities[i], relation, entities[j]))
-    return relationships
+model.eval()
 
+tokens = tokenizer.encode_plus(args.text, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
 
-# Get the input text from the command line argument
-text = sys.argv[1]
+input_ids = tokens["input_ids"].to(device)
+attention_mask = tokens["attention_mask"].to(device)
 
-# Extract the relationships from the input text
-relationships = extract_relationships(text)
+ner_logits, re_logits = model(input_ids, attention_mask=attention_mask)
 
-# Print the extracted relationships
-print("Extracted relationships:")
-for subject, relationship, obj in relationships:
-    print(f"{subject} - {relationship} - {obj}")
+ner_preds = torch.argmax(ner_logits, axis=-1)
+re_preds = torch.argmax(re_logits, axis=-1)
+
+ner_tags = [list(label_to_id.keys())[label_id] for label_id in ner_preds[0].tolist()]
+re_label = list(relation_to_id.keys())[re_preds[0].item()]
+
+subject_start = -1
+subject_end = -1
+object_start = -1
+object_end = -1
+subject = ""
+object = ""
+inside_entity = False
+for i, (token, ner_tag) in enumerate(zip(tokenizer.convert_ids_to_tokens(input_ids[0]), ner_tags)):
+    if not inside_entity and ner_tag.startswith("B"):
+        if ner_tag[2:] == "SUB":
+            subject_start = i
+        elif ner_tag[2:] == "OBJ":
+            object_start = i
+        inside_entity = True
+    elif inside_entity and not ner_tag.startswith("I"):
+        if ner_tag.startswith("B"):
+            if ner_tag[2:] == "SUB":
+                subject_start = i
+            elif ner_tag[2:] == "OBJ":
+                object_start = i
+            inside_entity = True
+        else:
+            if ner_tag == "O":
+                if subject_start != -1 and subject_end == -1:
+                    subject_end = i
+                elif object_start != -1 and object_end == -1:
+                    object_end = i
+                inside_entity = False
+
+if subject_start != -1 and subject_end == -1:
+    subject_end = len(ner_tags)
+
+if object_start != -1 and object_end == -1:
+    object_end = len(ner_tags)
+
+if subject_start != -1 and subject_end != -1:
+    subject = tokenizer.convert_tokens_to_string(tokenizer.convert_ids_to_tokens(input_ids[0][subject_start:subject_end]))
+
+if object_start != -1 and object_end != -1:
+    object = tokenizer.convert_tokens_to_string(tokenizer.convert_ids_to_tokens(input_ids[0][object_start:object_end]))
+
+if subject != "" and object != "":
+    print(f"{subject} {re_label} {object}")
+else:
+    print("No relationship found in the input text.")
