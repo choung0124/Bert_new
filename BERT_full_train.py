@@ -238,7 +238,7 @@ if re_input_ids:
     re_labels = torch.cat(re_labels)
     
 if len(re_input_ids) > 0:
-    re_input_ids = torch.stack(re_input_ids, dim=0)
+    re_input_ids = torch.stack(tuple(re_input_ids), dim=0)
 else:
     re_input_ids = torch.tensor([])
 
