@@ -8,14 +8,15 @@ tokenizer = BertTokenizer.from_pretrained("models/combined")
 model = BertModel.from_pretrained("models/combined")
 model.eval()
 
-with open("models/combined/label_to_id.json", "r") as f:
-    label_to_id = json.load(f)
 
-with open("models/combined/relation_to_id.json", "r") as f:
-    relation_to_id = json.load(f)
+
+
 
 
 def predict_ner(text: str) -> List[dict]:
+    with open("models/combined/label_to_id.json", "r") as f:
+    label_to_id = json.load(f)
+    
     input_ids = tokenizer.encode(text, add_special_tokens=True, return_tensors="pt")
     with torch.no_grad():
         outputs = model(input_ids)
@@ -39,6 +40,9 @@ def predict_ner(text: str) -> List[dict]:
 
 
 def predict_re(text: str, entities: List[dict]) -> List[dict]:
+    with open("models/combined/relation_to_id.json", "r") as f:
+    relation_to_id = json.load(f)
+    
     relation_data = []
     for i, entity1 in enumerate(entities):
         for j, entity2 in enumerate(entities):
