@@ -256,8 +256,8 @@ model.to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 total_steps = len(ner_loader) * num_epochs  # You can adjust this based on your requirements
 
-for epoch in range(epochs):
-    print(f'Epoch {epoch+1}/{epochs}')
+for epoch in range(num_epochs):
+    print(f'Epoch {epoch+1}/{num_epochs}')
     print('-' * 40)
 
     ner_epoch_loss = 0
