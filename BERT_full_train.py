@@ -18,30 +18,55 @@ unique_ner_labels.add("O")
 
 
 # Existing preprocessing functions
-def preprocess_re(json_data):
+def preprocess_re(ner_data, tokenizer):
     re_data = []
-    entities = {entity["entityId"]: entity for entity in json_data["entities"]}
 
-    for relation in json_data["relation_info"]:
-        unique_relation_labels.add(relation["rel_name"])
-        subject_id, obj_id = relation["subjectID"], relation["objectId"]
-        if subject_id not in entities or obj_id not in entities:
-            continue
-        subject = entities[subject_id]["entityName"]
-        obj = entities[obj_id]["entityName"]
-        re_data.append((subject, relation["rel_name"], obj))
+    for i, (begin, end, entity_type, entity_text, relation_ids) in enumerate(ner_data):
+        for j in range(i + 1, len(ner_data)):
+            _, _, other_type, other_text, other_relation_ids = ner_data[j]
+            if entity_type == other_type:
+                continue
+            for relation_id in relation_ids:
+                if relation_id in other_relation_ids:
+                    tokens = tokenizer.tokenize(f"{entity_text} [SEP] {other_text}")
+                    re_data.append((tokens, relation_id))
 
     return re_data
 
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
     
+    # Extract entity information
+    entities = {}
     for entity in json_data["entities"]:
         begin = entity["span"]["begin"]
         end = entity["span"]["end"]
         entity_type = entity["entityType"]
         entity_text = json_data["text"][begin:end]
-        ner_data.append((begin, end, entity_type, entity_text))
+        entity_id = entity["entityId"]
+        entities[entity_id] = {
+            "begin": begin,
+            "end": end,
+            "entity_type": entity_type,
+            "entity_text": entity_text,
+            "relation_ids": set(),
+        }
+    
+    # Extract relationship information
+    for relation in json_data["relation_info"]:
+        subject_id, obj_id = relation["subjectID"], relation["objectId"]
+        if subject_id in entities and obj_id in entities:
+            entities[subject_id]["relation_ids"].add(relation["rel_name"])
+            entities[obj_id]["relation_ids"].add(relation["rel_name"])
+    
+    # Convert entity and relationship information to NER training data
+    for entity_id, entity in entities.items():
+        begin, end = entity["begin"], entity["end"]
+        entity_type = entity["entity_type"]
+        entity_text = entity["entity_text"]
+        relation_ids = entity["relation_ids"]
+        
+        ner_data.append((begin, end, entity_type, entity_text, relation_ids))
     
     ner_data.sort(key=lambda x: x[0])
     
@@ -49,7 +74,7 @@ def preprocess_ner(json_data, tokenizer):
     ner_tags = []
     current_idx = 0
     
-    for begin, end, entity_type, entity_text in ner_data:
+    for begin, end, entity_type, entity_text, relation_ids in ner_data:
         unique_ner_labels.add(entity_type)
         while current_idx < begin:
             ner_tags.append((text[current_idx], "O"))
