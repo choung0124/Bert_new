@@ -216,6 +216,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     # Tokenize RE data
     for subject_id, obj_id, relation, obj in re_data:
+        print(re_data)
         subject = json_data["entities"][subject_id]["entityName"]
         obj = json_data["entities"][obj_id]["entityName"]
         tokens = tokenizer.tokenize(f"{subject} [SEP] {obj}")
