@@ -83,12 +83,12 @@ preprocessed_re_data = []
 # Iterate through all JSON files in the directory
 for file_name in os.listdir(json_directory):
     if file_name.endswith(".json"):
+        print(f"Processing: {file_name}")
         json_path = os.path.join(json_directory, file_name)
 
         # Load the JSON data
         with open(json_path, "r") as json_file:
             json_data = json.load(json_file)
-        print(f"Processing: {file_name}")
 
         # Preprocess the data for NER tasks
         ner_data, relation_dict = preprocess_data(json_data, tokenizer)
