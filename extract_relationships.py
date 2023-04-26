@@ -11,6 +11,9 @@ class BertForNERAndRE(BertPreTrainedModel):
         self.ner_classifier = nn.Linear(config.hidden_size, num_ner_labels)
         self.re_classifier = nn.Linear(config.hidden_size, num_re_labels)
 
+        self.num_ner_labels = num_ner_labels
+        self.num_re_labels = num_re_labels
+
     def forward(
         self,
         input_ids=None,
@@ -56,7 +59,7 @@ class BertForNERAndRE(BertPreTrainedModel):
 # Load the fine-tuned custom BERT model and tokenizer
 model_dir = "models/combined"
 tokenizer = BertTokenizer.from_pretrained(model_dir)
-model = BertForNERAndRE.from_pretrained(model_dir)
+model = BertForNERAndRE.from_pretrained(model_dir, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 model.eval()
 model.to("cpu")
 
