@@ -3,6 +3,7 @@ from transformers import BertTokenizer, BertForSequenceClassification
 from BERT_full_train import BertForNERAndRE
 import json
 import sys
+import os
 
 model_path = "models/combined/" # Change this to the path of your pretrained model directory
 
