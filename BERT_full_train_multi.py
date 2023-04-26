@@ -109,9 +109,14 @@ def process_file(file_name, json_directory, tokenizer, unique_ner_labels, unique
     ner_data, relation_dict = preprocess_ner(json_data, tokenizer)
         
     # Preprocess the data for RE tasks
-    re_data = preprocess_re(json_data, tokenizer)
-    
+    if "relation_info" in json_data:
+        re_data = preprocess_re(json_data, tokenizer)
+    else:
+        print(f"No relation information found in {file_name}.")
+        re_data = []
+
     return ner_data, relation_dict, re_data
+
 
 json_directory = "test"
 preprocessed_ner_data = []
