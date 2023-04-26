@@ -9,7 +9,7 @@ import warnings
 import logging
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+tokenizer = BertTokenizer.from_pretrained("bert-large-uncased")
 
 batch_size = 8
 num_epochs = 4
