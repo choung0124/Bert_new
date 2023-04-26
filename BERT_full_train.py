@@ -39,8 +39,8 @@ def preprocess_re(json_data, tokenizer):
         re_data.append({'id': (subject_id, object_id), 'subject': subject, 'object': obj, 'relation': relation_name})
         #print(f"Processed relation: ({subject}, {obj}, {relation_name})")
             
-    if not re_data:
-        print("No relations found for entities in the text.")
+    #if not re_data:
+        #print("No relations found for entities in the text.")
     
     return re_data
 
