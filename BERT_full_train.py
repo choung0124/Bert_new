@@ -195,9 +195,12 @@ print(f"re_input_ids shape: {re_input_ids.shape}")
 print(f"re_attention_masks shape: {re_attention_masks.shape}")
 print(f"re_labels shape: {re_labels.shape}")
 
-# Create a DataLoader for the combined dataset
-combined_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels, re_input_ids, re_attention_masks, re_labels)
-combined_loader = DataLoader(combined_dataset, batch_size=batch_size)
+# Create separate DataLoaders for NER and RE tasks
+ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
+ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
+
+re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
+re_loader = DataLoader(re_dataset, batch_size=batch_size)
 
 # Initialize the custom BERT model
 model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
@@ -210,30 +213,46 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
-total_steps = len(combined_loader) * num_epochs
+total_steps = len(ner_loader) * num_epochs  # You can adjust this based on your requirements
 
 for epoch in range(num_epochs):
     print(f"Epoch {epoch + 1}/{num_epochs}")
     print("-" * 40)
 
     model.train()
-    epoch_loss = 0
-    num_batches = 0
+    ner_epoch_loss = 0
+    re_epoch_loss = 0
+    ner_num_batches = 0
+    re_num_batches = 0
 
-    # Add a progress bar for the batches
-    for batch in tqdm(combined_loader, desc="Training", unit="batch"):
-        input_ids, attention_masks, ner_labels, re_labels = tuple(t.to(device) for t in batch)
-        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels, re_labels=re_labels)
+    # Training loop for NER
+    for batch in tqdm(ner_loader, desc="Training NER", unit="batch"):
+        input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in batch)
+        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels)
         loss = outputs[0]
-        epoch_loss += loss.item()
-        num_batches += 1
+        ner_epoch_loss += loss.item()
+        ner_num_batches += 1
 
         loss.backward()
         optimizer.step()
         optimizer.zero_grad()
 
-    avg_epoch_loss = epoch_loss / num_batches
-    print(f"Average training loss: {avg_epoch_loss:.4f}")
+    # Training loop for RE
+    for batch in tqdm(re_loader, desc="Training RE", unit="batch"):
+        input_ids, attention_masks, re_labels = tuple(t.to(device) for t in batch)
+        outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels)
+        loss = outputs[0]
+        re_epoch_loss += loss.item()
+        re_num_batches += 1
+
+        loss.backward()
+        optimizer.step()
+        optimizer.zero_grad()
+
+    ner_avg_epoch_loss = ner_epoch_loss / ner_num_batches
+    re_avg_epoch_loss = re_epoch_loss / re_num_batches
+    print(f"Average NER training loss: {ner_avg_epoch_loss:.4f}")
+    print(f"Average RE training loss: {re_avg_epoch_loss:.4f}")
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
