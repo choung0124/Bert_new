@@ -176,7 +176,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.tensor(padded_ner_labels))
 
     # Tokenize RE data
-        for re_data_dict in re_data:
+    for re_data_dict in re_data:
         encoded_re = tokenizer.encode_plus(
             re_data_dict["subject_tokens"],
             re_data_dict["object_tokens"],
