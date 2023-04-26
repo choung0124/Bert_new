@@ -6,12 +6,8 @@ from transformers import BertTokenizer, BertModel, BertPreTrainedModel
 from tqdm import tqdm
 from torch import nn
 import warnings
-from transformers import logging
-import multiprocessing
-from functools import partial
-
-warnings.filterwarnings("ignore", message=".*Some weights of the model checkpoint.*", category=UserWarning, module="transformers")
-logging.set_verbosity_warning()
+import logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -24,114 +20,88 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-def preprocess_ner_and_re(json_data, tokenizer):
+def preprocess_data(json_data, tokenizer):
     ner_data = []
     re_data = []
-    entities_dict = {}
 
-    for entity in json_data["entities"]:
-        entities_dict[entity["entityId"]] = {
-            "entityType": entity["entityType"],
-            "entityName": entity["entityName"],
-            "span": entity["span"]
-        }
+    entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
 
+    relation_dict = {}
     for relation in json_data["relation_info"]:
         subject_id = relation["subjectID"]
         obj_id = relation["objectId"]
-        relation_name = relation["rel_name"]
-        if subject_id not in entities_dict or obj_id not in entities_dict:
-            continue
+        if subject_id not in relation_dict:
+            relation_dict[subject_id] = {}
+        relation_dict[subject_id][obj_id] = relation["rel_name"]
 
-        subject = entities_dict[subject_id]["entityName"]
-        obj = entities_dict[obj_id]["entityName"]
-        unique_relation_labels.add(relation_name)
-        re_data.append({'id': (subject_id, obj_id), 'subject': subject, 'object': obj, 'relation': relation_name})
-
-    for entity_id, entity in entities_dict.items():
-        begin = entity["span"]["begin"]
-        end = entity["span"]["end"]
-        entity_type = entity["entityType"]
-        entity_text = json_data["text"][begin:end]
-        relation_ids = []
-
-        if entity_id not in [r['id'][0] for r in re_data]:
-            ner_data.append((begin, end, entity_type, entity_text, []))
-            continue
-
-        for re_data_dict in re_data:
-            if entity_id == re_data_dict['id'][0]:
-                obj_id = re_data_dict['id'][1]
-                relation_name = re_data_dict['relation']
-                obj = entities_dict[obj_id]["entityName"]
-                relation_ids.append((obj, relation_name))
-
-        ner_data.append((begin, end, entity_type, entity_text, relation_ids))
-
-    ner_data.sort(key=lambda x: x[0])
-    
     text = json_data["text"]
-    ner_tags = []
     current_idx = 0
-    
-    for begin, end, entity_type, entity_text, relation_ids in ner_data:
-        unique_ner_labels.add(entity_type)
-        if entity_type != "O":
-            unique_ner_labels.add(f"I-{entity_type}")
-        while current_idx < begin:
-            ner_tags.append((text[current_idx], "O"))
-            current_idx += 1
-        
+    for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
+        begin, end = entity["span"]["begin"], entity["span"]["end"]
+        entity_type = entity["entityType"]
+        entity_id = entity["entityId"]
+
+        # Process NER data
+        entity_text = text[begin:end]
         entity_tokens = tokenizer.tokenize(entity_text)
-        for i in range(len(entity_tokens)):
-            if i == 0:
-                ner_tags.append((entity_tokens[i], f"{entity_type}"))
-            else:
-                ner_tags.append((entity_tokens[i], f"I-{entity_type}"))
+
+        while current_idx < begin:
+            ner_data.append((text[current_idx], "O"))
+            current_idx += 1
+
+        for i, token in enumerate(entity_tokens):
+            ner_data.append((token, f"{entity_type}" if i == 0 else f"I-{entity_type}"))
             current_idx += 1
 
         current_idx = end
-    
+
+        # Process RE data
+        if entity_id in relation_dict:
+            for obj_id, rel_name in relation_dict[entity_id].items():
+                obj_entity = entities_dict[obj_id]
+                re_data.append({
+                    'id': (entity_id, obj_id),
+                    'subject': entity_text,
+                    'object': text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]],
+                    'relation': rel_name,
+                    'subject_tokens': entity_tokens,
+                    'object_tokens': tokenizer.tokenize(text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]])
+                })
+
     while current_idx < len(text):
-        ner_tags.append((text[current_idx], "O"))
+        ner_data.append((text[current_idx], "O"))
         current_idx += 1
-    
-    return ner_tags, re_data
 
-def process_file(file_name, json_directory, tokenizer, unique_ner_labels, unique_relation_labels):
-    json_path = os.path.join(json_directory, file_name)
-
-    # Load the JSON data
-    with open(json_path, "r") as json_file:
-        json_data = json.load(json_file)
-
-    # Preprocess the data for NER tasks
-    ner_data, relation_dict, re_data = preprocess_ner_and_re(json_data, tokenizer)
-        
-    # Preprocess the data for RE tasks
-    if "relation_info" in json_data:
-        re_data = preprocess_re(json_data, tokenizer)
-    else:
-        print(f"No relation information found in {file_name}.")
-        re_data = []
-
-    return ner_data, relation_dict, re_data
-
+    return ner_data, re_data
 
 json_directory = "test"
 preprocessed_ner_data = []
 preprocessed_re_data = []
 
-process_file_partial = partial(process_file, json_directory=json_directory, tokenizer=tokenizer, unique_ner_labels=unique_ner_labels, unique_relation_labels=unique_relation_labels)
+# Iterate through all JSON files in the directory
+for file_name in os.listdir(json_directory):
+    if file_name.endswith(".json"):
+        json_path = os.path.join(json_directory, file_name)
 
-# Iterate through all JSON files in the directory using multiprocessing
-with multiprocessing.Pool() as pool:
-    results = list(tqdm(pool.imap(process_file_partial, [file_name for file_name in os.listdir(json_directory) if file_name.endswith(".json")]), desc="Processing files", total=len(os.listdir(json_directory))))
+        # Load the JSON data
+        with open(json_path, "r") as json_file:
+            json_data = json.load(json_file)
 
-for ner_data, relation_dict, re_data in results:
-    preprocessed_ner_data.append(ner_data)
-    preprocessed_re_data.append(re_data)
+        # Preprocess the data for NER tasks
+        ner_data, relation_dict = preprocess_ner(json_data, tokenizer)
+        preprocessed_ner_data.append(ner_data)
+        
+        # Preprocess the data for RE tasks
+        re_data = preprocess_re(json_data, tokenizer)
+        #print(re_data)# <-- Call preprocess_re
+        preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
+        #print(f"Processed: {file_name}")
+        #print(f"Number of entities: {len(json_data['entities'])}")
+        #for entity in json_data['entities']:
+        #    print(entity)
+
+            
 label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
 relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_relation_labels))}
 
@@ -190,56 +160,44 @@ class BertForNERAndRE(BertPreTrainedModel):
 ner_input_ids, ner_attention_masks, ner_labels = [], [], []
 re_input_ids, re_attention_masks, re_labels = [], [], []
 
+# Tokenize NER and RE data more efficiently
+ner_input_ids, ner_attention_masks, ner_labels = [], [], []
+re_input_ids, re_attention_masks, re_labels = [], [], []
+
 for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels"):
-    #print(re_data)
     # Tokenize and align NER labels
     ner_tokens, ner_labels_ = zip(*ner_data)
     encoded_ner = tokenizer.encode_plus(ner_tokens, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
     ner_input_ids.append(encoded_ner["input_ids"])
     ner_attention_masks.append(encoded_ner["attention_mask"])
 
-    aligned_ner_labels = []
-    for label in ner_labels_:
-        label_id = label_to_id[label]
-        sub_tokens = tokenizer.tokenize(label.split()[0])
-        if label == "O":
-            aligned_ner_labels.extend([label_id] * len(sub_tokens))
-        else:
-            aligned_ner_labels.extend([label_id] + [label_to_id[label]] * (len(sub_tokens) - 1))
-
-
-    padded_ner_labels = aligned_ner_labels[:512]
-    padded_ner_labels.extend([-100] * (512 - len(padded_ner_labels)))
+    aligned_ner_labels = [label_to_id[label] for label in ner_labels_]
+    padded_ner_labels = aligned_ner_labels[:512] + [-100] * (512 - len(aligned_ner_labels))
     ner_labels.append(torch.tensor(padded_ner_labels))
 
-    #print(re_data)
     # Tokenize RE data
-    for re_data_dict in re_data:
-        subject_id, object_id = re_data_dict['id']
-        subject = re_data_dict['subject']
-        obj = re_data_dict['object']
-        relation = re_data_dict['relation']
-        tokens = tokenizer.tokenize(f"{subject} [SEP] {obj}")
-        encoded_re = tokenizer.encode_plus(tokens, add_special_tokens=True, padding="max_length", truncation=True, max_length=128, return_tensors="pt")
+        for re_data_dict in re_data:
+        encoded_re = tokenizer.encode_plus(
+            re_data_dict["subject_tokens"],
+            re_data_dict["object_tokens"],
+            add_special_tokens=True,
+            padding="max_length",
+            truncation=True,
+            max_length=512,
+            return_tensors="pt"
+        )
 
-        if encoded_re["input_ids"].shape[1] > 0:
-            re_input_ids.append(encoded_re["input_ids"].squeeze(0))
-            re_attention_masks.append(encoded_re["attention_mask"].squeeze(0))
-            re_labels.append(torch.tensor(relation_to_id[relation]).unsqueeze(0))
+        re_input_ids.append(encoded_re["input_ids"])
+        re_attention_masks.append(encoded_re["attention_mask"])
+        re_labels.append(relation_label_to_id[re_data_dict["relation"]])
 
-ner_input_ids = torch.cat(ner_input_ids, dim=0)
-ner_attention_masks = torch.cat(ner_attention_masks, dim=0)
-ner_labels = torch.stack(ner_labels, dim=0)
-
-if re_input_ids:
-    re_input_ids = torch.stack(re_input_ids, dim=0)
-    re_attention_masks = torch.stack(re_attention_masks, dim=0)
-    re_labels = torch.cat(re_labels)
-    
-if len(re_input_ids) > 0:
-    re_input_ids = torch.stack(tuple(re_input_ids), dim=0)
-else:
-    re_input_ids = torch.tensor([])
+# Convert lists to tensors
+ner_input_ids = torch.cat(ner_input_ids)
+ner_attention_masks = torch.cat(ner_attention_masks)
+ner_labels = torch.cat(ner_labels)
+re_input_ids = torch.cat(re_input_ids)
+re_attention_masks = torch.cat(re_attention_masks)
+re_labels = torch.tensor(re_labels)
 
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0:
@@ -315,3 +273,4 @@ with open(os.path.join(output_dir, "label_to_id.json"), "w") as f:
 
 with open(os.path.join(output_dir, "relation_to_id.json"), "w") as f:
     json.dump(relation_to_id, f)
+
