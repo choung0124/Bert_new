@@ -37,13 +37,18 @@ def preprocess_re(json_data, relation_dict, tokenizer):
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
     relation_dict = {}
-    
+
+    # Create an entities_dict
+    entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
+
     # Extract the relation info and build a dictionary
     for relation in json_data["relation_info"]:
-        if relation["subjectID"] in entity_dict and relation["objectId"] in entity_dict:
-            print("Subject entity:", entity_dict[relation["subjectID"]])
-            print("Object entity:", entity_dict[relation["objectId"]])
+        if relation["subjectID"] in entities_dict and relation["objectId"] in entities_dict:
+            print("Subject entity:", entities_dict[relation["subjectID"]]["entityName"])
+            print("Object entity:", entities_dict[relation["objectId"]]["entityName"])
             
+        subject_id = relation["subjectID"]
+        obj_id = relation["objectId"]
         if subject_id not in relation_dict:
             relation_dict[subject_id] = {}
         relation_dict[subject_id][obj_id] = relation["rel_name"]
