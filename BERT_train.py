@@ -87,12 +87,15 @@ def preprocess_data(json_data, tokenizer):
         ner_data.append((text[current_idx], "O"))
         current_idx += 1
 
-    return ner_data, re_data
+    return ner_data, re_data, label_to_id, relation_to_id
 
 
 json_directory = "test"
 preprocessed_ner_data = []
 preprocessed_re_data = []
+
+label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
+relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_relation_labels))}
 
 # Iterate through all JSON files in the directory
 for file_name in os.listdir(json_directory):
@@ -105,7 +108,7 @@ for file_name in os.listdir(json_directory):
             json_data = json.load(json_file)
 
         # Preprocess the data for NER tasks
-        ner_data, relation_dict = preprocess_data(json_data, tokenizer)
+        ner_data, relation_dict, label_to_id, relation_to_id = preprocess_data(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
         
         # Preprocess the data for RE tasks
@@ -119,8 +122,6 @@ for file_name in os.listdir(json_directory):
         #    print(entity)
 
             
-label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
-relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_relation_labels))}
 
 # New custom model based on BERT
 class BertForNERAndRE(BertPreTrainedModel):
