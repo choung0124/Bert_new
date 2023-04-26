@@ -17,25 +17,30 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-def preprocess_re(json_data, relation_dict, tokenizer):
+def preprocess_re(json_data, tokenizer):
     re_data = []
     
-    for subject_id, obj_dict in relation_dict.items():
-        if subject_id not in json_data["entities"]:
+    if "relation_info" not in json_data:
+        print("No relation information found for the text.")
+        return re_data
+    
+    for rel_info in json_data["relation_info"]:
+        subject_id = rel_info["subjectID"]
+        object_id = rel_info["objectId"]
+        relation_name = rel_info["rel_name"]
+        if subject_id not in json_data["entities"] or object_id not in json_data["entities"]:
             continue
         subject = json_data["entities"][subject_id]["entityName"]
-        for obj_id, relation_name in obj_dict.items():
-            if obj_id not in json_data["entities"]:
-                continue
-            obj = json_data["entities"][obj_id]["entityName"]
-            unique_relation_labels.add(relation_name)
-            re_data.append((subject_id, obj_id, relation_name, obj))
-            print(f"Processed relation: ({subject}, {obj}, {relation_name})")
+        obj = json_data["entities"][object_id]["entityName"]
+        unique_relation_labels.add(relation_name)
+        re_data.append((subject_id, object_id, relation_name, subject, obj))
+        print(f"Processed relation: ({subject}, {obj}, {relation_name})")
             
     if not re_data:
         print("No relations found for entities in the text.")
     
     return re_data
+
 
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
