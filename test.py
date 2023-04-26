@@ -1,5 +1,6 @@
 import argparse
 from predict import predict_ner, predict_re
+import json
 
 parser = argparse.ArgumentParser(description='Predict entities and relations from text.')
 parser.add_argument('text', type=str, help='input text')
