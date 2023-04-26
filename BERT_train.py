@@ -97,7 +97,7 @@ preprocessed_re_data = []
 # Iterate through all JSON files in the directory
 for file_name in os.listdir(json_directory):
     if file_name.endswith(".json"):
-        print(f"Processing: {file_name}")
+        #print(f"Processing: {file_name}")
         json_path = os.path.join(json_directory, file_name)
 
         # Load the JSON data
