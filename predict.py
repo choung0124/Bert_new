@@ -30,25 +30,29 @@ def predict_ner(text: str, confidence_threshold: float = 0.8) -> List[dict]:
     input_ids = tokenizer.encode(text, add_special_tokens=True, return_tensors="pt")
     with torch.no_grad():
         outputs = model(input_ids)
-    predictions = outputs.last_hidden_state.softmax(-1).tolist()[0]
-    predicted_labels = outputs.last_hidden_state.argmax(-1).tolist()[0]
+    predictions = outputs.last_hidden_state.argmax(-1).tolist()[0]
+    scores = torch.softmax(outputs.last_hidden_state, dim=2).max(dim=2).values.tolist()[0]
+
     tokens = tokenizer.convert_ids_to_tokens(input_ids.tolist()[0])
 
     entities = []
-    current_entity = {"entityName": "", "entityType": "", "entityId": "", "confidence": 0.0}
-    for i, (token, prediction) in enumerate(zip(tokens, predicted_labels)):
+    current_entity = {"entityName": "", "entityType": "", "entityId": "", "score": 0.0}
+    for i, (token, prediction, score) in enumerate(zip(tokens, predictions, scores)):
+        if score < confidence_threshold:
+            continue
         if token.startswith("##"):
             current_entity["entityName"] += token[2:]
         else:
-            if current_entity["entityType"] and current_entity["confidence"] >= confidence_threshold:
+            if current_entity["entityType"]:
                 entities.append(current_entity.copy())
             current_entity["entityName"] = token
-            current_entity["entityType"] = id_to_label[prediction]
+            current_entity["entityType"] = id_to_label.get(prediction, "O")
             current_entity["entityId"] = f"T{i}"
-            current_entity["confidence"] = predictions[i][prediction].item()
-    if current_entity["entityType"] and current_entity["confidence"] >= confidence_threshold:
+            current_entity["score"] = score
+    if current_entity["entityType"]:
         entities.append(current_entity.copy())
     return entities
+
 
 
 
