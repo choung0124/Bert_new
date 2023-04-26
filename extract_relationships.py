@@ -17,9 +17,9 @@ with open("models/combined/relation_to_id.json", "r") as f:
     relation_to_id = json.load(f)
 
 # Initialize the custom BERT model
-num_ner_labels = len(label_to_id)
-num_re_labels = len(relation_to_id)
-model = BertForNERAndRE.from_pretrained("models/combined", num_ner_labels=num_ner_labels, num_re_labels=num_re_labels)
+num_ner = len(label_to_id)
+num_re = len(relation_to_id)
+model = BertForNERAndRE.from_pretrained("models/combined", num_ner_labels=num_ner, num_re_labels=num_re)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
