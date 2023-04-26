@@ -5,7 +5,7 @@ import sys
 
 
 # Load the pretrained model and tokenizer
-model_path = "path/to/pretrained/model/directory" # Change this to the path of your pretrained model directory
+model_path = "models/combined/" # Change this to the path of your pretrained model directory
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForSequenceClassification.from_pretrained(model_path)
 
