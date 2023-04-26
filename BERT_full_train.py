@@ -169,6 +169,7 @@ ner_input_ids, ner_attention_masks, ner_labels = [], [], []
 re_input_ids, re_attention_masks, re_labels = [], [], []
 
 for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels"):
+    print(re_data)
     # Tokenize and align NER labels
     ner_tokens, ner_labels_ = zip(*ner_data)
     encoded_ner = tokenizer.encode_plus(ner_tokens, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
