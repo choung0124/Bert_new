@@ -55,6 +55,11 @@ def preprocess_data(json_data, tokenizer):
 
         current_idx = end
 
+        # Add any new labels to the label_to_id mapping
+        if entity_type not in unique_ner_labels:
+            unique_ner_labels.add(entity_type)
+            label_to_id[entity_type] = len(label_to_id)
+
         # Process RE data
         if entity_id in relation_dict:
             for obj_id, rel_name in relation_dict[entity_id].items():
@@ -72,12 +77,18 @@ def preprocess_data(json_data, tokenizer):
                     #print(f"Warning: obj_id '{obj_id}' not found in entities_dict. Skipping this relation.")
                     continue
 
+                # Add any new relations to the relation_to_id mapping
+                if rel_name not in unique_relation_labels:
+                    unique_relation_labels.add(rel_name)
+                    relation_to_id[rel_name] = len(relation_to_id)
+
 
     while current_idx < len(text):
         ner_data.append((text[current_idx], "O"))
         current_idx += 1
 
     return ner_data, re_data
+
 
 json_directory = "test"
 preprocessed_ner_data = []
