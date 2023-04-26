@@ -17,23 +17,38 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-def preprocess_re(json_data, relation_dict, tokenizer):
+def preprocess_re(json_data, tokenizer):
     re_data = []
     
     if "relation_info" not in json_data:
         print("No relation information found for the text.")
         return re_data
     
-    entities_dict = {e["id"]: e for e in json_data["entities"]}
-    
     for rel_info in json_data["relation_info"]:
-        subject_id = rel_info["subjectID"]
-        object_id = rel_info["objectId"]
-        relation_name = rel_info["rel_name"]
-        if subject_id not in entities_dict or object_id not in entities_dict:
+        if "subjectID" in rel_info:
+            subject_id = rel_info["subjectID"]
+        elif "subject_ID" in rel_info:
+            subject_id = rel_info["subject_ID"]
+        else:
             continue
-        subject = entities_dict[subject_id]["entityName"]
-        obj = entities_dict[object_id]["entityName"]
+            
+        if "objectId" in rel_info:
+            object_id = rel_info["objectId"]
+        elif "object_ID" in rel_info:
+            object_id = rel_info["object_ID"]
+        else:
+            continue
+            
+        relation_name = rel_info["rel_name"]
+        
+        if subject_id not in json_data["entities"] and "entityId" not in json_data["entities"][subject_id]:
+            continue
+        subject = json_data["entities"][subject_id]["entityName"]
+        
+        if object_id not in json_data["entities"] and "entityId" not in json_data["entities"][object_id]:
+            continue
+        obj = json_data["entities"][object_id]["entityName"]
+        
         unique_relation_labels.add(relation_name)
         re_data.append((subject_id, object_id, relation_name, subject, obj))
         print(f"Processed relation: ({subject}, {obj}, {relation_name})")
@@ -42,9 +57,6 @@ def preprocess_re(json_data, relation_dict, tokenizer):
         print("No relations found for entities in the text.")
     
     return re_data
-
-
-
 
 
 def preprocess_ner(json_data, tokenizer):
