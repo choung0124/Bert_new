@@ -1,0 +1,2718 @@
+{
+    "sourcid": "PMC3585342",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3585342/",
+    "text": "Aldosterone and Mortality in Hemodialysis Patients: Role of Volume Overload Background Elevated aldosterone is associated with increased mortality in the general population. In patients on dialysis, however, the association is reversed. This paradox may be explained by volume overload, which is associated with lower aldosterone and higher mortality. Methods We evaluated the relationship between aldosterone and outcomes in a prospective cohort of 328 hemodialysis patients stratified by the presence or absence of volume overload (defined as extracellular water/total body water >48%, as measured with bioimpedance). Baseline plasma aldosterone was measured before dialysis and categorized as low (<140 pg/mL), middle (140 to 280 pg/mL) and high (>280 pg/mL). Results Overall, 36% (n = 119) of the hemodialysis patients had evidence of volume overload. Baseline aldosterone was significantly lower in the presence of volume overload than in its absence. During a median follow-up of 54 months, 83 deaths and 70 cardiovascular events occurred. Cox multivariate analysis showed that by using the low aldosterone as the reference, high aldosterone was inversely associated with decreased hazard ratios for mortality (0.49; 95% confidence interval, 0.25-0.76) and first cardiovascular event (0.70; 95% confidence interval, 0.33-0.78) in the presence of volume overload. In contrast, high aldosterone was associated with an increased risk for mortality (1.97; 95% confidence interval, 1.69-3.75) and first cardiovascular event (2.01; 95% confidence interval, 1.28-4.15) in the absence of volume overload.             Conclusions The inverse association of aldosterone with adverse outcomes in hemodialysis patients is due to the confounding effect of volume overload. These findings support treatment of hyperaldosteronemia in hemodialysis patients who have achieved strict volume control. Introduction Cardiovascular disease (CVD) is the leading cause of death in patients with end-stage renal disease (ESRD). There is accumulating evidence that aldosterone, in addition to its classical role in regulating fluid and electrolyte balance, plays a significant role in the pathogenesis of CVD. Patients with chronic kidney disease (CKD) have higher aldosterone concentrations than the general population, suggesting that aldosterone might modulate the development of CVD in CKD. However, higher aldosterone levels are associated with lower mortality in CKD patients on hemodialysis, which is in marked contrast to findings from prospective studies in the general population and in early CKD. A similar inverse association of serum cholesterol levels with mortality has been previously documented in dialysis patients. It has been suggested that this paradoxical association results from a confounding effect of inflammation and/or malnutrition, which leads to lower cholesterol levels and higher mortality (the so called reverse epidemiology). Volume overload is a common finding in dialysis patients and has been recognized as an important contributor to an adverse prognosis. This factor may explain the inverse association between aldosterone level and mortality because volume overload is strongly associated with lower aldosterone levels and higher mortality. In view of the particularly high incidence of CVD in dialysis patients, a better understanding of the diagnostic implications of aldosterone levels in these patients is needed. Therefore, we investigated whether the association between aldosterone levels and mortality would be modified by the presence of volume overload. Materials and Methods Ethics Statement The study complied with the Declaration of Helsinki and was approved by the institutional review board of National Yang-Ming University Hospital. All participants gave their written informed consent before inclusion. Patient Population This prospective cohort study was conducted at the dialysis centers of affiliated hospitals of National Yang-Ming University, Taipei. The study subjects were recruited from November 1 to December 31, 2004. Initially, all patients (n = 418) undergoing hemodialysis were screened, and 366 clinically stable patients aged older than 20 years, who had been on hemodialysis for more than 6 months, were included. Exclusion criteria were dialysis for less than 12 h per week; inadequacy of dialysis, defined as Kt/V urea <1.2; conditions of malignancy, infectious disease, sepsis, or hepatobiliary disease; and unwillingness to participate in this study. Finally, the study population of 328 patients (188 men and 140 women; mean age of 59 years) was followed up until June 30, 2009. All the patients were subjected to a standard bicarbonate dialysis session with use of 137 mEq/L sodium and 2.0 mEq/L potassium dialysate. Hemodialysis was performed three times weekly using single-use dialyzers with a membrane surface area of 1.6-1.7 m2.       Laboratory Investigations Blood samples were drawn from patients who had fasted overnight before the start of a mid-week dialysis session, and heparin was then administered. Plasma and serum were separated and kept frozen at -70 C when not analyzed immediately. Plasma aldosterone levels were measured according to the manufacturer's instructions using a commercially available radioimmunoassay kit (Diagnostic Systems Laboratories, Webster, TX). The intra- and inter-assay coefficients of variation were 3.4% and 8.9%, respectively, at an aldosterone level of 60 pg/mL, 4.7% and 7.6%, respectively, at a level of 250 pg/mL, and 4.0% and 5.2%, respectively, at a level of 500 pg/mL. Albumin, urea, creatinine, calcium, phosphate, iron, and total iron-binding capacity (TIBC) in serum were determined with a Hitachi 7600 autoanalyzer (Roche Modular; Hitachi Ltd, Tokyo, Japan) using commercial kits. Serum high-sensitivity C-reactive protein (hs-CRP) levels were measured using an immunoturbidimetric assay and rate nephelometry (IMMAGE; Beckman Coulter, Galway, Ireland). The adequacy of dialysis was estimated by measuring mid-week urea clearance (Kt/V urea) using the standard method. Blood pressure (BP) was measured and recorded by an automated sphygmomanometer. Pre-dialysis BP (before placement of a dialysis needle) was measured in the nonaccess arm after a 5-minute rest while the patient was seated with both feet on the floor.      Bioimpedance Study Multifrequency bioimpedance method (Model 310 Bioimpedance Analyzer; Biodynamics, Seattle, WA) was performed within 30 minutes after a dialysis session at presumed dry weight. The ratio of extracellular water to total body water (ECW/TBW) was then taken as a measure of volume status. To avoid inter-observer variation, a single well-trained dietitian was involved in the measurement of bioimpedance. Outcomes In all patients, a thorough medical history was taken at the time of study enrollment. Presence of CVD was defined as a medical history and clinical findings of congestive heart failure, coronary artery disease, cerebrovascular disease, and/or peripheral vascular disease. No major modifications were made in dialysis treatments during the follow-up period. The primary outcome measures were death from any cause and CV events from the time of inclusion in the study. CV events included fatal and nonfatal myocardial infarction, stroke and congestive heart failure, as well as complicated peripheral vascular disease and sudden death. A trained physician who had no knowledge of the results of plasma aldosterone measurements independently reviewed all suspected CV events by examining each medical chart. Statistical Analysis All variables were expressed as percentages for categorical data and as means +- SDs or medians and interquartile ranges (IQRs) for continuous data with or without a normal distribution, respectively. The baseline characteristics of the 2 study subgroups with ECW/TBW <=48% and >48% were compared using a t-test, x 2 statistics, and Mann-Whitney U test as appropriate. Potential differences among the 3 patient groups for each baseline plasma aldosterone tertile were assessed by an analysis of variance (ANOVA), x 2 statistics, or the Kruskal-Wallis test, as appropriate. Receiver operating characteristic (ROC) curves were constructed for prediction of mortality using ECW/TBW at baseline. The optimal cutoff point for volume overload (ECW/TBW >48%) is listed in Figure 1, along with the sensitivity, specificity and accuracy for predicting mortality at the end of the follow-up period. Confidence intervals (CI) for the area under the ROC curves were calculated using nonparametric assumptions. Univariate correlations between ECW/TBW or plasma aldosterone and potentially explanatory variables were assessed by Pearson correlation analyses.  Volume status for predicting mortality. The receiver operating characteristic (ROC) curve for prediction of all-cause mortality constructed using the ratio of extracellular water to total body water (ECW/TBW) at baseline (A). The optimal cutoff point for ECW/TBW is listed in the attached table, along with the sensitivity, specificity and accuracy for predicting mortality at the end of the follow-up period. The area under ROC curve is significantly larger than 0.5. Kaplan-Meier analysis curve for all-cause mortality in relation to the ECW/TBW at baseline, stratified by the cutoff point among hemodialysis patients (B). The Kaplan-Meier method was used to describe survival curves. Individuals were censored at the time of kidney transplantation, peritoneal dialysis, and withdrawal from the study, or at the end of the follow-up period on June 30, 2009. Cox proportional hazards models were used to investigate the role of volume overload as a potential effect modifier for relationships between diverse independent variables and either all-cause mortality or first CV event. For all multivariate survival analyses, clinically relevant variables with a P value <=0.1 in the univariate analysis were fitted and the backward selection procedure was used for model selection. The aldosterone variables were modeled as categorical variables (<140, 140-280, and >280 pg/mL) or continuous variables (per 100 pg/mL). Adjusted hazard ratios with 95% CI were reported. P values less than 0.05 were considered statistically significant. P values for interactions between the volume indicators and the aldosterone levels were computed using likelihood ratio tests. All statistical analyses were performed using the computer software Statistical Package for the Social Science, version 16.0 (SPSS Inc., Chicago, IL).    Results Clinical Characteristics The mean baseline age of the 328 patients was 59+-13 years, 57.3% were male, and 29.3% had diabetes. The baseline characteristics for the patient groups divided by the absence or presence of volume overload [defined as ECW/TBW >48%] are presented in Table 1. Overall, 36% (n = 119) of the dialysis patients had evidence of volume overload. The presence of volume overload was associated with older age, diabetes, prior CVD, hypertension, higher inflammatory markers, and lower aldosterone, albumin, calcium, phosphate, and hemoglobin levels. There were no significant differences between groups regarding the type of antihypertensive medications, dialysis prescription, and serum potassium levels. The median plasma aldosterone concentration was 184 pg/mL (IQR: 97-484 pg/mL), which is above the 75th percentile for aldosterone in a large cohort of non-CKD patients referred for coronary angiography. Table 2 shows the baseline characteristics stratified by both volume status and plasma aldosterone categories. In patients without volume overload, hs-CRP and interleukin-6 (IL-6) levels were significantly higher in patients in the >280 pg/mL aldosterone category than in patients in the <140 pg/mL aldosterone category (P<0.05). This relationship was inversed in patients with volume overload. The number of antihypertensive medication was positively and significantly associated with the aldosterone categories for patients without volume overload, but the trend was reversed for patients with volume overload.       Baseline characteristics of the study participants by categories of ECW/TBW. Baseline values\tTotal patients\tECW/TBW <=48%\tECW/TBW >48%\tP-valuea\t \t\t(n = 328)\t(n = 209)\t(n = 119)\t\t \tAge (years)\t59+-13\t55+-12\t65+-11\t<0.001b\t \tMale (%)\t57.3\t59.8\t52.9\t0.23c\t \tSmoking history (%)\t31.7\t32.1\t31.1\t0.86c\t \tDiabetes mellitus (%)\t29.3\t19.1\t47.1\t<0.001c\t \tPrior CVD (%)\t23.4\t18.2\t32.8\t0.002c\t \tHypertension (%)\t48.2\t40.6\t61.3\t<0.001c\t \tSystolic BP (mmHg)\t136+-24\t134+-22\t140+-26\t0.04b\t \tDiastolic BP (mmHg)\t76+-12\t76+-11\t76+-14\t0.99b\t \tRAAS blockade (%)\t27.1\t24.9\t31.1\t0.22c\t \tCalcium channel blocker (%)\t62.2\t59.8\t66.4\t0.31c\t \tbeta-blocker (%)\t32.6\t32.0\t33.6\t0.53c\t \tNo. of antihypertensives\t2.0+-1.3\t2.0+-1.1\t2.1+-1.5\t0.72b\t \tStatin use (%)\t15.9\t16.3\t15.1\t0.79c\t \tHD duration (months)\t66+-54\t67+-53\t65+-56\t0.84b\t \tKt/V urea\t2.0+-0.6\t2.0+-0.5\t2.1+-0.7\t0.11b\t \tIntradialytic UF (L)\t2.9+-0.6\t2.9+-0.7\t2.8+-0.5\t0.87b\t \tBMI (kg/m2)\t22.6+-3.5\t22.0+-3.1\t23.3+-4.1\t0.02b\t \tECW (L)\t13.0+-2.1\t12.5+-2.1\t13.7+-2.0\t<0.001b\t \tTBW (L)\t28.4+-4.6\t29.3+-4.8\t26.9+-3.9\t<0.001b\t \tECW/TBW (%)\t45.8+-5.0\t42.9+-3.4\t50.9+-2.8\t<0.001b\t \tAldosterone (pg/mL)\t184 (97-484)\t215 (99-768)\t166 (95-263)\t0.02d\t \ths-CRP (mg/L)\t3.94 (1.29-7.86)\t3.74 (1.55-6.74)\t4.10 (1.24-8.09)\t0.04d\t \tIL-6 (pg/mL)\t2.92 (2.21-7.87)\t2.80 (1.78-5.53)\t4.59 (2.66-9.67)\t<0.001d\t \tAlbumin (g/L)\t39.3+-3.5\t39.9+-3.2\t38.2+-3.7\t<0.001b\t \tTotal cholesterol (mg/dL)\t186+-33\t188+-32\t180+-35\t0.16b\t \tTriglyceride (mg/dL)\t127+-61\t130+-64\t121+-57\t0.18b\t \tPotassium (mmol/L)\t4.01+-0.36\t4.02+-0.37\t3.98+-0.37\t0.28b\t \tCalcium (mg/dL)\t9.7+-0.7\t9.8+-0.7\t9.6+-0.8\t0.03b\t \tPhosphate (mg/dL)\t5.0+-1.4\t5.2+-1.4\t4.8+-1.3\t0.002b\t \tHemoglobin (g/dL)\t10.5+-1.5\t10.8+-1.5\t9.8+-1.4\t<0.001b\t \tEPO dose (u/kg/wk)\t66+-46\t55+-47\t87+-36\t<0.001b\t \tFerritin (microg/L)\t344 (201-538)\t291 (129-439)\t361 (255-606)\t0.001d\t \tTransferrin saturation (%)\t27+-13\t27+-13\t27+-14\t0.77b                                    Abbreviations: BMI denotes body mass index; BP, blood pressure; CVD, cardiovascular disease; ECW, extracellular water; ECW/TBW, ratio of extracellular water to total body water; EPO, erythropoietin; HD, hemodialysis; hs-CRP, high-sensitivity C-reactive protein; IL-6, inerleukin-6; RAAS, renin-angiotensin-aldosterone system; TBW, total body water; UF, ultrafiltration. Comparison between two groups of patients with ECW/TBW <=48% and >48%.  Statistical analysis by bStudent t-test, cPearson x\n2 test, and dMann-Whitney U test. Prior CVD category consisted of congestive heart failure, coronary artery disease, cerebrovascular disease, and peripheral arterial disease. Baseline characteristics of the study participants by categories of ECW/TBW and plasma aldosterone. ECW/TBW <=48%\tECW/TBW >48%\t \t\tPlasma aldoterone, pg/mL\tPlasma aldoterone, pg/mL\t \t\t<140\t140-280\t>280\t<140\t140-280\t>280\t \tBaseline values\t(n = 69)\t(n = 53)\t(n = 87)\t(n = 39)\t(n = 56)\t(n = 24)\t \tAge (years)\t55+-12\t57+-11\t54+-11\t67+-9\t66+-13\t64+-9\t \tMale (%)\t63.8\t54.7\t59.8\t51.3\t53.6\t54.2\t \tSmoking history (%)\t34.8\t32.1\t29.9\t30.8\t28.6\t37.5\t \tDiabetes mellitus (%)\t23.2\t24.5\t12.6\t38.5\t51.8\t50.0\t \tPrior CVD (%)\t20.3\t22.6\t13.8\t38.5\t30.4\t29.2\t \tHypertension (%)\t39.4\t41.8\t41.3\t67.9\t66.7\t41.6b,c\t \tSystolic BP (mmHg)\t132+-19\t134+-24\t135+-24\t143+-27\t140+-25\t135+-26b,c\t \tDiastolic BP (mmHg)\t76+-9\t76+-11\t75+-11\t74+-12\t77+-18\t76+-7\t \tRAAS blockade (%)\t15.9\t28.3\t29.9\t28.2\t30.4\t37.5\t \tNo. of antihypertensives\t1.5+-1.0\t2.0+-1.0\t2.4+-1.5b\t2.5+-1.5\t2.4+-1.5\t1.4+-1.0b,c\t \tStatin use (%)\t11.6\t17.0\t19.5\t17.9\t14.3\t12.5\t \tHD duration (months)\t67+-49\t65+-53\t68+-56\t59+-47\t67+-52\t74+-74\t \tKt/V urea\t2.0+-0.6\t2.0+-0.3\t2.0+-0.4\t2.0+-0.4\t2.3+-0.9\t2.0+-0.3\t \tBMI (kg/m2)\t21.8+-3.1\t21.7+-2.8\t22.6+-3.1\t23.1+-5.2\t23.5+-3.4\t22.5+-4.8\t \tECW (L)\t12.4+-1.5\t12.3+-2.2\t12.8+-2.2\t13.9+-2.2\t13.0+-1.9\t13.6+-2.1\t \tTBW (L)\t28.2+-3.7\t28. +-9 4.8\t30.1+-5.1\t27.1+-4.6\t26.7+-3.4\t27.3+-4.4\t \tECW/TBW (%)\t44.2+-2.9\t42.7+-4.1b\t42.7+-3.1b\t51.4+-2.9\t50.9+-2.8\t49.9+-2.0b,c\t \ths-CRP (mg/L)\t2.53 (1.09-4.99)\t3.85 (1.26-5.79)\t4.76 (1.62-7.55)b\t6.12 (2.28-8.63)\t4.70 (0.94-8.06)\t1.53 (0.59-5.82)b\t \tIL-6 (pg/mL)\t2.42 (1.62-4.44)\t3.10 (1.87-5.84)\t3.85 (2.19-6.04)b\t5.42 (2.52-11.57)\t4.86 (3.04-12.36)\t3.62 (2.55-6.43)b\t \tAlbumin (g/L)\t39.5+-3.1\t39.9+-3.4\t40.0+-3.2\t36.8+-1.3\t38.9+-3.5\t39.3+-4.0b\t \tTotal cholesterol (mg/dL)\t193+-45\t189+-40\t183+-30\t177+-32\t180+-34\t185+-38\t \tTriglyceride (mg/dL)\t133+-68\t130+-60\t128+-48\t122+-53\t120+-47\t121+-49\t \tPotassium (mmol/L)\t4.03+-0.37\t4.02+-0.37\t4.01+-0.37\t4.00+-0.36\t3.99+-0.37\t3.98+-0.37\t \tCalcium (mg/dL)\t9.8+-0.7\t9.6+-0.7\t9.8+-0.7\t9.4+-0.9\t9.7+-0.8\t9.4+-0.6\t \tPhosphate (mg/dL)\t4.8+-1.2\t5.1+-1.4\t5.5+-1.5\t4.5+-1.2\t4.8+-1.3\t4.8+-1.2\t \tHemoglobin (g/dL)\t10.8+-1.2\t10.6+-1.6\t10.8+-1.6\t9.7+-1.3\t9.8+-1.4\t10.0+-1.2\t \tEPO dose (u/kg/wk)\t51+-44\t72+-50b\t52+-45c\t89+-31\t87+-41\t77+-36\t \tFerritin (microg/L)\t323 (157-407)\t277 (142-541)\t271 (101-466)\t370 (272-675)\t393 (264-593)\t278 (239-514)\t \tTransferrin saturation (%)\t29+-12\t24+-10\t28+-14\t27+-14\t27+-14\t26+-15                                                                   For abbreviations see Table 1. Comparisons among three groups in patients with ECW/TBW <=48% and >48%, respectively. Statistical analysis by one-way ANOVA test, Pearson x\n2 test, and Kruskal-Wallis test as appropriate.  P<0.05 versus patients with plasma aldosterone of <140 pg/mL. P<0.05 versus patients with plasma aldosterone of 140-280 pg/mL.   Prior CVD category consisted of congestive heart failure, coronary artery disease, cerebrovascular disease, and peripheral arterial disease. Table 3 shows univariate correlations between ECW/TBW or plasma aldosterone levels and potentially explanatory variables. The ECW/TBW was negatively correlated with plasma aldosterone, hemoglobin, albumin, calcium, and phosphate levels and was positively correlated with age, hs-CRP, IL-6, ferritin levels, and systolic BP. In contrast, plasma aldosterone was positively associated with albumin and phosphate levels and was negatively associated with age, ECW/TBW, ferritin and systolic BP.  Univariate correlations between ECW/TBW or plasma aldosterone and potentially explanatory variables. ECW/TBW\tAldosterone\t \tVariables\tr\tP-value\tr\tP-value\t \tAge (years)\t-0.555\t<0.001\t-0.286\t<0.001\t \tBody mass index (kg/m2)\t-0.136\t0.02\t-0.038\t0.54\t \tECW/TBW (%)\t-\t-\t-0.200\t0.001\t \tAldosterone (pg/mL)\t-0.200\t0.001\t-\t-\t \ths-CRP (mg/L)\t-0.180\t0.002\t-0.013\t0.81\t \tIL-6 (pg/mL)\t-0.310\t<0.001\t-0.069\t0.22\t \tHemoglobin (g/dL)\t-0.368\t<0.001\t-0.067\t0.24\t \tSerum ferritin (microg/L)\t-0.208\t<0.001\t-0.169\t0.003\t \tTransferrin saturation (%)\t-0.092\t0.10\t-0.029\t0.61\t \tAlbumin (g/L)\t-0.337\t<0.001\t-0.189\t0.001\t \tCalcium (mg/dL)\t-0.123\t0.03\t-0.082\t0.15\t \tPhosphate (mg/dL)\t-0.177\t0.001\t-0.222\t<0.001\t \tPotassium (mmol/L)\t-0.080\t0.19\t-0.024\t0.69\t \tSystolic BP (mmHg)\t-0.123\t0.03\t-0.135\t0.02\t \tDiastolic BP (mmHg)\t-0.032\t0.57\t-0.081\t0.16\t \tKt/V urea\t-0.089\t0.06\t-0.028\t0.63                                                                      For abbreviations see Table 1. Follow-up Data During the follow-up period, 16 patients received kidney transplants, and 4 patients transitioned to peritoneal dialysis. Thirty-three patients who were transferred to other dialysis units were followed up using questionnaire forms completed by the attending physicians at the units. At the end of the follow-up period, 225 patients were confirmed to be alive on hemodialysis treatment, and 83 patients died while being treated; 37 (44.6%) of these deaths were due to CVD-related causes. There were 70 CV events in the median follow-up period of 54 months (IQR: 27-107 months). In unadjusted analysis, lower aldosterone levels were associated with higher mortality in the overall cohort (P for trend = 0.006) (Fig. 2) and in the presence of volume overload (P for trend = 0.001) (Fig. 3A), respectively. However, in the absence of volume overload, the association was reversed, with higher aldosterone levels associated with higher mortality (P for trend = 0.042) (Fig. 3B).               Kaplan-Meier mortality curves according to aldosterone tertile. All-cause mortality in relation to plasma aldosterone levels at baseline among hemodialysis patients. Kaplan-Meier mortality curves according to aldosterone tertile, modified by volume status. All-cause mortality in relation to plasma aldosterone levels at baseline modified by the ratio of extracellular water to total body water (ECW/TBW) >48% (A) and <=48% (B) among hemodialysis patients.  Multivariate analysis with plasma aldosterone, age, gender, prior CVD, presence of diabetes mellitus, smoking status, body mass index, systolic blood pressure, dialysis vintage, baseline levels of serum albumin, total cholesterol, hemoglobin, ferritin, calciumxphosphate, Kt/V urea, and IL-6 as the independent variables demonstrated that plasma aldosterone, age, prior CVD, serum albumin, and IL-6 were independently related to mortality and first CV event. The inverse association of aldosterone level with mortality, both in the entire patient population and in the presence of volume overload (ECW/TBW >48%), was also seen in adjusted analysis (Table 4). Furthermore, volume overload was found to modify the risk relationship between aldosterone and first CV event in the Cox regressions with plasma aldosterone level as a categorical (interaction, P = 0.02) or a continuous measure (interaction, P = 0.03). In the absence of volume overload (ECW/TBW <=48%), the aldosterone category was positively associated with all-cause mortality and first CV event. Analyzing aldosterone as a continuous variable also showed the similar association of aldosterone with all-cause mortality and first CV event.           Hazard ratios for mortality and first cardiovascular event by categorical or continuous measure of plasma aldosterone modified by ECW/TBW. Overall\tECW/TBW >48%\tECW/TBW <=48%\tP-valuea\t \t\t(n = 328)\t(n = 119)\t(n = 209)\t\t \tAll-cause Mortality, Adjusted HR (95% Confidence Interval)\t \tCategorical measure\t\t\t\t\t \tAldosterone <140 pg/mL\t1.00\t1.00\t1.00\t0.01\t \tAldosterone 140-280 pg/mL\t0.87 (0.58-1.31)\t0.82 (0.43-1.45)\t1.15 (0.91-2.23)\t\t \tAldosterone >280 pg/mL\t0.65 (0.48-0.91)\t0.49 (0.25-0.76)\t1.97 (1.69-3.75)\t\t \tAge, per 1 year\t1.05 (1.03-1.07)\t1.03 (1.00-1.08)\t1.07 (1.02-1.12)\t\t \tPrior CVD\t2.54 (1.54-4.17)\t5.29 (2.44-11.49)\t2.35 (1.87-6.36)\t\t \tAlbumin, per 1 g/L\t0.92 (0.85-0.98)\t0.87 (0.75-0.91)\t0.91 (0.79-0.92)\t\t \tIL-6, per 1 pg/mL\t1.07 (1.01-1.14)\t1.11 (1.01-1.23)\t1.08 (1.04-1.12)\t\t \tContinuous measure\t\t\t\t\t \tAldosterone, per 100 pg/mL\t0.75 (0.60-0.91)\t0.84 (0.67-0.96)\t1.61 (1.20-2.73)\t0.03\t \tAge, per 1 year\t1.05 (1.03-1.08)\t1.03 (0.99-1.07)\t1.07 (1.02-1.12)\t\t \tPrior CVD\t2.58 (1.40-4.76)\t5.52 (2.53-12.07)\t2.14 (1.80-5.67)\t\t \tAlbumin, per 1 g/L\t0.92 (0.85-0.99)\t0.85 (0.77-0.94)\t0.93 (0.89-0.97)\t\t \tIL-6, per 1 pg/mL\t1.05 (1.02-1.13)\t1.11 (1.02-1.27)\t1.07 (1.03-1.11)\t\t \tFirst CV Event, Adjusted HR (95% Confidence Interval)\t \tCategorical measure\t\t\t\t\t \tAldosterone <140 pg/mL\t1.00\t1.00\t1.00\t0.02\t \tAldosterone140-280 pg/mL\t0.89 (0.65-1.41)\t0.81 (0.51-1.89)\t1.21 (0.92-2.43)\t\t \tAldosterone >280 pg/mL\t0.79 (0.41-0.81)\t0.70 (0.33-0.78)\t2.01 (1.28-4.15)\t\t \tAge, per 1 year\t1.03 (1.02-1.06)\t1.02 (0.97-1.08)\t1.04 (0.99-1.10)\t\t \tPrior CVD\t5.08 (2.57-10.09)\t6.45 (2.52-16.52)\t3.41 (1.24-9.39)\t\t \tAlbumin, per 1 g/L\t0.89 (0.80-0.99)\t0.80 (0.65-0.98)\t0.82 (0.68-0.98)\t\t \tIL-6, per 1 pg/mL\t1.14 (1.04-1.25)\t1.14 (1.02-1.29)\t1.21 (1.01-1.45)\t\t \tContinuous measure\t\t\t\t\t \tAldosterone, per 100 pg/mL\t0.80 (0.69-0.95)\t0.69 (0.57-0.90)\t1.67 (1.12-2.89)\t0.03\t \tAge, per 1 year\t1.04 (1.01-1.08)\t1.03 (0.97-1.09)\t1.05 (0.99-1.12)\t\t \tPrior CVD\t5.10 (2.26-11.56)\t6.45 (2.52-16.52)\t3.42 (1.24-9.39)\t\t \tAlbumin, per 1 g/L\t0.89 (0.79-0.96)\t0.81 (0.65-0.99)\t0.82 (0.68-0.98)\t\t \tIL-6, per 1 pg/mL\t1.13 (1.02-1.25)\t1.15 (1.02-1.29)\t1.21 (1.01-1.45)                                                                                                                                                           Abbreviations: CI denotes confidence interval; CV, cardiovascular; CVD, cardiovascular disease; ECW/TBW, ratio of extracellular water to total body water; HR, hazard ratio; IL-6, inerleukin-6. The interaction P values assessed the modifying effect of volume overload (ECW/TBW >48%) on the risk relationship between plasma aldosterone and overall mortality and CV events. Discussion This study demonstrates an inverse association of aldosterone levels with all-cause mortality and CV event rates in the presence of volume overload. This represents a paradoxical effect of volume status on mortality. In contrast, there was a significant, graded, and positive association of aldosterone levels with all-cause mortality and CV event rates in the 64% of participants without volume overload. Accordingly, some ESRD patients with low aldosterone levels have a low risk of adverse outcomes, as in the general population, whereas others have a high risk because they are in a state of volume overload, which lowers aldosterone levels and increases the risk of mortality and CV events. These findings underline the importance of hyperaldosteronemia as a risk factor for adverse long-term outcomes among patients with ESRD, and of the masking of this association among individuals with volume overload. A growing body of evidence has linked aldosterone excess to the development and progression of different CVD processes, including hypertension, congestive heart failure, and coronary artery disease. Plasma aldosterone levels are markedly elevated among patients with CKD which is similar to the remnant kidney model in the rat. In a study of 28 selected patients with varying degrees of CKD and normal serum potassium levels and plasma renin activity, Hene et al. showed that aldosterone levels were elevated when creatinine clearance was less than 50% of normal, increasing three- to four-fold above normal levels as clearance values decreased. Therefore, aldosterone-mediated CV damage might be amplified by decreased kidney function, which by itself is a potent CV risk factor. Plasma aldosterone levels are influenced by a number of factors, including potassium and volume status. Our results showed that a relatively lower aldosterone level was in fact a surrogate marker of volume overload in hemodialysis patients. In healthy volunteers with salt loading and in hemodialysis patients with increased inter-dialytic weight gain, expansions of ECW led to reciprocal declines in plasma aldosterone concentrations. The relationship was more profound in healthy volunteers than in hemodialysis patients. As a result, the shift of the volume-aldosterone curve in hemodialysis patients suggests that ESRD is a state of high volume and inappropriately high aldosterone levels. ESRD patients are particularly vulnerable to sudden cardiac death resulting from left ventricular hypertrophy (LVH) and fibrosis. Cumulative evidence has indicated that aldosterone, beyond its classical actions on epithelial cells with BP-dependent organ damage, exerts non-classical effects on interstitial tissues, which are involved in cardiac and renal fibrosis. These non-epithelial effects of aldosterone are exaggerated in conditions of elevated aldosterone levels and expanded ECW, such as ESRD. In a large cohort of non-CKD patients scheduled for coronary angiography, variations in aldosterone concentrations within the normal range were associated with increased all-cause and CV mortality independent of major established CV risk factors. In the same cohort, the association of higher plasma aldosterone concentrations with overall CV mortality and sudden cardiac death was stronger for patients with decreased kidney function. Furthermore, a recent study by Edwards et al. also showed that the use of spironolactone reduced left ventricular (LV) mass and improved arterial stiffness in early-stage CKD. Unfortunately, the largest trials to date that used mineralocorticoid receptor antagonists and demonstrated a mortality benefit in patients with severe heart failure due to systolic LV dysfunction or acute myocardial infarction, excluded patients with moderate to advanced CKD. Once CKD patients have progressed to ESRD, aldosterone levels may remain elevated. The markedly elevated levels of aldosterone levels seen in ESRD suggest that mineralocorticoid receptor blockade could emerge as a crucial strategy against CVD in this population. Randomized controlled trials are required to confirm our preliminary findings and define the risk of potential hazards, particularly those involving hyperkalemia. The present study has a number of limitations. First, the modifying effect of volume overload on the risk relationship between aldosterone and mortality may still be subject to residual confounding. Furthermore, as with any cohort study, this study cannot establish causality between volume overload or aldosterone levels and mortality, and we caution against translating the results of observational studies into therapeutic practice. Finally, the impact of volume overload on the association between aldosterone and mortality might be different at different stages of CKD. It is unclear whether findings from our study of patients on dialysis can be extrapolated to patients who have moderate to advanced CKD and are not yet on dialysis. Our study has biological plausibility and important therapeutic implications. In CKD patients, a progressive decline in glomerular filtration rate, activation of the renin-angiotensin-aldosterone system (RAAS), and superimposed CV comorbidities contribute to salt and water retention. Volume overload and inappropriately high aldosterone levels in CKD patients resulted in more severe LVH and increased arterial stiffness, both of which are independent predictors of CV mortality in dialysis patients. Achieving strict volume control appears to be an imperative therapeutic strategy for inducing regression of LVH and arterial compliance, and lowering the CVD risk in dialysis patients. However, our study provides strong evidence that favorable effects of volume correction might be negated by the simultaneous stimulation of RAAS and thus may become apparent only if this response is inhibited. In summary, aldosterone level is inversely associated with adverse outcomes in hemodialysis patients. Volume overload underlies this paradox. In the absence of volume overload, aldosterone is an independent risk factor for all-cause mortality and CV events in this population. These data provide evidence for the confounding and effect modification of the association of aldosterone with adverse outcomes by volume overload. Hence, further research is warranted to clarify the pathophysiological mechanisms that link volume overload and hyperaldosteronemia to increased mortality and CV events and whether therapeutic interventions to mitigate volume overload and lower aldosterone concentrations may lead to improved outcomes in dialysis patients. References Clinical epidemiology of cardiovascular disease in chronic kidney disease Eplerenone survival benefits in heart failure patients post-myocardial infarction are independent from its diuretic and potassium-sparing effects: Insights from an EPHESUS (Eplerenone Post-Acute Myocardial Infarction Heart Failure Efficacy and Survival Study) Substudy Plasma aldosterone concentrations in chronic renal disease The clinical significance of aldosterone in ESRD: Part II Plasma aldosterone in hypertensive patients on chronic hemodialysis: distribution, determinants and impact on survival Plasma aldosterone levels are associated with increased cardiovascular mortality: the Ludwigshafen Risk and Cardiovascular Health (LURIC) Study Association of plasma aldosterone with cardiovascular mortality in patients with low estimated GFR: the Ludwigshafen Risk and Cardiovascular Health (LURIC) Study Death risk in hemodialysis patients: the predictive value of commonly measured variables and an evaluation of death rate differences between facilities Association between cholesterol level and mortality in dialysis patients: Role of inflammation and malnutrition Malnutrition-Inflammation modifies the relationship of cholesterol with cardiovascular disease Fluid retention is associated with cardiovascular mortality in patients undergoing long-term hemodialysis Hypervolemia is associated with increased mortality among hemodialysis patients Extracellular volume and aldosterone interaction in chronic kidney disease Second generation logarithmic estimates of single-pool variable volume Kt/V: an analysis of errors Parmar MKB, Machin D (1995) Survival Analysis. A Practical Approach. New York, John Wiley & Sons. Complementary and incremental mortality risk prediction by cortisol and aldosterone in chronic heart failure High plasma aldosterone levels on admission are associated with death in patients presenting with acute ST-elevation myocardial infarction The renin-aldosterone axis in two models of reduced renal mass in the rat Disordered aldosterone-volume relationship in end-stage kidney disease Sudden cardiac death in hemodialysis patients: an in-depth review Aldosterone in chronic kidney and cardiac disease Pathological hypertrophy and cardiac interstitium. Fibrosis and renin-angiotensin-aldosterone system Eplerenone, but not steroid withdrawal, reverses cardiac fibrosis in deoxycorticosterone/salt-treated rats Effect of aldosterone on renal transforming growth factor-beta Aldosterone-induced organ damage: plasma aldosterone level and inappropriate salt status Effect of spironolactone on left ventricular mass and aortic stiffness in early-stage chronic kidney disease: a randomized controlled trial The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized Aldactone Evaluation Study Investigators Eplerenone, a selective aldosterone blocker, in patients with left ventricular dysfunction after myocardial infarction Role of aldosterone in the control of sodium excretion in patients with advanced chronic renal failure Catecholamines, renin, aldosterone and arterial pressure in patients on chronic hemodialysis treatment Aldosterone-receptor antagonism and end-stage renal disease Is it time for spironolactone therapy in dialysis patients Aldosterone in uremia-beyond blood pressure   Studies of the vessel wall properties in hemodialysis patients Antihypertensive effects and arterial haemodynamic alterations during angiotensin converting enzyme inhibition Alterations of left ventricular hypertrophy in and survival of patients receiving hemodialysis: follow-up of an interventional study Impact of aortic stiffness on survival in end-stage renal disease Contribution of volume overload and angiotensin II to the increased pulse wave velocity of hemodialysis patients Effects of telmisartan added to angiotensin-converting enzyme inhibitors on mortality and morbidity in hemodialysis patients with chronic heart failure: A double-blind, placebo-controlled trial",
+    "entities": [
+        {
+            "entityId": "0_11",
+            "span": {
+                "begin": 0,
+                "end": 11
+            },
+            "entityType": "drug",
+            "entityName": "Aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "42_50",
+            "span": {
+                "begin": 42,
+                "end": 50
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "96_107",
+            "span": {
+                "begin": 96,
+                "end": 107
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "177_185",
+            "span": {
+                "begin": 177,
+                "end": 185
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "318_329",
+            "span": {
+                "begin": 318,
+                "end": 329
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "398_409",
+            "span": {
+                "begin": 398,
+                "end": 409
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "467_475",
+            "span": {
+                "begin": 467,
+                "end": 475
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "636_647",
+            "span": {
+                "begin": 636,
+                "end": 647
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "814_822",
+            "span": {
+                "begin": 814,
+                "end": 822
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "865_876",
+            "span": {
+                "begin": 865,
+                "end": 876
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "1101_1112",
+            "span": {
+                "begin": 1101,
+                "end": 1112
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "1136_1147",
+            "span": {
+                "begin": 1136,
+                "end": 1147
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "1387_1398",
+            "span": {
+                "begin": 1387,
+                "end": 1398
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "1654_1665",
+            "span": {
+                "begin": 1654,
+                "end": 1665
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "1704_1712",
+            "span": {
+                "begin": 1704,
+                "end": 1712
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1838_1846",
+            "span": {
+                "begin": 1838,
+                "end": 1846
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1901_1923",
+            "span": {
+                "begin": 1901,
+                "end": 1923
+            },
+            "entityType": "disease",
+            "entityName": "Cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "1925_1928",
+            "span": {
+                "begin": 1925,
+                "end": 1928
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "1963_1971",
+            "span": {
+                "begin": 1963,
+                "end": 1971
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1977_2000",
+            "span": {
+                "begin": 1977,
+                "end": 2000
+            },
+            "entityType": "disease",
+            "entityName": "end-stage renal disease",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "2002_2006",
+            "span": {
+                "begin": 2002,
+                "end": 2006
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "2045_2056",
+            "span": {
+                "begin": 2045,
+                "end": 2056
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "2185_2188",
+            "span": {
+                "begin": 2185,
+                "end": 2188
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "2190_2198",
+            "span": {
+                "begin": 2190,
+                "end": 2198
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2204_2226",
+            "span": {
+                "begin": 2204,
+                "end": 2226
+            },
+            "entityType": "disease",
+            "entityName": "chronic kidney disease",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "2228_2231",
+            "span": {
+                "begin": 2228,
+                "end": 2231
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "2245_2256",
+            "span": {
+                "begin": 2245,
+                "end": 2256
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "2317_2328",
+            "span": {
+                "begin": 2317,
+                "end": 2328
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "2363_2366",
+            "span": {
+                "begin": 2363,
+                "end": 2366
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "2370_2373",
+            "span": {
+                "begin": 2370,
+                "end": 2373
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "2391_2402",
+            "span": {
+                "begin": 2391,
+                "end": 2402
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "2449_2452",
+            "span": {
+                "begin": 2449,
+                "end": 2452
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "2453_2461",
+            "span": {
+                "begin": 2453,
+                "end": 2461
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2583_2586",
+            "span": {
+                "begin": 2583,
+                "end": 2586
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "2627_2638",
+            "span": {
+                "begin": 2627,
+                "end": 2638
+            },
+            "entityType": "drug",
+            "entityName": "cholesterol",
+            "id": "UMLS:C0008377"
+        },
+        {
+            "entityId": "2704_2712",
+            "span": {
+                "begin": 2704,
+                "end": 2712
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2807_2819",
+            "span": {
+                "begin": 2807,
+                "end": 2819
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        },
+        {
+            "entityId": "2827_2839",
+            "span": {
+                "begin": 2827,
+                "end": 2839
+            },
+            "entityType": "disease",
+            "entityName": "malnutrition",
+            "id": "UMLS:C0162429"
+        },
+        {
+            "entityId": "2862_2873",
+            "span": {
+                "begin": 2862,
+                "end": 2873
+            },
+            "entityType": "drug",
+            "entityName": "cholesterol",
+            "id": "UMLS:C0008377"
+        },
+        {
+            "entityId": "2988_2996",
+            "span": {
+                "begin": 2988,
+                "end": 2996
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3130_3141",
+            "span": {
+                "begin": 3130,
+                "end": 3141
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "3220_3231",
+            "span": {
+                "begin": 3220,
+                "end": 3231
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "3307_3310",
+            "span": {
+                "begin": 3307,
+                "end": 3310
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "3323_3331",
+            "span": {
+                "begin": 3323,
+                "end": 3331
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3390_3401",
+            "span": {
+                "begin": 3390,
+                "end": 3401
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "3418_3426",
+            "span": {
+                "begin": 3418,
+                "end": 3426
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3497_3508",
+            "span": {
+                "begin": 3497,
+                "end": 3508
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "3773_3785",
+            "span": {
+                "begin": 3773,
+                "end": 3785
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3840_3847",
+            "span": {
+                "begin": 3840,
+                "end": 3847
+            },
+            "entityType": "species",
+            "entityName": "Patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4080_4088",
+            "span": {
+                "begin": 4080,
+                "end": 4088
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4164_4172",
+            "span": {
+                "begin": 4164,
+                "end": 4172
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4369_4373",
+            "span": {
+                "begin": 4369,
+                "end": 4373
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "4394_4404",
+            "span": {
+                "begin": 4394,
+                "end": 4404
+            },
+            "entityType": "disease",
+            "entityName": "malignancy",
+            "id": "UMLS:C0006826"
+        },
+        {
+            "entityId": "4406_4424",
+            "span": {
+                "begin": 4406,
+                "end": 4424
+            },
+            "entityType": "disease",
+            "entityName": "infectious disease",
+            "id": "UMLS:C0009450"
+        },
+        {
+            "entityId": "4426_4432",
+            "span": {
+                "begin": 4426,
+                "end": 4432
+            },
+            "entityType": "disease",
+            "entityName": "sepsis",
+            "id": "UMLS:C0243026"
+        },
+        {
+            "entityId": "4437_4458",
+            "span": {
+                "begin": 4437,
+                "end": 4458
+            },
+            "entityType": "disease",
+            "entityName": "hepatobiliary disease",
+            "id": "UMLS:C0267792"
+        },
+        {
+            "entityId": "4545_4553",
+            "span": {
+                "begin": 4545,
+                "end": 4553
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4559_4562",
+            "span": {
+                "begin": 4559,
+                "end": 4562
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4571_4576",
+            "span": {
+                "begin": 4571,
+                "end": 4576
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4645_4653",
+            "span": {
+                "begin": 4645,
+                "end": 4653
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4683_4694",
+            "span": {
+                "begin": 4683,
+                "end": 4694
+            },
+            "entityType": "drug",
+            "entityName": "bicarbonate",
+            "id": "UMLS:C2722820"
+        },
+        {
+            "entityId": "4734_4740",
+            "span": {
+                "begin": 4734,
+                "end": 4740
+            },
+            "entityType": "drug",
+            "entityName": "sodium",
+            "id": "UMLS:C3714642"
+        },
+        {
+            "entityId": "4755_4764",
+            "span": {
+                "begin": 4755,
+                "end": 4764
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "4955_4963",
+            "span": {
+                "begin": 4955,
+                "end": 4963
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5168_5179",
+            "span": {
+                "begin": 5168,
+                "end": 5179
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "5439_5450",
+            "span": {
+                "begin": 5439,
+                "end": 5450
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "5582_5589",
+            "span": {
+                "begin": 5582,
+                "end": 5589
+            },
+            "entityType": "gene",
+            "entityName": "Albumin",
+            "id": "UMLS:C0001924"
+        },
+        {
+            "entityId": "5591_5595",
+            "span": {
+                "begin": 5591,
+                "end": 5595
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "5597_5607",
+            "span": {
+                "begin": 5597,
+                "end": 5607
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "5609_5616",
+            "span": {
+                "begin": 5609,
+                "end": 5616
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "5618_5627",
+            "span": {
+                "begin": 5618,
+                "end": 5627
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "5629_5633",
+            "span": {
+                "begin": 5629,
+                "end": 5633
+            },
+            "entityType": "drug",
+            "entityName": "iron",
+            "id": "UMLS:C0302583"
+        },
+        {
+            "entityId": "5645_5649",
+            "span": {
+                "begin": 5645,
+                "end": 5649
+            },
+            "entityType": "drug",
+            "entityName": "iron",
+            "id": "UMLS:C0302583"
+        },
+        {
+            "entityId": "5804_5839",
+            "span": {
+                "begin": 5804,
+                "end": 5839
+            },
+            "entityType": "gene",
+            "entityName": "high-sensitivity C-reactive protein",
+            "id": "UMLS:C1413716"
+        },
+        {
+            "entityId": "5841_5847",
+            "span": {
+                "begin": 5841,
+                "end": 5847
+            },
+            "entityType": "gene",
+            "entityName": "hs-CRP",
+            "id": "UMLS:C1413716"
+        },
+        {
+            "entityId": "6032_6036",
+            "span": {
+                "begin": 6032,
+                "end": 6036
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "6053_6057",
+            "span": {
+                "begin": 6053,
+                "end": 6057
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "6288_6295",
+            "span": {
+                "begin": 6288,
+                "end": 6295
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6777_6785",
+            "span": {
+                "begin": 6777,
+                "end": 6785
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6869_6872",
+            "span": {
+                "begin": 6869,
+                "end": 6872
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "6931_6955",
+            "span": {
+                "begin": 6931,
+                "end": 6955
+            },
+            "entityType": "disease",
+            "entityName": "congestive heart failure",
+            "id": "UMLS:C0018802"
+        },
+        {
+            "entityId": "6957_6980",
+            "span": {
+                "begin": 6957,
+                "end": 6980
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "6982_7005",
+            "span": {
+                "begin": 6982,
+                "end": 7005
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular disease",
+            "id": "UMLS:C0007820"
+        },
+        {
+            "entityId": "7014_7041",
+            "span": {
+                "begin": 7014,
+                "end": 7041
+            },
+            "entityType": "disease",
+            "entityName": "peripheral vascular disease",
+            "id": "UMLS:C0085096"
+        },
+        {
+            "entityId": "7187_7196",
+            "span": {
+                "begin": 7187,
+                "end": 7196
+            },
+            "entityType": "disease",
+            "entityName": "CV events",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "7276_7297",
+            "span": {
+                "begin": 7276,
+                "end": 7297
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "7299_7305",
+            "span": {
+                "begin": 7299,
+                "end": 7305
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "7310_7334",
+            "span": {
+                "begin": 7310,
+                "end": 7334
+            },
+            "entityType": "disease",
+            "entityName": "congestive heart failure",
+            "id": "UMLS:C0018802"
+        },
+        {
+            "entityId": "7359_7386",
+            "span": {
+                "begin": 7359,
+                "end": 7386
+            },
+            "entityType": "disease",
+            "entityName": "peripheral vascular disease",
+            "id": "UMLS:C0085096"
+        },
+        {
+            "entityId": "7391_7403",
+            "span": {
+                "begin": 7391,
+                "end": 7403
+            },
+            "entityType": "disease",
+            "entityName": "sudden death",
+            "id": "UMLS:C0011071"
+        },
+        {
+            "entityId": "7471_7482",
+            "span": {
+                "begin": 7471,
+                "end": 7482
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "8000_8007",
+            "span": {
+                "begin": 8000,
+                "end": 8007
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8040_8051",
+            "span": {
+                "begin": 8040,
+                "end": 8051
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "8645_8656",
+            "span": {
+                "begin": 8645,
+                "end": 8656
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "10026_10037",
+            "span": {
+                "begin": 10026,
+                "end": 10037
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "10340_10351",
+            "span": {
+                "begin": 10340,
+                "end": 10351
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "10623_10631",
+            "span": {
+                "begin": 10623,
+                "end": 10631
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10681_10689",
+            "span": {
+                "begin": 10681,
+                "end": 10689
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "10728_10735",
+            "span": {
+                "begin": 10728,
+                "end": 10735
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10888_10896",
+            "span": {
+                "begin": 10888,
+                "end": 10896
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10993_11001",
+            "span": {
+                "begin": 10993,
+                "end": 11001
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "11009_11012",
+            "span": {
+                "begin": 11009,
+                "end": 11012
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "11014_11026",
+            "span": {
+                "begin": 11014,
+                "end": 11026
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "11067_11078",
+            "span": {
+                "begin": 11067,
+                "end": 11078
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "11080_11087",
+            "span": {
+                "begin": 11080,
+                "end": 11087
+            },
+            "entityType": "gene",
+            "entityName": "albumin",
+            "id": "UMLS:C0001924"
+        },
+        {
+            "entityId": "11089_11096",
+            "span": {
+                "begin": 11089,
+                "end": 11096
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "11098_11107",
+            "span": {
+                "begin": 11098,
+                "end": 11107
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "11113_11123",
+            "span": {
+                "begin": 11113,
+                "end": 11123
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "11270_11279",
+            "span": {
+                "begin": 11270,
+                "end": 11279
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "11306_11317",
+            "span": {
+                "begin": 11306,
+                "end": 11317
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "11406_11417",
+            "span": {
+                "begin": 11406,
+                "end": 11417
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "11443_11446",
+            "span": {
+                "begin": 11443,
+                "end": 11446
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "11447_11455",
+            "span": {
+                "begin": 11447,
+                "end": 11455
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11578_11589",
+            "span": {
+                "begin": 11578,
+                "end": 11589
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "11605_11613",
+            "span": {
+                "begin": 11605,
+                "end": 11613
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11639_11645",
+            "span": {
+                "begin": 11639,
+                "end": 11645
+            },
+            "entityType": "gene",
+            "entityName": "hs-CRP",
+            "id": "UMLS:C1413716"
+        },
+        {
+            "entityId": "11650_11663",
+            "span": {
+                "begin": 11650,
+                "end": 11663
+            },
+            "entityType": "gene",
+            "entityName": "interleukin-6",
+            "id": "UMLS:C1698754"
+        },
+        {
+            "entityId": "11665_11669",
+            "span": {
+                "begin": 11665,
+                "end": 11669
+            },
+            "entityType": "gene",
+            "entityName": "IL-6",
+            "id": "UMLS:C1334122"
+        },
+        {
+            "entityId": "11707_11715",
+            "span": {
+                "begin": 11707,
+                "end": 11715
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11734_11745",
+            "span": {
+                "begin": 11734,
+                "end": 11745
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "11763_11771",
+            "span": {
+                "begin": 11763,
+                "end": 11771
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11790_11801",
+            "span": {
+                "begin": 11790,
+                "end": 11801
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "11855_11863",
+            "span": {
+                "begin": 11855,
+                "end": 11863
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11981_11992",
+            "span": {
+                "begin": 11981,
+                "end": 11992
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "12008_12016",
+            "span": {
+                "begin": 12008,
+                "end": 12016
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12073_12081",
+            "span": {
+                "begin": 12073,
+                "end": 12081
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17664_17675",
+            "span": {
+                "begin": 17664,
+                "end": 17675
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "17772_17783",
+            "span": {
+                "begin": 17772,
+                "end": 17783
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "17785_17795",
+            "span": {
+                "begin": 17785,
+                "end": 17795
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "17797_17804",
+            "span": {
+                "begin": 17797,
+                "end": 17804
+            },
+            "entityType": "gene",
+            "entityName": "albumin",
+            "id": "UMLS:C0001924"
+        },
+        {
+            "entityId": "17806_17813",
+            "span": {
+                "begin": 17806,
+                "end": 17813
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "17819_17828",
+            "span": {
+                "begin": 17819,
+                "end": 17828
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "17876_17882",
+            "span": {
+                "begin": 17876,
+                "end": 17882
+            },
+            "entityType": "gene",
+            "entityName": "hs-CRP",
+            "id": "UMLS:C1413716"
+        },
+        {
+            "entityId": "17884_17888",
+            "span": {
+                "begin": 17884,
+                "end": 17888
+            },
+            "entityType": "gene",
+            "entityName": "IL-6",
+            "id": "UMLS:C1334122"
+        },
+        {
+            "entityId": "17890_17898",
+            "span": {
+                "begin": 17890,
+                "end": 17898
+            },
+            "entityType": "gene",
+            "entityName": "ferritin",
+            "id": "UMLS:C0015879"
+        },
+        {
+            "entityId": "17944_17955",
+            "span": {
+                "begin": 17944,
+                "end": 17955
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "17987_17994",
+            "span": {
+                "begin": 17987,
+                "end": 17994
+            },
+            "entityType": "gene",
+            "entityName": "albumin",
+            "id": "UMLS:C0001924"
+        },
+        {
+            "entityId": "17999_18008",
+            "span": {
+                "begin": 17999,
+                "end": 18008
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "18065_18073",
+            "span": {
+                "begin": 18065,
+                "end": 18073
+            },
+            "entityType": "gene",
+            "entityName": "ferritin",
+            "id": "UMLS:C0015879"
+        },
+        {
+            "entityId": "19094_19102",
+            "span": {
+                "begin": 19094,
+                "end": 19102
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19138_19146",
+            "span": {
+                "begin": 19138,
+                "end": 19146
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19197_19205",
+            "span": {
+                "begin": 19197,
+                "end": 19205
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19386_19394",
+            "span": {
+                "begin": 19386,
+                "end": 19394
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19456_19464",
+            "span": {
+                "begin": 19456,
+                "end": 19464
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19530_19533",
+            "span": {
+                "begin": 19530,
+                "end": 19533
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "19564_19566",
+            "span": {
+                "begin": 19564,
+                "end": 19566
+            },
+            "entityType": "disease",
+            "entityName": "CV",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "19670_19681",
+            "span": {
+                "begin": 19670,
+                "end": 19681
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "19952_19963",
+            "span": {
+                "begin": 19952,
+                "end": 19963
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "20543_20554",
+            "span": {
+                "begin": 20543,
+                "end": 20554
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "20575_20578",
+            "span": {
+                "begin": 20575,
+                "end": 20578
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "20592_20609",
+            "span": {
+                "begin": 20592,
+                "end": 20609
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "20712_20719",
+            "span": {
+                "begin": 20712,
+                "end": 20719
+            },
+            "entityType": "gene",
+            "entityName": "albumin",
+            "id": "UMLS:C0001924"
+        },
+        {
+            "entityId": "20727_20738",
+            "span": {
+                "begin": 20727,
+                "end": 20738
+            },
+            "entityType": "drug",
+            "entityName": "cholesterol",
+            "id": "UMLS:C0008377"
+        },
+        {
+            "entityId": "20740_20750",
+            "span": {
+                "begin": 20740,
+                "end": 20750
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "20752_20760",
+            "span": {
+                "begin": 20752,
+                "end": 20760
+            },
+            "entityType": "gene",
+            "entityName": "ferritin",
+            "id": "UMLS:C0015879"
+        },
+        {
+            "entityId": "20786_20790",
+            "span": {
+                "begin": 20786,
+                "end": 20790
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "20796_20800",
+            "span": {
+                "begin": 20796,
+                "end": 20800
+            },
+            "entityType": "gene",
+            "entityName": "IL-6",
+            "id": "UMLS:C1334122"
+        },
+        {
+            "entityId": "20855_20866",
+            "span": {
+                "begin": 20855,
+                "end": 20866
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "20879_20882",
+            "span": {
+                "begin": 20879,
+                "end": 20882
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "20890_20897",
+            "span": {
+                "begin": 20890,
+                "end": 20897
+            },
+            "entityType": "gene",
+            "entityName": "albumin",
+            "id": "UMLS:C0001924"
+        },
+        {
+            "entityId": "20903_20907",
+            "span": {
+                "begin": 20903,
+                "end": 20907
+            },
+            "entityType": "gene",
+            "entityName": "IL-6",
+            "id": "UMLS:C1334122"
+        },
+        {
+            "entityId": "20958_20960",
+            "span": {
+                "begin": 20958,
+                "end": 20960
+            },
+            "entityType": "disease",
+            "entityName": "CV",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "20995_21006",
+            "span": {
+                "begin": 20995,
+                "end": 21006
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "21048_21055",
+            "span": {
+                "begin": 21048,
+                "end": 21055
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21247_21258",
+            "span": {
+                "begin": 21247,
+                "end": 21258
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "21313_21324",
+            "span": {
+                "begin": 21313,
+                "end": 21324
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "21476_21487",
+            "span": {
+                "begin": 21476,
+                "end": 21487
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "21578_21589",
+            "span": {
+                "begin": 21578,
+                "end": 21589
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "21654_21665",
+            "span": {
+                "begin": 21654,
+                "end": 21665
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "21701_21703",
+            "span": {
+                "begin": 21701,
+                "end": 21703
+            },
+            "entityType": "disease",
+            "entityName": "CV",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "24437_24448",
+            "span": {
+                "begin": 24437,
+                "end": 24448
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "24678_24689",
+            "span": {
+                "begin": 24678,
+                "end": 24689
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "24755_24767",
+            "span": {
+                "begin": 24755,
+                "end": 24767
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24811_24815",
+            "span": {
+                "begin": 24811,
+                "end": 24815
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "24816_24824",
+            "span": {
+                "begin": 24816,
+                "end": 24824
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24834_24845",
+            "span": {
+                "begin": 24834,
+                "end": 24845
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "25013_25024",
+            "span": {
+                "begin": 25013,
+                "end": 25024
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "25072_25081",
+            "span": {
+                "begin": 25072,
+                "end": 25081
+            },
+            "entityType": "disease",
+            "entityName": "CV events",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "25200_25208",
+            "span": {
+                "begin": 25200,
+                "end": 25208
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25214_25218",
+            "span": {
+                "begin": 25214,
+                "end": 25218
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "25404_25407",
+            "span": {
+                "begin": 25404,
+                "end": 25407
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "25429_25441",
+            "span": {
+                "begin": 25429,
+                "end": 25441
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "25443_25467",
+            "span": {
+                "begin": 25443,
+                "end": 25467
+            },
+            "entityType": "disease",
+            "entityName": "congestive heart failure",
+            "id": "UMLS:C0018802"
+        },
+        {
+            "entityId": "25473_25496",
+            "span": {
+                "begin": 25473,
+                "end": 25496
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "25505_25516",
+            "span": {
+                "begin": 25505,
+                "end": 25516
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "25552_25560",
+            "span": {
+                "begin": 25552,
+                "end": 25560
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25566_25569",
+            "span": {
+                "begin": 25566,
+                "end": 25569
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "25622_25625",
+            "span": {
+                "begin": 25622,
+                "end": 25625
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "25653_25661",
+            "span": {
+                "begin": 25653,
+                "end": 25661
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25686_25689",
+            "span": {
+                "begin": 25686,
+                "end": 25689
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "25707_25716",
+            "span": {
+                "begin": 25707,
+                "end": 25716
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "25735_25740",
+            "span": {
+                "begin": 25735,
+                "end": 25740
+            },
+            "entityType": "gene",
+            "entityName": "renin",
+            "id": "UMLS:C0035094"
+        },
+        {
+            "entityId": "25775_25786",
+            "span": {
+                "begin": 25775,
+                "end": 25786
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "25813_25823",
+            "span": {
+                "begin": 25813,
+                "end": 25823
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "25956_25967",
+            "span": {
+                "begin": 25956,
+                "end": 25967
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26087_26098",
+            "span": {
+                "begin": 26087,
+                "end": 26098
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26155_26164",
+            "span": {
+                "begin": 26155,
+                "end": 26164
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "26227_26238",
+            "span": {
+                "begin": 26227,
+                "end": 26238
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26311_26319",
+            "span": {
+                "begin": 26311,
+                "end": 26319
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "26381_26389",
+            "span": {
+                "begin": 26381,
+                "end": 26389
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "26488_26499",
+            "span": {
+                "begin": 26488,
+                "end": 26499
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26594_26602",
+            "span": {
+                "begin": 26594,
+                "end": 26602
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "26641_26652",
+            "span": {
+                "begin": 26641,
+                "end": 26652
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26675_26683",
+            "span": {
+                "begin": 26675,
+                "end": 26683
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "26698_26702",
+            "span": {
+                "begin": 26698,
+                "end": 26702
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "26754_26765",
+            "span": {
+                "begin": 26754,
+                "end": 26765
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26774_26778",
+            "span": {
+                "begin": 26774,
+                "end": 26778
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "26779_26787",
+            "span": {
+                "begin": 26779,
+                "end": 26787
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "26819_26839",
+            "span": {
+                "begin": 26819,
+                "end": 26839
+            },
+            "entityType": "disease",
+            "entityName": "sudden cardiac death",
+            "id": "UMLS:C0085298"
+        },
+        {
+            "entityId": "26855_26883",
+            "span": {
+                "begin": 26855,
+                "end": 26883
+            },
+            "entityType": "disease",
+            "entityName": "left ventricular hypertrophy",
+            "id": "UMLS:C0149721"
+        },
+        {
+            "entityId": "26885_26888",
+            "span": {
+                "begin": 26885,
+                "end": 26888
+            },
+            "entityType": "disease",
+            "entityName": "LVH",
+            "id": "UMLS:C0149721"
+        },
+        {
+            "entityId": "26894_26902",
+            "span": {
+                "begin": 26894,
+                "end": 26902
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "26943_26954",
+            "span": {
+                "begin": 26943,
+                "end": 26954
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "26988_27004",
+            "span": {
+                "begin": 26988,
+                "end": 27004
+            },
+            "entityType": "cell",
+            "entityName": "epithelial cells",
+            "id": "UMLS:C0014597"
+        },
+        {
+            "entityId": "27113_27139",
+            "span": {
+                "begin": 27113,
+                "end": 27139
+            },
+            "entityType": "disease",
+            "entityName": "cardiac and renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "27173_27184",
+            "span": {
+                "begin": 27173,
+                "end": 27184
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "27227_27238",
+            "span": {
+                "begin": 27227,
+                "end": 27238
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "27272_27276",
+            "span": {
+                "begin": 27272,
+                "end": 27276
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "27303_27306",
+            "span": {
+                "begin": 27303,
+                "end": 27306
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "27307_27315",
+            "span": {
+                "begin": 27307,
+                "end": 27315
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27366_27377",
+            "span": {
+                "begin": 27366,
+                "end": 27377
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "27578_27589",
+            "span": {
+                "begin": 27578,
+                "end": 27589
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "27635_27655",
+            "span": {
+                "begin": 27635,
+                "end": 27655
+            },
+            "entityType": "disease",
+            "entityName": "sudden cardiac death",
+            "id": "UMLS:C0085298"
+        },
+        {
+            "entityId": "27673_27681",
+            "span": {
+                "begin": 27673,
+                "end": 27681
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27788_27802",
+            "span": {
+                "begin": 27788,
+                "end": 27802
+            },
+            "entityType": "drug",
+            "entityName": "spironolactone",
+            "id": "UMLS:C0037982"
+        },
+        {
+            "entityId": "27885_27888",
+            "span": {
+                "begin": 27885,
+                "end": 27888
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "27942_27968",
+            "span": {
+                "begin": 27942,
+                "end": 27968
+            },
+            "entityType": "gene",
+            "entityName": "mineralocorticoid receptor",
+            "id": "UMLS:C0066563"
+        },
+        {
+            "entityId": "28021_28029",
+            "span": {
+                "begin": 28021,
+                "end": 28029
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28042_28055",
+            "span": {
+                "begin": 28042,
+                "end": 28055
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "28063_28086",
+            "span": {
+                "begin": 28063,
+                "end": 28086
+            },
+            "entityType": "disease",
+            "entityName": "systolic LV dysfunction",
+            "id": "UMLS:C0749225"
+        },
+        {
+            "entityId": "28096_28117",
+            "span": {
+                "begin": 28096,
+                "end": 28117
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "28128_28136",
+            "span": {
+                "begin": 28128,
+                "end": 28136
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28163_28166",
+            "span": {
+                "begin": 28163,
+                "end": 28166
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "28173_28176",
+            "span": {
+                "begin": 28173,
+                "end": 28176
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "28177_28185",
+            "span": {
+                "begin": 28177,
+                "end": 28185
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28205_28209",
+            "span": {
+                "begin": 28205,
+                "end": 28209
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "28211_28222",
+            "span": {
+                "begin": 28211,
+                "end": 28222
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "28283_28294",
+            "span": {
+                "begin": 28283,
+                "end": 28294
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "28310_28314",
+            "span": {
+                "begin": 28310,
+                "end": 28314
+            },
+            "entityType": "disease",
+            "entityName": "ESRD",
+            "id": "UMLS:C2316810"
+        },
+        {
+            "entityId": "28328_28354",
+            "span": {
+                "begin": 28328,
+                "end": 28354
+            },
+            "entityType": "gene",
+            "entityName": "mineralocorticoid receptor",
+            "id": "UMLS:C0066563"
+        },
+        {
+            "entityId": "28407_28410",
+            "span": {
+                "begin": 28407,
+                "end": 28410
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "28580_28592",
+            "span": {
+                "begin": 28580,
+                "end": 28592
+            },
+            "entityType": "disease",
+            "entityName": "hyperkalemia",
+            "id": "mesh:D006947"
+        },
+        {
+            "entityId": "28721_28732",
+            "span": {
+                "begin": 28721,
+                "end": 28732
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "28897_28908",
+            "span": {
+                "begin": 28897,
+                "end": 28908
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "29096_29107",
+            "span": {
+                "begin": 29096,
+                "end": 29107
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "29164_29167",
+            "span": {
+                "begin": 29164,
+                "end": 29167
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "29218_29226",
+            "span": {
+                "begin": 29218,
+                "end": 29226
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29262_29270",
+            "span": {
+                "begin": 29262,
+                "end": 29270
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29301_29304",
+            "span": {
+                "begin": 29301,
+                "end": 29304
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "29415_29418",
+            "span": {
+                "begin": 29415,
+                "end": 29418
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "29419_29427",
+            "span": {
+                "begin": 29419,
+                "end": 29427
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29500_29505",
+            "span": {
+                "begin": 29500,
+                "end": 29505
+            },
+            "entityType": "gene",
+            "entityName": "renin",
+            "id": "UMLS:C0035094"
+        },
+        {
+            "entityId": "29506_29517",
+            "span": {
+                "begin": 29506,
+                "end": 29517
+            },
+            "entityType": "gene",
+            "entityName": "angiotensin",
+            "id": "UMLS:C4521302"
+        },
+        {
+            "entityId": "29593_29617",
+            "span": {
+                "begin": 29593,
+                "end": 29617
+            },
+            "entityType": "disease",
+            "entityName": "salt and water retention",
+            "id": "UMLS:C0268000"
+        },
+        {
+            "entityId": "29660_29671",
+            "span": {
+                "begin": 29660,
+                "end": 29671
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "29682_29685",
+            "span": {
+                "begin": 29682,
+                "end": 29685
+            },
+            "entityType": "disease",
+            "entityName": "CKD",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "29686_29694",
+            "span": {
+                "begin": 29686,
+                "end": 29694
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29719_29722",
+            "span": {
+                "begin": 29719,
+                "end": 29722
+            },
+            "entityType": "disease",
+            "entityName": "LVH",
+            "id": "UMLS:C0149721"
+        },
+        {
+            "entityId": "29826_29834",
+            "span": {
+                "begin": 29826,
+                "end": 29834
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29944_29947",
+            "span": {
+                "begin": 29944,
+                "end": 29947
+            },
+            "entityType": "disease",
+            "entityName": "LVH",
+            "id": "UMLS:C0149721"
+        },
+        {
+            "entityId": "29990_29993",
+            "span": {
+                "begin": 29990,
+                "end": 29993
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "30011_30019",
+            "span": {
+                "begin": 30011,
+                "end": 30019
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "30243_30254",
+            "span": {
+                "begin": 30243,
+                "end": 30254
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "30323_30331",
+            "span": {
+                "begin": 30323,
+                "end": 30331
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "30408_30419",
+            "span": {
+                "begin": 30408,
+                "end": 30419
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "30478_30480",
+            "span": {
+                "begin": 30478,
+                "end": 30480
+            },
+            "entityType": "disease",
+            "entityName": "CV",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "30602_30613",
+            "span": {
+                "begin": 30602,
+                "end": 30613
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "30815_30824",
+            "span": {
+                "begin": 30815,
+                "end": 30824
+            },
+            "entityType": "disease",
+            "entityName": "CV events",
+            "id": "mesh:D002318"
+        },
+        {
+            "entityId": "30901_30912",
+            "span": {
+                "begin": 30901,
+                "end": 30912
+            },
+            "entityType": "drug",
+            "entityName": "aldosterone",
+            "id": "UMLS:C0002006"
+        },
+        {
+            "entityId": "30970_30978",
+            "span": {
+                "begin": 30970,
+                "end": 30978
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "0_11",
+            "subjectText": "Aldosterone",
+            "rel_name": "associate",
+            "objectId": "96_107",
+            "objectText": "aldosterone"
+        }
+    ]
+}

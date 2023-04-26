@@ -1,0 +1,1959 @@
+{
+    "sourcid": "PMC3467260",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467260/",
+    "text": "ABCB1 C3435T Polymorphism and Response to Clopidogrel Treatment in Coronary Artery Disease (CAD) Patients: A Meta-Analysis  Background A number of investigators have evaluated the association between the ABCB1 polymorphism and clopidogrel responding, but the results have been inconclusive. To examine the risk of high platelet activity and poor clinical outcomes associated with the ABCB1 C3435T polymorphism in CAD patients on clopidogrel, all available studies were included in the present meta-analysis. Methods We performed a systematic search of PubMed, Scopus and the Cochrane library database for eligible studies. Articles meeting the inclusion criteria were comprehensively reviewed, and the available data were accumulated by the meta-analysis. Results It was demonstrated that the ABCB1 C3435T variation was associated with the risk of early major adverse cardiovascular events (MACE) (T vs. C OR, 1.34; 95% CI, 1.10 to 1.62; P = 0.003; TT vs. CC: OR, 1.77; 95% CI, 1.19 to 2.63; P = 0.005; CT + TT vs.CC: OR, 1.48; 95% CI, 1.06 to 2.06; P = 0.02) and the polymorphism was also associated with the risk of the long-term MACE in patients on clopidogrel LD 300 mg (T vs. C: OR, 1.28; 95% CI, 1.10 to 1.48; P = 0.001; TT vs. CC: OR, 1.59; 95% CI, 1.19 to 2.13; P = 0.002; CT + TT vs.CC: OR, 1.39; 95% CI, 1.08 to 1.79; P = 0.01). The comparison of TT vs. CC was associated with a reduction in the outcome of bleeding (TT vs. CC: OR, 0.51; 95% CI, 0.40 to 0.66; P<0.00001). However, the association between ABCB1 C3435T polymorphism and platelet activity and other risk of poor clinical outcomes was not significant.                         Conclusions The evidence from our meta-analysis indicated that the ABCB1 C3435T polymorphism might be a risk factor for the MACE in patients on clopidogrel LD 300 mg, and that TT homozygotes decreased the outcome of bleeding compared with CC homozygotes. Introduction Clopidogrel inhibits the adenosine-diphosphate-induced platelet aggregation, reducing the cardiovascular complications in patients with coronary atherosclerotic heart disease (CAD), especially in those undergoing percutaneous coronary intervention (PCI). However, the pharmacodynamic response to clopidogrel varies greatly among patients, and patients with lesser degrees of platelet inhibition are more likely to experience recurrent ischemic events. Although the mechanisms have not been fully clarified, genetic polymorphisms may play a vital role in individual susceptibility to drug response. The ABCB1 (ATP-binding cassette, sub-family B, member 1, also called MDR1 or TAP1) gene encodes the intestinal efflux transporter P-glycoprotein, which modulates the absorption of clopidogrel. The ABCB1 gene locates at 7, p21-21.1, and more than 50 single-nucleotide polymorphisms (SNP) within this gene have been described in the literature. Among them, the ABCB1 C3435T (rs1045642) is extensively studied and some research has been shown that the ABCB1 C3435T genotype influences the impaired function of P-glycoprotein which can hinder the absorption of clopidogrel.   Antiplatelet response could be investigated through poor clinical outcomes and impaired response to antiplatelet therapy in the laboratory test. Simon et al.  first analyzed the effect of C3435T polymorphism on clinical outcomes in patients receiving clopidogrel and found that patients with TT genotype had a higher rate of subsequent cardiovascular events than those with CC genotype. One study indicated that the ABCB1 C3435T polymorphism influenced ADP dependent platelet reactivity and showed that T-allele carriers were likely to have a poor response to antiplatelet therapy in the lab test. However, the results from different studies were inconsistent. Thus, in the present study, a meta-analysis was performed to delineate the association between ABCB1 C3435T polymorphism and platelet activity as well as the risk of poor clinical outcomes in patients treated with clopidogrel. Flow diagram of the trial selection process. Main characteristics of studies included on platelet activity tests in the meta-analysis. First author\tyear\tethnicity\tpopulation studied\ttreatment protocal\tdefinition of case\tcase\tcontrol\tHWE\t \t\t\t\t\t\t\tCC\tCT\tTT\tCC\tCT\tTT\t\t \tSpiewak, M. \t2009\tNA\tACS treated with PCI\tLD aspirin 300 mg clopidogrel (300 mg or 600 mg)MD aspirin 75 mg clopidogrel 75 mg qd\tcollagen/adenosine diphosphate (CADP)-CT<130s\t4\t16\t10\t23\t34\t11\t0.791\t \tKim, I. S. \t2012\tAsian\tPatients treated with PCI\tcilostazol 100 mg bid, clopidogrel 75 mg and aspirin 200 mg qd\t5 mol/l ADP-induced maximal PR (Aggmax)>46%.\t7\t4\t1\t45\t58\t12\t0.287\t \tJeong, Y. H. \t2010\tAsian\tAMI treated with coron ary angiography or PCI\tMD clopidogrel 150 mg aspirin 200 mg qd\t5 mol/l ADP-induced maximal PR (PRmax)>50%.\t13\t14a\t\t56b\t55b\t15b\t0.791\t \tJeong, Y.H. \t2011\tAsian\tAMI treated with PCI\tLD aspirin 300 mg clopidogrel 600 mgMD aspirin 100-200 mg clopidogrel 75 mg\t20 mol/L ADP-induced maximal PR(PRmax)>59%\t64\t54\t16\t60\t54\t18\t0.303      LD: loading dose; MD: maintenance dose; HWE: Hardy-Weinberg equilibrium. the number is consisted of CT and TT. the number is consisted of case group and control group. Main characteristics and genotype of studies included on the poor clinical outcomes in the meta-analysis. First author\tYear\tethnicity\tMale gender,No. (%)\tHypertension, No. (%)\tDiabetes,No. (%)\tHypercholester-olemia No. (%)\tPrevious or current smoker, No. (%)\tTotal\tHWE\t \t\t\t\t\t\t\t\t\tCC\tCT\tTT\t\t \tMega, J. L. \t2010\tCaucasian(97.6)\t1040(70.7)\t1903(64.9)\t321(21.8)\t1424(48.6)\t560(38.1)\t330\t727\t414\t0.750\t \tSimon, T. \t2009\tNA\t1559(70.6)\t1280(58.0)\t698(31.6)\t1088(49.3)\t1206(54.6)\t564\t1050\t574\t0.060\t \tSpiewak, M. \t2009\tNA\t69(70.4)\t52 (53.1)\t17(17.3)\t35 (35.7)\t43 (43.9)\t26\t44\t18\t0.938\t \tWallentin, L. \t2010\tCaucasian (98)\t3571 (69.0)\tNA\t1189 (23)\tNA\t3099(60.2)\t1195\t2518\t1386\t0.434\t \tTiroch, K. A. \t2010\tNA\t694(74.8)\t691(74)\t224(24.1)\t482(52)\t339(36.5)\t203\t457\t268\t0.755\t \tCampo, G. \t2011\tNA\t231(77)\t215 (72)\t71(23.7)\t153 (51)\t71(23.7)\t69\t157\t74\t0.416\t \tDelaney, J. T. \t2012\tCaucasian\t440(63.5)\t560(80.8)\t241(34.8)\t643(92.8)\t419(60.5)\t173\t336\t179\t0.543\t \tWang, X. D. \t2012\tAsian\t361(67.4)\t305(56.9)\t273(50.9)\t295(55.0)\t186(34.7)\t364\t161\t11\t0.478\t \tJeong, Y. H. \t2011\tAsians\t195 (73.3)\t125 (47.0)\t70 (26.3)\t71 (26.7)\t141 (53.0)\t124\t108\t34\t0.216\t \tJaitner, J. \t2012\tCaucasian\t1180(77.4)\t1362(89.4)\t430(28.2)\t1068(70.1)\t207(13.6)\t444\t740\t340\t0.342    NA, not applicable. Treatment characteristics of studies included on the poor clinical outcomes in the meta-analysis. First author\tYear\tPopulation studied\tTreatment protocal\tStudy period\tThe poor outcomes\t \tMega, J. L.\t2010\tACS treated with PCI\tLD clopidogrel 300 mg\t15 months\tstent thrombosis\t \t\t\t\tMD clopidogrel 75 mg qd\t\tmajor or minor bleeding\t \t\t\t\t\t\tMACE (cardiovascular death, non-fatal myocardial infarction and non-fatal stroke)\t \tSimon, T.\t2009\tAMI treated withcoronary angiography or PCI\tLD clopidogrel 300 mg aspirin(98%)\t12 months\toutcome event (Death,nonfatal myocardial infarction or stroke)\t \tSpiewak, M\t2009\tACS treated with PCI\tLD aspirin 300 mg clopidogrel(300 mg or 600 mg)\t1.7 years\tcardiovascular deaths and non-fatal myocardial infarction\t \t\t\t\tMD aspirin 75 mg clopidogrel75 mg qd\t\t\t \tWallentin, L.\t2010\tAcute coronarysyndrome.\tLD clopidogrel 300-600 mg,\t12 months\tCardiovascular death, myocardial infarction, and stroke,\t \t\t\t\tMD clopidogrel 75 mg qd aspirin (96%)\t\tDefinite stent thrombosis\t \t\t\t\t\t\tMajor bleeding\t \tTiroch, K. A.\t2010\tAMI treated withcoronary angiography\tLD clopidogrel 600 mg\t12 months\tMACE(including death, MI, TLR, and stroke)\t \t\t\t\tMD aspirin 100 mg bid clopidogrel 75 mg qd\t\tStent thrombosis\t \tCampo, G.\t2011\tIschemic heart disease underwent PCI\tLD aspirin 300 mg clopidogrel 600 mg\t12 months\tIschemic adverse events(Death, MI, stroke, stent thrombosis)\t \t\t\t\tMD aspirin 300 mg clopidogrel75 mg qd\t\tminor or major bleedings\t \tDelaney, J. T.\t2012\tMI or treated with PCI\tClopidogrel not applicable\t12-24 months\tPrimary endpoint cardiovascular events(all-cause mortality, MI, stroke, revascularization, and stent thrombosis)\t \tWang, X. D.\t2012\tPatients treatedwith PCI\tLD aspirin 100 mg clopidogrel 300 mg\t1 month\tMajor or Minor bleeding\t \t\t\t\tMD aspirin 100 mg clopidogrel75 mg qd\t\tEarly definite stent thrombosis\t \t\t\t\t\t\tMACE(included cardiovascular death, stent thrombosis, recurrent acute coronary syndrome)\t \tJeong, Y. H.\t2011\tAMI treated withcoronary angiography or PCI\tLD aspirin 300 mg clopidogrel 600 mg\t12 months\tmajor or minor bleeding\t \t\t\t\tMD aspirin 100-200 mg clopidogrel 75 mg qd\t\tMACE (cardiovascular death, nonfatal myocardial infarction, and ischemic stroke)\t \tJaitner, J.\t2012\tPatients treatedwith PCI\tLD aspirin 500 mg clopidogrel 600 mg\t14 months\tstent thrombosis\t \t\t\t\tMD Aspirin 100 mg bid, clopidogrel 75 mg bid*3d then 75 mg qd            LD: loading dose; MD: maintenance dose; HWE: Hardy-Weinberg equilibrium. The distribution of ABCB1 C3435T genotypes for patients with and without long-term MACE. T\tC\tTT\tCC\tTT\tCT+CC\tTT+CT\tCC\t \tfirst author\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tWallentin 2010 \t507\t5290\t509\t4908\t137\t1386\t138\t1195\t137\t1386\t371\t3713\t370\t3904\t138\t1195\t \tSimon 2009 \t318\t2198\t262\t2178\t85\t574\t57\t564\t85\t574\t205\t1614\t233\t1624\t57\t564\t \tMega 2010 \t158\t1555\t106\t1387\t52\t414\t26\t330\t52\t414\t80\t1057\t106\t1141\t26\t330\t \tCampo 2011 \t28\t305\t14\t226\t8\t74\t1\t69\t8\t74\t13\t226\t20\t231\t1\t69\t \tTiroch 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t22\t725\t63\t203\t \tSpiewak 2009 \t12\t80\t8\t96\t3\t18\t1\t26\t3\t18\t7\t70\t9\t62\t1\t26\t \tJeong 2011 \t7\t176\t19\t356\t1\t34\t7\t124\t1\t34\t12\t232\t6\t142\t7\t124     The distribution of ABCB1 C3435T genotypes for patients with and without early MACE. first author\tT\tC\tTT\tCC\tTT\tCT+CC\tTT+CT\tCC\t \t\tevent\tTotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tSimon 2009 \t160\t2198\t128\t2178\t41\t574\t25\t564\t574\t41\t1614\t103\t1624\t119\t564\t25\t \tMega 2010 \t102\t1555\t62\t1387\t35\t414\t15\t330\t414\t35\t1057\t47\t1141\t67\t330\t15\t \tWang 2012 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t172\t5\t364\t15    The distribution of ABCB1 C3435T genotypes for patients with and without MI. first author\tT\tC\tTT\tCC\tTT\tCT+CC\tTT+CT\tCC\t \t\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tMega 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t48\t414\t70\t1057\tNA\tNA\tNA\tNA\t \tCampo 2011 \t18\t305\t8\t295\t5\t74\t0\t69\t5\t74\t8\t226\t13\t231\t0\t69\t \tTiroch 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t16\t725\t6\t203\t \tWang 2012 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t2\t172\t7\t364\t \tDelaney 2012 \t33\t694\t43\t682\t6\t179\t11\t173\t6\t179\t32\t509\t27\t515\t11\t173    The distribution of ABCB1 C3435T genotypes for patients with and without stroke. first author\tT\tC\tTT\tCC\tTT\tCT+CC\tTT+CT\tCC\t \t\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tWallentin 2010 \t41\t5290\t35\t4908\t13\t1386\t10\t1195\t13\t1386\t25\t3713\t28\t3904\t10\t1195\t \tMega 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t2\t414\t3\t1057\tNA\tNA\tNA\tNA\t \tCampo 2011 \t2\t305\t2\t295\t1\t74\t1\t69\t1\t74\t1\t226\t1\t231\t1\t69\t \tTiroch 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t7\t725\t1\t203\t \tDelaney 2012 \t1\t694\t1\t682\tNA\tNA\tNA\tNA\t0\t179\t1\t509\t1\t515\t0\t173    The distribution of ABCB1 C3435T genotypes for patients with and without mortality. first author\tT\tC\tTT\tCC\tTT\tCT+CC\tCT+TT\tCC\t \t\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tMega 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t5\t414\t8\t1057\tNA\tNA\tNA\tNA\t \tCampo 2011 \t8\t305\t4\t295\t2\t74\t0\t69\t2\t74\t4\t226\t6\t221\t0\t69\t \tTiroch 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t47\t725\t17\t203\t \tDelaney 2012 \t12\t694\t16\t682\t4\t179\t6\t173\t4\t179\t10\t509\t8\t515\t6\t173    The distribution of ABCB1 C3435T genotypes for patients with and without thrombosis. first author\tT\tC\tTT\tCC\tTT\tCT+CC\tTT+CT\tCC\t \t\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tWallentin2010 \t56\t3487\t62\t3239\t14\t917\t17\t793\t14\t917\t45\t2446\t42\t2570\t17\t793\t \tMega 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t5\t392\t12\t1004\tNA\tNA\tNA\tNA\t \tCampo 2011 \t6\t305\t2\t295\t2\t74\t0\t69\t2\t74\t2\t226\t4\t231\t0\t69\t \tTiroch 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t7\t725\t3\t203\t \tWang 2012 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t1\t172\t5\t364\t \tDelaney 2012 \t7\t694\t15\t682\t1\t179\t5\t173\t1\t179\t10\t509\t6\t515\t5\t173\t \tJaitner 2012 \t69\t1420\t63\t1628\t19\t340\t16\t444\t19\t340\t47\t1184\t50\t1080\t16\t444    The distribution of ABCB1 C3435T genotypes for patients with and without bleeding. first author\tT\tC\tTT\tCC\tTT\tCT+CC\tTT+CT\tCC\t \t\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\tevent\ttotal\t \tWallentin 2010 \t519\t5272\t477\t4884\t137\t2508\t116\t1188\t137\t1382\t361\t3696\t382\t3890\t116\t1188\t \tMega 2010 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t15\t414\t26\t1052\tNA\tNA\tNA\tNA\t \tCampo 2011 \t16\t305\t22\t335\t4\t157\t7\t69\t4\t74\t15\t226\t12\t231\t7\t69\t \tJeong 2011 \t5\t176\t11\t356\t1\t108\t4\t124\t1\t34\t7\t232\t4\t142\t4\t124\t \tWang 2012 \tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t10\t172\t20\t364    NA, not applicable. Methods 1. Literature Search Three electronic databases (PubMed, Scopus and the Cochrane library) were searched (the last search was updated in March 2012 with the following terms combined: antiplatelet, clopidogrel, aspirin, platelet activity, ABCB1, MDR1, multidrug resistance, polymorphism). All eligible studies were retrieved and their bibliographies as well as the previous meta-analysis were checked for other relevant studies. Pooled random-effects-based odds ratio of platelet activity associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC. The total and stratified analysis of the ABCB1 C3435T polymorphism on antiplatelet responding. T vs. C\tTT vs. CC\tTT vs. CC + CT\tCT + TT vs.CC\t \tVariables\tOR(95%CI)\tPa\tP\tOR(95%CI)\tPa\tP\tOR(95%CI)\tPa\tP\tOR(95%CI)\tPa\tP\t \tPlatelet activity\t1.06 (0.53, 2.13)\t0.02\t0.86\t1.36 (0.35, 5.30)\t0.05\t0.66\t1.20 (0.69, 2.08)\t0.19\t0.53\t1.01 (0.51, 1.97)\t0.07\t0.99\t \tMACE\t1.16 (0.94, 1.45)\t0.01\t0.17\t1.39 (0.86, 2.24)\t0.007\t0.18\t1.26 (0.98, 1.63)\t0.01\t0.08\t1.09 (0.77, 1.54)\t0.008\t0.62\t \tLD 600 mg\t1.13 (0.55, 2.29)\t0.19\t0.74\t2.05 (0.13, 31.97)\t0.07\t0.61\t1.48 (0.51, 4.29)\t0.27\t0.47\t1.06 (0.43, 2.64)\t0.12\t0.09\t \tLD 300 mg\t1.28 (1.10, 1.48)\t0.53\t0.001\t1.59 (1.19, 2.13)\t0.79\t0.002\t1.42 (0.98, 2.06)\t0.01\t0.07\t1.39 (1.08, 1.79)\t0.43\t0.01\t \tothers\t1.09 (0.61, 1.93)\t0.16\t0.78\t1.24 (0.32, 4.88)\t0.17\t0.76\t1.00 (0.81, 1.22)\t0.48\t0.99\t1.20 (0.32, 4.56)\t0.15\t0.79\t \tMACE early\t1.34 (1.10, 1.62)\t0.39\t0.003\t1.77 (1.19, 2.63)\t0.70\t0.005\t1.47 (0.85, 2.56)\t0.06\t0.17\t1.48 (1.06, 2.06)\t0.48\t0.02\t \tMI\t0.81 (0.55, 1.18)\t0.53\t0.27\t1.78 (0.08, 39.04)\t0.04\t0.72\t1.26 (0.54, 2.93)\t0.03\t0.59\t0.95 (0.57, 1.58)\t0.38\t0.84\t \tStroke\t1.08 (0.70, 1.67)\t0.99\t0.73\t1.11 (0.50, 2.44)\t0.90\t0.8\t1.46 (0.80, 2.66)\t0.94\t0.22\t1.03 (0.54, 1.96)\t0.73\t0.93\t \tAll-cause mortality\t0.98 (0.52, 1.83)\t0.18\t0.94\t0.96 (0.32, 2.88)\t0.23\t0.94\t1.39 (0.67, 2.88)\t0.91\t0.38\t0.75 (0.46, 1.23)\t0.31\t0.25\t \tThrombosis\t0.97 (0.61, 1.53)\t0.06\t0.88\t1.60 (0.96, 2.68)\t0.14\t0.07\t1.06 (0.74, 1.52)\t0.34\t0.75\t0.90 (0.63, 1.28)\t0.42\t0.56\t \tBleeding\t1.00 (0.88, 1.13)\t0.76\t0.98\t0.51 (0.40, 0.66)\t0.39\t<0.001\t1.06 (0.87, 1.28)\t0.72\t0.58\t0.98 (0.80, 1.20)\t0.55\t0.83     P value of Q-test for heterogeneity test.  2. Inclusion Criteria The studies that met the following criteria were included: (1) published in English, (2) case- control studies on platelet activity and prospective cohort studies on clinical outcomes, (3) the evaluation of the ABCB1 C3435T polymorphism, platelet activity and the poor clinical outcomes in patients receiving clopidogrel, (4) availability of the genotype frequency on target population, and (5) the valid date, on publication or through corresponding by e-mail, to work out an odds ratio (OR) or P-value with 95% confidence interval (CI). Pooled random-effects-based odds ratio of long-term major adverse cardiovascular events associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC. 3. Data Extraction Two reviewers independently extracted the data and reached a consensus on all items. The following information was achieved from each study: the first author's name, publication date, ethnicity, population studied, characteristic of target population, treatment protocal,definition of cases, poor outcomes, study period and gene information, respectively.   Pooled fix-effects-based odds ratio of early major adverse cardiovascular events associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC. 4. Study Outcomes The two parts of endpoints (high platelet activity and poor clinical outcomes) were studied. The poor clinical outcomes included major adverse cardiovascular events (MACE) which were composed of cardiovascular death, non-fatal myocardial infarction, non-fatal stroke, as well as all-cause mortality, MI, stroke, definite or probable stent thrombosis and major or minor bleeding. Pooled fix-effects-based odds ratio of myocardial infarction associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC. 5. Statistical Analysis The observed genotype frequencies in controls or entire cohorts were tested to compare with the expected genotype frequencies by Hardy-Weinberg equilibrium (HWE). Crude odds ratio (OR) with 95% confidence interval (CI) in each study was used to assess the strength of association between ABCB1 C3435T polymorphism and platelet activity as well as the poor clinical outcomes in patients who received clopidogrel. According to the method described by Woolf, the pooled ORs were assessed for allele comparison (T vs. C), dominant genetic model (CT + TT vs.CC), recessive genetic model (TT vs. CC + CT) and homozygote comparison (TT vs. CC), and its significance was evaluated by the Z-test. Heterogeneity between studies was diagnosed by the use of the chi2 - based Q statistic test, and regarded as significant if p value was less than 0.1. Meanwhile the statistic of I2 was used to efficiently test for the heterogeneity, with I2 less than 25%, 25-50%, and greater than 50% as low, moderate and high degree of inconsistency, respectively. The fixed-effect method was adopted if the effects were appeared to be homogeneous, or the random-effect model was conducted.  Pooled fix-effects-based odds ratio of stroke associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC. Subgroup analyses were applied to identify the heterogeneity. Sensitivity analyses were conducted by sequential omission of individual studies respectively to detect the potential influence of each study set to the pooled ORs. In addition, publication bias was carried out by the funnel plot, and the symmetry of the plot distribution indicated the absence of publication bias. Funnel-plot asymmetry was assessed with the Begg's and Egger's tests. All statistical tests were performed with the Stata (v.10.0, Stata Corporation) and Review Manager (v.5.1, The Cochrane Collaboration), and were considered significant if the 2-sided P value was less than 0.05.     Pooled fix-effects-based odds ratio of all-cause mortality associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC. Results 1. Study Characteristics A total of 113 studies on the ABCB1 C3435T polymorphism with respect to platelet activity and the poor clinical outcomes were found, of which 22 replicated studies were excluded. Additionally, 39 reviews, 1 meta-analysis and 3 studies not in English were excluded. Meanwhile, 29 irrelevant studies were excluded by reviewing the title and abstract and one trial was identified by screening the bibliographies. And then, five studies were excluded due to their insufficient genetic information, and three trials on clinical outcomes were excluded because they were not cohort studies. The result on platelet activity test from Wang was so suspicious that we excluded it from current meta-analysis on the polymorphism and the degree of platelet inhibition by test. Finally, twelve studies, of which four involved platelet activity and ten involved clinical outcomes, met the inclusion criteria (Fig. 1), and the main characteristics of them were summarized in Tables 1, 2 and 3. Various genotyping methods were applied including allele-specific polymerase chain reaction (PCR), Taqman Assays, Affymetrix Assay and Illumina Infinium Beadchip Assay, as well as SNPlex. Distribution of genotypes in the controls or the total of each cohort (Tables 4, 5, 6, 7, 8, 9 and 10) were all not deviated from HWE. Pooled fix-effects-based odds ratio of thrombosis associated with ABCB1 C3435T polymorphism. Comparison: TT+TC vs. CC.). 2. Meta-analysis Results 2.1. Platelet activity When four eligible studies were pooled, the association between platelet high activity and the ABCB1 C3435T variation was not significant (for CT + TT vs.CC: OR, 1.01; 95% CI, 0.451 to 1.97; P = 0.99; Fig. 2). The heterogeneity existed in allele comparison (I2 = 74%; P = 0.02), homozygote comparison (I2 = 67%; P = 0.05) and dominant genetic model (I2 = 57%; P = 0.07) (Table 11).                             Pooled fix-effects-based odds ratio of bleeding associated with ABCB1 C3435T polymorphism. Comparison: (1) TT+TC vs. CC;(2) TT vs. CC. 2.2. Long-term major adverse cardiovascular events The major adverse cardiovascular events (more than one year) had no significant association with ABCB1 C3435T polymorphism in all genotype genetic models (for CT + TT vs. CC: OR, 1.09; 95% CI, 0.77 to 1.54; P = 0.62; Fig. 3). The I2 statistic indicated the between-study heterogeneity (Table 11).     Funnel plots of the meta-analysis of ABCB1 C3435T polymorphism (comparison: TT+TC vs. CC) and response to clopidogrel treatment. (A) platelet activity (Begg's test, P = 1.000; Egger's test, P = 0.402);(B) Long-term major adverse cardiovascular events (Begg's test, P = 1.000; Egger's test, P = 0.474);(C) Early major adverse cardiovascular events (Begg's test, P = 0.296; Egger's test, P = 0.124);(D) myocardial infarction (Begg's test, P = 1.000; Egger's test, P = 0.628);(E) stroke (Begg's test, P = 0.734; Egger's test, P = 0.693);(F) All-cause mortality (Begg's test, P = 1.000; Egger's test, P = 0.990);(G) Stent thrombosis (Begg's test, P = 1.000; Egger's test, P = 0.372);(H) Bleeding(Begg's test, P = 0.308; Egger's test, P = 0.425). OR = odds ratio; se = standard error.                                                                                                         The effect of the ABCB1 C3435T polymorphism was further evaluated in stratification analyses. According to the clopidogrel loading dose, we found that this polymorphism was associated with the risk of the MACE in patients treated with clopidogrel LD 300 mg in allele comparison (T vs. C: OR, 1.28; 95% CI, 1.10 to 1.48; P = 0.001), homozygote comparison (TT vs. CC: OR, 1.59; 95% CI, 1.19 to 2.13; P = 0.002), and dominant genetic model (CT + TT vs. CC: OR, 1.39; 95% CI, 1.08 to 1.79; P = 0.01; Fig. 3). However, no significant risk of the MACE in other subgroups with this polymorphism was observed in all comparisons. Meanwhile, the heterogeneity of each subgroup was decreased (Table 11).             2.3. Early major adverse cardiovascular events Three studies provided data (MACE happened in about one month), and the heterogeneity was low for all comparisons except for that of TT vs. CC + CT (I2 = 72%; P = 0.016) (Table 11). The overall meta-analysis demonstrated that significantly elevated risk was associated with the ABCB1 C3435T variation in allele comparison (T vs. C: OR, 1.34; 95% CI, 1.10 to 1.62; P = 0.003), homozygote comparison (TT vs. CC: OR, 1.77; 95% CI, 1.19 to 2.63; P = 0.005), and dominant genetic model (CT + TT vs.CC: OR, 1.48; 95% CI, 1.06 to 2.06; P = 0.02; Fig. 4).                     2.4. Myocadial infarction Myocadial infarction in the five cohort studies included in the primary analysis was 5.10% (200 of the 3923 patients). The summary ORs showed no association between ABCB1 C3435T polymorphism and risk of MI in the follow-up period (for CT + TT vs. CC: OR, 0.95; 95% CI, 0.57 to 1.58; P = 0.84; Fig. 5). Analysis showed that the heterogeneity existed in the homozygote comparison (I2 = 76%; P = 0.04) and recessive genetic model (I2 = 71%; P = 0.03) (Table 11).                     2.5. Ischemic stroke The ischemic stroke rate in the five cohort studies was 0.69% (54 of the 7858). As described in Table 11, though no heterogeneity could be detected, the meta-analysis illustrated that ABCB1 C3435T polymorphism was unrelated to the rate of ischemic stroke in patients treated with clopidogrel (for CT + TT vs. CC: OR, 1.03; 95% CI, 0.54 to 1.96; P = 0.93; Fig. 6).     2.6. All-cause mortality A total of 97 deaths (four trials, 3387 total patients) occurred during follow-up. When all eligible studies were pooled, the association between all-cause and the ABCB1 C3435T variation was not significant (for CT + TT vs. CC: OR, 1.09; 95% CI, 0.77 to 1.54; P = 0.62; Fig. 7). No between-study heterogeneity was identified (Table 11).     2.7. Stent thrombosis Seven cohort studies reported stent thrombosis data (1.97%, 173 of the 8775). The cumulative incidence of stent thrombosis was not associated with ABCB1 C3435T polymorphism in all genotype genetic models (for CT + TT vs. CC: OR, 0.90; 95% CI, 0.63 to 1.28; P = 0.56; Fig. 8). The heterogeneity existed in allele comparison (I2 = 59%; P = 0.06) (Table 11).             2.8. Bleeding The bleeding rate in the five cohort studies was 7.82% (596 of the 7619). The comparison of TT vs. CC was associated with a significant reduction in the outcome of bleeding (TT vs. CC: OR, 0.51; 95% CI, 0.40 to 0.66; P<0.00001; Fig. 9). No significance between ABCB1 C3435T polymorphism and other genetic models as well as heterogeneity were identified (Table 11). 3. Test of Heterogeneity In platelet activity studies, there was significant heterogeneity in three genetic contrasts of the ABCB1 C3435T (Table 11). However, in the subgroup analysis, heterogeneity disappeared in studies that tested the platelet activity by light transmittance aggregometry (LTA) and the VerifyNow (T vs. C: I2 = 11%, P = 0.29; TT vs. CC: I2 = 0%, P = 0.61; TT+CT vs. CC I2 = 22%, P = 0.28).                         Furthermore, significant heterogeneity existed in all the four genetic models of the ABCB1 C3435T with long-term MACE (Table 11). But in the subgroup analysis of clopidogrel loading dose, the heterogeneity of each subgroup was changed, clopidogrel LD 300 mg in two contrasts (T vs. C: I2 = 0%, P = 0.53; TT vs. CC: I2 = 0%, P = 0.79; TT+CT vs. CC I2 = 0%, P = 0.43) except one model (TT vs. TC+CC: I2 = 63%, P = 0.10), as well as clopidogrel LD 600 mg in two contrasts (T vs. C: I2 = 41%, P = 0.19; TT vs. TC+CC: I2 = 19%, P = 0.27; TT+CT vs. CC I2 = 53%, P = 0.12) except one model(TT vs. CC: I2 = 70%, P = 0.07).                                                                 In addition, the heterogeneity existed in allele comparison with regard to stent thrombosis (Table 11). When we stratified the trials by previous or current smoker percentage, the heterogeneity was not clear in the subgroup (percentage <50%) (T vs. C: I2 = 0%; P = 0.32) and the other (percentage >50%) (T vs. C: I2 = 34%; P = 0.22).                 Although we also found the heterogeneity in two genetic model contrasts of Myocadial infarction and one genetic model contrast of early MACE (Table 11), due to limited studies, we failed to explain the heterogeneity. Finally, the heterogeneity could not be detected significantly in other contrasts. 4. Sensitivity Analysis Sensitivity analysis was performed in the ABCB1 C3435T dominant genetic model (CT + TT vs. CC). The significance of pooled ORs was not obviously affected by omission of individual studies except for MACE. One study carried the greatest weight for long-term MACE. When it was excluded, the pooled p-values were significant in all comparisons, whereas exclusion of any other did not influence the results. Similarly, exclusion of the study by Simon et al. , the pooled OR of the dominant genetic model in early MACE was not significant. Meanwhile, in this genetic model, the heterogeneity in our meta-analysis was not influenced excessively by exclusion of any single study. 5. Publication Bias Funnel plot as well as Begg's and Egger's tests were carried out to access the publication bias of studies. Data showed that there was no evidence of publication bias in comparison of TT+TC vs. CC (Fig. 10).     Discussion Clopidogrel, as a pro-drug, was known to require metabolic activation before inhibiting platelet aggregation. The ABCB1 C3435T had been revealed to be associated with loss of function of P-glycoprotein which decreased the active metabolite of clopidogrel. On the basis of antiplatelet responding in the laboratory test and poor clinical outcomes, several molecular cardiovascular studies were conducted to evaluate the association between the ABCB1 C3435T polymorphism and platelet response in CAD patients on clopidogrel, but the results were inconclusive. A former meta-analysis showed that the association might exist between TT homozygotes of the ABCB1 C3435T polymorphism and risk of short-term recurrent ischemic events. In the present meta-analysis, since we included newer studies and conducted the research more meticulously with the subgroup study and more detailed trials which the former one had not included, new significance resulted. To begin with, the 3435T allele carrier was related with the risk of the early and long-tern major adverse cardiovascular events in patients treated with clopidogrel LD 300 mg. However, we did not find the significant association in subgroup clopidogrel LD 600 mg and others. Simon et al.  first found that patients with TT genotype had a higher rate of subsequent cardiovascular events than those with CC genotype. The recent clinical trial showed that compared with a 300-mg loading dose, pre-treatment with a 600-mg clopidogrel loading dose before primary PCI was associated with improvement of angiographic results and 30-day major adverse cardiovascular events. The platelet response in treatment might be influenced by both ABCB1 C3435T polymorphism and clopidogrel loading dose, which need further research to identify. Meanwhile another study indicated that a 150 mg oral maintenance dose of clopidogrel resulted in more intense inhibition of platelet aggregation than a 75 mg maintenance dose, which suggested that the maintenance dose also interacted with the platelet activity. In addition, TT homozygotes decreased the outcome of bleeding compared with CC homozygotes in our meta-analysis. This was almost consistent with the result from the three respective trails. However, one study carried the greatest weight for this analyses and with limited studies included, the result should be interpreted with caution and further studies based on larger, stratified population should be examined. Four studies on platelet activity tested by different methods were included in our research. This was the first meta-analysis that includes the studies on the polymorphism with the degree of platelet inhibition evaluated by empirical methods, though no significance was searched. Meanwhile, in the group of all-cause mortality, MI, Stroke, and stent thrombosis, the polymorphisms with them were also not significant. Various factors may inference these. Among them, we first pay attention to the evidence of heterogeneity, for which the reasons are unclear. It may be due to the following: the selection of methods; differences in age, gender, ethnicity, sample size; and the main clinical characteristics. For instance, the diabetes with insulin resistance lower the inhibition of platelet aggregation. Various genotyping methods applied in different studies may also bring about the heterogeneity. Diverse definition of case in platelet activity tests were used, such as different time of evaluation, hence, the association mignt have been biased or simply lead to heterogeneity. If we carried out the subgroup by some of the above elements, the heterogeneity in some compares decreased. Clopidogrel inhibits the platelet activity, and high platelet activity in patients treated with Clopidogrel indicates clopidogrel resistance or poor response to clopidogrel, which will lead to poor clinical outcome in the future. Though we have found some association between ABCB1 C3435T polymorphism and antiplatelet responding, we also should set our insights to the interaction between single-nucleotide polymorphisms (SNP) and other factors. As coexisting, rather than single, polymorphisms in different genes may be related to persistent platelet activation while on clopidogrel, so gene-gene interaction, such as P2Y12 or CYP2C19 with ABCB1 C3435T, should also be observed between ABCB1 C3435T polymorphism and antiplatelet responding. On the other hand, one recent research showed that the combination of a calcium channel blocker and ABCB1 C3435T genotype influenced the change of 20 micromol ADP-induced maximal platelet aggregation (MPA) in smoking status receiving clopidogrel. In our meta-analysis, the small scale of population and inconsistent stratification standards in environmental exposures and genotypes lowered our statistical power to further explore the gene-environment interaction. As a result, we need to give careful consideration to more sophisticated gene-gene and gene-environment interactions in a future analysis, so as to obtain a more comprehensive understanding of the association between ABCB1 C3435T polymorphism and antiplatelet responding. Besides, from the different aspirin doses or triple antiplatelet therapy our studies included, we believe that interaction between gene and drug combination may also exist. Prolonged use of aspirin may reduce the intestinal absorption of clopidogrel by inducing the expression of ABCB1 in human epithelial colorectal (Caco-2) cells. Researchers recently started to focus on the interactions between genetic polymorphisms and clinical effect with triple antiplatelet therapy (cilostazol, clopidogrel and aspirin). All these have urged us to pay more attention to the interaction between gene and drug combination in using clopidogrel. However, since new antiplatelet medicine had gone to market, we discovered that ABCB1 genotypes were not significantly associated with clinical or pharmacological outcomes in patients treated with prasugrel and the pharmacodynamic characteristics of ticagrelor were not influenced by CYP2C19 and ABCB1 genotypes. These might overcome the difficulty in poor antiplatelet responding the ABCB1 genotypes associated and gave us fresh insight to the antiplatelet treatment in addition to aspirin and clopidogrel, however numerous trails should be arranged for further assessment. Although considerable efforts have been put into the test, there are some limitations inherent in the study. First, the number of studies included are limited, especially for the information on the risk of MACE in patients treated with clopidogrel LD 300 mg and the outcome of bleeding. Thus the conclusion about these should be considered with caution. Second, detailed information such as the ethnicity and other main characteristic are not available in some studies, which further limit our evaluation. Third, gene-gene or gene-environment interaction, different loading or maintenance dose, influence from main clinical characteristics, standardized unbiased platelet activity evaluation and genotyping methods may affect the results. These variables can be planned more effectively by a separate analysis of these elements, to which we did not have access. In summary, our meta-analysis indicated that the ABCB1 3435T allele carrier was related to the risk of major adverse cardiovascular events in patients on clopidogrel LD 300 mg, and TT homozygotes decreased the outcome of bleeding compared with CC homozygotes, whereas, the association between ABCB1 C3435T polymorphism and platelet activity as well as other risks of poor clinical outcomes were not significant. Thus, to validate our findings, additional larger studies need to focus on homogeneous cases along with standardized platelet activity evaluation and genotyping methods in further tasks. Supporting Information References 2011 ACCF/AHA focused update of the Guidelines for the Management of Patients with Unstable Angina/Non-ST-Elevation Myocardial Infarction (updating the 2007 guideline): a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines developed in collaboration with the American College of Emergency Physicians, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons Clopidogrel for coronary stenting: response variability, drug resistance, and the effect of pretreatment platelet reactivity Clopidogrel resistance is associated with increased risk of recurrent atherothrombotic events in patients with acute myocardial infarction Impact of the degree of peri-interventional platelet inhibition after loading with clopidogrel on early clinical outcome of elective coronary stent placement Poor response to clopidogrel: current and future options for its management Isolation and expression of a complementary DNA that confers multidrug resistance Localization of multidrug resistance-associated DNA sequences to human chromosome 7 Impact of P-glycoprotein on clopidogrel absorption Genetic determinants of response to clopidogrel and cardiovascular events Influence of C3435T multidrug resistance gene-1 (MDR-1) polymorphism on platelet reactivity and prognosis in patients with acute coronary syndromes Modified clopidogrel loading dose according to platelet reactivity monitoring in patients carrying ABCB1 variant alleles in patients with clopidogrel resistance Interaction analysis between genetic polymorphisms and pharmacodynamic effect in patients treated with adjunctive cilostazol to dual antiplatelet therapy: results of the ACCEL-TRIPLE (Accelerated Platelet Inhibition by Triple Antiplatelet Therapy According to Gene Polymorphism) study Carriage of cytochrome 2C19 polymorphism is associated with risk of high post-treatment platelet reactivity on high maintenance-dose clopidogrel of 150 mg/day: results of the ACCEL-DOUBLE (Accelerated Platelet Inhibition by a Double Dose of Clopidogrel According to Gene Polymorphism) study Effect of CYP2C19*2 and *3 loss-of-function alleles on platelet reactivity and adverse clinical events in East Asian acute myocardial infarction survivors treated with clopidogrel and aspirin Genetic variants in ABCB1 and CYP2C19 and cardiovascular outcomes after treatment with clopidogrel and prasugrel in the TRITON-TIMI 38 trial: a pharmacogenetic analysis   Effect of CYP2C19 and ABCB1 single nucleotide polymorphisms on outcomes of treatment with ticagrelor versus clopidogrel for acute coronary syndromes: a genetic substudy of the PLATO trial Protective effect of the CYP2C19 *17 polymorphism with increased activation of clopidogrel on cardiovascular events Prospective evaluation of on-clopidogrel platelet reactivity over time in patients treated with percutaneous coronary intervention relationship with gene polymorphisms and clinical outcome Predicting clopidogrel response using DNA samples linked to an electronic health record No association of ABCB1 C3435T genotype with clopidogrel response or risk of stent thrombosis in patients undergoing coronary stenting Woolf B (1955Jun) On estimating the relation between blood group and disease Quantitative synthesis in systematic reviews Measuring inconsistency in meta-analyses Empirical assessment of effect of publication bias on meta-analyses A comparison of methods to detect publication bias in meta-analysis by P. Macaskill, S. D. Walter and L. Irwig, Stat Med, 2001 Bias in meta-analysis detected by a simple, graphical test Paraoxonase-1 is a major determinant of clopidogrel efficacy Factors associated with the failure of clopidogrel dose-adjustment according to platelet reactivity monitoring to optimize P2Y12-ADP receptor blockade Effect of paraoxonase-1 polymorphism on clinical outcomes in patients treated with clopidogrel after an acute myocardial infarction Genetic polymorphisms and the impact of a higher clopidogrel dose regimen on active metabolite exposure and antiplatelet response in healthy subjects Impact of genetic variants on post-clopidogrel platelet reactivity in patients after elective percutaneous coronary intervention The pharmacogenetics and pharmacodynamics of clopidogrel response: an analysis from the PRINC (Plavix Response in Coronary Intervention) trial Association of C3435T multi drug resistance gene-1 polymorphism with aspirin resistance in ischemic stroke and its subtypes Clinical, angiographic, and genetic factors associated with early coronary stent thrombosis ABCB1 C3435T polymorphism and risk of adverse clinical events in clopidogrel treated patients: A meta-analysis Outcome comparison of 600- and 300-mg loading doses of clopidogrel in patients undergoing primary percutaneous coronary intervention for ST-segment elevation myocardial infarction: results from the ARMYDA-6 MI (Antiplatelet therapy for Reduction of MYocardial Damage during Angioplasty-Myocardial Infarction) randomized study A double-blind, randomized study on platelet aggregation in patients treated with a daily dose of 150 or 75 mg of clopidogrel for 30 days Platelet function profiles in patients with type 2 diabetes and coronary artery disease on combined aspirin and clopidogrel treatment Coexisting polymorphisms of P2Y12 and CYP2C19 genes as a risk factor for persistent platelet activation with clopidogrel Accelerated platelet inhibition by switching from atorvastatin to a non-CYP3A4-metabolized statin in patients with high platelet reactivity (ACCEL-STATIN) study Prolonged use of aspirin alters human and rat intestinal cells and thereby limits the absorption of clopidogrel Pharmacokinetic, pharmacodynamic and pharmacogenetic profile of the oral antiplatelet agent ticagrelor",
+    "entities": [
+        {
+            "entityId": "0_12",
+            "span": {
+                "begin": 0,
+                "end": 12
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "42_53",
+            "span": {
+                "begin": 42,
+                "end": 53
+            },
+            "entityType": "drug",
+            "entityName": "Clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "67_90",
+            "span": {
+                "begin": 67,
+                "end": 90
+            },
+            "entityType": "disease",
+            "entityName": "Coronary Artery Disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "92_95",
+            "span": {
+                "begin": 92,
+                "end": 95
+            },
+            "entityType": "disease",
+            "entityName": "CAD",
+            "id": "mesh:D003324"
+        },
+        {
+            "entityId": "97_105",
+            "span": {
+                "begin": 97,
+                "end": 105
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "204_209",
+            "span": {
+                "begin": 204,
+                "end": 209
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "227_238",
+            "span": {
+                "begin": 227,
+                "end": 238
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "413_416",
+            "span": {
+                "begin": 413,
+                "end": 416
+            },
+            "entityType": "disease",
+            "entityName": "CAD",
+            "id": "mesh:D003324"
+        },
+        {
+            "entityId": "417_425",
+            "span": {
+                "begin": 417,
+                "end": 425
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "429_440",
+            "span": {
+                "begin": 429,
+                "end": 440
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "1132_1136",
+            "span": {
+                "begin": 1132,
+                "end": 1136
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "1140_1148",
+            "span": {
+                "begin": 1140,
+                "end": 1148
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1152_1163",
+            "span": {
+                "begin": 1152,
+                "end": 1163
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "1515_1527",
+            "span": {
+                "begin": 1515,
+                "end": 1527
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "1545_1553",
+            "span": {
+                "begin": 1545,
+                "end": 1553
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "1781_1789",
+            "span": {
+                "begin": 1781,
+                "end": 1789
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1793_1804",
+            "span": {
+                "begin": 1793,
+                "end": 1804
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "1917_1928",
+            "span": {
+                "begin": 1917,
+                "end": 1928
+            },
+            "entityType": "drug",
+            "entityName": "Clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "1942_1963",
+            "span": {
+                "begin": 1942,
+                "end": 1963
+            },
+            "entityType": "drug",
+            "entityName": "adenosine-diphosphate",
+            "id": "mesh:D000244"
+        },
+        {
+            "entityId": "1972_1980",
+            "span": {
+                "begin": 1972,
+                "end": 1980
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "2039_2047",
+            "span": {
+                "begin": 2039,
+                "end": 2047
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2053_2091",
+            "span": {
+                "begin": 2053,
+                "end": 2091
+            },
+            "entityType": "disease",
+            "entityName": "coronary atherosclerotic heart disease",
+            "id": "UMLS:C0010054"
+        },
+        {
+            "entityId": "2093_2096",
+            "span": {
+                "begin": 2093,
+                "end": 2096
+            },
+            "entityType": "disease",
+            "entityName": "CAD",
+            "id": "mesh:D003324"
+        },
+        {
+            "entityId": "2213_2224",
+            "span": {
+                "begin": 2213,
+                "end": 2224
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "2246_2254",
+            "span": {
+                "begin": 2246,
+                "end": 2254
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2260_2268",
+            "span": {
+                "begin": 2260,
+                "end": 2268
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2292_2300",
+            "span": {
+                "begin": 2292,
+                "end": 2300
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "2519_2524",
+            "span": {
+                "begin": 2519,
+                "end": 2524
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "2526_2570",
+            "span": {
+                "begin": 2526,
+                "end": 2570
+            },
+            "entityType": "gene",
+            "entityName": "ATP-binding cassette, sub-family B, member 1",
+            "id": "NCBIGene:5243"
+        },
+        {
+            "entityId": "2584_2588",
+            "span": {
+                "begin": 2584,
+                "end": 2588
+            },
+            "entityType": "gene",
+            "entityName": "MDR1",
+            "id": "UMLS:C0376622"
+        },
+        {
+            "entityId": "2592_2596",
+            "span": {
+                "begin": 2592,
+                "end": 2596
+            },
+            "entityType": "gene",
+            "entityName": "TAP1",
+            "id": "NCBIGene:6890"
+        },
+        {
+            "entityId": "2645_2659",
+            "span": {
+                "begin": 2645,
+                "end": 2659
+            },
+            "entityType": "gene",
+            "entityName": "P-glycoprotein",
+            "id": "UMLS:C0242643"
+        },
+        {
+            "entityId": "2695_2706",
+            "span": {
+                "begin": 2695,
+                "end": 2706
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "2712_2722",
+            "span": {
+                "begin": 2712,
+                "end": 2722
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 gene",
+            "id": "UMLS:C0376622"
+        },
+        {
+            "entityId": "2874_2886",
+            "span": {
+                "begin": 2874,
+                "end": 2886
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "2964_2976",
+            "span": {
+                "begin": 2964,
+                "end": 2976
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "3022_3036",
+            "span": {
+                "begin": 3022,
+                "end": 3036
+            },
+            "entityType": "gene",
+            "entityName": "P-glycoprotein",
+            "id": "UMLS:C0242643"
+        },
+        {
+            "entityId": "3072_3083",
+            "span": {
+                "begin": 3072,
+                "end": 3083
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "3319_3327",
+            "span": {
+                "begin": 3319,
+                "end": 3327
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3338_3349",
+            "span": {
+                "begin": 3338,
+                "end": 3349
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "3365_3373",
+            "span": {
+                "begin": 3365,
+                "end": 3373
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3503_3515",
+            "span": {
+                "begin": 3503,
+                "end": 3515
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "3540_3543",
+            "span": {
+                "begin": 3540,
+                "end": 3543
+            },
+            "entityType": "drug",
+            "entityName": "ADP",
+            "id": "UMLS:CHEBI:73342"
+        },
+        {
+            "entityId": "3554_3562",
+            "span": {
+                "begin": 3554,
+                "end": 3562
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "3843_3855",
+            "span": {
+                "begin": 3843,
+                "end": 3855
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "3873_3881",
+            "span": {
+                "begin": 3873,
+                "end": 3881
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "3940_3948",
+            "span": {
+                "begin": 3940,
+                "end": 3948
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3962_3973",
+            "span": {
+                "begin": 3962,
+                "end": 3973
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "13095_13106",
+            "span": {
+                "begin": 13095,
+                "end": 13106
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "13108_13115",
+            "span": {
+                "begin": 13108,
+                "end": 13115
+            },
+            "entityType": "drug",
+            "entityName": "aspirin",
+            "id": "UMLS:C0004057"
+        },
+        {
+            "entityId": "13117_13125",
+            "span": {
+                "begin": 13117,
+                "end": 13125
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "13136_13141",
+            "span": {
+                "begin": 13136,
+                "end": 13141
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "13143_13147",
+            "span": {
+                "begin": 13143,
+                "end": 13147
+            },
+            "entityType": "gene",
+            "entityName": "MDR1",
+            "id": "UMLS:C0376622"
+        },
+        {
+            "entityId": "15226_15234",
+            "span": {
+                "begin": 15226,
+                "end": 15234
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "15323_15335",
+            "span": {
+                "begin": 15323,
+                "end": 15335
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "15350_15358",
+            "span": {
+                "begin": 15350,
+                "end": 15358
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "15402_15410",
+            "span": {
+                "begin": 15402,
+                "end": 15410
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15421_15432",
+            "span": {
+                "begin": 15421,
+                "end": 15432
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "16386_16394",
+            "span": {
+                "begin": 16386,
+                "end": 16394
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "16570_16601",
+            "span": {
+                "begin": 16570,
+                "end": 16601
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "16603_16619",
+            "span": {
+                "begin": 16603,
+                "end": 16619
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "16653_16655",
+            "span": {
+                "begin": 16653,
+                "end": 16655
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "16657_16663",
+            "span": {
+                "begin": 16657,
+                "end": 16663
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "16686_16702",
+            "span": {
+                "begin": 16686,
+                "end": 16702
+            },
+            "entityType": "disease",
+            "entityName": "stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "17174_17186",
+            "span": {
+                "begin": 17174,
+                "end": 17186
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "17263_17271",
+            "span": {
+                "begin": 17263,
+                "end": 17271
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17285_17296",
+            "span": {
+                "begin": 17285,
+                "end": 17296
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "19020_19032",
+            "span": {
+                "begin": 19020,
+                "end": 19032
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "19062_19070",
+            "span": {
+                "begin": 19062,
+                "end": 19070
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "19724_19732",
+            "span": {
+                "begin": 19724,
+                "end": 19732
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "19801_19809",
+            "span": {
+                "begin": 19801,
+                "end": 19809
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "20441_20449",
+            "span": {
+                "begin": 20441,
+                "end": 20449
+            },
+            "entityType": "cell",
+            "entityName": "Platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "20523_20531",
+            "span": {
+                "begin": 20523,
+                "end": 20531
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "20554_20566",
+            "span": {
+                "begin": 20554,
+                "end": 20566
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "21152_21164",
+            "span": {
+                "begin": 21152,
+                "end": 21164
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "22258_22270",
+            "span": {
+                "begin": 22258,
+                "end": 22270
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "22351_22362",
+            "span": {
+                "begin": 22351,
+                "end": 22362
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "22445_22449",
+            "span": {
+                "begin": 22445,
+                "end": 22449
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "22453_22461",
+            "span": {
+                "begin": 22453,
+                "end": 22461
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22475_22486",
+            "span": {
+                "begin": 22475,
+                "end": 22486
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "22781_22785",
+            "span": {
+                "begin": 22781,
+                "end": 22785
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "23021_23025",
+            "span": {
+                "begin": 23021,
+                "end": 23025
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "23270_23282",
+            "span": {
+                "begin": 23270,
+                "end": 23282
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "23565_23585",
+            "span": {
+                "begin": 23565,
+                "end": 23585
+            },
+            "entityType": "disease",
+            "entityName": "Myocadial infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "23586_23606",
+            "span": {
+                "begin": 23586,
+                "end": 23606
+            },
+            "entityType": "disease",
+            "entityName": "Myocadial infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "23694_23702",
+            "span": {
+                "begin": 23694,
+                "end": 23702
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23751_23763",
+            "span": {
+                "begin": 23751,
+                "end": 23763
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "23789_23791",
+            "span": {
+                "begin": 23789,
+                "end": 23791
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "24071_24086",
+            "span": {
+                "begin": 24071,
+                "end": 24086
+            },
+            "entityType": "disease",
+            "entityName": "Ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "24091_24106",
+            "span": {
+                "begin": 24091,
+                "end": 24106
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "24271_24283",
+            "span": {
+                "begin": 24271,
+                "end": 24283
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "24326_24341",
+            "span": {
+                "begin": 24326,
+                "end": 24341
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "24345_24353",
+            "span": {
+                "begin": 24345,
+                "end": 24353
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24367_24378",
+            "span": {
+                "begin": 24367,
+                "end": 24378
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "24526_24534",
+            "span": {
+                "begin": 24526,
+                "end": 24534
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24826_24842",
+            "span": {
+                "begin": 24826,
+                "end": 24842
+            },
+            "entityType": "disease",
+            "entityName": "Stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "24873_24889",
+            "span": {
+                "begin": 24873,
+                "end": 24889
+            },
+            "entityType": "disease",
+            "entityName": "stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "24949_24965",
+            "span": {
+                "begin": 24949,
+                "end": 24965
+            },
+            "entityType": "disease",
+            "entityName": "stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "24990_25002",
+            "span": {
+                "begin": 24990,
+                "end": 25002
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "25486_25498",
+            "span": {
+                "begin": 25486,
+                "end": 25498
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "25618_25626",
+            "span": {
+                "begin": 25618,
+                "end": 25626
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "25715_25727",
+            "span": {
+                "begin": 25715,
+                "end": 25727
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "25828_25836",
+            "span": {
+                "begin": 25828,
+                "end": 25836
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "26109_26121",
+            "span": {
+                "begin": 26109,
+                "end": 26121
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "26137_26141",
+            "span": {
+                "begin": 26137,
+                "end": 26141
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "26186_26197",
+            "span": {
+                "begin": 26186,
+                "end": 26197
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "26260_26271",
+            "span": {
+                "begin": 26260,
+                "end": 26271
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "26454_26465",
+            "span": {
+                "begin": 26454,
+                "end": 26465
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "26778_26794",
+            "span": {
+                "begin": 26778,
+                "end": 26794
+            },
+            "entityType": "disease",
+            "entityName": "stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "27128_27148",
+            "span": {
+                "begin": 27128,
+                "end": 27148
+            },
+            "entityType": "disease",
+            "entityName": "Myocadial infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "27189_27193",
+            "span": {
+                "begin": 27189,
+                "end": 27193
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "27419_27431",
+            "span": {
+                "begin": 27419,
+                "end": 27431
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "27634_27638",
+            "span": {
+                "begin": 27634,
+                "end": 27638
+            },
+            "entityType": "drug",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "27886_27890",
+            "span": {
+                "begin": 27886,
+                "end": 27890
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "28293_28304",
+            "span": {
+                "begin": 28293,
+                "end": 28304
+            },
+            "entityType": "drug",
+            "entityName": "Clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "28381_28389",
+            "span": {
+                "begin": 28381,
+                "end": 28389
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "28407_28419",
+            "span": {
+                "begin": 28407,
+                "end": 28419
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "28480_28494",
+            "span": {
+                "begin": 28480,
+                "end": 28494
+            },
+            "entityType": "gene",
+            "entityName": "P-glycoprotein",
+            "id": "UMLS:C0242643"
+        },
+        {
+            "entityId": "28536_28547",
+            "span": {
+                "begin": 28536,
+                "end": 28547
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "28736_28748",
+            "span": {
+                "begin": 28736,
+                "end": 28748
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "28766_28774",
+            "span": {
+                "begin": 28766,
+                "end": 28774
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "28787_28790",
+            "span": {
+                "begin": 28787,
+                "end": 28790
+            },
+            "entityType": "disease",
+            "entityName": "CAD",
+            "id": "mesh:D003324"
+        },
+        {
+            "entityId": "28791_28799",
+            "span": {
+                "begin": 28791,
+                "end": 28799
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28803_28814",
+            "span": {
+                "begin": 28803,
+                "end": 28814
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "29374_29382",
+            "span": {
+                "begin": 29374,
+                "end": 29382
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29396_29407",
+            "span": {
+                "begin": 29396,
+                "end": 29407
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "29484_29495",
+            "span": {
+                "begin": 29484,
+                "end": 29495
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "29549_29557",
+            "span": {
+                "begin": 29549,
+                "end": 29557
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "29761_29772",
+            "span": {
+                "begin": 29761,
+                "end": 29772
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "29913_29921",
+            "span": {
+                "begin": 29913,
+                "end": 29921
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "29972_29984",
+            "span": {
+                "begin": 29972,
+                "end": 29984
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "30002_30013",
+            "span": {
+                "begin": 30002,
+                "end": 30013
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "30142_30153",
+            "span": {
+                "begin": 30142,
+                "end": 30153
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "30193_30201",
+            "span": {
+                "begin": 30193,
+                "end": 30201
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "30312_30320",
+            "span": {
+                "begin": 30312,
+                "end": 30320
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "30762_30770",
+            "span": {
+                "begin": 30762,
+                "end": 30770
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "30937_30945",
+            "span": {
+                "begin": 30937,
+                "end": 30945
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "31074_31076",
+            "span": {
+                "begin": 31074,
+                "end": 31076
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "31078_31084",
+            "span": {
+                "begin": 31078,
+                "end": 31084
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "31090_31106",
+            "span": {
+                "begin": 31090,
+                "end": 31106
+            },
+            "entityType": "disease",
+            "entityName": "stent thrombosis",
+            "id": "UMLS:C3897493"
+        },
+        {
+            "entityId": "31471_31479",
+            "span": {
+                "begin": 31471,
+                "end": 31479
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "31485_31492",
+            "span": {
+                "begin": 31485,
+                "end": 31492
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "31528_31536",
+            "span": {
+                "begin": 31528,
+                "end": 31536
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "31676_31684",
+            "span": {
+                "begin": 31676,
+                "end": 31684
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "31936_31947",
+            "span": {
+                "begin": 31936,
+                "end": 31947
+            },
+            "entityType": "drug",
+            "entityName": "Clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "31961_31969",
+            "span": {
+                "begin": 31961,
+                "end": 31969
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "32010_32018",
+            "span": {
+                "begin": 32010,
+                "end": 32018
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "32032_32043",
+            "span": {
+                "begin": 32032,
+                "end": 32043
+            },
+            "entityType": "drug",
+            "entityName": "Clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "32054_32065",
+            "span": {
+                "begin": 32054,
+                "end": 32065
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "32097_32108",
+            "span": {
+                "begin": 32097,
+                "end": 32108
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "32212_32237",
+            "span": {
+                "begin": 32212,
+                "end": 32237
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T polymorphism",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "32480_32488",
+            "span": {
+                "begin": 32480,
+                "end": 32488
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "32509_32520",
+            "span": {
+                "begin": 32509,
+                "end": 32520
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "32556_32561",
+            "span": {
+                "begin": 32556,
+                "end": 32561
+            },
+            "entityType": "gene",
+            "entityName": "P2Y12",
+            "id": "UMLS:C1425330"
+        },
+        {
+            "entityId": "32565_32572",
+            "span": {
+                "begin": 32565,
+                "end": 32572
+            },
+            "entityType": "gene",
+            "entityName": "CYP2C19",
+            "id": "UMLS:C1332828"
+        },
+        {
+            "entityId": "32578_32590",
+            "span": {
+                "begin": 32578,
+                "end": 32590
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "32624_32636",
+            "span": {
+                "begin": 32624,
+                "end": 32636
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "32751_32758",
+            "span": {
+                "begin": 32751,
+                "end": 32758
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "32779_32800",
+            "span": {
+                "begin": 32779,
+                "end": 32800
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T genotype",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "32838_32841",
+            "span": {
+                "begin": 32838,
+                "end": 32841
+            },
+            "entityType": "drug",
+            "entityName": "ADP",
+            "id": "UMLS:CHEBI:73342"
+        },
+        {
+            "entityId": "32858_32866",
+            "span": {
+                "begin": 32858,
+                "end": 32866
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "32913_32924",
+            "span": {
+                "begin": 32913,
+                "end": 32924
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "33361_33373",
+            "span": {
+                "begin": 33361,
+                "end": 33373
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "33391_33403",
+            "span": {
+                "begin": 33391,
+                "end": 33403
+            },
+            "entityType": "cell",
+            "entityName": "antiplatelet",
+            "id": "UMLS:C5214487"
+        },
+        {
+            "entityId": "33444_33451",
+            "span": {
+                "begin": 33444,
+                "end": 33451
+            },
+            "entityType": "drug",
+            "entityName": "aspirin",
+            "id": "UMLS:C0004057"
+        },
+        {
+            "entityId": "33606_33613",
+            "span": {
+                "begin": 33606,
+                "end": 33613
+            },
+            "entityType": "drug",
+            "entityName": "aspirin",
+            "id": "UMLS:C0004057"
+        },
+        {
+            "entityId": "33654_33665",
+            "span": {
+                "begin": 33654,
+                "end": 33665
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "33696_33701",
+            "span": {
+                "begin": 33696,
+                "end": 33701
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "33705_33747",
+            "span": {
+                "begin": 33705,
+                "end": 33747
+            },
+            "entityType": "cell",
+            "entityName": "human epithelial colorectal (Caco-2) cells",
+            "id": "UMLS:C0282560"
+        },
+        {
+            "entityId": "33891_33901",
+            "span": {
+                "begin": 33891,
+                "end": 33901
+            },
+            "entityType": "drug",
+            "entityName": "cilostazol",
+            "id": "UMLS:C0055729"
+        },
+        {
+            "entityId": "33903_33914",
+            "span": {
+                "begin": 33903,
+                "end": 33914
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "33919_33926",
+            "span": {
+                "begin": 33919,
+                "end": 33926
+            },
+            "entityType": "drug",
+            "entityName": "aspirin",
+            "id": "UMLS:C0004057"
+        },
+        {
+            "entityId": "34037_34048",
+            "span": {
+                "begin": 34037,
+                "end": 34048
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "34130_34145",
+            "span": {
+                "begin": 34130,
+                "end": 34145
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 genotypes",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "34225_34233",
+            "span": {
+                "begin": 34225,
+                "end": 34233
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "34247_34256",
+            "span": {
+                "begin": 34247,
+                "end": 34256
+            },
+            "entityType": "drug",
+            "entityName": "prasugrel",
+            "id": "UMLS:C1620287"
+        },
+        {
+            "entityId": "34300_34310",
+            "span": {
+                "begin": 34300,
+                "end": 34310
+            },
+            "entityType": "drug",
+            "entityName": "ticagrelor",
+            "id": "UMLS:C1999375"
+        },
+        {
+            "entityId": "34334_34341",
+            "span": {
+                "begin": 34334,
+                "end": 34341
+            },
+            "entityType": "gene",
+            "entityName": "CYP2C19",
+            "id": "UMLS:C1332828"
+        },
+        {
+            "entityId": "34346_34351",
+            "span": {
+                "begin": 34346,
+                "end": 34351
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "34435_34450",
+            "span": {
+                "begin": 34435,
+                "end": 34450
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 genotypes",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "34533_34540",
+            "span": {
+                "begin": 34533,
+                "end": 34540
+            },
+            "entityType": "drug",
+            "entityName": "aspirin",
+            "id": "UMLS:C0004057"
+        },
+        {
+            "entityId": "34545_34556",
+            "span": {
+                "begin": 34545,
+                "end": 34556
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "34831_34835",
+            "span": {
+                "begin": 34831,
+                "end": 34835
+            },
+            "entityType": "disease",
+            "entityName": "MACE",
+            "id": "UMLS:C0877248"
+        },
+        {
+            "entityId": "34839_34847",
+            "span": {
+                "begin": 34839,
+                "end": 34847
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "34861_34872",
+            "span": {
+                "begin": 34861,
+                "end": 34872
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "35288_35296",
+            "span": {
+                "begin": 35288,
+                "end": 35296
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "35536_35554",
+            "span": {
+                "begin": 35536,
+                "end": 35554
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 3435T allele",
+            "id": "UMLS:C0002085"
+        },
+        {
+            "entityId": "35629_35637",
+            "span": {
+                "begin": 35629,
+                "end": 35637
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "35641_35652",
+            "span": {
+                "begin": 35641,
+                "end": 35652
+            },
+            "entityType": "drug",
+            "entityName": "clopidogrel",
+            "id": "UMLS:C0070166"
+        },
+        {
+            "entityId": "35780_35792",
+            "span": {
+                "begin": 35780,
+                "end": 35792
+            },
+            "entityType": "gene",
+            "entityName": "ABCB1 C3435T",
+            "id": "UMLS:C1738970"
+        },
+        {
+            "entityId": "35810_35818",
+            "span": {
+                "begin": 35810,
+                "end": 35818
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "36016_36024",
+            "span": {
+                "begin": 36016,
+                "end": 36024
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1545_1553",
+            "subjectText": "platelet",
+            "rel_name": "associate",
+            "objectId": "1515_1527",
+            "objectText": "ABCB1 C3435T"
+        },
+        {
+            "subjectID": "227_238",
+            "subjectText": "clopidogrel",
+            "rel_name": "associate",
+            "objectId": "204_209",
+            "objectText": "ABCB1"
+        },
+        {
+            "subjectID": "429_440",
+            "subjectText": "clopidogrel",
+            "rel_name": "associate",
+            "objectId": "413_416",
+            "objectText": "CAD"
+        },
+        {
+            "subjectID": "1152_1163",
+            "subjectText": "clopidogrel",
+            "rel_name": "associate",
+            "objectId": "1132_1136",
+            "objectText": "MACE"
+        }
+    ]
+}

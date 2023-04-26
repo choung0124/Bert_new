@@ -1,0 +1,2475 @@
+{
+    "sourcid": "PMC3481436",
+    "publisher": "BioMed Central",
+    "journal": "BMC Genomics",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3481436/",
+    "text": "Mathematical modeling and stability analysis of macrophage activation in left ventricular remodeling post-myocardial infarction Background About 6 million Americans suffer from heart failure and 70% of heart failure cases are caused by myocardial infarction (MI). Following myocardial infarction, increased cytokines induce two major types of macrophages: classically activated macrophages which contribute to extracellular matrix destruction and alternatively activated macrophages which contribute to extracellular matrix construction. Though experimental results have shown the transitions between these two types of macrophages, little is known about the dynamic progression of macrophages activation. Therefore, the objective of this study is to analyze macrophage activation patterns post-MI. Results We have collected experimental data from adult C57 mice and built a framework to represent the regulatory relationships among cytokines and macrophages. A set of differential equations were established to characterize the regulatory relationships for macrophage activation in the left ventricle post-MI based on the physical chemistry laws. We further validated the mathematical model by comparing our computational results with experimental results reported in the literature. By applying Lyaponuv stability analysis, the established mathematical model demonstrated global stability in homeostasis situation and bounded response to myocardial infarction. Conclusions We have established and validated a mathematical model for macrophage activation post-MI. The stability analysis provided a possible strategy to intervene the balance of classically and alternatively activated macrophages in this study. The results will lay a strong foundation to understand the mechanisms of left ventricular remodelling post-MI. Background Myocardial infarction is defined by pathology as myocytes necrosis and apoptosis due to prolonged ischemia. Since myocytes cannot divide and replace themselves, myocytes in the infarct area deprived of oxygen die and are replaced by a collagen scar. There is a series of cellular and molecular activities respond to MI in the myocardium. Myocytes apoptosis appears in the first 6 to 8 hours post-MI, and necrosis occurs in 12 hrs to 4 days post-MI. Necrosis of myocytes results in significantly elevated interlukin-1 (IL-1), tumour necrotic factor-beta (TNF-beta), IL-10, and monocyte chemotactic protein-1 (MCP-1) levels. MCP-1 is a strong chemoattractants that recruit and confine monocytes to the injury site. It's been reported that over 95% of monocytes differentiate to macrophages. There are two major types of macrophages post-MI: classically activated macrophages (M1) and alternatively activated macrophages (M2). Porcheray has reported a switch between M1 and M2 macrophages with in vitro stimuli including IL-4, IL-10, and TNF-beta . In addition, biomarkers of M1 and M2 macrophages show a temporal in vivo transition. Since M1 and M2 macrophages are responsible for extracellular matrix (ECM) destruction and construction, respectively, the transition and dynamic balance between two macrophage phenotypes might lead to the balance between ECM destruction and construction, and thus determine the ECM remodeling post-MI. Therefore, characterizing macrophage activation pattern is essential to better understand the ECM remodeling post-MI. A large amount of experimental research has been conducted to elucidate the underlying mechanisms of macrophage activation, and an abundant accumulation of experimental results define on macrophage responses to different stimuli. There is a need, however, to systemically analyze the accumulated data and integrate the results into a framework that will allow a more complete understanding. To address this need, several mathematical models have been established to characterize the effects of macrophages on wound healing, inflammatory responses, and collagen synthesis post-MI. However, most models do not consider the effect of macrophage activation patterns and ignore the differences between macrophage phenotypes. Therefore, the aim of this study was to establish and validate a set of ordinary differential equations to characterize macrophage activation patterns post-MI. Since our mathematical model was established based on in vivo and in vitro experimental results, all parameters in the model were determined by the averages of the experimental data. Results We have collected experimental data from adult C57 mice and built a framework to represent the regulatory relationship among cytokines and macrophages. Based on this framework, we established a set of nonlinear differential equations to characterize the regulatory relationship for macrophage activation in the left ventricle post-myocardial infarction using physical chemistry laws. Our framework and the mathematical model were established based on the following three assumptions. 1) All monocytes that migrate to the infarct region are differentiated to unactivated macrophages. 2) All activated macrophages are differentiated from unactivated macrophage since previous studies have shown that <5% of macrophages undergo mitotic division. 3) All parameters and coefficients in this model are constant. Framework of regulatory relationship for macrophage activation In this framework, myocytes and monocytes were considered as inputs to the system. Cellular densities of M1 and M2 macrophages were considered as the outputs of the system. We chose IL-1, IL-10, and TNF-alpha as three molecules which regulate macrophage activations in this mathematical model since they were well-recognized as stimuli for macrophage activation. M1 macrophages and myocytes secrete IL-1 and TNF-alpha. M2 macrophages secrete IL-10. Further, TNF-alpha and IL-1 promote M1 activation and IL_10 promotes M2 activation. IL-10 inhibits TNF-alpha, IL-1, and itself. The input-output and regulating relationship were shown in Figure 1. A framework representing regulatory relationship macrophage activation post-MI. Myocytes and monocytes are two inputs as shown in the blue dotted box. The red dotted box denotes outputs of the system, including M1 and M2 densities. Secretion function is denoted by thick arrow, activation and differentiation are denoted by thin arrow. The regulatory relationship shown in the framework was determined by published results. Input to the framework Temporal profiles of monocytes and myocytes densities were used as inputs to our mathematical framework (Figure 1). Myocytes density in healthy adult mice was 6 x 109 cells/ml as an initial value. Myocytes numbers monotonically decreases post-MI and is directly associated with LV wall thickness. We have measured the LV wall thickness at days 0, 1, 3, 5, and 7 post-MI. The temporal profile of myocytes was determined by combining the initial value and the monotone progression trend (the crosses) as shown in Figure 2(A).  Temporal profiles of monocytes and myocytes. The wall thickness of left ventricle and observed a monotone decrease of wall thickness at day 1, 3, 5, 7 post-MI, suggesting the same trend of myocytes density based on the experimental results. Temporal profiles of myocytes and the monotone progression trend are shown in Figure 2(A). We established the temporal profiles of monocytes based on our own experimental measurement on total macrophage density and the control value of macrophage density in health adult mice is 5 x 103cells/ml. Temporal profiles of monocytes are shown in Figure 2(B). The estimation of monocytes for each day are shown in Figure 2(C).  Macrophages density in the left ventricle of healthy adult mice is 2000 cells/ml, which will be used as initial values of unactivated macrophage density in this study. Yang et al has measured temporal profiles of macrophages post-MI in mice at days 1, 2, 4, 7, 14, 21, and 28. The temporal profile of macrophages was obtained by fitting the experimental results as a continuous function as shown in Figure 2(B). Based on our assumptions 1 and 2, all macrophages were differentiated from monocytes and emigrated from infarct area to the lymph node system. The estimation of unactivated macrophage based on the experimental results is shown as follows, where M denotes the differentiation rates of monocytes, Mun denotes the unactivated macrophage density, and mu denotes the emigration rate of inactivated macrophage. Based on the temporal profile of unactivated macrophage, the monocytes differentiation rate can be estimated as shown in Figure 2(C). Mathematical model for macrophage activation The mathematical model of macrophage activations is a set of nonlinear differential equations represented by cellular densities (cell number/ml) of Mun, M1 and M2, and concentrations (pg/ml) of chemical factors such as IL-1, IL-10, and TNF-alpha. Cellular densities were determined by the difference between immigration and emigration rates. Concentrations of chemical factors were determined by the balance between their synthesis and degradation rates. The established mathematical model can be written as where Mun, M1, M2 denote the cell densities of unactivated macrophages, M1 macrophages, and M2 macrophages, respectively. Variables IL10, Talpha, and IL1 denote the concentrations of IL-10, TNF-alpha, and IL-1. Variable denotes M the differentiation rate of monocytes and Mc denotes the myocytes density. The parameters used in these equations with their biological meanings, experimental values, units, and references are listed in Additional file 1. All parameters were determined based on the published data or estimation from other mathematical models. Equation 2 determines the density of unactivated macrophages in the infarct area. For the construction part, the unactivated macrophages are differentiated from monocytes as shown in Figure 2(C). For the destruction part, the unactivated macrophages are activated to M1 or M2. Additionally, inactivated macrophages do not die locally in the scar tissue but die out in the lymph node system. Equation 3 determines the activation rate of M1 macrophages. For the construction part, IL-1 and TNF-alpha promote M1 activation. Parameters k2 and k3 denote the activation rates of M1 macrophages by IL-1 and TNF-alpha. Hill equations are used to represent the promotion effects of IL-1 and TNF-alpha and parameters cIL1 and  are the effectiveness of IL-1 and TNF-alpha promotion on M1 calculated based on the experimental results. Steinmuller has shown the transition between M1 and M2 phenotypes in vivo . Correspondingly, we use parameter k1 to denote the transition from M1 to M2 and parameter  for the transition from M2 to M1. The destruction part includes emigration of macrophage (mu)and transition from M1 to M2 macrophages (k1). Equation 4 determines the activation rate of M2 macrophages. The construction part is denoted by activation of M2 macrophages promoted by IL-10, and transition from M1 to M2. IL-10 promotes M2 activation and this activation rate has been approximated by parameters k4 based on the experimental results. The transition rate from M1 to M2 is denoted as k1. The destruction part includes emigration of M2 macrophages (mu) and transition from M2 to M1 macrophages (), similarly as described in equation 3. Equation 5 determines the secretion rate of IL-10. For construction part, IL-10 is secreted by M2 macrophages, and parameter k5 denotes the secretion rate of IL-10 by M2 macrophages. The destruction part includes the self-inhibition and degradation of IL-10. A Hill equation is employed to represent this self-inhibition effect and parameter c1 denotes the self-inhibition effect of IL-10 post-MI. Parameter  denotes the decay rate of IL-10 determined by its half-life time. Equation 6 determines the deposition rate of TNF-alpha, which is secreted by both M1 macrophages and myocytes. We used in vitro results from Meng to determine the secretion rate of TNF-alpha by M1 and secretion rate of TNF-alpha by myocytes (lambda) is determined by Horio's experimental results. The inhibition of IL-10 is presented by a Hill equation where parameter c represents the effectiveness of IL-10 inhibiting TNF-alpha . The destruction part is denoted by the degradation of TNF-alpha. Parameter  is the decay rate of TNF-alpha determined by its half-life time. Equation 7 determines the deposition rate of IL-1. IL-1 is secreted by both M1 macrophage and myocytes. Parameter k7 denotes the secretion rate of IL-1 in cultured rat cardiac myocytes. The inhibition of IL-10 is presented by a Hill equation similarly as in equation 6. In the destruction part, parameter dIL1 represents the decay rate of IL-1 determined by its half-life time. Stability analysis If there is no myocardial infarction, monocytes differentiation and myocytes apoptosis should be at a very low level, and the studied macrophage activation pathway should maintain homeostasis. We have calculated the equilibrium point of the system without any input and performed Lyapunov stability analysis. Our analysis showed that without any monocytes differentiation and myocytes secretion, the system would stay at the origin when t    .     In the case of myocardial infarction, myocytes apoptosis and necrosis triggered inflammatory responses and significant monocytes differentiation, which will drive the system to a new equilibrium point. Correspondingly, the cell densities of M1 and M2 increase post-MI. We have obtained a steady state as E = [20, 1200, 3500, 0.73, 1.1, 5.9] from our computational simulations. The steady states match with the experimental measurements collected from healthy adults without myocardial infarction. In addition, the stable region of the established mathematical model depends on the strength of the input. Computational results Computational simulations of macrophage activation were carried out by solving the nonlinear differential equations with MATLAB. The initial conditions of unactivated, M1 and M2 macrophage densities were chosen as Mun = 2000 cells/ml and M1(0) = M2(0) = 0 cells/ml. The concentrations of IL-1, TNF-alpha, and IL-10 were set as 0.1 pg/ml. The inputs of this system were shown in Figure 2. Outputs of the system, M1 and M2 densities, were shown in Figure 3. The concentrations of IL-1, IL-10 and TNF-alpha were shown in Figure 4. Our computational results were shown as solid lines while the experimental results were shown as discrete crosses in these figures. Temporal profiles of cell densities of M1 (red line), M2 (blue line), and the total macrophage (black line) in LV 28 days post-MI. Computational results were normalized to initial conditions and shown in solid lines. The initial cells number of unactivated macrophage is 2 x 103 cells/ml. The differentiated rate from monocytes to M1 macrophages alpha is 0.5. Then, the initial condition of macrophage densities were chosen as M1(0) = M2(0) = 0 cells/ml. Previously published experimental results were normalized to the corresponding measurements in control group and are shown as black crosses collected from C57 adult mice at days 1, 3, 5, 7, 14, 21, 28. Values are mean +- SE. All experiments were carried out in mice with MI. Concentrations of IL-10, IL-1 and TNF-alpha from day 0 to day 30 post-MI. The comparisons between the experimental measurements and temporal files were presented. In Figure 4 (A), experimental measurements of IL-10 from adult C57 mice at day 0.25, 3, 5 post-MI, were shown as crosses with standard deviations shown as the bar. In Figure 4 (B), experimental measurements of IL-1 from adult mice at day 0.25, 1, 3, 5, 7, 21, were shown as crosses with standard deviations shown as the bar. In Figure 4 (C), experimental measurements of TNF-alpha from adult rats at day 0.25, 1, 3, 5, 7, 14, 21, were shown as crosses with standard deviations shown as the bar. Our computational results demonstrated that from days 0 to day 3 post-MI, cellular densities of the M1 phenotype increased at a faster rate than the M2 phenotype. At day 10, the M2 phenotype dominates over the M1 phenotype. This prediction agrees with the results reported by Troidl. Additionally, temporal profiles of IL-1 and TNF-alpha significantly increased from days 0 to 1 post-MI in our computational simulations, which match the experimental results reported by Sumitra. Comparison between the computational and experimental results demonstrates a similar trend for the temporal profiles, suggesting the effectiveness of our model. Discussion This study established a mathematical model for macrophage activation in the left ventricle post-MI by combining experimental and computational approaches. This is the first mathematical model focusing on the dynamic interactions among cytokines, myocytes, monocytes, and macrophages. Computational predictions based on this mathematical model match with experimental measurements, suggesting effectiveness of the model. In addition, our stability analysis provided insight for the activation pattern of macrophages post-myocardial infarction. In our mathematical model, there are two inputs, myocytes apoptosis and monocytes differentiation. In this study, we have predicted a stable equilibrium for homeostasis, which means without myocardial infarction or following small injury stimuli, macrophage densities and concentrations of IL-1, IL-10, and TNF-alpha should stay at the equilibrium. After MI, the monocytes differentiated into macrophage and apoptotic myocytes secreted significant amounts of cytokines to activate the macrophages. The strength of the monocytes differentiation and myocytes apoptosis (inputs of the system) drive the system to different states while all states will be bounded due to the bounded strength of the inputs. However, there exist some differences between computational predictions and real experimental results. To address this issue and the variation in different experiments, a stochastic parameter distribution will need to be introduced to replace the constant parameters. In addition, more detailed measurements on monocytes and myocytes and concentration temporal profiles of IL-1, IL-10 and TNF-alpha from C57 mice will be carried out in our future research, which will help to solidify our equations. Conclusions Our study has established framework for macrophage activation and used ordinary differential equations to model the cellular interactions between macrophage activation types post-MI. The results on stability analysis can be used as a useful tool to predict the behaviour of biological systems. Methods To incorporate the experimental data, curve fitting algorithm was applied to obtain temporal continuous density profiles of myocytes and monocytes based on discrete experimental data. Stability analysis of the established mathematical model To analyse the stability of the proposed mathematical model, we have calculated the equilibrium point of the system and performed the Lyapunov stability analysis of the system. In our mathematical model, equations (2-7) are six first-order equations with input M and Mc. Now we use x1, x2, x3, x4, x5, x6 to denote Mun, M1, M2, IL10, Talpha, IL1. We first examined the stability of the system without any input and obtained an equilibrium of . With the temporal input of monocytes differentiation and myocytes secretion, our computational simulation generated a steady state as . To further analyze the stability property of the system, we chose a positive definite Lyapunov function and obtained its derivative as the following equation By applying the boundary of the Hill equations, we got Applying the parameters in Table 1 to equation (10), we got Since the derivative of Lyapunov function is negative semi-definite and the semi-definite is satisfied with all states equal to zero, the system is globally asymptotically stable without any input. Given any bounded differentiate rate of monocytes and myocytes density as input, the system will have bounded states. Competing interests The authors declare that they have no competing interests. Authors' contributions Y.F.J and M.L.L designed the research; Y.F.J and Y.W performed the computational analysis and simulation. Y.F.J, Y.W, T.Y, Y.M, G.V.H, M.Z, and M.L.L analyzed the results and wrote the manuscript. Supplementary Material Acknowledgements Based on \"Mathematical modeling of macrophage activation in left ventricular remodeling post-myocardial infarction\", by Yunji Wang, Yu-Fang Jin, Yonggang Ma, Ganesh V Halade and Merry L Linsey which appeared in Genomic Signal Processing and Statistics (GENSIPS), 2011 IEEE International Workshop on.   2011 IEEE.      The authors acknowledge grant and contract support from NHLBI HHSN268201000036C (N01-HV-00244), NIH R01 HL75360, Veteran's Administration Merit Award, and the Max and Minnie Tomerlin Voelcker Fund (to M.L.L.), and NIH 1R03EB009496, and NIH SC2HL101430 (to Y.F.J.). This article has been published as part of BMC Genomics Volume 13 Supplement 6, 2012: Selected articles from the IEEE International Workshop on Genomic Signal Processing and Statistics (GENSIPS) 2011. The full contents of the supplement are available online at http://www.biomedcentral.com/bmcgenomics/supplements/13/S6. Apoptosis: Basic Mechanisms and Implications for Cardiovascular Disease Matrilysin Shedding of Syndecan-1 Regulates Chemokine Mobilization and Transepithelial Efflux of Neutrophils in Acute Lung Injury Macrophage activation switching: an asset for the resolution of inflammation Classically and alternatively activated macrophages contribute to tissue remodelling after myocardial infarction Modeling the effects of treating diabetic wounds with engineered skin substitutes Modeling the immune rheostat of macrophages in the lung in response to infection Mathematical models of the acute inflammatory response  Modelling the macrophage invasion of tumours: Effects on growth and composition Differential screening identifies genetic markers of monocyte to macrophage maturation Macrophage diversity and polarization: in vivo veritas  Multi-Scale Modeling and Analysis of Left Ventricular Remodeling Post Myocardial Infarction: Integration of Experimental and Computational Approaches Clearance and Tissue Distribution of Recombinant Human Interleukin 1alpha in Rats Molecular design of hybrid tumor necrosis factor-alpha III: polyethylene glycol-modified tumor necrosis factor-alpha has markedly enhanced antitumor potency due to longer plasma half-life and higher tumor accumulation The dual role of IL-10 INTERLEUKIN-10 AND THE INTERLEUKIN-10 RECEPTOR Combining experimental and mathematical modeling to reveal mechanisms of macrophage-dependent left ventricular remodeling Mouse model of post-infarct ventricular rupture: time course, strain- and gender-dependency, tensile strength, and histopathology Myocardial infarction and cardiac remodelling in mice Local Activation of Nonspecific Defense against a Respiratory Model Infection by Application of Interferon-gamma. Comparison between Rat Alveolar and Interstitial Lung Macrophages Biochemical and functional characterization of three activated macrophage populations Lipopolysaccharide (LPS)-induced Macrophage Activation and Signal Transduction in the Absence of Src-Family Kinases Hck, Fgr, and Lyn The chemokine system in diverse forms of macrophage activation and polarization A methodology for performing global uncertainty and sensitivity analysis in systems biology Cytokine kinetics in an in vitro whole blood model following an endotoxin challenge Matrix metalloproteinase inhibition attenuates early left ventricular enlargement after experimental myocardial infarction in mice The Time Course of Cardiac NF-[kappa]B Activation and TNF-[alpha] Secretion by Cardiac Myocytes After Burn Injury: Contribution to Burn-Related Cardiac Contractile Dysfunction Synergistic interactions of interleukin 1, interferon-beta, and tumor necrosis factor in terminally differentiating a mouse myeloid leukemic cell line (M1). Evidence that interferon-beta is an autocrine differentiating factor Biochemical and functional characterization of three activated macrophage populations Production and Secretion of Adrenomedullin in Cultured Rat Cardiac Myocytes and Nonmyocytes: Stimulation by Interleukin-1alpha and Tumor Necrosis Factor-alpha IL-6 enhances plasma IL-1ra, IL-10, and cortisol in humans Time course studies on the initiation of complement activation in acute myocardial infarction induced by coronary artery ligation in rats IL-10 Is Induced in the Reperfused Myocardium and May Modulate the Reaction to Injury Myocardial infarction and cardiac remodelling in mice Early interleukin-1 receptor antagonist elevation in patients with acute myocardial infarction Enhanced early after-myocardial infarction concentration of TNF-alpha subsequently increased circulating and myocardial adrenomedullin in spontaneously hypertensive rats Mathematical modeling of macrophage activation in left ventricular remodeling post-myocardial infarction",
+    "entities": [
+        {
+            "entityId": "48_58",
+            "span": {
+                "begin": 48,
+                "end": 58
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "106_127",
+            "span": {
+                "begin": 106,
+                "end": 127
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "177_190",
+            "span": {
+                "begin": 177,
+                "end": 190
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "202_215",
+            "span": {
+                "begin": 202,
+                "end": 215
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "236_257",
+            "span": {
+                "begin": 236,
+                "end": 257
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "259_261",
+            "span": {
+                "begin": 259,
+                "end": 261
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "274_295",
+            "span": {
+                "begin": 274,
+                "end": 295
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "343_354",
+            "span": {
+                "begin": 343,
+                "end": 354
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "356_389",
+            "span": {
+                "begin": 356,
+                "end": 389
+            },
+            "entityType": "cell",
+            "entityName": "classically activated macrophages",
+            "id": "UMLS:C0001280"
+        },
+        {
+            "entityId": "447_482",
+            "span": {
+                "begin": 447,
+                "end": 482
+            },
+            "entityType": "cell",
+            "entityName": "alternatively activated macrophages",
+            "id": "UMLS:C0001280"
+        },
+        {
+            "entityId": "620_631",
+            "span": {
+                "begin": 620,
+                "end": 631
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "682_693",
+            "span": {
+                "begin": 682,
+                "end": 693
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "759_769",
+            "span": {
+                "begin": 759,
+                "end": 769
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "858_862",
+            "span": {
+                "begin": 858,
+                "end": 862
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "947_958",
+            "span": {
+                "begin": 947,
+                "end": 958
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "1058_1068",
+            "span": {
+                "begin": 1058,
+                "end": 1068
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "1107_1109",
+            "span": {
+                "begin": 1107,
+                "end": 1109
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "1440_1461",
+            "span": {
+                "begin": 1440,
+                "end": 1461
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1534_1544",
+            "span": {
+                "begin": 1534,
+                "end": 1544
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "1645_1696",
+            "span": {
+                "begin": 1645,
+                "end": 1696
+            },
+            "entityType": "cell",
+            "entityName": "classically and alternatively activated macrophages",
+            "id": "UMLS:C0001280"
+        },
+        {
+            "entityId": "1834_1855",
+            "span": {
+                "begin": 1834,
+                "end": 1855
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1883_1891",
+            "span": {
+                "begin": 1883,
+                "end": 1891
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "1948_1956",
+            "span": {
+                "begin": 1948,
+                "end": 1956
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "1995_2003",
+            "span": {
+                "begin": 1995,
+                "end": 2003
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "2036_2042",
+            "span": {
+                "begin": 2036,
+                "end": 2042
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "2069_2077",
+            "span": {
+                "begin": 2069,
+                "end": 2077
+            },
+            "entityType": "gene",
+            "entityName": "collagen",
+            "id": "UMLS:C0009325"
+        },
+        {
+            "entityId": "2150_2152",
+            "span": {
+                "begin": 2150,
+                "end": 2152
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2172_2180",
+            "span": {
+                "begin": 2172,
+                "end": 2180
+            },
+            "entityType": "cell",
+            "entityName": "Myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "2295_2303",
+            "span": {
+                "begin": 2295,
+                "end": 2303
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "2352_2356",
+            "span": {
+                "begin": 2352,
+                "end": 2356
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "2359_2386",
+            "span": {
+                "begin": 2359,
+                "end": 2386
+            },
+            "entityType": "gene",
+            "entityName": "tumour necrotic factor-beta",
+            "id": "UMLS:C3887647"
+        },
+        {
+            "entityId": "2388_2396",
+            "span": {
+                "begin": 2388,
+                "end": 2396
+            },
+            "entityType": "gene",
+            "entityName": "TNF-beta",
+            "id": "UMLS:C3887647"
+        },
+        {
+            "entityId": "2399_2404",
+            "span": {
+                "begin": 2399,
+                "end": 2404
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "2410_2440",
+            "span": {
+                "begin": 2410,
+                "end": 2440
+            },
+            "entityType": "gene",
+            "entityName": "monocyte chemotactic protein-1",
+            "id": "UMLS:C1337092"
+        },
+        {
+            "entityId": "2442_2447",
+            "span": {
+                "begin": 2442,
+                "end": 2447
+            },
+            "entityType": "gene",
+            "entityName": "MCP-1",
+            "id": "UMLS:C1449159"
+        },
+        {
+            "entityId": "2457_2462",
+            "span": {
+                "begin": 2457,
+                "end": 2462
+            },
+            "entityType": "gene",
+            "entityName": "MCP-1",
+            "id": "UMLS:C1449159"
+        },
+        {
+            "entityId": "2517_2526",
+            "span": {
+                "begin": 2517,
+                "end": 2526
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "2583_2592",
+            "span": {
+                "begin": 2583,
+                "end": 2592
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "2610_2621",
+            "span": {
+                "begin": 2610,
+                "end": 2621
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "2652_2663",
+            "span": {
+                "begin": 2652,
+                "end": 2663
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "2673_2706",
+            "span": {
+                "begin": 2673,
+                "end": 2706
+            },
+            "entityType": "cell",
+            "entityName": "classically activated macrophages",
+            "id": "UMLS:C0001280"
+        },
+        {
+            "entityId": "2708_2710",
+            "span": {
+                "begin": 2708,
+                "end": 2710
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "2716_2751",
+            "span": {
+                "begin": 2716,
+                "end": 2751
+            },
+            "entityType": "cell",
+            "entityName": "alternatively activated macrophages",
+            "id": "UMLS:C0001280"
+        },
+        {
+            "entityId": "2753_2755",
+            "span": {
+                "begin": 2753,
+                "end": 2755
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "2798_2800",
+            "span": {
+                "begin": 2798,
+                "end": 2800
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "2805_2819",
+            "span": {
+                "begin": 2805,
+                "end": 2819
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "2852_2856",
+            "span": {
+                "begin": 2852,
+                "end": 2856
+            },
+            "entityType": "gene",
+            "entityName": "IL-4",
+            "id": "UMLS:C1334119"
+        },
+        {
+            "entityId": "2858_2863",
+            "span": {
+                "begin": 2858,
+                "end": 2863
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "2869_2877",
+            "span": {
+                "begin": 2869,
+                "end": 2877
+            },
+            "entityType": "gene",
+            "entityName": "TNF-beta",
+            "id": "UMLS:C3887647"
+        },
+        {
+            "entityId": "2907_2928",
+            "span": {
+                "begin": 2907,
+                "end": 2928
+            },
+            "entityType": "cell",
+            "entityName": "M1 and M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "2971_2992",
+            "span": {
+                "begin": 2971,
+                "end": 2992
+            },
+            "entityType": "cell",
+            "entityName": "M1 and M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "3131_3152",
+            "span": {
+                "begin": 3131,
+                "end": 3152
+            },
+            "entityType": "cell",
+            "entityName": "macrophage phenotypes",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "3294_3304",
+            "span": {
+                "begin": 3294,
+                "end": 3304
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "3487_3497",
+            "span": {
+                "begin": 3487,
+                "end": 3497
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "3573_3583",
+            "span": {
+                "begin": 3573,
+                "end": 3583
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "3880_3891",
+            "span": {
+                "begin": 3880,
+                "end": 3891
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "3938_3946",
+            "span": {
+                "begin": 3938,
+                "end": 3946
+            },
+            "entityType": "gene",
+            "entityName": "collagen",
+            "id": "UMLS:C0009325"
+        },
+        {
+            "entityId": "4017_4027",
+            "span": {
+                "begin": 4017,
+                "end": 4027
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "4083_4104",
+            "span": {
+                "begin": 4083,
+                "end": 4104
+            },
+            "entityType": "cell",
+            "entityName": "macrophage phenotypes",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "4226_4236",
+            "span": {
+                "begin": 4226,
+                "end": 4236
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "4508_4512",
+            "span": {
+                "begin": 4508,
+                "end": 4512
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4596_4607",
+            "span": {
+                "begin": 4596,
+                "end": 4607
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "4739_4749",
+            "span": {
+                "begin": 4739,
+                "end": 4749
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "4788_4809",
+            "span": {
+                "begin": 4788,
+                "end": 4809
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "4948_4957",
+            "span": {
+                "begin": 4948,
+                "end": 4957
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "5047_5068",
+            "span": {
+                "begin": 5047,
+                "end": 5068
+            },
+            "entityType": "cell",
+            "entityName": "activated macrophages",
+            "id": "UMLS:C0001280"
+        },
+        {
+            "entityId": "5093_5115",
+            "span": {
+                "begin": 5093,
+                "end": 5115
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "5162_5173",
+            "span": {
+                "begin": 5162,
+                "end": 5173
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "5304_5314",
+            "span": {
+                "begin": 5304,
+                "end": 5314
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "5345_5353",
+            "span": {
+                "begin": 5345,
+                "end": 5353
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "5358_5367",
+            "span": {
+                "begin": 5358,
+                "end": 5367
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "5431_5452",
+            "span": {
+                "begin": 5431,
+                "end": 5452
+            },
+            "entityType": "cell",
+            "entityName": "M1 and M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "5508_5512",
+            "span": {
+                "begin": 5508,
+                "end": 5512
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "5514_5519",
+            "span": {
+                "begin": 5514,
+                "end": 5519
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "5525_5534",
+            "span": {
+                "begin": 5525,
+                "end": 5534
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "5569_5579",
+            "span": {
+                "begin": 5569,
+                "end": 5579
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "5666_5676",
+            "span": {
+                "begin": 5666,
+                "end": 5676
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "5689_5703",
+            "span": {
+                "begin": 5689,
+                "end": 5703
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophages",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "5708_5716",
+            "span": {
+                "begin": 5708,
+                "end": 5716
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "5725_5729",
+            "span": {
+                "begin": 5725,
+                "end": 5729
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "5734_5743",
+            "span": {
+                "begin": 5734,
+                "end": 5743
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "5745_5759",
+            "span": {
+                "begin": 5745,
+                "end": 5759
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "5768_5773",
+            "span": {
+                "begin": 5768,
+                "end": 5773
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "5784_5793",
+            "span": {
+                "begin": 5784,
+                "end": 5793
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "5798_5802",
+            "span": {
+                "begin": 5798,
+                "end": 5802
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "5829_5834",
+            "span": {
+                "begin": 5829,
+                "end": 5834
+            },
+            "entityType": "gene",
+            "entityName": "IL_10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "5859_5864",
+            "span": {
+                "begin": 5859,
+                "end": 5864
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "5874_5883",
+            "span": {
+                "begin": 5874,
+                "end": 5883
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "5885_5889",
+            "span": {
+                "begin": 5885,
+                "end": 5889
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "6440_6449",
+            "span": {
+                "begin": 6440,
+                "end": 6449
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "6454_6462",
+            "span": {
+                "begin": 6454,
+                "end": 6462
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "6535_6543",
+            "span": {
+                "begin": 6535,
+                "end": 6543
+            },
+            "entityType": "cell",
+            "entityName": "Myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "6569_6573",
+            "span": {
+                "begin": 6569,
+                "end": 6573
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6616_6624",
+            "span": {
+                "begin": 6616,
+                "end": 6624
+            },
+            "entityType": "cell",
+            "entityName": "Myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "6814_6822",
+            "span": {
+                "begin": 6814,
+                "end": 6822
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "7606_7617",
+            "span": {
+                "begin": 7606,
+                "end": 7617
+            },
+            "entityType": "cell",
+            "entityName": "Macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "7665_7669",
+            "span": {
+                "begin": 7665,
+                "end": 7669
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7728_7750",
+            "span": {
+                "begin": 7728,
+                "end": 7750
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "7819_7830",
+            "span": {
+                "begin": 7819,
+                "end": 7830
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "7842_7846",
+            "span": {
+                "begin": 7842,
+                "end": 7846
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7907_7918",
+            "span": {
+                "begin": 7907,
+                "end": 7918
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8056_8067",
+            "span": {
+                "begin": 8056,
+                "end": 8067
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8093_8102",
+            "span": {
+                "begin": 8093,
+                "end": 8102
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "8179_8201",
+            "span": {
+                "begin": 8179,
+                "end": 8201
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8302_8311",
+            "span": {
+                "begin": 8302,
+                "end": 8311
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "8399_8421",
+            "span": {
+                "begin": 8399,
+                "end": 8421
+            },
+            "entityType": "cell",
+            "entityName": "inactivated macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8456_8478",
+            "span": {
+                "begin": 8456,
+                "end": 8478
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8484_8493",
+            "span": {
+                "begin": 8484,
+                "end": 8493
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "8580_8590",
+            "span": {
+                "begin": 8580,
+                "end": 8590
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8628_8638",
+            "span": {
+                "begin": 8628,
+                "end": 8638
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "8755_8757",
+            "span": {
+                "begin": 8755,
+                "end": 8757
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "8762_8764",
+            "span": {
+                "begin": 8762,
+                "end": 8764
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "8821_8825",
+            "span": {
+                "begin": 8821,
+                "end": 8825
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "8827_8832",
+            "span": {
+                "begin": 8827,
+                "end": 8832
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "8838_8847",
+            "span": {
+                "begin": 8838,
+                "end": 8847
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "9157_9180",
+            "span": {
+                "begin": 9157,
+                "end": 9180
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "9182_9196",
+            "span": {
+                "begin": 9182,
+                "end": 9196
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophages",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "9202_9216",
+            "span": {
+                "begin": 9202,
+                "end": 9216
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "9242_9246",
+            "span": {
+                "begin": 9242,
+                "end": 9246
+            },
+            "entityType": "gene",
+            "entityName": "IL10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "9260_9263",
+            "span": {
+                "begin": 9260,
+                "end": 9263
+            },
+            "entityType": "gene",
+            "entityName": "IL1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "9293_9298",
+            "span": {
+                "begin": 9293,
+                "end": 9298
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "9300_9309",
+            "span": {
+                "begin": 9300,
+                "end": 9309
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "9315_9319",
+            "span": {
+                "begin": 9315,
+                "end": 9319
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "9368_9377",
+            "span": {
+                "begin": 9368,
+                "end": 9377
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "9397_9405",
+            "span": {
+                "begin": 9397,
+                "end": 9405
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "9704_9727",
+            "span": {
+                "begin": 9704,
+                "end": 9727
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "9735_9742",
+            "span": {
+                "begin": 9735,
+                "end": 9742
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "9792_9803",
+            "span": {
+                "begin": 9792,
+                "end": 9803
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "9828_9837",
+            "span": {
+                "begin": 9828,
+                "end": 9837
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "9893_9916",
+            "span": {
+                "begin": 9893,
+                "end": 9916
+            },
+            "entityType": "cell",
+            "entityName": "unactivated macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "9934_9936",
+            "span": {
+                "begin": 9934,
+                "end": 9936
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "9940_9942",
+            "span": {
+                "begin": 9940,
+                "end": 9942
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "9970_9981",
+            "span": {
+                "begin": 9970,
+                "end": 9981
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "10103_10117",
+            "span": {
+                "begin": 10103,
+                "end": 10117
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophages",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "10146_10150",
+            "span": {
+                "begin": 10146,
+                "end": 10150
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "10155_10164",
+            "span": {
+                "begin": 10155,
+                "end": 10164
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "10173_10175",
+            "span": {
+                "begin": 10173,
+                "end": 10175
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "10240_10254",
+            "span": {
+                "begin": 10240,
+                "end": 10254
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophages",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "10258_10262",
+            "span": {
+                "begin": 10258,
+                "end": 10262
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "10267_10276",
+            "span": {
+                "begin": 10267,
+                "end": 10276
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "10340_10344",
+            "span": {
+                "begin": 10340,
+                "end": 10344
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "10349_10358",
+            "span": {
+                "begin": 10349,
+                "end": 10358
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "10409_10413",
+            "span": {
+                "begin": 10409,
+                "end": 10413
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "10418_10421",
+            "span": {
+                "begin": 10418,
+                "end": 10421
+            },
+            "entityType": "gene",
+            "entityName": "TNF",
+            "id": "UMLS:C1448177"
+        },
+        {
+            "entityId": "10535_10537",
+            "span": {
+                "begin": 10535,
+                "end": 10537
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "10735_10745",
+            "span": {
+                "begin": 10735,
+                "end": 10745
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "10770_10772",
+            "span": {
+                "begin": 10770,
+                "end": 10772
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "10776_10790",
+            "span": {
+                "begin": 10776,
+                "end": 10790
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "10842_10856",
+            "span": {
+                "begin": 10842,
+                "end": 10856
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "10908_10922",
+            "span": {
+                "begin": 10908,
+                "end": 10922
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "10935_10940",
+            "span": {
+                "begin": 10935,
+                "end": 10940
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "10968_10970",
+            "span": {
+                "begin": 10968,
+                "end": 10970
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "10972_10977",
+            "span": {
+                "begin": 10972,
+                "end": 10977
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "10987_10989",
+            "span": {
+                "begin": 10987,
+                "end": 10989
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "11196_11210",
+            "span": {
+                "begin": 11196,
+                "end": 11210
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "11236_11238",
+            "span": {
+                "begin": 11236,
+                "end": 11238
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "11242_11256",
+            "span": {
+                "begin": 11242,
+                "end": 11256
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophages",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "11343_11348",
+            "span": {
+                "begin": 11343,
+                "end": 11348
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "11373_11378",
+            "span": {
+                "begin": 11373,
+                "end": 11378
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "11394_11408",
+            "span": {
+                "begin": 11394,
+                "end": 11408
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "11457_11462",
+            "span": {
+                "begin": 11457,
+                "end": 11462
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "11466_11480",
+            "span": {
+                "begin": 11466,
+                "end": 11480
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophages",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "11551_11556",
+            "span": {
+                "begin": 11551,
+                "end": 11556
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "11682_11687",
+            "span": {
+                "begin": 11682,
+                "end": 11687
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "11734_11739",
+            "span": {
+                "begin": 11734,
+                "end": 11739
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "11819_11828",
+            "span": {
+                "begin": 11819,
+                "end": 11828
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "11856_11870",
+            "span": {
+                "begin": 11856,
+                "end": 11870
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophages",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "11875_11883",
+            "span": {
+                "begin": 11875,
+                "end": 11883
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "11955_11964",
+            "span": {
+                "begin": 11955,
+                "end": 11964
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "11968_11970",
+            "span": {
+                "begin": 11968,
+                "end": 11970
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "11993_12002",
+            "span": {
+                "begin": 11993,
+                "end": 12002
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "12006_12014",
+            "span": {
+                "begin": 12006,
+                "end": 12014
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "12089_12094",
+            "span": {
+                "begin": 12089,
+                "end": 12094
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "12177_12182",
+            "span": {
+                "begin": 12177,
+                "end": 12182
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "12194_12203",
+            "span": {
+                "begin": 12194,
+                "end": 12203
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "12260_12269",
+            "span": {
+                "begin": 12260,
+                "end": 12269
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "12303_12312",
+            "span": {
+                "begin": 12303,
+                "end": 12312
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "12392_12396",
+            "span": {
+                "begin": 12392,
+                "end": 12396
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "12398_12402",
+            "span": {
+                "begin": 12398,
+                "end": 12402
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "12423_12436",
+            "span": {
+                "begin": 12423,
+                "end": 12436
+            },
+            "entityType": "cell",
+            "entityName": "M1 macrophage",
+            "id": "UMLS:C4744501"
+        },
+        {
+            "entityId": "12441_12449",
+            "span": {
+                "begin": 12441,
+                "end": 12449
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "12494_12498",
+            "span": {
+                "begin": 12494,
+                "end": 12498
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "12502_12531",
+            "span": {
+                "begin": 12502,
+                "end": 12531
+            },
+            "entityType": "cell",
+            "entityName": "cultured rat cardiac myocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "12551_12556",
+            "span": {
+                "begin": 12551,
+                "end": 12556
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "12686_12690",
+            "span": {
+                "begin": 12686,
+                "end": 12690
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "12759_12780",
+            "span": {
+                "begin": 12759,
+                "end": 12780
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "12782_12791",
+            "span": {
+                "begin": 12782,
+                "end": 12791
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "12812_12820",
+            "span": {
+                "begin": 12812,
+                "end": 12820
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "13090_13099",
+            "span": {
+                "begin": 13090,
+                "end": 13099
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "13120_13128",
+            "span": {
+                "begin": 13120,
+                "end": 13128
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "13207_13228",
+            "span": {
+                "begin": 13207,
+                "end": 13228
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "13230_13238",
+            "span": {
+                "begin": 13230,
+                "end": 13238
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "13311_13320",
+            "span": {
+                "begin": 13311,
+                "end": 13320
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "13433_13435",
+            "span": {
+                "begin": 13433,
+                "end": 13435
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "13440_13442",
+            "span": {
+                "begin": 13440,
+                "end": 13442
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "13666_13687",
+            "span": {
+                "begin": 13666,
+                "end": 13687
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "13847_13857",
+            "span": {
+                "begin": 13847,
+                "end": 13857
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "13986_13988",
+            "span": {
+                "begin": 13986,
+                "end": 13988
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "13993_14006",
+            "span": {
+                "begin": 13993,
+                "end": 14006
+            },
+            "entityType": "cell",
+            "entityName": "M2 macrophage",
+            "id": "UMLS:C4086555"
+        },
+        {
+            "entityId": "14106_14110",
+            "span": {
+                "begin": 14106,
+                "end": 14110
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "14112_14121",
+            "span": {
+                "begin": 14112,
+                "end": 14121
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "14127_14132",
+            "span": {
+                "begin": 14127,
+                "end": 14132
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "14296_14300",
+            "span": {
+                "begin": 14296,
+                "end": 14300
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "14302_14307",
+            "span": {
+                "begin": 14302,
+                "end": 14307
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "14312_14321",
+            "span": {
+                "begin": 14312,
+                "end": 14321
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "16185_16189",
+            "span": {
+                "begin": 16185,
+                "end": 16189
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "16194_16203",
+            "span": {
+                "begin": 16194,
+                "end": 16203
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "16565_16575",
+            "span": {
+                "begin": 16565,
+                "end": 16575
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "16764_16772",
+            "span": {
+                "begin": 16764,
+                "end": 16772
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "16774_16783",
+            "span": {
+                "begin": 16774,
+                "end": 16783
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "16789_16800",
+            "span": {
+                "begin": 16789,
+                "end": 16800
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "17021_17032",
+            "span": {
+                "begin": 17021,
+                "end": 17032
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "17038_17059",
+            "span": {
+                "begin": 17038,
+                "end": 17059
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "17110_17118",
+            "span": {
+                "begin": 17110,
+                "end": 17118
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "17133_17142",
+            "span": {
+                "begin": 17133,
+                "end": 17142
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "17251_17272",
+            "span": {
+                "begin": 17251,
+                "end": 17272
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "17308_17318",
+            "span": {
+                "begin": 17308,
+                "end": 17318
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "17351_17355",
+            "span": {
+                "begin": 17351,
+                "end": 17355
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "17357_17362",
+            "span": {
+                "begin": 17357,
+                "end": 17362
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "17368_17377",
+            "span": {
+                "begin": 17368,
+                "end": 17377
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "17424_17433",
+            "span": {
+                "begin": 17424,
+                "end": 17433
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "17454_17464",
+            "span": {
+                "begin": 17454,
+                "end": 17464
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "17469_17487",
+            "span": {
+                "begin": 17469,
+                "end": 17487
+            },
+            "entityType": "cell",
+            "entityName": "apoptotic myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "17546_17557",
+            "span": {
+                "begin": 17546,
+                "end": 17557
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "17579_17588",
+            "span": {
+                "begin": 17579,
+                "end": 17588
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "17609_17617",
+            "span": {
+                "begin": 17609,
+                "end": 17617
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "18075_18084",
+            "span": {
+                "begin": 18075,
+                "end": 18084
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "18089_18097",
+            "span": {
+                "begin": 18089,
+                "end": 18097
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "18137_18141",
+            "span": {
+                "begin": 18137,
+                "end": 18141
+            },
+            "entityType": "gene",
+            "entityName": "IL-1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "18143_18148",
+            "span": {
+                "begin": 18143,
+                "end": 18148
+            },
+            "entityType": "gene",
+            "entityName": "IL-10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "18153_18162",
+            "span": {
+                "begin": 18153,
+                "end": 18162
+            },
+            "entityType": "gene",
+            "entityName": "TNF-alpha",
+            "id": "UMLS:C1522669"
+        },
+        {
+            "entityId": "18172_18176",
+            "span": {
+                "begin": 18172,
+                "end": 18176
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "18316_18326",
+            "span": {
+                "begin": 18316,
+                "end": 18326
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "18702_18710",
+            "span": {
+                "begin": 18702,
+                "end": 18710
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "18715_18724",
+            "span": {
+                "begin": 18715,
+                "end": 18724
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "19139_19141",
+            "span": {
+                "begin": 19139,
+                "end": 19141
+            },
+            "entityType": "cell",
+            "entityName": "M1",
+            "id": "cellosaurus:CVCL_W290"
+        },
+        {
+            "entityId": "19143_19145",
+            "span": {
+                "begin": 19143,
+                "end": 19145
+            },
+            "entityType": "cell",
+            "entityName": "M2",
+            "id": "cellosaurus:CVCL_XD77"
+        },
+        {
+            "entityId": "19147_19151",
+            "span": {
+                "begin": 19147,
+                "end": 19151
+            },
+            "entityType": "gene",
+            "entityName": "IL10",
+            "id": "UMLS:C2983956"
+        },
+        {
+            "entityId": "19161_19164",
+            "span": {
+                "begin": 19161,
+                "end": 19164
+            },
+            "entityType": "gene",
+            "entityName": "IL1",
+            "id": "UMLS:C1702299"
+        },
+        {
+            "entityId": "19290_19299",
+            "span": {
+                "begin": 19290,
+                "end": 19299
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "19320_19328",
+            "span": {
+                "begin": 19320,
+                "end": 19328
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "19910_19919",
+            "span": {
+                "begin": 19910,
+                "end": 19919
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "19924_19932",
+            "span": {
+                "begin": 19924,
+                "end": 19932
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "20362_20372",
+            "span": {
+                "begin": 20362,
+                "end": 20372
+            },
+            "entityType": "cell",
+            "entityName": "macrophage",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "20420_20441",
+            "span": {
+                "begin": 20420,
+                "end": 20441
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "202_215",
+            "subjectText": "heart failure",
+            "rel_name": "associate",
+            "objectId": "236_257",
+            "objectText": "myocardial infarction"
+        },
+        {
+            "subjectID": "274_295",
+            "subjectText": "myocardial infarction",
+            "rel_name": "stimulate",
+            "objectId": "343_354",
+            "objectText": "macrophages"
+        }
+    ]
+}

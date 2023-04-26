@@ -1,0 +1,2248 @@
+{
+    "sourcid": "PMC3582024",
+    "publisher": "Wiley Subscription Services, Inc., A Wiley Company",
+    "journal": "Annals of Neurology",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3582024/",
+    "text": "Ischemic Stroke Is Associated with the ABO Locus: The EuroCLOT Study Objective End-stage coagulation and the structure/function of fibrin are implicated in the pathogenesis of ischemic stroke. We explored whether genetic variants associated with end-stage coagulation in healthy REFVIDunteers account for the genetic predisposition to ischemic stroke and examined their influence on stroke subtype. Methods Common genetic variants identified through genome-wide association studies of coagulation factors and fibrin structure/function in healthy twins (n = 2,100, Stage 1) were examined in ischemic stroke (n = 4,200 cases) using 2 independent samples of European ancestry (Stage 2). A third clinical collection having stroke subtyping (total 8,900 cases, 55,000 controls) was used for replication (Stage 3). Results Stage 1 identified 524 single nucleotide polymorphisms (SNPs) from 23 linkage disequilibrium blocks having significant association (p < 5 x 10-8) with 1 or more coagulation/fibrin phenotypes. The most striking associations included SNP rs5985 with factor XIII activity (p = 2.6 x 10-186), rs10665 with FVII (p = 2.4 x 10-47), and rs505922 in the ABO gene with both von Willebrand factor (p = 4.7 x 10-57) and factor VIII (p = 1.2 x 10-36). In Stage 2, the 23 independent SNPs were examined in stroke cases/noncases using MOnica Risk, Genetics, Archiving and Monograph (MORGAM) and Wellcome Trust Case Control Consortium 2 collections. SNP rs505922 was nominally associated with ischemic stroke (odds ratio = 0.94, 95% confidence interval = 0.88-0.99, p = 0.023). Independent replication in Meta-Stroke confirmed the rs505922 association with stroke, beta (standard error, SE) = 0.066 (0.02), p = 0.001, a finding specific to large-vessel and cardioembolic stroke (p = 0.001 and p = < 0.001, respectively) but not seen with small-vessel stroke (p = 0.811).                  Interpretation ABO gene variants are associated with large-vessel and cardioembolic stroke but not small-vessel disease. This work sheds light on the different pathogenic mechanisms underpinning stroke subtype. Ann Neurol 2013 Ischemic stroke is among the leading causes of death and disability in high-income countries. EuroCLOT is a European Union-funded multicenter study established to identify the genetic variants contributing to end-stage coagulation, as a means of exploring whether the same variants contribute to risk of ischemic stroke. It is known that genetic factors account for approximately 60% of the risk of thrombosis, and studies have demonstrated the influence of genetic factors on the individual components of coagulation and fibrinolysis. Furthermore, ex vivo measures of fibrin structure and fibrinolysis have been shown to be heritable. The nature of the structure and function of fibrin has been shown to influence clot behavior, and earlier work by the EuroCLOT consortium has demonstrated heritability of fibrin clot phenotypes measured by a high-throughput turbidimetric assay and several regions of linkage. The goal of this study was to extend these observations by using the genome-wide association (GWA) approach to identify common genetic loci associated with coagulation phenotypes and to determine whether associated loci were further associated with the clinically important phenotype ischemic stroke and its different subtypes. GWA studies have identified common genetic loci of small effect associated with clinical phenotypes such as coronary artery disease. The GWA method allows an agnostic study of variation within the genome, unbiased by prior knowledge of the cellular pathways inREFVIDved or the use of candidate genes, and has been successful in finding hundreds of gene loci to date. The overall aim was to determine whether genetic variants associated with coagulation and fibrin structure function were risk factors for ischemic stroke and if so whether such associations differed between stroke subtypes.   Subjects and Methods We used a 3-stage study design to identify common variants influencing coagulation and fibrin structure/function in the normal population and then tested genome-wide significant independent single nucleotide polymorphisms (SNPs) for association with stroke in subjects of Northern European extraction (Fig 1). To study the broad range of hemostatic variables contributing to end-stage coagulation, GWA studies of fibrin structure/function ex vivo, fibrin turnover (D-dimer) in vivo, and individual hemostatic components were performed in a healthy REFVIDunteer cohort of twins (Stage 1). In Stage 2, those variants found to be independently associated with coagulation or fibrin structure/function were assessed as risk factors for ischemic stroke in cases and controls. In Stage 3, the top 4 SNPs from the meta-analysis of ischemic stroke were examined for replication in a third clinical collection of stroke having information on whether stroke resulted from occlusion of large-vessel, small-vessel, or cardiac emboli. Detailed methods are provided below. Written informed consent was obtained from participants in the study, and each individual study group obtained local ethics approval. Flow chart showing study design and cohorts involved. The 3 stages of the study design are shown, with number of cases in each sample. GWA = genome-wide association; n = size of the cohort; SNP = single nucleotide polymorphism; TUK = TwinsUK; WTCCC2 = Wellcome Trust Case Control Consortium 2. Phenotyping the Cohorts TwinsUK. The subjects were obtained from the TwinsUK (TUK) registry (http://www.twinsuk.ac.uk) at King's College London, United Kingdom, which has been ascertained by a national media campaign. For historical reasons, the majority of twin REFVIDunteers are female. TUK subjects have been shown to be representative of the wider general populations for genetic and lifestyle factors associated with a variety of traits. TUK subjects were phenotyped for fibrin structure/function, D-dimer, and hemostatic factors, according to methods described in detail elsewhere. In brief, fibrin structure/function was assessed using a turbidimetric assay, whereas D-dimer (as a measure of in vivo fibrin turnover), coagulation factors (F) VII, VIII, FXII, FXIII A and B subunits (FXIIIA, FXIIIIB), prothrombin, and von Willebrand Factor (vWF) were quantified by enzyme-linked immunosorbent assay, and fibrinogen, FVII, and FXIII by functional activity assays. The MOnica Risk, Genetics, Archiving and Monograph (MORGAM) Cohort. The cohorts of the MORGAM project consist of the respondents of representative adult population samples. This study includes cohorts from a variety of centers, including Finland (FINRISK, ATBC), France (Lille, Strasbourg, Toulouse), Italy (Brianza), Northern Sweden, and Northern Ireland (Belfast) as described at http://www.ktl.fi/publications/morgam/cohorts. The participants were examined and DNA was collected at baseline, and they were followed up for stroke and acute coronary events. Genotyping was carried out in a case-cohort setting. In MORGAM cohorts, the end-point used was the subject presenting with first ischemic stroke. For some events the diagnosis was based on validation, and for some on the clinical or death certificate diagnosis (International Classification of Diseases [ICD]-9 codes 433 or 434, or ICD-10 code I63).   Wellcome Trust Case Control Consortium 2. The Wellcome Trust Case Control Consortium 2 (WTCCC2) ischemic stroke study comprises ischemic stroke cases recruited from 3 centers in the United Kingdom (St George's London, Oxford, and Edinburgh) and 1 center in Munich, Germany. In all cases, ischemic stroke was defined as a focal neurological deficit lasting >24 hours; in 1 cohort (St George's), cases of transient ischemic attack with associated recent brain infraction were also included. Cerebral infraction was confirmed on brain imaging with computed tomography (CT) or magnetic resonance (MR) imaging, which was performed in 100% of cases, and extensive phenotyping was performed to allow stroke subtyping using a modified TOAST classification. Full details of populations and investigation performed have been previously published. Imaging of the cerebral arteries using carotid and vertebral duplex ultrasound and/or MR angiography or CT angiography was performed in >95%, echocardiography in 59.7%. Controls for the UK cases were the shared WTCCC2 controls drawn from the National Blood Service or the 1958 Birth Cohort Study (http://www.b58cgene.sgul.ac.uk). German controls werefrom the population-based KORAgen study (http://www.helmholtz-muenchen.de/en/kora-en/kora-homepage/index.html). This study group was used primarily in Stage 2 but also for subgroup analysis in Stage 3. MetaStroke. MetaStroke is a project of the International Stroke Genetics Consortium and comprises ischemic stroke cases whose DNA has been collected and undergone GWA scan, recruited from centers in Europe (BRAINS [Bio-Repository of DNA in Stroke], United Kingdom; DeCODE, Iceland; Cerebrovascular Diseases Registry (CEDIR), Milan, Italy; Rotterdam, the Netherlands), USA (Atherosclerosis Risk in Communities study; Cardiovascular Health Study; Framingham Heart Study; Genetics of Early Onset Stroke Study; Heart Protection Study; Heart and Vascular Health; Ischemic Stroke Genetics Study; Massachusetts General Hospital Genes Affecting Stroke Risk and Outcome study), and Australia (Australian Stroke Genetics Collaborative). Ischemic stroke was defined clinically as a focal neurological deficit lasting >24 hours. In almost all case-control studies, a high level of brain imaging and extensive phenotyping was performed, although this was less detailed in some of the prospective studies. In those studies with adequate investigations to allow stroke subtyping, this was performed using a modified TOAST classification. Controls were collected by the individual groups.   Genotyping and Within-Cohort Analysis TUK. Genotyping was performed in 3 different genotypic batches using Human Hap 300 k Duo and Human Hap610 Quad array (Illumina, San Diego, CA). Genotyping results from the different arrays were collated and quality control was performed as described previously, including retention of those SNPs with sufficiently high genotyping rates (95% or above) and Hardy-Weinberg equilibrium (p > 0.0001). Imputation of nongenotyped SNPs was performed to HapMap2 Caucasian population haplotypes using IMPUTE version 2. Population substructure and admixture was excluded in TUK using Eigenvector analysis.   MORGAM. Four SNPS (rs10665, rs2022309, rs5985, and rs651007) were genotyped at the National Institute for Health and Welfare in Finland. Several sample- and plate-specific quality control measures were implemented to minimize errors, and in addition genotyping quality was assessed from 5% blind duplicate samples in each 96-well plate. For 234 samples with low DNA yield, DNA was amplified and genotyped as previously described. Genotyping was performed using the MassARRAY System and iPLEX Gold chemistry (Sequenom, San Diego, CA) with standard protocol. Genotype clusters were manually reviewed using Typer 4.0 software (Sequenom), and genotype calls were corrected where necessary. Genotyping success rate was >95% for all but 1 SNP (rs2022309, 91.3%), with an average success rate of 95.7%. No discrepancies were identified among a total of 1,256 successful blind duplicate genotype pairs. Cox regression analysis adapted for the case-cohort data was used to assess the association between the genotypes and ischemic stroke in the MORGAM cohorts, assuming an additive genotypic effect. The analysis was stratified by cohort and sex.   WTCCC2. Stroke cases were genotyped using the Illumina 660Q platform. Shared WTCCC2 controls were genotyped using the Illumina 1M Duo platform. German controls were genotyped using the Illumina 550 platform. Analysis of the UK and German cohorts was performed independently using PLINK after quality control checking using a genotyping call rate of 98%, Hardy-Weinberg equilibrium call rate of 1e -20, and checks for individual relatedness and population stratification. The UK and German cases were then meta-analyzed using METAL. Samples were identified and removed if the genome-wide patterns of diversity differed from those of the collection at large, interpreting them as likely to be due to biases or artifacts. To do so, we used a Bayesian clustering approach to infer outlying individuals on the basis of call rate, heterozygosity, ancestry, and average probe intensity. We used a hidden Markov model to infer identity by descent along the genome and removed individuals iteratively to obtain a set with pair-wise identity by descent <5%. Samples were also removed if their inferred gender was discordant with the recorded gender or if <90% of the SNPs typed by Sequenom (Sequenom iPLEX assay for 4 gender SNPs) were concordant with the genome-wide data. For the EuroCLOT study, individual UK and German cohort and meta-analysis results were examined for the 23 available genotypes. This was performed for the phenotype of all ischemic stroke, together with the ischemic stroke subtypes of small-vessel disease, large-vessel disease, and cardioembolic stroke.     MetaStroke. Genotyping of the 13 MetaStroke contributors was performed independently by each group, using either Illumina or Affymetrix (Santa Clara, CA) platforms. Further details on cases and controls, genotyping, and imputation are available in Supplementary Table 3. Statistical Analysis Stage 1. We used multiple linear regression models to assess association between genotypes and phenotypes, using age as a covariate. The phenotypes examined in the TUK cohort were inverse-normal transformed to satisfy the assumption of normality of trait distribution of the linear models. Association analysis was carried out using Merlin to control for family structure within the dataset. Independence of the effects conferred by SNPs in the same region was assessed by means of a backward stepwise regression analysis on the trait with which they were associated. This yielded 23 statistically independent significant SNPs (p < 5 x 10-8), associated with at least 1 quantitative outcome, which were taken forward for examination in the clinical groups at Stage 2. This stage of the analysis was performed using Stata for Windows version 10 (StataCorp, College Station, TX) with adjustment for the twins' relatedness.    Stage 2. The 23 independent SNPs remaining significant after multiple regression were carried through to investigation of association with ischemic stroke in MORGAM and WTCCC2. Results for each were meta-analyzed using a fixed effects inverse variance weighting implemented in METAL. Stage 3. The 4 most significantly associated SNPs from Stage 2 were tested for association with overall ischemic stroke in Meta-Stroke. This international collaboration brings together GWA studies in ischemic stroke and (depending on SNP) includes 8,900 cases of ischemic stroke and 55,000 controls. In addition, subgroup analysis was possible (in MetaStroke and WTCCC2), as stroke events had been subphenotyped into large-vessel, small-vessel, and cardioembolic stroke by many of the contributing study groups, using the TOAST classification. Within MetaStroke, samples were excluded from analysis if they had call rates <80% or if reported gender was discordant with gender-specific markers. We removed pairs of samples showing concordance indicative of being duplicates. MetaStroke genotyping results were imputed to HapMap2 using MACH2. Where SNPs were imputed, r2 values were >0.9. Four SNPs analyzed in these cohorts were meta-analyzed using a fixed effects model with the metan module in Stata version 10. Results The characteristics of the 2,128 twin participants are shown for TUK in Table 1 and Supplementary Table 1 (Stage 1). The mean age of the twins was 50.4 years, and the sample included 87 (4.4%) males. All were of North European descent. The sample size varied between assays; for clarity, the number of subjects is included in the tables for each phenotype. Stage 1: Characteristics of the TwinsUK Discovery Sample     Details of the clinical collections of stroke cases and controls are shown in Table 2. Stages 2 and 3: Characteristics of the Ischemic Stroke Collections     Stage 1 There were a number of strikingly strong genotype-phenotype associations identified in the TUK discovery group, and in total 524 associations were found having p < 5 x 10-8. The 524 SNPs identified as significant genome-wide were mostly associated with coagulation factor phenotypes; there was 1 association with lag time to fibrin clot formation. After the interdependence of the SNPs had been established by backward stepwise regression analysis, 23 statistically independent SNPs were identified for examination in Stage 2 (shown in Table 3). The strongest signals were observed for SNP rs5985 in the F13A1 gene (encoding the FXIII A subunit) and FXIII activity (p = 2.6 x 10-186), followed by rs2731672 in the F12 gene associated with FXII concentration (encoding FXII; p = 1.3 x 10-115; Supplementary Table 2) and rs505922 in the ABO gene with vWF (p = 4.7 x 10-57; see Table 3) and factor VIII (p = 1.2 x 10-36; see Supplementary Table 2). Further coagulation-related phenotype-SNP associations were identified for rs10665 in F7/MCF2L and FVII clotting activity (p = 2.4 x 10-47), and rs2022309 in the F3 gene (encoding tissue factor) with D-dimer concentration (p = 4.3 x 10-8).                          Stage 1: Independent SNPs (n = 23) Found with p < 5 x 10-8 in TwinsUK      A clear relationship was found between plasma FXIII A subunit and SNP rs12137359 (p = 1.0 x 10-27) lying within the gene ZBTB41 (zinc finger and BTB domain containing 41, a highly conserved gene). However, this region on chromosome 1q is rich with candidate genes, and the SNP in question lies downstream of the CFH and CFHR1-5 genes (encoding complement factor H and CFH-related proteins 1 to 5) as well as F13B (encoding FXIII B subunit). There is also an association in this same region between rs800292 in the CFH gene and FXIIIA concentration (p = 1.5 x 10-12).       Stage 2 In the MORGAM study, 6 of the 23 independent SNPs were available for lookup. None of the SNPs was significantly associated with ischemic stroke in this study group or in WTCCC2, although there was a suggestion of an effect for rs505922 in both MORGAM (T allele, beta = -0.126, p = 0.067) and WTCCC2 (T allele, beta = -0.054, p = 0.097). In the meta-analysis of WTCCC2 and MORGAM, SNP rs505922 in the ABO gene was associated with ischemic stroke (beta for T allele = -0.067, p = 0.023), with the major T allele being protective against stroke (Table 4).       Stage 2: Meta-Analysis of the Independent SNPs in Stroke     Stage 3 We examined the association of the 4 ABO SNPs in the large Meta-Stroke dataset (Table 5, with genotyping details in Supplementary Table 3) and further explored their relationship with stroke subtype in Meta-Stroke and WTCCC2. Results for ischemic stroke overall are shown in Table 6 (positive results) and are illustrated by a forest plot (Fig 2). The results show an association for lead SNP rs505922 C allele with ischemic stroke (odds ratio [OR] = 1.07, 95% confidence interval [CI] = 1.03-1.11, p = 0.0006). Two other ABO SNPs also showed significant association: rs643434 (for A allele, meta-analysis logistic regression OR = 1.06, 95% CI = 1.02-1.11, p = 0.002) and rs651007 (C allele, OR = 1.07, 95% CI = 1.02-1.12, p = 0.007; see Table 6). Analysis by stroke subtype for SNP rs505922 showed association with cardioembolic stroke (OR = 1.13, 95% CI = 1.11-1.15, p <= 0.001), and large-vessel stroke (OR = 1.23, 95% CI = 1.07-1.18, p = 0.001), but there was no association with small-vessel disease (p = 0.811; Table7).            Forest plot shows results of the meta-analysis of rs505922 in Meta-Stroke. An inverse variance fixed effects model was used. The central filled dots represent odds ratios (ORs) in the individual cohorts, with their 95% confidence intervals (CIs; dark lines), and gray squares are proportional to sample size. The hollow diamond represents the meta-effect observed overall (p = 0.0006). ARIC = Atherosclerosis Risk in Communities; ASGC = Australian Stroke Genetics Collaborative; BRAINS = Bio- Repository of DNA in Stroke; CHS = Cardiovascular Health Study; FHS = Framingham Heart Study; GASROS = Genes Affecting Stroke Risk and Outcome Study; HPS = Heart Protection Study; HVH = Heart and Vascular Health; ISGS = Ischemic Stroke Genetics Study. Characteristics of the Stroke Collections in the MetaStroke Consortium (Stage 3)     Meta-Analysis of the ABO Locus in the MetaStroke Consortium: Stage 3     Meta-Analysis of Single Nucleotide Polymorphism rs505922 in the ABO Locus by Stroke Subtype (Stage 3)     Finally, to determine whether the genetic influence was acting through known risk factors, we performed subgroup analysis in the sample having this information, WTCCC2-Munich. Adjusting for hypertension, hypercholesterolemia, diabetes, and smoking had a small effect on the strength of the association (unadjusted: beta = 0.159, 95% CI = 0.023-0.294, p = 0.022; adjusted: beta = 0.160, 95% CI = 0.010-0.309, p = 0.036).       Discussion Ischemic stroke accounts for considerable morbidity and mortality in Western countries, and treatment is limited at present. Our 3-stage study design optimized power for discovery of common genetic variants predisposing to ischemic stroke and stroke subtype. We performed a GWA study of intermediate coagulation and fibrinolytic phenotypes in healthy REFVIDunteers to examine the genetic determinants of end-stage coagulation and went on to study their influence on stroke and stroke subtype. We identified a large number of genetic variants associated with measures of coagulation factors, both functional and antigenic, some of which have been included in GWA meta-analyses of coagulation. We confirmed that polymorphisms in the ABO gene were significantly associated with vWF and FVIII levels in healthy REFVIDunteers. Significant associations between SNPs in ABO and levels of vWF (rs505922, rs643434, rs8176743) and/or FVIII (rs505922, rs651007) were identified; we went on to demonstrate significant associations between ABO SNPs, in particular rs505922, and ischemic stroke (see forest plot in Fig 2). The associations between FVIII levels and the ABO gene variant rs505922, and between ABO and coronary disease, suggest a possible mechanism behind the well-documented association between the ABO blood group and risk of vascular disorders. Non-O blood groups are at increased risk of stroke, peripheral vascular disease, and myocardial infarction (MI) but not coronary artery disease (as assessed by angina, summarized by Wu et al), and this suggests that end-stage coagulation is the critical determinant. The association we found with FVIII levels may account for this. Recent GWA studies of MI have identified variants within the ABO gene that predispose to MI, and this relationship appears to hold for common forms of thrombotic stroke; we found evidence of association in large-vessel and cardioembolic stroke, but there was no association with small-vessel disease. At present, none of the SNPs significantly associated with stroke is reported to be associated with known risk factors such as hypertension, hyperlipidemia, diabetes, or propensity to drink alcohol or smoke. Subgroup analysis of the study group having risk factor information (WTCCC2-Munich) attenuated the strength of the association but did not suggest that the action of the genetic variation was predominantly though 1 of these risk factors.   SNP rs505922 represents a single base pair change from T to C at position 135,139,050 and lies within the first intron of the ABO gene, although its haplotype block contains the promoter and introns 1 and 2. The minor allele frequency of this SNP is 36% in Northern Europeans. The ABO gene encodes a glycosyltransferase enzyme that catalyses the transfer of different carbohydrate groups onto the H antigen, thus forming A and B antigens of the ABO system. In support of a functional role in thrombosis (as opposed to atherosclerosis), the non-O blood group has also been shown to be a risk factor for venous thrombosis, and in a large prospective study, pulmonary embolism. A previous GWA study identified the same SNP, rs505922, to be associated with venous thromboembolism, and a recent GWA study of blood metabolites suggests that this locus may act via an effect on fibrinogen phosphorylation. Our results demonstrate that the association between ABO SNPs and ischemic stroke is limited to large-artery and cardioembolic stroke, but absent in small-vessel stroke. Thromboembolism plays an important role in pathogenesis of both cardioembolic and large-artery stroke, with thrombus arising in the heart and on larger-artery atherosclerotic plaques, respectively, which may break off and embolize into the cerebral circulation. In both stroke subtypes, cerebral emboli can be detected in the cerebral circulation using transcranial Doppler, and antithromboembolic therapy reduces stroke risk. Recently, vWF inhibition has been shown to reduce cerebral thromboembolism in man, a clinical observation that is in keeping with our findings. In contrast, the pathogenesis of small-artery stroke is unclear, and the role of thrombosis remains uncertain. Our results suggest that thrombosis may be less important for this stroke subtype and explain why antithromboembolic medication is less effective. The subtype specificity we have identified is consistent with others' results; of 5 GWA studies identified and replicated, 2 have been studies of cardioembolic stroke, 2 of large-vessel stroke, and 1 of small-vessel stroke. Taken together, these data highlight that the clinical endpoint of ischemic stroke represents a varied phenotype likely resulting from multiple pathogenic mechanisms. Other associations between SNPs and intermediate phenotypes included rs12137359 and FXIII activity and rs800292 and FXIIIA subunit levels. Both variants are found close to the gene encoding the FXIIIB subunit, which acts as a carrier protein for FXIIIA in the circulation and stabilizes FXIIIA to regulate activation; however, these SNPs were not associated with MI or ischemic stroke. We also identified associations between SNPs in the vicinity of the F7 gene and FVII:C, consistent with a number of studies that have previously identified relationships between variation in the structural genes for FVII and circulating levels. No other SNPs significantly associated with coagulation intermediate phenotypes were significantly associated with ischemic stroke. There are a number of limitations to this work. First, TUK is predominantly female in its composition, for historical reasons. Although TUK subjects are representative of the general population variation and there is no evidence of an effect of gender on the ABO predisposition to cardiovascular disease, the associations identified in Stage 1 are pertinent to females from Northern Europe. Second, the clinical studies used for Stage 2 were heterogeneous in many respects. We decided that it was of overriding importance to obtain a large sample, so we combined prospective and cross-sectional studies. One of the main strengths of the study design was the use of multiple novel intermediate phenotypes, as well as having the power to investigate stroke subtypes. The Stage 3 study groups had differing methods of genotyping and imputation, but methods have been shown to be broadly comparable. In conclusion, using end-stage coagulation intermediate traits in healthy REFVIDunteers, we identified 23 genome-wide independent coagulation-associated SNPs, which were investigated in a number of clinical collections of stroke. Genetic variant rs505922 in the ABO locus was found to be associated with ischemic stroke, and in particular the subtypes large-vessel and cardioembolic stroke, but not small-vessel disease. This SNP was highly associated with vWF and FVIII in the discovery phase, and this observation throws light on possible mechanisms underlying end-stage coagulation in cardiovascular disease. It seems that common genetic variants exert some of their influence on end-stage stroke through coagulation, and further work is needed to tease apart these complex networks of interactions. The identification of the ABO locus through its association with vWF and FVIII points the way for mechanistic work to understand better the role of these 2 coagulation factors in end-stage arterial thrombosis. Authorship A.M.C. and P.G.H. contributed jointly to the work. Potential Conflicts of Interest F.M.K.W.: grants/grants pending, Wellcome Trust Fellowship 2007-12. M.D.: board membership, Boehringer Ingelheim, Ever Pharma; consultancy, Bayer Vital, Boehringer Ingelheim, Biol Heilmittel Heel, Bristol-Myers Squibb; grants/grants pending, EU FP7, DFG/DLR, Fondation Leducq, Vasc. Dem. Res. Foundation, Jackstaedt Foundation, Corona Foundation; paid manuscript preparation, Georg Thieme Verlag, UpToDate, W. Kohlhammer Verlag. P.A.: board membership, Fondation Plan Alzheimer; consultancy, Servier, Total, Alzprotect; grants/grants pending, Ipsen, Sanofi-Aventis, AstraZeneca; stock/stock options, Genoscreen. P.-G.W.: board membership, Boehringer-Ingelheim. K.St.: board membership, stock/stock options, DeCODE Genetics. B.P.: Yale University, Service on Steering Committee for YODA funded by Medtronic; University of San Francisco, Service on DSMB for a clinical trial funded by Zoll LifeCor. Y.-C.C.: grants/grants pending, US Department of Veterans Affairs. Appendix Membership of Wellcome Trust Case Control Consortium 2 Management Committee Peter Donnelly (Chair), Wellcome Trust Centre for Human Genetics and Department of Statistics, University of Oxford, Oxford, United Kingdom; Ines Barroso (Deputy Chair), Wellcome Trust Genome Campus, Cambridge, United Kingdom; Jenefer M. Blackwell, Telethon Institute for Child Health Research, Child Health Research, University of Western Australia, Subiaco, Australia and Cambridge Institute for Medical Research, University of Cambridge School of Clinical Medicine, Cambridge, United Kingdom; Elvira Bramon, Department of Psychosis Studies, NIHR Biomedical Research Centre for Mental Health at the Institute of Psychiatry, King's College London and the South London and Maudsley NHS Foundation Trust, London, United Kingdom; Matthew A. Brown, University of Queensland Diamantina Institute, Brisbane, Australia; Juan P. Casas, Department Epidemiology and Population Health, London School of Hygiene and Tropical Medicine, Department of Epidemiology and Public Health, University College London, London, United Kingdom; Aiden Corvin, Neuropsychiatric Genetics Research Group, Institute of Molecular Medicine, Trinity College Dublin, Dublin, Ireland; Panos Deloukas, Wellcome Trust Genome Campus, Cambridge, United Kingdom; Audrey Duncanson, Molecular and Physiological Sciences, Wellcome Trust, London, United Kingdom; Janusz Jankowski, Department of Oncology, University of Oxford; Digestive Diseases Centre, Leicester Royal Infirmary, Leicester; and Centre for Digestive Diseases, Queen Mary University of London, London, United Kingdom; Hugh S. Markus, Stroke and Dementia Research Centre, St George's University of London, London, United Kingdom; Christopher G. Mathew, Department of Medical and Molecular Genetics, King's College London, King's Health Partners, and Guy's Hospital, London, United Kingdom; Colin N. A. Palmer, Biomedical Research Centre, Ninewells Hospital and Medical School, Dundee, United Kingdom; Robert Plomin, King's College London Social, Genetic, and Developmental Psychiatry Centre, Institute of Psychiatry, London, United Kingdom; Anna Rautanen, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, United Kingdom; Stephen J. Sawcer, University of Cambridge Dept Clinical Neurosciences, Addenbrooke's Hospital, Cambridge, United Kingdom; Richard C. Trembath, Department of Medical and Molecular Genetics, King's College London, King's Health Partners, and Guy's Hospital, London, United Kingdom; Ananth C. Viswanathan, NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust, and UCL Institute of Ophthalmology, London, United Kingdom; and Nicholas W. Wood, Department of Molecular Neuroscience, Institute of Neurology, London, United Kingdom. Data and Analysis Group Chris C. A. Spencer, Gavin Band, Celine Bellenguez, Colin Freeman, Garrett Hellenthal, Eleni Giannoulatou, Matti Pirinen, Richard Pearson, Amy Strange, Zhan Su, and Damjan Vukcevic, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, United Kingdom; and Peter Donnelly, Wellcome Trust Centre for Human Genetics and Department of Statistics, University of Oxford, Oxford, United Kingdom.  DNA, Genotyping, Data Quality Control, and Informatics Group Cordelia Langford, Sarah E. Hunt, Sarah Edkins, Rhian Gwilliam, Hannah Blackburn, Suzannah J. Bumpstead, Serge Dronov, Matthew Gillman, Emma Gray, Naomi Hammond, Alagurevathi Jayakumar, Owen T. McCann, Jennifer Liddle, Simon C. Potter, Radhi Ravindrarajah, Michelle Ricketts, Matthew Waller, Paul Weston, Sara Widaa, Pamela Whittaker, Ines Barroso, and Panos Deloukas, Wellcome Trust Genome Campus, Cambridge, United Kingdom. Publications Committee Christopher G. Mathew (Chair), Department of Medical and Molecular Genetics, King's College London, King's Health Partners, and Guy's Hospital, London, United Kingdom; Jenefer M. Blackwell, Telethon Institute for Child Health Research, Child Health Research, University of Western Australia, Subiaco, Australia and Cambridge Institute for Medical Research, University of Cambridge School of Clinical Medicine, Cambridge, United Kingdom; Matthew A. Brown, University of Queensland Diamantina Institute, Brisbane, Australia; Aiden Corvin, Neuropsychiatric Genetics Research Group, Institute of Molecular Medicine, Trinity College Dublin, Dublin, Ireland; and Chris C. A. Spencer, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, United Kingdom. REFERENCES Global and regional burden of disease and risk factors, 2001: systematic analysis of population health data Genetic susceptibility to thrombosis and its relationship to physiological risk factors: the GAIT study. Genetic Analysis of Idiopathic Thrombophilia Heritability of clot formation, morphology, and lysis. The EuroCLOT study Identification of quantitative trait loci for fibrin clot phenotypes: the EuroCLOT study Genomewide association analysis of coronary artery disease Collaborative genome-wide association studies of diverse diseases: programs of the NHGRI's office of population genomics The UK Adult Twin Registry (TwinsUK) Are twins and singletons comparable? A study of disease-related and lifestyle characteristics in adult women Predictive variables for mortality after acute ischemic stroke The genetics of haemostasis: a twin study Genetic contribution to circulating levels of hemostatic factors in healthy families with effects of known genetic polymorphisms on heritability Heritability of features of the insulin resistance syndrome in a community-based study of healthy families MORGAM (an international pooling of cardiovascular cohorts) Case-cohort design in practice:experiences from the MORGAM Project   Classification of subtype of acute ischemic stroke. Definitions for use in a multicenter clinical trial. TOAST. Trial of Org 10172 in Acute Stroke Treatment Genome-wide association study identifies a variant in HDAC9 associated with large vessel ischemic stroke A genome-wide association study for myopia and refractive error identifies a susceptibility locus at 15q25 A new multipoint method for genome-wide association studies by imputation of genotypes Gender differences in genetic risk profiles for cardiovascular disease PLINK: a tool set for whole-genome association and population-based linkage analyses METAL: fast and efficient meta-analysis of genomewide association scans Merlin:rapid analysis of dense genetic maps using sparse gene flow trees   Novel associations of multiple genetic loci with plasma levels of factor VII, factor VIII, and von Willebrand factor: the CHARGE (Cohorts for Heart and Aging Research in Genome Epidemiology) Consortium Cerebral thrombosis, cerebral haemorrhage, and ABO blood-groups ABO(H) blood groups and vascular disease: a systematic review and meta-analysis Identification of ADAMTS7 as a novel locus for coronary atherosclerosis and association of ABO with myocardial infarction in the presence of coronary atherosclerosis: two genome-wide association studies Large-scale association analysis identifies 13 new susceptibility loci for coronary artery disease ABO genotype and risk of thrombotic events and hemorrhagic stroke Prospective study of ABO blood type and the risk of pulmonary embolism in two large cohort studies Common susceptibility alleles are unlikely to contribute as strongly as the FV and ABO loci to VTE risk: results from a GWAS approach Human metabolic individuality in biomedical and pharmaceutical research Doppler embolic signals in cerebrovascular disease and prediction of stroke risk: a systematic review and meta-analysis The von Willebrand inhibitor ARC1779 reduces cerebral embolization after carotid endarterectomy: a randomized trial Cerebral small vessel disease: from pathogenesis and clinical characteristics to therapeutic challenges Risk variants for atrial fibrillation on chromosome 4q25 associate with ischemic stroke A sequence variant in ZFHX3 on 16q22 associates with atrial fibrillation and ischemic stroke Sequence variants on chromosome 9p21.3 confer risk for atherosclerotic stroke A nonsynonymous SNP in PRKCH (protein kinase C eta) increases the risk of cerebral infarction Contribution of factor VII genotype to activated FVII levels. Differences in genotype frequencies between northern and southern European populations Sequence variation and genetic eREFVIDution at the human F12 locus: mapping quantitative trait nucleotides that influence FXII plasma levels A comprehensive evaluation of SNP genotype imputation Supplementary material Additional supporting information can be found in the online version of this article.",
+    "entities": [
+        {
+            "entityId": "0_15",
+            "span": {
+                "begin": 0,
+                "end": 15
+            },
+            "entityType": "disease",
+            "entityName": "Ischemic Stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "131_137",
+            "span": {
+                "begin": 131,
+                "end": 137
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "176_191",
+            "span": {
+                "begin": 176,
+                "end": 191
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "335_350",
+            "span": {
+                "begin": 335,
+                "end": 350
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "383_389",
+            "span": {
+                "begin": 383,
+                "end": 389
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "509_515",
+            "span": {
+                "begin": 509,
+                "end": 515
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "590_605",
+            "span": {
+                "begin": 590,
+                "end": 605
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "719_725",
+            "span": {
+                "begin": 719,
+                "end": 725
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "990_996",
+            "span": {
+                "begin": 990,
+                "end": 996
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "1065_1076",
+            "span": {
+                "begin": 1065,
+                "end": 1076
+            },
+            "entityType": "gene",
+            "entityName": "factor XIII",
+            "id": "UMLS:C0015528"
+        },
+        {
+            "entityId": "1163_1171",
+            "span": {
+                "begin": 1163,
+                "end": 1171
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "1182_1203",
+            "span": {
+                "begin": 1182,
+                "end": 1203
+            },
+            "entityType": "gene",
+            "entityName": "von Willebrand factor",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "1226_1237",
+            "span": {
+                "begin": 1226,
+                "end": 1237
+            },
+            "entityType": "gene",
+            "entityName": "factor VIII",
+            "id": "UMLS:C0015506"
+        },
+        {
+            "entityId": "1310_1316",
+            "span": {
+                "begin": 1310,
+                "end": 1316
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1338_1384",
+            "span": {
+                "begin": 1338,
+                "end": 1384
+            },
+            "entityType": "gene",
+            "entityName": "MOnica Risk, Genetics, Archiving and Monograph",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "1386_1392",
+            "span": {
+                "begin": 1386,
+                "end": 1392
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "1495_1510",
+            "span": {
+                "begin": 1495,
+                "end": 1510
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "1612_1618",
+            "span": {
+                "begin": 1612,
+                "end": 1618
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1659_1665",
+            "span": {
+                "begin": 1659,
+                "end": 1665
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1759_1779",
+            "span": {
+                "begin": 1759,
+                "end": 1779
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "1840_1859",
+            "span": {
+                "begin": 1840,
+                "end": 1859
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1905_1922",
+            "span": {
+                "begin": 1905,
+                "end": 1922
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene variants",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "1960_1980",
+            "span": {
+                "begin": 1960,
+                "end": 1980
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "1989_2009",
+            "span": {
+                "begin": 1989,
+                "end": 2009
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "2085_2091",
+            "span": {
+                "begin": 2085,
+                "end": 2091
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "2117_2132",
+            "span": {
+                "begin": 2117,
+                "end": 2132
+            },
+            "entityType": "disease",
+            "entityName": "Ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "2421_2436",
+            "span": {
+                "begin": 2421,
+                "end": 2436
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "2516_2526",
+            "span": {
+                "begin": 2516,
+                "end": 2526
+            },
+            "entityType": "disease",
+            "entityName": "thrombosis",
+            "id": "UMLS:C0040053"
+        },
+        {
+            "entityId": "2686_2692",
+            "span": {
+                "begin": 2686,
+                "end": 2692
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "2797_2803",
+            "span": {
+                "begin": 2797,
+                "end": 2803
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "2924_2930",
+            "span": {
+                "begin": 2924,
+                "end": 2930
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "3313_3328",
+            "span": {
+                "begin": 3313,
+                "end": 3328
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "3465_3488",
+            "span": {
+                "begin": 3465,
+                "end": 3488
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "3814_3820",
+            "span": {
+                "begin": 3814,
+                "end": 3820
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "3862_3877",
+            "span": {
+                "begin": 3862,
+                "end": 3877
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "3931_3937",
+            "span": {
+                "begin": 3931,
+                "end": 3937
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4058_4064",
+            "span": {
+                "begin": 4058,
+                "end": 4064
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "4221_4227",
+            "span": {
+                "begin": 4221,
+                "end": 4227
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4384_4390",
+            "span": {
+                "begin": 4384,
+                "end": 4390
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "4419_4425",
+            "span": {
+                "begin": 4419,
+                "end": 4425
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "4643_4649",
+            "span": {
+                "begin": 4643,
+                "end": 4649
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "4703_4718",
+            "span": {
+                "begin": 4703,
+                "end": 4718
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "4795_4810",
+            "span": {
+                "begin": 4795,
+                "end": 4810
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "4875_4881",
+            "span": {
+                "begin": 4875,
+                "end": 4881
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4912_4918",
+            "span": {
+                "begin": 4912,
+                "end": 4918
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "5073_5085",
+            "span": {
+                "begin": 5073,
+                "end": 5085
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5934_5940",
+            "span": {
+                "begin": 5934,
+                "end": 5940
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "6056_6062",
+            "span": {
+                "begin": 6056,
+                "end": 6062
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "6165_6171",
+            "span": {
+                "begin": 6165,
+                "end": 6171
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "6224_6246",
+            "span": {
+                "begin": 6224,
+                "end": 6246
+            },
+            "entityType": "gene",
+            "entityName": "FXIII A and B subunits",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "6266_6277",
+            "span": {
+                "begin": 6266,
+                "end": 6277
+            },
+            "entityType": "gene",
+            "entityName": "prothrombin",
+            "id": "UMLS:C0033706"
+        },
+        {
+            "entityId": "6283_6304",
+            "span": {
+                "begin": 6283,
+                "end": 6304
+            },
+            "entityType": "gene",
+            "entityName": "von Willebrand Factor",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "6306_6309",
+            "span": {
+                "begin": 6306,
+                "end": 6309
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "6369_6379",
+            "span": {
+                "begin": 6369,
+                "end": 6379
+            },
+            "entityType": "gene",
+            "entityName": "fibrinogen",
+            "id": "UMLS:C0016006"
+        },
+        {
+            "entityId": "6432_6478",
+            "span": {
+                "begin": 6432,
+                "end": 6478
+            },
+            "entityType": "gene",
+            "entityName": "MOnica Risk, Genetics, Archiving and Monograph",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "6480_6486",
+            "span": {
+                "begin": 6480,
+                "end": 6486
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "6515_6521",
+            "span": {
+                "begin": 6515,
+                "end": 6521
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "6861_6873",
+            "span": {
+                "begin": 6861,
+                "end": 6873
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6953_6959",
+            "span": {
+                "begin": 6953,
+                "end": 6959
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "6964_6985",
+            "span": {
+                "begin": 6964,
+                "end": 6985
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary events",
+            "id": "UMLS:C0741923"
+        },
+        {
+            "entityId": "7043_7049",
+            "span": {
+                "begin": 7043,
+                "end": 7049
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "7116_7131",
+            "span": {
+                "begin": 7116,
+                "end": 7131
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "7435_7450",
+            "span": {
+                "begin": 7435,
+                "end": 7450
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "7467_7482",
+            "span": {
+                "begin": 7467,
+                "end": 7482
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "7627_7642",
+            "span": {
+                "begin": 7627,
+                "end": 7642
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "7660_7686",
+            "span": {
+                "begin": 7660,
+                "end": 7686
+            },
+            "entityType": "disease",
+            "entityName": "focal neurological deficit",
+            "id": "mesh:D009461"
+        },
+        {
+            "entityId": "7742_7767",
+            "span": {
+                "begin": 7742,
+                "end": 7767
+            },
+            "entityType": "disease",
+            "entityName": "transient ischemic attack",
+            "id": "UMLS:C0007787"
+        },
+        {
+            "entityId": "8032_8038",
+            "span": {
+                "begin": 8032,
+                "end": 8038
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "8785_8791",
+            "span": {
+                "begin": 8785,
+                "end": 8791
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "8826_8841",
+            "span": {
+                "begin": 8826,
+                "end": 8841
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "8968_8974",
+            "span": {
+                "begin": 8968,
+                "end": 8974
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9010_9034",
+            "span": {
+                "begin": 9010,
+                "end": 9034
+            },
+            "entityType": "disease",
+            "entityName": "Cerebrovascular Diseases",
+            "id": "UMLS:C0007820"
+        },
+        {
+            "entityId": "9101_9116",
+            "span": {
+                "begin": 9101,
+                "end": 9116
+            },
+            "entityType": "disease",
+            "entityName": "Atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "9221_9227",
+            "span": {
+                "begin": 9221,
+                "end": 9227
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9286_9301",
+            "span": {
+                "begin": 9286,
+                "end": 9301
+            },
+            "entityType": "disease",
+            "entityName": "Ischemic Stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "9365_9371",
+            "span": {
+                "begin": 9365,
+                "end": 9371
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9423_9429",
+            "span": {
+                "begin": 9423,
+                "end": 9429
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9455_9470",
+            "span": {
+                "begin": 9455,
+                "end": 9470
+            },
+            "entityType": "disease",
+            "entityName": "Ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "9499_9525",
+            "span": {
+                "begin": 9499,
+                "end": 9525
+            },
+            "entityType": "disease",
+            "entityName": "focal neurological deficit",
+            "id": "mesh:D009461"
+        },
+        {
+            "entityId": "9775_9781",
+            "span": {
+                "begin": 9775,
+                "end": 9781
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "10538_10544",
+            "span": {
+                "begin": 10538,
+                "end": 10544
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "11551_11566",
+            "span": {
+                "begin": 11551,
+                "end": 11566
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "11574_11580",
+            "span": {
+                "begin": 11574,
+                "end": 11580
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "11686_11692",
+            "span": {
+                "begin": 11686,
+                "end": 11692
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "13114_13129",
+            "span": {
+                "begin": 13114,
+                "end": 13129
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "13149_13164",
+            "span": {
+                "begin": 13149,
+                "end": 13164
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "13177_13197",
+            "span": {
+                "begin": 13177,
+                "end": 13197
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "13199_13219",
+            "span": {
+                "begin": 13199,
+                "end": 13219
+            },
+            "entityType": "disease",
+            "entityName": "large-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "13225_13245",
+            "span": {
+                "begin": 13225,
+                "end": 13245
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "14606_14621",
+            "span": {
+                "begin": 14606,
+                "end": 14621
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "14855_14870",
+            "span": {
+                "begin": 14855,
+                "end": 14870
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "14879_14885",
+            "span": {
+                "begin": 14879,
+                "end": 14885
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "14951_14966",
+            "span": {
+                "begin": 14951,
+                "end": 14966
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "15014_15029",
+            "span": {
+                "begin": 15014,
+                "end": 15029
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "15126_15132",
+            "span": {
+                "begin": 15126,
+                "end": 15132
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "15200_15220",
+            "span": {
+                "begin": 15200,
+                "end": 15220
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "15810_15822",
+            "span": {
+                "begin": 15810,
+                "end": 15822
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16229_16235",
+            "span": {
+                "begin": 16229,
+                "end": 16235
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "16681_16687",
+            "span": {
+                "begin": 16681,
+                "end": 16687
+            },
+            "entityType": "gene",
+            "entityName": "fibrin",
+            "id": "UMLS:C0015982"
+        },
+        {
+            "entityId": "16960_16970",
+            "span": {
+                "begin": 16960,
+                "end": 16970
+            },
+            "entityType": "gene",
+            "entityName": "F13A1 gene",
+            "id": "UMLS:C1414500"
+        },
+        {
+            "entityId": "16985_17000",
+            "span": {
+                "begin": 16985,
+                "end": 17000
+            },
+            "entityType": "gene",
+            "entityName": "FXIII A subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "17070_17078",
+            "span": {
+                "begin": 17070,
+                "end": 17078
+            },
+            "entityType": "gene",
+            "entityName": "F12 gene",
+            "id": "UMLS:C1414499"
+        },
+        {
+            "entityId": "17191_17199",
+            "span": {
+                "begin": 17191,
+                "end": 17199
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "17205_17208",
+            "span": {
+                "begin": 17205,
+                "end": 17208
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "17244_17255",
+            "span": {
+                "begin": 17244,
+                "end": 17255
+            },
+            "entityType": "gene",
+            "entityName": "factor VIII",
+            "id": "UMLS:C0015506"
+        },
+        {
+            "entityId": "17388_17390",
+            "span": {
+                "begin": 17388,
+                "end": 17390
+            },
+            "entityType": "gene",
+            "entityName": "F7",
+            "id": "UMLS:C1333523"
+        },
+        {
+            "entityId": "17464_17471",
+            "span": {
+                "begin": 17464,
+                "end": 17471
+            },
+            "entityType": "gene",
+            "entityName": "F3 gene",
+            "id": "UMLS:C1333522"
+        },
+        {
+            "entityId": "17482_17495",
+            "span": {
+                "begin": 17482,
+                "end": 17495
+            },
+            "entityType": "gene",
+            "entityName": "tissue factor",
+            "id": "UMLS:C4048299"
+        },
+        {
+            "entityId": "17688_17703",
+            "span": {
+                "begin": 17688,
+                "end": 17703
+            },
+            "entityType": "gene",
+            "entityName": "FXIII A subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "17986_18005",
+            "span": {
+                "begin": 17986,
+                "end": 18005
+            },
+            "entityType": "gene",
+            "entityName": "complement factor H",
+            "id": "UMLS:C0056207"
+        },
+        {
+            "entityId": "18050_18054",
+            "span": {
+                "begin": 18050,
+                "end": 18054
+            },
+            "entityType": "gene",
+            "entityName": "F13B",
+            "id": "UMLS:C1414503"
+        },
+        {
+            "entityId": "18065_18080",
+            "span": {
+                "begin": 18065,
+                "end": 18080
+            },
+            "entityType": "gene",
+            "entityName": "FXIII B subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "18156_18164",
+            "span": {
+                "begin": 18156,
+                "end": 18164
+            },
+            "entityType": "gene",
+            "entityName": "CFH gene",
+            "id": "UMLS:C1538440"
+        },
+        {
+            "entityId": "18230_18236",
+            "span": {
+                "begin": 18230,
+                "end": 18236
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "18351_18366",
+            "span": {
+                "begin": 18351,
+                "end": 18366
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "18467_18473",
+            "span": {
+                "begin": 18467,
+                "end": 18473
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "18595_18601",
+            "span": {
+                "begin": 18595,
+                "end": 18601
+            },
+            "entityType": "gene",
+            "entityName": "MORGAM",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "18623_18631",
+            "span": {
+                "begin": 18623,
+                "end": 18631
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "18652_18667",
+            "span": {
+                "begin": 18652,
+                "end": 18667
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "18758_18764",
+            "span": {
+                "begin": 18758,
+                "end": 18764
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "18888_18896",
+            "span": {
+                "begin": 18888,
+                "end": 18896
+            },
+            "entityType": "gene",
+            "entityName": "ABO SNPs",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "18915_18921",
+            "span": {
+                "begin": 18915,
+                "end": 18921
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19035_19041",
+            "span": {
+                "begin": 19035,
+                "end": 19041
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19058_19064",
+            "span": {
+                "begin": 19058,
+                "end": 19064
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19089_19104",
+            "span": {
+                "begin": 19089,
+                "end": 19104
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "19267_19282",
+            "span": {
+                "begin": 19267,
+                "end": 19282
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "19373_19381",
+            "span": {
+                "begin": 19373,
+                "end": 19381
+            },
+            "entityType": "gene",
+            "entityName": "ABO SNPs",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "19611_19617",
+            "span": {
+                "begin": 19611,
+                "end": 19617
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19667_19687",
+            "span": {
+                "begin": 19667,
+                "end": 19687
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "19737_19756",
+            "span": {
+                "begin": 19737,
+                "end": 19756
+            },
+            "entityType": "disease",
+            "entityName": "large-vessel stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19835_19855",
+            "span": {
+                "begin": 19835,
+                "end": 19855
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "21087_21099",
+            "span": {
+                "begin": 21087,
+                "end": 21099
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "21101_21121",
+            "span": {
+                "begin": 21101,
+                "end": 21121
+            },
+            "entityType": "disease",
+            "entityName": "hypercholesterolemia",
+            "id": "UMLS:C0020443"
+        },
+        {
+            "entityId": "21123_21131",
+            "span": {
+                "begin": 21123,
+                "end": 21131
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "21334_21349",
+            "span": {
+                "begin": 21334,
+                "end": 21349
+            },
+            "entityType": "disease",
+            "entityName": "Ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "21557_21572",
+            "span": {
+                "begin": 21557,
+                "end": 21572
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "21577_21583",
+            "span": {
+                "begin": 21577,
+                "end": 21583
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "21800_21806",
+            "span": {
+                "begin": 21800,
+                "end": 21806
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "21811_21817",
+            "span": {
+                "begin": 21811,
+                "end": 21817
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "22065_22073",
+            "span": {
+                "begin": 22065,
+                "end": 22073
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "22109_22112",
+            "span": {
+                "begin": 22109,
+                "end": 22112
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "22117_22122",
+            "span": {
+                "begin": 22117,
+                "end": 22122
+            },
+            "entityType": "gene",
+            "entityName": "FVIII",
+            "id": "NCBIGene:2157"
+        },
+        {
+            "entityId": "22197_22200",
+            "span": {
+                "begin": 22197,
+                "end": 22200
+            },
+            "entityType": "gene",
+            "entityName": "ABO",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "22215_22218",
+            "span": {
+                "begin": 22215,
+                "end": 22218
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "22258_22263",
+            "span": {
+                "begin": 22258,
+                "end": 22263
+            },
+            "entityType": "gene",
+            "entityName": "FVIII",
+            "id": "NCBIGene:2157"
+        },
+        {
+            "entityId": "22361_22369",
+            "span": {
+                "begin": 22361,
+                "end": 22369
+            },
+            "entityType": "gene",
+            "entityName": "ABO SNPs",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "22399_22414",
+            "span": {
+                "begin": 22399,
+                "end": 22414
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "22468_22473",
+            "span": {
+                "begin": 22468,
+                "end": 22473
+            },
+            "entityType": "gene",
+            "entityName": "FVIII",
+            "id": "NCBIGene:2157"
+        },
+        {
+            "entityId": "22489_22514",
+            "span": {
+                "begin": 22489,
+                "end": 22514
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene variant rs505922",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "22528_22531",
+            "span": {
+                "begin": 22528,
+                "end": 22531
+            },
+            "entityType": "gene",
+            "entityName": "ABO",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "22536_22552",
+            "span": {
+                "begin": 22536,
+                "end": 22552
+            },
+            "entityType": "disease",
+            "entityName": "coronary disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "22634_22637",
+            "span": {
+                "begin": 22634,
+                "end": 22637
+            },
+            "entityType": "gene",
+            "entityName": "ABO",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "22662_22680",
+            "span": {
+                "begin": 22662,
+                "end": 22680
+            },
+            "entityType": "disease",
+            "entityName": "vascular disorders",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "22726_22732",
+            "span": {
+                "begin": 22726,
+                "end": 22732
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "22734_22761",
+            "span": {
+                "begin": 22734,
+                "end": 22761
+            },
+            "entityType": "disease",
+            "entityName": "peripheral vascular disease",
+            "id": "UMLS:C0085096"
+        },
+        {
+            "entityId": "22767_22788",
+            "span": {
+                "begin": 22767,
+                "end": 22788
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "22790_22792",
+            "span": {
+                "begin": 22790,
+                "end": 22792
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "22802_22825",
+            "span": {
+                "begin": 22802,
+                "end": 22825
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "22842_22848",
+            "span": {
+                "begin": 22842,
+                "end": 22848
+            },
+            "entityType": "disease",
+            "entityName": "angina",
+            "id": "UMLS:C0002962"
+        },
+        {
+            "entityId": "22979_22984",
+            "span": {
+                "begin": 22979,
+                "end": 22984
+            },
+            "entityType": "gene",
+            "entityName": "FVIII",
+            "id": "NCBIGene:2157"
+        },
+        {
+            "entityId": "23036_23038",
+            "span": {
+                "begin": 23036,
+                "end": 23038
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "23075_23083",
+            "span": {
+                "begin": 23075,
+                "end": 23083
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "23103_23105",
+            "span": {
+                "begin": 23103,
+                "end": 23105
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "23165_23182",
+            "span": {
+                "begin": 23165,
+                "end": 23182
+            },
+            "entityType": "disease",
+            "entityName": "thrombotic stroke",
+            "id": "UMLS:C0242129"
+        },
+        {
+            "entityId": "23237_23257",
+            "span": {
+                "begin": 23237,
+                "end": 23257
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "23293_23313",
+            "span": {
+                "begin": 23293,
+                "end": 23313
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "23374_23380",
+            "span": {
+                "begin": 23374,
+                "end": 23380
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23442_23454",
+            "span": {
+                "begin": 23442,
+                "end": 23454
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "23456_23470",
+            "span": {
+                "begin": 23456,
+                "end": 23470
+            },
+            "entityType": "disease",
+            "entityName": "hyperlipidemia",
+            "id": "UMLS:C0020473"
+        },
+        {
+            "entityId": "23472_23480",
+            "span": {
+                "begin": 23472,
+                "end": 23480
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23505_23512",
+            "span": {
+                "begin": 23505,
+                "end": 23512
+            },
+            "entityType": "drug",
+            "entityName": "alcohol",
+            "id": "UMLS:C0001975"
+        },
+        {
+            "entityId": "23889_23897",
+            "span": {
+                "begin": 23889,
+                "end": 23897
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "24044_24052",
+            "span": {
+                "begin": 24044,
+                "end": 24052
+            },
+            "entityType": "gene",
+            "entityName": "ABO gene",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "24063_24082",
+            "span": {
+                "begin": 24063,
+                "end": 24082
+            },
+            "entityType": "gene",
+            "entityName": "glycosyltransferase",
+            "id": "UMLS:C0085249"
+        },
+        {
+            "entityId": "24131_24143",
+            "span": {
+                "begin": 24131,
+                "end": 24143
+            },
+            "entityType": "drug",
+            "entityName": "carbohydrate",
+            "id": "UMLS:C0007004"
+        },
+        {
+            "entityId": "24160_24169",
+            "span": {
+                "begin": 24160,
+                "end": 24169
+            },
+            "entityType": "gene",
+            "entityName": "H antigen",
+            "id": "UMLS:C0221131"
+        },
+        {
+            "entityId": "24184_24200",
+            "span": {
+                "begin": 24184,
+                "end": 24200
+            },
+            "entityType": "gene",
+            "entityName": "A and B antigens",
+            "id": "UMLS:C0368721"
+        },
+        {
+            "entityId": "24208_24211",
+            "span": {
+                "begin": 24208,
+                "end": 24211
+            },
+            "entityType": "gene",
+            "entityName": "ABO",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "24255_24265",
+            "span": {
+                "begin": 24255,
+                "end": 24265
+            },
+            "entityType": "disease",
+            "entityName": "thrombosis",
+            "id": "UMLS:C0040053"
+        },
+        {
+            "entityId": "24281_24296",
+            "span": {
+                "begin": 24281,
+                "end": 24296
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "24365_24382",
+            "span": {
+                "begin": 24365,
+                "end": 24382
+            },
+            "entityType": "disease",
+            "entityName": "venous thrombosis",
+            "id": "UMLS:C0042487"
+        },
+        {
+            "entityId": "24418_24436",
+            "span": {
+                "begin": 24418,
+                "end": 24436
+            },
+            "entityType": "disease",
+            "entityName": "pulmonary embolism",
+            "id": "UMLS:C0034065"
+        },
+        {
+            "entityId": "24516_24538",
+            "span": {
+                "begin": 24516,
+                "end": 24538
+            },
+            "entityType": "disease",
+            "entityName": "venous thromboembolism",
+            "id": "UMLS:C1861172"
+        },
+        {
+            "entityId": "24634_24644",
+            "span": {
+                "begin": 24634,
+                "end": 24644
+            },
+            "entityType": "gene",
+            "entityName": "fibrinogen",
+            "id": "UMLS:C0016006"
+        },
+        {
+            "entityId": "24715_24723",
+            "span": {
+                "begin": 24715,
+                "end": 24723
+            },
+            "entityType": "gene",
+            "entityName": "ABO SNPs",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "24728_24743",
+            "span": {
+                "begin": 24728,
+                "end": 24743
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "24775_24795",
+            "span": {
+                "begin": 24775,
+                "end": 24795
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "24811_24830",
+            "span": {
+                "begin": 24811,
+                "end": 24830
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "24896_24933",
+            "span": {
+                "begin": 24896,
+                "end": 24933
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic and large-artery stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "24991_25014",
+            "span": {
+                "begin": 24991,
+                "end": 25014
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerotic plaques",
+            "id": "mesh:D058226"
+        },
+        {
+            "entityId": "25102_25108",
+            "span": {
+                "begin": 25102,
+                "end": 25108
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "25246_25252",
+            "span": {
+                "begin": 25246,
+                "end": 25252
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "25269_25272",
+            "span": {
+                "begin": 25269,
+                "end": 25272
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "25309_25333",
+            "span": {
+                "begin": 25309,
+                "end": 25333
+            },
+            "entityType": "disease",
+            "entityName": "cerebral thromboembolism",
+            "id": "UMLS:C0040038"
+        },
+        {
+            "entityId": "25337_25340",
+            "span": {
+                "begin": 25337,
+                "end": 25340
+            },
+            "entityType": "species",
+            "entityName": "man",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "25436_25455",
+            "span": {
+                "begin": 25436,
+                "end": 25455
+            },
+            "entityType": "disease",
+            "entityName": "small-artery stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "25581_25587",
+            "span": {
+                "begin": 25581,
+                "end": 25587
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "25807_25827",
+            "span": {
+                "begin": 25807,
+                "end": 25827
+            },
+            "entityType": "disease",
+            "entityName": "cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "25834_25853",
+            "span": {
+                "begin": 25834,
+                "end": 25853
+            },
+            "entityType": "disease",
+            "entityName": "large-vessel stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "25864_25883",
+            "span": {
+                "begin": 25864,
+                "end": 25883
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "25952_25967",
+            "span": {
+                "begin": 25952,
+                "end": 25967
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "26168_26182",
+            "span": {
+                "begin": 26168,
+                "end": 26182
+            },
+            "entityType": "gene",
+            "entityName": "FXIIIA subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "26246_26260",
+            "span": {
+                "begin": 26246,
+                "end": 26260
+            },
+            "entityType": "gene",
+            "entityName": "FXIIIB subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "26415_26417",
+            "span": {
+                "begin": 26415,
+                "end": 26417
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "26421_26436",
+            "span": {
+                "begin": 26421,
+                "end": 26436
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "26506_26513",
+            "span": {
+                "begin": 26506,
+                "end": 26513
+            },
+            "entityType": "gene",
+            "entityName": "F7 gene",
+            "id": "UMLS:C1333523"
+        },
+        {
+            "entityId": "26798_26813",
+            "span": {
+                "begin": 26798,
+                "end": 26813
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "27074_27077",
+            "span": {
+                "begin": 27074,
+                "end": 27077
+            },
+            "entityType": "gene",
+            "entityName": "ABO",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "27096_27118",
+            "span": {
+                "begin": 27096,
+                "end": 27118
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "27563_27569",
+            "span": {
+                "begin": 27563,
+                "end": 27569
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "27933_27939",
+            "span": {
+                "begin": 27933,
+                "end": 27939
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "27973_27982",
+            "span": {
+                "begin": 27973,
+                "end": 27982
+            },
+            "entityType": "gene",
+            "entityName": "ABO locus",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "28015_28030",
+            "span": {
+                "begin": 28015,
+                "end": 28030
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "28063_28100",
+            "span": {
+                "begin": 28063,
+                "end": 28100
+            },
+            "entityType": "disease",
+            "entityName": "large-vessel and cardioembolic stroke",
+            "id": "UMLS:C1531624"
+        },
+        {
+            "entityId": "28110_28130",
+            "span": {
+                "begin": 28110,
+                "end": 28130
+            },
+            "entityType": "disease",
+            "entityName": "small-vessel disease",
+            "id": "UMLS:C0042373"
+        },
+        {
+            "entityId": "28168_28171",
+            "span": {
+                "begin": 28168,
+                "end": 28171
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "28176_28181",
+            "span": {
+                "begin": 28176,
+                "end": 28181
+            },
+            "entityType": "gene",
+            "entityName": "FVIII",
+            "id": "NCBIGene:2157"
+        },
+        {
+            "entityId": "28299_28321",
+            "span": {
+                "begin": 28299,
+                "end": 28321
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "28404_28410",
+            "span": {
+                "begin": 28404,
+                "end": 28410
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "28540_28549",
+            "span": {
+                "begin": 28540,
+                "end": 28549
+            },
+            "entityType": "gene",
+            "entityName": "ABO locus",
+            "id": "UMLS:C1412099"
+        },
+        {
+            "entityId": "28579_28582",
+            "span": {
+                "begin": 28579,
+                "end": 28582
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "28587_28592",
+            "span": {
+                "begin": 28587,
+                "end": 28592
+            },
+            "entityType": "gene",
+            "entityName": "FVIII",
+            "id": "NCBIGene:2157"
+        },
+        {
+            "entityId": "28703_28722",
+            "span": {
+                "begin": 28703,
+                "end": 28722
+            },
+            "entityType": "disease",
+            "entityName": "arterial thrombosis",
+            "id": "UMLS:C0151942"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1905_1922",
+            "subjectText": "ABO gene variants",
+            "rel_name": "associate",
+            "objectId": "1960_1980",
+            "objectText": "cardioembolic stroke"
+        }
+    ]
+}

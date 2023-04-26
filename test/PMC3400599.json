@@ -1,0 +1,2155 @@
+{
+    "sourcid": "PMC3400599",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3400599/",
+    "text": "Effect of Intravitreal Anti-Vascular Endothelial Growth Factor Therapy on the Risk of Arterial Thromboembolic Events: A Meta-Analysis Background Intravitreal anti-vascular endothelial growth factor (VEGF) monoclonal antibodies are used in ocular neovascular diseases. A consensus has emerged that intravenous anti-VEGF can increase the risk of arterial thromboembolic events. However, the role of intravitreal anti-VEGF in arterial thromboembolism is controversial. Therefore, we did a systematic review and meta-analysis to investigate the effects of intravitreal anti-VEGF on the risk of arterial thromboembolic events. Methods Electronic databases were searched to identify relevant randomized clinical trials comparing intravitreal anti-VEGF with controls. Criteria for inclusion in our meta-analysis included a study duration of no less than 12 months, the use of a randomized control group not receiving any intravitreal active agent, and the availability of outcome data for arterial thromboembolic events, myocardial infarction, cerebrovascular accidents, and vascular death. The risk ratios and 95% CIs were calculated using a fixed-effects or random-effects model, depending on the heterogeneity of the included studies. Results A total of 4942 patients with a variety of ocular neovascular diseases from 13 randomized controlled trials were identified and included for analysis. There was no significant difference between intravitreal anti-VEGF and control in the risk of all events, with risk ratios of 0.87 (95% CI, 0.64 to 1.19) for arterial thromboembolic events, 0.96 (95% CI, 0.55-1.68) for cerebrovascular accidents, 0.69 (95% CI 0.40-1.21) for myocardial infarctions, and 0.68 (95% CI, 0.37-1.27) for vascular death.       Conclusions The strength evidence suggests that the intravitreal use of anti-VEGF antibodies is not associated with an increased risk of arterial thromboembolic events. Introduction Angiogenesis, a process involving the proliferation of new blood vessels, plays a crucial role in many pathologic states. This process is mainly driven by vascular endothelial growth factor (VEGF), whose signaling pathway has been a target of many new antiangiogenic agents. Currently used monoclonal antibodies against VEGF included pegaptanib, ranibizumab, and bevacizumab. Bevacizumab (Avastin ) is a recombinant full length humanized antibody that binds to all types of VEGF and is used successfully in the treatment of many types of malignancy as a systemic drug. Pegaptanib (Macugen ), a 28-base ribonucleic acid aptamer covalently linked to two branched 20-kD polyethylene glycol moieties, binds to extracellular VEGF, specifically the 165-amino-acid isoform (VEGF-165), and antagonizes its biological effects. Ranibizumab (Lucentis ) is a recombinant humanized monoclonal antibody Fab that neutralizes all active forms of VEGF-A. All three anti-VEGF agents have been proven promise in the treatment of various ocular neovascular diseases, such as age-related macular degeneration, diabetic retinopathy, and retinal vein occlusion.    Because VEGF plays many roles in physiologic processes, its inhibition could have potentially serious systemic consequences. While the use of intravenous bevacizumab is recognized to be associated with an increased risk of arterial and venous thromboembolic events, it is controversial whether intravitreal anti-VEGF agents contribute to the development of arterial thromboembolic events, such as myocardial infarction and cerebrovascular accidents, common comorbidities leading to mortality in patients with ocular neovascular diseases. A pooled analysis from three randomized clinical trials (RCTs) that included 859 patients with age-related macular degeneration showed that intravitreal ranibizumab was associated with an increased risk of cerebrovascular accidents (odds ratios [OR], 3.24; 95% confidence interval [CI], 0.96-10.95; P = 0.045), when compared with sham treatment, whereas there was no apparent association between intravitreal ranibizumab and myocardial infarction (OR, 0.61 [95%CI, 0.29-1.29]; P = 0.193). Because the number of patients included in this analysis is limited, the contribution of intravitreal anti-VEGF therapy to arterial thromboembolic events remains poorly defined.             Flow diagram showing citations retrieved from literature searches and number of trials included in the meta-analysis. Characteristics of randomized controlled clinical trials in the meta-analysis. Acronym\tDesign\tTreatment arm\tControl arm\tConcurrent treatment\tNumber of patients\tDisease\tMean age (range, years)\tWomen (%)\tFollow up (months)\tLost tofollow-up (%)\tQuality score\t \tVISION22\tDB-P\tPegaptanib\tPlacebo\tVerteporfin\t1190\tNeovascular AMD\tNA\t696 (58.5)\t12\t11.5\t5\t \tMARINA23\tDB-P\tRanibizumab\tPlacebo\tVerteporfin\t716\tNeovascular AMD\t77 (52-95)\t464 (64.8)\t24\t14.1\t5\t \tFOCUS24\tSB-P\tRanibizumab\tPlacebo\tVerteporfin\t162\tNeovascular AMD\t74 (50-93)\t86 (53.1)\t24\t14.8\t4\t \tANCHOR25\tDB-P\tRanibizumab\tVerteporfin\tLaser\t423\tNeovascular AMD\t77 (53-97)\t211 (49.9)\t24\t22.2\t5\t \tBOLT26\tSB-P\tBevacizumab\tLaser\tNone\t80\tDME\t64 (40-86)\t25 (31.3)\t12\t2.5\t4\t \tABC Trial27\tDB-P\tBevacizumab\tPlacebo, verteporfin, pegaptanib\tNone\t131\tNeovascular AMD\t81 (NA)\t80 (61.1)\t12\t4.8\t5\t \tPIER28\tDB-P\tRanibizumab\tPlacebo\tVerteporfin\t184\tNeovascular AMD\t78 (54-94)\t110 (59.8)\t24\t16.8\t5\t \tRESOLVE29\tDB-P\tRanibizumab\tPlacebo\tNone\t151\tDME\t64 (32-85)\t70 (46.4)\t12\t12.6\t5\t \tBRAVO30\tDB-P\tRanibizumab\tPlacebo\tLaser\t397\tBRVO\t66 (26-91)\t185 (46.6)\t12\t10.3\t5\t \tCRUISE31\tDB-P\tRanibizumab\tPlacebo\tNone\t392\tCRVO\t68 (20-91)\t169 (43.1)\t12\t11.0\t5\t \tDRCR32\tDB-P\tRanibizumab\tPlacebo, triamcinolone\tLaser\t691\tDME\t63 (NA)\t304 (44.0)\t24\t6.4\t5\t \tRESTORE33\tDB-P\tRanibizumab\tPlacebo\tLaser\t345\tDME\t63 (NA)\t144 (41.7)\t12\t12.2\t5\t \tMacugen 101334\tDB-P\tPegaptanib\tPlacebo\tLaser\t260\tDME\t62 (20-83)\t111 (42.7)\t24\t32.5\t5                      NA = data not available. DB-P  =  double blind parallel; SB-P  =  single blind parallel. AMD  =  age-related macular degeneration; DME  =  diabetic macular edema; CRVO  =  central retinal vein occlusion; BRVO  =  branch retinal vein occlusion.                             Recently, many more RCTs of intravitreal anti-VEGF therapy in ocular neovascular diseases have been performed. However, no significant association between intravitreal anti-VEGF therapy and arterial thromboembolic events has been shown in any RCTs. We hypothesized that these studies were not powered sufficiently to reveal a significantly increased risk due to the low incidences of arterial thromboembolic events. Therefore, we performed a systematic review of the published RCTs for a meta-analysis to determine the risk of arterial thromboembolic events associated with intravitreal anti-VEGF treatment. Funnel plot of studies on arterial thromboembolic events. Methods Data Source Published RCTs were identified through a comprehensive search of PubMed, EMBASE, and the Cochrane central register of controlled trials, each from inception to October 31, 2011. The search combined terms related to drugs (bevacizumab, pegaptanib, and ranibizumab), and terms related to diseases (macular degeneration, diabetic retinopathy, macular edema, retinal vein occlusion, retinal neovascularization, and choroidal neovascularization), with a filter to restrict results to clinical trial. The reference lists of identified articles were examined for additional publications. Risk ratio of arterial thromboembolic events associated with intravitreal anti-VEGF treatment compared with control treatment. Risk ratio of arterial thromboembolic events. Number of events/total number (%)\t\t\t \t\tNo of Trials\tAnti-VEGF\tControl\tRisk ratio (95% CI)\tP value\t \tArterial thromboembolic events\t \tOverall\t12\t117/3324 (3.5)\t60/1520 (3.9)\t0.87 (0.64, 1.19)\t0.387\t \tNeovascular AMD\t6\t75/1942 (3.9)\t29/826 (3.5)\t1.14 (0.73, 1.70)\t0.615\t \tDME\t4\t35/885 (4.1)\t28/432 (6.5)\t0.58 (0.36, 0.94)\t0.028\t \tRVO\t2\t7/527 (1.3)\t3/262 (1.2)\t1.16 (0.30, 4.45)\t0.829\t \tRanibizumab\t9\t77/2223 (3.5)\t41/1052 (3.9)\t0.83 (0.58, 1.19)\t0.315\t \tPegaptanib\t2\t36/1036 (3.5)\t19/440 (4.3)\t0.89 (0.50, 1.59)\t0.696\t \tBevacizumab\t1\t4/65 (6.2)\t0/28 (0.0)\t3.96 (0.22, 71.08)\t0.351\t \tCerebrovascular accidents\t \tOverall\t10\t32/2288 (1.4)\t15/1169 (1.3)\t0.96 (0.55, 1.68)\t0.891\t \tNeovascular AMD\t3\t18/864 (2.1)\t4/437 (0.9)\t2.10 (0.76, 5.83)\t0.155\t \tDME\t5\t11/897 (1.2)\t10/470 (2.1)\t0.51 (0.24, 1.09)\t0.083\t \tRVO\t2\t3/527 (0.6)\t1/262 (0.4)\t1.16 (0.17, 7.82)\t0.877\t \tRanibizumab\t8\t30/2102 (1.2)\t17/1052 (1.6)\t0.96 (0.53, 1.74)\t0.899\t \tPegaptanib\t1\t2/144 (1.4)\t1/142 (0.7)\t1.97 (0.18, 21.51)\t0.577\t \tBevacizumab\t1\t0/42 (0.0)\t1/38 (2.6)\t0.30 (0.01, 7.21)\t0.460\t \tMyocardial infarction\t \tOverall\t11\t29/2432 (1.2)\t20/1222 (1.6)\t0.69 (0.40, 1.21)\t0.195\t \tNeovascular AMD\t5\t18/1050 (1.7)\t10/528 (1.9)\t0.86 (0.41, 1.81)\t0.700\t \tDME\t4\t8/855 (0.9)\t8/432 (1.9)\t0.46 (0.18, 1.23)\t0.121\t \tRVO\t2\t3/527 (0.6)\t2/262 (0.8)\t0.75 (0.13, 4.43)\t0.747\t \tRanibizumab\t9\t27/2223 (1.2)\t17/1052 (1.6)\t0.73 (0.41, 1.31)\t0.292\t \tPegaptanib\t1\t0/144 (0.0)\t3/142 (2.1)\t0.14 (0.01, 2.70)\t0.194\t \tBevacizumab\t1\t2/65 (3.1)\t0/28 (0.0)\t2.20 (0.11, 44.34)\t0.608\t \tVascular death\t \tOverall\t4\t25/1198 (2.1)\t15/539 (2.8)\t0.68 (0.37, 1.27)\t0.225\t \tNeovascular AMD\t3\t12/823 (1.4)\t7/409 (1.7)\t0.79 (0.31, 2.01)\t0.626\t \tDME\t1\t13/375 (3.5)\t8/130 (6.2)\t0.55 (0.22, 1.35)\t0.192\t \tRanibizumab\t3\t23/1133 (2.0)\t15/511 (2.9)\t0.63 (0.33, 1.20)\t0.159\t \tBevacizumab\t1\t2/65 (3.1)\t0/28 (0.0)\t2.20 (0.11, 44.34)\t0.608      AMD  =  age-related macular degeneration; DME  =  diabetic macular edema; RVO  =  retinal vein occlusion.             We reviewed each publication and only the most recent or complete report of clinical trials was included when duplicate publications were identified. Efforts also were made to contact the investigators when relevant data were not clear. Risk ratio of cerebrovascular accidents associated with intravitreal anti-VEGF treatment compared with control treatment. Study Selection The goal of this study was to determine whether intravitreal anti-VEGF therapy contributes to the development of arterial thromboembolic events. Therefore, only RCTs with a direct comparison between patients treated with and without intravitreal injection of anti-VEGF agents were included for analysis. Specifically, clinical trials fulfilling the following criteria were included in the meta-analysis: (i) study design - randomized clinical trials, which all should have adequate IRB review and consent processes; (ii) population - patients with ocular neovascular diseases, such as age-related macular degeneration, diabetic retinopathy, and retinal vein occlusion; (iii) intervention - intravitreal anti-VEGF agents versus control, and the use of a randomized control group not receiving any intravitreal active agent; (iv) outcome measurement - the incidence of arterial thromboembolic events, myocardial infarction, cerebrovascular accidents, and vascular death; (v) duration - the minimum length of follow up was 12 months.           Risk ratio of myocardial infarctions associated with intravitreal anti-VEGF treatment compared with control treatment. After completion of the searches, two review authors (JWC and SWC) working independently assessed the titles and abstracts of all obtained reports for a rough judgment of an article's eligibility. The full text copies of possibly and definitely relevant trials were obtained and assessed by the three authors independently according to the definitions in the criteria. Only trials meeting these criteria were assessed for methodological quality.   Risk ratio of vascular death associated with intravitreal anti-VEGF treatment compared with control treatment. Data Extraction and Clinical Endpoints Data extraction was performed by two reviewers (JWC and SWC) independently. Any disagreement was resolved by discussion. For each study and each type of treatment, the following data were extracted: information on study design (whether randomization, allocation concealment, intention to treat analysis, double blind or single blind, parallel or crossover), location of trial, length of study, sample size, patient age, sex, race, type of diagnosis, and events of arterial thromboembolic events, myocardial infarction, cerebrovascular accidents, and vascular death. The clinical endpoints included arterial thromboembolic events, non-fatal cerebrovascular accidents, non-fatal myocardial infarction, and vascular death. Arterial thromboembolic events included nonfatal myocardial infarction, nonfatal stroke, and death from a vascular or unknown cause, on the basis of the classification system of the Antiplatelet Trialists' Collaboration (APTC). All reported strokes, transient ischemic attacks, or cerebral ischemic incidents were regarded as cerebrovascular accidents.   Qualitative Assessment Two authors (in duplicate by JWC and SWC) used standard criteria (allocation concealment, blinding, intention to treat analysis, loss to follow-up) to appraise study quality, in addition to quantitative quality assessment by using the scoring system developed by Jadad. The quality scoring system was followed as: (i) allocation concealment, coded as adequate (1 score), inadequate or unclear (0 score); (ii) blinding, coded as double-blind (2 scores), single-blind (1 score), and open label (0 score); (iii) intention to treat analysis, coded as used (1 score), not used or unable to assess (0 score); and (iv) lost to follow-up, coded as given (1 score), and not given (0 score). \"Poor quality\" refers to a Jadad score less than 3, and the impact of excluding low quality studies was assessed by a sensitivity analysis.     Statistical Analysis Outcome measure was assessed on an intent-to-treat (ITT) basis, the ITT population comprising all randomized patients who received a minimum of one dose of active treatment and provided a valid baseline measurement. All statistical analyses were performed using version 2 of the Comprehensive Meta-analysis program (Biostat, Englewood Cliffs, New Jersey). For each study, risk ratio (RR) of arterial thromboembolic events, non-fatal cerebrovascular accidents, non-fatal myocardial infarction, and vascular death with exact 95% CI were calculated. The heterogeneity across all eligible comparisons was estimated using the Chi 2-based Q statistic. Heterogeneity was checked by P-value. I 2 metrics, which quantify heterogeneity irrespective of the number of studies, were also reported. If no heterogeneity detected (P>0.1), we combined the results in a meta-analysis using the Mantel-Haenszel fixed effects model, otherwise, the DerSimonian-Laird random effects model were used to pool the data after exploring the causes of heterogeneity. We constructed standard funnel plots to investigate the potential for publication bias, by examining visually the asymmetry. Furthermore, Egger's linear regression method was used to detect the presence of publication bias regarding primary endpoint (arterial thromboembolic events).   Results The flow of the randomized controlled trials included in our analysis is shown in the  Figure 1 . We reviewed the full text of 103 articles from 1016 studies identified from our initial literature search. After excluding secondary studies, trial protocols, trials of unqualified interventions, trials without clinical endpoints, and duplicate publications, totally 13 randomized controlled trials were included in the final meta-analysis ( Table 1 ). All trials had a prospective, parallel design. Randomized treatment allocation sequences were generated in all trials. Eleven trials were double-blinded, and two other trials were single-blinded. Nine trials had placebo as controls; two other trials had active controls; the rest of the trials were placebo and active controls. Patients were analyzed by the intention to treat principle in all trials. The quality of all the trials was acceptable: eleven trials scored 5, two trials scored 4. Funnel plot for the studies on arterial thromboembolic events was qualitatively symmetrical ( Figure 2 ), and no publication bias was detected for the primary endpoint by Egger's test (one-tailed, P = 0.13; two-tailed, P = 0.27).           There were 38 patients treated with pegaptanib in ABC Trial, and 142 patients treated with triamcinolone in DRCR study; we excluded the two arms from the final analysis. Therefore, a total of 4942 patients from 13 randomized clinical trials were included for analysis. The baseline characteristics of patients in the 13 studies are summarized in  Table 1 . Six studies included neovascular age-related macular degeneration, five included diabetic macular edema, and each one included central retinal vein occlusion and branch retinal vein occlusion. Our meta-analysis calculated the overall risk ratio for arterial thromboembolic events associated with intravitreal anti-VEGF treatment compared with control treatment, and twelve trials were included in this analysis ( Figure 3 ). There were 117 (3.5%) arterial thromboembolic events of 3324 patients in the intravitreal anti-VEGF group, and 60 (3.9%) of 1520 patients in the control group. No significant heterogeneity was found in this analysis. Intravitreal anti-VEGF therapy was not associated with the risk of arterial thromboembolic events, with a pooled risk ratio of 0.87 (95% CI, 0.64 to 1.19) using a fixed-effects model. Analysis using the random effects model similarly showed no association between intravitreal anti-VEGF therapy and the risk of arterial thromboembolic events (pooled risk ratio 0.83, 0.61 to 1.13).  Table 2  lists the risk ratios and 95% confidence intervals for arterial thromboembolic events from all the trials; results from the pooled group according to the type of diseases and the type of interventions are shown separately. The results of the meta-analysis for cerebrovascular accidents are shown in  Figure 4 , and ten trials were included in this analysis, involving a total of 3457 patients. 32 (1.4%) of 2288 patients in receiving intravitreal anti-VEGF experienced cerebrovascular accidents, compared with 15 (1.3%) of 1169 patients receiving control. There was not a significant heterogeneity in this analysis. Intravitreal anti-VEGF was not associated with the risk of cerebrovascular accidents, with a pooled RR of 0.96 (0.55 to 1.68) by fixed effects analysis and 0.83 (0.44 to 1.57) by random effects analysis.  Table 2  shows the sub-pooled risk ratio, which also suggested that intravitreal anti-VEGF was not associated with the risk of cerebrovascular accidents. Eleven trials comparing intravitreal anti-VEGF with control reported the rate of myocardial infarction, with a total of 3654 patients included in this analysis. Myocardial infarctions occurred in 29 (1.2%) of 2432 patients receiving intravitreal anti-VEGF, and 20 (1.6%) of 1222 patients receiving control. There was no significant difference between anti-VEGF and control in the risk of myocardial infarctions, with a risk ratio being 0.69 (0.40-1.21) by fixed-effects analysis and 0.70 (0.39 to 1.28) by random effects analysis ( Figure 5 ). Intravitreal anti-VEGF was also not associated with the risk of myocardial infarctions for neovascular age-related macular degeneration, diabetic macular edema, and retinal vein occlusion ( Table 2 ).   Figure 6  shows the results of the meta-analysis for vascular death comparing anti-VEGF with control. There were 25 (2.1%) of 1198 patients allocated to treatment with intravitreal anti-VEGF, and 15 (2.8%) of 539 patients allocated to control, who experienced vascular death. No significant heterogeneity was found in this analysis. Intravitreal anti-VEGF was not associated with the risk of vascular death, with a risk ratio of 0.68 (0.37-1.27) from the fixed-effects model, and 0.66 (0.35 to 1.24) from the random-effects model. Sub-group analyses using the fixed-effects model also suggested that intravitreal anti-VEGF was not associated with the risk of vascular death ( Table 2 ).     Discussion The results of this programme of prospectively designed overviews of data from 13 randomized clinical trials revealed that, as compared with control, intravitreal anti-VEGF therapy was not associated with the risk of arterial thromboembolic events, non-fatal cerebrovascular accidents, non-fatal myocardial infarction, and vascular death. The previous meta-analyses suggested the use of intravenous bevacizumab was recognized to be associated with an increased risk of arterial and venous thromboembolic events. Because of the high association of the risk of cardiovascular events with age-related macular degeneration, diabetes, and retinal vein occlusion, the results of a previous meta-analysis, which revealed intravitreal anti-VEGF was also associated with an increased risk of cerebrovascular accidents, was worrisome. However, another previous systematic review, as well as two non-randomized studies, suggested that intravitreal anti-VEGF use was not associated with increased risks of mortality, myocardial infarction, or stroke. Therefore, the success to detect such an increase in cerebrovascular accidents risk is likely due to the limited number of trials included for the analysis. Furthermore, risk ratios might be affected by small changes in the classification of events, due to the results based on a relatively small number of events. In the overview for arterial thromboembolic events, no difference in this risk between the arms receiving intravitreal anti-VEGF and control, with the 95% confidence interval included an up to 19% increased risk of arterial thromboembolic events down to a 36% reduction with intravitreal anti-VEGF. In the overviews for non-fatal cerebrovascular accidents, non-fatal myocardial infarction, and vascular death, there was also no clear difference between intravitreal anti-VEGF and control. In the present meta-analysis, several ocular neovascular diseases, such as age-related macular degeneration, diabetic retinopathy, and retinal vein occlusion, were included. Sensitivity analysis was undertaken to evaluate the variation of the risk of arterial thromboembolic events with anti-VEGF among different diseases. Intravitreal anti-VEGF significantly decreased the risk of arterial thromboembolic events by 32% in patients with diabetic macular edema, with the 95% confidence intervals of 6% to 64%; no difference in this risk was detected in patients with neovascular age-related macular degeneration and retinal vein occlusion. In patients with diabetes mellitus, increased VEGF-mediated angiogenesis has been implicated in retinopathy and nephropathy, whereas a defective angiogenic response to ischemia, which might be attributable to a VEGF signaling defect in which there is reduced receptor signaling despite higher ligand expression, could lead to poor clinical outcomes. Therefore, the targets within the system that lead to altered VEGF signaling, such as low dose systemic anti-VEGF, may be beneficial in diabetic patients. The sensitivity analysis according to the type of diseases showed that intravitreal anti-VEGF increased the risks of cerebrovascular accidents by 52% in neovascular age-related macular degeneration, with the 95% confidence intervals of -32% to 83%. However, the point estimates of all three trials were distributed across the 1.0 risk ratio. Two estimates have shown a possible risk of cerebrovascular accidents of intravitreal anti-VEGF. However, a larger epidemiological study found that no statistically significant relationship between intravitreal anti-VEGF use and stroke. Therefore, the small differences of cerebrovascular accidents between intravitreal anti-VEGF and placebo in the two trials might be due to chance finding, but not drug-related. Although we tried to conduct a thorough review of the existing literature, this present analysis has limitations inherent to any systematic review. First, the incidences of arterial thromboembolic events showed significant heterogeneity among the included studies. This may reflect differences in sample sizes, disease types, interventions, concomitant treatment, study durations, and many other factors among these studies. Despite these differences, the risk ratios reported by all of these studies showed remarkable homogeneity. In addition, combination data by using a random-effects model may be able to achieve more conservative estimates. Second, the included trials were done at various clinical centers, and the ability to detect arterial thromboembolic events and the classification of events might vary among these institutions, which could result in a bias of reported incidence rates. Third, only published studies were included in the present meta-analysis. To avoid the publication bias, we searched in multiple databases. In addition, to find potential publication biases, we explored asymmetry in funnel plots and detect heterogeneity using Egger's linear regression, and no publication bias was found. Finally, the findings of this meta-analysis are based on the study level, not on patient-level source data, and some confounding factors cannot be properly assessed and incorporated into the results.   Despite these limitations, the strength evidence from the present meta-analysis data suggests that the intravitreal use of anti-VEGF agents is not associated with an increased risk of arterial thromboembolic events. Competing Interests: The authors have declared that no competing interests exist. Funding: This study is supported by Shanghai Municipal Natural Science Foundation (Grant No. 10ZR1439300), and National Natural Science Foundation of China (Grant No. 81000374 and 81170874). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. References Angiogenesis in cancer, vascular, rheumatoid and other disease. Role of the vascular endothelial growth factor pathway in tumor growth and angiogenesis. Bevacizumab plus irinotecan, fluorouracil, and leucovorin for metastatic colorectal cancer. Paclitaxel-carboplatin alone or with bevacizumab for non-small-cell lung cancer. Pegaptanib sodium for the treatment of neovascular age-related macular degeneration. Ranibizumab: treatment in patients with neovascular age-related macular degeneration. Anti-vascular endothelial growth factor therapy for ocular neovascular disease. Curr Opin Ophthalmol. Anti-vascular endothelial growth factor therapy for neovascular ocular diseases other than age-related macular degeneration. Arterial thromboembolic events in patients with metastatic carcinoma treated with chemotherapy and bevacizumab. Risk of venous thromboembolism with the angiogenesis inhibitor bevacizumab in cancer patients: a meta-analysis. Hypertension, cardiovascular disease, and age-related macular degeneration. Cardiovascular disease and hypertension are strong risk factors for choroidal neovascularization. Cerebrovascular accidents in ranibizumab. Collaborative overview of randomised trials of antiplatelet therapy-I: Prevention of death, myocardial infarction, and stroke by prolonged antiplatelet therapy in various categories of patients.   Assessing the quality of reports of randomized clinical trials: is blinding necessary? Measuring inconsistency in meta-analyses. Quantifying heterogeneity in a meta-analysis. Statistical aspects of the analysis of data from retrospective studies of disease. Meta-analysis in clinical trials. Quantitative synthesis in systematic reviews. Bias in meta-analysis detected by a simple, graphical test. Pegaptanib sodium for neovascular age-related macular degeneration: two-year safety results of the two prospective, multicenter, controlled clinical trials. Ranibizumab for neovascular age-related macular degeneration. Ranibizumab combined with verteporfin photodynamic therapy in neovascular age-related macular degeneration (FOCUS): year 2 results. Ranibizumab versus verteporfin photodynamic therapy for neovascular age-related macular degeneration: Two-year results of the ANCHOR study. A prospective randomized trial of intravitreal bevacizumab or laser therapy in the management of diabetic macular edema (BOLT study) 12-month data: report 2. Ophthalmology. Bevacizumab for neovascular age related macular degeneration (ABC Trial): multicentre randomised double masked study. Randomized, double-masked, sham-controlled trial of ranibizumab for neovascular age-related macular degeneration: PIER study year 2. Am J Ophthalmol. Safety and efficacy of ranibizumab in diabetic macular edema (RESOLVE Study): a 12-month, randomized, controlled, double-masked, multicenter phase II study. Sustained benefits from ranibizumab for macular edema following branch retinal vein occlusion: 12-month outcomes of a phase III study. Sustained benefits from ranibizumab for macular edema following central retinal vein occlusion: twelve-month outcomes of a phase III study. Expanded 2-year follow-up of ranibizumab plus prompt or deferred laser or triamcinolone plus prompt laser for diabetic macular edema. The RESTORE study: ranibizumab monotherapy or combined with laser versus laser monotherapy for diabetic macular edema. A phase 2/3, multicenter, randomized, double-masked, 2-year trial of pegaptanib sodium for the treatment of diabetic macular edema. Ranibizumab for age-related macular degeneration. Effect of rosiglitazone on the risk of myocardial infarction and death from cardiovascular causes. Cardiovascular risk factors for retinal vein occlusion and arteriolar emboli: the Atherosclerosis Risk in Communities & Cardiovascular Health studies. Intravitreal bevacizumab (Avastin) versus ranibizumab (Lucentis) for the treatment of age-related macular degeneration: a safety review. Risks of mortality, myocardial infarction, bleeding, and stroke associated with therapies for age-related macular degeneration. Age-related macular degeneration, anti-vascular endothelial growth factor agents, and short-term mortality: a postmarketing medication safety and surveillance study. Impaired angiogenesis after hindlimb ischemia in type 2 diabetes mellitus: differential regulation of vascular endothelial growth factor receptor 1 and soluble vascular endothelial growth factor receptor 1.",
+    "entities": [
+        {
+            "entityId": "28_62",
+            "span": {
+                "begin": 28,
+                "end": 62
+            },
+            "entityType": "gene",
+            "entityName": "Vascular Endothelial Growth Factor",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "86_116",
+            "span": {
+                "begin": 86,
+                "end": 116
+            },
+            "entityType": "disease",
+            "entityName": "Arterial Thromboembolic Events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "158_197",
+            "span": {
+                "begin": 158,
+                "end": 197
+            },
+            "entityType": "gene",
+            "entityName": "anti-vascular endothelial growth factor",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "199_203",
+            "span": {
+                "begin": 199,
+                "end": 203
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "239_266",
+            "span": {
+                "begin": 239,
+                "end": 266
+            },
+            "entityType": "disease",
+            "entityName": "ocular neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "309_318",
+            "span": {
+                "begin": 309,
+                "end": 318
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "344_374",
+            "span": {
+                "begin": 344,
+                "end": 374
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "415_419",
+            "span": {
+                "begin": 415,
+                "end": 419
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "423_447",
+            "span": {
+                "begin": 423,
+                "end": 447
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolism",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "570_574",
+            "span": {
+                "begin": 570,
+                "end": 574
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "590_620",
+            "span": {
+                "begin": 590,
+                "end": 620
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "736_745",
+            "span": {
+                "begin": 736,
+                "end": 745
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "982_1012",
+            "span": {
+                "begin": 982,
+                "end": 1012
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "1014_1035",
+            "span": {
+                "begin": 1014,
+                "end": 1035
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1037_1062",
+            "span": {
+                "begin": 1037,
+                "end": 1062
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1255_1263",
+            "span": {
+                "begin": 1255,
+                "end": 1263
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1282_1309",
+            "span": {
+                "begin": 1282,
+                "end": 1309
+            },
+            "entityType": "disease",
+            "entityName": "ocular neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "1447_1456",
+            "span": {
+                "begin": 1447,
+                "end": 1456
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "1548_1578",
+            "span": {
+                "begin": 1548,
+                "end": 1578
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "1609_1634",
+            "span": {
+                "begin": 1609,
+                "end": 1634
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1664_1686",
+            "span": {
+                "begin": 1664,
+                "end": 1686
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1815_1835",
+            "span": {
+                "begin": 1815,
+                "end": 1835
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF antibodies",
+            "id": "UMLS:C1624602"
+        },
+        {
+            "entityId": "1880_1910",
+            "span": {
+                "begin": 1880,
+                "end": 1910
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "2080_2114",
+            "span": {
+                "begin": 2080,
+                "end": 2114
+            },
+            "entityType": "gene",
+            "entityName": "vascular endothelial growth factor",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "2116_2120",
+            "span": {
+                "begin": 2116,
+                "end": 2120
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "2245_2249",
+            "span": {
+                "begin": 2245,
+                "end": 2249
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "2259_2269",
+            "span": {
+                "begin": 2259,
+                "end": 2269
+            },
+            "entityType": "drug",
+            "entityName": "pegaptanib",
+            "id": "UMLS:C1531015"
+        },
+        {
+            "entityId": "2288_2299",
+            "span": {
+                "begin": 2288,
+                "end": 2299
+            },
+            "entityType": "gene",
+            "entityName": "bevacizumab",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "2301_2312",
+            "span": {
+                "begin": 2301,
+                "end": 2312
+            },
+            "entityType": "gene",
+            "entityName": "Bevacizumab",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "2399_2403",
+            "span": {
+                "begin": 2399,
+                "end": 2403
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "2506_2513",
+            "span": {
+                "begin": 2506,
+                "end": 2513
+            },
+            "entityType": "drug",
+            "entityName": "Macugen",
+            "id": "UMLS:C1567931"
+        },
+        {
+            "entityId": "2592_2611",
+            "span": {
+                "begin": 2592,
+                "end": 2611
+            },
+            "entityType": "drug",
+            "entityName": "polyethylene glycol",
+            "id": "UMLS:C0032483"
+        },
+        {
+            "entityId": "2631_2649",
+            "span": {
+                "begin": 2631,
+                "end": 2649
+            },
+            "entityType": "gene",
+            "entityName": "extracellular VEGF",
+            "id": "UMLS:C1256770"
+        },
+        {
+            "entityId": "2692_2700",
+            "span": {
+                "begin": 2692,
+                "end": 2700
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-165",
+            "id": "UMLS:C0376854"
+        },
+        {
+            "entityId": "2743_2754",
+            "span": {
+                "begin": 2743,
+                "end": 2754
+            },
+            "entityType": "gene",
+            "entityName": "Ranibizumab",
+            "id": "UMLS:C1566537"
+        },
+        {
+            "entityId": "2772_2817",
+            "span": {
+                "begin": 2772,
+                "end": 2817
+            },
+            "entityType": "gene",
+            "entityName": "recombinant humanized monoclonal antibody Fab",
+            "id": "UMLS:C2985546"
+        },
+        {
+            "entityId": "2855_2861",
+            "span": {
+                "begin": 2855,
+                "end": 2861
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "2878_2882",
+            "span": {
+                "begin": 2878,
+                "end": 2882
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "2943_2970",
+            "span": {
+                "begin": 2943,
+                "end": 2970
+            },
+            "entityType": "disease",
+            "entityName": "ocular neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "2980_3012",
+            "span": {
+                "begin": 2980,
+                "end": 3012
+            },
+            "entityType": "disease",
+            "entityName": "age-related macular degeneration",
+            "id": "UMLS:C0242383"
+        },
+        {
+            "entityId": "3014_3034",
+            "span": {
+                "begin": 3014,
+                "end": 3034
+            },
+            "entityType": "disease",
+            "entityName": "diabetic retinopathy",
+            "id": "UMLS:C0011884"
+        },
+        {
+            "entityId": "3040_3062",
+            "span": {
+                "begin": 3040,
+                "end": 3062
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "3075_3079",
+            "span": {
+                "begin": 3075,
+                "end": 3079
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "3221_3232",
+            "span": {
+                "begin": 3221,
+                "end": 3232
+            },
+            "entityType": "gene",
+            "entityName": "bevacizumab",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "3290_3331",
+            "span": {
+                "begin": 3290,
+                "end": 3331
+            },
+            "entityType": "disease",
+            "entityName": "arterial and venous thromboembolic events",
+            "id": "UMLS:C1997614"
+        },
+        {
+            "entityId": "3379_3383",
+            "span": {
+                "begin": 3379,
+                "end": 3383
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "3464_3485",
+            "span": {
+                "begin": 3464,
+                "end": 3485
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3490_3515",
+            "span": {
+                "begin": 3490,
+                "end": 3515
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "3562_3570",
+            "span": {
+                "begin": 3562,
+                "end": 3570
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3576_3603",
+            "span": {
+                "begin": 3576,
+                "end": 3603
+            },
+            "entityType": "disease",
+            "entityName": "ocular neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "3686_3694",
+            "span": {
+                "begin": 3686,
+                "end": 3694
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3700_3732",
+            "span": {
+                "begin": 3700,
+                "end": 3732
+            },
+            "entityType": "disease",
+            "entityName": "age-related macular degeneration",
+            "id": "UMLS:C0242383"
+        },
+        {
+            "entityId": "3811_3836",
+            "span": {
+                "begin": 3811,
+                "end": 3836
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4014_4025",
+            "span": {
+                "begin": 4014,
+                "end": 4025
+            },
+            "entityType": "gene",
+            "entityName": "ranibizumab",
+            "id": "UMLS:C1566537"
+        },
+        {
+            "entityId": "4030_4051",
+            "span": {
+                "begin": 4030,
+                "end": 4051
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "4116_4124",
+            "span": {
+                "begin": 4116,
+                "end": 4124
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4201_4205",
+            "span": {
+                "begin": 4201,
+                "end": 4205
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "6176_6180",
+            "span": {
+                "begin": 6176,
+                "end": 6180
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "6192_6219",
+            "span": {
+                "begin": 6192,
+                "end": 6219
+            },
+            "entityType": "disease",
+            "entityName": "ocular neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "6303_6307",
+            "span": {
+                "begin": 6303,
+                "end": 6307
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "6320_6350",
+            "span": {
+                "begin": 6320,
+                "end": 6350
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "6514_6544",
+            "span": {
+                "begin": 6514,
+                "end": 6544
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "6657_6687",
+            "span": {
+                "begin": 6657,
+                "end": 6687
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "6717_6726",
+            "span": {
+                "begin": 6717,
+                "end": 6726
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "7038_7049",
+            "span": {
+                "begin": 7038,
+                "end": 7049
+            },
+            "entityType": "gene",
+            "entityName": "bevacizumab",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "7051_7061",
+            "span": {
+                "begin": 7051,
+                "end": 7061
+            },
+            "entityType": "drug",
+            "entityName": "pegaptanib",
+            "id": "UMLS:C1531015"
+        },
+        {
+            "entityId": "7067_7078",
+            "span": {
+                "begin": 7067,
+                "end": 7078
+            },
+            "entityType": "gene",
+            "entityName": "ranibizumab",
+            "id": "UMLS:C1566537"
+        },
+        {
+            "entityId": "7112_7132",
+            "span": {
+                "begin": 7112,
+                "end": 7132
+            },
+            "entityType": "disease",
+            "entityName": "macular degeneration",
+            "id": "UMLS:C0024437"
+        },
+        {
+            "entityId": "7134_7154",
+            "span": {
+                "begin": 7134,
+                "end": 7154
+            },
+            "entityType": "disease",
+            "entityName": "diabetic retinopathy",
+            "id": "UMLS:C0011884"
+        },
+        {
+            "entityId": "7156_7169",
+            "span": {
+                "begin": 7156,
+                "end": 7169
+            },
+            "entityType": "disease",
+            "entityName": "macular edema",
+            "id": "UMLS:C0271051"
+        },
+        {
+            "entityId": "7171_7193",
+            "span": {
+                "begin": 7171,
+                "end": 7193
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "7195_7221",
+            "span": {
+                "begin": 7195,
+                "end": 7221
+            },
+            "entityType": "disease",
+            "entityName": "retinal neovascularization",
+            "id": "UMLS:C0035320"
+        },
+        {
+            "entityId": "7227_7255",
+            "span": {
+                "begin": 7227,
+                "end": 7255
+            },
+            "entityType": "disease",
+            "entityName": "choroidal neovascularization",
+            "id": "UMLS:C0600518"
+        },
+        {
+            "entityId": "9985_9989",
+            "span": {
+                "begin": 9985,
+                "end": 9989
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "10032_10062",
+            "span": {
+                "begin": 10032,
+                "end": 10062
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "10118_10126",
+            "span": {
+                "begin": 10118,
+                "end": 10126
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10183_10187",
+            "span": {
+                "begin": 10183,
+                "end": 10187
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "10453_10461",
+            "span": {
+                "begin": 10453,
+                "end": 10461
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10467_10494",
+            "span": {
+                "begin": 10467,
+                "end": 10494
+            },
+            "entityType": "disease",
+            "entityName": "ocular neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "10504_10536",
+            "span": {
+                "begin": 10504,
+                "end": 10536
+            },
+            "entityType": "disease",
+            "entityName": "age-related macular degeneration",
+            "id": "UMLS:C0242383"
+        },
+        {
+            "entityId": "10538_10558",
+            "span": {
+                "begin": 10538,
+                "end": 10558
+            },
+            "entityType": "disease",
+            "entityName": "diabetic retinopathy",
+            "id": "UMLS:C0011884"
+        },
+        {
+            "entityId": "10564_10586",
+            "span": {
+                "begin": 10564,
+                "end": 10586
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "10627_10631",
+            "span": {
+                "begin": 10627,
+                "end": 10631
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "10786_10816",
+            "span": {
+                "begin": 10786,
+                "end": 10816
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "10818_10839",
+            "span": {
+                "begin": 10818,
+                "end": 10839
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "10841_10866",
+            "span": {
+                "begin": 10841,
+                "end": 10866
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12084_12091",
+            "span": {
+                "begin": 12084,
+                "end": 12091
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12141_12171",
+            "span": {
+                "begin": 12141,
+                "end": 12171
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "12173_12194",
+            "span": {
+                "begin": 12173,
+                "end": 12194
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "12196_12221",
+            "span": {
+                "begin": 12196,
+                "end": 12221
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12275_12305",
+            "span": {
+                "begin": 12275,
+                "end": 12305
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "12307_12342",
+            "span": {
+                "begin": 12307,
+                "end": 12342
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12344_12375",
+            "span": {
+                "begin": 12344,
+                "end": 12375
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "12397_12427",
+            "span": {
+                "begin": 12397,
+                "end": 12427
+            },
+            "entityType": "disease",
+            "entityName": "Arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "12446_12467",
+            "span": {
+                "begin": 12446,
+                "end": 12467
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "12469_12484",
+            "span": {
+                "begin": 12469,
+                "end": 12484
+            },
+            "entityType": "disease",
+            "entityName": "nonfatal stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12638_12645",
+            "span": {
+                "begin": 12638,
+                "end": 12645
+            },
+            "entityType": "disease",
+            "entityName": "strokes",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12647_12673",
+            "span": {
+                "begin": 12647,
+                "end": 12673
+            },
+            "entityType": "disease",
+            "entityName": "transient ischemic attacks",
+            "id": "UMLS:C0007787"
+        },
+        {
+            "entityId": "12723_12748",
+            "span": {
+                "begin": 12723,
+                "end": 12748
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "13731_13739",
+            "span": {
+                "begin": 13731,
+                "end": 13739
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14013_14043",
+            "span": {
+                "begin": 14013,
+                "end": 14043
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "14045_14080",
+            "span": {
+                "begin": 14045,
+                "end": 14080
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "14082_14113",
+            "span": {
+                "begin": 14082,
+                "end": 14113
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "14912_14942",
+            "span": {
+                "begin": 14912,
+                "end": 14942
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "15734_15742",
+            "span": {
+                "begin": 15734,
+                "end": 15742
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15930_15960",
+            "span": {
+                "begin": 15930,
+                "end": 15960
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "16153_16161",
+            "span": {
+                "begin": 16153,
+                "end": 16161
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16175_16185",
+            "span": {
+                "begin": 16175,
+                "end": 16185
+            },
+            "entityType": "drug",
+            "entityName": "pegaptanib",
+            "id": "UMLS:C1531015"
+        },
+        {
+            "entityId": "16208_16216",
+            "span": {
+                "begin": 16208,
+                "end": 16216
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16230_16243",
+            "span": {
+                "begin": 16230,
+                "end": 16243
+            },
+            "entityType": "drug",
+            "entityName": "triamcinolone",
+            "id": "UMLS:C0040864"
+        },
+        {
+            "entityId": "16336_16344",
+            "span": {
+                "begin": 16336,
+                "end": 16344
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16440_16448",
+            "span": {
+                "begin": 16440,
+                "end": 16448
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16517_16561",
+            "span": {
+                "begin": 16517,
+                "end": 16561
+            },
+            "entityType": "disease",
+            "entityName": "neovascular age-related macular degeneration",
+            "id": "UMLS:C0271084"
+        },
+        {
+            "entityId": "16577_16599",
+            "span": {
+                "begin": 16577,
+                "end": 16599
+            },
+            "entityType": "disease",
+            "entityName": "diabetic macular edema",
+            "id": "UMLS:C0730285"
+        },
+        {
+            "entityId": "16623_16653",
+            "span": {
+                "begin": 16623,
+                "end": 16653
+            },
+            "entityType": "disease",
+            "entityName": "central retinal vein occlusion",
+            "id": "UMLS:C0154841"
+        },
+        {
+            "entityId": "16658_16687",
+            "span": {
+                "begin": 16658,
+                "end": 16687
+            },
+            "entityType": "disease",
+            "entityName": "branch retinal vein occlusion",
+            "id": "UMLS:C0339505"
+        },
+        {
+            "entityId": "16745_16775",
+            "span": {
+                "begin": 16745,
+                "end": 16775
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "16805_16814",
+            "span": {
+                "begin": 16805,
+                "end": 16814
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "16943_16973",
+            "span": {
+                "begin": 16943,
+                "end": 16973
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "16982_16990",
+            "span": {
+                "begin": 16982,
+                "end": 16990
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17011_17020",
+            "span": {
+                "begin": 17011,
+                "end": 17020
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "17050_17058",
+            "span": {
+                "begin": 17050,
+                "end": 17058
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17151_17160",
+            "span": {
+                "begin": 17151,
+                "end": 17160
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "17205_17235",
+            "span": {
+                "begin": 17205,
+                "end": 17235
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "17415_17424",
+            "span": {
+                "begin": 17415,
+                "end": 17424
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "17449_17479",
+            "span": {
+                "begin": 17449,
+                "end": 17479
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "17585_17615",
+            "span": {
+                "begin": 17585,
+                "end": 17615
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "17790_17815",
+            "span": {
+                "begin": 17790,
+                "end": 17815
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "17914_17922",
+            "span": {
+                "begin": 17914,
+                "end": 17922
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17942_17950",
+            "span": {
+                "begin": 17942,
+                "end": 17950
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17977_17986",
+            "span": {
+                "begin": 17977,
+                "end": 17986
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "17999_18024",
+            "span": {
+                "begin": 17999,
+                "end": 18024
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "18058_18066",
+            "span": {
+                "begin": 18058,
+                "end": 18066
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18159_18168",
+            "span": {
+                "begin": 18159,
+                "end": 18168
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "18205_18230",
+            "span": {
+                "begin": 18205,
+                "end": 18230
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "18432_18441",
+            "span": {
+                "begin": 18432,
+                "end": 18441
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "18478_18503",
+            "span": {
+                "begin": 18478,
+                "end": 18503
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "18542_18551",
+            "span": {
+                "begin": 18542,
+                "end": 18551
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "18586_18607",
+            "span": {
+                "begin": 18586,
+                "end": 18607
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "18630_18638",
+            "span": {
+                "begin": 18630,
+                "end": 18638
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18666_18688",
+            "span": {
+                "begin": 18666,
+                "end": 18688
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "18719_18727",
+            "span": {
+                "begin": 18719,
+                "end": 18727
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18751_18760",
+            "span": {
+                "begin": 18751,
+                "end": 18760
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "18784_18792",
+            "span": {
+                "begin": 18784,
+                "end": 18792
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18856_18865",
+            "span": {
+                "begin": 18856,
+                "end": 18865
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "18893_18915",
+            "span": {
+                "begin": 18893,
+                "end": 18915
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "19062_19071",
+            "span": {
+                "begin": 19062,
+                "end": 19071
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "19113_19135",
+            "span": {
+                "begin": 19113,
+                "end": 19135
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "19140_19184",
+            "span": {
+                "begin": 19140,
+                "end": 19184
+            },
+            "entityType": "disease",
+            "entityName": "neovascular age-related macular degeneration",
+            "id": "UMLS:C0271084"
+        },
+        {
+            "entityId": "19186_19208",
+            "span": {
+                "begin": 19186,
+                "end": 19208
+            },
+            "entityType": "disease",
+            "entityName": "diabetic macular edema",
+            "id": "UMLS:C0730285"
+        },
+        {
+            "entityId": "19214_19236",
+            "span": {
+                "begin": 19214,
+                "end": 19236
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "19330_19339",
+            "span": {
+                "begin": 19330,
+                "end": 19339
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "19383_19391",
+            "span": {
+                "begin": 19383,
+                "end": 19391
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19433_19442",
+            "span": {
+                "begin": 19433,
+                "end": 19442
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "19465_19473",
+            "span": {
+                "begin": 19465,
+                "end": 19473
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19598_19607",
+            "span": {
+                "begin": 19598,
+                "end": 19607
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "19865_19874",
+            "span": {
+                "begin": 19865,
+                "end": 19874
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "20122_20126",
+            "span": {
+                "begin": 20122,
+                "end": 20126
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "20171_20201",
+            "span": {
+                "begin": 20171,
+                "end": 20201
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "20203_20238",
+            "span": {
+                "begin": 20203,
+                "end": 20238
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "20240_20271",
+            "span": {
+                "begin": 20240,
+                "end": 20271
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "20353_20364",
+            "span": {
+                "begin": 20353,
+                "end": 20364
+            },
+            "entityType": "gene",
+            "entityName": "bevacizumab",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "20423_20464",
+            "span": {
+                "begin": 20423,
+                "end": 20464
+            },
+            "entityType": "disease",
+            "entityName": "arterial and venous thromboembolic events",
+            "id": "UMLS:C1997614"
+        },
+        {
+            "entityId": "20540_20572",
+            "span": {
+                "begin": 20540,
+                "end": 20572
+            },
+            "entityType": "disease",
+            "entityName": "age-related macular degeneration",
+            "id": "UMLS:C0242383"
+        },
+        {
+            "entityId": "20574_20582",
+            "span": {
+                "begin": 20574,
+                "end": 20582
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "20588_20610",
+            "span": {
+                "begin": 20588,
+                "end": 20610
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "20681_20690",
+            "span": {
+                "begin": 20681,
+                "end": 20690
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "20737_20762",
+            "span": {
+                "begin": 20737,
+                "end": 20762
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "20896_20900",
+            "span": {
+                "begin": 20896,
+                "end": 20900
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "20959_20980",
+            "span": {
+                "begin": 20959,
+                "end": 20980
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "20985_20991",
+            "span": {
+                "begin": 20985,
+                "end": 20991
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "21046_21071",
+            "span": {
+                "begin": 21046,
+                "end": 21071
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "21328_21358",
+            "span": {
+                "begin": 21328,
+                "end": 21358
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "21427_21436",
+            "span": {
+                "begin": 21427,
+                "end": 21436
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "21523_21553",
+            "span": {
+                "begin": 21523,
+                "end": 21553
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "21596_21605",
+            "span": {
+                "begin": 21596,
+                "end": 21605
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "21665_21696",
+            "span": {
+                "begin": 21665,
+                "end": 21696
+            },
+            "entityType": "disease",
+            "entityName": "non-fatal myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "21779_21783",
+            "span": {
+                "begin": 21779,
+                "end": 21783
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "21842_21862",
+            "span": {
+                "begin": 21842,
+                "end": 21862
+            },
+            "entityType": "disease",
+            "entityName": "neovascular diseases",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "21872_21904",
+            "span": {
+                "begin": 21872,
+                "end": 21904
+            },
+            "entityType": "disease",
+            "entityName": "age-related macular degeneration",
+            "id": "UMLS:C0242383"
+        },
+        {
+            "entityId": "21906_21926",
+            "span": {
+                "begin": 21906,
+                "end": 21926
+            },
+            "entityType": "disease",
+            "entityName": "diabetic retinopathy",
+            "id": "UMLS:C0011884"
+        },
+        {
+            "entityId": "21932_21954",
+            "span": {
+                "begin": 21932,
+                "end": 21954
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "22048_22078",
+            "span": {
+                "begin": 22048,
+                "end": 22078
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "22089_22093",
+            "span": {
+                "begin": 22089,
+                "end": 22093
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "22138_22142",
+            "span": {
+                "begin": 22138,
+                "end": 22142
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "22179_22209",
+            "span": {
+                "begin": 22179,
+                "end": 22209
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "22220_22228",
+            "span": {
+                "begin": 22220,
+                "end": 22228
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22234_22256",
+            "span": {
+                "begin": 22234,
+                "end": 22256
+            },
+            "entityType": "disease",
+            "entityName": "diabetic macular edema",
+            "id": "UMLS:C0730285"
+        },
+        {
+            "entityId": "22349_22357",
+            "span": {
+                "begin": 22349,
+                "end": 22357
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22363_22407",
+            "span": {
+                "begin": 22363,
+                "end": 22407
+            },
+            "entityType": "disease",
+            "entityName": "neovascular age-related macular degeneration",
+            "id": "UMLS:C0271084"
+        },
+        {
+            "entityId": "22412_22434",
+            "span": {
+                "begin": 22412,
+                "end": 22434
+            },
+            "entityType": "disease",
+            "entityName": "retinal vein occlusion",
+            "id": "UMLS:C0035328"
+        },
+        {
+            "entityId": "22439_22447",
+            "span": {
+                "begin": 22439,
+                "end": 22447
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22453_22470",
+            "span": {
+                "begin": 22453,
+                "end": 22470
+            },
+            "entityType": "disease",
+            "entityName": "diabetes mellitus",
+            "id": "UMLS:C0011849"
+        },
+        {
+            "entityId": "22482_22486",
+            "span": {
+                "begin": 22482,
+                "end": 22486
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "22532_22543",
+            "span": {
+                "begin": 22532,
+                "end": 22543
+            },
+            "entityType": "disease",
+            "entityName": "retinopathy",
+            "id": "UMLS:C0035309"
+        },
+        {
+            "entityId": "22548_22559",
+            "span": {
+                "begin": 22548,
+                "end": 22559
+            },
+            "entityType": "disease",
+            "entityName": "nephropathy",
+            "id": "UMLS:C0022658"
+        },
+        {
+            "entityId": "22647_22651",
+            "span": {
+                "begin": 22647,
+                "end": 22651
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "22848_22852",
+            "span": {
+                "begin": 22848,
+                "end": 22852
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "22890_22899",
+            "span": {
+                "begin": 22890,
+                "end": 22899
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "22931_22939",
+            "span": {
+                "begin": 22931,
+                "end": 22939
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23025_23034",
+            "span": {
+                "begin": 23025,
+                "end": 23034
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "23058_23083",
+            "span": {
+                "begin": 23058,
+                "end": 23083
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23327_23352",
+            "span": {
+                "begin": 23327,
+                "end": 23352
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23369_23378",
+            "span": {
+                "begin": 23369,
+                "end": 23378
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "23499_23503",
+            "span": {
+                "begin": 23499,
+                "end": 23503
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "23512_23518",
+            "span": {
+                "begin": 23512,
+                "end": 23518
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23556_23581",
+            "span": {
+                "begin": 23556,
+                "end": 23581
+            },
+            "entityType": "disease",
+            "entityName": "cerebrovascular accidents",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23603_23612",
+            "span": {
+                "begin": 23603,
+                "end": 23612
+            },
+            "entityType": "gene",
+            "entityName": "anti-VEGF",
+            "id": "UMLS:C0796392"
+        },
+        {
+            "entityId": "23870_23900",
+            "span": {
+                "begin": 23870,
+                "end": 23900
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "24436_24466",
+            "span": {
+                "begin": 24436,
+                "end": 24466
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        },
+        {
+            "entityId": "24998_25005",
+            "span": {
+                "begin": 24998,
+                "end": 25005
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25247_25251",
+            "span": {
+                "begin": 25247,
+                "end": 25251
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "25303_25333",
+            "span": {
+                "begin": 25303,
+                "end": 25333
+            },
+            "entityType": "disease",
+            "entityName": "arterial thromboembolic events",
+            "id": "UMLS:C3544094"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1815_1835",
+            "subjectText": "anti-VEGF antibodies",
+            "rel_name": "associate",
+            "objectId": "1880_1910",
+            "objectText": "arterial thromboembolic events"
+        },
+        {
+            "subjectID": "423_447",
+            "subjectText": "arterial thromboembolism",
+            "rel_name": "associate",
+            "objectId": "415_419",
+            "objectText": "VEGF"
+        }
+    ]
+}

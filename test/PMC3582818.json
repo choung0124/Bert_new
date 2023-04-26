@@ -1,0 +1,2763 @@
+{
+    "sourcid": "PMC3582818",
+    "publisher": "Springer International Publishing",
+    "journal": "SpringerPlus",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3582818/",
+    "text": "Polymorphisms in migraine-associated gene, atp1a2, and ischemic stroke risk in a biracial population: the genetics of early onset stroke study In a recent meta-analysis migraine was associated with a two-fold increase in stroke risk. While the mechanism driving this association is unknown, one intriguing hypothesis is that migraineurs are genetically predisposed to developing ischemic stroke. Mutations in the ATP1A2 gene are implicated in familial hemiplegic migraine type II and increase the severity of ischemic brain injury in animal models. To further explore these observations, we assessed the association between ATP1A2 polymorphisms, migraine, and the risk of ischemic stroke in participants of the Genetics of Early-Onset Stroke Study, a population-based case-control study of ischemic stroke among men and women aged 15-49. Using responses to a headache symptoms questionnaire, subjects were classified as having no migraine, or migraine with or without visual aura. Evaluating a total of 134 ATP1A2 polymorphisms genotyped using a combination of Illumina platforms (Cardiovascular Gene-centric 50 K SNP Array and HumanOmni1-Quad_v1-0_B Bead Chip), only one polymorphism (rs2070704) demonstrated a nominally significant association with stroke in an age-, gender-, ethnicity-adjusted model (OR = 0.83, 95% CI = 0.71-0.98, p = 0.025) and in a vascular risk factor model adjusting for age, gender, ethnicity, hypertension, diabetes, smoking, and myocardial infarction (OR = 0.74, 95% CI = 0.63-0.89, p = 0.001). Ethnicity-stratified analyses demonstrated a significant association for rs2070704 among African-Americans (OR = 0.68, 95% CI = 0.53-0.90, p = 0.005) but not Caucasians (OR = 0.82, 95% CI = 0.64-1.04, p = 0.107). These associations were unchanged when migraine subtypes were included as co-variates. We did not observe an association between ATP1A2 polymorphisms and migraine. While our results do not demonstrate a strong relationship between ATP1A2 polymorphisms and migraine associated stroke risk, the results are hypothesis generating and indicate that an association between ATP1A2 polymorphisms and stroke risk may exist. Additional studies are required.                                                     Electronic supplementary material The online version of this article (doi:10.1186/2193-1801-2-46) contains supplementary material, which is available to authorized users. Background Although the evidence supporting an etiologic relationship between migraine and ischemic stroke risk is substantial (Cole & Kittner; Sacco et al.; Sacco et al.; Sacco et al.), the precise mechanism(s) driving this relationship remains uncertain. Stroke, which typically affects older individuals, can be targeted for prevention by optimizing well-established standard vascular risk factors such as hypertension, diabetes, and hypercholesterolemia, among others. However, there exist young stroke populations (e.g. < 50 years of age) who have a paucity of established stroke risk factors. One explanation for stroke in this young population is the existence of non-standard risk factors, including migraine headache (Cole & Kittner). Migraine is a multi-factorial neurological condition characterized by debilitating, recurrent headaches which often affect women and men in younger age groups. Migraine pathogenesis is believed to involve both genetic and environmental factors which ultimately lead to activation of the trigeminovascular system, inflammation, and changes in cerebral blood flow (D'Andrea & Leon). Notably, there is growing evidence that migraine is an independent risk factor for ischemic stroke (Etminan et al.; Lampl & Marecek; MacClellan et al.; Moskowitz & Kurth; Pezzini; Spector et al.; Tzourio et al.; Carolei et al.). In recent meta-analyses; migraine, particularly those associated with aura, significantly increased the risk of stroke by two-fold (Etminan et al.; Spector et al.). Furthermore, this association was most profound in women, persons aged 45 and younger, and those taking oral contraceptives (Etminan et al.). While the mechanism(s) driving this association is (are) unknown, one potential hypothesis is that migraineurs are more susceptible to developing ischemic stroke due to a shared genetic predisposition to both conditions. Consistent with this hypothesis, studies evaluating genetic polymorphisms in the vasoconstrictor endothelin-1 gene (EDN1) were associated with increased risk of stroke risk as well as migraine (Etminan et al.; MacClellan et al.; MacClellan et al.; Tikka-Kleemola et al.). While a number of additional candidate genes have been postulated to increase stroke risk via such shared mechanisms, at this time the definitive genetic links between migraine and stroke remain elusive.   Familial hemiplegic migraine (FHM) is a rare inherited form of migraine that presents with asymmetric neurological deficits (Tavraz et al.). Several gene mutations have been implicated in the pathogenesis of FHM including genetic mutations in ATP1A2, CACNA1A and SCN1A. These genes encode for a neuronal and glial Na+/K+ ATPase; a voltage gated Ca2+, and; a Na+ channel respectively. Interestingly, ATP1A2 gene mutations result in degeneration of the amygdala and pyriform cortex (Ikeda et al.). Furthermore, failure of the Na+/K+ ATPase is involved in ischemic brain injury and glutamatergic excitotoxicity (Stys; Wang & Qin). Such observations suggest that the ATP1A2 gene may influence stroke risk and that some migraineurs may be particularly predisposed. To test this hypothesis we assessed the association between ATP1A2 single nucleotide polymorphisms (SNPs), migraine, and the risk of ischemic stroke in a previously collected biracial case-control sample of young-onset ischemic stroke.   Results Demographic and clinical characteristics of the population Demographic and clinical characteristics of cases/controls   Cases (n = 830)\tControls (n = 907)\tP\t \tAge*\t43 (39-47)\t41 (36-44)\t<0.001\t \tFemale\t354 (43%)\t407 (45%)\t0.421\t \tBlack\t353 (43%)\t354 (39%)\t0.207\t \tHTN\t371 (45%)\t181 (20%)\t<0.001\t \tMI\t62 (7.5%)\t14 (1.5%)\t<0.001\t \tDM\t147 (18%)\t55 (6%)\t<0.001\t \tSmoking\t348 (42%)\t257 (28%)\t<0.001\t \tOC\t57 (16%)\t34 (8%)\t<0.001\t \tMigraine\t \t MWA\t226 (27%)\t193 (21%)\t0.005\t \t MWoA\t56 (7%)\t73 (8%)\t0.346                     HTN, Hypertension MI, Myocardial Infarction DM, Diabetes Mellitus Type II OC, Oral Contraceptive use. * Age is expressed as median (25th-75th percentile). Characteristics of the 1737 GEOS study participants (830 cases - 43% African-American and 907 controls - 39% African-American) are summarized in Table 1. The population included men (56%) and women (44%) aged 15-49 with a median age of 43 in the cases and 41 in the controls. Cases were more likely than controls to report having prevalent hypertension, diabetes, and myocardial infarction and to being current smokers. Among women with stroke, cases reported a greater prevalence of oral contraceptive use. Additionally, cases reported more Migraine with Aura (27%) as compared to controls (21%).   ATP1A2 SNPs association studies with stroke A. TheATP1A2gene is located on chromosome 1 and contains 23 exons. B. Denotes the location and rs numbers of the thirteen ATP1A2 SNPs genotyped as per the fixed content of the Illumina Cardiovascular Gene-centric 50 K SNP Array (ITMAT-Broad-CARe array) (Keating et al.). Association analyses between thirteen ATP1A2 SNPs (see Figure 1) on ITMAT-Broad-CARe array and stroke were initially performed. The minor allele frequencies compared between cases and controls as stratified by ethnicity are listed in Table 2. ATP1A2\nallele frequency of cases and controls stratified by race   Minor allele frequency\t \t\t\tCases\tControls\t \tATP1A2 SNP*\tPosition\tBlack\tWhite\tBlack\tWhite\t \trs11800782_A/G\t160081369\t0.014\t0.037\t0.004\t0.053\t \trs4656879_C/T\t160083012\t0.298\t0.140\t0.322\t0.149\t \trs11265328_A/G\t160083544\t0.025\t0.099\t0.025\t0.106\t \trs3761685_C/T\t160084643\t0.024\t0.128\t0.027\t0.125\t \trs1016732_A/G\t160086968\t0.113\t0.173\t0.093\t0.179\t \trs2854248_A/G\t160093927\t0.459\t0.359\t0.477\t0.359\t \trs1023421_A/G\t160094644\t0.492\t0.382\t0.448\t0.377\t \trs9660705_C/T\t160096810\t0.065\t0.000\t0.063\t0.000\t \trs6686067 _C/T\t160102060\t0.075\t0.138\t0.065\t0.153\t \trs10797059_A/G\t160102256\t0.234\t0.138\t0.264\t0.153\t \trs10494336_A/G\t160107588\t0.169\t0.098\t0.164\t0.114\t \trs12410866 _C/T\t160108803\t0.025\t0.115\t0.023\t0.130\t \trs2070704_A/G\t160112138\t0.228\t0.195\t0.287\t0.205      * minor allele bolded. Effect of SNP\nrs2070704\non Ischemic Stroke Risk   Minimally adjusted model \tFull model \t \tSubjects\tCases/controls\tMAF (G allele) cases/controls\tOR (95%CI)\tP\tOR (95%CI)\tP\t \tEntire Population\t829/899*\t0.203/0.238\t0.83 (0.7-0.9)\t0.025\t0.74(0.6-0.9)\t0.001\t \tStratified\t \tBlacks\t355/351\t0.225/0.288\t0.71 (0.5-0.9)\t0.007\t0.68 (0.5-0.9)\t0.005\t \t Black Female\t157/160\t0.229/0.259\t0.88 (0.6-1.3)\t0.490\t0.83 (0.6-1.2)\t0.311\t \t Black Male\t198/191\t0.215/0.312\t0.58 (0.4-0.8)\t0.002\t0.55 (0.4-0.8)\t0.002\t \tWhites\t431/500\t0.188/0.205\t0.93 (0.7-1.2)\t0.499\t0.82 (0.6-1.0)\t0.107\t \t White Female\t165/215\t0.210/0.209\t1.03 (0.7-1.5)\t0.867\t0.88 (0.6-1.3)\t0.530\t \t White Male\t266/285\t0.174/0.202\t0.85 (0.6-1.2)\t0.291\t0.80 (0.6-1.0)\t0.093                  : Age, Gender, Race.    : Age, Gender, HTN, DM, MI, Smoking, Oral Contraceptive use, Race.    * Of the 830 cases and 907 controls, 3 cases and 6 controls failed genotyping at rs2070704. Of the thirteen SNPs examined, only rs2070704 was associated with stroke. As demonstrated in Table 3, the G allele confers protection against stroke in the minimally adjusted model (OR 0.83, 95% CI 0.7-0.9, p = 0.025) with a stronger protective effect in the risk factor fully adjusted model (OR 0.74, 95% CI 0.6-0.9, p < 0.001). Stratified analyses by ethnicity (including age, gender, hypertension, diabetes, myocardial infarction, smoking, and oral contraceptive use as covariates) demonstrated an association in the African-American population (OR 0.68, 95% CI 0.5-0.9, p = 0.005), but not the Caucasian population (OR 0.82, 95% CI 0.6-1.0, p = 0.107). Gender stratified analyses demonstrated the association to be strongest among African-American males (OR 0.55, 95% CI 0.4-0.8, p = 0.002). Correcting for multiple comparisons including the 13 SNPs and assuming a p-value = 0.004 (0.05/13) as significant; our results for the entire population (p < 0.001) remain nominally significant, however our results for the African-American population (p = 0.005) do not.                                 Implementing the same regression models we then evaluated the ATP1A2 GWAS data on these same study subjects. As described in the Methods section, this larger data set included 130 SNPs in the ATP1A2 gene, 9 of which overlapped with the ITMAT-Broad-CARe array data. As consistent with our ITMAT-Broad-CARe array data, rs2070704 demonstrated an association. This was the only SNP of the 130 SNPs evaluated that demonstrated an association. Ethnicity stratified analyses evaluating ischemic stroke risk associated with rs2070704 likewise demonstrated a significant association among African-Americans (N = 733, MAF = 0.29, OR = 0.66, p = 0.0009) but not among European-Americans (N = 946, MAF = 0.20, OR = 0.91, p = 0.40). Correcting for multiple comparisons including all 134 SNPs evaluated, and assuming a p-value = 0.0004 (0.05/134) as significant, none of our results remain significant.                                     Analyses of rs2070704 by stroke subtype in the combined population only demonstrated an association among strokes of undetermined etiology (OR 0.76, p = 0.009). Ethnicity stratified analyses demonstrated no subtype specific associations among Caucasians. Among African-Americans the protective effect of rs2070704 was greatest in the large-artery atherosclerotic subtype (OR = 0.18, p = 0.002) as compared to cardio-embolic (OR = 0.61, p = 0.029), small vessel (OR = 0.71, p = 0.130) and strokes of undetermined etiology (OR = 0.71, p = 0.030).                                     Migraine-stratified Analyses between rs2070704 SNP and stroke Utilizing the fully adjusted model we added migraine status as a co-variate. The prediction for this analysis was that if migraine mediates the association between the rs2070704 SNP and stroke, adding migraine as a co-variate should eliminate this association. However, when migraine was included in the model, the association between rs2070704 and stroke (OR 0.75, 95% CI 0.6-0.89, p = 0.0009; G-allele case/control: 0.221/0.260) remained essentially unchanged. We then performed a restricted analysis adding either migraine without aura or migraine with aura as a co-variate. Again, there was no change in the association; migraine without aura (OR 0.71, 95% CI 0.6-0.88, p = 0.0012) and migraine with aura (OR 0.76, 95% CI 0.6-0.9, p = 0.0024), indicating that migraine status does not mediate the relationship between this SNP and stroke risk.             Lastly, the association between ATP1A2 SNPs and migraine status was tested using a fully adjusted logistic regression model accounting for the same risk factors. We did not observe an association between any ATP1A2 polymorphisms and migraine as defined by this study. Discussion Our analyses of the ATP1A2 gene demonstrated one polymorphism that was nominally associated with ischemic stroke; however this association did not persist with correction for multiple testing, nor was this association mediated by migraine status. Our study was motivated by the fact that prior studies have shown that the ATP1A2 gene is implicated in rare forms of migraine (familial hemiplegic migraine type II) which has features typical of migraine with aura in addition to features consistent with transient brain ischemia (Hansen et al.; Mourand et al.; Eikermann-Haerter et al.). Image demonstrating potential mechanisms relating how altered Na+/K+ATPase (as coded byATP1A2)function could be related to stroke risk. Decreased Na+/K+ ATPase activity leads to: altered ionic (Na+, K+) gradients resulting in excess intracellular Ca2+ (Danbolt); impaired K+ channel-mediated membrane repolarization (Luo et al.; Matsuda et al.), and; elevated glutamate concentrations at the synaptic cleft (Rose et al.). Elevated homocysteine has been shown to decrease Na+/K+ ATPase function (Machado et al.; Streck et al.). ATP1A2 encodes for the alpha2 subunit of Na+/K+ ATPases (Pietrobon). Figure 2 highlights several potential mechanisms by which dysfunction of Na+/K+ ATPases could modify stroke risk. Glial Na+/K+ ATPases are responsible for generating and maintaining ionic electrochemical gradients across plasma membranes (Danbolt). Data from experimental animal models suggest that Na+/K+ ATPase dysfunction can dissipate both Na+ and K+ gradients increasing the potential for neuronal excitoxicity. Dissipation of the Na+ gradient limits the effectiveness of Na+/Ca2+ transporters resulting in excess accumulation of intracellular Ca2+. Similarly, dissipation of the K+ gradient impairs K+ channel-mediated membrane repolarization (Luo et al.; Matsuda et al.). At excitatory glutamatergic synapses, glutamate re-uptake is coupled to Na+ transport. Therefore, decreases in Na+/K+ ATPase function raise glutamate concentration at the synaptic cleft inducing glutamate-mediated excitotoxicity and cell death (Rose et al.). Interestingly, in animal models of ischemic stroke, decreases in Na+/K+ ATPase function and expression appear to play a significant role in neuro-degeneration during cerebral infarction (Martin et al.; Park & Jung; Sheldon & Robinson). Prior genetic studies demonstrate an association between the MTHFR C677T polymorphism and stroke that appear to be related to increased homocysteine concentration (Casas et al.), which in animal models is linked to decreased Na+/K+ ATPase function (Machado et al.; Streck et al.). As such, these data provide evidence that there may be a common pathway between the protein product of previously identified stroke-related genes and the ATP1A2 gene. These data also allude to a potential combinatorial effect of multiple genes which could play an intricate inter-related role in stroke pathogenesis (Figure 2). The presence of migraine has been shown to significantly increase the risk of ischemic stroke (Cole & Kittner; Etminan et al.; Lampl & Marecek; MacClellan et al.; Hansen et al.; Eikermann-Haerter et al.). This association is thought to be in part related to a common genetic susceptibility; however, there are few studies linking migraine-related genes with stroke risk. One example is endothelin, a potent vasoconstrictor, which has been shown to be increased in migraineurs in both the ictal and interictal periods (Lo et al.). A recent case-control study demonstrated that polymorphisms in the Endothelin 1 gene increase stroke risk (MacClellan et al.), and in animal models of middle cerebral artery occlusion, over-expression of endothelin produced increased brain edema and ischemic brain injury (Lo et al.).   We used the strategy of studying the early-onset form of ischemic stroke to identify genetic variants associated with this complex disease for two reasons. First, the early-onset form is thought to have a reduced cumulative burden of standard risk factors, although they were highly prevalent in our early-onset population as demonstrated in Table 1. Second, genetic components are thought to have a greater contribution to disease risk in this population (MacClellan et al.). While it is possible that genetic variants associated with early-onset stroke may have little relevance to late-onset stroke, it is also possible that studying the early-onset form of diseases may reveal important insights about stroke pathogenesis, potentially implicating genes and pathways relevant to late-onset disease even though the etiologic variants may differ. There are several limitations to our study. The absence of robust associations may be due to the limited sample sizes (as stratified by gender, ethnicity, migraine status, stroke subtype) which provided insufficient power to detect causal variants with small effect sizes (e.g. less than 80% power to detect genetic risk effect less than 1.23). Alternatively, one can argue that the early-onset form of ischemic stroke may be more likely to be caused by rare variants with larger effects (and higher penetrance). Such rare variants are generally not well covered on currently available genotyping platforms and, thus, would be difficult to detect using the common variants as provided by GWAS data. Additionally, in our study population, a greater percentage of subjects had migraine with aura compared to migraine without aura which differs from prior epidemiological studies (D'Andrea et al.). Of note, our headache questionnaire was not validated for migraine, and the migraine criteria implemented for this study were slightly different than those of the International Headache Society (IHS). Both criteria use 5 attacks for migraine without aura and 2 attacks for migraine with aura; accompanied by nausea, vomiting, sensitivity to light and/or sound. The migraine with aura group also reported the presence of photopsia, fortification spectra or scotoma with the headache. However, IHS criteria include a temporal relationship between headache onset and aura, non-visual aura and duration of headache. Despite these differences, but similar to prior studies (MacClellan et al.), there was a greater percentage of migraineurs with aura in cases as compared with controls. Lastly, our study may be subject to recall bias, particularly among the case subjects, who may have responded to the questionnaire including headache symptoms, as far out as 3 years following their stroke.   Conclusions Our data indicate that common variants in the ATP1A2 gene do not play a large role in early-onset ischemic stroke risk or migraine headache. While we did identify one ATP1A2 polymorphism, rs2070704, that may play a role in early-onset stroke pathogenesis, particularly among African-Americans, migraine did not mediate this affect. Additional studies will be required to confirm our findings in early-onset stroke and to explore the relationship between ATP1A2 and older-onset stroke. Methods Study population and design Data from the retrospective case-control Genetics of Early-Onset Stroke (GEOS) Study was used to determine if SNPs in the ATP1A2 gene confer susceptibility to stroke and if this susceptibility is mediated by migraine. Subjects included 830 cases of first ever ischemic stroke and 907 age, ethnicity and gender-matched controls that were free of ischemic stroke. Study recruitment and data collection occurred in three waves with the initial recruitment for females occurring between 1992 and 1996, and again between 2001 and 2003. Male subjects were recruited between 2003 and 2007. In all three waves, cases were hospitalized with a first cerebral infarction identified by discharge surveillance from one of 59 hospitals in the greater Baltimore-Washington area and direct referral from regional neurologists. The methods for discharge surveillance, chart abstraction, case adjudication, and assignment of probable and possible underlying causes have been previously described elsewhere (MacClellan et al.; MacClellan et al.; MacClellan et al.). Control subjects were subjects with no history of stroke identified by random-digit dialing and were matched to cases by age (within ten years) and geographic region of residence. The first wave of female recruitment included cases ages 15-44 years recruited within one year of stroke and was designed with a 1:2 case to control ratio. The second wave of female recruitment and the sole wave of male recruitment included cases ages 15-49 recruited within three years of stroke and designed with a 1:1 case to control ratio. For all study periods, additional cases were recruited after completion of control recruitment.       All study subjects signed Institutional Review Board approved written informed consent forms. Subjects were excluded from the study if they had genetic or other known causes for their stroke that would impair detection of new genetic associations. These conditions included: sickle cell disease, thalassemia disease, central nervous system vasculitis by angiogram and clinical criteria, endocarditis, neurosyphillis, mechanical heart valve, post-radiation arteriopathy, and cocaine use within 48 hours of stroke. Data on historical risk factors among both cases and controls was collected by standardized interview. Using responses to a headache symptoms questionnaire, all subjects were classified as having no migraine, or migraine with or without visual aura. Subjects were classified as having migraine with visual aura if they: (1) reported ever seeing spots, lines, or flashing lights around the time of their probable migraine; or (2) if they reported ever experiencing loss of vision and also reported a frequency of probable migraine with visual aura of at least twice per year. Subjects were identified as having probable migraine without visual aura if they reported no history of visual aura and reported nausea, vomiting, or sensitivity to light during a probable migraine and probable migraine frequency of at least 5 times per year. Traditional stroke risk factors and other study variables, including age, ethnicity, history of hypertension, diabetes, myocardial infarction (MI), and current smoking status (defined as use within one month prior to event for cases and a comparable reference time for controls), were also collected during a standardized interview. The abstracted hospital records of cases were reviewed and adjudicated for ischemic stroke subtype by a pair of vascular neurologists as previously described (MacClellan et al.) with disagreements resolved by a third neurologist. The ischemic stroke subtype classification system retains information on all probable and possible causes, and is reducible to the more widely used TOAST system (Adams et al.) that assigns each case to a single category. As previously described, genomic DNA was isolated from a variety of sample types, including cell line, whole blood, mouth wash, and buccal swab among all case and controls subjects (Hamedani et al.). Single nucleotide polymorphism selection As demonstrated in Figure 1, the ATP1A2 gene is located on chromosome 1q21-23, is 27.8 kb in size, and contains 23 exons (Genomic coordinates (GRCh37): 1:160,085,519 - 160,113,380). Our initial analyses included the 13 ATP1A2 SNPs distributed throughout the gene (denoted in Figure 1) that were available from the fixed content on the Illumina Cardiovascular Gene-centric 50 K SNP Array (ITMAT-Broad-CARe array).(Keating et al.) This fixed content array includes 49,094 SNPs from ~2,000 loci and had been previously implemented on our 830 case and 907 control subjects. Genotyping was performed at the Institute for Translational Medicine and Therapeutics (ITMAT), University of Pennsylvania. Shortly after completing our analyses, additional ATP1A2 genotype data became available on these same study subjects as provided by a genome-wide scan (Cheng et al.) implementing the Illumina HumanOmni1-Quad_v1-0_B Bead Chip. These data provided more extensive coverage of ATP1A2, including 130 SNPs, of which 9 SNPs overlapped between the two fixed-content Illumina arrays. Comparing genotype calls between the two arrays demonstrated >99% concordance among the 9 overlapping SNPs. Inclusive of both platforms, a total of 134 different SNPs were evaluated; SNPs were required to have a minor allele frequency greater than 5% in at least one of the two ethnicities (i.e. Caucasians and/or African-Americans). Statistical analysis Demographic and risk factor data between cases and controls were compared with either a t-test or Chi2 test using Sigma Plot v11.0 software. For primary analyses, the entire population and then an ethnicity-stratified, minimally adjusted additive logistic regression model was used taking into account age and gender to test the association between each SNP and stroke (CC = SNP + age + gender where CC is case/control status). Each SNP was then also evaluated utilizing a fully adjusted model that included vascular risk factors; hypertension, prior myocardial infarction, diabetes, oral contraceptive use, and smoking. Analyses stratified by stroke subtype (small vessel - lacunar; large vessel - atherosclerotic; cardioembolic; stroke of unknown etiology - cryptogenic) were performed including age, ethnicity, and gender as covariates. SNPs demonstrating an association with stroke were then further analyzed incorporating a variable for the presence or absence of migraine, as well as the presence or absence of migraine with aura. A fully adjusted model was also used to test the association between ATP1A2 polymorphisms and migraine irrespective of the presence or absence of stroke. All logistic regression analyses were performed using SAS v9.2 software. Odds Ratios (OR) are listed for minor alleles and a p < 0.05 was considered nominally significant. Multiple comparisons were assessed using a Bonferroni correction among the initial 13 SNPs and then among the larger panel of 134 SNPs. Power calculations (using CaTS Power Calculator @ http://www.sph.umich.edu/csg/abecasis/cats/) indicated that our sample size of 830 cases and 907 controls provided 80% power to detect ORs ranging 1.23-1.49 for allele frequencies ranging 5-50% at an alpha = 0.05.                     Authors' original submitted files for images   Below are the links to the authors' original submitted files for images.   Competing interests The authors declare that they have no competing interests. Authors' contributions   All authors certify that they participated in the conceptual design of this work, the analysis of the data, and the writing of the manuscript to take public responsibility for it. All authors reviewed the final version of the manuscript and approve it for publication. AMH, ND, and JWC: participated in the writing of the initial draft. JWC, MAW, BJS and SJK participated in data collection. YCC, JRO, OCS, PFM, OCS and BDM participated in the genotyping. AMH, ND, YCC, KAR, BDM, SJK, and JWC participated in the data analysis. All authors provided critiques of the final manuscript. References Classification of subtype of acute ischemic stroke. Definitions for use in a multicenter clinical trial. TOAST. Trial of Org 10172 in Acute Stroke Treatment History of migraine and risk of cerebral ischaemia in young adults. The Italian national research council study group on stroke in the young Homocysteine and stroke: evidence on a causal link from mendelian randomisation Genome-wide association analysis of ischemic stroke in young adults Meta-analysis of results from case control and cohort studies finds that migraine is associated with approximately twice the risk of ischaemic stroke Pathogenesis of migraine: from neurotransmitters to neuromodulators and beyond Migraine with aura: conventional and non-conventional treatments Glutamate uptake Migraine mutations increase stroke vulnerability by facilitating ischemic depolarizations Risk of ischaemic stroke in people with migraine: systematic review and meta-analysis of observational studies Factor V Leiden and Ischemic Stroke Risk: The Genetics of Early Onset Stroke (GEOS) Study Hemiplegic migraine aura begins with cerebral hypoperfusion: imaging in the acute phase Degeneration of the amygdala/piriform cortex and enhanced fear/anxiety behaviors in sodium pump alpha2 subunit (Atp1a2)-deficient mice Concept, design and implementation of a cardiovascular gene-centric 50 k SNP array for large-scale genomic association studies Migraine and stroke-why do we talk about it?   Endothelin-1 overexpression leads to further water accumulation and brain edema after middle cerebral artery occlusion via aquaporin 4 expression in astrocytic end-feet Susceptibilities to and mechanisms of excitotoxic cell death of adult mouse inner retinal neurons in dissociated culture Familial aggregation of ischemic stroke in young women: the Stroke Prevention in Young Women Study Probable migraine with visual aura and risk of ischemic stroke: the stroke prevention in young women study Relation of candidate genes that encode for endothelial function to migraine and stroke: the stroke prevention in young women study Homocysteine alters glutamate uptake and Na+, K + -ATPase activity and oxidative status in rats hippocampus: protection by vitamin C       The early events of oxygen and glucose deprivation: setting the scene for neuronal death? SEA0400, a novel and selective inhibitor of the Na + -Ca2+ exchanger, attenuates reperfusion injury in the in vitro and in vivo cerebral ischemic models       Blood vessels, migraine, and stroke Perfusion-weighted MR imaging in persistent hemiplegic migraine Combined actions of Na/K-ATPase, NCX1 and glutamate dependent NMDA receptors in ischemic rat brain penumbra Dissecting the relation between migraine and stroke: the importance of new phenotyping strategies Familial hemiplegic migraine Glutamate transporter coupling to Na, K-ATPase Comorbid neuropathologies in migraine Comorbid neuropathologies in migraine: an update on cerebrovascular and cardiovascular aspects Migraine and vascular diseases: a review of the evidence and potential implications for management The role of glutamate transporters in neurodegenerative diseases and potential opportunities for intervention Migraine headache and ischemic stroke risk: an updated meta-analysis Reduction of Na(+), K(+)-ATPase activity in hippocampus of rats subjected to chemically induced hyperhomocysteinemia White matter injury mechanisms Diverse functional consequences of mutations in the Na+/K + -ATPase alpha2-subunit causing familial hemiplegic migraine type 2       Genetic association study of endothelin-1 and its receptors EDNRA and EDNRB in migraine with aura Case-control study of migraine and risk of ischaemic stroke in young women   Molecular and cellular mechanisms of excitotoxic neuronal death",
+    "entities": [
+        {
+            "entityId": "43_49",
+            "span": {
+                "begin": 43,
+                "end": 49
+            },
+            "entityType": "gene",
+            "entityName": "atp1a2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "55_70",
+            "span": {
+                "begin": 55,
+                "end": 70
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "130_136",
+            "span": {
+                "begin": 130,
+                "end": 136
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "169_177",
+            "span": {
+                "begin": 169,
+                "end": 177
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "221_227",
+            "span": {
+                "begin": 221,
+                "end": 227
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "379_394",
+            "span": {
+                "begin": 379,
+                "end": 394
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "413_424",
+            "span": {
+                "begin": 413,
+                "end": 424
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "443_479",
+            "span": {
+                "begin": 443,
+                "end": 479
+            },
+            "entityType": "disease",
+            "entityName": "familial hemiplegic migraine type II",
+            "id": "UMLS:C0338484"
+        },
+        {
+            "entityId": "624_644",
+            "span": {
+                "begin": 624,
+                "end": 644
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "646_654",
+            "span": {
+                "begin": 646,
+                "end": 654
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "672_687",
+            "span": {
+                "begin": 672,
+                "end": 687
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "691_703",
+            "span": {
+                "begin": 691,
+                "end": 703
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "735_741",
+            "span": {
+                "begin": 735,
+                "end": 741
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "790_805",
+            "span": {
+                "begin": 790,
+                "end": 805
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "812_815",
+            "span": {
+                "begin": 812,
+                "end": 815
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "820_825",
+            "span": {
+                "begin": 820,
+                "end": 825
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "859_867",
+            "span": {
+                "begin": 859,
+                "end": 867
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "930_938",
+            "span": {
+                "begin": 930,
+                "end": 938
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "943_951",
+            "span": {
+                "begin": 943,
+                "end": 951
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "968_979",
+            "span": {
+                "begin": 968,
+                "end": 979
+            },
+            "entityType": "disease",
+            "entityName": "visual aura",
+            "id": "UMLS:C1850765"
+        },
+        {
+            "entityId": "1007_1027",
+            "span": {
+                "begin": 1007,
+                "end": 1027
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "1251_1257",
+            "span": {
+                "begin": 1251,
+                "end": 1257
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "1421_1433",
+            "span": {
+                "begin": 1421,
+                "end": 1433
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "1435_1443",
+            "span": {
+                "begin": 1435,
+                "end": 1443
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "1458_1479",
+            "span": {
+                "begin": 1458,
+                "end": 1479
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1776_1784",
+            "span": {
+                "begin": 1776,
+                "end": 1784
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "1866_1886",
+            "span": {
+                "begin": 1866,
+                "end": 1886
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "1891_1899",
+            "span": {
+                "begin": 1891,
+                "end": 1899
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "1968_1988",
+            "span": {
+                "begin": 1968,
+                "end": 1988
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "1993_2001",
+            "span": {
+                "begin": 1993,
+                "end": 2001
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "2013_2019",
+            "span": {
+                "begin": 2013,
+                "end": 2019
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "2105_2111",
+            "span": {
+                "begin": 2105,
+                "end": 2111
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "2130_2136",
+            "span": {
+                "begin": 2130,
+                "end": 2136
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "2487_2495",
+            "span": {
+                "begin": 2487,
+                "end": 2495
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "2500_2515",
+            "span": {
+                "begin": 2500,
+                "end": 2515
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "2666_2672",
+            "span": {
+                "begin": 2666,
+                "end": 2672
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "2818_2830",
+            "span": {
+                "begin": 2818,
+                "end": 2830
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "2832_2840",
+            "span": {
+                "begin": 2832,
+                "end": 2840
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "2846_2866",
+            "span": {
+                "begin": 2846,
+                "end": 2866
+            },
+            "entityType": "disease",
+            "entityName": "hypercholesterolemia",
+            "id": "UMLS:C0020443"
+        },
+        {
+            "entityId": "2909_2915",
+            "span": {
+                "begin": 2909,
+                "end": 2915
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "2987_2993",
+            "span": {
+                "begin": 2987,
+                "end": 2993
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "3028_3034",
+            "span": {
+                "begin": 3028,
+                "end": 3034
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "3117_3134",
+            "span": {
+                "begin": 3117,
+                "end": 3134
+            },
+            "entityType": "disease",
+            "entityName": "migraine headache",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "3153_3161",
+            "span": {
+                "begin": 3153,
+                "end": 3161
+            },
+            "entityType": "disease",
+            "entityName": "Migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "3167_3205",
+            "span": {
+                "begin": 3167,
+                "end": 3205
+            },
+            "entityType": "disease",
+            "entityName": "multi-factorial neurological condition",
+            "id": "UMLS:C0027765"
+        },
+        {
+            "entityId": "3247_3256",
+            "span": {
+                "begin": 3247,
+                "end": 3256
+            },
+            "entityType": "disease",
+            "entityName": "headaches",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "3276_3281",
+            "span": {
+                "begin": 3276,
+                "end": 3281
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3286_3289",
+            "span": {
+                "begin": 3286,
+                "end": 3289
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3313_3321",
+            "span": {
+                "begin": 3313,
+                "end": 3321
+            },
+            "entityType": "disease",
+            "entityName": "Migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "3466_3478",
+            "span": {
+                "begin": 3466,
+                "end": 3478
+            },
+            "entityType": "disease",
+            "entityName": "inflammation",
+            "id": "UMLS:C0021368"
+        },
+        {
+            "entityId": "3574_3582",
+            "span": {
+                "begin": 3574,
+                "end": 3582
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "3617_3632",
+            "span": {
+                "begin": 3617,
+                "end": 3632
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "3788_3796",
+            "span": {
+                "begin": 3788,
+                "end": 3796
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "3833_3837",
+            "span": {
+                "begin": 3833,
+                "end": 3837
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "3875_3881",
+            "span": {
+                "begin": 3875,
+                "end": 3881
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "3979_3984",
+            "span": {
+                "begin": 3979,
+                "end": 3984
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3986_3993",
+            "span": {
+                "begin": 3986,
+                "end": 3993
+            },
+            "entityType": "species",
+            "entityName": "persons",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4216_4231",
+            "span": {
+                "begin": 4216,
+                "end": 4231
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "4407_4411",
+            "span": {
+                "begin": 4407,
+                "end": 4411
+            },
+            "entityType": "gene",
+            "entityName": "EDN1",
+            "id": "UMLS:C1414260"
+        },
+        {
+            "entityId": "4452_4458",
+            "span": {
+                "begin": 4452,
+                "end": 4458
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4641_4647",
+            "span": {
+                "begin": 4641,
+                "end": 4647
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4731_4739",
+            "span": {
+                "begin": 4731,
+                "end": 4739
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "4744_4750",
+            "span": {
+                "begin": 4744,
+                "end": 4750
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "4769_4797",
+            "span": {
+                "begin": 4769,
+                "end": 4797
+            },
+            "entityType": "disease",
+            "entityName": "Familial hemiplegic migraine",
+            "id": "UMLS:C0338484"
+        },
+        {
+            "entityId": "4799_4802",
+            "span": {
+                "begin": 4799,
+                "end": 4802
+            },
+            "entityType": "disease",
+            "entityName": "FHM",
+            "id": "UMLS:C1832884"
+        },
+        {
+            "entityId": "4832_4840",
+            "span": {
+                "begin": 4832,
+                "end": 4840
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "4977_4980",
+            "span": {
+                "begin": 4977,
+                "end": 4980
+            },
+            "entityType": "disease",
+            "entityName": "FHM",
+            "id": "UMLS:C1832884"
+        },
+        {
+            "entityId": "5012_5018",
+            "span": {
+                "begin": 5012,
+                "end": 5018
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "5020_5027",
+            "span": {
+                "begin": 5020,
+                "end": 5027
+            },
+            "entityType": "gene",
+            "entityName": "CACNA1A",
+            "id": "UMLS:C1456413"
+        },
+        {
+            "entityId": "5032_5037",
+            "span": {
+                "begin": 5032,
+                "end": 5037
+            },
+            "entityType": "gene",
+            "entityName": "SCN1A",
+            "id": "UMLS:C1419856"
+        },
+        {
+            "entityId": "5064_5096",
+            "span": {
+                "begin": 5064,
+                "end": 5096
+            },
+            "entityType": "gene",
+            "entityName": "neuronal and glial Na+/K+ ATPase",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "5114_5118",
+            "span": {
+                "begin": 5114,
+                "end": 5118
+            },
+            "entityType": "drug",
+            "entityName": "Ca2+",
+            "id": "UMLS:C0596235"
+        },
+        {
+            "entityId": "5127_5130",
+            "span": {
+                "begin": 5127,
+                "end": 5130
+            },
+            "entityType": "drug",
+            "entityName": "Na+",
+            "id": "UMLS:CHEBI:29101"
+        },
+        {
+            "entityId": "5168_5179",
+            "span": {
+                "begin": 5168,
+                "end": 5179
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "5200_5248",
+            "span": {
+                "begin": 5200,
+                "end": 5248
+            },
+            "entityType": "disease",
+            "entityName": "degeneration of the amygdala and pyriform cortex",
+            "id": "UMLS:C0011164"
+        },
+        {
+            "entityId": "5293_5306",
+            "span": {
+                "begin": 5293,
+                "end": 5306
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPase",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "5432_5443",
+            "span": {
+                "begin": 5432,
+                "end": 5443
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "5458_5464",
+            "span": {
+                "begin": 5458,
+                "end": 5464
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "5589_5627",
+            "span": {
+                "begin": 5589,
+                "end": 5627
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 single nucleotide polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "5636_5644",
+            "span": {
+                "begin": 5636,
+                "end": 5644
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "5662_5677",
+            "span": {
+                "begin": 5662,
+                "end": 5677
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "5748_5763",
+            "span": {
+                "begin": 5748,
+                "end": 5763
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "6486_6498",
+            "span": {
+                "begin": 6486,
+                "end": 6498
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6625_6628",
+            "span": {
+                "begin": 6625,
+                "end": 6628
+            },
+            "entityType": "species",
+            "entityName": "men",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6639_6644",
+            "span": {
+                "begin": 6639,
+                "end": 6644
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6787_6799",
+            "span": {
+                "begin": 6787,
+                "end": 6799
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "6801_6809",
+            "span": {
+                "begin": 6801,
+                "end": 6809
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "6815_6836",
+            "span": {
+                "begin": 6815,
+                "end": 6836
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "6873_6878",
+            "span": {
+                "begin": 6873,
+                "end": 6878
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6884_6890",
+            "span": {
+                "begin": 6884,
+                "end": 6890
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "6989_6997",
+            "span": {
+                "begin": 6989,
+                "end": 6997
+            },
+            "entityType": "disease",
+            "entityName": "Migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "7003_7007",
+            "span": {
+                "begin": 7003,
+                "end": 7007
+            },
+            "entityType": "disease",
+            "entityName": "Aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "7047_7058",
+            "span": {
+                "begin": 7047,
+                "end": 7058
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 SNPs",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "7084_7090",
+            "span": {
+                "begin": 7084,
+                "end": 7090
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "7400_7411",
+            "span": {
+                "begin": 7400,
+                "end": 7411
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 SNPs",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "7457_7463",
+            "span": {
+                "begin": 7457,
+                "end": 7463
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9430_9436",
+            "span": {
+                "begin": 9430,
+                "end": 9436
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9506_9512",
+            "span": {
+                "begin": 9506,
+                "end": 9512
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "9751_9763",
+            "span": {
+                "begin": 9751,
+                "end": 9763
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "9765_9773",
+            "span": {
+                "begin": 9765,
+                "end": 9773
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "9775_9796",
+            "span": {
+                "begin": 9775,
+                "end": 9796
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "10525_10531",
+            "span": {
+                "begin": 10525,
+                "end": 10531
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "10655_10666",
+            "span": {
+                "begin": 10655,
+                "end": 10666
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "10942_10957",
+            "span": {
+                "begin": 10942,
+                "end": 10957
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "11413_11419",
+            "span": {
+                "begin": 11413,
+                "end": 11419
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "11494_11501",
+            "span": {
+                "begin": 11494,
+                "end": 11501
+            },
+            "entityType": "disease",
+            "entityName": "strokes",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "11876_11883",
+            "span": {
+                "begin": 11876,
+                "end": 11883
+            },
+            "entityType": "disease",
+            "entityName": "strokes",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "11969_11977",
+            "span": {
+                "begin": 11969,
+                "end": 11977
+            },
+            "entityType": "disease",
+            "entityName": "Migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12024_12030",
+            "span": {
+                "begin": 12024,
+                "end": 12030
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12075_12083",
+            "span": {
+                "begin": 12075,
+                "end": 12083
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12153_12161",
+            "span": {
+                "begin": 12153,
+                "end": 12161
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12217_12223",
+            "span": {
+                "begin": 12217,
+                "end": 12223
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12232_12240",
+            "span": {
+                "begin": 12232,
+                "end": 12240
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12306_12314",
+            "span": {
+                "begin": 12306,
+                "end": 12314
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12380_12386",
+            "span": {
+                "begin": 12380,
+                "end": 12386
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12548_12556",
+            "span": {
+                "begin": 12548,
+                "end": 12556
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12565_12569",
+            "span": {
+                "begin": 12565,
+                "end": 12569
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "12573_12581",
+            "span": {
+                "begin": 12573,
+                "end": 12581
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12587_12591",
+            "span": {
+                "begin": 12587,
+                "end": 12591
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "12656_12664",
+            "span": {
+                "begin": 12656,
+                "end": 12664
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12673_12677",
+            "span": {
+                "begin": 12673,
+                "end": 12677
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "12721_12739",
+            "span": {
+                "begin": 12721,
+                "end": 12739
+            },
+            "entityType": "disease",
+            "entityName": "migraine with aura",
+            "id": "UMLS:C0154723"
+        },
+        {
+            "entityId": "12795_12803",
+            "span": {
+                "begin": 12795,
+                "end": 12803
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "12866_12872",
+            "span": {
+                "begin": 12866,
+                "end": 12872
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "12923_12934",
+            "span": {
+                "begin": 12923,
+                "end": 12934
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 SNPs",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "12939_12947",
+            "span": {
+                "begin": 12939,
+                "end": 12947
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "13099_13119",
+            "span": {
+                "begin": 13099,
+                "end": 13119
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "13124_13132",
+            "span": {
+                "begin": 13124,
+                "end": 13132
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "13190_13201",
+            "span": {
+                "begin": 13190,
+                "end": 13201
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "13267_13282",
+            "span": {
+                "begin": 13267,
+                "end": 13282
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "13400_13408",
+            "span": {
+                "begin": 13400,
+                "end": 13408
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "13492_13503",
+            "span": {
+                "begin": 13492,
+                "end": 13503
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "13535_13543",
+            "span": {
+                "begin": 13535,
+                "end": 13543
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "13545_13581",
+            "span": {
+                "begin": 13545,
+                "end": 13581
+            },
+            "entityType": "disease",
+            "entityName": "familial hemiplegic migraine type II",
+            "id": "UMLS:C0338484"
+        },
+        {
+            "entityId": "13613_13631",
+            "span": {
+                "begin": 13613,
+                "end": 13631
+            },
+            "entityType": "disease",
+            "entityName": "migraine with aura",
+            "id": "UMLS:C0154723"
+        },
+        {
+            "entityId": "13672_13696",
+            "span": {
+                "begin": 13672,
+                "end": 13696
+            },
+            "entityType": "disease",
+            "entityName": "transient brain ischemia",
+            "id": "UMLS:C0022118"
+        },
+        {
+            "entityId": "14283_14289",
+            "span": {
+                "begin": 14283,
+                "end": 14289
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "14324_14338",
+            "span": {
+                "begin": 14324,
+                "end": 14338
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPases",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "14425_14439",
+            "span": {
+                "begin": 14425,
+                "end": 14439
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPases",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "14453_14459",
+            "span": {
+                "begin": 14453,
+                "end": 14459
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "14466_14486",
+            "span": {
+                "begin": 14466,
+                "end": 14486
+            },
+            "entityType": "gene",
+            "entityName": "Glial Na+/K+ ATPases",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "14651_14664",
+            "span": {
+                "begin": 14651,
+                "end": 14664
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPase",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "14696_14699",
+            "span": {
+                "begin": 14696,
+                "end": 14699
+            },
+            "entityType": "drug",
+            "entityName": "Na+",
+            "id": "UMLS:CHEBI:29101"
+        },
+        {
+            "entityId": "14704_14706",
+            "span": {
+                "begin": 14704,
+                "end": 14706
+            },
+            "entityType": "drug",
+            "entityName": "K+",
+            "id": "UMLS:C0597277"
+        },
+        {
+            "entityId": "14788_14791",
+            "span": {
+                "begin": 14788,
+                "end": 14791
+            },
+            "entityType": "drug",
+            "entityName": "Na+",
+            "id": "UMLS:CHEBI:29101"
+        },
+        {
+            "entityId": "14829_14832",
+            "span": {
+                "begin": 14829,
+                "end": 14832
+            },
+            "entityType": "drug",
+            "entityName": "Na+",
+            "id": "UMLS:CHEBI:29101"
+        },
+        {
+            "entityId": "14833_14837",
+            "span": {
+                "begin": 14833,
+                "end": 14837
+            },
+            "entityType": "drug",
+            "entityName": "Ca2+",
+            "id": "UMLS:C0596235"
+        },
+        {
+            "entityId": "14901_14905",
+            "span": {
+                "begin": 14901,
+                "end": 14905
+            },
+            "entityType": "drug",
+            "entityName": "Ca2+",
+            "id": "UMLS:C0596235"
+        },
+        {
+            "entityId": "14937_14939",
+            "span": {
+                "begin": 14937,
+                "end": 14939
+            },
+            "entityType": "drug",
+            "entityName": "K+",
+            "id": "UMLS:C0597277"
+        },
+        {
+            "entityId": "14957_14959",
+            "span": {
+                "begin": 14957,
+                "end": 14959
+            },
+            "entityType": "drug",
+            "entityName": "K+",
+            "id": "UMLS:C0597277"
+        },
+        {
+            "entityId": "15069_15078",
+            "span": {
+                "begin": 15069,
+                "end": 15078
+            },
+            "entityType": "drug",
+            "entityName": "glutamate",
+            "id": "UMLS:C0220839"
+        },
+        {
+            "entityId": "15103_15106",
+            "span": {
+                "begin": 15103,
+                "end": 15106
+            },
+            "entityType": "drug",
+            "entityName": "Na+",
+            "id": "UMLS:CHEBI:29101"
+        },
+        {
+            "entityId": "15142_15155",
+            "span": {
+                "begin": 15142,
+                "end": 15155
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPase",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "15171_15180",
+            "span": {
+                "begin": 15171,
+                "end": 15180
+            },
+            "entityType": "drug",
+            "entityName": "glutamate",
+            "id": "UMLS:C0220839"
+        },
+        {
+            "entityId": "15226_15235",
+            "span": {
+                "begin": 15226,
+                "end": 15235
+            },
+            "entityType": "drug",
+            "entityName": "glutamate",
+            "id": "UMLS:C0220839"
+        },
+        {
+            "entityId": "15325_15340",
+            "span": {
+                "begin": 15325,
+                "end": 15340
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "15355_15368",
+            "span": {
+                "begin": 15355,
+                "end": 15368
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPase",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "15430_15448",
+            "span": {
+                "begin": 15430,
+                "end": 15448
+            },
+            "entityType": "disease",
+            "entityName": "neuro-degeneration",
+            "id": "UMLS:C0011164"
+        },
+        {
+            "entityId": "15456_15475",
+            "span": {
+                "begin": 15456,
+                "end": 15475
+            },
+            "entityType": "disease",
+            "entityName": "cerebral infarction",
+            "id": "UMLS:C0007785"
+        },
+        {
+            "entityId": "15616_15622",
+            "span": {
+                "begin": 15616,
+                "end": 15622
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "15662_15674",
+            "span": {
+                "begin": 15662,
+                "end": 15674
+            },
+            "entityType": "drug",
+            "entityName": "homocysteine",
+            "id": "UMLS:C0019878"
+        },
+        {
+            "entityId": "15751_15764",
+            "span": {
+                "begin": 15751,
+                "end": 15764
+            },
+            "entityType": "gene",
+            "entityName": "Na+/K+ ATPase",
+            "id": "UMLS:C0001479"
+        },
+        {
+            "entityId": "15932_15938",
+            "span": {
+                "begin": 15932,
+                "end": 15938
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "15961_15972",
+            "span": {
+                "begin": 15961,
+                "end": 15972
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "16103_16109",
+            "span": {
+                "begin": 16103,
+                "end": 16109
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "16151_16159",
+            "span": {
+                "begin": 16151,
+                "end": 16159
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "16213_16228",
+            "span": {
+                "begin": 16213,
+                "end": 16228
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "16493_16499",
+            "span": {
+                "begin": 16493,
+                "end": 16499
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "16521_16531",
+            "span": {
+                "begin": 16521,
+                "end": 16531
+            },
+            "entityType": "gene",
+            "entityName": "endothelin",
+            "id": "UMLS:C0079284"
+        },
+        {
+            "entityId": "16732_16749",
+            "span": {
+                "begin": 16732,
+                "end": 16749
+            },
+            "entityType": "gene",
+            "entityName": "Endothelin 1 gene",
+            "id": "UMLS:C1414260"
+        },
+        {
+            "entityId": "16759_16765",
+            "span": {
+                "begin": 16759,
+                "end": 16765
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "16823_16848",
+            "span": {
+                "begin": 16823,
+                "end": 16848
+            },
+            "entityType": "disease",
+            "entityName": "cerebral artery occlusion",
+            "id": "UMLS:C0028790"
+        },
+        {
+            "entityId": "16869_16879",
+            "span": {
+                "begin": 16869,
+                "end": 16879
+            },
+            "entityType": "gene",
+            "entityName": "endothelin",
+            "id": "UMLS:C0079284"
+        },
+        {
+            "entityId": "16899_16910",
+            "span": {
+                "begin": 16899,
+                "end": 16910
+            },
+            "entityType": "disease",
+            "entityName": "brain edema",
+            "id": "UMLS:C1527311"
+        },
+        {
+            "entityId": "17009_17024",
+            "span": {
+                "begin": 17009,
+                "end": 17024
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "17500_17506",
+            "span": {
+                "begin": 17500,
+                "end": 17506
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "17547_17553",
+            "span": {
+                "begin": 17547,
+                "end": 17553
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "17658_17664",
+            "span": {
+                "begin": 17658,
+                "end": 17664
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "17955_17963",
+            "span": {
+                "begin": 17955,
+                "end": 17963
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "17972_17978",
+            "span": {
+                "begin": 17972,
+                "end": 17978
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "18203_18218",
+            "span": {
+                "begin": 18203,
+                "end": 18218
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "18575_18593",
+            "span": {
+                "begin": 18575,
+                "end": 18593
+            },
+            "entityType": "disease",
+            "entityName": "migraine with aura",
+            "id": "UMLS:C0154723"
+        },
+        {
+            "entityId": "18606_18614",
+            "span": {
+                "begin": 18606,
+                "end": 18614
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "18709_18717",
+            "span": {
+                "begin": 18709,
+                "end": 18717
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "18754_18762",
+            "span": {
+                "begin": 18754,
+                "end": 18762
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "18772_18780",
+            "span": {
+                "begin": 18772,
+                "end": 18780
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "18873_18881",
+            "span": {
+                "begin": 18873,
+                "end": 18881
+            },
+            "entityType": "disease",
+            "entityName": "Headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "18929_18937",
+            "span": {
+                "begin": 18929,
+                "end": 18937
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "18946_18950",
+            "span": {
+                "begin": 18946,
+                "end": 18950
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "18969_18977",
+            "span": {
+                "begin": 18969,
+                "end": 18977
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "18983_18987",
+            "span": {
+                "begin": 18983,
+                "end": 18987
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "19004_19010",
+            "span": {
+                "begin": 19004,
+                "end": 19010
+            },
+            "entityType": "disease",
+            "entityName": "nausea",
+            "id": "UMLS:C0027497"
+        },
+        {
+            "entityId": "19012_19020",
+            "span": {
+                "begin": 19012,
+                "end": 19020
+            },
+            "entityType": "disease",
+            "entityName": "vomiting",
+            "id": "UMLS:C0042963"
+        },
+        {
+            "entityId": "19061_19079",
+            "span": {
+                "begin": 19061,
+                "end": 19079
+            },
+            "entityType": "disease",
+            "entityName": "migraine with aura",
+            "id": "UMLS:C0154723"
+        },
+        {
+            "entityId": "19116_19125",
+            "span": {
+                "begin": 19116,
+                "end": 19125
+            },
+            "entityType": "disease",
+            "entityName": "photopsia",
+            "id": "UMLS:C0085635"
+        },
+        {
+            "entityId": "19152_19159",
+            "span": {
+                "begin": 19152,
+                "end": 19159
+            },
+            "entityType": "disease",
+            "entityName": "scotoma",
+            "id": "mesh:D012607"
+        },
+        {
+            "entityId": "19169_19177",
+            "span": {
+                "begin": 19169,
+                "end": 19177
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "19241_19249",
+            "span": {
+                "begin": 19241,
+                "end": 19249
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "19260_19264",
+            "span": {
+                "begin": 19260,
+                "end": 19264
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "19277_19281",
+            "span": {
+                "begin": 19277,
+                "end": 19281
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "19298_19306",
+            "span": {
+                "begin": 19298,
+                "end": 19306
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "19436_19440",
+            "span": {
+                "begin": 19436,
+                "end": 19440
+            },
+            "entityType": "disease",
+            "entityName": "aura",
+            "id": "mesh:D004827"
+        },
+        {
+            "entityId": "19618_19626",
+            "span": {
+                "begin": 19618,
+                "end": 19626
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "19675_19681",
+            "span": {
+                "begin": 19675,
+                "end": 19681
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19743_19754",
+            "span": {
+                "begin": 19743,
+                "end": 19754
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "19795_19810",
+            "span": {
+                "begin": 19795,
+                "end": 19810
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "19819_19836",
+            "span": {
+                "begin": 19819,
+                "end": 19836
+            },
+            "entityType": "disease",
+            "entityName": "migraine headache",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "19864_19883",
+            "span": {
+                "begin": 19864,
+                "end": 19883
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphism",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "19932_19938",
+            "span": {
+                "begin": 19932,
+                "end": 19938
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "19991_19999",
+            "span": {
+                "begin": 19991,
+                "end": 19999
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "20104_20110",
+            "span": {
+                "begin": 20104,
+                "end": 20110
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "20151_20157",
+            "span": {
+                "begin": 20151,
+                "end": 20157
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "20174_20180",
+            "span": {
+                "begin": 20174,
+                "end": 20180
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "20283_20289",
+            "span": {
+                "begin": 20283,
+                "end": 20289
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "20340_20351",
+            "span": {
+                "begin": 20340,
+                "end": 20351
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "20377_20383",
+            "span": {
+                "begin": 20377,
+                "end": 20383
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "20426_20434",
+            "span": {
+                "begin": 20426,
+                "end": 20434
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "20478_20493",
+            "span": {
+                "begin": 20478,
+                "end": 20493
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "20563_20578",
+            "span": {
+                "begin": 20563,
+                "end": 20578
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "20858_20877",
+            "span": {
+                "begin": 20858,
+                "end": 20877
+            },
+            "entityType": "disease",
+            "entityName": "cerebral infarction",
+            "id": "UMLS:C0007785"
+        },
+        {
+            "entityId": "21315_21321",
+            "span": {
+                "begin": 21315,
+                "end": 21321
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "21543_21549",
+            "span": {
+                "begin": 21543,
+                "end": 21549
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "21735_21741",
+            "span": {
+                "begin": 21735,
+                "end": 21741
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "22075_22081",
+            "span": {
+                "begin": 22075,
+                "end": 22081
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "22166_22185",
+            "span": {
+                "begin": 22166,
+                "end": 22185
+            },
+            "entityType": "disease",
+            "entityName": "sickle cell disease",
+            "id": "UMLS:C0002895"
+        },
+        {
+            "entityId": "22187_22206",
+            "span": {
+                "begin": 22187,
+                "end": 22206
+            },
+            "entityType": "disease",
+            "entityName": "thalassemia disease",
+            "id": "UMLS:C0039730"
+        },
+        {
+            "entityId": "22208_22241",
+            "span": {
+                "begin": 22208,
+                "end": 22241
+            },
+            "entityType": "disease",
+            "entityName": "central nervous system vasculitis",
+            "id": "UMLS:C0751878"
+        },
+        {
+            "entityId": "22278_22290",
+            "span": {
+                "begin": 22278,
+                "end": 22290
+            },
+            "entityType": "disease",
+            "entityName": "endocarditis",
+            "id": "UMLS:C0014118"
+        },
+        {
+            "entityId": "22365_22372",
+            "span": {
+                "begin": 22365,
+                "end": 22372
+            },
+            "entityType": "drug",
+            "entityName": "cocaine",
+            "id": "UMLS:C0009170"
+        },
+        {
+            "entityId": "22396_22402",
+            "span": {
+                "begin": 22396,
+                "end": 22402
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "22528_22536",
+            "span": {
+                "begin": 22528,
+                "end": 22536
+            },
+            "entityType": "disease",
+            "entityName": "headache",
+            "id": "UMLS:C0018681"
+        },
+        {
+            "entityId": "22603_22611",
+            "span": {
+                "begin": 22603,
+                "end": 22611
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "22616_22624",
+            "span": {
+                "begin": 22616,
+                "end": 22624
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "22641_22652",
+            "span": {
+                "begin": 22641,
+                "end": 22652
+            },
+            "entityType": "disease",
+            "entityName": "visual aura",
+            "id": "UMLS:C1850765"
+        },
+        {
+            "entityId": "22689_22697",
+            "span": {
+                "begin": 22689,
+                "end": 22697
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "22703_22714",
+            "span": {
+                "begin": 22703,
+                "end": 22714
+            },
+            "entityType": "disease",
+            "entityName": "visual aura",
+            "id": "UMLS:C1850765"
+        },
+        {
+            "entityId": "22816_22824",
+            "span": {
+                "begin": 22816,
+                "end": 22824
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "22868_22882",
+            "span": {
+                "begin": 22868,
+                "end": 22882
+            },
+            "entityType": "disease",
+            "entityName": "loss of vision",
+            "id": "UMLS:C0042798"
+        },
+        {
+            "entityId": "22925_22933",
+            "span": {
+                "begin": 22925,
+                "end": 22933
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "22939_22950",
+            "span": {
+                "begin": 22939,
+                "end": 22950
+            },
+            "entityType": "disease",
+            "entityName": "visual aura",
+            "id": "UMLS:C1850765"
+        },
+        {
+            "entityId": "23023_23031",
+            "span": {
+                "begin": 23023,
+                "end": 23031
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "23040_23051",
+            "span": {
+                "begin": 23040,
+                "end": 23051
+            },
+            "entityType": "disease",
+            "entityName": "visual aura",
+            "id": "UMLS:C1850765"
+        },
+        {
+            "entityId": "23083_23094",
+            "span": {
+                "begin": 23083,
+                "end": 23094
+            },
+            "entityType": "disease",
+            "entityName": "visual aura",
+            "id": "UMLS:C1850765"
+        },
+        {
+            "entityId": "23108_23114",
+            "span": {
+                "begin": 23108,
+                "end": 23114
+            },
+            "entityType": "disease",
+            "entityName": "nausea",
+            "id": "UMLS:C0027497"
+        },
+        {
+            "entityId": "23116_23124",
+            "span": {
+                "begin": 23116,
+                "end": 23124
+            },
+            "entityType": "disease",
+            "entityName": "vomiting",
+            "id": "UMLS:C0042963"
+        },
+        {
+            "entityId": "23168_23176",
+            "span": {
+                "begin": 23168,
+                "end": 23176
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "23190_23198",
+            "span": {
+                "begin": 23190,
+                "end": 23198
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "23251_23257",
+            "span": {
+                "begin": 23251,
+                "end": 23257
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23335_23347",
+            "span": {
+                "begin": 23335,
+                "end": 23347
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "23349_23357",
+            "span": {
+                "begin": 23349,
+                "end": 23357
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23359_23380",
+            "span": {
+                "begin": 23359,
+                "end": 23380
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "23382_23384",
+            "span": {
+                "begin": 23382,
+                "end": 23384
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "23647_23662",
+            "span": {
+                "begin": 23647,
+                "end": 23662
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "23806_23821",
+            "span": {
+                "begin": 23806,
+                "end": 23821
+            },
+            "entityType": "disease",
+            "entityName": "ischemic stroke",
+            "id": "UMLS:C0948008"
+        },
+        {
+            "entityId": "24115_24124",
+            "span": {
+                "begin": 24115,
+                "end": 24124
+            },
+            "entityType": "cell",
+            "entityName": "cell line",
+            "id": "UMLS:C0007600"
+        },
+        {
+            "entityId": "24297_24308",
+            "span": {
+                "begin": 24297,
+                "end": 24308
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 gene",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "24483_24494",
+            "span": {
+                "begin": 24483,
+                "end": 24494
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 SNPs",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "25007_25022",
+            "span": {
+                "begin": 25007,
+                "end": 25022
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 genotype",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "25230_25236",
+            "span": {
+                "begin": 25230,
+                "end": 25236
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "26049_26055",
+            "span": {
+                "begin": 26049,
+                "end": 26055
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "26218_26230",
+            "span": {
+                "begin": 26218,
+                "end": 26230
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "26238_26259",
+            "span": {
+                "begin": 26238,
+                "end": 26259
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "26261_26269",
+            "span": {
+                "begin": 26261,
+                "end": 26269
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "26331_26337",
+            "span": {
+                "begin": 26331,
+                "end": 26337
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "26418_26424",
+            "span": {
+                "begin": 26418,
+                "end": 26424
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "26566_26572",
+            "span": {
+                "begin": 26566,
+                "end": 26572
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "26656_26664",
+            "span": {
+                "begin": 26656,
+                "end": 26664
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "26704_26712",
+            "span": {
+                "begin": 26704,
+                "end": 26712
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "26793_26813",
+            "span": {
+                "begin": 26793,
+                "end": 26813
+            },
+            "entityType": "gene",
+            "entityName": "ATP1A2 polymorphisms",
+            "id": "UMLS:C1412629"
+        },
+        {
+            "entityId": "26818_26826",
+            "span": {
+                "begin": 26818,
+                "end": 26826
+            },
+            "entityType": "disease",
+            "entityName": "migraine",
+            "id": "UMLS:C0149931"
+        },
+        {
+            "entityId": "26870_26876",
+            "span": {
+                "begin": 26870,
+                "end": 26876
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "130_136",
+            "subjectText": "stroke",
+            "rel_name": "associate",
+            "objectId": "43_49",
+            "objectText": "atp1a2"
+        },
+        {
+            "subjectID": "169_177",
+            "subjectText": "migraine",
+            "rel_name": "associate",
+            "objectId": "221_227",
+            "objectText": "stroke"
+        },
+        {
+            "subjectID": "1993_2001",
+            "subjectText": "migraine",
+            "rel_name": "associate",
+            "objectId": "2013_2019",
+            "objectText": "stroke"
+        },
+        {
+            "subjectID": "2013_2019",
+            "subjectText": "stroke",
+            "rel_name": "associate",
+            "objectId": "2105_2111",
+            "objectText": "ATP1A2"
+        },
+        {
+            "subjectID": "672_687",
+            "subjectText": "ischemic stroke",
+            "rel_name": "associate",
+            "objectId": "624_644",
+            "objectText": "ATP1A2 polymorphisms"
+        },
+        {
+            "subjectID": "1891_1899",
+            "subjectText": "migraine",
+            "rel_name": "associate",
+            "objectId": "1866_1886",
+            "objectText": "ATP1A2 polymorphisms"
+        }
+    ]
+}

@@ -1,0 +1,4048 @@
+{
+    "sourcid": "PMC3269349",
+    "publisher": "BioMed Central",
+    "journal": "Cardiovascular Diabetology",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3269349/",
+    "text": "Hyperglycemia raises the threshold of levosimendan- but not milrinone-induced postconditioning in rat hearts Background The authors examined whether milrinone and levosimendan could exert cardiac postconditioning effects in rats under normoglycemia and hyperglycemia, and whether the effects could be mediated by mitochondrial permeability transition pore (mPTP). Methods Wistar rats underwent 30-min coronary artery occlusion followed by 2-h reperfusion. The rats received milrinone or levosimendan just before reperfusion under normoglycemic or hyperglycemic conditions with or without atractyloside, an mPTP opener. Results Under normoglycemia, both 30 mug/kg milrinone (29 +- 12%) and 10 mug/kg levosimendan (33 +- 13%) reduced infarct size compared with that in the control (58 +- 7%). Under hyperglycemia, milrinone (34 +- 13%) reduced infarct size at the same dose as under normoglycemia. In contrast, neither 10 nor 30 mug/kg levosimendan protected hyperglycemic hearts, and only 100 mug/kg levosimendan (32 +- 9%) reduced infarct size compared with that in the hyperglycemic control (58 +- 13%). All of these cardioprotective effects under normoglycemia and hyperglycemia are abolished by atractyloside. Conclusion Milrinone and levosimendan exert postconditioning effects via inhibition of mPTP opening. Hyperglycemia raises the threshold of levosimendan-induced postconditioning, while milrinone-induced postconditioning is not influenced by hyperglycemia. Introduction Hyperglycemia (HG) is frequently observed in patients with acute myocardial ischemic events such as myocardial infarction or the usage of cardiopulmonary bypass in cardiac surgery. Many studies have demonstrated the association between HG and increased mortality after acute myocardial infarction. One possible cause of high mortality may be poor cardioprotective strategies under HG. HG was shown to abolish cardioprotection induced by ischemic and pharmacological preconditioning (PreC). Postconditioning (PostC) is more likely than PreC to be feasible as a clinical application, and may be useful in unpredictable myocardial ischemia-reperfusion injury. It was also reported that HG abolished both ischemic and pharmacological PostC. To save the ischemic myocardium exposed to HG environment, it is essential to investigate the effective PostC maneuver under HG. Milrinone, a phosphodiesterase 3 inhibitor (PDE-I), and levosimendan, a calcium sensitizer, are relatively new types of inotropic agent and known to facilitate functional recovery from myocardial ischemia-reperfusion injury (e.g., cardiac surgery under cardiopulmonary bypass and conditions after cardiopulmonary resuscitation), and could lead to preserved perfusion of major organs after myocardial reperfusion. At the cardiomyocyte level, intracellular calcium overload occurs during post-ischemic reperfusion, and could cause cardiac arrhythmias or myocardial stunning. PDE-I causes the activation of cyclic adenosine monophosphate (cAMP) and protein kinase A (PKA), resulting in altered calcium handling by sarcoplasmic reticulum (SR). Levosimendan improves cardiac contractility without change in intracellular calcium. Thus, the properties of these drugs are favorable for myocardial post-ischemic reperfusion period. Levosimendan has a vasodilatory effect via opening of ATP-sensitive potassium (KATP) channels in the plasma membrane of vascular smooth muscle cells, and also activates myocardial mitochondrial KATP (m-KATP) channels and exerts PreC effect against ischemia-reperfusion injury. Besides PreC, PostC induced by levosimendan has been reported in recent years and it has been suggested that m-KATP channels and phosphatidylinositol 3-kinase (PI3K) are involved in the mechanisms. PDE-Is also has PreC properties via activation of the cAMP/PKA pathway independent of protein kinase C (PKC) and m-KATP channels. Recently, it was shown that milrinone and levosimendan treatment started prior to reperfusion exerted effects to limit right ventricular infarct size. HG normally elevates intracellular ATP, and m-KATP channel opening-dependent cardioprotective effects would be abolished under HG. Kehl et al. showed that moderate hyperglycemia (blood glucose level of 300 mg/dl) blocked the protective effects of 0.5 minimum alveolar concentration (MAC) but not 1.0 MAC isoflurane. Tsang et al. showed that three-cycle but not one-cycle ischemic PreC reduced myocardial infarct size, and stated that it seems necessary to increase the ischemic PreC stimulus to achieve the threshold for cardioprotection against diabetic myocardium. PDE-I-induced PostC, which is independent of m-KATP channels, would not be impaired by HG. Multiple lines of evidence suggest that the mitochondrial permeability transition pore (mPTP) is a key end effector of ischemic and pharmacological PostC, and the important link between Reperfusion Injury Salvage Kinases (RISK)/Survivor Activating Factor Enhancement (SAFE) pathways and mPTP has also been suggested. Under HG, adequate mPTP closing maneuver would be essential for myocardial infarct size reduction. In the present study, we hypothesized that HG would raise the threshold of levosimendan-induced PostC, which is mediated by m-KATP channels, and we also examined whether milrinone- and levosimendan-induced PostC could be mediated by the inhibition of mPTP opening. Materials and methods All experimental procedures and protocols described in this study were approved by the Institutional Animal Care and Use Committee of the Nagasaki University School of Medicine. Drugs Milrinone was purchased from Astellas Pharma Co. (Tokyo, Japan). Levosimendan, atractyloside, and 2,3,5-triphenyltetrazolium chloride (TTC) were purchased from Sigma (St. Louis, MO, USA). General Preparation The instrumental methods used were as described in our previous report. Male Wistar rats weighing between 250 and 450 g were anesthetized with sodium pentobarbital (a 50 mg/kg intraperitoneal bolus followed by an intravenous infusion at 10-20 mg/kg/h). The rats were adequately sedated to ensure that pedal and palpebral reflexes were absent throughout the experimental protocol. Catheters were inserted into the right jugular vein and the right carotid artery for fluid or drug administration and measurement of arterial blood pressure, respectively. After tracheotomy, the trachea was intubated with a cannula connected to a small animal ventilator (model SAR-830 CWE, PA, USA), and the lungs were ventilated with pure oxygen. Arterial blood gas pH was maintained within a physiological range by adjusting the respiratory rate and tidal volume throughout the experiment. A left thoracotomy was performed in the fifth intercostal space, and the pericardium was opened. A 7-0 prolene ligature was placed around the proximal left anterior descending coronary artery (LAD) and vein in the area immediately below the left atrial appendage. The ends of the suture were threaded through a small plastic tube to form a snare for reversible LAD occlusion. Coronary artery occlusion was produced by clamping the snare onto the epicardial surface of the heart and was confirmed by the appearance of epicardial cyanosis. Reperfusion was achieved by loosening the snare and was verified by observing an epicardial hyperemic response. Hemodynamics were continuously monitored with a transducer (blood pressure monitor link sck-9082; Becton Dickinson, Tokyo, Japan) and an AP-641G blood pressure amplifier (Nihon-Kohden, Tokyo, Japan) and shown on a polygraph system (Nihon-Kohden). Experimental Protocol The experimental design used in the current investigation is illustrated in Figure 1. All rats underwent 30-min coronary artery occlusion followed by 2-h reperfusion. A schematic illustration of the experimental protocols. Protocol 1: The threshold of milrinone- and levosimendan-induced PostC under normoglycemia (NG) The experiments were performed under NG. Wistar rats were allocated to one of 5 groups. The rats received saline (group CON; n = 14), milrinone at 10 mug/kg (group MIL10; n = 8), milrinone at 30 mug/kg (group MIL30; n = 9), levosimendan at 3 mug/kg (group LEV3; n = 7), or levosimendan at 10 mug/kg (group LEV10; n = 9). These drugs were administered as i.v. bolus just prior to reperfusion. Protocol 2: The threshold of milrinone- and levosimendan-induced PostC under HG The experiments were performed under HG. Wistar rats were allocated to one of 5 groups. To produce HG, rats received 50% glucose intravenously starting 5 min before ischemia and lasting until 60 min after reperfusion. The target blood glucose level was 300 mg/dl throughout the experiment. To test the drugs, the rats received saline (group HG CON; n = 10), milrinone at 30 mug/kg (group HG MIL30; n = 7), levosimendan at 10 mug/kg (group HG LEV10; n = 9), levosimendan at 30 mug/kg (group HG LEV30; n = 7), or levosimendan at 100 mug/kg (group HG LEV100; n = 7) just prior to reperfusion. The doses were set on the basis of the results of protocol 1. Protocol 3: The role of mPTP in milrinone- and levosimendan-induced postconditioning Atractyloside, an mPTP opener (5 mg/kg), was administered intravenously 5 min before reperfusion, and the protective doses of milrinone or levosimendan were administered just before reperfusion under NG and HG. The doses of atractyloside were set on the basis of previous studies. The protective doses of test drugs were set on the basis of protocols 1 and 2 as follows: milrinone at 30 mug/kg and levosimendan at 10 mug/kg under NG, and milrinone at 30 mug/kg and levosimendan at 100 mug/kg under HG. Blood Glucose Measurement Blood samples were collected to measure blood glucose in all rats. The blood glucose level was determined by the glucose oxidase method using a Glutest sensor and Glutest Ace (Sanwa Kagaku Kenkyusho, Nagoya, Japan). Samples were taken before starting glucose administration, just before ischemia (after starting glucose administration), just after starting reperfusion, and 1 and 2 hr after reperfusion. Determination of Infarct Size At the end of the experiment, the LAD was reoccluded. Patent blue dye was administered intravenously to stain the normal region of the left ventricle (LV), and the heart was rapidly excised. Excess LV tissue was removed and cut into approximately 10 cross-sectional slices of equal thickness. The nonstained LV area at risk (AAR) was physically separated from the blue-stained LV normal zone, and incubated at 37 C for 15 min in 1% TTC in 0.1 M phosphate buffer adjusted to pH 7.4. The tissue slices were fixed overnight in 10% formaldehyde. LV tissues after TTC staining are shown in Figure 2. TTC stains living tissue deep red, but necrotic tissue is TTC-negative and appears white. Each slice was scanned at 1200 dpi with a commercial scanner (Canoscan LiDE 60; Canon, Japan), and infarcted and noninfarcted areas were measured by one observer blinded to the rat groups using an image analysis program. Myocardial infarct size is expressed as a percentage of the AAR.  Left ventricular tissues after 2,3,5-triphenyltetrazolium chloride staining. Non-ischemic areas have been cut off. Areas at risk are stained red and necrotic areas appear pale. Statistical Analysis Statistical analysis of hemodynamic data and blood glucose concentrations within and between groups was performed with analysis of variance for repeated measures followed by Dunnett's test. Inter-group differences in body weight, age, LV weight, AAR weight, the ratio of AAR to LV, and the ratio of infarct size to AAR were analyzed using one-way analysis of variance followed by the Student-Newman-Keuls test. Statistical significance was defined as P < 0.05. All values are expressed as mean +- SD. Statistical analysis was performed using SPSS 15.0 software (SPSS Japan, Tokyo, Japan) or GraphPad Prism 5.0 (GraphPad Software, San Diego, CA). Results There were no significant differences in body weight or age among the groups. One hundred and fifty-one rats were used, with 124 successful myocardial infarct size experiments being achieved. Ten rats were excluded as a result of technical difficulties with the experimental preparation. Malignant ventricular arrhythmias developed in 17 other rats before completion of the experiment. Two in the CON group, 1 in the MIL10 group, 2 in the LEV3 group, 1 in the LEV10 group, 1 in the HG CON group, 2 in the HG MIL30 group, 2 in the HG LEV10 group, 1 in the HG LEV30 group, 1 in the ATR .group, 2 in the MIL30 + ATR group, 1 in the LEV10 + ATR group, and 1 in the HG LEV100 + ATR group; no differences in incidence of arrhythmic events were observed among groups. These rats were excluded from further analysis. Hemodynamics Hemodynamic variables are summarized in Table 1 and 2. No significant differences in mean arterial pressure and heart rate were observed between the experimental groups at baseline. In levosimendan-treated groups, mean arterial pressure showed a tendency to decrease transiently during the early reperfusion period. Heart rate increased in the LEV10 group and HG LEV100 group at 2hr after reperfusion as compared with that in the CON group. Mean Arterial Pressure Number\tBaseline\tPreocclusion\tOcclusion30 min\t\tReperfusion\t \t\t\t\t\t\t\t \t\t\t\t\t\t5 min\t30 min\t1 hr\t2 hr\t \tMAP (mmHg)\t\t\t\t\t\t\t\t\t \t CON\t14\t99 +- 24\t97 +- 14\t93 +- 20\t95 +- 26\t109 +- 28\t107 +- 31\t100 +- 36\t \t MIL10\t8\t91 +- 24\t88 +- 26\t91 +- 23\t84 +- 25\t100 +- 26\t104 +- 20\t107 +- 15\t \t MIL30\t9\t98 +- 14\t83 +- 14\t91 +- 16\t88 +- 22\t103 +- 17\t99 +- 30\t99 +- 31\t \t LEV3\t7\t97 +- 20\t95 +- 16\t84 +- 27\t87 +- 12\t92 +- 16\t99 +- 14\t106 +- 14\t \t LEV10\t9\t90 +- 16\t84 +- 13\t79 +- 28*\t80 +- 23*\t89 +- 32\t93 +- 26\t96 +- 22\t \t HGCON\t10\t109 +- 21\t107 +- 23\t93 +- 20\t92 +- 23\t102 +- 26\t110 +- 23\t112 +- 20\t \t HG MIL30\t7\t101 +- 13\t102 +- 12\t92 +- 13\t93 +- 11\t101 +- 14\t109 +- 18\t118 +- 19\t \t HG LEV10\t9\t101 +- 16\t91 +- 9\t85 +- 10\t84 +- 11\t94 +- 15\t104 +- 17\t108 +- 18\t \t HG LEV30\t7\t105 +- 21\t97 +- 11\t96 +- 18\t93 +- 15\t93 +- 12\t106 +- 9\t104 +- 18\t \t HG LEV100\t7\t103 +- 18\t109 +- 12\t79 +- 12*\t81 +- 9*\t84 +- 13\t96 +- 14\t94 +- 21\t \t ATR\t6\t103 +- 13\t96 +- 13\t108 +- 11\t107 +- 15\t113 +- 19\t113 +- 16\t116 +- 12\t \t MIL30 + ATR\t8\t101 +- 14\t93 +- 21\t97 +- 14\t97 +- 15\t101 +- 15\t101 +- 16\t102 +- 11\t \t LEV10 + ATR\t7\t87 +- 15\t85 +- 15\t97 +- 22\t95 +- 17\t97 +- 24\t98 +- 20\t96 +- 18\t \t HG MIL30 + ATR\t7\t98 +- 20\t95 +- 17\t98 +- 19\t100 +- 20\t103 +- 21\t103 +- 17\t88 +- 17\t \t HG LEV100 + ATR\t9\t93 +- 14\t97 +- 18\t89 +- 21\t88 +- 17\t98 +- 21\t103 +- 23\t101 +- 25                                   Data are mean +- SD. MAP = mean arterial pressure; CON = control; MIL10 or 30 = 10 or 30 mug/kg milrinone; LEV 3, 10, 30 or 100 = 3, 10, 30 or 100 mug/kg levosimendan; HG = hyperglycemia; ATR = atractyloside. *Significantly (P < 0.05) different from baseline. Heart Rate Number\tBaseline\tPreocclusion\tOcclusion30 min\t\tReperfusion\t \t\t\t\t\t\t\t \t\t\t\t\t\t5 min\t30 min\t1 hr\t2 hr\t \tHR (mmHg)\t\t\t\t\t\t\t\t\t \t CON\t14\t389 +- 39\t383 +- 43\t375 +- 46\t381 +- 51\t376 +- 52\t374 +- 56\t342 +- 68*\t \t MIL10\t8\t352 +- 51\t354 +- 58\t345 +- 68\t340 +- 64\t338 +- 58\t339 +- 70\t340 +- 72\t \t MIL30\t9\t381 +- 66\t379 +- 65\t362 +- 24\t372 +- 41\t346 +- 61\t349 +- 80\t335 +- 91*\t \t LEV3\t7\t370 +- 20\t367 +- 15\t339 +- 40\t356 +- 31\t350 +- 38\t340 +- 40\t338 +- 52\t \t LEV10\t9\t408 +- 37\t396 +- 28\t387 +- 45\t390 +- 41\t395 +- 42\t399 +- 45\t405 +- 56 \t \t HGCON\t10\t394 +- 55\t377 +- 64\t397 +- 40\t390 +- 70\t391 +- 67\t380 +- 76\t371 +- 114\t \t HG MIL30\t7\t366 +- 44\t365 +- 44\t377 +- 33\t381 +- 36\t382 +- 50\t363 +- 73\t373 +- 82\t \t HG LEV10\t9\t402 +- 35\t389 +- 35\t364 +- 18\t374 +- 15\t367 +- 32\t366 +- 49\t366 +- 56\t \t HG LEV30\t7\t372 +- 49\t376 +- 47\t361 +- 45\t371 +- 46\t364 +- 38\t359 +- 35\t348 +- 50\t \t HG LEV100\t7\t433 +- 24\t421 +- 32\t400 +- 30\t413 +- 29\t394 +- 45\t390 +- 57\t402 +- 29 \t \t ATR\t6\t379 +- 21\t372 +- 15\t359 +- 17\t367 +- 24\t369 +- 29\t365 +- 33\t347 +- 44\t \t MIL30 + ATR\t8\t377 +- 50\t386 +- 34\t363 +- 34\t372 +- 37\t379 +- 40\t358 +- 41\t367 +- 35\t \t LEV10 + ATR\t7\t364 +- 34\t382 +- 30\t335 +- 34\t345 +- 45\t339 +- 51\t331 +- 43\t336 +- 52\t \t HG MIL30 + ATR\t7\t386 +- 53\t394 +- 48\t396 +- 38\t411 +- 46\t404 +- 49\t407 +- 48\t377 +- 60\t \t HG LEV100 + ATR\t9\t412 +- 27\t411 +- 47\t387 +- 32\t399 +- 33\t379 +- 50\t384 +- 54\t375 +- 47                                       Data are mean +- SD. HR = heart rate; CON = control; MIL10 or 30 = 10 or 30 mug/kg milrinone; LEV 3, 10, 30 or 100 = 3, 10, 30 or 100 mug/kg levosimendan; HG = hyperglycemia; ATR = atractyloside. *Significantly (P < 0.05) different from baseline.  Significantly (P < 0.05) different from CON.   Infarct Size LV weight, AAR weight, and the ratio of AAR to total LV mass were similar among the groups (Table 3). Infarct size expressed as a percentage of area at risk is shown in Figure 3, 4, 5. As shown in Figure 3, in NG rats, 30 mug/kg milrinone and 10 mug/kg levosimendan reduced infarct size compared with that in the control (MIL30: 29 +- 12%; LEV10: 33 +- 13%; CON: 58 +- 7%). In contrast, low-dose groups (10 mug/kg milrinone and 3 mug/kg levosimendan) did not show reduction of infarct size (MIL10: 55 +- 10%; LEV3: 55 +- 16%). As shown in Figure 4, in HG rats, 100 mug/kg but not 10 mug/kg or 30 mug/kg levosimendan reduced infarct size compared with that in the control (HG LEV100: 32 +- 9%; HG LEV10: 55 +- 15%; HG LEV30: 57 +- 13%;HG CON: 58 +- 13%). In contrast, 30 mug/kg milrinone showed similar degrees of infarct size reduction in NG and HG rats (HG MIL30: 34 +- 13%). As shown in Figure 5, atractyloside blocked the beneficial effects of both milrinone and levosimendan (LEV10 + ATR: 58 +- 11%; MIL30 + ATR: 60 +- 9%; HG LEV100 + ATR: 62 +- 13%; HG MIL30 + ATR: 62 +- 13%). Atractyloside alone did not affect infarct size (ATR: 55 +- 13%). Left-Ventricular Area at Risk Number\tArea at Risk/Left Ventricle (%)\t \tCON\t14\t57 +- 8\t \tMIL10\t8\t51 +- 9\t \tMIL30\t9\t52 +- 7\t \tLEV3\t7\t56 +- 5\t \tLEV10\t9\t51 +- 5\t \tHG CON\t10\t50 +- 4\t \tHG MIL30\t7\t53 +- 3\t \tHG LEV10\t9\t52 +- 7\t \tHG LEV30\t7\t56 +- 5\t \tHG LEV100\t7\t50 +- 10\t \tATR\t6\t51 +- 4\t \tMIL30 + ATR\t8\t48 +- 5\t \tLEV10 + ATR\t7\t48 +- 8\t \tHG MIL30 + ATR\t7\t48 +- 8\t \tHG LEV100 + ATR\t9\t51 +- 4     Data are mean +- SD. CON = control; MIL10 or 30 = 10 or 30 mug/kg milrinone; LEV 3, 10, 30 or 100 = 3, 10, 30 or 100 mug/kg levosimendan; HG = hyperglycemia; ATR = atractyloside. Myocardial infarct size expressed as a percentage of the left ventricular area at risk in protocol 1. CON = control; MIL10, 30 = 10 or 30 mug/kg milrinone, LEV3, 10 = 3 or 10 mug/kg levosimendan. Data are mean +- SD. *Significantly (P < 0.05) different from CON. Myocardial infarct size expressed as a percentage of the left ventricular area at risk in protocol 2. HG = hyperglycemia; CON = control; MIL30 = 30 mug/kg milrinone, LEV10, 30 or 100 = 10, 30 or 100 mug/kg levosimendan. Data are mean +- SD. *Significantly (P < 0.05) different from HG-CON. Myocardial infarct size expressed as a percentage of the left ventricular area at risk in protocol 2. CON = control; HG = hyperglycemia; ATR = atractyloside; MIL30 = 30 mug/kg milrinone, LEV100 = 100 mug/kg levosimendan. Data are mean +- SD. *Significantly (P < 0.05) different from CON.  Significantly (P < 0.05) different from HG-CON.  Significantly (P < 0.05) different from the group without ATR.    Blood Glucose Measurement Blood glucose concentrations are summarized in Table 4. No significant differences in blood glucose concentrations were observed between the experimental groups at baseline. After starting administration of 50%-glucose solution, rats in HG groups had significantly higher blood glucose concentrations than rats in NG groups. Blood Glucose Concentrations (mg/dl) Number\tBaseline\tPreocclusion\tOcclusion30 min\tReperfusion\t \t\t\t\t\t\t\t \t\t\t\t\t\t1 hr\t2 hr\t \tCON\t14\t92 +- 23\t89 +- 19\t109 +- 40\t129 +- 43\t111 +- 34\t \tMIL10\t8\t114 +- 75\t105 +- 52\t132 +- 60\t124 +- 56\t105 +- 70\t \tMIL30\t9\t93 +- 23\t82 +- 20\t107 +- 51\t98 +- 46\t79 +- 29\t \tLEV3\t7\t116 +- 40\t89 +- 24\t138 +- 66\t120 +- 80\t106 +- 49\t \tLEV10\t9\t99 +- 39\t97 +- 28\t122 +- 51\t113 +- 33\t101 +- 41\t \tHG CON\t10\t90 +- 16\t355 +- 121* \t286 +- 137* \t361 +- 140* \t273 +- 144* \t \tHG MIL30\t7\t87 +- 16\t343 +- 95* \t351 +- 62* \t295 +- 150* \t246 +- 140* \t \tHG LEV10\t9\t88 +- 17\t320 +- 97* \t311 +- 120* \t321 +- 142* \t285 +- 161* \t \tHG LEV30\t7\t98 +- 32\t341 +- 83* \t390 +- 99* \t313 +- 124* \t293 +- 153* \t \tHG LEV100\t7\t110 +- 45\t447 +- 84* \t394 +- 113* \t408 +- 140* \t385 +- 161* \t \tATR\t6\t82 +- 38\t87 +- 25\t93 +- 14\t87 +- 25\t85 +- 12\t \tMIL30 + ATR\t8\t80 +- 27\t80 +- 15\t101 +- 49\t90 +- 58\t77 +- 47\t \tLEV10 + ATR\t7\t100 +- 32\t100 +- 36\t124 +- 57\t147 +- 94\t123 +- 80\t \tHG MIL30 + ATR\t7\t74 +- 29*\t317 +- 70* \t376 +- 31* \t293 +- 191* \t241 +- 197* \t \tHG LEV100 + ATR\t9\t76 +- 13\t341 +- 145* \t379 +- 106* \t381 +- 149* \t311 +- 131*                                                              Data are mean +- SD. CON = control; MIL10 or 30 = 10 or 30 mug/kg milrinone; LEV 3, 10, 30 or 100 = 3, 10, 30 or 100 mug/kg levosimendan; HG = hyperglycemia; ATR = atractyloside. *Significantly (P < 0.05) different from baseline.  Significantly (P < 0.05) different from CON.   Discussion The present study is, to our knowledge, the first to demonstrate that milrinone-induced PostC protects the heart under HG at the same dose as under NG, while levosimendan-induced PostC requires an increased dose under HG. Our results also demonstrate that all of these cardioprotective effects in NG and HG are mediated by mPTP. Cardioprotective Signaling Pathways in HG Conditions It is well known that acute HG condition attenuates endogenous cardioprotective phenomena by ischemic/pharmacological interventions. Ischemic/pharmacological PreC and PostC could inhibit mPTP opening at reperfusion through m-KATP channels and complex signal transduction pathways such as PI3K-Akt, p42/p44 extracellular signal-regulated kinases (ERK 1/2), glycogen synthase kinase-3beta (GSK-3beta), endothelial nitric oxide synthase (eNOS), and PKC. Reactive oxygen species (ROS) generated by the mitochondrial electron transport chain during ischemic/pharmacological PreC stimulus have been shown to activate m-KATP channels that confer protection of ischemic myocardium, and the ROS scavengers abolish cardioprotection. Kehl et al. reported that acute HG abolishes isoflurane-induced PreC, but a ROS scavenger, N-acetylcysteine, restores these beneficial effects. They suggested that excessive quantities of ROS generated under HG impair isoflurane-induced activation of m-KATP channels. Raphael et al. showed that acute HG inhibits isoflurane-induced PostC, and stated that this effect seems to be mediated via inhibition of Akt and eNOS activation. Acute HG and diabetes are different pathological conditions. Ku et al. reported that HG-induced ROS generation in cardiomyocytes is linked to diabetic cardiomyopathy through GATA binding protein 4 phosphorylation and a higher expression of cardiac troponin I. Kageyama et al. found that HG up-regulated death receptor expression, coupled with increased tumor necrosis factor (TNF)-alpha secretion, promoted endothelial cell apoptosis, and suggested that it is contributes to coronary arterial endothelial dysfunction and the development of ischemic heart disease in diabetes. Therefore, it is necessary to consider the glycation of intracellular proteins and the effects of complications for patients with diabetes. On the other hand, the inhibitory effects of diabetes on PreC/PostC similar to that of acute HG have also been reported. Tsang et al. showed that three-cycle but not one-cycle ischemia PreC reduced myocardial infarct size in diabetic hearts, commensurate with significant Akt phosphorylation after three cycles of ischemia PreC. Diabetes inhibits erythropoietin- and morphine-induced activation of PI3K-Akt, ERK 1/2, and inhibition of GSK-3beta, and attenuates PostC. They also showed that a GSK-3beta inhibitor, SB216763, reduced myocardial infarct size in diabetic rats as well as in non-diabetic rats, and suggested that the mechanism of diabetes-induced attenuation could be due to impairment of protective upstream signaling pathways such as PI3K-Akt and ERK 1/2. Thus poor cardioprotective strategies for both acute HG and diabetes would be derived from the inhibition of the intracellular signaling pathways involved in ischemic and pharmacological PreC and PostC. Difference between Protective Effects of Levosimendan and Milrinone under HG In the present study, levosimendan exerted the PostC effect under HG at a dose ten times higher than the dose under NG. Kersten et al. showed that both 2.5 and 5 mug/kg diazoxide, an m-KATP channel opener, had PreC effects under NG, and that only 5 mug/kg but not 2.5 mug/kg diazoxide reduced myocardial infarct size under acute HG. They suggested that m-KATP channel opening-dependent cardioprotective effects might be attenuated under HG, and thus, increase in the dosage is required. Honisch et al. showed that levosimendan just prior to reperfusion significantly reduced myocardial infarct size, and this beneficial effect was blocked by 5-hydroxydecanoic acid, an m-KATP channel blocker. Thus, it is likely that HG increases the threshold of levosimendan-induced PostC, resulting from the attenuation of the m-KATP channel opening-dependent cardioprotective effect. In contrast to levosimendan, milrinone-induced PostC protects hearts under HG at the same dose as under NG. Our previous study showed that preischemic administration of olprinone, a PDE-I, reduces myocardial infarct size in type 2 diabetic rats to the same extent as in non-diabetic rats, and that olprinone-induced PreC is independent of m-KATP channels and PKC. Our previous study also showed that levosimendan-induced PostC was dependent on m-KATP channels and PKC; however, milrinone-induced PostC has been suggested to be independent of m-KATP channels and PKC. We speculate that milrinone has a different protective pathway leading to mPTP closure independently of m-KATP channels and exerts PostC effects under HG as well as NG.  Mechanisms leading to mPTP and Cardioprotection The present results show that levosimendan-induced PostC is mediated by mPTP. Multiple lines of evidence indicate that the mPTP is a key end effector of ischemic and pharmacological PostC. In vitro studies using isolated mitochondria have suggested that the opening of m-KATP channels leads to mPTP closure. From this report and our results, the mechanism of levosimendan-induced PostC would involve m-KATP channel and mPTP. The present study also shows that atractyloside, an mPTP opener, prevents milrinone-induced PostC, indicating that this protective effect would be dependent on mPTP. Our previous study showed that preischemic administration of olprinone could confer cardioprotection, and that this cardioprotective effect could be mediated by the activation of PI3K-Akt or by the inhibition of mPTP during early reperfusion. In addition, recent studies have shown that milrinone- and levosimendan-induced PostC increases the level of phosphorylation of Akt. The experimental study by Davidson et al. provided evidence that the activation of the PI3K-Akt pathway is linked to the inhibition of mPTP opening. They showed that pharmacological inhibition of either PI3K or Akt abrogated the effect of insulin to prevent mPTP opening in rat cardiomyocytes, and that over-expression of Akt in a cardiac-derived cell line delayed mPTP opening. Limitations of the study In clinical studies, myocardial ischemia is an important prognosis-exacerbating factor in both the diabetic and nondiabetic states of patients who received reperfusion therapy. In addition, adverse events in terms of cardiovascular risk modification are known to occur in both acute and chronic HG. Therefore, the present study was planned and conducted, with a focus on acute HG. However, patients in the clinical setting are in a chronic HG state because of diabetes, making it necessary to consider the glycation of intracellular proteins and the effects of complications such as diabetic cardiomyopathy and endothelial dysfunction. Thus, further studies are needed to apply the results of this experimental study to the clinical setting. Conclusions We have demonstrated that milrinone and levosimendan exert PostC via inhibition of mPTP opening, and that HG raises the threshold of levosimendan-induced PostC, while milrinone-induced PostC is not influenced by HG. List of abbreviations mPTP: mitochondrial permeability transition pore; HG: Hyperglycemia; PreC: preconditioning; PostC: Postconditioning; PDE-I: phosphodiesterase 3 inhibitor; cAMP: cyclic adenosine monophosphate; PKA: protein kinase A; SR: sarcoplasmic reticulum; KATP channels: ATP-sensitive potassium channels; m-KATP channels: mitochondrial ATP-sensitive potassium channels; PI3K: phosphatidylinositol 3-kinase; PKC: protein kinase C; MAC: minimum alveolar concentration; RISK: Reperfusion Injury Salvage Kinases; SAFE: Survivor Activating Factor Enhancement; TTC: 2,3,5-triphenyltetrazolium chloride; LAD: left anterior descending coronary artery; NG: normoglycemia; CON: control; MIL10: milrinone 10 mug/kg; MIL30: milrinone 30 mug/kg; LEV3: levosimendan 3 mug/kg; LEV10: levosimendan 10 mug/kg; LEV100: levosimendan 100 mug/kg; ATR: Atractyloside; LV: left ventricle; AAR: area at risk; SD: standard deviation; ERK 1/2: p42/p44 extracellular signal-regulated kinases; GSK-3beta: glycogen synthase kinase-3beta; eNOS: endothelial nitric oxide synthase; ROS: Reactive oxygen species; TNF: tumor necrosis factor Competing interests The authors declare that they have no competing interests. Authors' contributions SM performed experiments, contributed to discussion, and drafted the manuscript. SC participated in the design and coordination of the study, contributed to discussion and reviewed/edited the manuscript. ST and UH helped carry out in vivo experiments. TM and TH participated in the design and coordination of the study. KS supervised research, contributed to discussion and reviewed/edited the manuscript. All authors have read and approved submission of the final manuscript. Acknowledgements This work was supported in part by Grants-In-Aid 22890141 (to Dr. Matsumoto) and 19390406 (to Dr. Sumikawa) for scientific research from the Ministry of Education, Culture, Sports, Science, and Technology of Japan. Differential clinical outcomes associated with hypoglycemia and hyperglycemia in acute myocardial infarction Acute hyperglycemia abolishes ischemic preconditioning in vivo Hyperglycemia prevents isoflurane-induced preconditioning against myocardial infarction Hyperglycemia inhibits anesthetic-induced postconditioning in the rabbit heart via modulation of phosphatidylinositol-3-kinase/Akt and endothelial nitric oxide synthase signaling Hyperglycaemia blocks sevoflurane-induced postconditioning in the rat heart in vivo: cardioprotection can be restored by blocking the mitochondrial permeability transition pore Cardioprotection with postconditioning: loss of efficacy in murine models of type-2 and type-1 diabetes Milrinone facilitates resuscitation from cardiac arrest and attenuates postresuscitation myocardial dysfunction Comparison between dobutamine and levosimendan for management of postresuscitation myocardial dysfunction Effect of milrinone on short-term outcome of patients with myocardial dysfunction undergoing coronary artery bypass graft: A randomized controlled trial Levosimendan facilitates weaning from cardiopulmonary bypass in patients undergoing coronary artery bypass grafting with impaired left ventricular function Effect of milrinone on left ventricular relaxation and Ca(2+) uptake function of cardiac sarcoplasmic reticulum Effects of calcium sensitizers on intracellular calcium handling and myocardial energetics Levosimendan, a new positive inotropic drug, decreases myocardial infarct size via activation of K(ATP) channels A role for the RISK pathway and K(ATP) channels in pre- and post-conditioning induced by levosimendan in the isolated guinea pig heart Postconditioning with levosimendan reduces the infarct size involving the PI3K pathway and KATP-channel activation but is independent of PDE-III inhibition Cardioprotective effect afforded by transient exposure to phosphodiesterase III inhibitors: the role of protein kinase A and p38 mitogen-activated protein kinase Pharmacological preconditioning in type 2 diabetic rat hearts: the roles of mitochondrial ATP-sensitive potassium channels and the phosphatidylinositol 3-kinase-Akt pathway Anti-ischemic effects of inotropic agents in experimental right ventricular infarction Diabetes and hyperglycemia impair activation of mitochondrial K(ATP) channels Preconditioning the diabetic heart: the importance of Akt phosphorylation The mitochondrial permeability transition pore as a target for preconditioning and postconditioning The mechanism by which the mitochondrial ATP-sensitive K+ channel opening and H2O2 inhibit the mitochondrial permeability transition Cardioprotection induced by olprinone, a phosphodiesterase III inhibitor, involves phosphatidylinositol-3-OH kinase-Akt and a mitochondrial permeability transition pore during early reperfusion Postconditioning prevents reperfusion injury by activating delta-opioid receptors Mitochondrial adenosine triphosphate-regulated potassium channel opening acts as a trigger for isoflurane-induced preconditioning by generating reactive oxygen species N-acetylcysteine restores isoflurane-induced preconditioning against myocardial infarction during hyperglycemia Molecular role of GATA binding protein 4 (GATA-4) in hyperglycemia-induced reduction of cardiac contractility High glucose-induced apoptosis in human coronary artery endothelial cells involves up-regulation of death receptors Diabetes mellitus abrogates erythropoietin-induced cardioprotection against ischemic-reperfusion injury by alteration of the RISK/GSK-3beta signaling Diabetes abolishes morphine-induced cardioprotection via multiple pathways upstream of glycogen synthase kinase-3beta The Role of Protein Kinase C in Milrinone- and Levosimendan-Induced Postconditioning in Rat Hearts Differential Mechanisms of Milrinone- and Levosimendan-Induced Postconditioning in Rat Hearts Intracoronary levosimendan prevents myocardial ischemic damages and activates survival signaling through ATP-sensitive potassium channel and nitric oxide Heart protection by combination therapy with esmolol and milrinone at late-ischemia and early reperfusion Signalling via the reperfusion injury signalling kinase (RISK) pathway links closure of the mitochondrial permeability transition pore to cardioprotection CLARITY-TIMI 28 Investigators: Association of blood glucose with angiographic and clinical outcomes among patients with ST-segment elevation myocardial infarction (from the CLARITY-TIMI-28 study) Modifying cardiovascular risk in diabetes mellitus",
+    "entities": [
+        {
+            "entityId": "0_13",
+            "span": {
+                "begin": 0,
+                "end": 13
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "38_50",
+            "span": {
+                "begin": 38,
+                "end": 50
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "60_69",
+            "span": {
+                "begin": 60,
+                "end": 69
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "98_101",
+            "span": {
+                "begin": 98,
+                "end": 101
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "149_158",
+            "span": {
+                "begin": 149,
+                "end": 158
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "163_175",
+            "span": {
+                "begin": 163,
+                "end": 175
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "224_228",
+            "span": {
+                "begin": 224,
+                "end": 228
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "253_266",
+            "span": {
+                "begin": 253,
+                "end": 266
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "357_361",
+            "span": {
+                "begin": 357,
+                "end": 361
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "379_383",
+            "span": {
+                "begin": 379,
+                "end": 383
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "460_464",
+            "span": {
+                "begin": 460,
+                "end": 464
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "474_483",
+            "span": {
+                "begin": 474,
+                "end": 483
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "487_499",
+            "span": {
+                "begin": 487,
+                "end": 499
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "588_601",
+            "span": {
+                "begin": 588,
+                "end": 601
+            },
+            "entityType": "drug",
+            "entityName": "atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "663_672",
+            "span": {
+                "begin": 663,
+                "end": 672
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "699_711",
+            "span": {
+                "begin": 699,
+                "end": 711
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "797_810",
+            "span": {
+                "begin": 797,
+                "end": 810
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "812_821",
+            "span": {
+                "begin": 812,
+                "end": 821
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "842_849",
+            "span": {
+                "begin": 842,
+                "end": 849
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "934_946",
+            "span": {
+                "begin": 934,
+                "end": 946
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "999_1011",
+            "span": {
+                "begin": 999,
+                "end": 1011
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "1167_1180",
+            "span": {
+                "begin": 1167,
+                "end": 1180
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1198_1211",
+            "span": {
+                "begin": 1198,
+                "end": 1211
+            },
+            "entityType": "drug",
+            "entityName": "atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "1224_1233",
+            "span": {
+                "begin": 1224,
+                "end": 1233
+            },
+            "entityType": "drug",
+            "entityName": "Milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "1238_1250",
+            "span": {
+                "begin": 1238,
+                "end": 1250
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "1314_1327",
+            "span": {
+                "begin": 1314,
+                "end": 1327
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1352_1364",
+            "span": {
+                "begin": 1352,
+                "end": 1364
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "1397_1406",
+            "span": {
+                "begin": 1397,
+                "end": 1406
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "1453_1466",
+            "span": {
+                "begin": 1453,
+                "end": 1466
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1481_1494",
+            "span": {
+                "begin": 1481,
+                "end": 1494
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1496_1498",
+            "span": {
+                "begin": 1496,
+                "end": 1498
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1526_1534",
+            "span": {
+                "begin": 1526,
+                "end": 1534
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1581_1602",
+            "span": {
+                "begin": 1581,
+                "end": 1602
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1717_1719",
+            "span": {
+                "begin": 1717,
+                "end": 1719
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1750_1777",
+            "span": {
+                "begin": 1750,
+                "end": 1777
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "1862_1864",
+            "span": {
+                "begin": 1862,
+                "end": 1864
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1866_1868",
+            "span": {
+                "begin": 1866,
+                "end": 1868
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2098_2136",
+            "span": {
+                "begin": 2098,
+                "end": 2136
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia-reperfusion injury",
+            "id": "UMLS:C0027055"
+        },
+        {
+            "entityId": "2164_2166",
+            "span": {
+                "begin": 2164,
+                "end": 2166
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2261_2263",
+            "span": {
+                "begin": 2261,
+                "end": 2263
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2343_2345",
+            "span": {
+                "begin": 2343,
+                "end": 2345
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2347_2356",
+            "span": {
+                "begin": 2347,
+                "end": 2356
+            },
+            "entityType": "drug",
+            "entityName": "Milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "2391_2396",
+            "span": {
+                "begin": 2391,
+                "end": 2396
+            },
+            "entityType": "gene",
+            "entityName": "PDE-I",
+            "id": "UMLS:C0221138"
+        },
+        {
+            "entityId": "2403_2415",
+            "span": {
+                "begin": 2403,
+                "end": 2415
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "2419_2426",
+            "span": {
+                "begin": 2419,
+                "end": 2426
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "2532_2570",
+            "span": {
+                "begin": 2532,
+                "end": 2570
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia-reperfusion injury",
+            "id": "UMLS:C0027055"
+        },
+        {
+            "entityId": "2767_2780",
+            "span": {
+                "begin": 2767,
+                "end": 2780
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2802_2809",
+            "span": {
+                "begin": 2802,
+                "end": 2809
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "2876_2895",
+            "span": {
+                "begin": 2876,
+                "end": 2895
+            },
+            "entityType": "disease",
+            "entityName": "cardiac arrhythmias",
+            "id": "UMLS:C0003811"
+        },
+        {
+            "entityId": "2899_2918",
+            "span": {
+                "begin": 2899,
+                "end": 2918
+            },
+            "entityType": "disease",
+            "entityName": "myocardial stunning",
+            "id": "UMLS:C0206146"
+        },
+        {
+            "entityId": "2920_2925",
+            "span": {
+                "begin": 2920,
+                "end": 2925
+            },
+            "entityType": "gene",
+            "entityName": "PDE-I",
+            "id": "UMLS:C0221138"
+        },
+        {
+            "entityId": "2951_2981",
+            "span": {
+                "begin": 2951,
+                "end": 2981
+            },
+            "entityType": "drug",
+            "entityName": "cyclic adenosine monophosphate",
+            "id": "UMLS:C0001455"
+        },
+        {
+            "entityId": "2983_2987",
+            "span": {
+                "begin": 2983,
+                "end": 2987
+            },
+            "entityType": "drug",
+            "entityName": "cAMP",
+            "id": "UMLS:C0050063"
+        },
+        {
+            "entityId": "2993_3009",
+            "span": {
+                "begin": 2993,
+                "end": 3009
+            },
+            "entityType": "gene",
+            "entityName": "protein kinase A",
+            "id": "UMLS:C0010531"
+        },
+        {
+            "entityId": "3011_3014",
+            "span": {
+                "begin": 3011,
+                "end": 3014
+            },
+            "entityType": "gene",
+            "entityName": "PKA",
+            "id": "UMLS:C0010531"
+        },
+        {
+            "entityId": "3038_3045",
+            "span": {
+                "begin": 3038,
+                "end": 3045
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "3087_3099",
+            "span": {
+                "begin": 3087,
+                "end": 3099
+            },
+            "entityType": "drug",
+            "entityName": "Levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "3163_3170",
+            "span": {
+                "begin": 3163,
+                "end": 3170
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "3271_3283",
+            "span": {
+                "begin": 3271,
+                "end": 3283
+            },
+            "entityType": "drug",
+            "entityName": "Levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "3325_3328",
+            "span": {
+                "begin": 3325,
+                "end": 3328
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "3339_3348",
+            "span": {
+                "begin": 3339,
+                "end": 3348
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "3391_3419",
+            "span": {
+                "begin": 3391,
+                "end": 3419
+            },
+            "entityType": "cell",
+            "entityName": "vascular smooth muscle cells",
+            "id": "UMLS:C4082861"
+        },
+        {
+            "entityId": "3451_3469",
+            "span": {
+                "begin": 3451,
+                "end": 3469
+            },
+            "entityType": "gene",
+            "entityName": "mitochondrial KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "3471_3477",
+            "span": {
+                "begin": 3471,
+                "end": 3477
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "3519_3546",
+            "span": {
+                "begin": 3519,
+                "end": 3546
+            },
+            "entityType": "disease",
+            "entityName": "ischemia-reperfusion injury",
+            "id": "mesh:D015427"
+        },
+        {
+            "entityId": "3579_3591",
+            "span": {
+                "begin": 3579,
+                "end": 3591
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "3657_3672",
+            "span": {
+                "begin": 3657,
+                "end": 3672
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "3677_3706",
+            "span": {
+                "begin": 3677,
+                "end": 3706
+            },
+            "entityType": "gene",
+            "entityName": "phosphatidylinositol 3-kinase",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "3708_3712",
+            "span": {
+                "begin": 3708,
+                "end": 3712
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "3800_3804",
+            "span": {
+                "begin": 3800,
+                "end": 3804
+            },
+            "entityType": "drug",
+            "entityName": "cAMP",
+            "id": "UMLS:C0050063"
+        },
+        {
+            "entityId": "3805_3808",
+            "span": {
+                "begin": 3805,
+                "end": 3808
+            },
+            "entityType": "gene",
+            "entityName": "PKA",
+            "id": "UMLS:C0010531"
+        },
+        {
+            "entityId": "3832_3848",
+            "span": {
+                "begin": 3832,
+                "end": 3848
+            },
+            "entityType": "gene",
+            "entityName": "protein kinase C",
+            "id": "UMLS:C0033634"
+        },
+        {
+            "entityId": "3850_3853",
+            "span": {
+                "begin": 3850,
+                "end": 3853
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "3859_3865",
+            "span": {
+                "begin": 3859,
+                "end": 3865
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "3904_3913",
+            "span": {
+                "begin": 3904,
+                "end": 3913
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "3918_3930",
+            "span": {
+                "begin": 3918,
+                "end": 3930
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "4027_4029",
+            "span": {
+                "begin": 4027,
+                "end": 4029
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "4062_4065",
+            "span": {
+                "begin": 4062,
+                "end": 4065
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "4071_4077",
+            "span": {
+                "begin": 4071,
+                "end": 4077
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "4154_4156",
+            "span": {
+                "begin": 4154,
+                "end": 4156
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "4191_4204",
+            "span": {
+                "begin": 4191,
+                "end": 4204
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "4212_4219",
+            "span": {
+                "begin": 4212,
+                "end": 4219
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "4331_4341",
+            "span": {
+                "begin": 4331,
+                "end": 4341
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "4420_4438",
+            "span": {
+                "begin": 4420,
+                "end": 4438
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "4594_4599",
+            "span": {
+                "begin": 4594,
+                "end": 4599
+            },
+            "entityType": "gene",
+            "entityName": "PDE-I",
+            "id": "UMLS:C0221138"
+        },
+        {
+            "entityId": "4639_4645",
+            "span": {
+                "begin": 4639,
+                "end": 4645
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "4681_4683",
+            "span": {
+                "begin": 4681,
+                "end": 4683
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "4773_4777",
+            "span": {
+                "begin": 4773,
+                "end": 4777
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "4871_4905",
+            "span": {
+                "begin": 4871,
+                "end": 4905
+            },
+            "entityType": "gene",
+            "entityName": "Reperfusion Injury Salvage Kinases",
+            "id": "UMLS:C0031727"
+        },
+        {
+            "entityId": "4972_4976",
+            "span": {
+                "begin": 4972,
+                "end": 4976
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "5008_5010",
+            "span": {
+                "begin": 5008,
+                "end": 5010
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "5066_5084",
+            "span": {
+                "begin": 5066,
+                "end": 5084
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "5144_5146",
+            "span": {
+                "begin": 5144,
+                "end": 5146
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "5176_5188",
+            "span": {
+                "begin": 5176,
+                "end": 5188
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "5225_5240",
+            "span": {
+                "begin": 5225,
+                "end": 5240
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "5271_5280",
+            "span": {
+                "begin": 5271,
+                "end": 5280
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "5286_5298",
+            "span": {
+                "begin": 5286,
+                "end": 5298
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "5352_5356",
+            "span": {
+                "begin": 5352,
+                "end": 5356
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "5572_5581",
+            "span": {
+                "begin": 5572,
+                "end": 5581
+            },
+            "entityType": "drug",
+            "entityName": "Milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "5637_5649",
+            "span": {
+                "begin": 5637,
+                "end": 5649
+            },
+            "entityType": "drug",
+            "entityName": "Levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "5651_5664",
+            "span": {
+                "begin": 5651,
+                "end": 5664
+            },
+            "entityType": "drug",
+            "entityName": "atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "5670_5705",
+            "span": {
+                "begin": 5670,
+                "end": 5705
+            },
+            "entityType": "drug",
+            "entityName": "2,3,5-triphenyltetrazolium chloride",
+            "id": "UMLS:C0146883"
+        },
+        {
+            "entityId": "5707_5710",
+            "span": {
+                "begin": 5707,
+                "end": 5710
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "5857_5868",
+            "span": {
+                "begin": 5857,
+                "end": 5868
+            },
+            "entityType": "species",
+            "entityName": "Wistar rats",
+            "id": "UMLS:C0034716"
+        },
+        {
+            "entityId": "5923_5943",
+            "span": {
+                "begin": 5923,
+                "end": 5943
+            },
+            "entityType": "drug",
+            "entityName": "sodium pentobarbital",
+            "id": "UMLS:C0700349"
+        },
+        {
+            "entityId": "6037_6041",
+            "span": {
+                "begin": 6037,
+                "end": 6041
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "6501_6507",
+            "span": {
+                "begin": 6501,
+                "end": 6507
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "6756_6763",
+            "span": {
+                "begin": 6756,
+                "end": 6763
+            },
+            "entityType": "drug",
+            "entityName": "prolene",
+            "id": "UMLS:C0917843"
+        },
+        {
+            "entityId": "7170_7189",
+            "span": {
+                "begin": 7170,
+                "end": 7189
+            },
+            "entityType": "disease",
+            "entityName": "epicardial cyanosis",
+            "id": "UMLS:C0010520"
+        },
+        {
+            "entityId": "7662_7666",
+            "span": {
+                "begin": 7662,
+                "end": 7666
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "7824_7833",
+            "span": {
+                "begin": 7824,
+                "end": 7833
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "7839_7851",
+            "span": {
+                "begin": 7839,
+                "end": 7851
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "7932_7943",
+            "span": {
+                "begin": 7932,
+                "end": 7943
+            },
+            "entityType": "species",
+            "entityName": "Wistar rats",
+            "id": "UMLS:C0034716"
+        },
+        {
+            "entityId": "7983_7987",
+            "span": {
+                "begin": 7983,
+                "end": 7987
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "8025_8034",
+            "span": {
+                "begin": 8025,
+                "end": 8034
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "8070_8079",
+            "span": {
+                "begin": 8070,
+                "end": 8079
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "8115_8127",
+            "span": {
+                "begin": 8115,
+                "end": 8127
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "8164_8176",
+            "span": {
+                "begin": 8164,
+                "end": 8176
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "8312_8321",
+            "span": {
+                "begin": 8312,
+                "end": 8321
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "8327_8339",
+            "span": {
+                "begin": 8327,
+                "end": 8339
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "8360_8362",
+            "span": {
+                "begin": 8360,
+                "end": 8362
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8400_8402",
+            "span": {
+                "begin": 8400,
+                "end": 8402
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8404_8415",
+            "span": {
+                "begin": 8404,
+                "end": 8415
+            },
+            "entityType": "species",
+            "entityName": "Wistar rats",
+            "id": "UMLS:C0034716"
+        },
+        {
+            "entityId": "8462_8464",
+            "span": {
+                "begin": 8462,
+                "end": 8464
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8466_8470",
+            "span": {
+                "begin": 8466,
+                "end": 8470
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "8484_8491",
+            "span": {
+                "begin": 8484,
+                "end": 8491
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "8528_8536",
+            "span": {
+                "begin": 8528,
+                "end": 8536
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "8598_8605",
+            "span": {
+                "begin": 8598,
+                "end": 8605
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "8676_8680",
+            "span": {
+                "begin": 8676,
+                "end": 8680
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "8704_8706",
+            "span": {
+                "begin": 8704,
+                "end": 8706
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8721_8730",
+            "span": {
+                "begin": 8721,
+                "end": 8730
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "8751_8753",
+            "span": {
+                "begin": 8751,
+                "end": 8753
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8769_8781",
+            "span": {
+                "begin": 8769,
+                "end": 8781
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "8802_8804",
+            "span": {
+                "begin": 8802,
+                "end": 8804
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8820_8832",
+            "span": {
+                "begin": 8820,
+                "end": 8832
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "8853_8855",
+            "span": {
+                "begin": 8853,
+                "end": 8855
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "8874_8886",
+            "span": {
+                "begin": 8874,
+                "end": 8886
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "8908_8910",
+            "span": {
+                "begin": 8908,
+                "end": 8910
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "9039_9043",
+            "span": {
+                "begin": 9039,
+                "end": 9043
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "9047_9056",
+            "span": {
+                "begin": 9047,
+                "end": 9056
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "9062_9074",
+            "span": {
+                "begin": 9062,
+                "end": 9074
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "9100_9113",
+            "span": {
+                "begin": 9100,
+                "end": 9113
+            },
+            "entityType": "drug",
+            "entityName": "Atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "9226_9235",
+            "span": {
+                "begin": 9226,
+                "end": 9235
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "9239_9251",
+            "span": {
+                "begin": 9239,
+                "end": 9251
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "9307_9309",
+            "span": {
+                "begin": 9307,
+                "end": 9309
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "9324_9337",
+            "span": {
+                "begin": 9324,
+                "end": 9337
+            },
+            "entityType": "drug",
+            "entityName": "atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "9471_9480",
+            "span": {
+                "begin": 9471,
+                "end": 9480
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "9498_9510",
+            "span": {
+                "begin": 9498,
+                "end": 9510
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "9538_9547",
+            "span": {
+                "begin": 9538,
+                "end": 9547
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "9565_9577",
+            "span": {
+                "begin": 9565,
+                "end": 9577
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "9598_9600",
+            "span": {
+                "begin": 9598,
+                "end": 9600
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "9608_9615",
+            "span": {
+                "begin": 9608,
+                "end": 9615
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9674_9681",
+            "span": {
+                "begin": 9674,
+                "end": 9681
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9689_9693",
+            "span": {
+                "begin": 9689,
+                "end": 9693
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "9705_9712",
+            "span": {
+                "begin": 9705,
+                "end": 9712
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9741_9756",
+            "span": {
+                "begin": 9741,
+                "end": 9756
+            },
+            "entityType": "gene",
+            "entityName": "glucose oxidase",
+            "id": "UMLS:C0017735"
+        },
+        {
+            "entityId": "9879_9886",
+            "span": {
+                "begin": 9879,
+                "end": 9886
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9915_9923",
+            "span": {
+                "begin": 9915,
+                "end": 9923
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "9940_9947",
+            "span": {
+                "begin": 9940,
+                "end": 9947
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "10116_10127",
+            "span": {
+                "begin": 10116,
+                "end": 10127
+            },
+            "entityType": "drug",
+            "entityName": "Patent blue",
+            "id": "UMLS:C4691336"
+        },
+        {
+            "entityId": "10494_10497",
+            "span": {
+                "begin": 10494,
+                "end": 10497
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "10507_10516",
+            "span": {
+                "begin": 10507,
+                "end": 10516
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "10590_10602",
+            "span": {
+                "begin": 10590,
+                "end": 10602
+            },
+            "entityType": "drug",
+            "entityName": "formaldehyde",
+            "id": "UMLS:C0016564"
+        },
+        {
+            "entityId": "10621_10624",
+            "span": {
+                "begin": 10621,
+                "end": 10624
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "10657_10660",
+            "span": {
+                "begin": 10657,
+                "end": 10660
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "10715_10718",
+            "span": {
+                "begin": 10715,
+                "end": 10718
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "10924_10927",
+            "span": {
+                "begin": 10924,
+                "end": 10927
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "11283_11290",
+            "span": {
+                "begin": 11283,
+                "end": 11290
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "11990_11994",
+            "span": {
+                "begin": 11990,
+                "end": 11994
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "12026_12044",
+            "span": {
+                "begin": 12026,
+                "end": 12044
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "12082_12086",
+            "span": {
+                "begin": 12082,
+                "end": 12086
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "12184_12207",
+            "span": {
+                "begin": 12184,
+                "end": 12207
+            },
+            "entityType": "disease",
+            "entityName": "ventricular arrhythmias",
+            "id": "UMLS:C0085612"
+        },
+        {
+            "entityId": "12230_12234",
+            "span": {
+                "begin": 12230,
+                "end": 12234
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "12368_12370",
+            "span": {
+                "begin": 12368,
+                "end": 12370
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12391_12393",
+            "span": {
+                "begin": 12391,
+                "end": 12393
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12416_12418",
+            "span": {
+                "begin": 12416,
+                "end": 12418
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12441_12443",
+            "span": {
+                "begin": 12441,
+                "end": 12443
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12547_12549",
+            "span": {
+                "begin": 12547,
+                "end": 12549
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12601_12611",
+            "span": {
+                "begin": 12601,
+                "end": 12611
+            },
+            "entityType": "disease",
+            "entityName": "arrhythmic",
+            "id": "mim:115000"
+        },
+        {
+            "entityId": "12653_12657",
+            "span": {
+                "begin": 12653,
+                "end": 12657
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "12893_12905",
+            "span": {
+                "begin": 12893,
+                "end": 12905
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "16723_16727",
+            "span": {
+                "begin": 16723,
+                "end": 16727
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "16739_16748",
+            "span": {
+                "begin": 16739,
+                "end": 16748
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "16763_16775",
+            "span": {
+                "begin": 16763,
+                "end": 16775
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "16924_16933",
+            "span": {
+                "begin": 16924,
+                "end": 16933
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "16947_16959",
+            "span": {
+                "begin": 16947,
+                "end": 16959
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "17062_17064",
+            "span": {
+                "begin": 17062,
+                "end": 17064
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17065_17069",
+            "span": {
+                "begin": 17065,
+                "end": 17069
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "17113_17125",
+            "span": {
+                "begin": 17113,
+                "end": 17125
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "17182_17184",
+            "span": {
+                "begin": 17182,
+                "end": 17184
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17203_17205",
+            "span": {
+                "begin": 17203,
+                "end": 17205
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17224_17226",
+            "span": {
+                "begin": 17224,
+                "end": 17226
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17244_17246",
+            "span": {
+                "begin": 17244,
+                "end": 17246
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17287_17296",
+            "span": {
+                "begin": 17287,
+                "end": 17296
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "17356_17358",
+            "span": {
+                "begin": 17356,
+                "end": 17358
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17359_17363",
+            "span": {
+                "begin": 17359,
+                "end": 17363
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "17365_17367",
+            "span": {
+                "begin": 17365,
+                "end": 17367
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17409_17422",
+            "span": {
+                "begin": 17409,
+                "end": 17422
+            },
+            "entityType": "drug",
+            "entityName": "atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "17462_17471",
+            "span": {
+                "begin": 17462,
+                "end": 17471
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "17476_17488",
+            "span": {
+                "begin": 17476,
+                "end": 17488
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "17537_17539",
+            "span": {
+                "begin": 17537,
+                "end": 17539
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17565_17567",
+            "span": {
+                "begin": 17565,
+                "end": 17567
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "17593_17606",
+            "span": {
+                "begin": 17593,
+                "end": 17606
+            },
+            "entityType": "drug",
+            "entityName": "Atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "19187_19194",
+            "span": {
+                "begin": 19187,
+                "end": 19194
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19213_19220",
+            "span": {
+                "begin": 19213,
+                "end": 19220
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19299_19306",
+            "span": {
+                "begin": 19299,
+                "end": 19306
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19418_19425",
+            "span": {
+                "begin": 19418,
+                "end": 19425
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19436_19440",
+            "span": {
+                "begin": 19436,
+                "end": 19440
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "19444_19446",
+            "span": {
+                "begin": 19444,
+                "end": 19446
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "19485_19492",
+            "span": {
+                "begin": 19485,
+                "end": 19492
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "19513_19517",
+            "span": {
+                "begin": 19513,
+                "end": 19517
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "21065_21074",
+            "span": {
+                "begin": 21065,
+                "end": 21074
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "21114_21116",
+            "span": {
+                "begin": 21114,
+                "end": 21116
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21153_21165",
+            "span": {
+                "begin": 21153,
+                "end": 21165
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "21213_21215",
+            "span": {
+                "begin": 21213,
+                "end": 21215
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21299_21301",
+            "span": {
+                "begin": 21299,
+                "end": 21301
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21318_21322",
+            "span": {
+                "begin": 21318,
+                "end": 21322
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "21363_21365",
+            "span": {
+                "begin": 21363,
+                "end": 21365
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21405_21407",
+            "span": {
+                "begin": 21405,
+                "end": 21407
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "21600_21615",
+            "span": {
+                "begin": 21600,
+                "end": 21615
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "21665_21669",
+            "span": {
+                "begin": 21665,
+                "end": 21669
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "21670_21673",
+            "span": {
+                "begin": 21670,
+                "end": 21673
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "21675_21678",
+            "span": {
+                "begin": 21675,
+                "end": 21678
+            },
+            "entityType": "gene",
+            "entityName": "p42",
+            "id": "NCBIGene:8814"
+        },
+        {
+            "entityId": "21679_21682",
+            "span": {
+                "begin": 21679,
+                "end": 21682
+            },
+            "entityType": "gene",
+            "entityName": "p44",
+            "id": "UMLS:C1415344"
+        },
+        {
+            "entityId": "21683_21721",
+            "span": {
+                "begin": 21683,
+                "end": 21721
+            },
+            "entityType": "gene",
+            "entityName": "extracellular signal-regulated kinases",
+            "id": "UMLS:C0600388"
+        },
+        {
+            "entityId": "21723_21730",
+            "span": {
+                "begin": 21723,
+                "end": 21730
+            },
+            "entityType": "gene",
+            "entityName": "ERK 1/2",
+            "id": "UMLS:C2713871"
+        },
+        {
+            "entityId": "21733_21763",
+            "span": {
+                "begin": 21733,
+                "end": 21763
+            },
+            "entityType": "gene",
+            "entityName": "glycogen synthase kinase-3beta",
+            "id": "UMLS:C1415321"
+        },
+        {
+            "entityId": "21765_21774",
+            "span": {
+                "begin": 21765,
+                "end": 21774
+            },
+            "entityType": "gene",
+            "entityName": "GSK-3beta",
+            "id": "UMLS:C0244988"
+        },
+        {
+            "entityId": "21777_21810",
+            "span": {
+                "begin": 21777,
+                "end": 21810
+            },
+            "entityType": "gene",
+            "entityName": "endothelial nitric oxide synthase",
+            "id": "UMLS:C1328053"
+        },
+        {
+            "entityId": "21812_21816",
+            "span": {
+                "begin": 21812,
+                "end": 21816
+            },
+            "entityType": "gene",
+            "entityName": "eNOS",
+            "id": "UMLS:C1328053"
+        },
+        {
+            "entityId": "21823_21826",
+            "span": {
+                "begin": 21823,
+                "end": 21826
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "21837_21843",
+            "span": {
+                "begin": 21837,
+                "end": 21843
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "21988_22003",
+            "span": {
+                "begin": 21988,
+                "end": 22003
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "22132_22134",
+            "span": {
+                "begin": 22132,
+                "end": 22134
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22145_22155",
+            "span": {
+                "begin": 22145,
+                "end": 22155
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "22191_22207",
+            "span": {
+                "begin": 22191,
+                "end": 22207
+            },
+            "entityType": "drug",
+            "entityName": "N-acetylcysteine",
+            "id": "UMLS:C0001047"
+        },
+        {
+            "entityId": "22308_22310",
+            "span": {
+                "begin": 22308,
+                "end": 22310
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22318_22328",
+            "span": {
+                "begin": 22318,
+                "end": 22328
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "22351_22366",
+            "span": {
+                "begin": 22351,
+                "end": 22366
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "22401_22403",
+            "span": {
+                "begin": 22401,
+                "end": 22403
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22413_22423",
+            "span": {
+                "begin": 22413,
+                "end": 22423
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "22506_22509",
+            "span": {
+                "begin": 22506,
+                "end": 22509
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "22514_22518",
+            "span": {
+                "begin": 22514,
+                "end": 22518
+            },
+            "entityType": "gene",
+            "entityName": "eNOS",
+            "id": "UMLS:C1328053"
+        },
+        {
+            "entityId": "22537_22539",
+            "span": {
+                "begin": 22537,
+                "end": 22539
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22544_22552",
+            "span": {
+                "begin": 22544,
+                "end": 22552
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "22616_22618",
+            "span": {
+                "begin": 22616,
+                "end": 22618
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22645_22659",
+            "span": {
+                "begin": 22645,
+                "end": 22659
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "22673_22696",
+            "span": {
+                "begin": 22673,
+                "end": 22696
+            },
+            "entityType": "disease",
+            "entityName": "diabetic cardiomyopathy",
+            "id": "UMLS:C0853897"
+        },
+        {
+            "entityId": "22705_22727",
+            "span": {
+                "begin": 22705,
+                "end": 22727
+            },
+            "entityType": "gene",
+            "entityName": "GATA binding protein 4",
+            "id": "UMLS:C1414995"
+        },
+        {
+            "entityId": "22779_22789",
+            "span": {
+                "begin": 22779,
+                "end": 22789
+            },
+            "entityType": "gene",
+            "entityName": "troponin I",
+            "id": "UMLS:C0077401"
+        },
+        {
+            "entityId": "22818_22820",
+            "span": {
+                "begin": 22818,
+                "end": 22820
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "22834_22848",
+            "span": {
+                "begin": 22834,
+                "end": 22848
+            },
+            "entityType": "gene",
+            "entityName": "death receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22884_22917",
+            "span": {
+                "begin": 22884,
+                "end": 22917
+            },
+            "entityType": "gene",
+            "entityName": "tumor necrosis factor (TNF)-alpha",
+            "id": "UMLS:C1448177"
+        },
+        {
+            "entityId": "22938_22954",
+            "span": {
+                "begin": 22938,
+                "end": 22954
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cell",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "23006_23047",
+            "span": {
+                "begin": 23006,
+                "end": 23047
+            },
+            "entityType": "disease",
+            "entityName": "coronary arterial endothelial dysfunction",
+            "id": "UMLS:C0856169"
+        },
+        {
+            "entityId": "23071_23093",
+            "span": {
+                "begin": 23071,
+                "end": 23093
+            },
+            "entityType": "disease",
+            "entityName": "ischemic heart disease",
+            "id": "UMLS:C0010054"
+        },
+        {
+            "entityId": "23097_23105",
+            "span": {
+                "begin": 23097,
+                "end": 23105
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23223_23231",
+            "span": {
+                "begin": 23223,
+                "end": 23231
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23237_23245",
+            "span": {
+                "begin": 23237,
+                "end": 23245
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23292_23300",
+            "span": {
+                "begin": 23292,
+                "end": 23300
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23340_23342",
+            "span": {
+                "begin": 23340,
+                "end": 23342
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "23423_23431",
+            "span": {
+                "begin": 23423,
+                "end": 23431
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "23445_23463",
+            "span": {
+                "begin": 23445,
+                "end": 23463
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "23519_23522",
+            "span": {
+                "begin": 23519,
+                "end": 23522
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "23561_23569",
+            "span": {
+                "begin": 23561,
+                "end": 23569
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "23576_23584",
+            "span": {
+                "begin": 23576,
+                "end": 23584
+            },
+            "entityType": "disease",
+            "entityName": "Diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23594_23608",
+            "span": {
+                "begin": 23594,
+                "end": 23608
+            },
+            "entityType": "gene",
+            "entityName": "erythropoietin",
+            "id": "UMLS:C0014822"
+        },
+        {
+            "entityId": "23614_23622",
+            "span": {
+                "begin": 23614,
+                "end": 23622
+            },
+            "entityType": "drug",
+            "entityName": "morphine",
+            "id": "UMLS:C0026549"
+        },
+        {
+            "entityId": "23645_23649",
+            "span": {
+                "begin": 23645,
+                "end": 23649
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "23650_23653",
+            "span": {
+                "begin": 23650,
+                "end": 23653
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "23655_23662",
+            "span": {
+                "begin": 23655,
+                "end": 23662
+            },
+            "entityType": "gene",
+            "entityName": "ERK 1/2",
+            "id": "UMLS:C2713871"
+        },
+        {
+            "entityId": "23682_23691",
+            "span": {
+                "begin": 23682,
+                "end": 23691
+            },
+            "entityType": "gene",
+            "entityName": "GSK-3beta",
+            "id": "UMLS:C0244988"
+        },
+        {
+            "entityId": "23739_23748",
+            "span": {
+                "begin": 23739,
+                "end": 23748
+            },
+            "entityType": "gene",
+            "entityName": "GSK-3beta",
+            "id": "UMLS:C0244988"
+        },
+        {
+            "entityId": "23760_23768",
+            "span": {
+                "begin": 23760,
+                "end": 23768
+            },
+            "entityType": "drug",
+            "entityName": "SB216763",
+            "id": "UMLS:C0962871"
+        },
+        {
+            "entityId": "23778_23796",
+            "span": {
+                "begin": 23778,
+                "end": 23796
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "23814_23818",
+            "span": {
+                "begin": 23814,
+                "end": 23818
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "23846_23850",
+            "span": {
+                "begin": 23846,
+                "end": 23850
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "23888_23896",
+            "span": {
+                "begin": 23888,
+                "end": 23896
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "23994_23998",
+            "span": {
+                "begin": 23994,
+                "end": 23998
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "23999_24002",
+            "span": {
+                "begin": 23999,
+                "end": 24002
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "24007_24014",
+            "span": {
+                "begin": 24007,
+                "end": 24014
+            },
+            "entityType": "gene",
+            "entityName": "ERK 1/2",
+            "id": "UMLS:C2713871"
+        },
+        {
+            "entityId": "24069_24071",
+            "span": {
+                "begin": 24069,
+                "end": 24071
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "24076_24084",
+            "span": {
+                "begin": 24076,
+                "end": 24084
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "24260_24272",
+            "span": {
+                "begin": 24260,
+                "end": 24272
+            },
+            "entityType": "drug",
+            "entityName": "Levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "24277_24286",
+            "span": {
+                "begin": 24277,
+                "end": 24286
+            },
+            "entityType": "drug",
+            "entityName": "Milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "24293_24295",
+            "span": {
+                "begin": 24293,
+                "end": 24295
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "24318_24330",
+            "span": {
+                "begin": 24318,
+                "end": 24330
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "24362_24364",
+            "span": {
+                "begin": 24362,
+                "end": 24364
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "24465_24474",
+            "span": {
+                "begin": 24465,
+                "end": 24474
+            },
+            "entityType": "drug",
+            "entityName": "diazoxide",
+            "id": "UMLS:C0012022"
+        },
+        {
+            "entityId": "24479_24485",
+            "span": {
+                "begin": 24479,
+                "end": 24485
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "24571_24580",
+            "span": {
+                "begin": 24571,
+                "end": 24580
+            },
+            "entityType": "drug",
+            "entityName": "diazoxide",
+            "id": "UMLS:C0012022"
+        },
+        {
+            "entityId": "24589_24607",
+            "span": {
+                "begin": 24589,
+                "end": 24607
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "24625_24627",
+            "span": {
+                "begin": 24625,
+                "end": 24627
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "24649_24655",
+            "span": {
+                "begin": 24649,
+                "end": 24655
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "24733_24735",
+            "span": {
+                "begin": 24733,
+                "end": 24735
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "24810_24822",
+            "span": {
+                "begin": 24810,
+                "end": 24822
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "24871_24889",
+            "span": {
+                "begin": 24871,
+                "end": 24889
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "24938_24960",
+            "span": {
+                "begin": 24938,
+                "end": 24960
+            },
+            "entityType": "drug",
+            "entityName": "5-hydroxydecanoic acid",
+            "id": "UMLS:C0098451"
+        },
+        {
+            "entityId": "24965_24971",
+            "span": {
+                "begin": 24965,
+                "end": 24971
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "25013_25015",
+            "span": {
+                "begin": 25013,
+                "end": 25015
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "25043_25055",
+            "span": {
+                "begin": 25043,
+                "end": 25055
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "25109_25123",
+            "span": {
+                "begin": 25109,
+                "end": 25123
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channel",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "25182_25194",
+            "span": {
+                "begin": 25182,
+                "end": 25194
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "25196_25205",
+            "span": {
+                "begin": 25196,
+                "end": 25205
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "25242_25244",
+            "span": {
+                "begin": 25242,
+                "end": 25244
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "25336_25345",
+            "span": {
+                "begin": 25336,
+                "end": 25345
+            },
+            "entityType": "drug",
+            "entityName": "olprinone",
+            "id": "UMLS:C0637063"
+        },
+        {
+            "entityId": "25349_25354",
+            "span": {
+                "begin": 25349,
+                "end": 25354
+            },
+            "entityType": "gene",
+            "entityName": "PDE-I",
+            "id": "UMLS:C0221138"
+        },
+        {
+            "entityId": "25364_25382",
+            "span": {
+                "begin": 25364,
+                "end": 25382
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "25391_25406",
+            "span": {
+                "begin": 25391,
+                "end": 25406
+            },
+            "entityType": "disease",
+            "entityName": "type 2 diabetic",
+            "id": "mesh:D003924"
+        },
+        {
+            "entityId": "25407_25411",
+            "span": {
+                "begin": 25407,
+                "end": 25411
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "25450_25454",
+            "span": {
+                "begin": 25450,
+                "end": 25454
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "25465_25474",
+            "span": {
+                "begin": 25465,
+                "end": 25474
+            },
+            "entityType": "drug",
+            "entityName": "olprinone",
+            "id": "UMLS:C0637063"
+        },
+        {
+            "entityId": "25506_25521",
+            "span": {
+                "begin": 25506,
+                "end": 25521
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "25526_25529",
+            "span": {
+                "begin": 25526,
+                "end": 25529
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "25567_25579",
+            "span": {
+                "begin": 25567,
+                "end": 25579
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "25611_25626",
+            "span": {
+                "begin": 25611,
+                "end": 25626
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "25631_25634",
+            "span": {
+                "begin": 25631,
+                "end": 25634
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "25645_25654",
+            "span": {
+                "begin": 25645,
+                "end": 25654
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "25709_25715",
+            "span": {
+                "begin": 25709,
+                "end": 25715
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "25729_25732",
+            "span": {
+                "begin": 25729,
+                "end": 25732
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "25752_25761",
+            "span": {
+                "begin": 25752,
+                "end": 25761
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "25838_25853",
+            "span": {
+                "begin": 25838,
+                "end": 25853
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "25885_25887",
+            "span": {
+                "begin": 25885,
+                "end": 25887
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "25926_25930",
+            "span": {
+                "begin": 25926,
+                "end": 25930
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "25982_25994",
+            "span": {
+                "begin": 25982,
+                "end": 25994
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "26024_26028",
+            "span": {
+                "begin": 26024,
+                "end": 26028
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "26075_26079",
+            "span": {
+                "begin": 26075,
+                "end": 26079
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "26221_26236",
+            "span": {
+                "begin": 26221,
+                "end": 26236
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "26311_26323",
+            "span": {
+                "begin": 26311,
+                "end": 26323
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "26352_26366",
+            "span": {
+                "begin": 26352,
+                "end": 26366
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channel",
+            "id": "UMLS:C0369637"
+        },
+        {
+            "entityId": "26371_26375",
+            "span": {
+                "begin": 26371,
+                "end": 26375
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "26411_26424",
+            "span": {
+                "begin": 26411,
+                "end": 26424
+            },
+            "entityType": "drug",
+            "entityName": "atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "26451_26460",
+            "span": {
+                "begin": 26451,
+                "end": 26460
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "26537_26541",
+            "span": {
+                "begin": 26537,
+                "end": 26541
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "26604_26613",
+            "span": {
+                "begin": 26604,
+                "end": 26613
+            },
+            "entityType": "drug",
+            "entityName": "olprinone",
+            "id": "UMLS:C0637063"
+        },
+        {
+            "entityId": "26722_26726",
+            "span": {
+                "begin": 26722,
+                "end": 26726
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "26727_26730",
+            "span": {
+                "begin": 26727,
+                "end": 26730
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "26755_26759",
+            "span": {
+                "begin": 26755,
+                "end": 26759
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "26830_26839",
+            "span": {
+                "begin": 26830,
+                "end": 26839
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "26845_26857",
+            "span": {
+                "begin": 26845,
+                "end": 26857
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "26914_26917",
+            "span": {
+                "begin": 26914,
+                "end": 26917
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "27006_27010",
+            "span": {
+                "begin": 27006,
+                "end": 27010
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "27011_27014",
+            "span": {
+                "begin": 27011,
+                "end": 27014
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "27054_27058",
+            "span": {
+                "begin": 27054,
+                "end": 27058
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "27122_27126",
+            "span": {
+                "begin": 27122,
+                "end": 27126
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "27130_27133",
+            "span": {
+                "begin": 27130,
+                "end": 27133
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "27158_27165",
+            "span": {
+                "begin": 27158,
+                "end": 27165
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "27193_27211",
+            "span": {
+                "begin": 27193,
+                "end": 27211
+            },
+            "entityType": "cell",
+            "entityName": "rat cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27241_27244",
+            "span": {
+                "begin": 27241,
+                "end": 27244
+            },
+            "entityType": "gene",
+            "entityName": "Akt",
+            "id": "UMLS:C0812228"
+        },
+        {
+            "entityId": "27250_27275",
+            "span": {
+                "begin": 27250,
+                "end": 27275
+            },
+            "entityType": "cell",
+            "entityName": "cardiac-derived cell line",
+            "id": "UMLS:C4744827"
+        },
+        {
+            "entityId": "27284_27288",
+            "span": {
+                "begin": 27284,
+                "end": 27288
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "27344_27363",
+            "span": {
+                "begin": 27344,
+                "end": 27363
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "27457_27465",
+            "span": {
+                "begin": 27457,
+                "end": 27465
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27618_27620",
+            "span": {
+                "begin": 27618,
+                "end": 27620
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "27700_27702",
+            "span": {
+                "begin": 27700,
+                "end": 27702
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "27713_27721",
+            "span": {
+                "begin": 27713,
+                "end": 27721
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27763_27765",
+            "span": {
+                "begin": 27763,
+                "end": 27765
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "27783_27791",
+            "span": {
+                "begin": 27783,
+                "end": 27791
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "27906_27929",
+            "span": {
+                "begin": 27906,
+                "end": 27929
+            },
+            "entityType": "disease",
+            "entityName": "diabetic cardiomyopathy",
+            "id": "UMLS:C0853897"
+        },
+        {
+            "entityId": "27934_27957",
+            "span": {
+                "begin": 27934,
+                "end": 27957
+            },
+            "entityType": "disease",
+            "entityName": "endothelial dysfunction",
+            "id": "UMLS:C0856169"
+        },
+        {
+            "entityId": "28103_28112",
+            "span": {
+                "begin": 28103,
+                "end": 28112
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "28117_28129",
+            "span": {
+                "begin": 28117,
+                "end": 28129
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "28183_28185",
+            "span": {
+                "begin": 28183,
+                "end": 28185
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "28210_28222",
+            "span": {
+                "begin": 28210,
+                "end": 28222
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "28244_28253",
+            "span": {
+                "begin": 28244,
+                "end": 28253
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "28289_28291",
+            "span": {
+                "begin": 28289,
+                "end": 28291
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "28365_28367",
+            "span": {
+                "begin": 28365,
+                "end": 28367
+            },
+            "entityType": "disease",
+            "entityName": "HG",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "28369_28382",
+            "span": {
+                "begin": 28369,
+                "end": 28382
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "28432_28437",
+            "span": {
+                "begin": 28432,
+                "end": 28437
+            },
+            "entityType": "gene",
+            "entityName": "PDE-I",
+            "id": "UMLS:C0221138"
+        },
+        {
+            "entityId": "28470_28474",
+            "span": {
+                "begin": 28470,
+                "end": 28474
+            },
+            "entityType": "drug",
+            "entityName": "cAMP",
+            "id": "UMLS:C0050063"
+        },
+        {
+            "entityId": "28476_28506",
+            "span": {
+                "begin": 28476,
+                "end": 28506
+            },
+            "entityType": "drug",
+            "entityName": "cyclic adenosine monophosphate",
+            "id": "UMLS:C0001455"
+        },
+        {
+            "entityId": "28508_28511",
+            "span": {
+                "begin": 28508,
+                "end": 28511
+            },
+            "entityType": "gene",
+            "entityName": "PKA",
+            "id": "UMLS:C0010531"
+        },
+        {
+            "entityId": "28513_28529",
+            "span": {
+                "begin": 28513,
+                "end": 28529
+            },
+            "entityType": "gene",
+            "entityName": "protein kinase A",
+            "id": "UMLS:C0010531"
+        },
+        {
+            "entityId": "28559_28572",
+            "span": {
+                "begin": 28559,
+                "end": 28572
+            },
+            "entityType": "gene",
+            "entityName": "KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "28574_28577",
+            "span": {
+                "begin": 28574,
+                "end": 28577
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "28588_28597",
+            "span": {
+                "begin": 28588,
+                "end": 28597
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "28608_28623",
+            "span": {
+                "begin": 28608,
+                "end": 28623
+            },
+            "entityType": "gene",
+            "entityName": "m-KATP channels",
+            "id": "UMLS:C1955862"
+        },
+        {
+            "entityId": "28639_28642",
+            "span": {
+                "begin": 28639,
+                "end": 28642
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "28653_28662",
+            "span": {
+                "begin": 28653,
+                "end": 28662
+            },
+            "entityType": "drug",
+            "entityName": "potassium",
+            "id": "UMLS:C0032821"
+        },
+        {
+            "entityId": "28673_28677",
+            "span": {
+                "begin": 28673,
+                "end": 28677
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "28679_28708",
+            "span": {
+                "begin": 28679,
+                "end": 28708
+            },
+            "entityType": "gene",
+            "entityName": "phosphatidylinositol 3-kinase",
+            "id": "UMLS:C0044602"
+        },
+        {
+            "entityId": "28710_28713",
+            "span": {
+                "begin": 28710,
+                "end": 28713
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "28715_28731",
+            "span": {
+                "begin": 28715,
+                "end": 28731
+            },
+            "entityType": "gene",
+            "entityName": "protein kinase C",
+            "id": "UMLS:C0033634"
+        },
+        {
+            "entityId": "28776_28810",
+            "span": {
+                "begin": 28776,
+                "end": 28810
+            },
+            "entityType": "gene",
+            "entityName": "Reperfusion Injury Salvage Kinases",
+            "id": "UMLS:C0031727"
+        },
+        {
+            "entityId": "28858_28861",
+            "span": {
+                "begin": 28858,
+                "end": 28861
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "28863_28898",
+            "span": {
+                "begin": 28863,
+                "end": 28898
+            },
+            "entityType": "drug",
+            "entityName": "2,3,5-triphenyltetrazolium chloride",
+            "id": "UMLS:C0146883"
+        },
+        {
+            "entityId": "28987_28996",
+            "span": {
+                "begin": 28987,
+                "end": 28996
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "29015_29024",
+            "span": {
+                "begin": 29015,
+                "end": 29024
+            },
+            "entityType": "drug",
+            "entityName": "milrinone",
+            "id": "UMLS:C0128513"
+        },
+        {
+            "entityId": "29042_29054",
+            "span": {
+                "begin": 29042,
+                "end": 29054
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "29072_29084",
+            "span": {
+                "begin": 29072,
+                "end": 29084
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "29104_29116",
+            "span": {
+                "begin": 29104,
+                "end": 29116
+            },
+            "entityType": "drug",
+            "entityName": "levosimendan",
+            "id": "UMLS:C0246904"
+        },
+        {
+            "entityId": "29134_29147",
+            "span": {
+                "begin": 29134,
+                "end": 29147
+            },
+            "entityType": "drug",
+            "entityName": "Atractyloside",
+            "id": "UMLS:C0004233"
+        },
+        {
+            "entityId": "29212_29219",
+            "span": {
+                "begin": 29212,
+                "end": 29219
+            },
+            "entityType": "gene",
+            "entityName": "ERK 1/2",
+            "id": "UMLS:C2713871"
+        },
+        {
+            "entityId": "29221_29224",
+            "span": {
+                "begin": 29221,
+                "end": 29224
+            },
+            "entityType": "gene",
+            "entityName": "p42",
+            "id": "NCBIGene:8814"
+        },
+        {
+            "entityId": "29225_29228",
+            "span": {
+                "begin": 29225,
+                "end": 29228
+            },
+            "entityType": "gene",
+            "entityName": "p44",
+            "id": "UMLS:C1415344"
+        },
+        {
+            "entityId": "29229_29267",
+            "span": {
+                "begin": 29229,
+                "end": 29267
+            },
+            "entityType": "gene",
+            "entityName": "extracellular signal-regulated kinases",
+            "id": "UMLS:C0600388"
+        },
+        {
+            "entityId": "29269_29278",
+            "span": {
+                "begin": 29269,
+                "end": 29278
+            },
+            "entityType": "gene",
+            "entityName": "GSK-3beta",
+            "id": "UMLS:C0244988"
+        },
+        {
+            "entityId": "29280_29310",
+            "span": {
+                "begin": 29280,
+                "end": 29310
+            },
+            "entityType": "gene",
+            "entityName": "glycogen synthase kinase-3beta",
+            "id": "UMLS:C1415321"
+        },
+        {
+            "entityId": "29312_29316",
+            "span": {
+                "begin": 29312,
+                "end": 29316
+            },
+            "entityType": "gene",
+            "entityName": "eNOS",
+            "id": "UMLS:C1328053"
+        },
+        {
+            "entityId": "29318_29351",
+            "span": {
+                "begin": 29318,
+                "end": 29351
+            },
+            "entityType": "gene",
+            "entityName": "endothelial nitric oxide synthase",
+            "id": "UMLS:C1328053"
+        },
+        {
+            "entityId": "29367_29373",
+            "span": {
+                "begin": 29367,
+                "end": 29373
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "29383_29386",
+            "span": {
+                "begin": 29383,
+                "end": 29386
+            },
+            "entityType": "gene",
+            "entityName": "TNF",
+            "id": "UMLS:C1448177"
+        },
+        {
+            "entityId": "29388_29409",
+            "span": {
+                "begin": 29388,
+                "end": 29409
+            },
+            "entityType": "gene",
+            "entityName": "tumor necrosis factor",
+            "id": "UMLS:C1456820"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "812_821",
+            "subjectText": "milrinone",
+            "rel_name": "reduces",
+            "objectId": "842_849",
+            "objectText": "infarct"
+        }
+    ]
+}

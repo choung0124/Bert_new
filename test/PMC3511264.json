@@ -1,0 +1,3179 @@
+{
+    "sourcid": "PMC3511264",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511264/",
+    "text": "Lycopene Protects against Hypoxia/Reoxygenation-Induced Apoptosis by Preventing Mitochondrial Dysfunction in Primary Neonatal Mouse Cardiomyocytes Background Hypoxia/reoxygenation(H/R)-induced apoptosis of cardiomyocytes plays an important role in myocardial injury. Lycopene is a potent antioxidant carotenoid that has been shown to have protective properties on cardiovascular system. The aim of the present study is to investigate the potential for lycopene to protect the cardiomyocytes exposed to H/R. Moreover, the effect on mitochondrial function upon lycopene exposure was assessed. Methods and Findings Primary cardiomyocytes were isolated from neonatal mouse and established an in vitro model of H/R which resembles ischemia/reperfusion in vivo. The pretreatment of cardiomyocytes with 5 microM lycopene significantly reduced the extent of apoptosis detected by TUNEL assays. To further study the mechanism underlying the benefits of lycopene, interactions between lycopene and the process of mitochondria-mediated apoptosis were examined. Lycopene pretreatment of cardiomyocytes suppressed the activation of the mitochondrial permeability transition pore (mPTP) by reducing the intracellular reactive oxygen species (ROS) levels and inhibiting the increase of malondialdehyde (MDA) levels caused by H/R. Moreover, the loss of mitochondrial membrane potential, a decline in cellular ATP levels, a reduction in the amount of cytochrome c translocated to the cytoplasm and caspase-3 activation were observed in lycopene-treated cultures. Conclusion The present results suggested that lycopene possesses great pharmacological potential in protecting against H/R-induced apoptosis. Importantly, the protective effects of lycopene may be attributed to its roles in improving mitochondrial function in H/R-treated cardiomyocytes. Introduction Myocardial infarction is the leading cause of premature death in the United States and many developed countries. Early reperfusion after myocardial infarction is essential for reestablishing the blood flow in order to prevent the myocardium from further damage. Nevertheless, ischemia and reperfusion (I/R)-injury is inevitable, which limits the myocardial salvage. Although the exact mechanism is uncertain, several hypotheses have been proposed to describe the pathogenesis of myocardial I/R-injury: including oxygen radical hypothesis, calcium overload hypothesis and inflammatory hypothesis. As a result, the exploration for a new intrinsic or exogenous method and potential therapeutic agents that aims at reducing the I/R-injury has become an area of intensive research. Lycopene, a carotenoid compound, found naturally in tomato and other fruits like papaya, pink guava and watermelon has long been known for its health-promoting ability. Among naturally occurring carotenoids, lycopene has the strongest ability to scavenge free radicals; being 10-fold, 47-fold and 100-fold more effective at quenching singlet oxygen than alpha-tocopherol, beta-carotene and vitamin E respectively. Thus, lycopene treatment may represent a new therapeutic strategy in treating ROS-related pathophysiological damage. With the strong antioxidant property, lycopene has been shown to have the ability to reduce the risk of cancers, such as breast, prostate and pancreas cancer. It also has protective effect in various chronic conditions like cardiovascular disease (CVD), coronary heart disease (CHD) and atherosclerosis. In fact, higher plasma lycopene concentration is associated with lower risk of CVD in women which is mediated through the regulation of cholesterol metabolism. Nevertheless, little is known about the role of lycopene in cardioprotection and the underlying protective mechanisms during I/R. Besides oxidative stress and apoptosis, mitochondria dysfunction has been shown to exert a key role in myocardial reperfusion injury. Therefore, the aims of the study were to ascertain the protective effects of lycopene on H/R-induced apoptosis and to assess whether the mitochondrial dysfunction was involved in these effects. In this study, we isolated primary cardiomyocytes from neonatal mouse and established an in vitro model of hypoxia/reoxygenation (H/R) which resembles I/R in vivo. Then we investigated the effects of lycopene on H/R injury and discovered that lycopene protects against H/R i-induced apoptosis by improving mitochondrial function. Materials and Methods Primary Cardiomyocyte Culture Cardiomyocytes were prepared from Neonatal C57BL/6 mice (Animal Center of the Third Military Medical University, Chongqing, China). This study was carried out strictly in accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol was approved by the Committee on the Ethics of Animal Experiments of the Third Military Medical University (Permit Number: SYXK(CQ)2007-002). The neonatal mice (1-3 day old) were disinfected with 70% ethanol and then killed by decapitation. The chest was opened and the heart was rapidly removed and placed in the cold CBFHH solution that contains in mM: NaCl 145, D-Glucose 10, KCl 5.4, MgCl2 6H2O 1.2, Na-pyruvate 2, HEPES 10. These hearts were minced with a fine forceps and collected. These tissue fragments were digested by 0.1% trypsin (Hyclone, SH30042.01) for 10 min in a tube in 37 C water bath. After that, the cell suspension was centrifuged (300 g for 8 min at 4 C). The supernatant was then removed and the cell pellet was resuspended in M199 medium (HyClone SH30253.01B) supplemented with 10% fetal bovine serum (HyClone, Logan, UT, USA), 0.5 mM L-Glutamine (Japan, B212), and 1% (v/v) streptomycin/penicillin (Beyotime, C0222). These steps were repeated until the tissue fragments had disappeared. The dissociated cells were replated in a culture flask at 37 C for 1 h to enrich the culture with cardiomyocytes. The nonadherent cardiomyocytes were collected and cells were counted by TC10  Automated cell counter (BIO-RAD Singapore, 506BR3124) and then they were plated onto gelatin-coated well plates. The cells were cultured in M199 medium supplemented with 10% fetal bovine serum, 0.5 mM L-Glutamine, 0.1 mM Bromodeoxyuridine (Brdu) (Sigma, B5002) which was used to prevent proliferation of cadiac fibroblast, and 1% (v/v) streptomycin/penicillin in a 5% CO2-humidified atmosphere at 37 C. The growth medium was changed on the following day with a medium that did not contain Brdu.          Hypoxia/reoxygenation Treatment to Cardiomyocytes Hypoxia/reoxygenation model was established according to the methods previously described with some modifications. After 48-72 h, when the neonatal cardiomyocytes of mice were cultured to 70% confluence in appropriate culture dishes, they were pre-starved using M199 medium without fetal bovine serum for 12 h. Then hypoxia was induced by replacing the initial culture medium with DMEM without glucose and serum, which was preflushed with a gas mixture (95% N2 and 5%CO2) for 15 min. Then cardiomyocytes were placed in a modular incubator chamber (Billups Rothenberg, Inc., Del Mar, CA) and were flushed with the gas mixture of 5% CO2-95% N2 for 60 min. After that, the sealed chamber was placed into a 37 C incubator. After hypoxia incubation, the cells were provided with fresh normal medium and then restored to 95% air and 5% CO2 for reoxygenation. For lycopene treatment, lycopene (Sigma-Aldrich) was dissolved in a tetrahydrofuran (THF) solution containing 0.025% butylated hydroxytoluene (BHT) to inhibit formation of peroxides. This stock solution was prepared with minimal exposure to air and light and stored at -70 C. 4 h prior to the H/R treatment, THF-lycopene aliquots from the stock solution were added to the culture medium to the indicated final concentration. The THF was added in control and H/R groups. The amount of THF Vehicle in the culture medium was 0.05% (V/V), a concentration that did not affect the assays as evidenced by comparisons with vehicle-free control medium.           Viability Assay Cell viability was assessed with the Trypan blue staining viability test as described previously with some modifications. Briefly, the culture medium was removed and transferred to containers. The cells were digested by 0.25% Trypsin (5 min at 37 C). Then, the removed medium was given back to each well to terminate the digestion and the cell suspensions were centrifuged at 300 g for 15 min at 4 C. The pellets were resuspended in 0.4% Trypan blue solution (Sigma) and incubated for 5 min at 37 C. Both the stained dead cells and the unstained viable cells were counted by cell counter. The cell viability was quantified as the percent of unstained cells over all cells.    TUNEL Assay for Apoptosis According to our previous experiments, the terminal deoxynucleoitidyl transferase-mediated biotinylated UTP nick end labeling (TUNEL) assay was performed using an in situ cell death detection kit (Roche, USA). The cardiomyocytes on coverslips were rinsed in phosphate-buffered saline (PBS), pH7.4 and subsequently fixed for 60 min in 4% paraformaldehyde, pH 7.4, at room temperature. After being rinsed twice in PBS, the cardiomyocytes were permeabilized with 0.1% TritonX-100 in 0.1% sodium citrate for 10 min at room temperature. The cardiomyocytes were rinsed two times in PBS again and then apoptotic cells were detected by TUNEL staining following the manufacturer's instructions. At last, cardiomyocytes were counterstained with Hoechst33342 (5 min, at room temperature) (Beyotime, China). TUNEL-positive nuclei were counted in four nonoverlapping fields per coverslip, and then were converted to percentage by comparing TUNEL-positive counts with the total cell nuclei determined by Hoechst33342 counterstaining. Assay was performed in a blinded manner and the experiment was repeated for three times.   Assay of Intracellular Reactive Oxygen Species (ROS) and Malondialdehyde (MDA) Levels The determination of intracellular oxidant production was based on the oxidation of 2', 7'-dichlorofluoresce in diacetate (DCFH-DA) (Beyotime, China). Cardiomyocytes were seeded into a 96-plate at a density of 1x105/well. Following the treatment of H/R, cells were incubated with DCFH-DA at 37 C for 20 min. The fluorescence was read at 485 nm for excitation and 530 nm for emission with an Infinite  M200 Microplate Reader (Tecan, Mannedorf, Switzerland). Then, cells were counted in each group in five nonoverlapping fields randomly to normalize the fluorescence intensity. The amount of emitted fluorescence was correlated with the quantity of ROS in the cell. The experiment was repeated for three times, and cellular fluorescence intensity was expressed as the fold change to the control group.             The intracellular MDA levels were measured using a Lipid Peroxidation MDA Assay Kit (Beyotime, China) following the manufacturer's instructions. First, 1x106 cardiomyocytes were seeded in a 6-well plate. After H/R treatment, cardiomyocytes were collected and lysed by cell lysis buffer and centrifuged at 10,000 g for 15 min. The supernatants were reacted with the thiobarbituric acid (TBA), and the reaction products were measured spectrophotometrically at 535 nm. The experiment was repeated for three times, and the MDA levels were expressed as nmol/mg protein.  Measurement of Mitochondrial Membrane Potential The fluorescent, lipophilic and cationic probe, JC-1 (Beyotime, China), was employed to measure the mitochondrial membrane potential (DeltaPsim) of cardiomyocytes according to the manufacturer's directions which has been described previously. Briefly, after indicated treatments, cardiomyocytes were loaded with JC-1 for 30 min at 37 C, and images were obtained by using a Leica confocal laser scanning microscope (TCS SP2, Germany). Images of the intensities of the green (JC-1 monomer) and red (JC-1 aggregate) fluorescence intensities were monitored within the individual cells by emission wavelength at 530 nm and 590 nm. Colocalization appeared as an orange red color because of the mixing of the red and yellow signals. Green and red fluorescence intensities were detected using an Infinite  M200 Microplate Reader. The DeltaPsim of cardiomyocytes in each treatment group was calculated as the fluorescence ratio of red to green and was expressed as a multiple of the level in the control groups. As a positive control, mitochondria were depolarized by treating cardiomyocytes with 50 microM carbonylcyanidem-chlorophenyl- hydrazone (CCCP) at 37 C for 5 min. All experiments were repeated at least three times. Detection of Cellular ATP Levels Cellular ATP levels were measured using a firefly luciferase-based ATP assay kit (Beyotime, China) according to the manufacturer's instructions. After the indicated treatments, cardiomyocytes were lysed and centrifuged at 12,000 g for 5 min. Supernatants (100 microL ) were mixed with 100 microL of ATP detection working dilution in a white 96-well plate. Luminance (RLU) was measured by using an Infinite  M200 Microplate Reader. Standard curves were also generated and the protein concentration of each treatment group was determined using the Bradford Protein assay. Total ATP levels were expressed as nmol/mg protein. This experiment was repeated for three times. Detection of Mitochondrial Permeability Transition Pore (mPTP) Opening The opening mPTP of cardiomyocytes were detected by using the calcein-cobalt with a mPTP assay kit (Genmed Scientifics Inc., USA) according to the manufacturer's directions as described previously. Briefly, cardiomyocytes, seeded in 24-well plates (3x105/per well), were washed with Reagent A, then incubated with Reagents B and C (1:50; 500 microL per well) at 37 C for 20 min, then washed twice with Reagent A again. Fluorescence intensity was measured using a Infinite  M200 Microplate Reader (lambdaex 488 nm, lambdaem 505 nm). Cells were subsequently lysed in 20 microL of 0.1 M NaOH and protein concentration was measured using the Bradford Protein assay. The fluorescent signals were normalized to total protein content in the corresponding cell extract. Results were presented as normalized relative fluorescence units (NRFU; U/mg protein). Immunocytochemical Analysis of Cytochrome c After H/R treatment, cardiomyocytes were washed with PBS and were stained for 30 min at 37 C with 250 nM mitochondria-specific dye MitoTrackerRed (Molecular Probes, Cergy Pontoise, France). Then, cardiomyocytes were washed with PBS and were fixed with 4% paraformaldehyde for 20 min and permeabilized with 0.1% Triton X-100 for another 10 min at room temperature. The cells were incubated with 10% normal goat serum for 45 min. Cells were then treated with anti-cytochrome c antibody (1:100; Abcam, Cambridge, UK) overnight at 4 C. The cells were washed with PBS twice and incubated with Alexa Fluor 488-conjugated secondary antibody (1:100; Molecular Probes) for 1 h in the dark at 37 C. After washing, the nucleus was counterstained with Hoechst33342 for 10 min. Images of stained cells were obtained by using a Leica confocal laser scanning microscope.        Measurement of Caspase-3 Activity As described in detail previously in our experiments. Cardiomyocytes caspase-3 activities were determined by using the caspase-3 Activity Assay kit (Beyotime Institute of Biotechnology, China) according to the manufacturer's instructions. Results were expressed as the change in enzyme activity relative to the control cultures.   Statistical Analysis All the experimental data were expressed as the mean +- SEM. Raw data was analyzed with the GraphPad Prism 5.0 software (GraphPad Software, Inc., SanDiego, CA). Each experiment was carried out at least three times. Statistical analysis for multiple group comparisons was performed by one-way ANOVA, followed by post hoc least significant difference (LSD) tests. All P values were two sided, and P<0.05 was considered statistically significant. Results Effect of Lycopene on the Loss of Cell Viability Induced by H/R After cardiomyocytes were exposed to various time of hypoxia (1, 2, 4, 8, and 16 h), cell viability was assessed with the Trypan blue staining viability test. We found that cell viability was significantly decreased in a time-dependent manner relative to the control group (Fig. 1A). Exposure to 2 h hypoxia reduced cell viability to 92.7% compared with the control (P<0.05), while 4 h, 8 h, and 16 h of hypoxia reduced cell viability to 77.3%, 62.5%, 36.4% of the control respectively (P<0.01). The shortest time tested, 1 h, did not induce a significant change in cell viability. In addition, after 4 h hypoxia, the cardiomyocytes underwent reoxygenation for 0, 2, 4, 8, and 16 h respectively. As shown in Figure 1B, cell viability was significantly reduced to 70.6% after 8 h of reoxygenation (P<0.05) and 61.9% after 16 h of reoxygenation (P<0.01) compared with the 0 h reoxygenation group. Based on these results, treatment with 4 h hypoxia followed by 8 h of reoxygenation was selected for experiments to examine the potential of lycopene-mediated cardiomyocytes protection. Effects of H/R on cell viability in primary cultured cardiomyocytes. (A) Primary cultured cardiomyocytes were exposed to hypoxia condition for different time (1, 2, 4, 8, 16 h). (B) After 4 h hypoxia, cardiomyocytes were exposed to reoxygenation condition for different time (0, 2, 4, 8, 16 h). After these exposures, cell viability was determined with Trypan blue staining. Data are expressed as percentage of control and represented as mean +- SEM for six independent experiments. *P<0.05, **P<0.01 versus hypoxia 0 h group, #P<0.05, ##P<0.01 versus reoxygenation 0 h group. To investigate the possible cardiomyocytes protective effects of lycopene on H/R injury, cardiomyocytes that were pretreated with lycopene (0, 1.25, 2.5, 5, 10 and 20 microM, respectively) for 4 h underwent H/R treatment. We found that pretreatment with 2.5, 5, and 10 microM lycopene could successfully attenuate the decrease of cell viability caused by H/R treatment (Fig. 2A). The result suggested that lycopene exerted cardiomyocytes protection ability against the H/R-injury in primary cultured mouse cardiomyocytes. The protective effects of lycopene on H/R-injury. Primary cultured cardiomyocytes were pretreated with lycopene (0, 1.25, 2.5, 5, 10, 20 microM, respectively) for 4 h underwent 4 h hypoxia, then 8 h reoxygenation. *P<0.05, **P<0.01 versus 0 group. Values are mean +- SEM, n = 3.  Lycopene Reduces H/R-induced Apoptosis of Cultured Cardiomyocytes Morphological changes associated with H/R injury were assessed qualitatively by the phase contrast microscopy (Fig. 3A). Many cardiomyocytes were spreading and were simultaneously beating in control cultures. In the H/R-treated cultures, however, cardiomyocytes were rolling up and not beating. These H/R-induced morphological alterations were prevented by the pretreatment with 5 microM lycopene. Then, we investigated the effect of lycopene on the H/R-induced apoptosis in cultured the cardiomyocytes using the TUNEL assay (Fig. 3B and C). More TUNEL-positive cells (green) were observed in H/R-treated cultures (Fig. 3B, top row). Quantitative analysis also showed that H/R induced an increase in TUNEL-positive apoptotic cells compared with cells under regular conditions (P<0.01), pretreatment with 5 microM lycopene reduced the amount of TUNEL-positive cells in comparison to the H/R group (P<0.05; Fig. 3C). Lycopene protects cultured cardiomyocytes against H/R-induced apoptosis. Cultured cardiomyocytes were treated with 5 microM lycopene for 4 h prior to H/R treatment. (A) Effects of H/R on cardiomyocytes and protection by lycopene. Magnification: 200x. (B) Representative images of TUNEL-positive cells (green, top row) and Hoechst33342 counterstaining (blue, middle row). Scale bar: 40 microm. (C) The histogram shows the relative proportion of TUNEL-positive cells in the different treatment groups. **P<0.01 versus control group, #P<0.05 versus H/R group. Values are mean +- SEM, n = 3. Lycopene Reduced the H/R Mediated Oxidative Stress in Primary Cultured Cardiomyocytes In the H/R group, exposure to 4 h hypoxia followed by 8 h reoxygenation significantly increased the production of ROS in comparison to that of the control group and lycopene group (P<0.01; Fig. 4A). However, the increased amount of ROS in the H/R group could be reduced by pretreatment with lycopene (P<0.05; Fig. 4A). These results indicated that H/R had the ability to induce oxidative stress in the cardiomyocytes, however, this effect could be reduced by lycopene pretreatment. Effects of lycopene on ROS generation and lipid oxidation in cardiomyocytes. Pretreated with lycopene (5 microM) for 4 h, cells were exposed to H/R. (A) Intracellular ROS levels were estimated using the probe DCFH-DA. Fluorescence was read at 485 nm for excitation and 530 nm for emission with a fluorescence microplate reader. Cellular fluorescence intensities were expressed as the multiple of the level in the control groups. (B) Cellular MDA levels were measured using the TBA method, and the concentrations of MDA were expressed as nmol/mg protein. *P<0.05, **P<0.01 versus control group; #P<0.05 versus H/R group. Values are mean +- SEM, n = 3.    To determine the impact of H/R on oxidative lesions, the intracellular levels of MDA (a common end product of lipid peroxidation) were measured. MDA concentration was elevated significantly in H/R-treated cells (p<0.05); however, pretreatment with 5 microM Lycopene decreased H/R-induced MDA generation (p<0.05) (Fig. 4B). Lycopene Inhibits the Opening of mPTP Our goal was to test whether the opening of mPTP can be triggered during H/R and whether mPTP inhibition is a mechanism for the protective effects of lycopene. We detected mPTP by using the calcein-cobalt method to monitor the distribution of green fluorescence emitted from calcein as readout of the intact mPTP. A significant decrease in mitochondrial fluorescence of H/R treated cardiomyocytes was observed compared to the control group (P<0.01) (Fig. 5). However, lycopene pretreated cultures group demonstrated a significantly higher level of the NRFU compared with the H/R group (P<0.05). Taken together our results demonstrate that lycopene has the ability to reduce the extent of opened mPTP in response to H/R treatment.   The influence of lycopene on the opening of mPTP in cardiomyocytes exposed to H/R. The mPTP opening was assayed using the calcein-cobalt quenching method. Different group of cardiomyocytes were used to measure the normalized relative fluorescence units (NRFU) of calcein. **P<0.01 compared to the control group, #P<0.05 compared to the H/R group. Values are mean +- SEM, n = 3.       Lycopene Prevents Mitochondrial Dysfunction To further investigate the effects of lycopene on the mitochondrial function, indicators of mitochondrial activity such as membrane potential (DeltaPsim) and levels of cellular ATP were determined. We estimated DeltaPsim by using the JC-1 probe. The JC-1 probe detected both red polarized mitochondria and green depolarized mitochondria in the control cells, which represented the DeltaPsim under physiological conditions (Fig. 6A). H/R treated cardiomyocytes showed a decrease in the red fluorescence and a significant increase in the green fluorescence, and lycopene pretreatment reversed the changes in fluorescence. The fluorescence ratio of red to green quantified the DeltaPsim, and a low ratio represented mitochondrial depolarization. We also found that the ratio of H/R group was lower than control (P<0.01) and lycopene pretreatment showed the protective effects compared to the H/R-treated groups (P<0.05; Fig. 6B). Cellular ATP content was also a sensitive readout of mitochondrial function. As shown in Fig. 6C, ATP concentrations significantly decreased from 9.30 nmol/mg protein in the control group to 3.67 nmol/mg protein in the H/R group (p<0.05). In contrast, pretreatment of cultures with lycopene resulted in an increase of cellular ATP level compared with H/R group (P<0.05). These findings provided evidences that lycopene protected mitochondrial function during H/R. Effects of lycopene on the mitochondrial function in H/R-treated cells. Pretreated with Lycopene (5 microM) for 4 h, cells were exposed to H/R. The treated cells were detected by confocal microscopy and a fluorescence microplate reader. (A) Red fluorescence is from JC-1 aggregates in healthy mitochondria with polarized inner mitochondrial membranes, while green fluorescence is emitted by cytosolic JC-1 monormers and indicates DeltaPsim dissipation. Merged images indicate the co-localization of JC-1 aggregates and monomers. Scale bar: 50 microm. (B)The DeltaPsim of the cardiomyocytes in each group was calculated as the fluorescence ratio of red to green, and they were expressed as the multiple of the level in control groups. (C) Effects of lycopene on the ATP content in H/R-treated cells. ATP concentrations were determined using an ATP Determination Kit, and the ATP levels were expressed as nmol/mg protein. *P<0.05, **P<0.01 versus control group; #P<0.05 versus H/R group. Values are mean +- SEM, n = 3. Lycopene Blocks the Mitochondrial Apoptotic Pathway Mitochondrial dysfunction may initiate apoptosis by releasing pro-apoptotic factors, such as cytochrome c, from the mitochondrial intermembrane space into the cytoplasm to trigger apoptosis via a caspase-3-dependent pathway. Accordingly, changes in mitochondrial cytochrome c were measured by simultaneous the cytochrome c immunofluorescence and MitoTracker Red fluorescence. As shown in Figure 7A, H/R treatment decreased colocalization of cytochrome c and MitoTracker Red (peripheral green fluorescence, bottom row) which indicated the release of cytochrome c from the mitochondrial matrix into the cytosol. This subcellular shift in cytochrome c was markedly inhibited by 5 microM lycopene pretreatment. To further investigate the effects of Lycopene on caspase-3 activation, we measured caspase-3 activity (Figure 7B) by a spectrophotometric assay in cell lysates from four different groups. Cardiomyocytes with H/R treatment showed a significant increase in caspase-3 activity (P<0.05). In contrast, pretreatment with 5 microM lycopene significantly inhibited the H/R-induced activation of caspase-3 (P<0.05), suggesting that the lycopene reduced H/R-induced apoptosis was mediated through the blockage of caspase-3-dependent cardiomyocytes apoptosis. Lycopene inhibited H/R-induced cytochrome c release and caspase-3 activation in cardiomyocytes. (A) Lycopene inhibited H/R-induced cytochrome c release. Pretreated with lycopene (5 microM) for 4 h, cells were exposed to H/R. The nucleus was stained with Hoechst33342. Mitochondrial cytochrome c release was detected by colocalization of MitoTracker Red and cytochrome c (green) immunocytochemical signals under confocal microscopy. Scale bar: 50 microm. Images presented are representative of three independent experiments. (B) Lycopene inhibited H/R-induced caspase-3 activation. Cardiomyocytes were treated as described in (A). Caspase-3 activity was detected using a commercial kit as described in Methods. Data are presented as fold-change from the control group. *P<0.01 versus control group. #P<0.05 versus H/R group. Values are mean +- SEM, n = 3. Discussion In the present study, by using the primary cultured cardiomyocytes, we confirmed that apoptosis was important in H/R-injury. Furthermore, the present result demonstrated that H/R-induced apoptosis was closely associated with mitochondrial dysfunction. Importantly, the H/R-induced apoptosis was efficiently prevented by lycopene pretreatment. To our knowledge, this is the first report to elucidate the cardiomyocytes protective action of lycopene in cardiomyocytes in response to the H/R-injury. In the present study, the possible correlation between lycopene and mitochondria function was evaluated. It is well known that mitochondria are the key components to the function of cardiomyocytes and that mitochondrial dysfunction is the primary cause of H/R-induced apoptosis of cardiomyocytes. A critical factor mediating mitochondrial dysfunction is the opening of mPTP. Upon activation of mPTP, functional breakdown and morphological disintegration of mitochondria occurs and thus initiates cell death. In this study, we further confirmed that the anti-apoptotic action of lycopene was mediated by suppressing the ROS dependent mPTP opening to prevent mitochondrial dysfunction and blocked the activation of the cytochrome c/caspase-3 apoptotic pathway. The increased production of ROS mainly formed in the mitochondrial respiratory chain could result in an oxidative damage to mitochondrial proteins and DNA are highly relevant to myocardial failure and atherosclerosis. Moreover, ROS can cause thiol oxidation and inhibition of the ATP synthesis and adenine nucleotide translocate (ANT). They can also cause peroxidation of the unsaturated fatty acids in membrane phospholipids, especially cardiolipin at the inner mitochondrial membrane, which leads to further inhibition of respiratory chain activity. As a consequence of lipid peroxidation, reactive aldehydes such as 4-hydroxynonenal are released and can modify membrane proteins. In this study, we found that ROS levels and lipid oxidation increased in H/R-treated cardiomyocytes, and were effectively attenuated by lycopene. The anti-oxidative potential of lycopene should be accounted for its ability to preserve the activity of endogenous free radical scavengers, and protect respiratory chain complexes directly, which prevents ROS production and secondary oxidative damage. It has been shown that an increase in intracellular ROS predisposed cells to damage and involved numerous signaling pathways. Initiation of ROS-dependent mPTP opening has specifically been implicated in cardiomyocytes death. The mPTP is located at the junction between the internal and outer membranes of the mitochondria (intermembrane compartment/space). The diameter of a mPTP allows molecules up to ~1500 Da to cross the mitochondrial membrane. During H/R, the elevated cellular ROS levels, combined with the excessive amounts of Ca2+ and adenine nucleotide depletion, trigger the opening of mPTP. Given the anti-oxidative ability, we hypothesize that there was a role for lycopene in the regulation of mPTP. This hypothesis was supported by the observation that lycopene was able to partially inhibit the opening of mPTP and decrease ROS levels in cardiomyocytes.   The opening of the mPTP can lead to a bioenergetic, biosynthetic, and redox crisis in a cell that can directly threaten the survival of the cell. When the mPTP is open, the mitochondrial inner membrane becomes permeable to protons which then lead to the uncoupling of the electron respiratory chain and the collapse of membrane potential, which in turn leads to a cessation of ATP generation in mitochondria. In the pretreated cardiomyocytes with lycopene, the H/R-induced loss of mitochondrial membrane potential and decline in ATP levels were alleviated, supporting the notion that the protection of cardiomyocytes is, in part, due to the prevention of mitochondrial dysfunction. These results were consistent with recent studies that had demonstrated the ability of lycopene to enhance the mitochondrial activity of HepG2 cells exposed to aflatoxin B1 and to improve the mitochondrial function in nervous system of rats exposed to 3-nitropropionic acid. Another threatening consequence of the altered mitochondrial permeability is the release of apoptogenic proteins from the mitochondrial intermembrane space into the cytosol. Cytochrome c is associated with the inner mitochondrial membrane and serves as an essential component of the electron transfer chain. With opening of the mPTP and translocation of cytochrome c into the cytosol, mitochondrial function is compromised. In this study, the release of cytochrome c from the mitochondrial matrix into the cytosol was significantly inhibited by the 5 microM lycopene pretreatment; the results of this study demonstrated a correlation exists between lycopene and the preservation of mitochondrial function. Moreover, once the cytochrome c enters the cytosol, it becomes associated with the apoptotic peptidase activating factor 1 (Apaf-1) and dATP in order to form an apoptosome. Apoptosomes recruit and activate procaspase-9, which in turn activates other downstream caspases to initiate apoptosis. Caspase-3 has classically been considered as an executioner caspase. In this experiment, lycopene suppressed the activation of caspase-3 and was associated with lowering the cytosolic levels of cytochrome c. In addition, recent studies have revealed that lycopene participates in the intrinsic apoptosis process by inhibiting the mitochondrial apoptotic pathway. Although the underlying mechanisms required further study, the present study demonstrated that lycopene inhibits the intrinsic signaling pathways of apoptosis. In conclusion, mitochondrial dysfunction may be the underlying cause of the H/R-induced apoptosis in mouse cardiomyocytes, whereas lycopene may provide protective benefit by maintaining the mitochondrial function. Interactions between lycopene and the mitochondria provided a new strategy to protect against the H/R-induced apoptosis by improving the mitochondrial function. Future experiments are required to evaluate the protective efficacy of lycopene in vivo, and the possible molecular mechanism will be clarified. References Heart disease and stroke statistics-2008 update: a report from the American Heart Association Statistics Committee and Stroke Statistics Subcommittee   Executive summary: heart disease and stroke statistics-2010 update: a report from the American Heart Association   The role of oxidants and free radicals in reperfusion injury Serum carotenoids and atherosclerosis. The Rotterdam Study The singlet oxygen and carotenoid interaction Antioxidant activities of carotenes and xanthophylls The anti-carcinogenic role of lycopene, abundantly present in tomato The potential role of lycopene for human health Cardiovascular friendly natural products: a promising approach in the management of CVD Lycopene binds PDGF-BB and inhibits PDGF-BB-induced intracellular signaling transduction pathway in rat smooth muscle cells Plasma lycopene, other carotenoids, and retinol and the risk of cardiovascular disease in women Higenamine reduces apoptotic cell death by induction of heme oxygenase-1 in rat myocardial ischemia-reperfusion injury Metabolic stages, mitochondria and calcium in hypoxic/ischemic brain damage The expanding role of mitochondria in apoptosis Biglycan protects cardiomyocytes against hypoxia/reoxygenation injury: role of nitric oxide Globular adiponectin, acting via AdipoR1/APPL1, protects H9c2 cells from hypoxia/reoxygenation-induced apoptosis Nogo-A knockdown inhibits hypoxia/reoxygenation-induced activation of mitochondrial-dependent apoptosis in cardiomyocytes Leptin attenuates hypoxia/reoxygenation-induced activation of the intrinsic pathway of apoptosis in rat H9c2 cells Cardioprotective effect of zinc requires ErbB2 and Akt during hypoxia/reoxygenation N-n-Butyl haloperidol iodide protects against hypoxia/reoxygenation-induced cardiomyocyte injury by modulating protein kinase C activity Hydrogen sulfide protects cardiomyocytes from hypoxia/reoxygenation-induced apoptosis by preventing GSK-3beta-dependent opening of mPTP Chloride channel inhibition blocks the protection of ischemic preconditioning and hypo-osmotic stress in rabbit ventricular myocardium Role of cGMP-PKG signaling in the protection of neonatal rat cardiac myocytes subjected to simulated ischemia/reoxygenation Loss of myocardial LIF receptor in experimental heart failure reduces cardiotrophin-1 cytoprotection. A role for neurohumoral agonists? Transfusion of fresh but not old stored blood reduces infarct size and improves cardiac function after acute myocardial infarction in anemic rats Erythropoietin is equally effective as fresh-blood transfusion at reducing infarct size in anemic rats Resveratrol prevents doxorubicin cardiotoxicity through mitochondrial stabilization and the Sirt1 pathway Lycopene protects against trimethyltin-induced neurotoxicity in primary cultured rat hippocampal neurons by inhibiting the mitochondrial apoptotic pathway Calpain-1 induces apoptosis in pulmonary microvascular endothelial cells under septic conditions Cytochrome c and dATP-dependent formation of Apaf-1/caspase-9 complex initiates an apoptotic protease cascade Taurine prevents the ischemia-induced apoptosis in cultured neonatal rat cardiomyocytes through Akt/caspase-9 pathway Ong SB, Hall AR, Hausenloy DJ (2012) Mitochondrial Dynamics in Cardiovascular Health and Disease. Antioxid Redox Signal in press (Epub ahead of print). Mitochondrial pathways for ROS formation and myocardial injury: the relevance of p66(Shc) and monoamine oxidase Decrease in mitochondrial complex I activity in ischemic/reperfused rat heart: involvement of reactive oxygen species and cardiolipin Decreased complex III activity in mitochondria isolated from rat heart subjected to ischemia and reperfusion: role of reactive oxygen species and cardiolipin A signalling role for 4-hydroxy-2-nonenal in regulation of mitochondrial uncoupling Lycopene modulates nitric oxide pathways against 3-nitropropionic acid-induced neurotoxicity Mitochondria and ischemia-reperfusion injury of the heart: fixing a hole Cardiomyocyte deletion of mitofusin-1 leads to mitochondrial fragmentation and improves tolerance to ROS-induced mitochondrial dysfunction and cell death Mitochondrial permeability transitions: how many doors to the house? The role of the mitochondrial permeability transition in cell death Targeting post-mitochondrial effectors of apoptosis for neuroprotection Aflatoxin B1-induced toxicity in HepG2 cells inhibited by carotenoids: morphology, apoptosis and DNA damage",
+    "entities": [
+        {
+            "entityId": "0_8",
+            "span": {
+                "begin": 0,
+                "end": 8
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "109_146",
+            "span": {
+                "begin": 109,
+                "end": 146
+            },
+            "entityType": "cell",
+            "entityName": "Primary Neonatal Mouse Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "206_220",
+            "span": {
+                "begin": 206,
+                "end": 220
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "267_275",
+            "span": {
+                "begin": 267,
+                "end": 275
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "452_460",
+            "span": {
+                "begin": 452,
+                "end": 460
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "476_490",
+            "span": {
+                "begin": 476,
+                "end": 490
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "559_567",
+            "span": {
+                "begin": 559,
+                "end": 567
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "612_634",
+            "span": {
+                "begin": 612,
+                "end": 634
+            },
+            "entityType": "cell",
+            "entityName": "Primary cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "663_668",
+            "span": {
+                "begin": 663,
+                "end": 668
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "776_790",
+            "span": {
+                "begin": 776,
+                "end": 790
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "805_813",
+            "span": {
+                "begin": 805,
+                "end": 813
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "944_952",
+            "span": {
+                "begin": 944,
+                "end": 952
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "975_983",
+            "span": {
+                "begin": 975,
+                "end": 983
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "1050_1058",
+            "span": {
+                "begin": 1050,
+                "end": 1058
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "1075_1089",
+            "span": {
+                "begin": 1075,
+                "end": 1089
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1167_1171",
+            "span": {
+                "begin": 1167,
+                "end": 1171
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "1212_1218",
+            "span": {
+                "begin": 1212,
+                "end": 1218
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "1271_1286",
+            "span": {
+                "begin": 1271,
+                "end": 1286
+            },
+            "entityType": "drug",
+            "entityName": "malondialdehyde",
+            "id": "UMLS:C0024643"
+        },
+        {
+            "entityId": "1288_1291",
+            "span": {
+                "begin": 1288,
+                "end": 1291
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "1393_1396",
+            "span": {
+                "begin": 1393,
+                "end": 1396
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "1434_1446",
+            "span": {
+                "begin": 1434,
+                "end": 1446
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "1481_1490",
+            "span": {
+                "begin": 1481,
+                "end": 1490
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "1592_1600",
+            "span": {
+                "begin": 1592,
+                "end": 1600
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "1727_1735",
+            "span": {
+                "begin": 1727,
+                "end": 1735
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "1806_1832",
+            "span": {
+                "begin": 1806,
+                "end": 1832
+            },
+            "entityType": "cell",
+            "entityName": "H/R-treated cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1847_1868",
+            "span": {
+                "begin": 1847,
+                "end": 1868
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1984_2005",
+            "span": {
+                "begin": 1984,
+                "end": 2005
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "2123_2147",
+            "span": {
+                "begin": 2123,
+                "end": 2147
+            },
+            "entityType": "disease",
+            "entityName": "ischemia and reperfusion",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "2359_2365",
+            "span": {
+                "begin": 2359,
+                "end": 2365
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "2386_2393",
+            "span": {
+                "begin": 2386,
+                "end": 2393
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "2624_2632",
+            "span": {
+                "begin": 2624,
+                "end": 2632
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "2676_2682",
+            "span": {
+                "begin": 2676,
+                "end": 2682
+            },
+            "entityType": "species",
+            "entityName": "tomato",
+            "id": "UMLS:C1140676"
+        },
+        {
+            "entityId": "2705_2711",
+            "span": {
+                "begin": 2705,
+                "end": 2711
+            },
+            "entityType": "species",
+            "entityName": "papaya",
+            "id": "UMLS:C0453135"
+        },
+        {
+            "entityId": "2713_2723",
+            "span": {
+                "begin": 2713,
+                "end": 2723
+            },
+            "entityType": "species",
+            "entityName": "pink guava",
+            "id": "UMLS:C0553399"
+        },
+        {
+            "entityId": "2728_2738",
+            "span": {
+                "begin": 2728,
+                "end": 2738
+            },
+            "entityType": "species",
+            "entityName": "watermelon",
+            "id": "NCBITaxon:260674"
+        },
+        {
+            "entityId": "2832_2840",
+            "span": {
+                "begin": 2832,
+                "end": 2840
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "2966_2972",
+            "span": {
+                "begin": 2966,
+                "end": 2972
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "2978_2994",
+            "span": {
+                "begin": 2978,
+                "end": 2994
+            },
+            "entityType": "drug",
+            "entityName": "alpha-tocopherol",
+            "id": "UMLS:C0969677"
+        },
+        {
+            "entityId": "2996_3009",
+            "span": {
+                "begin": 2996,
+                "end": 3009
+            },
+            "entityType": "drug",
+            "entityName": "beta-carotene",
+            "id": "UMLS:C0053396"
+        },
+        {
+            "entityId": "3014_3023",
+            "span": {
+                "begin": 3014,
+                "end": 3023
+            },
+            "entityType": "drug",
+            "entityName": "vitamin E",
+            "id": "UMLS:C0042874"
+        },
+        {
+            "entityId": "3044_3052",
+            "span": {
+                "begin": 3044,
+                "end": 3052
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "3193_3201",
+            "span": {
+                "begin": 3193,
+                "end": 3201
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "3259_3266",
+            "span": {
+                "begin": 3259,
+                "end": 3266
+            },
+            "entityType": "disease",
+            "entityName": "cancers",
+            "id": "UMLS:C0006826"
+        },
+        {
+            "entityId": "3276_3312",
+            "span": {
+                "begin": 3276,
+                "end": 3312
+            },
+            "entityType": "disease",
+            "entityName": "breast, prostate and pancreas cancer",
+            "id": "UMLS:C0346647"
+        },
+        {
+            "entityId": "3379_3401",
+            "span": {
+                "begin": 3379,
+                "end": 3401
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "3403_3406",
+            "span": {
+                "begin": 3403,
+                "end": 3406
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "3409_3431",
+            "span": {
+                "begin": 3409,
+                "end": 3431
+            },
+            "entityType": "disease",
+            "entityName": "coronary heart disease",
+            "id": "UMLS:C0010068"
+        },
+        {
+            "entityId": "3433_3436",
+            "span": {
+                "begin": 3433,
+                "end": 3436
+            },
+            "entityType": "disease",
+            "entityName": "CHD",
+            "id": "mesh:D003327"
+        },
+        {
+            "entityId": "3442_3457",
+            "span": {
+                "begin": 3442,
+                "end": 3457
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "3482_3490",
+            "span": {
+                "begin": 3482,
+                "end": 3490
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "3538_3541",
+            "span": {
+                "begin": 3538,
+                "end": 3541
+            },
+            "entityType": "disease",
+            "entityName": "CVD",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "3545_3550",
+            "span": {
+                "begin": 3545,
+                "end": 3550
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3595_3606",
+            "span": {
+                "begin": 3595,
+                "end": 3606
+            },
+            "entityType": "drug",
+            "entityName": "cholesterol",
+            "id": "UMLS:C0008377"
+        },
+        {
+            "entityId": "3667_3675",
+            "span": {
+                "begin": 3667,
+                "end": 3675
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "3852_3881",
+            "span": {
+                "begin": 3852,
+                "end": 3881
+            },
+            "entityType": "disease",
+            "entityName": "myocardial reperfusion injury",
+            "id": "UMLS:C0027055"
+        },
+        {
+            "entityId": "3960_3968",
+            "span": {
+                "begin": 3960,
+                "end": 3968
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "4104_4126",
+            "span": {
+                "begin": 4104,
+                "end": 4126
+            },
+            "entityType": "cell",
+            "entityName": "primary cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "4141_4146",
+            "span": {
+                "begin": 4141,
+                "end": 4146
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4277_4285",
+            "span": {
+                "begin": 4277,
+                "end": 4285
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "4320_4328",
+            "span": {
+                "begin": 4320,
+                "end": 4328
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "4429_4458",
+            "span": {
+                "begin": 4429,
+                "end": 4458
+            },
+            "entityType": "cell",
+            "entityName": "Primary Cardiomyocyte Culture",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "4459_4473",
+            "span": {
+                "begin": 4459,
+                "end": 4473
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "4510_4514",
+            "span": {
+                "begin": 4510,
+                "end": 4514
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4928_4932",
+            "span": {
+                "begin": 4928,
+                "end": 4932
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4973_4980",
+            "span": {
+                "begin": 4973,
+                "end": 4980
+            },
+            "entityType": "drug",
+            "entityName": "ethanol",
+            "id": "UMLS:C0001962"
+        },
+        {
+            "entityId": "5128_5132",
+            "span": {
+                "begin": 5128,
+                "end": 5132
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "5138_5147",
+            "span": {
+                "begin": 5138,
+                "end": 5147
+            },
+            "entityType": "drug",
+            "entityName": "D-Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "5152_5155",
+            "span": {
+                "begin": 5152,
+                "end": 5155
+            },
+            "entityType": "drug",
+            "entityName": "KCl",
+            "id": "UMLS:C0032825"
+        },
+        {
+            "entityId": "5161_5171",
+            "span": {
+                "begin": 5161,
+                "end": 5171
+            },
+            "entityType": "drug",
+            "entityName": "MgCl2 6H2O",
+            "id": "UMLS:C0024472"
+        },
+        {
+            "entityId": "5177_5188",
+            "span": {
+                "begin": 5177,
+                "end": 5188
+            },
+            "entityType": "drug",
+            "entityName": "Na-pyruvate",
+            "id": "UMLS:C0034354"
+        },
+        {
+            "entityId": "5192_5197",
+            "span": {
+                "begin": 5192,
+                "end": 5197
+            },
+            "entityType": "drug",
+            "entityName": "HEPES",
+            "id": "UMLS:C0019215"
+        },
+        {
+            "entityId": "5307_5314",
+            "span": {
+                "begin": 5307,
+                "end": 5314
+            },
+            "entityType": "gene",
+            "entityName": "trypsin",
+            "id": "UMLS:C0041236"
+        },
+        {
+            "entityId": "5586_5592",
+            "span": {
+                "begin": 5586,
+                "end": 5592
+            },
+            "entityType": "species",
+            "entityName": "bovine",
+            "id": "UMLS:C3667982"
+        },
+        {
+            "entityId": "5633_5644",
+            "span": {
+                "begin": 5633,
+                "end": 5644
+            },
+            "entityType": "drug",
+            "entityName": "L-Glutamine",
+            "id": "UMLS:C0017797"
+        },
+        {
+            "entityId": "5686_5696",
+            "span": {
+                "begin": 5686,
+                "end": 5696
+            },
+            "entityType": "drug",
+            "entityName": "penicillin",
+            "id": "UMLS:C0030842"
+        },
+        {
+            "entityId": "5884_5898",
+            "span": {
+                "begin": 5884,
+                "end": 5898
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "5916_5930",
+            "span": {
+                "begin": 5916,
+                "end": 5930
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "6158_6164",
+            "span": {
+                "begin": 6158,
+                "end": 6164
+            },
+            "entityType": "species",
+            "entityName": "bovine",
+            "id": "UMLS:C3667982"
+        },
+        {
+            "entityId": "6179_6190",
+            "span": {
+                "begin": 6179,
+                "end": 6190
+            },
+            "entityType": "drug",
+            "entityName": "L-Glutamine",
+            "id": "UMLS:C0017797"
+        },
+        {
+            "entityId": "6199_6216",
+            "span": {
+                "begin": 6199,
+                "end": 6216
+            },
+            "entityType": "drug",
+            "entityName": "Bromodeoxyuridine",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "6218_6223",
+            "span": {
+                "begin": 6218,
+                "end": 6223
+            },
+            "entityType": "drug",
+            "entityName": "Brdu)",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "6282_6299",
+            "span": {
+                "begin": 6282,
+                "end": 6299
+            },
+            "entityType": "cell",
+            "entityName": "cadiac fibroblast",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "6314_6326",
+            "span": {
+                "begin": 6314,
+                "end": 6326
+            },
+            "entityType": "drug",
+            "entityName": "streptomycin",
+            "id": "UMLS:C0038425"
+        },
+        {
+            "entityId": "6327_6337",
+            "span": {
+                "begin": 6327,
+                "end": 6337
+            },
+            "entityType": "drug",
+            "entityName": "penicillin",
+            "id": "UMLS:C0030842"
+        },
+        {
+            "entityId": "6346_6349",
+            "span": {
+                "begin": 6346,
+                "end": 6349
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "6467_6471",
+            "span": {
+                "begin": 6467,
+                "end": 6471
+            },
+            "entityType": "drug",
+            "entityName": "Brdu",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "6517_6531",
+            "span": {
+                "begin": 6517,
+                "end": 6531
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "6671_6694",
+            "span": {
+                "begin": 6671,
+                "end": 6694
+            },
+            "entityType": "cell",
+            "entityName": "neonatal cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "6698_6702",
+            "span": {
+                "begin": 6698,
+                "end": 6702
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6820_6826",
+            "span": {
+                "begin": 6820,
+                "end": 6826
+            },
+            "entityType": "species",
+            "entityName": "bovine",
+            "id": "UMLS:C3667982"
+        },
+        {
+            "entityId": "6926_6933",
+            "span": {
+                "begin": 6926,
+                "end": 6933
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "6990_6992",
+            "span": {
+                "begin": 6990,
+                "end": 6992
+            },
+            "entityType": "drug",
+            "entityName": "N2",
+            "id": "UMLS:CHEBI:30105"
+        },
+        {
+            "entityId": "6999_7002",
+            "span": {
+                "begin": 6999,
+                "end": 7002
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "7021_7035",
+            "span": {
+                "begin": 7021,
+                "end": 7035
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "7163_7166",
+            "span": {
+                "begin": 7163,
+                "end": 7166
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "7171_7173",
+            "span": {
+                "begin": 7171,
+                "end": 7173
+            },
+            "entityType": "drug",
+            "entityName": "N2",
+            "id": "UMLS:CHEBI:30105"
+        },
+        {
+            "entityId": "7389_7397",
+            "span": {
+                "begin": 7389,
+                "end": 7397
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "7409_7417",
+            "span": {
+                "begin": 7409,
+                "end": 7417
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "7453_7468",
+            "span": {
+                "begin": 7453,
+                "end": 7468
+            },
+            "entityType": "drug",
+            "entityName": "tetrahydrofuran",
+            "id": "UMLS:C0076271"
+        },
+        {
+            "entityId": "7470_7473",
+            "span": {
+                "begin": 7470,
+                "end": 7473
+            },
+            "entityType": "drug",
+            "entityName": "THF",
+            "id": "UMLS:C2698794"
+        },
+        {
+            "entityId": "7502_7526",
+            "span": {
+                "begin": 7502,
+                "end": 7526
+            },
+            "entityType": "drug",
+            "entityName": "butylated hydroxytoluene",
+            "id": "UMLS:C0006507"
+        },
+        {
+            "entityId": "7528_7531",
+            "span": {
+                "begin": 7528,
+                "end": 7531
+            },
+            "entityType": "drug",
+            "entityName": "BHT",
+            "id": "UMLS:C0006507"
+        },
+        {
+            "entityId": "7557_7566",
+            "span": {
+                "begin": 7557,
+                "end": 7566
+            },
+            "entityType": "drug",
+            "entityName": "peroxides",
+            "id": "UMLS:C0031180"
+        },
+        {
+            "entityId": "7693_7705",
+            "span": {
+                "begin": 7693,
+                "end": 7705
+            },
+            "entityType": "drug",
+            "entityName": "THF-lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "7814_7817",
+            "span": {
+                "begin": 7814,
+                "end": 7817
+            },
+            "entityType": "drug",
+            "entityName": "THF",
+            "id": "UMLS:C2698794"
+        },
+        {
+            "entityId": "7869_7872",
+            "span": {
+                "begin": 7869,
+                "end": 7872
+            },
+            "entityType": "drug",
+            "entityName": "THF",
+            "id": "UMLS:C2698794"
+        },
+        {
+            "entityId": "8092_8103",
+            "span": {
+                "begin": 8092,
+                "end": 8103
+            },
+            "entityType": "drug",
+            "entityName": "Trypan blue",
+            "id": "UMLS:C0041213"
+        },
+        {
+            "entityId": "8281_8288",
+            "span": {
+                "begin": 8281,
+                "end": 8288
+            },
+            "entityType": "gene",
+            "entityName": "Trypsin",
+            "id": "UMLS:C0041236"
+        },
+        {
+            "entityId": "8493_8504",
+            "span": {
+                "begin": 8493,
+                "end": 8504
+            },
+            "entityType": "drug",
+            "entityName": "Trypan blue",
+            "id": "UMLS:C0041213"
+        },
+        {
+            "entityId": "8601_8613",
+            "span": {
+                "begin": 8601,
+                "end": 8613
+            },
+            "entityType": "cell",
+            "entityName": "viable cells",
+            "id": "UMLS:C1441322"
+        },
+        {
+            "entityId": "8800_8838",
+            "span": {
+                "begin": 8800,
+                "end": 8838
+            },
+            "entityType": "gene",
+            "entityName": "terminal deoxynucleoitidyl transferase",
+            "id": "UMLS:C3887634"
+        },
+        {
+            "entityId": "8971_8985",
+            "span": {
+                "begin": 8971,
+                "end": 8985
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "9015_9024",
+            "span": {
+                "begin": 9015,
+                "end": 9024
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "9094_9110",
+            "span": {
+                "begin": 9094,
+                "end": 9110
+            },
+            "entityType": "drug",
+            "entityName": "paraformaldehyde",
+            "id": "mesh:C003043"
+        },
+        {
+            "entityId": "9178_9192",
+            "span": {
+                "begin": 9178,
+                "end": 9192
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "9222_9233",
+            "span": {
+                "begin": 9222,
+                "end": 9233
+            },
+            "entityType": "drug",
+            "entityName": "TritonX-100",
+            "id": "mesh:D017830"
+        },
+        {
+            "entityId": "9242_9256",
+            "span": {
+                "begin": 9242,
+                "end": 9256
+            },
+            "entityType": "drug",
+            "entityName": "sodium citrate",
+            "id": "UMLS:C0142825"
+        },
+        {
+            "entityId": "9293_9307",
+            "span": {
+                "begin": 9293,
+                "end": 9307
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "9452_9466",
+            "span": {
+                "begin": 9452,
+                "end": 9466
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "9492_9504",
+            "span": {
+                "begin": 9492,
+                "end": 9504
+            },
+            "entityType": "drug",
+            "entityName": "Hoechst33342",
+            "id": "UMLS:C4549452"
+        },
+        {
+            "entityId": "9747_9759",
+            "span": {
+                "begin": 9747,
+                "end": 9759
+            },
+            "entityType": "drug",
+            "entityName": "Hoechst33342",
+            "id": "UMLS:C4549452"
+        },
+        {
+            "entityId": "9900_9906",
+            "span": {
+                "begin": 9900,
+                "end": 9906
+            },
+            "entityType": "drug",
+            "entityName": "Oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "9925_9940",
+            "span": {
+                "begin": 9925,
+                "end": 9940
+            },
+            "entityType": "drug",
+            "entityName": "Malondialdehyde",
+            "id": "UMLS:C0024643"
+        },
+        {
+            "entityId": "9942_9945",
+            "span": {
+                "begin": 9942,
+                "end": 9945
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "10038_10075",
+            "span": {
+                "begin": 10038,
+                "end": 10075
+            },
+            "entityType": "drug",
+            "entityName": "2', 7'-dichlorofluoresce in diacetate",
+            "id": "mesh:C029569"
+        },
+        {
+            "entityId": "10077_10084",
+            "span": {
+                "begin": 10077,
+                "end": 10084
+            },
+            "entityType": "drug",
+            "entityName": "DCFH-DA",
+            "id": "UMLS:C0057672"
+        },
+        {
+            "entityId": "10105_10119",
+            "span": {
+                "begin": 10105,
+                "end": 10119
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "10203_10206",
+            "span": {
+                "begin": 10203,
+                "end": 10206
+            },
+            "entityType": "cell",
+            "entityName": "H / R",
+            "id": "UMLS:C0242184"
+        },
+        {
+            "entityId": "10234_10241",
+            "span": {
+                "begin": 10234,
+                "end": 10241
+            },
+            "entityType": "drug",
+            "entityName": "DCFH-DA",
+            "id": "UMLS:C0057672"
+        },
+        {
+            "entityId": "10784_10787",
+            "span": {
+                "begin": 10784,
+                "end": 10787
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "10836_10839",
+            "span": {
+                "begin": 10836,
+                "end": 10839
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "10924_10938",
+            "span": {
+                "begin": 10924,
+                "end": 10938
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "10991_11005",
+            "span": {
+                "begin": 10991,
+                "end": 11005
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "11131_11150",
+            "span": {
+                "begin": 11131,
+                "end": 11150
+            },
+            "entityType": "drug",
+            "entityName": "thiobarbituric acid",
+            "id": "UMLS:C0076442"
+        },
+        {
+            "entityId": "11152_11155",
+            "span": {
+                "begin": 11152,
+                "end": 11155
+            },
+            "entityType": "drug",
+            "entityName": "TBA",
+            "id": "UMLS:C0076442"
+        },
+        {
+            "entityId": "11285_11288",
+            "span": {
+                "begin": 11285,
+                "end": 11288
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "11428_11432",
+            "span": {
+                "begin": 11428,
+                "end": 11432
+            },
+            "entityType": "drug",
+            "entityName": "JC-1",
+            "id": "mesh:C068624"
+        },
+        {
+            "entityId": "11528_11542",
+            "span": {
+                "begin": 11528,
+                "end": 11542
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "11660_11674",
+            "span": {
+                "begin": 11660,
+                "end": 11674
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "12219_12233",
+            "span": {
+                "begin": 12219,
+                "end": 12233
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "12448_12462",
+            "span": {
+                "begin": 12448,
+                "end": 12462
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "12478_12518",
+            "span": {
+                "begin": 12478,
+                "end": 12518
+            },
+            "entityType": "drug",
+            "entityName": "carbonylcyanidem-chlorophenyl- hydrazone",
+            "id": "UMLS:C0020235"
+        },
+        {
+            "entityId": "12520_12524",
+            "span": {
+                "begin": 12520,
+                "end": 12524
+            },
+            "entityType": "drug",
+            "entityName": "CCCP",
+            "id": "UMLS:C0007043"
+        },
+        {
+            "entityId": "12619_12622",
+            "span": {
+                "begin": 12619,
+                "end": 12622
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "12639_12642",
+            "span": {
+                "begin": 12639,
+                "end": 12642
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "12672_12690",
+            "span": {
+                "begin": 12672,
+                "end": 12690
+            },
+            "entityType": "gene",
+            "entityName": "firefly luciferase",
+            "id": "UMLS:C0311727"
+        },
+        {
+            "entityId": "12697_12700",
+            "span": {
+                "begin": 12697,
+                "end": 12700
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "12807_12821",
+            "span": {
+                "begin": 12807,
+                "end": 12821
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "12929_12932",
+            "span": {
+                "begin": 12929,
+                "end": 12932
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "13206_13209",
+            "span": {
+                "begin": 13206,
+                "end": 13209
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "13355_13359",
+            "span": {
+                "begin": 13355,
+                "end": 13359
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "13381_13385",
+            "span": {
+                "begin": 13381,
+                "end": 13385
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "13389_13403",
+            "span": {
+                "begin": 13389,
+                "end": 13403
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "13431_13438",
+            "span": {
+                "begin": 13431,
+                "end": 13438
+            },
+            "entityType": "drug",
+            "entityName": "calcein",
+            "id": "UMLS:C0060549"
+        },
+        {
+            "entityId": "13439_13445",
+            "span": {
+                "begin": 13439,
+                "end": 13445
+            },
+            "entityType": "drug",
+            "entityName": "cobalt",
+            "id": "mesh:D003035"
+        },
+        {
+            "entityId": "13453_13457",
+            "span": {
+                "begin": 13453,
+                "end": 13457
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "13576_13590",
+            "span": {
+                "begin": 13576,
+                "end": 13590
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "13953_13957",
+            "span": {
+                "begin": 13953,
+                "end": 13957
+            },
+            "entityType": "drug",
+            "entityName": "NaOH",
+            "id": "UMLS:CHEBI:32145"
+        },
+        {
+            "entityId": "14249_14261",
+            "span": {
+                "begin": 14249,
+                "end": 14261
+            },
+            "entityType": "gene",
+            "entityName": "Cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "14283_14297",
+            "span": {
+                "begin": 14283,
+                "end": 14297
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "14458_14472",
+            "span": {
+                "begin": 14458,
+                "end": 14472
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "14517_14533",
+            "span": {
+                "begin": 14517,
+                "end": 14533
+            },
+            "entityType": "drug",
+            "entityName": "paraformaldehyde",
+            "id": "mesh:C003043"
+        },
+        {
+            "entityId": "14573_14585",
+            "span": {
+                "begin": 14573,
+                "end": 14585
+            },
+            "entityType": "drug",
+            "entityName": "Triton X-100",
+            "id": "UMLS:C0146951"
+        },
+        {
+            "entityId": "14667_14671",
+            "span": {
+                "begin": 14667,
+                "end": 14671
+            },
+            "entityType": "species",
+            "entityName": "goat",
+            "id": "UMLS:C1510458"
+        },
+        {
+            "entityId": "14724_14745",
+            "span": {
+                "begin": 14724,
+                "end": 14745
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c antibody",
+            "id": "UMLS:C0003241"
+        },
+        {
+            "entityId": "14850_14865",
+            "span": {
+                "begin": 14850,
+                "end": 14865
+            },
+            "entityType": "drug",
+            "entityName": "Alexa Fluor 488",
+            "id": "mesh:C000711379"
+        },
+        {
+            "entityId": "15002_15014",
+            "span": {
+                "begin": 15002,
+                "end": 15014
+            },
+            "entityType": "drug",
+            "entityName": "Hoechst33342",
+            "id": "UMLS:C4549452"
+        },
+        {
+            "entityId": "15140_15149",
+            "span": {
+                "begin": 15140,
+                "end": 15149
+            },
+            "entityType": "gene",
+            "entityName": "Caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "15213_15227",
+            "span": {
+                "begin": 15213,
+                "end": 15227
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "15228_15237",
+            "span": {
+                "begin": 15228,
+                "end": 15237
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "15278_15287",
+            "span": {
+                "begin": 15278,
+                "end": 15287
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "15973_15981",
+            "span": {
+                "begin": 15973,
+                "end": 15981
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "16033_16047",
+            "span": {
+                "begin": 16033,
+                "end": 16047
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "16149_16155",
+            "span": {
+                "begin": 16149,
+                "end": 16155
+            },
+            "entityType": "drug",
+            "entityName": "Trypan",
+            "id": "UMLS:C1565627"
+        },
+        {
+            "entityId": "16645_16659",
+            "span": {
+                "begin": 16645,
+                "end": 16659
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "17063_17071",
+            "span": {
+                "begin": 17063,
+                "end": 17071
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "17081_17095",
+            "span": {
+                "begin": 17081,
+                "end": 17095
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "17713_17727",
+            "span": {
+                "begin": 17713,
+                "end": 17727
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "17750_17758",
+            "span": {
+                "begin": 17750,
+                "end": 17758
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "17774_17788",
+            "span": {
+                "begin": 17774,
+                "end": 17788
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "17815_17823",
+            "span": {
+                "begin": 17815,
+                "end": 17823
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "17961_17969",
+            "span": {
+                "begin": 17961,
+                "end": 17969
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "18091_18099",
+            "span": {
+                "begin": 18091,
+                "end": 18099
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "18108_18122",
+            "span": {
+                "begin": 18108,
+                "end": 18122
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "18168_18205",
+            "span": {
+                "begin": 18168,
+                "end": 18205
+            },
+            "entityType": "cell",
+            "entityName": "primary cultured mouse cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "18487_18495",
+            "span": {
+                "begin": 18487,
+                "end": 18495
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "18529_18552",
+            "span": {
+                "begin": 18529,
+                "end": 18552
+            },
+            "entityType": "cell",
+            "entityName": "Cultured Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "18679_18693",
+            "span": {
+                "begin": 18679,
+                "end": 18693
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "18800_18814",
+            "span": {
+                "begin": 18800,
+                "end": 18814
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "18941_18949",
+            "span": {
+                "begin": 18941,
+                "end": 18949
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "18987_18995",
+            "span": {
+                "begin": 18987,
+                "end": 18995
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "19041_19055",
+            "span": {
+                "begin": 19041,
+                "end": 19055
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "19366_19374",
+            "span": {
+                "begin": 19366,
+                "end": 19374
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "20056_20064",
+            "span": {
+                "begin": 20056,
+                "end": 20064
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "20110_20141",
+            "span": {
+                "begin": 20110,
+                "end": 20141
+            },
+            "entityType": "cell",
+            "entityName": "Primary Cultured Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "20307_20315",
+            "span": {
+                "begin": 20307,
+                "end": 20315
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "20433_20441",
+            "span": {
+                "begin": 20433,
+                "end": 20441
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "20544_20558",
+            "span": {
+                "begin": 20544,
+                "end": 20558
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "20601_20609",
+            "span": {
+                "begin": 20601,
+                "end": 20609
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "21359_21362",
+            "span": {
+                "begin": 21359,
+                "end": 21362
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "21423_21426",
+            "span": {
+                "begin": 21423,
+                "end": 21426
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "21535_21543",
+            "span": {
+                "begin": 21535,
+                "end": 21543
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "21566_21569",
+            "span": {
+                "begin": 21566,
+                "end": 21569
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "21601_21609",
+            "span": {
+                "begin": 21601,
+                "end": 21609
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "21634_21638",
+            "span": {
+                "begin": 21634,
+                "end": 21638
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "21683_21687",
+            "span": {
+                "begin": 21683,
+                "end": 21687
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "21728_21732",
+            "span": {
+                "begin": 21728,
+                "end": 21732
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "21789_21797",
+            "span": {
+                "begin": 21789,
+                "end": 21797
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "21811_21815",
+            "span": {
+                "begin": 21811,
+                "end": 21815
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "21829_21836",
+            "span": {
+                "begin": 21829,
+                "end": 21836
+            },
+            "entityType": "drug",
+            "entityName": "calcein",
+            "id": "UMLS:C0060549"
+        },
+        {
+            "entityId": "21837_21843",
+            "span": {
+                "begin": 21837,
+                "end": 21843
+            },
+            "entityType": "drug",
+            "entityName": "cobalt",
+            "id": "mesh:D003035"
+        },
+        {
+            "entityId": "21914_21921",
+            "span": {
+                "begin": 21914,
+                "end": 21921
+            },
+            "entityType": "drug",
+            "entityName": "calcein",
+            "id": "UMLS:C0060549"
+        },
+        {
+            "entityId": "21947_21951",
+            "span": {
+                "begin": 21947,
+                "end": 21951
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "22021_22035",
+            "span": {
+                "begin": 22021,
+                "end": 22035
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "22107_22115",
+            "span": {
+                "begin": 22107,
+                "end": 22115
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "22278_22286",
+            "span": {
+                "begin": 22278,
+                "end": 22286
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "22334_22338",
+            "span": {
+                "begin": 22334,
+                "end": 22338
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "22755_22763",
+            "span": {
+                "begin": 22755,
+                "end": 22763
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "22837_22845",
+            "span": {
+                "begin": 22837,
+                "end": 22845
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "22976_22979",
+            "span": {
+                "begin": 22976,
+                "end": 22979
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "23244_23258",
+            "span": {
+                "begin": 23244,
+                "end": 23258
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "23359_23367",
+            "span": {
+                "begin": 23359,
+                "end": 23367
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "23620_23628",
+            "span": {
+                "begin": 23620,
+                "end": 23628
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "23735_23738",
+            "span": {
+                "begin": 23735,
+                "end": 23738
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "23824_23827",
+            "span": {
+                "begin": 23824,
+                "end": 23827
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "24008_24016",
+            "span": {
+                "begin": 24008,
+                "end": 24016
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "24053_24056",
+            "span": {
+                "begin": 24053,
+                "end": 24056
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "24136_24144",
+            "span": {
+                "begin": 24136,
+                "end": 24144
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "25207_25215",
+            "span": {
+                "begin": 25207,
+                "end": 25215
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "25352_25364",
+            "span": {
+                "begin": 25352,
+                "end": 25364
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "25455_25464",
+            "span": {
+                "begin": 25455,
+                "end": 25464
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "25508_25534",
+            "span": {
+                "begin": 25508,
+                "end": 25534
+            },
+            "entityType": "gene",
+            "entityName": "mitochondrial cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "25569_25581",
+            "span": {
+                "begin": 25569,
+                "end": 25581
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "25700_25712",
+            "span": {
+                "begin": 25700,
+                "end": 25712
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "25808_25820",
+            "span": {
+                "begin": 25808,
+                "end": 25820
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "25895_25907",
+            "span": {
+                "begin": 25895,
+                "end": 25907
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "25943_25951",
+            "span": {
+                "begin": 25943,
+                "end": 25951
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "26004_26012",
+            "span": {
+                "begin": 26004,
+                "end": 26012
+            },
+            "entityType": "drug",
+            "entityName": "Lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "26016_26025",
+            "span": {
+                "begin": 26016,
+                "end": 26025
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "26050_26059",
+            "span": {
+                "begin": 26050,
+                "end": 26059
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "26155_26169",
+            "span": {
+                "begin": 26155,
+                "end": 26169
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "26222_26231",
+            "span": {
+                "begin": 26222,
+                "end": 26231
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "26291_26299",
+            "span": {
+                "begin": 26291,
+                "end": 26299
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "26354_26363",
+            "span": {
+                "begin": 26354,
+                "end": 26363
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "26394_26402",
+            "span": {
+                "begin": 26394,
+                "end": 26402
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "26470_26479",
+            "span": {
+                "begin": 26470,
+                "end": 26479
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "26490_26504",
+            "span": {
+                "begin": 26490,
+                "end": 26504
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27417_27448",
+            "span": {
+                "begin": 27417,
+                "end": 27448
+            },
+            "entityType": "cell",
+            "entityName": "primary cultured cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27702_27710",
+            "span": {
+                "begin": 27702,
+                "end": 27710
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "27821_27829",
+            "span": {
+                "begin": 27821,
+                "end": 27829
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "27833_27847",
+            "span": {
+                "begin": 27833,
+                "end": 27847
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27934_27942",
+            "span": {
+                "begin": 27934,
+                "end": 27942
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "28061_28075",
+            "span": {
+                "begin": 28061,
+                "end": 28075
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "28160_28174",
+            "span": {
+                "begin": 28160,
+                "end": 28174
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "28273_28277",
+            "span": {
+                "begin": 28273,
+                "end": 28277
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "28457_28465",
+            "span": {
+                "begin": 28457,
+                "end": 28465
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "28596_28608",
+            "span": {
+                "begin": 28596,
+                "end": 28608
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "28609_28618",
+            "span": {
+                "begin": 28609,
+                "end": 28618
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "28816_28834",
+            "span": {
+                "begin": 28816,
+                "end": 28834
+            },
+            "entityType": "disease",
+            "entityName": "myocardial failure",
+            "id": "UMLS:C1959583"
+        },
+        {
+            "entityId": "28839_28854",
+            "span": {
+                "begin": 28839,
+                "end": 28854
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "28880_28885",
+            "span": {
+                "begin": 28880,
+                "end": 28885
+            },
+            "entityType": "drug",
+            "entityName": "thiol",
+            "id": "UMLS:C0038734"
+        },
+        {
+            "entityId": "28918_28921",
+            "span": {
+                "begin": 28918,
+                "end": 28921
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "28968_28971",
+            "span": {
+                "begin": 28968,
+                "end": 28971
+            },
+            "entityType": "gene",
+            "entityName": "ANT",
+            "id": "UMLS:C1141015"
+        },
+        {
+            "entityId": "29014_29037",
+            "span": {
+                "begin": 29014,
+                "end": 29037
+            },
+            "entityType": "drug",
+            "entityName": "unsaturated fatty acids",
+            "id": "UMLS:C0015690"
+        },
+        {
+            "entityId": "29076_29087",
+            "span": {
+                "begin": 29076,
+                "end": 29087
+            },
+            "entityType": "drug",
+            "entityName": "cardiolipin",
+            "id": "UMLS:C0007188"
+        },
+        {
+            "entityId": "29239_29248",
+            "span": {
+                "begin": 29239,
+                "end": 29248
+            },
+            "entityType": "drug",
+            "entityName": "aldehydes",
+            "id": "UMLS:C0001992"
+        },
+        {
+            "entityId": "29257_29273",
+            "span": {
+                "begin": 29257,
+                "end": 29273
+            },
+            "entityType": "drug",
+            "entityName": "4-hydroxynonenal",
+            "id": "UMLS:C0048297"
+        },
+        {
+            "entityId": "29394_29420",
+            "span": {
+                "begin": 29394,
+                "end": 29420
+            },
+            "entityType": "cell",
+            "entityName": "H/R-treated cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "29457_29465",
+            "span": {
+                "begin": 29457,
+                "end": 29465
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "29499_29507",
+            "span": {
+                "begin": 29499,
+                "end": 29507
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "29923_29937",
+            "span": {
+                "begin": 29923,
+                "end": 29937
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "29949_29953",
+            "span": {
+                "begin": 29949,
+                "end": 29953
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "30095_30099",
+            "span": {
+                "begin": 30095,
+                "end": 30099
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "30254_30258",
+            "span": {
+                "begin": 30254,
+                "end": 30258
+            },
+            "entityType": "drug",
+            "entityName": "Ca2+",
+            "id": "UMLS:C0596235"
+        },
+        {
+            "entityId": "30263_30281",
+            "span": {
+                "begin": 30263,
+                "end": 30281
+            },
+            "entityType": "drug",
+            "entityName": "adenine nucleotide",
+            "id": "UMLS:C0001413"
+        },
+        {
+            "entityId": "30316_30320",
+            "span": {
+                "begin": 30316,
+                "end": 30320
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "30397_30405",
+            "span": {
+                "begin": 30397,
+                "end": 30405
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "30427_30431",
+            "span": {
+                "begin": 30427,
+                "end": 30431
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "30487_30495",
+            "span": {
+                "begin": 30487,
+                "end": 30495
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "30541_30545",
+            "span": {
+                "begin": 30541,
+                "end": 30545
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "30573_30587",
+            "span": {
+                "begin": 30573,
+                "end": 30587
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "30610_30614",
+            "span": {
+                "begin": 30610,
+                "end": 30614
+            },
+            "entityType": "gene",
+            "entityName": "mPTP",
+            "id": "UMLS:C0908146"
+        },
+        {
+            "entityId": "30968_30971",
+            "span": {
+                "begin": 30968,
+                "end": 30971
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "31018_31032",
+            "span": {
+                "begin": 31018,
+                "end": 31032
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "31038_31046",
+            "span": {
+                "begin": 31038,
+                "end": 31046
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "31120_31123",
+            "span": {
+                "begin": 31120,
+                "end": 31123
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "31193_31207",
+            "span": {
+                "begin": 31193,
+                "end": 31207
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "31360_31368",
+            "span": {
+                "begin": 31360,
+                "end": 31368
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "31410_31421",
+            "span": {
+                "begin": 31410,
+                "end": 31421
+            },
+            "entityType": "cell",
+            "entityName": "HepG2 cells",
+            "id": "UMLS:C2717940"
+        },
+        {
+            "entityId": "31433_31445",
+            "span": {
+                "begin": 31433,
+                "end": 31445
+            },
+            "entityType": "drug",
+            "entityName": "aflatoxin B1",
+            "id": "UMLS:C0085180"
+        },
+        {
+            "entityId": "31509_31513",
+            "span": {
+                "begin": 31509,
+                "end": 31513
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "31525_31546",
+            "span": {
+                "begin": 31525,
+                "end": 31546
+            },
+            "entityType": "drug",
+            "entityName": "3-nitropropionic acid",
+            "id": "UMLS:C0047640"
+        },
+        {
+            "entityId": "31722_31734",
+            "span": {
+                "begin": 31722,
+                "end": 31734
+            },
+            "entityType": "gene",
+            "entityName": "Cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "31902_31914",
+            "span": {
+                "begin": 31902,
+                "end": 31914
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "32002_32014",
+            "span": {
+                "begin": 32002,
+                "end": 32014
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "32106_32114",
+            "span": {
+                "begin": 32106,
+                "end": 32114
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "32197_32205",
+            "span": {
+                "begin": 32197,
+                "end": 32205
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "32273_32285",
+            "span": {
+                "begin": 32273,
+                "end": 32285
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "32337_32376",
+            "span": {
+                "begin": 32337,
+                "end": 32376
+            },
+            "entityType": "gene",
+            "entityName": "apoptotic peptidase activating factor 1",
+            "id": "UMLS:C1332098"
+        },
+        {
+            "entityId": "32378_32384",
+            "span": {
+                "begin": 32378,
+                "end": 32384
+            },
+            "entityType": "gene",
+            "entityName": "Apaf-1",
+            "id": "UMLS:C1332098"
+        },
+        {
+            "entityId": "32390_32394",
+            "span": {
+                "begin": 32390,
+                "end": 32394
+            },
+            "entityType": "drug",
+            "entityName": "dATP",
+            "id": "UMLS:CHEBI:61404"
+        },
+        {
+            "entityId": "32460_32472",
+            "span": {
+                "begin": 32460,
+                "end": 32472
+            },
+            "entityType": "gene",
+            "entityName": "procaspase-9",
+            "id": "UMLS:C0758917"
+        },
+        {
+            "entityId": "32515_32523",
+            "span": {
+                "begin": 32515,
+                "end": 32523
+            },
+            "entityType": "gene",
+            "entityName": "caspases",
+            "id": "UMLS:C0010656"
+        },
+        {
+            "entityId": "32547_32556",
+            "span": {
+                "begin": 32547,
+                "end": 32556
+            },
+            "entityType": "gene",
+            "entityName": "Caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "32607_32614",
+            "span": {
+                "begin": 32607,
+                "end": 32614
+            },
+            "entityType": "gene",
+            "entityName": "caspase",
+            "id": "UMLS:C0010656"
+        },
+        {
+            "entityId": "32636_32644",
+            "span": {
+                "begin": 32636,
+                "end": 32644
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "32674_32683",
+            "span": {
+                "begin": 32674,
+                "end": 32683
+            },
+            "entityType": "gene",
+            "entityName": "caspase-3",
+            "id": "UMLS:C0291573"
+        },
+        {
+            "entityId": "32741_32753",
+            "span": {
+                "begin": 32741,
+                "end": 32753
+            },
+            "entityType": "gene",
+            "entityName": "cytochrome c",
+            "id": "UMLS:C1426584"
+        },
+        {
+            "entityId": "32802_32810",
+            "span": {
+                "begin": 32802,
+                "end": 32810
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "33005_33013",
+            "span": {
+                "begin": 33005,
+                "end": 33013
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "33171_33191",
+            "span": {
+                "begin": 33171,
+                "end": 33191
+            },
+            "entityType": "cell",
+            "entityName": "mouse cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "33201_33209",
+            "span": {
+                "begin": 33201,
+                "end": 33209
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "33305_33313",
+            "span": {
+                "begin": 33305,
+                "end": 33313
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        },
+        {
+            "entityId": "33516_33524",
+            "span": {
+                "begin": 33516,
+                "end": 33524
+            },
+            "entityType": "drug",
+            "entityName": "lycopene",
+            "id": "UMLS:C0065331"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "0_8",
+            "subjectText": "Lycopene",
+            "rel_name": "stimulate",
+            "objectId": "109_146",
+            "objectText": "Primary Neonatal Mouse Cardiomyocytes"
+        },
+        {
+            "subjectID": "1393_1396",
+            "subjectText": "ATP",
+            "rel_name": "reduces",
+            "objectId": "1434_1446",
+            "objectText": "cytochrome c"
+        },
+        {
+            "subjectID": "1075_1089",
+            "subjectText": "cardiomyocytes",
+            "rel_name": "suppress",
+            "objectId": "1167_1171",
+            "objectText": "mPTP"
+        },
+        {
+            "subjectID": "1212_1218",
+            "subjectText": "oxygen",
+            "rel_name": "inhibit",
+            "objectId": "1271_1286",
+            "objectText": "malondialdehyde"
+        }
+    ]
+}

@@ -1,0 +1,1095 @@
+{
+    "sourcid": "PMC3409156",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3409156/",
+    "text": "Remote Ischemic Conditioning to Protect against Ischemia-Reperfusion Injury: A Systematic Review and Meta-Analysis Background Remote ischemic conditioning is gaining interest as potential method to induce resistance against ischemia reperfusion injury in a variety of clinical settings. We performed a systematic review and meta-analysis to investigate whether remote ischemic conditioning reduces mortality, major adverse cardiovascular events, length of stay in hospital and in the intensive care unit and biomarker release in patients who suffer from or are at risk for ischemia reperfusion injury. Methods and Results Medline, EMBASE and Cochrane databases were searched for randomized clinical trials comparing remote ischemic conditioning, regardless of timing, with no conditioning. Two investigators independently selected suitable trials, assessed trial quality and extracted data. 23 studies in patients undergoing cardiac surgery (15 studies), percutaneous coronary intervention (four studies) and vascular surgery (four studies), comprising in total 1878 patients, were included in this review. Compared to no conditioning, remote ischemic conditioning did not reduce mortality (odds ratio 1.22 [95% confidence interval 0.48, 3.07]) or major adverse cardiovascular events (0.65 [0.38, 1.14]). However, the incidence of myocardial infarction was reduced with remote ischemic conditioning (0.50 [0.31, 0.82]), as was peak troponin release (standardized mean difference -0.28 [-0.47, -0.09]).       Conclusion There is no evidence that remote ischemic conditioning reduces mortality associated with ischemic events; nor does it reduce major adverse cardiovascular events. However, remote ischemic conditioning did reduce the incidence of peri-procedural myocardial infarctions, as well as the release of troponin. Introduction Organ ischemia causes tissue damage in a variety of clinical settings, such as acute infarctions and/or hypoperfusion during surgery and organ transplantations. Restoration of adequate blood flow is the main treatment. However, even after restoration of blood flow tissue damage continues, partly induced by reperfusion itself. Research into the reduction of ischemia-reperfusion injury has gained an impulse after the discovery of ischemic preconditioning in 1986 by Murry et al. In ischemic preconditioning, a series of short non-lethal periods of ischemia interspersed with reperfusion periods, renders a target organ more resistant against a subsequent ischemic event. In addition, ischemic postconditioning, e.g. interrupted reperfusion or low-flow reperfusion, results in a reduction of damage compared to full-flow reperfusion.   Remote ischemic conditioning is an approach of conditioning in which not the target organ, such as the heart, but instead a more accessible tissue is submitted to a conditioning stimulus. First discovered to offer protection within one organ, remote preconditioning has been found to offer protection against ischemia reperfusion injury also when a different organ, or even skeletal muscle tissue is used for conditioning. Postconditioning is also possible with remote conditioning, offering the possibility of protecting patients suffering from unpredictable ischemic events, such as acute infarctions.   There is an increasing number of clinical studies investigating possible protection by remote ischemic conditioning, mostly in cardiac and major vascular surgery. These studies show a reduction of the release of biomarkers like serum troponine values. The release of troponine is related not only to myocardial infarction, but also to other cardiovascular events in the post-operative period. In 2008 Takagi et al. conducted a first meta-analysis of the four available studies, with a total of 184 patients undergoing cardiovascular surgery. They found that remote ischemic preconditioning reduced the release of biomarkers of myocardial injury, however, no analysis on adverse events was done. We performed a systematic review of an increased number of randomized trials investigating remote ischemic conditioning to answer the question whether remote ischemic conditioning, either before or during ischemia, improves the outcome of patients suffering from acute ischemia or who are at risk of developing ischemia during surgery. Methods Search Strategy and Selection of Papers Medline, EMBASE and Cochrane databases were searched independently by two investigators (DB, MK) using the following terms: \"remote preconditioning\", \"remote postconditioning\", \"remote perconditioning\", \"remote conditioning\", \"remote ischemic preconditioning\", \"remote ischemic postconditioning\", \"remote ischemic perconditioning\", \"remote ischemic conditioning\", \"remote ischaemic preconditioning\", \"remote ischaemic postconditioning\", \"remote ischaemic perconditioning\" and \"remote ischaemic conditioning.\" Literature was searched until July 2011, no search limitations were used and all found abstracts were screened for eligibility. Abstracts of papers identified through other sources were screened as well. Eligible trials were those in which patients suffering from, or being at risk for, ischemia were randomly assigned to receive either remote ischemic conditioning, regardless of the timing or the way the stimulus was induced, or no ischemic conditioning. Full paper manuscripts were obtained of all selected articles based on the assessment of abstracts. Only fully published trials were included, abstracts and congress presentations were not included. Primary outcome to be assessed was mortality; secondary outcome parameter was the combined endpoint of major adverse cardiovascular events, which was defined as stroke, myocardial infarction, atrial fibrillation, or kidney injury. Additional secondary endpoints were length of stay in the hospital and in the intensive care unit, biomarkers of cardiac and kidney injury, and kidney function. Trials not reporting any of these parameters were excluded from the review. When the independent search led to papers included by only one author, this was discussed to reach consensus. Two authors independently reviewed all full reports that could possibly meet inclusion criteria, guided by the Cochrane Handbook for Systematic Reviews and the PRISMA statement. In case of disagreement, consensus was sought by discussion with a third author.                                                 Reviewing and Data Extraction All selected papers were reviewed by two investigators (DB, MK), who were not blinded for the origin of the paper, nor the authors. Both investigators independently extracted data to a data extraction sheet. Data on the study population, in- and exclusion criteria, control and intervention protocol, randomization, blinding and follow-up were collected, as well as the outcome parameters mentioned above. Outcome parameters that were reported in the paper but were not the focus of this review were not extracted. Concerning the timing of events such as mortality, we used peri-operative or in-hospital event rate, if reported. For clinical parameters such as the occurrence of myocardial infarction or kidney injury, the criteria of the respective paper were used. We did not extract data on myocardial infarction from studies that were done in patients suffering from myocardial infarction. With respect to biomarker data, we used the peak values as reported in the paper. We renamed both troponin-I and troponin-T \"troponin\", and to compensate for the different types of troponin as well as the variation induced by different methods of analysis we used the standardized mean difference for analysis. If the data was presented in a graph, but not in text, we requested the corresponding author of the paper to provide these data. If these data were not provided we extrapolated it from the graph if the scale allowed a sufficiently precise estimation, i.e. if the scale and resolution of the graph allows the extraction of the graph without ambiguity. Inconsistency of the extracted data was discussed among the investigators, clarified and accounted for.     After extraction of relevant data to the data sheets by the two investigators, these were checked for inconsistencies, which were then resolved by discussion and joint reviewing of the paper. In case consensus couldn't be reached, a third investigator would be consulted (BP).   Papers were assessed for risk of bias by DB and MK on the following areas: randomization sequence generation, concealment of randomization sequence, blinding of intervention, blinding of outcome assessment, incomplete outcome reporting, and were classified as having low risk, high risk or unclear risk of bias for each item, as suggested in the Cochrane Handbook.   Data Analysis The verified data were analyzed using Review Manager (Version 5.1). DB entered the data, MK verified data entry. The odds ratio (Mantel-Haenszel), mean difference (inverse variance) and their corresponding 95% confidence intervals (95% CI) were calculated for dichotomous or continuous outcome data, respectively. A fixed-effect model was used in case of no relevant statistical heterogeneity. Statistical heterogeneity was assessed with the I2-test and assumed when I2 was >25%. A random-effect model was used in all other cases. A significant effect of an intervention was assumed if the 95% CI did not include the value 1.0 for odds ratio or 0 for mean difference. When the standard error was reported but not the standard deviation, the standard deviation was calculated. If continuous data was reported as median and range, we calculated an estimation of the mean and standard deviation as described by Hozo et al. When not the range, but the interquartile range was reported, we assumed this to be 1.35 standard deviations. Studies containing zero events in both arms are excluded when calculating an odds-ratio. To avoid over-estimating a possible effect due to the exclusion of patients in studies with no events, we recalculated the odds-ratio of dichotomous outcomes after adding one event in each arm, allowing us to include the patients in those studies. Forrest plots were used for graphical presentation, as well as an l'Abbe plot for dichotomous endpoints. We intended to perform a sub-group analysis for different patient populations if more than four studies were available: cardiac surgery, coronary artery bypass grafting surgery, valve-surgery, pediatric cardiac surgery and percutaneous coronary intervention (acute and elective).    Results Description of Studies Search results Searching resulted in 501 hits in Medline using PubMed, 226 hits in EMBASE and 42 hits in the Cochrane data base of clinical trials (see Figure 1), as well as one additional abstract identified through other sources. After checking for duplicates, 594 unique references remained. All abstracts were screened and 28 papers were identified for further evaluation, which were obtained in full print. Reading the full prints resulted in the direct exclusion of two papers, and after discussion between the three investigators of another two, that did not report any of the outcome parameters, which left 24 papers to be included for review and analysis (Table 1). One paper provided additional data on kidney injury in patients of two previously published studies, thus, 23 clinical studies were finally analyzed. Flow-schedule of search and selection of studies. Overview of included studies. Study\tPatientpopulation\tNumber of pat.\tGroups\tForm of remote conditioning\tEndpoints\tResults\t \tAli 2007 \tOpen AAA* repair\t82\tRemote ischemic preconditioning VS control\tLeg ischemia by clamping of the common iliac artery, 10 minutes left and 10 minutes right\tMyocardial injury, asdefined by an increase inserum cardiac troponin>0,40 ng/ml Sec:myocardial infarction,kidney injury, death\tPreconditioning reduced the risk of myocardial injury\t \tAli 2010 \tOn-pump CABG \t100\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tCK-MB release\tRemote ischemic conditioning reduced release of CK-MB postoperatively\t \tBotker 2010 \tPrimary PCI \t333\tRemote ischemic perconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 4x5 minutes\tSalvage index at 30 days measured by scintigraphy Sec.: Infarct size, troponin levels, death, reinfarction, hospitalization for heart-failure, LVEF \tRemote ischemic conditioning increased salvage index, when corrected for ventricle size\t \tCheung 2006 \tHeart surgery for congenital defects\t37\tRemote ischemic preconditioning VS control\tLeg ischemia and reperfusion, by inflation of a cuff at systolic pressure +15 mmHg placed at the leg, for 4x5 minutes\tTroponin levels, mixedvenous saturation, urineoutput, inotropicdemand, lung function,systemic inflammatory response\tRemote ischemic conditioning reduced myocardial injury\t \tChoi 2011 \tComplex valve surgery\t76\tRemote ischemic preconditioning VS control\tLeg ischemia and reperfusion, by inflation of a cuff at 250 mmHg placed at the leg, for 3x10 minutes\tKidney injury, asdefined by in increase inserum creatinine bymore than 50% or0.3 mg/dl(26.5 umol/L). Sec:CK, CK-MB levels\tRemote ischemic preconditioning did not reduce kidney or myocardial injury\t \tGunyadin 2000 \tOn-pump CABG\t8\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 300 mmHg placed at the upper arm, for 2 cylci of 3 minutes ischemia and 2 minutes reperfusion\tCK-MB and LDH release\tRemote ischemic conditioning increased biomarker release\t \tHausenloy 2007 \tOn-pump CABG\t66\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tTroponin release\tRemote ischemic conditioning reduced troponin release\t \tHong 2010 \tOff-pump CABG\t133\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 4x5 minutes\tTroponin release\tRemote ischemic preconditioning did not significantly reduce troponin release\t \tHoole 2009 \tElective PCI\t242\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tPrimary: Troponinlevels at 24 hoursSecondary: serumcreatinine, CRP,estimated GFR. MACE||rate at 6 months\tRemote ischemic preconditioning reduced troponin levels\t \tIliodromitis 2006 \tElective PCI\t41\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at both arms, for 3x5 minutes\tCRP, troponin, CK andCK-MB levels\tRemote ischemic preconditioning increased the release of cardiac enzymes\t \tKaruppasamy 2011 \tOn-pump CABG surgery\t54\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at both arms, for 3x5 minutes\tTroponin and CK-MB\tRemote ischemic preconditioning did not significantly reduce troponin release\t \tLi 2010 \tValve surgery\t81\tRemote ischemic preconditioning VS remote ischemic perconditioning VS control\tLeg ischemia and reperfusion, by inflation of a cuff at 600 mmHg placed at the leg, for 3x4 minutes\tClinical data and troponin levels\tRemote perconditioning, but not preconditioning, reduced troponin levels\t \tLuo 2011 \tVSD** correction.\t60\tRemote ischemic preconditioning VS direct postconditioning VS control\tLeg ischemia and reperfusion, by inflation of a cuff at 200-300 mmHg placed at the leg, for 3x5 minutes\tCK-MB and troponin levels, clinical data\tRemote ischemic conditioning reduced biomarker release\t \tRahman 2010 \tOn-pump CABG\t162\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tPrimary: troponin release\tRemote ischemic conditioning did not reduce troponin levels\t \tRentoukas 2010 \tPrimary PCI\t96\tRemote ischemic perconditioning VS remote ischemic perconditioning plus morphine VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tPrimary endpoint: achievement of full ST-segment resolution Secondary: peak troponin\tRemote ischemic conditioning increased the achievement of ST-segment resolution\t \tThielmann 2010 \tOn-pump CABG\t53\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tPrimary: Troponinlevels. Secondary:Mortality, major adversecardiovascular eventsand renal function\tRemote ischemic conditioning reduced troponin release\t \tVenugopal 2009 \tOn-pump CABG, +/- AVR#\t45\tRemote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tTroponin levels\tRemote ischemic conditioning reduced troponin release\t \tVenugopal 2010 \tOn-pump CABG, +/- AVR (retrospective analysis of 2 prior studies)\t78\tRemote ischemic conditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 200 mmHg placed at the arm, for 3x5 minutes\tKidney injury, defined as an increase of 25 umol/L\tRemote ischemic conditioning reduced kidney injury\t \tWagner 2010 \tOn-pump CABG, +/- valve surgery\t101\tLate remote ischemic preconditioning (18 hours before surgery) VS control VS tramadol\tArm ischemia and reperfusion, by inflation of a cuff at systolic pressure plus 40 mmHg placed at the arm, for 3x5 minutes\tTroponin release\tRemote ischemic conditioning reduced troponin release\t \tWalsh 2009 \tEndovascular AAA repair\t40\tRemote ischemic preconditioning VS control\tLeg ischemia and reperfusion, by inflation of a cuff placed at the thigh to a pressure that ensured absence of flow by echo-Doppler, 10 minutes of 1 leg,then 10 minutes of the other leg\tPrimary: kidney injury,measured byalbumin:creatinin ratioand retinol bindingprotein in urineSecondary: serumcreatinin and GFR\tRemote ischemic conditioning did not significantly reduce kidney injury\t \tWalsh 2010 \tOpen AAA repair\t40\tRemote ischemic preconditioning VS control\tLeg ischemia by clamping of the common iliac artery, 10 minutes left and 10 minutes right\tPrimary: kidney injury,measured byalbumin:creatinin ratioand retinol bindingprotein in urineSecondary: serumcreatinin and GFR\tRemote ischemic conditioning did not reduce kidney injury\t \tWalsh 2010 \tCarotid endarteriectomy\t70\tRemote ischemic conditioning VS control\tLeg ischemia and reperfusion, by inflation of a cuff placed at the thigh to a pressure that ensured absence of flow by echo-Doppler, 10 minutes of 1 leg, then 10 minutes of the other leg\tPrimary: saccadic latency, troponin release Secondary: major adverse cardiovascular events\tRemote ischemic conditioning did not significantly improve saccadic latency or troponin release\t \tZhou 2010 \tVSD repair\t60\tCombined late and early remote ischemic preconditioning VS control\tArm ischemia and reperfusion, by inflation of a cuff at 240 mmHg placed at the arm, for 3x5 minutes\tHeart and lung function, inflammatory markers\tRemote ischemic preconditioning had mixed effects on heart and lung function and inflammatory markers\t \tZimmerman 2011 \tOn-pump cardiac surgery\t60\tPreconditioning VS no intervention\tLeg ischemia and reperfusion, by inflation of surgical tourniquet to 200 mmHg placed at the thigh for 3x5 minutes\tKidney injury (increase of serum creatinine by >26.5 mmol/L)\tReduction in incidence of post-operative kidney injury by preconditioning                                     abdominal aortic aneurysm;  coronary artery bypass grafting;  percutaneous coronary intervention;  left ventricular ejection fraction; ||major adverse cardiovascular event; #aortic valve replacement; **ventricular septal defect.      Included studies Most studies were done in patients undergoing cardiac surgery, including 10 studies in coronary artery bypass grafting surgery surgery, and five in other cardiac surgery. Four studies were done in patients undergoing percutaneous coronary intervention, of which two were elective and two were acute studies. Another four studies were done in patients undergoing vascular surgery. Median trial size was 66 patients (range 8, 333 patients). Due to the small number of trials we only performed a sub-group analysis for the patients undergoing coronary artery bypass grafting surgery. Conditioning stimulus In most studies, remote ischemic conditioning was induced shortly before an expected period of ischemia (preconditioning). In two studies preconditioning was induced 18-24 hours before ischemia (late preconditioning), either by it self or combined with early preconditioning. One study included a remote ischemic preconditioning group and a remote ischemic postconditioning group, as well as one control group. We treated these two groups as if they were from two separate studies, thereby including the control patients twice. In both primary PCI studies conditioning was induced during ischemia.     Remote ischemic conditioning was almost always induced by inflating a blood-pressure cuff or surgical tourniquet placed at one of the extremities. Only in two studies ischemia was induced by invasively clamping an artery. In 14 studies the arm was used to induce conditioning by three or four series of five minutes of ischemia and five minutes of reperfusion. In nine studies the leg was used for conditioning by two or three series of five or ten minutes of ischemia.   Quality of Studies In one third of the studies the process of sequence generation and concealment was done properly, in the other studies the methods were not described in detail (see Figure 2). Adequate blinding was done in nine out of 23 studies. Six studies are at risk for performance bias, since the treating surgeon was not blinded for group allocation. This is in particular the case for the two studies in which the surgeon performed ischemic conditioning invasively. Nine studies were described as being blinded, but it was not specified how blinding of treating physicians was achieved. These studies were marked as having an unclear risk of bias. In one study, patients undergoing remote conditioning were sedated, while control patients were not. Outcome assessment was blinded in two thirds of the studies, for the other studies it was not well described. Two studies excluded patients after randomization and might be at risk for attrition bias. One study recruited extra patients after the planned number of patients did not provide enough power, although the numbers in the article do not match the numbers in the flow-schedule. In another study the patient numbers provided in text do not match those in the corresponding tables. Finally, one study did not specify a primary outcome parameter and lacked a power calculation.   Risk of bias table: green = low risk of bias; yellow = unclear risk of bias; red = high risk of bias.             Effects of Remote Conditioning Mortality and major adverse cardiovascular events In total, 954 patients were treated with remote ischemic conditioning and were compared with 924 control patients. Remote ischemic conditioning did not reduce the primary endpoint of mortality (Figure 3), which was reported in 16 studies and occurred in nine (1.3%) patients of 709 treated with remote ischemic conditioning, compared to seven (1.0%) out of 680 control patients (odds ratio 1.22 [95% confidence interval: 0.48, 3.07]). There was no evidence for statistical heterogeneity (I2 = 0%). The incidence of major adverse cardiovascular events was not reduced by remote conditioning (odds ratio 0.65 [0.38, 1.14], Figure 4), nor was the occurrence of atrial fibrillation (odds ratio 1.11 [0.63, 1.95]), or kidney injury (odds ratio 0.63 [0.28, 1.45]). Stroke was reported in five studies, but no events occurred. Remote ischemic conditioning reduced the risk of myocardial infarction (0.50 [0.31, 0.82]), with no statistical heterogeneity (I2 = 0%) (Figure 5). Including the studies with no events by adding one event in each study arm results in a recalculated odds ratio of 0.53 (0.34, 0.85). The l'Abbe plot shows two outliers: the studies Ali '07 and Hoole '09, a mid-size and large trial, both with a rather high incidence of infarctions. As a sensitivity analysis we recalculated the odds ratio without these studies, resulting in an odds ratio of 0.68 (0.28, 1.65). In the subgroup of patients undergoing coronary artery bypass grafting surgery there were four events in the intervention group compared to seven in the control group (odds ratio 0.63 [0.21, 1.89]).                Mortality with remote ischemic conditioning and without remote ischemic conditioning. Major adverse cardiovascular events with remote ischemic conditioning and without remote ischemic conditioning. Myocardial infarction with remote ischemic conditioning and without remote ischemic conditioning. Length of stay in hospital and in the intensive care unit 12 and 10 studies reported the length of stay in the hospital and in the intensive care unit, respectively, but both outcome parameters were not affected by remote ischemic conditioning (mean difference length-of-stay 0.04 days (95% confidence interval: -0.21, 0.29); mean difference intensive care unit stay -0.16 days (-0.38, 0.06), respectively).       Biomarkers Troponin was the most reported biomarker of myocardial injury and was significantly reduced by remote ischemic conditioning (standardized mean difference -0.28 [95% confidence interval: -0.47, -0.09], Figure 6), although there was significant statistical heterogeneity (I2 = 66%). Troponin release was also reduced in the coronary artery bypass grafting subgroup by remote ischemic conditioning as compared to control (standardized mean difference -0.29 [95% confidence interval -0.55, -0.03], Figure 7). Levels of creatine kinase were reported only in three studies (mean difference 19.54 U/L [-5.60, 44.69]), and the levels of creatine kinase muscle-brain in seven studies (mean difference -0.45 ug/L [-6.14, 5.24]), showing no difference between groups.                       Peak troponin release with remote ischemic conditioning and without remote ischemic conditioning. Peak troponin release with remote ischemic conditioning and without remote ischemic conditioning in the CABG-surgery sub-group. Regarding kidney function, creatinine clearance was reported in five studies and plasma creatinine levels in seven, which were both not reduced by remote ischemic conditioning (mean difference creatinine clearance 1.88 ml/min [-5.10, 8.87]; mean difference creatinine levels -6.50 mmol/L [-17.52, 4.53], respectively).       Discussion Despite including 23 studies the available evidence on the effect of remote ischemic conditioning on the clinical outcome of patients after ischemic events is limited, and strong conclusions can not be drawn. The present analysis does not support the hypothesis that remote ischemic conditioning reduces mortality associated with ischemic events, nor did remote conditioning reduce the combined endpoint of major adverse cardiovascular events. However, the secondary endpoint of periprocedural myocardial infarction was reduced by remote ischemic conditioning, as was the post-procedural peak release of troponin, although there are some limitations to these conclusions. Most included clinical studies were rather small, and focused on the effect of remote conditioning on biomarker release and other surrogate parameters of organ injury. Short or long-term outcome was not the primary outcome variable in any study. Some studies did not report on the occurrence of adverse events, such as death or myocardial infarction. The overall mortality in studies that reported on this outcome was 1.2%, and the total number of events was 14, meaning that the incidence of the relevant event was quite low. It is debatable whether a reduction in mortality is possible in these patients. But to demonstrate an effect on mortality, if there is any, thousands of patients have to be included. For mortality the required group-size can not be calculated using our data, since we found no trend towards a reduction in mortality by remote conditioning. However, based on our data, with an incidence in the control group of 21%, 760 patients per group will be needed to detect a relative risk reduction of 27% in major adverse cardiovascular events, with an alpha of 0.05 and a beta of 0.80. Providing statistical significance would be reached, inevitably the question of the clinical impact of such findings would appear. The intervention of remote conditioning might prove to be more beneficial in high-risk patients; however, these high-risk patients were generally excluded from the clinical trials that were available for inclusion in the current meta-analysis. Our analysis shows that remote conditioning reduces the incidence of myocardial infarction. When examining the endpoint of myocardial infarction we used the definition applied by the investigators of the respective studies. This means that different events could have been classified as myocardial infarctions, and we could have wrongly pooled these events in the meta-analysis. Additionally, the results of the meta-analysis are largely driven by the study of Ali et al. In this study the control group had a rather high event rate of approximately 26% and might not represent the population as a whole. Also, the study intervention (invasive crossclamping of the iliac artery) was administered by the operating surgeon, which could have induced bias. In addition to a reduction in myocardial infarction, we also found that the release of biomarkers of myocardial injury was reduced after remote conditioning. In contrast, however, we found no reduction in mortality, or length of stay in hospital or in the intensive care unit. As mentioned in the meta-analysis of myocardial infarctions the studies by Hoole and Ali were assigned a high weight, of 53% and 22% respectively. The Hoole study was performed in low risk patients undergoing elective percutaneous coronary intervention, no mortalities occurred and could therefore not have been improved; length of stay was not reported. Ali et al did find a significant reduction in length of stay on the intensive care unit, as well as a non-significant reduction in length of stay in hospital. However, in the meta-analysis of these parameters their study was assigned a low weight and the effect was lost. This could explain why the reduction in myocardial infarctions does not translate into a reduction in length of stay, or mortality. Troponin was commonly used as biomarker for myocardial injury. Quantities reported varied; some studies reported peak values, some area under the curve, while again other studies mentioned values at several time-points (which also differed between studies). We used peak values when reported, and otherwise approximated them as good as possible. However, this inevitably leads to variance since the reported time-points differed between studies and the extracted peak values varied greatly between studies, even in comparable settings. Therefore, it is uncertain whether our meta-analysis estimates the true effect of remote ischemic conditioning by missing the true peak values in some studies. In view of a resulting research agenda and as with other preconditioning studies, it would be advisable that the international research community establishes standards to measure organ injury in clinical studies. An issue that troubles most studies is adequate blinding, which is probably more difficult to achieve than in trials investigating a pharmacological agent. Only in a minority of the trials all care providers were blinded, leaving the others at risk for bias. In the present review we included studies with significant clinical heterogeneity. Studies differed in setting, patient population and the extent of ischemia the patients were at risk for. Patients undergoing cardiac surgery, vascular surgery, elective or acute percutaneous coronary intervention were all pooled for the meta-analysis on the chosen outcome parameters. We intended to perform sub-group analysis on special patient populations, but while analyzing the data it became obvious that only the group of studies in patients undergoing coronary artery bypass grafting was large enough to permit a sub-group analysis. There is no uniform protocol to induce remote ischemic conditioning in the included studies. Different limbs are made ischemic and the duration and number of the ischemic periods differ. In a prior study Loukogeorgakis et al. compared different regimes of remote postconditioning, comparing both arms and legs, and two and three cycles of five minutes ischemia and reperfusion. Their findings suggest that a threshold stimulus must be reached in order to achieve protection. Therefore, it might be that some studies used a form of conditioning which is not sufficient to achieve the maximal protective effect. Different kinds of anesthesia have been used in different clinical studies. From experimental and clinical studies it is known that pre- and postconditioning are influenced by different anesthetics. It is most likely that there is an effect of anesthetic regime on conditioning, and it would be interesting to perform an analysis based on different anesthetics used within our meta-analysis. However, most studies do not report the anesthetics used, and unless the anesthetic regime is specified in the protocol, it is impossible to identify this in retrospect. Therefore we chose not to perform such an analysis. We used a random-effect model when statistical heterogeneity was high, and a fixed-effect model when it was low. Since random-effect models tend to provide a broader confidence interval than fixed-effect models, and can therefore be seen as more conservative, one may argue to use them for all analysis. This is not necessarily true, however, since random-effect models also put greater emphasis on small trials, and can be less conservative in those instances. A comparison of the results of this approach and those of the respective random-effect model was performed, which did not alter the results (data not shown). Recently Takagi and Umemoto published an update of their previous meta-analysis on remote ischemic preconditioning, which confirmed their previously determined reduction in biomarker release. However, they found no reduction in mortality or peri-operative myocardial infarctions. Our findings are in line with their study, as we can show an effect on biomarker release, but no reduction in mortality. However, we did see a reduction in myocardial infarctions. There are a several differences between the study by Takagi and the present analysis, which might explain these different results. We included 23 studies compared to 9 studies with a total of 1878 patients compared to 482 included by Takagi. Next to a broader timeframe (until July 2011 versus April 2010) we also included a broader population of studies, encompassing four studies in patients undergoing a PCI. Concerning biomarker release, Takagi extracted different entities such as area-under-the-curve, peak values and single time-points, and subsequently pooled the data using the standardized mean differences, whereas we tried to extract peak values from all studies. In summary, remote ischemic conditioning is an experimental technique and until today not part of accepted treatment protocols. Although studies on biomarker release show promising results, there is until today not enough evidence to recommend the routine use of remote ischemic conditioning to treat ischemic injury. Large trials are needed to investigate whether remote conditioning actually improves clinical outcomes. Research should also include high-risk patients, who might benefit most from protection by remote ischemic conditioning. References Preconditioning with ischemia: a delay of lethal cell injury in ischemic myocardium Postconditioning during primary percutaneous coronary intervention: a review and meta-analysis Regional ischemic 'preconditioning' protects remote virgin myocardium from subsequent sustained coronary occlusion     Transient limb ischemia induces remote ischemic preconditioning in vivo Remote postconditioning. Brief renal ischemia and reperfusion applied before coronary artery reperfusion reduces myocardial infarct size via endogenous activation of adenosine receptors Review and meta-analysis of randomized controlled clinical trials of remote ischemic preconditioning in cardiovascular surgery Cochrane Handbook for Systematic Reviews of Interventions Version 5.1.0 [updated March 2011]. : The Cochrane Collaboration, 2011 Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement Review Manager (RevMan) [Computer program]. Version 5.1 Estimating the mean and variance from the median, range, and the size of a sample Remote ischemic preconditioning stimulus does not reduce microvascular resistance or improve myocardial blood flow in patients undergoing elective percutaneous coronary intervention Remote ischaemic pre-conditioning does not attenuate ischaemic left ventricular dysfunction in humans Effects of remote ischemic preconditioning on biochemical markers and neurologic outcomes in patients undergoing elective cervical decompression surgery: a prospective randomized controlled trial Remote Ischemic Conditioning in Patients With Myocardial Infarction Treated With Primary Angioplasty: Impact on Left Ventricular Function Assessed by Comprehensive Echocardiography and Gated Single-Photon Emission CT. Circulation Effect of remote ischemic preconditioning on acute kidney injury in nondiabetic patients undergoing coronary artery bypass graft surgery: a secondary analysis of 2 small randomized trials Effect of remote ischaemic preconditioning on myocardial injury in patients undergoing coronary artery bypass graft surgery: a randomised controlled trial Remote ischaemic preconditioning reduces myocardial injury in patients undergoing cardiac surgery with cold-blood cardioplegia: a randomised controlled trial Does remote organ ischaemia trigger cardiac preconditioning during coronary artery surgery? Myocardial injury is decreased by late remote ischaemic preconditioning and aggravated by tramadol in patients undergoing cardiac surgery: a randomised controlled trial Remote ischemic preconditioning reduces myocardial injury after coronary artery bypass surgery with crystalloid cardioplegic arrest Induced remote ischemic pre-conditioning on ischemia-reperfusion injury in patients undergoing coronary artery bypass Remote ischemic preconditioning in human coronary artery bypass surgery: from promise to disappointment? Ischemic preconditioning at a remote site prevents acute kidney injury in patients following cardiac surgery Remote intermittent ischemia before coronary artery bypass graft surgery: a strategy to reduce injury and inflammation Randomized controlled trial of the effects of remote ischemic preconditioning on children undergoing cardiac surgery: first clinical application in humans Limb ischemic preconditioning reduces heart and lung injury after an open heart operation in infants Remote perconditioning reduces myocardial injury in adult valve replacement: a randomized controlled trial A comparison of cardiac post-conditioning and remote pre-conditioning in paediatric cardiac surgery Effect of remote ischemic preconditioning on renal dysfunction after complex valvular heart surgery: a randomized controlled trial Increased C reactive protein and cardiac enzyme levels after coronary stent implantation. Is there protection by remote ischaemic preconditioning? Cardiac Remote Ischemic Preconditioning in Coronary Stenting (CRISP Stent) Study: a prospective, randomized control trial Cardioprotective role of remote ischemic periconditioning in primary percutaneous coronary intervention: enhancement by opioid action. JACC Remote ischaemic conditioning before hospital admission, as a complement to angioplasty, and effect on myocardial salvage in patients with acute myocardial infarction: a randomised trial Remote ischemic preconditioning reduces myocardial and renal injury after elective abdominal aortic aneurysm repair: a randomized controlled trial Remote ischemic preconditioning for renal and cardiac protection during endovascular aneurysm repair: a randomized controlled trial Remote ischemic preconditioning for renal protection during elective open infrarenal abdominal aortic aneurysm repair: randomized controlled trial Remote ischemic preconditioning for cerebral and cardiac protection during carotid endarterectomy: results from a pilot randomized clinical trial The effect of remote ischaemic preconditioning on myocardial injury in patients undergoing off-pump coronary artery bypass graft surgery Transient limb ischemia induces remote preconditioning and remote postconditioning in humans by a K(ATP)-channel dependent mechanism Evidence-based practice: how to perform and use systematic reviews for clinical decision-making Remote ischemic preconditioning for cardiovascular surgery: an updated meta-analysis of randomized trials",
+    "entities": [
+        {
+            "entityId": "48_75",
+            "span": {
+                "begin": 48,
+                "end": 75
+            },
+            "entityType": "disease",
+            "entityName": "Ischemia-Reperfusion Injury",
+            "id": "mesh:D015427"
+        },
+        {
+            "entityId": "224_251",
+            "span": {
+                "begin": 224,
+                "end": 251
+            },
+            "entityType": "disease",
+            "entityName": "ischemia reperfusion injury",
+            "id": "mesh:D015427"
+        },
+        {
+            "entityId": "529_537",
+            "span": {
+                "begin": 529,
+                "end": 537
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "573_600",
+            "span": {
+                "begin": 573,
+                "end": 600
+            },
+            "entityType": "disease",
+            "entityName": "ischemia reperfusion injury",
+            "id": "mesh:D015427"
+        },
+        {
+            "entityId": "905_913",
+            "span": {
+                "begin": 905,
+                "end": 913
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1067_1075",
+            "span": {
+                "begin": 1067,
+                "end": 1075
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1331_1352",
+            "span": {
+                "begin": 1331,
+                "end": 1352
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1432_1440",
+            "span": {
+                "begin": 1432,
+                "end": 1440
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "1763_1785",
+            "span": {
+                "begin": 1763,
+                "end": 1785
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1813_1821",
+            "span": {
+                "begin": 1813,
+                "end": 1821
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "1836_1850",
+            "span": {
+                "begin": 1836,
+                "end": 1850
+            },
+            "entityType": "disease",
+            "entityName": "Organ ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "1915_1932",
+            "span": {
+                "begin": 1915,
+                "end": 1932
+            },
+            "entityType": "disease",
+            "entityName": "acute infarctions",
+            "id": "UMLS:C0333548"
+        },
+        {
+            "entityId": "1940_1953",
+            "span": {
+                "begin": 1940,
+                "end": 1953
+            },
+            "entityType": "disease",
+            "entityName": "hypoperfusion",
+            "id": "UMLS:C0442856"
+        },
+        {
+            "entityId": "2195_2222",
+            "span": {
+                "begin": 2195,
+                "end": 2222
+            },
+            "entityType": "disease",
+            "entityName": "ischemia-reperfusion injury",
+            "id": "mesh:D015427"
+        },
+        {
+            "entityId": "2386_2394",
+            "span": {
+                "begin": 2386,
+                "end": 2394
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "2982_3009",
+            "span": {
+                "begin": 2982,
+                "end": 3009
+            },
+            "entityType": "disease",
+            "entityName": "ischemia reperfusion injury",
+            "id": "mesh:D015427"
+        },
+        {
+            "entityId": "3195_3203",
+            "span": {
+                "begin": 3195,
+                "end": 3203
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3258_3275",
+            "span": {
+                "begin": 3258,
+                "end": 3275
+            },
+            "entityType": "disease",
+            "entityName": "acute infarctions",
+            "id": "UMLS:C0333548"
+        },
+        {
+            "entityId": "3579_3600",
+            "span": {
+                "begin": 3579,
+                "end": 3600
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3777_3785",
+            "span": {
+                "begin": 3777,
+                "end": 3785
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4179_4187",
+            "span": {
+                "begin": 4179,
+                "end": 4187
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "4213_4221",
+            "span": {
+                "begin": 4213,
+                "end": 4221
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4237_4251",
+            "span": {
+                "begin": 4237,
+                "end": 4251
+            },
+            "entityType": "disease",
+            "entityName": "acute ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "4285_4293",
+            "span": {
+                "begin": 4285,
+                "end": 4293
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "5107_5115",
+            "span": {
+                "begin": 5107,
+                "end": 5115
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5154_5162",
+            "span": {
+                "begin": 5154,
+                "end": 5162
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "5685_5691",
+            "span": {
+                "begin": 5685,
+                "end": 5691
+            },
+            "entityType": "disease",
+            "entityName": "stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "5693_5714",
+            "span": {
+                "begin": 5693,
+                "end": 5714
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "5716_5735",
+            "span": {
+                "begin": 5716,
+                "end": 5735
+            },
+            "entityType": "disease",
+            "entityName": "atrial fibrillation",
+            "id": "UMLS:C0004238"
+        },
+        {
+            "entityId": "7118_7139",
+            "span": {
+                "begin": 7118,
+                "end": 7139
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "7233_7254",
+            "span": {
+                "begin": 7233,
+                "end": 7254
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "7286_7294",
+            "span": {
+                "begin": 7286,
+                "end": 7294
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "7310_7331",
+            "span": {
+                "begin": 7310,
+                "end": 7331
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "7431_7441",
+            "span": {
+                "begin": 7431,
+                "end": 7441
+            },
+            "entityType": "gene",
+            "entityName": "troponin-I",
+            "id": "UMLS:C0077401"
+        },
+        {
+            "entityId": "7446_7456",
+            "span": {
+                "begin": 7446,
+                "end": 7456
+            },
+            "entityType": "gene",
+            "entityName": "troponin-T",
+            "id": "UMLS:C1420827"
+        },
+        {
+            "entityId": "7458_7466",
+            "span": {
+                "begin": 7458,
+                "end": 7466
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "7514_7522",
+            "span": {
+                "begin": 7514,
+                "end": 7522
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "9949_9957",
+            "span": {
+                "begin": 9949,
+                "end": 9957
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10103_10111",
+            "span": {
+                "begin": 10103,
+                "end": 10111
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10293_10300",
+            "span": {
+                "begin": 10293,
+                "end": 10300
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11279_11287",
+            "span": {
+                "begin": 11279,
+                "end": 11287
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19828_19836",
+            "span": {
+                "begin": 19828,
+                "end": 19836
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19999_20007",
+            "span": {
+                "begin": 19999,
+                "end": 20007
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20144_20152",
+            "span": {
+                "begin": 20144,
+                "end": 20152
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20207_20215",
+            "span": {
+                "begin": 20207,
+                "end": 20215
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20230_20238",
+            "span": {
+                "begin": 20230,
+                "end": 20238
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20322_20330",
+            "span": {
+                "begin": 20322,
+                "end": 20330
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20500_20508",
+            "span": {
+                "begin": 20500,
+                "end": 20508
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "20590_20598",
+            "span": {
+                "begin": 20590,
+                "end": 20598
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "20917_20925",
+            "span": {
+                "begin": 20917,
+                "end": 20925
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20993_21001",
+            "span": {
+                "begin": 20993,
+                "end": 21001
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "21174_21182",
+            "span": {
+                "begin": 21174,
+                "end": 21182
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "21326_21334",
+            "span": {
+                "begin": 21326,
+                "end": 21334
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "21467_21475",
+            "span": {
+                "begin": 21467,
+                "end": 21475
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "22151_22159",
+            "span": {
+                "begin": 22151,
+                "end": 22159
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22219_22227",
+            "span": {
+                "begin": 22219,
+                "end": 22227
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22369_22377",
+            "span": {
+                "begin": 22369,
+                "end": 22377
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22465_22473",
+            "span": {
+                "begin": 22465,
+                "end": 22473
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22502_22510",
+            "span": {
+                "begin": 22502,
+                "end": 22510
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22645_22652",
+            "span": {
+                "begin": 22645,
+                "end": 22652
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23032_23040",
+            "span": {
+                "begin": 23032,
+                "end": 23040
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23123_23131",
+            "span": {
+                "begin": 23123,
+                "end": 23131
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23284_23292",
+            "span": {
+                "begin": 23284,
+                "end": 23292
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23387_23395",
+            "span": {
+                "begin": 23387,
+                "end": 23395
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23676_23695",
+            "span": {
+                "begin": 23676,
+                "end": 23695
+            },
+            "entityType": "disease",
+            "entityName": "atrial fibrillation",
+            "id": "UMLS:C0004238"
+        },
+        {
+            "entityId": "23777_23783",
+            "span": {
+                "begin": 23777,
+                "end": 23783
+            },
+            "entityType": "disease",
+            "entityName": "Stroke",
+            "id": "UMLS:C0038454"
+        },
+        {
+            "entityId": "23887_23908",
+            "span": {
+                "begin": 23887,
+                "end": 23908
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "24256_24267",
+            "span": {
+                "begin": 24256,
+                "end": 24267
+            },
+            "entityType": "disease",
+            "entityName": "infarctions",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "24417_24425",
+            "span": {
+                "begin": 24417,
+                "end": 24425
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "25333_25341",
+            "span": {
+                "begin": 25333,
+                "end": 25341
+            },
+            "entityType": "gene",
+            "entityName": "Troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "25377_25387",
+            "span": {
+                "begin": 25377,
+                "end": 25387
+            },
+            "entityType": "disease",
+            "entityName": "myocardial",
+            "id": "mesh:D009202"
+        },
+        {
+            "entityId": "25614_25622",
+            "span": {
+                "begin": 25614,
+                "end": 25622
+            },
+            "entityType": "gene",
+            "entityName": "Troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "25848_25863",
+            "span": {
+                "begin": 25848,
+                "end": 25863
+            },
+            "entityType": "gene",
+            "entityName": "creatine kinase",
+            "id": "UMLS:C0010287"
+        },
+        {
+            "entityId": "25962_25990",
+            "span": {
+                "begin": 25962,
+                "end": 25990
+            },
+            "entityType": "gene",
+            "entityName": "creatine kinase muscle-brain",
+            "id": "UMLS:C0010287"
+        },
+        {
+            "entityId": "26365_26375",
+            "span": {
+                "begin": 26365,
+                "end": 26375
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "26426_26436",
+            "span": {
+                "begin": 26426,
+                "end": 26436
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "26531_26541",
+            "span": {
+                "begin": 26531,
+                "end": 26541
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "26595_26605",
+            "span": {
+                "begin": 26595,
+                "end": 26605
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "26799_26807",
+            "span": {
+                "begin": 26799,
+                "end": 26807
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "27168_27189",
+            "span": {
+                "begin": 27168,
+                "end": 27189
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "27278_27286",
+            "span": {
+                "begin": 27278,
+                "end": 27286
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "27674_27695",
+            "span": {
+                "begin": 27674,
+                "end": 27695
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "27943_27951",
+            "span": {
+                "begin": 27943,
+                "end": 27951
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28026_28034",
+            "span": {
+                "begin": 28026,
+                "end": 28034
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28292_28300",
+            "span": {
+                "begin": 28292,
+                "end": 28300
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28669_28677",
+            "span": {
+                "begin": 28669,
+                "end": 28677
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28704_28712",
+            "span": {
+                "begin": 28704,
+                "end": 28712
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "28895_28916",
+            "span": {
+                "begin": 28895,
+                "end": 28916
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "28949_28970",
+            "span": {
+                "begin": 28949,
+                "end": 28970
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "29113_29135",
+            "span": {
+                "begin": 29113,
+                "end": 29135
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "29609_29630",
+            "span": {
+                "begin": 29609,
+                "end": 29630
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "29893_29915",
+            "span": {
+                "begin": 29893,
+                "end": 29915
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "30045_30053",
+            "span": {
+                "begin": 30045,
+                "end": 30053
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "30523_30545",
+            "span": {
+                "begin": 30523,
+                "end": 30545
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "30615_30623",
+            "span": {
+                "begin": 30615,
+                "end": 30623
+            },
+            "entityType": "gene",
+            "entityName": "Troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "31895_31902",
+            "span": {
+                "begin": 31895,
+                "end": 31902
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "31932_31940",
+            "span": {
+                "begin": 31932,
+                "end": 31940
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "31945_31953",
+            "span": {
+                "begin": 31945,
+                "end": 31953
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "31972_31980",
+            "span": {
+                "begin": 31972,
+                "end": 31980
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "32205_32212",
+            "span": {
+                "begin": 32205,
+                "end": 32212
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "32307_32315",
+            "span": {
+                "begin": 32307,
+                "end": 32315
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "32760_32768",
+            "span": {
+                "begin": 32760,
+                "end": 32768
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "34508_34530",
+            "span": {
+                "begin": 34508,
+                "end": 34530
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "34688_34710",
+            "span": {
+                "begin": 34688,
+                "end": 34710
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarctions",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "34909_34917",
+            "span": {
+                "begin": 34909,
+                "end": 34917
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "35097_35105",
+            "span": {
+                "begin": 35097,
+                "end": 35105
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "35849_35857",
+            "span": {
+                "begin": 35849,
+                "end": 35857
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1813_1821",
+            "subjectText": "troponin",
+            "rel_name": "reduces",
+            "objectId": "1763_1785",
+            "objectText": "myocardial infarctions"
+        },
+        {
+            "subjectID": "1331_1352",
+            "subjectText": "myocardial infarction",
+            "rel_name": "reduces",
+            "objectId": "1432_1440",
+            "objectText": "troponin"
+        }
+    ]
+}

@@ -1,0 +1,3153 @@
+{
+    "sourcid": "PMC3405723",
+    "publisher": "Hindawi Publishing Corporation",
+    "journal": "International Journal of Vascular Medicine",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3405723/",
+    "text": "Chronic C-Type Natriuretic Peptide Infusion Attenuates Angiotensin II-Induced Myocardial Superoxide Production and Cardiac Remodeling Myocardial oxidative stress and inflammation are key mechanisms in cardiovascular remodeling. C-type natriuretic peptide (CNP) is an endothelium-derived cardioprotective factor, although its effect on cardiac superoxide generation has not been investigated in vivo. This study tested the hypothesis that suppression of superoxide production contributes to the cardioprotective action of CNP. Angiotensin II (Ang II) or saline was continuously infused subcutaneously into mice using an osmotic minipump. Simultaneously with the initiation of Ang II treatment, mice were infused with CNP (0.05 mug/kg/min) or vehicle for 2 weeks. The heart weight to tibial length ratio was significantly increased by Ang II in vehicle-treated mice. Treatment with CNP decreased Ang II-induced cardiac hypertrophy without affecting systolic blood pressure. Echocardiography showed that CNP attenuated Ang II-induced increase in wall thickness, left ventricular dilatation, and decrease in fractional shortening. CNP reduced Ang II-induced increases in cardiomyocyte size and interstitial fibrosis and suppressed hypertrophic- and fibrosis-related gene expression. Finally, CNP decreased Ang II-induced cardiac superoxide production. These changes were accompanied by suppression of NOX4 gene expression. Our data indicate that treatment with CNP attenuated Ang II-induced cardiac hypertrophy, fibrosis, and contractile dysfunction which were accompanied by reduced cardiac superoxide production.   1. Introduction C-type natriuretic peptide (CNP) belongs to the natriuretic peptides (NPs) family, which was originally isolated from porcine brain tissues and later established as a positive regulator of endochondral ossification. In the cardiovascular system, CNP is secreted from endothelial cells and cardiac fibroblasts, and acts as an autocrine/paracrine regulator. Myocardial production and circulating CNP levels are increased in patients with chronic heart failure, suggesting that CNP has an important role in the pathogenesis of heart failure. ANP and BNP bind to natriuretic peptide receptor (NPR)-A, inducing natriuresis and diuresis, whereas CNP preferentially binds to its specific receptor, NPR-B. Because of the relative abundance of NPR-B over NPR-A in cardiac fibroblasts and in cardiomyocytes, CNP reportedly has more potent antihypertrophic and antifibrotic properties, despite less hypotensive and less natriuretic effects compared with ANP and BNP. The recently designed novel compound CD-NP, which is a chimera of CNP and DNP, is a promising candidate for new-generation therapeutics using NPs. It is therefore of interest to elucidate the precise role of CNP in cardiovascular pathophysiology from both a basic and clinical medicine perspective. Previous experimental studies showed that long-term administration of CNP attenuates cardiac remodeling and maintains systolic function in murine models of myocardial infarction and myocarditis, independent of its hypotensive effect. Cardiomyocyte-specific overexpression of CNP attenuated cardiac hypertrophy in a murine model of myocardial infarction. Conversely, transgenic rats with overexpression of a dominant-negative mutant of NPR-B showed exacerbated cardiac hypertrophy. In vitro, it has been shown that CNP prevents agonist-induced cardiomyocyte hypertrophy via a cyclic GMP-dependent protein kinase-mediated mechanism. CNP also inhibits fibroblast proliferation and extracellular matrix production of cardiac fibroblasts more potently than ANP and BNP. These data indicate that CNP acts directly on myocardial cells to protect against pathological stimuli. Experimental and clinical evidence implicates a central role for angiotensin II (Ang II) in all stages of the cardiovascular continuum, and the detrimental effects of Ang II are mediated, at least in part, by reactive oxygen species (ROS). To this end, the antioxidant activity contributes to the reported cardioprotective effects of ANP. However, little is known about the effects of CNP on Ang II-induced cardiac ROS generation. Here, we investigated whether chronic CNP infusion could attenuates myocardial superoxide production in a mouse model of cardiac hypertrophy and remodeling induced by Ang II. 2. Materials and Methods 2.1. Animals Ten-week-old male C57BL/6 mice were used in the present study. Ang II (Peptide Institute) or saline alone was subcutaneously infused via an osmotic minipump (Alzet model 1002) at the rate of 3.2 mg/kg/day for 2 weeks. Simultaneously with the initiation of Ang II treatment, mice were infused with CNP (Peptide Institute, 0.05 mug/kg/min) or vehicle by continuous subcutaneous infusion for 2 weeks. Systolic blood pressure (SBP) and heart rate (HR) of the conscious mice were monitored by the tail-cuff method (MK-2000ST; Muromachi). Transthoracic echocardiography was performed 2 weeks after the Ang II infusions. Mice were then euthanized and the hearts were weighed and harvested for further analysis. The serum level of CNP was measured using the CNP-22 EIA Kit (Phoenix Pharmaceuticals, Karlsruhe, Germany) according to the manufacturer's protocol. All procedures were performed in accordance with the Kumamoto University animal care guidelines, which conformed to the Guide for the Care and Use of Laboratory Animals published by the US National Institutes of Health (NIH Publication No. 85-23, revised 1996).     2.2. Echocardiography Transthoracic ultrasound cardiogram (UCG) was performed using a Xario system (Toshiba, Tokyo, Japan) equipped with a 12-MHz linear array transducer. M-mode images were recorded from the short-axis view at the high papillary muscle level. Left ventricular end-diastolic dimension (LVDd), end-systolic dimension (LVDs), intraventricular septum (IVS), and posterior wall thickness (PW) were measured. Fractional shortening (%FS) was calculated using the following equation: %FS = (LVDd - LVDs)/LVDd x 100. All recordings were performed in conscious mice. All echocardiography was performed by investigators who were blinded to the identity of the treatment group.    2.3. Real-Time PCR Total RNA was prepared using a Qiagen RNeasy fibrous minikit, using the protocol supplied by the manufacturer, and cDNA was produced using the ThermoScript RT-PCR Systems (Invitrogen, Carlsbad, CA). Real-time PCR was performed as described previously. Transcript expression levels were determined as the number of transcripts relative to those for glyceraldehyde-3-phosphate dehydrogenase (GAPDH), and normalized to the mean value from control hearts.  Table 1 lists the primer sequences used in this study. 2.4. Histological Analysis Heart sections were prepared and stained with hematoxylin and eosin (H&E) for overall morphology or Masson's trichrome (MT) to assess myocardial interstitial fibrosis. At least 10 fields were selected randomly to determine myofiber size and myocardial interstitial fibrosis using Image J image analysis software, as described previously. Dihydroethidium (DHE) was used to evaluate superoxide levels of cardiac tissue as described in detail previously. DHE fluorescence of cardiac sections was quantified using Lumina Vision version 2.2 analysis software. 2.5. Statistical Analysis All data are presented as mean +- SEM. Comparisons among groups were made by one-way ANOVA with Fisher's PLSD test. A level of P < 0.05 was accepted as statistically significant. 3. Results 3.1. Effects of Chronic CNP Infusion on Hemodynamic Parameters To examine the effect of exogenous CNP supplementation on Ang II-induced cardiac remodeling, Ang II- and saline-infused mice were treated with CNP or vehicle for 2 weeks (Table 2). Ang II infusion for 2 weeks significantly increased SBP compared with the saline-infused control group (136 +- 6 versus 97 +- 4 mmHg, resp.). Circulating CNP levels were significantly increased in CNP-treated mice compared with vehicle-treated controls. The dose of CNP used (0.05 mug/kg/min) had no additional effect on SBP in either Ang II- or saline-infused mice. HR was unaffected by Ang II infusion in both CNP- and vehicle-treated mice compared to saline-infused mice.     3.2. CNP Administration Attenuates Ang II-Induced Cardiac Dysfunction Figure 1(a) shows representative LV M-mode echocardiographic recordings. As shown in Figure 1(b), IVS and PWT were significantly increased by Ang II infusion in vehicle-treated mice, and these changes were suppressed by CNP treatment (without affecting SBP, as stated). Echocardiographic analysis also revealed significantly increased LVEDD and %FS in vehicle-treated mice 2 weeks after Ang II infusion (Figure 1(c)); however, these effects were significantly attenuated by CNP treatment. In contrast, long-term infusion of CNP had no effect on echocardiographic parameters in saline-infused mice.  3.3. CNP Infusion Attenuates Ang II-Induced Cardiomyocyte Hypertrophy Heart weight to tibial length (HW/TL) ratios were significantly increased by Ang II infusion in vehicle-treated mice (9.6 +- 0.5 versus 6.5 +- 0.2 mg/mm; Figure 2(b)), while treatment with CNP decreased this Ang II-induced cardiac hypertrophy by 16%. CNP had no effect on heart size in the saline-infused mice. Analysis of myocyte cross-sectional area in histological sections corroborated these findings (Figure 2(a)); the calculated area of myocytes was increased in vehicle-treated mice that underwent Ang II infusion, but this increase was largely blocked in mice given CNP (276 +- 16 versus 375 +- 11 mum2; Figure 2(c)). CNP treatment of vehicle-treated mice had no effect on myocyte cross-sectional area. Consistent with this observation, Ang II infusion increased expression of the fetal-type cardiac genes ANP, BNP, and beta-myosin heavy chain, and these upregulations were blocked by CNP treatment (Figure 2(e)). Two weeks after Ang II infusion, the lungs wet weight to TL ratios (LW/TL), a parameter used to assess pulmonary congestion, were significantly decreased in CNP-treated mice compared with vehicle-treated controls (8.1 +- 0.1 versus 10.6 +- 0.8 mg/g; Figure 2(d)).                     3.4. CNP Infusion Reduces Ang II-Induced Myocardial Interstitial Fibrosis To investigate the consequence of exogenous CNP administration on cardiac remodeling, we evaluated myocardial interstitial fibrosis (Figure 3(a)). Interstitial fibrosis was significantly increased in vehicle-treated mice 2 weeks after Ang II infusion (Figure 3(b)). However, treatment with CNP caused a significant decrease in this measure (4.0 +- 0.8 versus 9.4 +- 0.4%). In agreement with this observation, Ang II-induced gene upregulations of collagen I and III were significantly decreased by exogenous CNP treatment (Figure 3(c)). CNP infusion did not detectably affect fibrosis or collagen expression in saline-infused mice.         3.5. CNP Supplementation Diminishes ROS Production in Hearts Subjected to Ang II Infusion Myocardial superoxide generation is a key mechanism underlying the Ang II-induced cardiac remodeling. We therefore investigated whether CNP administration could attenuates Ang II-induced superoxide production in mice heart. Myocardial tissue sections were stained with DHE to determine superoxide production in vehicle- and CNP-treated mice 2 weeks after Ang II infusion (Figure 4(a)). Ang II infusion increased superoxide generation in vehicle-treated mice by a factor of 1.5, but treatment with CNP markedly diminished Ang II-induced cardiac superoxide production (Figure 4(b)). Furthermore, Ang II induced the gene upregulation of NOX4, an NADPH oxidase subunit, and this was clearly suppressed by treatment with CNP (Figure 4(c)). In contrast, CNP treatment of vehicle-treated mice had no effect on myocardial superoxide production or NOX4 gene expression. Transcript expression levels of other NADPH oxidase subunits such as p22 and p47phox were not changed by CNP treatment. 4. Discussion This study provides the first in vivo evidence that continuous infusion of exogenous CNP attenuated Ang II-induced myocardial superoxide production and cardiac dysfunction. Administration of CNP significantly prevented Ang II-induced cardiac hypertrophy and LV dilatation, thereby maintaining myocardial contractile function without affecting SBP. CNP reduced Ang II-induced increases in cardiomyocyte size and interstitial fibrosis, and markedly suppressed hypertrophic and fibrotic gene expression. These beneficial effects were accompanied by reduced superoxide production and NOX4 gene expression in the Ang II-infused myocardium. Together, these findings suggested that CNP exerts antioxidant activity under conditions that promote cardiac hypertrophy and fibrosis, as a result, maintaining left ventricular systolic function. Cardiac hypertrophy is initially an adaptive response designed to maintain cardiac function in response to hemodynamic or neurohumoral stress. However, a prolonged external load leads to decompensated cardiac hypertrophy characterized by ventricular dilation and loss of contractile function. Although the role of ANP and BNP in cardiac hypertrophy and remodeling has been investigated in several in vitro and in vivo studies, limited data are available on the role of CNP in this process. We used an Ang II infusion model in this study because multiple lines of evidence established that Ang II induces not only hypertension, but also directly contributes to cardiac remodeling. Contractile function following Ang II infusion to mice varies among report. For example, Essick et al. reported that contractile function was not impaired by same dose (3.2 mg/kg/day) and same duration (2 weeks) of Ang II infusion as our present study. On the other hands, Fujita et al. reported that lower dose of Ang II infusion (1.2 mg/kg/day) for 2 weeks reduced contractile function. The reason for the discrepancy was probably due to different reagents, equipments, or mice strain.      Ang II-induced ROS generation is recognized as a key mechanism regulating cardiovascular remodeling. With regard to the cellular source of ROS, Ang II-induced upregulation of NADPH oxidase subunits has been documented in various cardiovascular cell types including cardiomyocytes, fibroblasts, and vascular smooth muscle cells (VSMC). One of these subunits, NOX4, was implicated in Ang II infusion and/or pressure overload-induced myocardial hypertrophy. This study revealed that NOX4 gene upregulation was dramatically suppressed by CNP treatment. It has been demonstrated that CNP prevents agonist-induced cardiomyocyte hypertrophy via a cyclic GMP-dependent protein kinase-mediated mechanism in vitro. Thus, we speculate that the antihypertrophic effect of chronic CNP infusion observed in this study was mediated by cyclic GMP-dependent manner and inhibition of NOX4 production. Another natriuretic peptide, ANP, can suppress ROS production in the cardiovascular system. For example, the antihypertrophic actions of ANP in vitro were accompanied by reduced levels of superoxide, mediated via the NPR-A/cGMP pathway. We previously demonstrated that intravenous infusion of carperitide, the human form of ANP, significantly decreased serum ROS levels in patients with chronic heart failure and exogenous ANP exerted direct antioxidant properties in cardiomyocytes in vitro. In contrast to ANP and BNP, CNP binds to and activates its specific receptor, NPR-B. Both NPR-A and NPR-B activate cGMP-dependent signaling upon binding of their specific ligands, suggesting that the antioxidative properties of CNP were mediated via the NPR-B/cGMP pathway. In addition, all natriuretic peptides bind to NPR-C. Recent reports indicated that stimulation of NPR-C decreases NADPH oxidase activity and production of superoxide by attenuating the expressions of NOX4 and p47phox subunits of NADPH oxidase in VSMC from spontaneous hypertensive rats. We speculate that CNP inhibit the NOX4 expression by same mechanism in the present experiments.  The synthetic reagents for ANP and BNP are currently used in a clinical setting with reported antiremodeling effects. However, due to their prompt vasodilatation and natriuretic actions, these agents cannot be used in patients with severe hypotension as sometimes seen in acute heart failure. Compared to ANP and BNP, CNP exerts lower hypotensive and natriuretic effects, and more potent antihypertrophic and antifibrotic properties. These functional differences accounted for the relative abundance of NPR-B over NPR-A in cardiovascular tissue. The reduced hypotensive action of CNP also makes it usable in hemodynamically unstable patients. Furthermore, these hemodynamic and antiremodeling aspects are ideal for long-term administration, because cardiac remodeling is generally developed as a result of long-term external stimulus. In this study, chronic CNP infusion had little effect on SBP; however, Ang II-induced cardiac remodeling was markedly prevented. Our results thus support the notion that long-term CNP administration is potentially useful in anti-remodeling strategies for chronic heart diseases.  In conclusion, our data indicated that CNP protects against the development of Ang II-induced cardiac remodeling which was accompanied by reduced cardiac superoxide production. This novel mechanism of action makes CNP a potential additional anti-remodeling agent.  Natriuretic peptides, their receptors, and cyclic guanosine monophosphate-dependent signaling functions Endothelial production of C-type natriuretic peptide and its marked augmentation by transforming growth factor-beta. Possible existence of 'vascular natriuretic peptide system'   The role of natriuretic peptides in cardioprotection C-type natriuretic peptide plasma levels increase in patients with chronic heart failure as a function of clinical severity Myocardial production of C-type natriuretic peptide in chronic heart failure Gene expression, secretion, and autocrine action of C-type natriuretic peptide in cultured adult rat cardiac fibroblasts Inhibitory effect of C-type natriuretic peptide (CNP) on cultured cardiac myocyte hypertrophy: interference between CNP and endothelin-1 signaling pathways Design, Synthesis, and Actions of a Novel Chimeric Natriuretic Peptide: CD-NP CNP infusion attenuates cardiac dysfunction and inflammation in myocarditis C-type natriuretic peptide, a novel antifibrotic and antihypertrophic agent, prevents cardiac remodeling after myocardial infarction Cardiomyocyte-restricted over-expression of C-type natriuretic peptide prevents cardiac hypertrophy induced by myocardial infarction in mice Cardiac hypertrophy in transgenic rats expressing a dominant-negative mutant of the natriuretic peptide receptor B Antihypertrophic actions of the natriuretic peptides in adult rat cardiomyocytes: importance of cyclic GMP Resolved and unresolved issues in the prevention and treatment of coronary artery disease: a workshop consensus statement Molecular and cellular mechanisms of angiotensin II-mediated cardiovascular and renal diseases Involvement of nuclear factor-kappaB and apoptosis signal-regulating kinase 1 in G-protein-coupled receptor agonist-induced cardiomyocyte hypertrophy Apoptosis signal-regulating kinase 1 plays a pivotal role in angiotensin II-induced cardiac hypertrophy and remodeling Inhibitory effects of antioxidants on neonatal rat cardiac myocyte hypertrophy induced by tumor necrosis factor-alpha and angiotensin II Antioxidant actions contribute to the antihypertrophic effects of atrial natriuretic peptide in neonatal rat cardiomyocytes Adiponectin-mediated modulation of hypertrophic signals in the heart C-type natriuretic peptide and its receptors in atherosclerotic plaques of the carotid artery of clinically asymptomatic patients AMP-activated protein kinase signaling stimulates VEGF expression and angiogenesis in skeletal muscle Beneficial effects of pioglitazone on hypertensive cardiovascular injury are enhanced by combination with candesartan Role of oxidative stress in cardiac hypertrophy and remodeling Adipon ectin mediates cardioprotection in oxidative stress-induced cardiac myocyte remodeling Adiponectin protects against angiotensin II-induced cardiac fibrosis through activation of PPAR-alpha  Galpha12/13-mediated production of reactive oxygen species is critical for angiotensin receptor-induced NFAT activation in cardiac fibroblasts Nox2-containing NADPH oxidase and Akt activation play a key role in angiotensin II-induced cardiomyocyte hypertrophy Expression of a functionally active gp91phox-containing neutrophil-type NAD(P)H oxidase in smooth muscle cells from human resistance arteries: regulation by angiotensin II Contrasting roles of NADPH oxidase isoforms in pressure-overload versus angiotensin II-induced cardiac hypertrophy Pressure overload-induced myocardial hypertrophy in mice does not require gp91phox Angiotensin II regulates cardiac hypertrophy via oxidative stress but not antioxidant enzyme activities in experimental renovascular hypertension Predominant effect of A-type natriuretic peptide on reduction of oxidative stress during the treatment of patients with heart failure Activation of natriuretic peptide receptor-C attenuates the enhanced oxidative stress in vascular smooth muscle cells from spontaneously hypertensive rats: implication of Gialpha protein Human atrial natriuretic peptide and nicorandil as adjuncts to reperfusion treatment for acute myocardial infarction (J-WIND): two randomised trials Natriuretic peptide receptor B signaling in the cardiovascular system: protection from cardiac hypertrophy Effects of CNP on echocardiographic measurements. (a) Representative M-mode echocardiogram of vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. (b) Interventricular septum (IVS) and posterior wall thickness (PWT) in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. (c) Left ventricular end-diastolic dimension (LVEDD) and fractional shortening (%FS) in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. Results are mean +- SEM (n = 3-6 each). *P < 0.05.     Effects of CNP on Ang II-induced cardiomyocyte hypertrophy. (a) Representative images of hematoxylin-eosin- (H&E-) stained heart sections. Scale bars: 50 mum. (b) Heart weight to tibial length ratio (HW/TL) in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. (c) Quantitative analysis of cardiac myocyte cross-sectional area in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. Data were obtained from analysis of H&E-stained heart sections. (d) Lung weight to tibial length ratio (LW/TL) in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. (e) Atrial natriuretic peptide (ANP), B-type natriuretic peptide (BNP), and beta-myosin heavy chain (betaMHC) transcript expression in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. Results are mean +- SEM (n = 4-9 each). *P < 0.05.   Effects of CNP on Ang II-induced myocardial interstitial fibrosis. (a) Representative images of Masson's trichrome (MT) staining of heart sections. Scale bars: 100 mum. (b) Quantitative analysis of myocardial interstitial fibrosis in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. (c) Collagen I and III transcript expression in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. Results are mean +- SEM (n = 4-9 each). *P < 0.05.        Effects of CNP on Ang II-induced ROS production. (a) Representative photomicrograph of myocardium stained with DHE. (b) DHE fluorescence was quantified to evaluate superoxide levels in situ and expressed relative to values obtained for vehicle-treated with Ang II infusion group (as 100%). (c) NOX4 transcript expression in vehicle- and CNP-treated mice 2 weeks after saline or Ang II infusion. Results are mean +- SEM (n = 4-9 each). *P < 0.05.      Primer sequences used for quantitative real-time PCR. Gene\t\t \t \tPrimer sequence\t \tANP\tForward\t5'-GAGAGACGGCAGTGCTTCTAGGC-3'\t \tReverse\t5'-CGTGACACACCACAAGGGCTTAGG-3'\t \tBNP\tForward\t5'-GGAAGTCCTAGCCAGTCTCC-3'\t \tReverse\t5'-TTGGTCCTTCAAGAGCTGTC-3'\t \talpha-MHC\tForward\t5'-GACGAGGCAGAGCAGATCGC-3'\t \tReverse\t5'-GGGCTTCACAGGCATCCTTAGGG-3'\t \tCollagen I\tForward\t5'-GTCCCAACCCCCAAAGAC-3'\t \tReverse\t5'-CATCTTCTGAGTTTGGTGATACGT-3'\t \tCollagen III\tForward\t5'-TGGTTTCTTCTCACCCTTCTTC-3'\t \tReverse\t5'-TGCATCCCAATTCATCTACGT-3'\t \tNOX-4\tForward\t5'-TGGGCCTAGGATTGTGTTTA-3'\t \tReverse\t5'-CTGCTAGGGACCTTCTGTGA-3'\t \tGAPDH\tForward\t5'-TCACCACCATGGAGAAGGC-3'\t \tReverse\t5'-GCTAAGCAGTTGGTGGTGCA-3'                                                           Body weight, blood pressure, heart rate, and serum CNP concentration in vehicle-and CNP-treated mice at 2 weeks after Ang II infusion. Saline\tAng II\t \tVehicle\tCNP\tVehicle\tCNP\t \tBody weight (g)\t24 +- 0.3\t25 +- 2.1\t21 +- 0.4*\t22 +- 0.6*\t \tSBP (mmHg)\t97 +- 4\t87 +- 3\t136 +- 6*\t130 +- 7*\t \tHR (bpm)\t690 +- 16\t693 +- 14\t706 +- 8\t699 +- 14\t \tCNP (ng/mL)\t0.559 +- 0.093\t0.783 +- 0.050*\t0.510 +- 0.066\t0.701 +- 0.060*           Data are mean +- SEM (n = 4 - 9 mice per experimental group).   *P < 0.05 versus saline-infused and vehicle-treated mice.",
+    "entities": [
+        {
+            "entityId": "8_34",
+            "span": {
+                "begin": 8,
+                "end": 34
+            },
+            "entityType": "gene",
+            "entityName": "C-Type Natriuretic Peptide",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "55_69",
+            "span": {
+                "begin": 55,
+                "end": 69
+            },
+            "entityType": "gene",
+            "entityName": "Angiotensin II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "89_99",
+            "span": {
+                "begin": 89,
+                "end": 99
+            },
+            "entityType": "drug",
+            "entityName": "Superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "228_254",
+            "span": {
+                "begin": 228,
+                "end": 254
+            },
+            "entityType": "gene",
+            "entityName": "C-type natriuretic peptide",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "256_259",
+            "span": {
+                "begin": 256,
+                "end": 259
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "343_353",
+            "span": {
+                "begin": 343,
+                "end": 353
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "453_463",
+            "span": {
+                "begin": 453,
+                "end": 463
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "521_524",
+            "span": {
+                "begin": 521,
+                "end": 524
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "526_540",
+            "span": {
+                "begin": 526,
+                "end": 540
+            },
+            "entityType": "gene",
+            "entityName": "Angiotensin II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "542_548",
+            "span": {
+                "begin": 542,
+                "end": 548
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "605_609",
+            "span": {
+                "begin": 605,
+                "end": 609
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "675_681",
+            "span": {
+                "begin": 675,
+                "end": 681
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "693_697",
+            "span": {
+                "begin": 693,
+                "end": 697
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "716_719",
+            "span": {
+                "begin": 716,
+                "end": 719
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "833_839",
+            "span": {
+                "begin": 833,
+                "end": 839
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "859_863",
+            "span": {
+                "begin": 859,
+                "end": 863
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "880_883",
+            "span": {
+                "begin": 880,
+                "end": 883
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "894_900",
+            "span": {
+                "begin": 894,
+                "end": 900
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "909_928",
+            "span": {
+                "begin": 909,
+                "end": 928
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "1001_1004",
+            "span": {
+                "begin": 1001,
+                "end": 1004
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1016_1022",
+            "span": {
+                "begin": 1016,
+                "end": 1022
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "1059_1086",
+            "span": {
+                "begin": 1059,
+                "end": 1086
+            },
+            "entityType": "disease",
+            "entityName": "left ventricular dilatation",
+            "id": "UMLS:C0344911"
+        },
+        {
+            "entityId": "1127_1130",
+            "span": {
+                "begin": 1127,
+                "end": 1130
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1139_1145",
+            "span": {
+                "begin": 1139,
+                "end": 1145
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "1167_1180",
+            "span": {
+                "begin": 1167,
+                "end": 1180
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1190_1211",
+            "span": {
+                "begin": 1190,
+                "end": 1211
+            },
+            "entityType": "disease",
+            "entityName": "interstitial fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "1288_1291",
+            "span": {
+                "begin": 1288,
+                "end": 1291
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1302_1308",
+            "span": {
+                "begin": 1302,
+                "end": 1308
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "1325_1335",
+            "span": {
+                "begin": 1325,
+                "end": 1335
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "1397_1406",
+            "span": {
+                "begin": 1397,
+                "end": 1406
+            },
+            "entityType": "gene",
+            "entityName": "NOX4 gene",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "1457_1460",
+            "span": {
+                "begin": 1457,
+                "end": 1460
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1472_1478",
+            "span": {
+                "begin": 1472,
+                "end": 1478
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "1487_1506",
+            "span": {
+                "begin": 1487,
+                "end": 1506
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "1508_1516",
+            "span": {
+                "begin": 1508,
+                "end": 1516
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "1522_1545",
+            "span": {
+                "begin": 1522,
+                "end": 1545
+            },
+            "entityType": "disease",
+            "entityName": "contractile dysfunction",
+            "id": "UMLS:C3887505"
+        },
+        {
+            "entityId": "1588_1598",
+            "span": {
+                "begin": 1588,
+                "end": 1598
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "1629_1655",
+            "span": {
+                "begin": 1629,
+                "end": 1655
+            },
+            "entityType": "gene",
+            "entityName": "C-type natriuretic peptide",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1657_1660",
+            "span": {
+                "begin": 1657,
+                "end": 1660
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1677_1697",
+            "span": {
+                "begin": 1677,
+                "end": 1697
+            },
+            "entityType": "gene",
+            "entityName": "natriuretic peptides",
+            "id": "UMLS:C1144709"
+        },
+        {
+            "entityId": "1699_1702",
+            "span": {
+                "begin": 1699,
+                "end": 1702
+            },
+            "entityType": "gene",
+            "entityName": "NPs",
+            "id": "UMLS:C0369718"
+        },
+        {
+            "entityId": "1747_1754",
+            "span": {
+                "begin": 1747,
+                "end": 1754
+            },
+            "entityType": "species",
+            "entityName": "porcine",
+            "id": "UMLS:C0039005"
+        },
+        {
+            "entityId": "1875_1878",
+            "span": {
+                "begin": 1875,
+                "end": 1878
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "1896_1913",
+            "span": {
+                "begin": 1896,
+                "end": 1913
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "1918_1937",
+            "span": {
+                "begin": 1918,
+                "end": 1937
+            },
+            "entityType": "cell",
+            "entityName": "cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "2023_2026",
+            "span": {
+                "begin": 2023,
+                "end": 2026
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "2051_2059",
+            "span": {
+                "begin": 2051,
+                "end": 2059
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2065_2086",
+            "span": {
+                "begin": 2065,
+                "end": 2086
+            },
+            "entityType": "disease",
+            "entityName": "chronic heart failure",
+            "id": "UMLS:C0264716"
+        },
+        {
+            "entityId": "2104_2107",
+            "span": {
+                "begin": 2104,
+                "end": 2107
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "2153_2166",
+            "span": {
+                "begin": 2153,
+                "end": 2166
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "2168_2171",
+            "span": {
+                "begin": 2168,
+                "end": 2171
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "2176_2179",
+            "span": {
+                "begin": 2176,
+                "end": 2179
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "2188_2224",
+            "span": {
+                "begin": 2188,
+                "end": 2224
+            },
+            "entityType": "gene",
+            "entityName": "natriuretic peptide receptor (NPR)-A",
+            "id": "UMLS:C1529723"
+        },
+        {
+            "entityId": "2269_2272",
+            "span": {
+                "begin": 2269,
+                "end": 2272
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "2320_2324",
+            "span": {
+                "begin": 2320,
+                "end": 2324
+            },
+            "entityType": "gene",
+            "entityName": "NPR-",
+            "id": "UMLS:C1417814"
+        },
+        {
+            "entityId": "2364_2369",
+            "span": {
+                "begin": 2364,
+                "end": 2369
+            },
+            "entityType": "gene",
+            "entityName": "NPR-B",
+            "id": "UMLS:C1529727"
+        },
+        {
+            "entityId": "2375_2380",
+            "span": {
+                "begin": 2375,
+                "end": 2380
+            },
+            "entityType": "gene",
+            "entityName": "NPR-A",
+            "id": "UMLS:C1529723"
+        },
+        {
+            "entityId": "2384_2403",
+            "span": {
+                "begin": 2384,
+                "end": 2403
+            },
+            "entityType": "cell",
+            "entityName": "cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "2411_2425",
+            "span": {
+                "begin": 2411,
+                "end": 2425
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2427_2430",
+            "span": {
+                "begin": 2427,
+                "end": 2430
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "2572_2575",
+            "span": {
+                "begin": 2572,
+                "end": 2575
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "2580_2583",
+            "span": {
+                "begin": 2580,
+                "end": 2583
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "2651_2654",
+            "span": {
+                "begin": 2651,
+                "end": 2654
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "2727_2730",
+            "span": {
+                "begin": 2727,
+                "end": 2730
+            },
+            "entityType": "gene",
+            "entityName": "NPs",
+            "id": "UMLS:C0369718"
+        },
+        {
+            "entityId": "2793_2796",
+            "span": {
+                "begin": 2793,
+                "end": 2796
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "2954_2957",
+            "span": {
+                "begin": 2954,
+                "end": 2957
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "3040_3061",
+            "span": {
+                "begin": 3040,
+                "end": 3061
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3066_3077",
+            "span": {
+                "begin": 3066,
+                "end": 3077
+            },
+            "entityType": "disease",
+            "entityName": "myocarditis",
+            "id": "UMLS:C0027059"
+        },
+        {
+            "entityId": "3118_3131",
+            "span": {
+                "begin": 3118,
+                "end": 3131
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "3159_3162",
+            "span": {
+                "begin": 3159,
+                "end": 3162
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "3174_3193",
+            "span": {
+                "begin": 3174,
+                "end": 3193
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "3215_3236",
+            "span": {
+                "begin": 3215,
+                "end": 3236
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3261_3265",
+            "span": {
+                "begin": 3261,
+                "end": 3265
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "3319_3324",
+            "span": {
+                "begin": 3319,
+                "end": 3324
+            },
+            "entityType": "gene",
+            "entityName": "NPR-B",
+            "id": "UMLS:C1529727"
+        },
+        {
+            "entityId": "3344_3363",
+            "span": {
+                "begin": 3344,
+                "end": 3363
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "3398_3401",
+            "span": {
+                "begin": 3398,
+                "end": 3401
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "3459_3494",
+            "span": {
+                "begin": 3459,
+                "end": 3494
+            },
+            "entityType": "gene",
+            "entityName": "cyclic GMP-dependent protein kinase",
+            "id": "UMLS:C0010536"
+        },
+        {
+            "entityId": "3515_3518",
+            "span": {
+                "begin": 3515,
+                "end": 3518
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "3597_3616",
+            "span": {
+                "begin": 3597,
+                "end": 3616
+            },
+            "entityType": "cell",
+            "entityName": "cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "3636_3639",
+            "span": {
+                "begin": 3636,
+                "end": 3639
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "3644_3647",
+            "span": {
+                "begin": 3644,
+                "end": 3647
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "3674_3677",
+            "span": {
+                "begin": 3674,
+                "end": 3677
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "3695_3711",
+            "span": {
+                "begin": 3695,
+                "end": 3711
+            },
+            "entityType": "cell",
+            "entityName": "myocardial cells",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "3818_3832",
+            "span": {
+                "begin": 3818,
+                "end": 3832
+            },
+            "entityType": "gene",
+            "entityName": "angiotensin II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "3834_3840",
+            "span": {
+                "begin": 3834,
+                "end": 3840
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "3920_3926",
+            "span": {
+                "begin": 3920,
+                "end": 3926
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "3971_3977",
+            "span": {
+                "begin": 3971,
+                "end": 3977
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "4087_4090",
+            "span": {
+                "begin": 4087,
+                "end": 4090
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "4138_4141",
+            "span": {
+                "begin": 4138,
+                "end": 4141
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "4145_4151",
+            "span": {
+                "begin": 4145,
+                "end": 4151
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "4222_4225",
+            "span": {
+                "begin": 4222,
+                "end": 4225
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "4263_4273",
+            "span": {
+                "begin": 4263,
+                "end": 4273
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "4290_4295",
+            "span": {
+                "begin": 4290,
+                "end": 4295
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4305_4324",
+            "span": {
+                "begin": 4305,
+                "end": 4324
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "4351_4357",
+            "span": {
+                "begin": 4351,
+                "end": 4357
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "4423_4427",
+            "span": {
+                "begin": 4423,
+                "end": 4427
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4460_4466",
+            "span": {
+                "begin": 4460,
+                "end": 4466
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "4653_4659",
+            "span": {
+                "begin": 4653,
+                "end": 4659
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "4671_4675",
+            "span": {
+                "begin": 4671,
+                "end": 4675
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4694_4697",
+            "span": {
+                "begin": 4694,
+                "end": 4697
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "4862_4866",
+            "span": {
+                "begin": 4862,
+                "end": 4866
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4993_4999",
+            "span": {
+                "begin": 4993,
+                "end": 4999
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "5011_5015",
+            "span": {
+                "begin": 5011,
+                "end": 5015
+            },
+            "entityType": "species",
+            "entityName": "Mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5120_5123",
+            "span": {
+                "begin": 5120,
+                "end": 5123
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "5147_5153",
+            "span": {
+                "begin": 5147,
+                "end": 5153
+            },
+            "entityType": "gene",
+            "entityName": "CNP-22",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "6084_6088",
+            "span": {
+                "begin": 6084,
+                "end": 6088
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6535_6546",
+            "span": {
+                "begin": 6535,
+                "end": 6546
+            },
+            "entityType": "DNA",
+            "entityName": "transcripts",
+            "id": "UMLS:C1519595"
+        },
+        {
+            "entityId": "6569_6609",
+            "span": {
+                "begin": 6569,
+                "end": 6609
+            },
+            "entityType": "gene",
+            "entityName": "glyceraldehyde-3-phosphate dehydrogenase",
+            "id": "UMLS:C1414968"
+        },
+        {
+            "entityId": "6611_6616",
+            "span": {
+                "begin": 6611,
+                "end": 6616
+            },
+            "entityType": "gene",
+            "entityName": "GAPDH",
+            "id": "UMLS:C1414968"
+        },
+        {
+            "entityId": "6802_6813",
+            "span": {
+                "begin": 6802,
+                "end": 6813
+            },
+            "entityType": "drug",
+            "entityName": "hematoxylin",
+            "id": "UMLS:C0018964"
+        },
+        {
+            "entityId": "6818_6823",
+            "span": {
+                "begin": 6818,
+                "end": 6823
+            },
+            "entityType": "drug",
+            "entityName": "eosin",
+            "id": "UMLS:C0885297"
+        },
+        {
+            "entityId": "6914_6922",
+            "span": {
+                "begin": 6914,
+                "end": 6922
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "7008_7029",
+            "span": {
+                "begin": 7008,
+                "end": 7029
+            },
+            "entityType": "disease",
+            "entityName": "interstitial fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "7094_7109",
+            "span": {
+                "begin": 7094,
+                "end": 7109
+            },
+            "entityType": "drug",
+            "entityName": "Dihydroethidium",
+            "id": "UMLS:C0644810"
+        },
+        {
+            "entityId": "7111_7114",
+            "span": {
+                "begin": 7111,
+                "end": 7114
+            },
+            "entityType": "drug",
+            "entityName": "DHE",
+            "id": "UMLS:C0058031"
+        },
+        {
+            "entityId": "7137_7147",
+            "span": {
+                "begin": 7137,
+                "end": 7147
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "7208_7211",
+            "span": {
+                "begin": 7208,
+                "end": 7211
+            },
+            "entityType": "drug",
+            "entityName": "DHE",
+            "id": "UMLS:C0058031"
+        },
+        {
+            "entityId": "7625_7628",
+            "span": {
+                "begin": 7625,
+                "end": 7628
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "7648_7654",
+            "span": {
+                "begin": 7648,
+                "end": 7654
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "7683_7689",
+            "span": {
+                "begin": 7683,
+                "end": 7689
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "7710_7714",
+            "span": {
+                "begin": 7710,
+                "end": 7714
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7733_7736",
+            "span": {
+                "begin": 7733,
+                "end": 7736
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "7771_7777",
+            "span": {
+                "begin": 7771,
+                "end": 7777
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "7925_7928",
+            "span": {
+                "begin": 7925,
+                "end": 7928
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "7968_7971",
+            "span": {
+                "begin": 7968,
+                "end": 7971
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "7980_7984",
+            "span": {
+                "begin": 7980,
+                "end": 7984
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8037_8040",
+            "span": {
+                "begin": 8037,
+                "end": 8040
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "8106_8112",
+            "span": {
+                "begin": 8106,
+                "end": 8112
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "8132_8136",
+            "span": {
+                "begin": 8132,
+                "end": 8136
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8159_8165",
+            "span": {
+                "begin": 8159,
+                "end": 8165
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "8183_8186",
+            "span": {
+                "begin": 8183,
+                "end": 8186
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "8208_8212",
+            "span": {
+                "begin": 8208,
+                "end": 8212
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8240_8244",
+            "span": {
+                "begin": 8240,
+                "end": 8244
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8285_8291",
+            "span": {
+                "begin": 8285,
+                "end": 8291
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "8462_8468",
+            "span": {
+                "begin": 8462,
+                "end": 8468
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "8497_8501",
+            "span": {
+                "begin": 8497,
+                "end": 8501
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8540_8543",
+            "span": {
+                "begin": 8540,
+                "end": 8543
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "8688_8692",
+            "span": {
+                "begin": 8688,
+                "end": 8692
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8707_8713",
+            "span": {
+                "begin": 8707,
+                "end": 8713
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "8794_8797",
+            "span": {
+                "begin": 8794,
+                "end": 8797
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "8844_8847",
+            "span": {
+                "begin": 8844,
+                "end": 8847
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "8912_8916",
+            "span": {
+                "begin": 8912,
+                "end": 8916
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8924_8927",
+            "span": {
+                "begin": 8924,
+                "end": 8927
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "8948_8954",
+            "span": {
+                "begin": 8948,
+                "end": 8954
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "9066_9072",
+            "span": {
+                "begin": 9066,
+                "end": 9072
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "9101_9105",
+            "span": {
+                "begin": 9101,
+                "end": 9105
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9178_9181",
+            "span": {
+                "begin": 9178,
+                "end": 9181
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "9197_9203",
+            "span": {
+                "begin": 9197,
+                "end": 9203
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "9212_9231",
+            "span": {
+                "begin": 9212,
+                "end": 9231
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "9240_9243",
+            "span": {
+                "begin": 9240,
+                "end": 9243
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "9294_9298",
+            "span": {
+                "begin": 9294,
+                "end": 9298
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9432_9440",
+            "span": {
+                "begin": 9432,
+                "end": 9440
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "9474_9478",
+            "span": {
+                "begin": 9474,
+                "end": 9478
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9494_9500",
+            "span": {
+                "begin": 9494,
+                "end": 9500
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "9552_9556",
+            "span": {
+                "begin": 9552,
+                "end": 9556
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9563_9566",
+            "span": {
+                "begin": 9563,
+                "end": 9566
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "9615_9618",
+            "span": {
+                "begin": 9615,
+                "end": 9618
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "9648_9652",
+            "span": {
+                "begin": 9648,
+                "end": 9652
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9670_9677",
+            "span": {
+                "begin": 9670,
+                "end": 9677
+            },
+            "entityType": "cell",
+            "entityName": "myocyte",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "9734_9740",
+            "span": {
+                "begin": 9734,
+                "end": 9740
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "9803_9806",
+            "span": {
+                "begin": 9803,
+                "end": 9806
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "9808_9811",
+            "span": {
+                "begin": 9808,
+                "end": 9811
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "9817_9840",
+            "span": {
+                "begin": 9817,
+                "end": 9840
+            },
+            "entityType": "gene",
+            "entityName": "beta-myosin heavy chain",
+            "id": "UMLS:C0027100"
+        },
+        {
+            "entityId": "9882_9885",
+            "span": {
+                "begin": 9882,
+                "end": 9885
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "9927_9933",
+            "span": {
+                "begin": 9927,
+                "end": 9933
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "10014_10034",
+            "span": {
+                "begin": 10014,
+                "end": 10034
+            },
+            "entityType": "disease",
+            "entityName": "pulmonary congestion",
+            "id": "UMLS:C0242073"
+        },
+        {
+            "entityId": "10068_10071",
+            "span": {
+                "begin": 10068,
+                "end": 10071
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "10080_10084",
+            "span": {
+                "begin": 10080,
+                "end": 10084
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10200_10203",
+            "span": {
+                "begin": 10200,
+                "end": 10203
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "10221_10227",
+            "span": {
+                "begin": 10221,
+                "end": 10227
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "10236_10268",
+            "span": {
+                "begin": 10236,
+                "end": 10268
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial Interstitial Fibrosis",
+            "id": "UMLS:C0151654"
+        },
+        {
+            "entityId": "10368_10378",
+            "span": {
+                "begin": 10368,
+                "end": 10378
+            },
+            "entityType": "disease",
+            "entityName": "myocardial",
+            "id": "mesh:D009202"
+        },
+        {
+            "entityId": "10379_10400",
+            "span": {
+                "begin": 10379,
+                "end": 10400
+            },
+            "entityType": "disease",
+            "entityName": "interstitial fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "10429_10437",
+            "span": {
+                "begin": 10429,
+                "end": 10437
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "10485_10489",
+            "span": {
+                "begin": 10485,
+                "end": 10489
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10504_10510",
+            "span": {
+                "begin": 10504,
+                "end": 10510
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "10559_10562",
+            "span": {
+                "begin": 10559,
+                "end": 10562
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "10678_10684",
+            "span": {
+                "begin": 10678,
+                "end": 10684
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "10715_10733",
+            "span": {
+                "begin": 10715,
+                "end": 10733
+            },
+            "entityType": "gene",
+            "entityName": "collagen I and III",
+            "id": "UMLS:C0041455"
+        },
+        {
+            "entityId": "10776_10779",
+            "span": {
+                "begin": 10776,
+                "end": 10779
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "10844_10852",
+            "span": {
+                "begin": 10844,
+                "end": 10852
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "10856_10864",
+            "span": {
+                "begin": 10856,
+                "end": 10864
+            },
+            "entityType": "gene",
+            "entityName": "collagen",
+            "id": "UMLS:C0009325"
+        },
+        {
+            "entityId": "10894_10898",
+            "span": {
+                "begin": 10894,
+                "end": 10898
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10913_10916",
+            "span": {
+                "begin": 10913,
+                "end": 10916
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "10982_10988",
+            "span": {
+                "begin": 10982,
+                "end": 10988
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11009_11019",
+            "span": {
+                "begin": 11009,
+                "end": 11019
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "11065_11071",
+            "span": {
+                "begin": 11065,
+                "end": 11071
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11134_11137",
+            "span": {
+                "begin": 11134,
+                "end": 11137
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "11170_11176",
+            "span": {
+                "begin": 11170,
+                "end": 11176
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11185_11195",
+            "span": {
+                "begin": 11185,
+                "end": 11195
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "11210_11214",
+            "span": {
+                "begin": 11210,
+                "end": 11214
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11267_11270",
+            "span": {
+                "begin": 11267,
+                "end": 11270
+            },
+            "entityType": "drug",
+            "entityName": "DHE",
+            "id": "UMLS:C0058031"
+        },
+        {
+            "entityId": "11284_11294",
+            "span": {
+                "begin": 11284,
+                "end": 11294
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "11322_11325",
+            "span": {
+                "begin": 11322,
+                "end": 11325
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "11334_11338",
+            "span": {
+                "begin": 11334,
+                "end": 11338
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11353_11359",
+            "span": {
+                "begin": 11353,
+                "end": 11359
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11384_11390",
+            "span": {
+                "begin": 11384,
+                "end": 11390
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11410_11420",
+            "span": {
+                "begin": 11410,
+                "end": 11420
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "11451_11455",
+            "span": {
+                "begin": 11451,
+                "end": 11455
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11495_11498",
+            "span": {
+                "begin": 11495,
+                "end": 11498
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "11519_11525",
+            "span": {
+                "begin": 11519,
+                "end": 11525
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11542_11552",
+            "span": {
+                "begin": 11542,
+                "end": 11552
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "11592_11598",
+            "span": {
+                "begin": 11592,
+                "end": 11598
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "11632_11636",
+            "span": {
+                "begin": 11632,
+                "end": 11636
+            },
+            "entityType": "gene",
+            "entityName": "NOX4",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "11641_11662",
+            "span": {
+                "begin": 11641,
+                "end": 11662
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "11714_11717",
+            "span": {
+                "begin": 11714,
+                "end": 11717
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "11746_11749",
+            "span": {
+                "begin": 11746,
+                "end": 11749
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "11779_11783",
+            "span": {
+                "begin": 11779,
+                "end": 11783
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11812_11822",
+            "span": {
+                "begin": 11812,
+                "end": 11822
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "11837_11846",
+            "span": {
+                "begin": 11837,
+                "end": 11846
+            },
+            "entityType": "gene",
+            "entityName": "NOX4 gene",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "11897_11919",
+            "span": {
+                "begin": 11897,
+                "end": 11919
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase subunits",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "11928_11931",
+            "span": {
+                "begin": 11928,
+                "end": 11931
+            },
+            "entityType": "gene",
+            "entityName": "p22",
+            "id": "UMLS:C1846989"
+        },
+        {
+            "entityId": "11936_11943",
+            "span": {
+                "begin": 11936,
+                "end": 11943
+            },
+            "entityType": "gene",
+            "entityName": "p47phox",
+            "id": "UMLS:C1417608"
+        },
+        {
+            "entityId": "11964_11967",
+            "span": {
+                "begin": 11964,
+                "end": 11967
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "12093_12099",
+            "span": {
+                "begin": 12093,
+                "end": 12099
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "12119_12129",
+            "span": {
+                "begin": 12119,
+                "end": 12129
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "12184_12187",
+            "span": {
+                "begin": 12184,
+                "end": 12187
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "12212_12218",
+            "span": {
+                "begin": 12212,
+                "end": 12218
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "12227_12246",
+            "span": {
+                "begin": 12227,
+                "end": 12246
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "12251_12264",
+            "span": {
+                "begin": 12251,
+                "end": 12264
+            },
+            "entityType": "disease",
+            "entityName": "LV dilatation",
+            "id": "UMLS:C0002940"
+        },
+        {
+            "entityId": "12341_12344",
+            "span": {
+                "begin": 12341,
+                "end": 12344
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "12353_12359",
+            "span": {
+                "begin": 12353,
+                "end": 12359
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "12381_12394",
+            "span": {
+                "begin": 12381,
+                "end": 12394
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "12404_12425",
+            "span": {
+                "begin": 12404,
+                "end": 12425
+            },
+            "entityType": "disease",
+            "entityName": "interstitial fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "12547_12557",
+            "span": {
+                "begin": 12547,
+                "end": 12557
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "12573_12582",
+            "span": {
+                "begin": 12573,
+                "end": 12582
+            },
+            "entityType": "gene",
+            "entityName": "NOX4 gene",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "12601_12607",
+            "span": {
+                "begin": 12601,
+                "end": 12607
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "12730_12749",
+            "span": {
+                "begin": 12730,
+                "end": 12749
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "12754_12762",
+            "span": {
+                "begin": 12754,
+                "end": 12762
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "12825_12844",
+            "span": {
+                "begin": 12825,
+                "end": 12844
+            },
+            "entityType": "disease",
+            "entityName": "Cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "13012_13045",
+            "span": {
+                "begin": 13012,
+                "end": 13045
+            },
+            "entityType": "disease",
+            "entityName": "decompensated cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "13139_13142",
+            "span": {
+                "begin": 13139,
+                "end": 13142
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "13147_13150",
+            "span": {
+                "begin": 13147,
+                "end": 13150
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "13154_13173",
+            "span": {
+                "begin": 13154,
+                "end": 13173
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "13294_13297",
+            "span": {
+                "begin": 13294,
+                "end": 13297
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "13326_13332",
+            "span": {
+                "begin": 13326,
+                "end": 13332
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "13414_13420",
+            "span": {
+                "begin": 13414,
+                "end": 13420
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "13438_13450",
+            "span": {
+                "begin": 13438,
+                "end": 13450
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "13536_13542",
+            "span": {
+                "begin": 13536,
+                "end": 13542
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "13555_13559",
+            "span": {
+                "begin": 13555,
+                "end": 13559
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13720_13726",
+            "span": {
+                "begin": 13720,
+                "end": 13726
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "13820_13826",
+            "span": {
+                "begin": 13820,
+                "end": 13826
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "13980_13984",
+            "span": {
+                "begin": 13980,
+                "end": 13984
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13998_14004",
+            "span": {
+                "begin": 13998,
+                "end": 14004
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "14142_14148",
+            "span": {
+                "begin": 14142,
+                "end": 14148
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "14173_14195",
+            "span": {
+                "begin": 14173,
+                "end": 14195
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase subunits",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "14263_14277",
+            "span": {
+                "begin": 14263,
+                "end": 14277
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "14279_14290",
+            "span": {
+                "begin": 14279,
+                "end": 14290
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "14296_14324",
+            "span": {
+                "begin": 14296,
+                "end": 14324
+            },
+            "entityType": "cell",
+            "entityName": "vascular smooth muscle cells",
+            "id": "UMLS:C4082861"
+        },
+        {
+            "entityId": "14326_14330",
+            "span": {
+                "begin": 14326,
+                "end": 14330
+            },
+            "entityType": "cell",
+            "entityName": "VSMC",
+            "id": "UMLS:C4082861"
+        },
+        {
+            "entityId": "14356_14360",
+            "span": {
+                "begin": 14356,
+                "end": 14360
+            },
+            "entityType": "gene",
+            "entityName": "NOX4",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "14380_14386",
+            "span": {
+                "begin": 14380,
+                "end": 14386
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "14478_14487",
+            "span": {
+                "begin": 14478,
+                "end": 14487
+            },
+            "entityType": "gene",
+            "entityName": "NOX4 gene",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "14532_14535",
+            "span": {
+                "begin": 14532,
+                "end": 14535
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "14577_14580",
+            "span": {
+                "begin": 14577,
+                "end": 14580
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "14638_14673",
+            "span": {
+                "begin": 14638,
+                "end": 14673
+            },
+            "entityType": "gene",
+            "entityName": "cyclic GMP-dependent protein kinase",
+            "id": "UMLS:C0010536"
+        },
+        {
+            "entityId": "14766_14769",
+            "span": {
+                "begin": 14766,
+                "end": 14769
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "14818_14828",
+            "span": {
+                "begin": 14818,
+                "end": 14828
+            },
+            "entityType": "drug",
+            "entityName": "cyclic GMP",
+            "id": "UMLS:C0018338"
+        },
+        {
+            "entityId": "14864_14868",
+            "span": {
+                "begin": 14864,
+                "end": 14868
+            },
+            "entityType": "gene",
+            "entityName": "NOX4",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "14910_14913",
+            "span": {
+                "begin": 14910,
+                "end": 14913
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "15018_15021",
+            "span": {
+                "begin": 15018,
+                "end": 15021
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "15069_15079",
+            "span": {
+                "begin": 15069,
+                "end": 15079
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "15098_15103",
+            "span": {
+                "begin": 15098,
+                "end": 15103
+            },
+            "entityType": "gene",
+            "entityName": "NPR-A",
+            "id": "UMLS:C1529723"
+        },
+        {
+            "entityId": "15104_15108",
+            "span": {
+                "begin": 15104,
+                "end": 15108
+            },
+            "entityType": "drug",
+            "entityName": "cGMP",
+            "id": "mesh:D006152"
+        },
+        {
+            "entityId": "15174_15185",
+            "span": {
+                "begin": 15174,
+                "end": 15185
+            },
+            "entityType": "drug",
+            "entityName": "carperitide",
+            "id": "UMLS:C0102586"
+        },
+        {
+            "entityId": "15191_15196",
+            "span": {
+                "begin": 15191,
+                "end": 15196
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "15205_15208",
+            "span": {
+                "begin": 15205,
+                "end": 15208
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "15254_15262",
+            "span": {
+                "begin": 15254,
+                "end": 15262
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15268_15289",
+            "span": {
+                "begin": 15268,
+                "end": 15289
+            },
+            "entityType": "disease",
+            "entityName": "chronic heart failure",
+            "id": "UMLS:C0264716"
+        },
+        {
+            "entityId": "15304_15307",
+            "span": {
+                "begin": 15304,
+                "end": 15307
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "15349_15363",
+            "span": {
+                "begin": 15349,
+                "end": 15363
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "15389_15392",
+            "span": {
+                "begin": 15389,
+                "end": 15392
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "15397_15400",
+            "span": {
+                "begin": 15397,
+                "end": 15400
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "15402_15405",
+            "span": {
+                "begin": 15402,
+                "end": 15405
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "15452_15457",
+            "span": {
+                "begin": 15452,
+                "end": 15457
+            },
+            "entityType": "gene",
+            "entityName": "NPR-B",
+            "id": "UMLS:C1529727"
+        },
+        {
+            "entityId": "15464_15469",
+            "span": {
+                "begin": 15464,
+                "end": 15469
+            },
+            "entityType": "gene",
+            "entityName": "NPR-A",
+            "id": "UMLS:C1529723"
+        },
+        {
+            "entityId": "15474_15479",
+            "span": {
+                "begin": 15474,
+                "end": 15479
+            },
+            "entityType": "gene",
+            "entityName": "NPR-B",
+            "id": "UMLS:C1529727"
+        },
+        {
+            "entityId": "15489_15493",
+            "span": {
+                "begin": 15489,
+                "end": 15493
+            },
+            "entityType": "drug",
+            "entityName": "cGMP",
+            "id": "mesh:D006152"
+        },
+        {
+            "entityId": "15602_15605",
+            "span": {
+                "begin": 15602,
+                "end": 15605
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "15628_15633",
+            "span": {
+                "begin": 15628,
+                "end": 15633
+            },
+            "entityType": "gene",
+            "entityName": "NPR-B",
+            "id": "UMLS:C1529727"
+        },
+        {
+            "entityId": "15634_15638",
+            "span": {
+                "begin": 15634,
+                "end": 15638
+            },
+            "entityType": "drug",
+            "entityName": "cGMP",
+            "id": "mesh:D006152"
+        },
+        {
+            "entityId": "15665_15685",
+            "span": {
+                "begin": 15665,
+                "end": 15685
+            },
+            "entityType": "gene",
+            "entityName": "natriuretic peptides",
+            "id": "UMLS:C0369718"
+        },
+        {
+            "entityId": "15694_15699",
+            "span": {
+                "begin": 15694,
+                "end": 15699
+            },
+            "entityType": "gene",
+            "entityName": "NPR-C",
+            "id": "UMLS:C1417814"
+        },
+        {
+            "entityId": "15746_15751",
+            "span": {
+                "begin": 15746,
+                "end": 15751
+            },
+            "entityType": "gene",
+            "entityName": "NPR-C",
+            "id": "UMLS:C1417814"
+        },
+        {
+            "entityId": "15762_15775",
+            "span": {
+                "begin": 15762,
+                "end": 15775
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "15803_15813",
+            "span": {
+                "begin": 15803,
+                "end": 15813
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "15848_15852",
+            "span": {
+                "begin": 15848,
+                "end": 15852
+            },
+            "entityType": "gene",
+            "entityName": "NOX4",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "15857_15873",
+            "span": {
+                "begin": 15857,
+                "end": 15873
+            },
+            "entityType": "gene",
+            "entityName": "p47phox subunits",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "15877_15890",
+            "span": {
+                "begin": 15877,
+                "end": 15890
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "15894_15898",
+            "span": {
+                "begin": 15894,
+                "end": 15898
+            },
+            "entityType": "cell",
+            "entityName": "VSMC",
+            "id": "UMLS:C4082861"
+        },
+        {
+            "entityId": "15929_15933",
+            "span": {
+                "begin": 15929,
+                "end": 15933
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15969_15973",
+            "span": {
+                "begin": 15969,
+                "end": 15973
+            },
+            "entityType": "gene",
+            "entityName": "NOX4",
+            "id": "UMLS:C1417771"
+        },
+        {
+            "entityId": "16059_16062",
+            "span": {
+                "begin": 16059,
+                "end": 16062
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "16067_16070",
+            "span": {
+                "begin": 16067,
+                "end": 16070
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "16250_16258",
+            "span": {
+                "begin": 16250,
+                "end": 16258
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16271_16282",
+            "span": {
+                "begin": 16271,
+                "end": 16282
+            },
+            "entityType": "disease",
+            "entityName": "hypotension",
+            "id": "mesh:D007022"
+        },
+        {
+            "entityId": "16304_16323",
+            "span": {
+                "begin": 16304,
+                "end": 16323
+            },
+            "entityType": "disease",
+            "entityName": "acute heart failure",
+            "id": "UMLS:C0264714"
+        },
+        {
+            "entityId": "16337_16340",
+            "span": {
+                "begin": 16337,
+                "end": 16340
+            },
+            "entityType": "gene",
+            "entityName": "ANP",
+            "id": "UMLS:C4553325"
+        },
+        {
+            "entityId": "16345_16348",
+            "span": {
+                "begin": 16345,
+                "end": 16348
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "16350_16353",
+            "span": {
+                "begin": 16350,
+                "end": 16353
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "16535_16540",
+            "span": {
+                "begin": 16535,
+                "end": 16540
+            },
+            "entityType": "gene",
+            "entityName": "NPR-B",
+            "id": "UMLS:C1529727"
+        },
+        {
+            "entityId": "16546_16551",
+            "span": {
+                "begin": 16546,
+                "end": 16551
+            },
+            "entityType": "gene",
+            "entityName": "NPR-A",
+            "id": "UMLS:C1529723"
+        },
+        {
+            "entityId": "16612_16615",
+            "span": {
+                "begin": 16612,
+                "end": 16615
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "16665_16673",
+            "span": {
+                "begin": 16665,
+                "end": 16673
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16890_16893",
+            "span": {
+                "begin": 16890,
+                "end": 16893
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "16938_16944",
+            "span": {
+                "begin": 16938,
+                "end": 16944
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "17122_17144",
+            "span": {
+                "begin": 17122,
+                "end": 17144
+            },
+            "entityType": "disease",
+            "entityName": "chronic heart diseases",
+            "id": "UMLS:C1290386"
+        },
+        {
+            "entityId": "17186_17189",
+            "span": {
+                "begin": 17186,
+                "end": 17189
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        },
+        {
+            "entityId": "17226_17232",
+            "span": {
+                "begin": 17226,
+                "end": 17232
+            },
+            "entityType": "gene",
+            "entityName": "Ang II",
+            "id": "UMLS:C1366631"
+        },
+        {
+            "entityId": "17301_17311",
+            "span": {
+                "begin": 17301,
+                "end": 17311
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "17361_17364",
+            "span": {
+                "begin": 17361,
+                "end": 17364
+            },
+            "entityType": "gene",
+            "entityName": "CNP",
+            "id": "UMLS:C0081880"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1302_1308",
+            "subjectText": "Ang II",
+            "rel_name": "stimulate",
+            "objectId": "1325_1335",
+            "objectText": "superoxide"
+        },
+        {
+            "subjectID": "894_900",
+            "subjectText": "Ang II",
+            "rel_name": "stimulate",
+            "objectId": "909_928",
+            "objectText": "cardiac hypertrophy"
+        },
+        {
+            "subjectID": "1127_1130",
+            "subjectText": "CNP",
+            "rel_name": "reduces",
+            "objectId": "1139_1145",
+            "objectText": "Ang II"
+        },
+        {
+            "subjectID": "1139_1145",
+            "subjectText": "Ang II",
+            "rel_name": "stimulate",
+            "objectId": "1167_1180",
+            "objectText": "cardiomyocyte"
+        },
+        {
+            "subjectID": "55_69",
+            "subjectText": "Angiotensin II",
+            "rel_name": "stimulate",
+            "objectId": "89_99",
+            "objectText": "Superoxide"
+        },
+        {
+            "subjectID": "521_524",
+            "subjectText": "CNP",
+            "rel_name": "suppress",
+            "objectId": "453_463",
+            "objectText": "superoxide"
+        }
+    ]
+}

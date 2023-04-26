@@ -1,0 +1,5379 @@
+{
+    "sourcid": "PMC3541240",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3541240/",
+    "text": "Adenosine Stimulates the Migration of Human Endothelial Progenitor Cells. Role ofCXCR4 and MicroRNA-150 Background Administration of endothelial progenitor cells (EPC) represents a promising option to regenerate the heart after myocardial infarction, but is limited because of low recruitment and engraftment in the myocardium. Mobilization and migration of EPC are mainly controlled by stromal cell-derived factor 1alpha (SDF-1alpha) and its receptor CXCR4. We hypothesized that adenosine, a cardioprotective molecule, may improve the recruitment of EPC to the heart. Methods EPC were obtained from peripheral blood mononuclear cells of healthy volunteers. Expression of chemokines and their receptors was evaluated using microarrays, quantitative PCR, and flow cytometry. A Boyden chamber assay was used to assess chemotaxis. Recruitment of EPC to the infarcted heart was evaluated in rats after permanent occlusion of the left anterior descending coronary artery. Results Microarray analysis revealed that adenosine modulates the expression of several members of the chemokine family in EPC. Among these, CXCR4 was up-regulated by adenosine, and this result was confirmed by quantitative PCR (3-fold increase, P<0.001). CXCR4 expression at the cell surface was also increased. This effect involved the A2B receptor. Pretreatment of EPC with adenosine amplified their migration towards recombinant SDF-1alpha or conditioned medium from cardiac fibroblasts. Both effects were abolished by CXCR4 blocking antibodies. Adenosine also increased CXCR4 under ischemic conditions, and decreased miR-150 expression. Binding of miR-150 to the 3' untranslated region of CXCR4 was verified by luciferase assay. Addition of pre-miR-150 blunted the effect of adenosine on CXCR4. Administration of adenosine to rats after induction of myocardial infarction stimulated EPC recruitment to the heart and enhanced angiogenesis. Conclusion Adenosine increases the migration of EPC. The mechanism involves A2B receptor activation, decreased expression of miR-150 and increased expression of CXCR4. These results suggest that adenosine may be used to enhance the capacity of EPC to revascularize the ischemic heart. Introduction Cardiovascular diseases are a major cause of mortality and their prevalence is expected to increase substantially. Cell therapy with endothelial progenitor cells (EPC) has emerged as a promising strategy to revascularize the heart after acute myocardial infarction (MI) and thereby limit left ventricular remodeling and the incidence of heart failure (HF). Some clinical studies using EPC showed promising results, but the benefit was limited, in part, by a low retention of the injected cells in the myocardium. Improving EPC recruitment to the site of injury by increasing the expression of certain cell surface receptor has the potential to improve cardiac repair. The stromal cell-derived factor-1alpha (SDF-1alpha)/CXCR4 axis is highly implicated in EPC mobilization from the bone marrow and homing to vascular lesions. Impaired CXCR4 signaling reduces the revascularization capacity of EPC in patients with coronary artery disease. Moreover, the administration of endothelial colony forming cells that overexpress CXCR4 resulted in a significant increase in tissue healing and capillary density in the hindlimb ischemia model. MicroRNAs (miRNAs) are short oligonucleotides able to regulate gene expression. Following ischemic stress, the expression of miR-150 in bone marrow derived mononuclear cells is inhibited. Knowing that CXCR4 is a target of miR-150, this raises the possibility that miR-150 may be involved in the regulation of EPC recruitment to the ischemic heart. In the infarcted heart, Adenosine (Ado) is produced by dephosphorylation of adenosine tri-phosphate (ATP) in a large amount. Ado exerts its effects through interaction with cell surface G protein-coupled receptors subdivided into four subtypes: A1, A2A, A2B and A3 receptors. Cardioprotective properties of Ado have been described in the setting of reperfusion but the effect of Ado on cardiac repair has not been studied in detail. Recent studies have shown that Ado increases the adhesion of human EPC to cardiac microvascular endothelial cells. We have previously reported that Ado affects several processes involved in cardiac repair, such as extracellular matrix turnover, angiogenesis and inflammation. Moreover, we recently characterized the EPC response to Ado using systems-based approaches. In the present study, we determined whether Ado affects the migration of EPC. Materials and Methods Materials All materials and reagents were from Sigma (Bornem, Belgium) unless specified. Ficoll was from ICN Flow (Asse-Relegem, Belgium). The A2B Ado receptor antagonist was MRS 1754 (8-[4-[((4-Cyanophenyl)carbamoylmethyl)oxy]phenyl]-1,3-di(n-propyl)xanthine). EHNA (erythro-9-(2-Hydroxy-3-nonyl) adenosine hydrochloride) was used as Ado deaminase inhibitor and dipyridamole (DIP) was used as inhibitor of Ado intracellular uptake. CADO (2-Chloroadenosine) and 8-SPT (8-(p-Sulfophenyl)theophylline hydrate) were used as non-specific agonist and antagonist of Ado receptors, respectively. The E-Toxate  reagent from Limulus polyphemus (LAL assay having a detection sensitivity of 0.05 EU/mL) was used to ensure the absence of endotoxin contamination in Ado and other drugs used in the study. SDF-1alpha was purchased from Peprotech (London, UK). Anti CXCR4 neutralizing antibodies and SDF-1alpha ELISA detection kit were from R&D System (Oxon, UK). Cell culture Peripheral blood mononuclear cells (PBMCs) were isolated by Ficoll gradient using Leucosep tubes (Greiner Bio-One, Wemmel, Belgium). Early EPC were obtained as previously described by others. Shortly, 8.106 PBMCs were seeded onto human fibronectin (2.5 microg/cm2) pre-coated 6-well plates and cultured in EBM medium supplemented with bovin brain extract, human recombinant endothelial growth factor, hydrocortisone, gentamicin, amphotericin B and 20% fetal calf serum (FCS) (Laboratoires Eurobio, Les Ulis, France). After 3 days of culture, non-adherent cells were discarded and adherent cells were cultured for another 24 hours prior to treatment. EPC were characterized by dual positive staining for 1,1_-dioctadecyl-3,3_,3_-tetramethylindo-carbocyanine-labeled acetyl-low-density lipoprotein (DilAcLDL) (Invitrogen, Merelbeke, Belgium) and lectin from Ulex europaeus. By flow cytometry, early EPC were CD133+/CD34+/CD45+/CD14+/CD31+/vWF+/VEGFR2+/CD144-/CD105+. The cell population typically contained over 95% of CD14+/CD45+/CXCR4+ cells. Ischemic culture conditions were achieved by incubation of EPC with 0.1% BSA under 1% O2 and 5% CO2. Human primary cardiac fibroblasts purchased from TCS CellWorks Ltd were cultured in fibroblast medium supplemented with fibroblast growth supplement and 2% FCS (TCS CellWorks Ltd, Buckingham, UK). Prior to the experiments, fibroblasts were rendered quiescent in fibroblast medium supplemented with insulin (10 microg/mL), transferrin (5.5 microg/mL), sodium selenite (5 pg/mL), BSA (0.5 mg/mL) and linoleic acid (4.7 microg/mL) for 5 hours. Cells were incubated with Ado and EHNA (10 micromol/L). A2B receptor antagonist was added 15 min prior to Ado treatment. Primary human monocytes were isolated from healthy volunteers, as described. Flow cytometry Cells were harvested using cell dissociation solution and washed twice in phosphate-buffered saline (PBS, Lonza, Verviers, Belgium) supplemented with 1% BSA. 200,000 cells were treated with the appropriate amount of Fc blocking reagent (Miltenyi, Utrecht, The Netherland) and were then stained with specific antibodies or the corresponding isotype control in 50 microL PBS-1% BSA for 30 min at 4 C. After washing, cells were fixed using the commercial BD FACS lysis solution according to manufacturer's instructions. All antibodies were purchased from Immunotools, except CD184-APC (BD Biosciences, Erembodegem, Belgium). To eliminate dead cells from analysis, LIVE/DEAD  Fixable Near-IR Dead Cell Stain Kit was used according to the manufacturer's instructions (Invitrogen). 20,000 to 40,000 events were acquired on a BD FACSCanto  flow cytometer and analysis was performed with the FACSDivaTM software (BD Biosciences). Overlays were obtained using FlowJo 7.2.4 software.  RNA interference assay Cells were transfected using INTERFERinTM siRNA transfection reagent according to the manufacturer's instructions (Polyplus-transfection, Illkirch, France). Cells were transfected with 20 nM HS_ADORA2B_6_HP (Qiagen, Venlo, The Netherlands), pre-miRTM miRNA precursor hsa-miR-150, anti-miRTM miRNA inhibitor hsa-miR-150 or their respective negative controls (Applied Biosystems, Lennik, Belgium). INTERFERin-RNA complexes were allowed to form for 10 min at room temperature in a final volume of 100 microL of serum free medium before addition to the cells. After 24 or 48 hours, cells were treated with 10 micromol/L Ado for 4 or 6 hours prior harvesting. Real-time quantitative PCR For assessment of messenger RNA expression, total RNA was isolated using TriReagent  and the RNeasy  mini kit (Qiagen) according to the manufacturer's instructions. Potential contaminating genomic DNA was digested by DNase I treatment (Qiagen). One microg of total RNA was reverse-transcribed using the Superscript  II Reverse Transcriptase (Invitrogen). PCR primers were designed using the Beacon Designer software (Premier Biosoft, Palo Alto, USA) and were chosen to encompass an intron. Primer details are shown in Table 1. PCR was performed using the iCycler  and the IQTM SYBR  Green Supermix (Bio-Rad, Nazareth Eke, Belgium). 1/10 dilution of cDNA was used. PCR conditions were as follows: 3 min at 95 C, 30 sec at 95 C and 1 min annealing (40-fold). Optimal annealing temperature was determined for each primer pair. Melting point analysis was obtained after 80 cycles for 10 sec from 55 C up to 95 C. Each run included negative reaction controls. beta-actin was chosen as housekeeping gene for normalization. Expression levels were calculated by the relative quantification method (DeltaDeltaCt) using the Genex software (Bio-Rad) which takes into account primer pair efficiency. Quantitative PCR primers. Gene\tAccession number\tForward primer\tReverse primer\tT C\t \tbeta-actin\tNM_001101\tAGAAAATCTGGCACCACACC\tGGGGTGTTGAAGGTCTCAAA\t60\t \tCXCR4\tNM_001008540\tTATCCTGCCTGGTATTGTC\tGGAAATCATCAAGCAAGGG\t50\t \tA1\tNM_000674\tGACCTACTTCCACACCTG\tTCACCACCATCTTGTACC\t58\t \tA2A\tNM_000675\tTCTTCAGTCTCCTGGCCATC\tGGGACCACATCCTCAAAGAG\t64\t \tA2B\tNM_000676\tTCCATCTTCAGCCTTCTG\tGCACTGTCTTTACTGTTCC\t55\t \tA3\tNM_000677\tTCATCTGCGTGGTCAAGC\tCTGTAGAAGTGGATTGTGATGC\t62    Annealing temperatures are indicated. For assessment of miRNA expression, total RNA was extracted using the miRVana isolation kit (Applied Biosystems,). Five hundred ng of total RNA were used for reverse transcription using miScript reverse transcription kit (Qiagen). PCR was performed using the miScript SYBR-green PCR kit and the Homo sapiens_miR-150miScript Primer Assay (MS00003577) according to manufacturer's instructions (Qiagen). U6 (Homo sapiens_RNU6-2_1 miScript Primer Assay, MS00033740, Qiagen) was used for normalisation. Expression levels were calculated by the DeltaDeltaCt method. Microarray Cellular mRNA was analyzed by microarray as described previously. Briefly, total RNA was analyzed for quantity (Nanodrop, Nanodrop products, Wilmington, USA) and purity (Bio Analyser, Agilent Technologies, Santa-Clara, USA) before amplification using the Amino Allyl Message Amp  kit (Ambion, Austin, USA). cDNA obtained after retrotranscription was labelled with Cy3 or Cy5, and hybridized onto human microarrays covering 25,000 genes. Microarrays were scanned using an Axon 3000 B scanner (Molecular Devices, Sunnyvale, USA) and raw data were acquired with Genepix software (Molecular Devices). Data are available at the Gene Expression Omnibus database, accession number GSE26744. Expression levels were compared using Significance Analysis of Microarrays software and heat maps were drown using TreeView software.  ELISA Concentration of SDF-1alpha in conditioned medium was measured using the Quantikine DSA00 ELISA kit (R&D Systems). Detection limit of the assay was 18 pg/mL. In vitro migration assay Chemotaxis experiments were performed using Costar  TranswellTM Permeable Supports (Corning, Amsterdam, The Netherlands) with 5 microm pore size membrane. During the whole experiment, EPC medium containing no antibiotics and 5% FCS was used. Early EPC were treated for 6 hours with 10 microM Ado/EHNA or corresponding control treatment prior harvesting using cell dissociation solution. Cells were then incubated for 1 hour at 37 C with 10 microg/mL of anti-CXCR4 neutralizing antibody or isotype control, and 175,000 cells were seeded in the upper chamber of the TranswellTM. TranswellsTM were then placed into 24-wells plate containing SDF-1alpha (0 to 100 ng/mL) or conditioned medium from fibroblasts. Cell migration was measured by DNA staining using CyQUANT  Cell Proliferation Assay Kit (Invitrogen, Eugene, Oregon, USA). Fluorescence was measured at 492/520 nm using a POLARstar OPTIMA (BMG Labtech, Paris, France). Luciferase reporter assay Human embryonic kidney (HEK) 293T cells were used for luciferase assay and maintained in DMEM supplemented with 10%FBS, 1% L-glutamine and 1% penicillin-streptomycin. HEK-293T cells were plated into 96-well plates and co-transfected using Lipofectamine 2000 (Invitrogen) with 10 ng of a reporter plasmid containing the 3' untranslated region (UTR) of CXCR4 inserted downstream of the Gaussian luciferase secreted reporter gene and the secreted alkaline phosphatase tracking gene (pEZX-MT05, GeneCopoeia, Labomics, Nivells, Belgium) and 30 nmol/L of pre-miRTM miRNA precursor hsa-miR-150 (Applied Biosystems) or negative control. Gaussian luciferase and alkaline phosphatase activities were measured by luminescence in conditioned medium 48 hours after transfection using the secreted-pair dual luminescence kit (GeneCopoeia). Gaussian luciferase activity was normalized to alkaline phosphatase activity.   In vivo experiments This study was conducted in accordance with the regulations of the Animal Welfare Act of the National Institutes of Health Guide for the Care and Use of Laboratory Animals (NIH Publication No. 85-23, revised 1996). Protocols were approved by local Ethics Committee and by the Regional Veterinary Department. 23 Wistar rats underwent permanent occlusion of the left anterior descending coronary artery (LAD) to induce MI. 48 hours post surgery, 18F-Fluorodeoxyglucose (FDG) Positron Emission Tomography (PET) was performed to measure infarct size and myocardial damage as defined by cardiac segments showing 18F-FDG uptake <50%. LAD-occluded animals were randomized according to infarct size into 3 groups: vehicle (NaCl, n = 7), CADO (2 mg.kg-1.d-1, n = 8) and CADO (2 mg.kg-1.d-1) with 8-SPT (10 mg.kg-1.d-1, n = 8). These treatments were given intraperitoneally twice daily for 2 months, starting 7 days after LAD occlusion. After 2 months, rats were sacrificed and hearts were harvested to perform contiguous frozen sections (8 microm), oriented along the vertical or horizontal long axis of the left ventricle depending on infarct location. Sections were fixed and permeabilized with methanol for 10 minutes, and blocked with BSA and serum for 1 hour. Polyclonal goat anti aldhehyde dehydrogenase 2 (ALDH2) (Santa Cruz Biotechnology, Heidelberg, DE), mouse monoclonal anti CD31 (clone P2B1, Abcam, Cambridge, UK) and polyclonal rabbit anti CXCR4 (Abcam) were used as primary antibodies. Alexa Fluor 488-coupled donkey anti-mouse antibody, Alexa Fluor 568-coupled donkey anti-goat antibody and Alexa Fluor 688-coupled donkey anti-rabbit antibody (Invitrogen) were used as secondary antibodies. Staining specificity was ensured by omission of primary antibodies. DAPI (blue) was used to stain nuclei. Hematoxylin and eosin staining was performed to assess vascularization in heart sections. The number of vessels was counted in the whole section of each animal. Images were recorded with a confocal microscope (Zeiss Laser Scanning Microscope LSM 510) and the LSM 510 META software.                           Statistical analysis Results are presented as mean +- SD. Comparisons between two groups of continuous data were performed with two-tailed t-test for data with a normal distribution and Mann-Whitney test for non-normally distributed data. Normality was determined using the Shapiro-Wilk test. Comparisons between multiple groups were performed with one-way ANOVA for normal data and Kruskal-Wallis one-way ANOVA on ranks for non-normally distributed data. In case of significance, post-hoc tests (Dunn's or Holm-Sidak method) were run to isolate groups that differ from the others. Comparisons between multiple groups with two parameters were performed with two-way ANOVA. Statistical tests were performed with the SigmaPlot v11.0 software. A P value <0.05 was considered significant. Results Adenosine increases CXCR4 mRNA expression in EPC Microarray experiments were performed to investigate whether Ado modulates the expression of members of the chemokine/receptor family. These experiments showed that a 6-hour treatment of EPC with 10 micromol/L Ado modulates the expression of various chemokines and chemokine receptors. In particular, the chemokine receptor CXCR4 was up-regulated (Fig. 1A). Increased expression of CXCR4 by Ado was confirmed by PCR (Fig. 1B). Treating EPC with 10 mumol/L Ado induced a transient increase of CXCR4 mRNA expression, reaching its maximum after 2 hours (3-fold, P<0.001) and declining after 4 hours (Fig. 1C). Inhibition of de novo mRNA transcription with actinomycin D abolished this increase (Fig. 1D). Degradation over time of CXCR4 mRNA in actinomycin D pre-treated EPC was not modified by Ado treatment (P = 0.44, two-way ANOVA) suggesting that Ado does not affect CXCR4 mRNA stability (Fig. 1E). Together, these data show that Ado enhances CXCR4 mRNA expression in EPC through up-regulation of CXCR4 transcription.  Adenosine increases CXCR4 mRNA expression. A. Transcriptomic analysis of EPC treated with 10 micromol/L Ado for 6 hours using microarrays. The heat map indicates chemokines and chemokine receptors differentially expressed following Ado treatment (all with q values <=0.001). B. Confirmation of CXCR4 over-expression in EPC treated by 10 micromol/L Ado for 6 hours using quantitative PCR. Expression values were normalized to beta-actin and to untreated cells. * P<0.05 vs control (n = 3). C. Kinetic of the effect of Ado on CXCR4 mRNA expression. * P<0.05 vs control. ** P<0.001 vs control. P<0.001 using ANOVA (n = 5). D. Effect of actinomycin D (ActD). EPC were pre-treated by 5 microg/mL ActD for 30 min before treatment with 10 micromol/L Ado. CXCR4 mRNA expression was assessed after 2 hours. * P<0.01 vs control. # P<0.01 vs Ado (n = 3). E. EPC were pre-treated with ActD (5 microg/mL) for 30 min and were incubated with Ado for different time periods (30 min, 1 h and 2 h) before assessment of CXCR4 mRNA by PCR (n = 4). Since EPC are derived from PBMCs and monocytes, we tested whether adenosine modified CXCR4 expression in primary human monocytes, No significant effect was found (data not show). Adenosine increases CXCR4 expression at the cell surface Cell surface expression of CXCR4 was assessed by flow cytometry. As shown in Figure 2A, we observed a clear shift between the isotype control and the specific anti-CXCR4 antibody, indicating that EPC express CXCR4. A moderate increase of staining was noticed after Ado treatment (Fig. 2A). Time-course experiments revealed a maximal effect of Ado after 6 hours (23% increase, P<0.001) (Fig. 2B). This effect was dose-dependent and reached statistical significance at 1 micromol/L (Fig. 2C). These results show that physiological concentrations of Ado induce a moderate increase of CXCR4 expression at the surface of EPC. Adenosine enhances cell surface expression of CXCR4. EPC were treated with Ado and CXCR4 expression was assessed by flow cytometry. A. Representative histogram of EPC treated by 10 micromol/L Ado for 6 hours. Dark grey: isotype control. Light grey: CXCR4 staining of control cells. White: CXCR4 staining of Ado-treated cells. B. Kinetic of CXCR4 expression on EPC treated by 10 micromol/L Ado. * P<0.001 vs control (n = 10). C. Dose-dependent effect of Ado on CXCR4 expression on EPC harvested 6 hours after treatment. * P<0.05 vs control. ** P<0.01 vs control (n = 3).   Characterization of Ado receptor expression in EPC Expression of the 4 Ado receptors in EPC was as follows: A3>A2A>A2B. The A1 receptor was not detected (Fig. 3A). Interestingly, expression of Ado receptors was regulated by Ado itself. A2A and A2B receptors were more than two-fold up-regulated by Ado whereas A3 receptor was down-regulated. Maximal effects were observed 2-4 hours after administration of Ado (Fig. 3B-D).     Expression of Ado receptors in EPC. A. mRNA expression profiles of the 4 Ado receptors in EPC were obtained by quantitative PCR. Significant differences were observed (n = 3, P = 0.004), the A3 subtype being predominant and the A1 subtype not detected (ND). Expression values were normalized to beta-actin. B-D. Ado regulates the expression of its own receptors in EPC. mRNA expression was assessed by quantitative PCR at different times after treatment with 10 micromol/L Ado (n = 3). Ado transiently increased A2A and A2B expression (P = 0.003 and P = 0.002, respectively) and decreased A3 expression (P = 0.01). * P<=0.01 vs control.                       The A2B receptor mediates the effect of Ado on CXCR4 Several approaches were used to identify the subtype of Ado receptor(s) involved in the increase of CXCR4 expression. First, inhibition of Gi protein signaling was induced using pertussis toxin (Fig. 4A). This inhibition did not affect the increase of CXCR4 mRNA by Ado. Since A1 and A3 receptors are coupled to Gi proteins, this observation excludes the implication of these 2 receptors in the effect of Ado on CXCR4. Secondly, we used pharmaceutical inhibitors of downstream signaling pathways of the A2A and A2B receptors, ERK and PKC, respectively (Fig. 4B). The PKC inhibitor chelerythrin prevented the increase of CXCR4 induced by Ado, suggesting the involvement of the A2B receptors. The partial effect of the MEK inhibitor PD98059 suggested some contribution of the A2A receptor. This contribution might involve the ERK pathway and not the PKA pathway downstream the A2A receptor, since blockade of the latter pathway by H89 did not affect CXCR4 expression. Of note, none of the inhibitors used alone affected CXCR4 expression (not shown). To confirm these results, we blocked the A2B receptor using the specific antagonist MRS1754 (Fig. 4C). A robust decrease of CXCR4 expression was observed. Finally, down-regulation of A2B receptor using siRNA inhibited the effect of Ado on CXCR4 (Fig. 4D). A potential toxic effect of A2B siRNA, which could be responsible for the lack of response of the cells to Ado, was ruled out using flow cytometry experiments (data not shown). Taken- together, these results show that activation of the A2B receptor up-regulates CXCR4 expression. Identification of Ado receptors implicated in the effect of Ado on CXCR4. A. Pertussis toxin did not affect CXCR4 expression. Pertussis toxin (100 ng/mL) was added to the cells 30 min before Ado and CXCR4 expression was measured by PCR after 2 hours. * P<0.01 vs control (n = 5). B. Chelerythrin blocked the increase of CXCR4 expression induced by Ado. EPC were pre-treated with 10 micromol/L H89, PD98059 or chelerythrin for 15 min before 10 micromol/L Ado treatment for 4 hours. CXCR4 expression was measured by PCR. * P<0.001 vs control. # P<0.01 vs Ado (n = 3). C. A2B antagonist inhibited CXCR4 over expression induced by Ado. EPC were pre-incubated for 15 min with increasing concentrations of the A2B antagonist (MRS1754) or vehicle before incubation with 10 micromol/L Ado for 6 hours. CXCR4 expression was measured by flow cytometry. P = 0.02 (n = 3). D. A2B gene silencing inhibited CXCR4 expression. CXCR4 mRNA expression was measured in EPC transfected with A2B siRNA or control siRNA for 24 to 48 hours and treated with 10 micromol/L Ado for 4 hours. A2B siRNA inhibited the increase of CXCR4 expression induced by Ado. * P<0.01 vs control. # P<0.05 vs Ado + control siRNA (n = 3).         Adenosine stimulates EPC chemotaxis To evaluate the effect of Ado on EPC migration, EPC were treated with 10 micromol/L Ado for 6 hours and exposed to recombinant SDF-1alpha (0 to 100 ng/mL) in a Boyden chamber. SDF-1alpha dose-dependently enhanced EPC migration and pre-treatment with Ado amplified this effect (P = 0.02; Fig. 5A). The migration was inhibited by CXCR4 blocking antibodies in both untreated and Ado-treated cells (Fig. 5B). Adenosine enhances the migration of EPC. EPC were treated by 10 micromol/L Ado for 6 hours before transfer to the top of a Boyden chamber. The bottom of the chamber was filled with culture medium containing either recombinant SDF-1alpha (A and B) or conditioned medium from cardiac fibroblasts (C). The amount of cells that migrated through the membrane was assessed by fluorescence after 16 hours. A. SDF-1alpha induced EPC migration and Ado enhanced this effect (P = 0.02, two-way ANOVA. n = 3). B. Blocking CXCR4 with a neutralizing antibody (10 microg/mL) for one hour before exposure to 50 ng/mL SDF-1alpha for 16 hours in a Boyden chamber inhibited the migration in both untreated and Ado-treated cells. * P<0.05 vs control. # P<0.01 vs Ado (n = 3). C. Ado enhances the migration of EPC induced by conditioned medium from cardiac fibroblasts. EPC were treated by 10 micromol/L Ado or vehicle for 6 hours before transfer to the top of a Boyden chamber. The bottom of the chamber was filled with cell-free conditioned medium from fibroblasts. In some samples, EPC were pre-incubated for 1 hour with anti-CXCR4 blocking antibodies before transfer to the chambers. The amount of EPC that migrated through the membrane was assessed by fluorescence after 16 hours. * P<0.01 vs control. # P<0.001 vs Ado (n = 7). Cardiac fibroblasts represent a major source of SDF1alpha in the myocardium. We observed that treatment of EPC with 10 micromol/L Ado enhanced their migration towards a conditioned medium from fibroblasts. This increase was abolished when cells were pre-incubated with anti-CXCR4 antibodies (Fig. 5C). These data show that Ado improves the migration of EPC, at least through up-regulation of CXCR4 expression. Role of miR-150 in the effect of adenosine on CXCR4 Following experiments were performed under serum starvation (0.1% BSA) and oxygen deprivation (1% O2). As observed in normal conditions, Ado up-regulated CXCR4 mRNA expression (Fig. 6A). This was paralleled by decreased miR-150 (Fig. 6B). A luciferase assay was used to verify the ability of miR-150 to bind CXCR4. In HEK293T cells transfected with a reported plasmid containing the 3' UTR of the CXCR4 gene, we observed an inhibition of luciferase activity upon administration of pre-miR-150 (Fig. 6C).   Role of miR-150 in the effect of adenosine on CXCR4. A-B. EPC were treated with 10 micromol/L Ado before incubation for 4 hours in ischemic conditions (0.1% BSA instead of 20% SVF and 1% O2). CXCR4 and miR-150 expression was evaluated by PCR. Results were normalized to beta-actin and U6, respectively. Ado increased CXCR4 expression (A) and decreased miR-150 expression (B). * P<0.05 vs control (n = 5). C. HEK-293T cells were co-transfected with 10 ng of a reporter plasmid containing the 3' UTR of CXCR4 and 30 nmol/L of either pre-miR control (control) or pre-miR-150 (miR-150). miR 150 decreased luciferase activity. # P<0.001 vs control. Data are from 3 independent experiments performed in triplicate. D-G. EPC were transfected with 30 nmol/L of anti-miR-150 or pre-miR-150, or respective controls, during 24 hours, and then treated with 10 micromol/L of adenosine during 6 hours in ischemic conditions. (D-F) CXCR4 expression was measured by PCR. (E-G) Cell migration towards recombinant SDF-1alpha was assessed in a Boyden chamber after 16 hours. * P<0.05 (n = 5). NS: not significant.        Transfection of cells with anti-miR-150 to inhibit miR-150 expression had no effect on CXCR4 expression or migration towards SDF-1alpha (Fig. 6D-E). Associating anti-miR-150 with Ado significantly increased CXCR4 expression, compared to either treatment alone (Fig. 6D). However, anti-miR-150 did not enhance the effect of Ado on cell migration (Fig. 6E). Increasing the expression of miR-150 by addition of pre-miR-150 did not affect CXCR4 expression, but blunted the increase of CXCR4 expression induced by Ado (Fig. 6F). In migration assay, pre-miR-150 had no significant effect (Fig. 6G). These results suggest that, in EPC subjected to ischemic conditions, the increase of CXCR4 expression by Ado is, at least in part, controlled by miR-150. Adenosine improves EPC recruitment to the infarcted heart and angiogenesis The effect of Ado on EPC recruitment to the heart was evaluated in rats. MI was induced in 23 rats through ligation of the LAD coronary artery. LAD-ligated rats received twice daily injections of NaCl (control group, n = 7), or the stable analog of Ado 2-Chloroadenosine (CADO, n = 8), or CADO with the non-selective antagonist of Ado receptor 8-SPT (n = 8). Treatments were given for 2 months, starting 7 days after coronary ligation. Cardiac sections were stained for CD31, CXCR4 and ALDH2. In CADO-treated rats, all 3 markers were markedly enhanced in the infarct border zone. This effect was blunted when the effect of Ado was blocked by 8-SPT (Fig. 7A).             CADO treatment improves EPC recruitment to the heart and angiogenesis. LAD-occluded rats were treated with vehicle (n = 7), CADO (n = 8) or CADO +8-SPT (n = 8) as described in details in Methods section. After sacrifice, cardiac sections were performed and used for histological stainings. A. Immunostainings of CD31 (green), ALDH2 (red) and CXCR4 (pink) in cardiac sections obtained in the border zone, 2 months after MI. Nuclei are stained in blue by DAPI. Merge: overlay of CD31, ALDH2 and CXCR4 stainings. Arrows indicate blood vessel membrane. Representative pictures are shown. Magnification: x400. B. Upper panel: representative cardiac sections 2 months after MI showing the border zone stained with hematoxylin and eosin. Arrows indicate blood vessels. Lower panel: quantitative analysis of the number of vessels in the border zone of the infarct. Magnification: x100. Results are mean +- SEM. * P<0.05; ** P<0.001.               Finally, we assessed whether this enhanced recruitment of EPC resulted in improved angiogenesis. CADO-treated rats exhibited an enhanced number of blood vessels within the border zone, indicating that EPC recruitment indeed favored revascularization of the infarct border zone (+65% when compared to controls, P = 0.03) (Fig. 7B). This angiogenic effect was prevented by 8-SPT.     Therefore, our results clearly show that Ado stimulates EPC recruitment and angiogenesis in the infarcted heart. Discussion In the present study, the effect of Ado on the migration of EPC was investigated. First, we observed that Ado modulates the expression of several chemokines and chemokine receptors in EPC cultured in vitro. In particular, CXCR4 was up-regulated and this was associated with stimulation of cell migration. Then, we demonstrated that Ado improves the recruitment of EPC to the ischemic heart and this is accompanied by enhanced vascularization. Microarrays were used to investigate the effects of Ado on EPC at a genome-wide level. Ado regulated the expression of several members of the chemokine family. Since CXCR4 was one of the most affected and is the major regulator of EPC chemotaxis after binding of SDF-1alpha, we focused our investigations on this receptor. Up-regulation of CXCR4 mRNA expression by Ado was significant (3-fold increase). This up-regulation was absent in monocytes, suggesting that Ado does not induce an uncontrolled inflammatory response which could be consecutive to the recruitment of several hematopoietic cell types. The increase of CXCR4 expression at the cell surface was modest, but highly reproducible (P<0.001). This is probably a consequence of receptor internalization. Similar increases of CXCR4 at the cell surface have been shown to be sufficient to stimulate EPC migration. Therefore, we were not surprised to observe that up-regulation of CXCR4 expression by Ado stimulates the migration of EPC, both towards recombinant SDF-1alpha and conditioned medium from fibroblasts. Fibroblasts are a major source of SDF-1alpha in the heart. In the current study, the increase of CXCR4 expression was significant at a dose of 1 micromol/L of Ado, a dose that can easily be encountered extracellularly in the ischemic heart. Indeed, in conditions of ischemia, Ado can accumulate in the heart to 100 micromol/L. Our results are therefore physiologically relevant. We profiled the expression of Ado receptors on EPC, and observed significant regulation of their expression by Ado itself. Adenosine receptors appear to be tightly regulated. In inflammatory cells for instance, we and others have shown a high level of regulation following activation. In addition to transcriptional control, Ado receptors are also regulated by internalization. In EPC, Ado increased the expression of A2-type receptors. Mechanistic studies using pharmacological agents and RNA interference suggested that the A2B receptor is responsible for the effect of Ado on CXCR4. This is consistent with the reported over-expression of CXCR4 through A2A and A2B receptors in human carcinoma cells. Our findings suggest that drugs having high affinity for the A2B receptor may have a significant effect on EPC recruitment. However, from our data, some contribution of the A2A receptor on CXCR4 and EPC cannot totally be excluded. The A2A receptor is involved in EPC mobilisation and angiogenesis in a wound model. In contrast, knock-out mice for the A2B receptor showed an over-expression of CXCR4 on leukocytes. This discrepancy with our results and others' may be related to species differences. Indeed, it is known that Ado receptors activity vary with species. Our experiments were performed with human cells. To validate our in vitro observations in an in vivo setting, we analysed EPC recruitment in rats subjected to MI and supplemented with CADO and/or 8-SPT. We observed an increase of CXCR4 staining in cardiac sections from CADO-treated rats. This increase was paralleled by an increase of ALDH2 staining. A high level of ALDH2 activity has been described in EPC. Transplantation of bone marrow cells with high ALDH2 activity improves revascularisation of ischemic limbs and cord blood progenitors with high ALDH2 activity improve vascular density after acute MI. The increased expression of ALDH2 in CADO-treated rats indicates a stimulation of the recruitment of EPC with high regenerative potential. In LAD-occluded control rats, we did not observe significant ALDH2 and CXCR4 stainings, suggesting that EPC recruitment is weak in these animals. In addition, administration of 8-SPT blunted the effect of CADO. Therefore, our data show that Ado is a potent stimulus of EPC recruitment to the heart. The recruitment of EPC to the heart of CADO-treated rats was associated with an enhanced expression of CD31, an endothelial marker, and blood vessel number. This observation is consistent with a stimulation of the revascularization of the ischemic heart by CADO. However, whether this is a direct consequence of EPC recruitment following CADO administration is unclear. Indeed, Ado is pro-angiogenic and indirect effects, through stimulation of the production of vascular endothelial growth factor by inflammatory cells for instance, may also be involved. Of note, EPC failed to produce vascular endothelial growth factor, even upon treatment with Ado (not shown). Tano et al. showed that ischemia inhibits the expression of miR-150 in bone marrow derived mononuclear cells and activates its target gene CXCR4. We therefore investigated whether Ado could regulate CXCR4 expression through modulation of miR-150. In these experiments, EPC were cultured under ischemic conditions (i.e. serum and oxygen deprivation) to mimic cardiac stress. In parallel to an increase of CXCR4 expression, we observed a decrease of miR-150 when cells were treated with Ado. Since CXCR4 is a known target of miR-150, we sought to verify this mechanism in our system. Using a luciferase gene reporter assay, we were able to show that miR-150 indeed binds CXCR4 and thereby decreases CXCR4 expression. In addition, in experiments with actinomycin D, which blocks RNA transcription, we were able to show that Ado up-regulates CXCR4 transcription. Overall, it appears that up-regulation of CXCR4 expression by Ado may be controlled by multiple pathways involving both transcription of CXCR4 and of miR-150. Blocking endogenous miR-150 with anti-miR-150 or enhancing the pool of intracellular miR-150 by transfection of pre-miR-150 did not alter CXCR4 expression per se. Interestingly, down-regulation of miR-150 by anti-miR-150 potentiated the increase of CXCR4 expression by Ado, and, on the opposite, up-regulation of miR-150 by pre-miR-150 prevented the increase of CXCR4 expression by Ado. These data suggest that, under ischemic conditions, Ado enhances CXCR4 expression through down-regulation of miR-150. However, modulation of miR-150 expression by anti-miR-150 or pre-miR-150 did not affect cell migration. This may be related to our recent observation that EPC migration is controlled not only by CXCR4/SDF-1alpha, but also by CCR1/MCP-3. So far, very few reports have studied miR-150 in stem cells. miRNA profiles have identified miR-150 in EPC, human umbilical vein endothelial cells, and human coronary artery endothelial cells. Our results confirmed the expression of miR-150 in EPC and suggested that this miRNA may be a potential target to enhance the regenerative capacity of these cells. However, while miR-150 appears to slow EPC migration in our study, a previous study reported that miR-150, secreted by monocytes, enhances the migration of human microvascular endothelial cells. Interrogation of web-accessible databases identified over 400 predicted targets of miR-150. Additional studies are required to test whether miR-150 affects the expression of other genes regulating the functionality of EPC. Ultimately, the usefulness of miR-150 as a target for cardiac repair will have to be determined in animal models. In conclusion, we have shown that Ado stimulates the migration of EPC. In vitro, the mechanism involves A2B receptor activation, up-regulation of CXCR4 expression and down-regulation of miR-150. This effect is associated with enhanced angiogenesis in the ischemic heart. These findings suggest that A2B agonists should be tested in models of cardiac repair. References Forecasting the Future of Cardiovascular Disease in the United States Endothelial progenitor cells: what use for the cardiologist? Therapeutic stem and progenitor cell transplantation for organ vascularization and regeneration Stem and progenitor cell-based therapy in ischaemic heart disease: promise, uncertainties, and challenges Stromal cell-derived factor-1alpha plays a critical role in stem cell recruitment to the heart after myocardial infarction but is not sufficient to induce homing in the absence of injury Dependence of human stem cell engraftment and repopulation of NOD/SCID mice on CXCR4 Progenitor cell trafficking is regulated by hypoxic gradients through HIF-1 induction of SDF-1 How do stem cells find their way home? Impaired CXCR4 signaling contributes to the reduced neovascularization capacity of endothelial progenitor cells from patients with coronary artery disease Differences in donor CXCR4 expression levels are correlated with functional capacity and therapeutic outcome of angiogenic treatment with endothelial colony forming cells microRNA-150 Regulates Mobilization and Migration of Bone Marrow-Derived Mononuclear Cells by Targeting Cxcr4 International Union of Basic and Clinical Pharmacology. LXXXI. Nomenclature and Classification of Adenosine Receptors-An Update   Adenosine receptor-mediated adhesion of endothelial progenitors to cardiac microvascular endothelial cells Adenosine inhibits matrix metalloproteinase-9 secretion by neutrophils: implication of A2a receptor and cAMP/PKA/Ca2+ pathway Activation of the adenosine-A3 receptor stimulates matrix metalloproteinase-9 secretion by macrophages Adenosine up-regulates vascular endothelial growth factor in human macrophages Adenosine modifies the balance between membrane and soluble forms of Flt-1 Proof-of-principle investigation of an algorithmic model of adenosine-mediated angiogenesis Adenosine inhibits lipopolysaccharide-induced cardiac expression of tumor necrosis factor-alpha Differential regulation of cardiac expression of IL-6 and TNF-alpha by A2- and A3-adenosine receptors Adenosine inhibits lipopolysaccharide-induced secretion of tumor necrosis factor-alpha in the failing human heart Predictive integration of gene functional similarity and co-expression defines treatment response of endothelial progenitor cells Phosphatidylinositol-3-Kinase-{gamma} Is Integral to Homing Functions of Progenitor Cells Integrated protein network and microarray analysis to identify potential biomarkers after myocardial infarction An open-access long oligonucleotide microarray resource for analysis of the human and mouse transcriptomes Rat infarct model of myocardial infarction and heart failure Myocardial infarct size and ventricular function in rats Platelet microparticles enhance the vasoregenerative potential of angiogenic early outgrowth cells after vascular injury Formation and release of purine catabolites during hypoperfusion, anoxia, and ischemia Lipopolysaccharide rapidly modifies adenosine receptor transcripts in murine and human macrophages: role of NF-kappaB in A(2A) adenosine receptor induction Differential regulation of HIF-1{alpha} isoforms in murine macrophages by TLR4 and adenosine A2A receptor agonists Internalization and desensitization of adenosine receptors Adenosine upregulates CXCR4 and enhances the proliferative and migratory responses of human carcinoma cells to CXCL12/SDF-1alpha Adenosine A(2A) receptor activation promotes wound neovascularization by stimulating angiogenesis and vasculogenesis The A2b adenosine receptor protects against vascular injury International Union of Pharmacology. XXV. Nomenclature and classification of adenosine receptors Circulating progenitor cells can be reliably identified on the basis of aldehyde dehydrogenase activity Revascularization of ischemic limbs after transplantation of human bone marrow cells with high aldehyde dehydrogenase activity Human cord blood progenitors with high aldehyde dehydrogenase activity improve vascular density in a model of acute myocardial infarction Monocyte chemotactic protein 3 is a homing factor for circulating angiogenic cells Asymmetric Dimethylarginine Impairs Angiogenic Progenitor Cell Function in Patients With Coronary Artery Disease Through a MicroRNA-21-Dependent Mechanism Secreted Monocytic miR-150 Enhances Targeted Endothelial Cell Migration",
+    "entities": [
+        {
+            "entityId": "0_9",
+            "span": {
+                "begin": 0,
+                "end": 9
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "38_72",
+            "span": {
+                "begin": 38,
+                "end": 72
+            },
+            "entityType": "cell",
+            "entityName": "Human Endothelial Progenitor Cells",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "91_103",
+            "span": {
+                "begin": 91,
+                "end": 103
+            },
+            "entityType": "gene",
+            "entityName": "MicroRNA-150",
+            "id": "UMLS:C1537805"
+        },
+        {
+            "entityId": "133_161",
+            "span": {
+                "begin": 133,
+                "end": 161
+            },
+            "entityType": "cell",
+            "entityName": "endothelial progenitor cells",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "163_166",
+            "span": {
+                "begin": 163,
+                "end": 166
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "228_249",
+            "span": {
+                "begin": 228,
+                "end": 249
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "358_361",
+            "span": {
+                "begin": 358,
+                "end": 361
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "387_421",
+            "span": {
+                "begin": 387,
+                "end": 421
+            },
+            "entityType": "gene",
+            "entityName": "stromal cell-derived factor 1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "423_433",
+            "span": {
+                "begin": 423,
+                "end": 433
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "452_457",
+            "span": {
+                "begin": 452,
+                "end": 457
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "480_489",
+            "span": {
+                "begin": 480,
+                "end": 489
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "551_554",
+            "span": {
+                "begin": 551,
+                "end": 554
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "577_580",
+            "span": {
+                "begin": 577,
+                "end": 580
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "600_634",
+            "span": {
+                "begin": 600,
+                "end": 634
+            },
+            "entityType": "cell",
+            "entityName": "peripheral blood mononuclear cells",
+            "id": "UMLS:C1321301"
+        },
+        {
+            "entityId": "843_846",
+            "span": {
+                "begin": 843,
+                "end": 846
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "854_863",
+            "span": {
+                "begin": 854,
+                "end": 863
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "887_891",
+            "span": {
+                "begin": 887,
+                "end": 891
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "1009_1018",
+            "span": {
+                "begin": 1009,
+                "end": 1018
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1070_1086",
+            "span": {
+                "begin": 1070,
+                "end": 1086
+            },
+            "entityType": "gene",
+            "entityName": "chemokine family",
+            "id": "UMLS:C0282554"
+        },
+        {
+            "entityId": "1090_1093",
+            "span": {
+                "begin": 1090,
+                "end": 1093
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "1108_1113",
+            "span": {
+                "begin": 1108,
+                "end": 1113
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1134_1143",
+            "span": {
+                "begin": 1134,
+                "end": 1143
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1223_1228",
+            "span": {
+                "begin": 1223,
+                "end": 1228
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1305_1317",
+            "span": {
+                "begin": 1305,
+                "end": 1317
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "1335_1338",
+            "span": {
+                "begin": 1335,
+                "end": 1338
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "1344_1353",
+            "span": {
+                "begin": 1344,
+                "end": 1353
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1388_1410",
+            "span": {
+                "begin": 1388,
+                "end": 1410
+            },
+            "entityType": "gene",
+            "entityName": "recombinant SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "1438_1457",
+            "span": {
+                "begin": 1438,
+                "end": 1457
+            },
+            "entityType": "cell",
+            "entityName": "cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "1490_1495",
+            "span": {
+                "begin": 1490,
+                "end": 1495
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1517_1526",
+            "span": {
+                "begin": 1517,
+                "end": 1526
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1542_1547",
+            "span": {
+                "begin": 1542,
+                "end": 1547
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1589_1596",
+            "span": {
+                "begin": 1589,
+                "end": 1596
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "1620_1627",
+            "span": {
+                "begin": 1620,
+                "end": 1627
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "1661_1666",
+            "span": {
+                "begin": 1661,
+                "end": 1666
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1683_1693",
+            "span": {
+                "begin": 1683,
+                "end": 1693
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "1713_1724",
+            "span": {
+                "begin": 1713,
+                "end": 1724
+            },
+            "entityType": "gene",
+            "entityName": "pre-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "1747_1756",
+            "span": {
+                "begin": 1747,
+                "end": 1756
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1760_1765",
+            "span": {
+                "begin": 1760,
+                "end": 1765
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1785_1794",
+            "span": {
+                "begin": 1785,
+                "end": 1794
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1798_1802",
+            "span": {
+                "begin": 1798,
+                "end": 1802
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "1822_1843",
+            "span": {
+                "begin": 1822,
+                "end": 1843
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1855_1858",
+            "span": {
+                "begin": 1855,
+                "end": 1858
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "1922_1931",
+            "span": {
+                "begin": 1922,
+                "end": 1931
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "1959_1962",
+            "span": {
+                "begin": 1959,
+                "end": 1962
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "1987_1999",
+            "span": {
+                "begin": 1987,
+                "end": 1999
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "2036_2043",
+            "span": {
+                "begin": 2036,
+                "end": 2043
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "2072_2077",
+            "span": {
+                "begin": 2072,
+                "end": 2077
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "2106_2115",
+            "span": {
+                "begin": 2106,
+                "end": 2115
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "2155_2158",
+            "span": {
+                "begin": 2155,
+                "end": 2158
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "2209_2232",
+            "span": {
+                "begin": 2209,
+                "end": 2232
+            },
+            "entityType": "disease",
+            "entityName": "Cardiovascular diseases",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "2342_2370",
+            "span": {
+                "begin": 2342,
+                "end": 2370
+            },
+            "entityType": "cell",
+            "entityName": "endothelial progenitor cells",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "2372_2375",
+            "span": {
+                "begin": 2372,
+                "end": 2375
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "2446_2473",
+            "span": {
+                "begin": 2446,
+                "end": 2473
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "2475_2477",
+            "span": {
+                "begin": 2475,
+                "end": 2477
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2546_2559",
+            "span": {
+                "begin": 2546,
+                "end": 2559
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "2561_2563",
+            "span": {
+                "begin": 2561,
+                "end": 2563
+            },
+            "entityType": "disease",
+            "entityName": "HF",
+            "id": "mesh:D006333"
+        },
+        {
+            "entityId": "2594_2597",
+            "span": {
+                "begin": 2594,
+                "end": 2597
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "2732_2735",
+            "span": {
+                "begin": 2732,
+                "end": 2735
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "2881_2915",
+            "span": {
+                "begin": 2881,
+                "end": 2915
+            },
+            "entityType": "gene",
+            "entityName": "stromal cell-derived factor-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "2917_2927",
+            "span": {
+                "begin": 2917,
+                "end": 2927
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "2929_2934",
+            "span": {
+                "begin": 2929,
+                "end": 2934
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "2964_2967",
+            "span": {
+                "begin": 2964,
+                "end": 2967
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "3043_3048",
+            "span": {
+                "begin": 3043,
+                "end": 3048
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "3101_3104",
+            "span": {
+                "begin": 3101,
+                "end": 3104
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "3108_3116",
+            "span": {
+                "begin": 3108,
+                "end": 3116
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3122_3145",
+            "span": {
+                "begin": 3122,
+                "end": 3145
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "3179_3211",
+            "span": {
+                "begin": 3179,
+                "end": 3211
+            },
+            "entityType": "cell",
+            "entityName": "endothelial colony forming cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "3229_3234",
+            "span": {
+                "begin": 3229,
+                "end": 3234
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "3317_3334",
+            "span": {
+                "begin": 3317,
+                "end": 3334
+            },
+            "entityType": "disease",
+            "entityName": "hindlimb ischemia",
+            "id": "UMLS:C0340565"
+        },
+        {
+            "entityId": "3342_3351",
+            "span": {
+                "begin": 3342,
+                "end": 3351
+            },
+            "entityType": "DNA",
+            "entityName": "MicroRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "3353_3359",
+            "span": {
+                "begin": 3353,
+                "end": 3359
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "3467_3474",
+            "span": {
+                "begin": 3467,
+                "end": 3474
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "3478_3515",
+            "span": {
+                "begin": 3478,
+                "end": 3515
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow derived mononuclear cells",
+            "id": "UMLS:C3896693"
+        },
+        {
+            "entityId": "3543_3548",
+            "span": {
+                "begin": 3543,
+                "end": 3548
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "3564_3571",
+            "span": {
+                "begin": 3564,
+                "end": 3571
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "3606_3613",
+            "span": {
+                "begin": 3606,
+                "end": 3613
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "3651_3654",
+            "span": {
+                "begin": 3651,
+                "end": 3654
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "3714_3723",
+            "span": {
+                "begin": 3714,
+                "end": 3723
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "3725_3728",
+            "span": {
+                "begin": 3725,
+                "end": 3728
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "3766_3789",
+            "span": {
+                "begin": 3766,
+                "end": 3789
+            },
+            "entityType": "drug",
+            "entityName": "adenosine tri-phosphate",
+            "id": "UMLS:C0001480"
+        },
+        {
+            "entityId": "3791_3794",
+            "span": {
+                "begin": 3791,
+                "end": 3794
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "3815_3818",
+            "span": {
+                "begin": 3815,
+                "end": 3818
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "3876_3903",
+            "span": {
+                "begin": 3876,
+                "end": 3903
+            },
+            "entityType": "gene",
+            "entityName": "G protein-coupled receptors",
+            "id": "UMLS:C0682972"
+        },
+        {
+            "entityId": "3935_3942",
+            "span": {
+                "begin": 3935,
+                "end": 3942
+            },
+            "entityType": "gene",
+            "entityName": "A1, A2A",
+            "id": "UMLS:C4761535"
+        },
+        {
+            "entityId": "3952_3964",
+            "span": {
+                "begin": 3952,
+                "end": 3964
+            },
+            "entityType": "gene",
+            "entityName": "A3 receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "3997_4000",
+            "span": {
+                "begin": 3997,
+                "end": 4000
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "4069_4072",
+            "span": {
+                "begin": 4069,
+                "end": 4072
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "4154_4157",
+            "span": {
+                "begin": 4154,
+                "end": 4157
+            },
+            "entityType": "gene",
+            "entityName": "Ado",
+            "id": "UMLS:C1428110"
+        },
+        {
+            "entityId": "4184_4193",
+            "span": {
+                "begin": 4184,
+                "end": 4193
+            },
+            "entityType": "cell",
+            "entityName": "human EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "4197_4236",
+            "span": {
+                "begin": 4197,
+                "end": 4236
+            },
+            "entityType": "cell",
+            "entityName": "cardiac microvascular endothelial cells",
+            "id": "UMLS:C0920751"
+        },
+        {
+            "entityId": "4271_4274",
+            "span": {
+                "begin": 4271,
+                "end": 4274
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "4439_4442",
+            "span": {
+                "begin": 4439,
+                "end": 4442
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "4455_4458",
+            "span": {
+                "begin": 4455,
+                "end": 4458
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "4535_4538",
+            "span": {
+                "begin": 4535,
+                "end": 4538
+            },
+            "entityType": "gene",
+            "entityName": "Ado",
+            "id": "UMLS:C1428110"
+        },
+        {
+            "entityId": "4564_4567",
+            "span": {
+                "begin": 4564,
+                "end": 4567
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "4734_4750",
+            "span": {
+                "begin": 4734,
+                "end": 4750
+            },
+            "entityType": "gene",
+            "entityName": "A2B Ado receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "4766_4774",
+            "span": {
+                "begin": 4766,
+                "end": 4774
+            },
+            "entityType": "drug",
+            "entityName": "MRS 1754",
+            "id": "UMLS:C1744637"
+        },
+        {
+            "entityId": "4853_4857",
+            "span": {
+                "begin": 4853,
+                "end": 4857
+            },
+            "entityType": "drug",
+            "entityName": "EHNA",
+            "id": "UMLS:C0050173"
+        },
+        {
+            "entityId": "4859_4912",
+            "span": {
+                "begin": 4859,
+                "end": 4912
+            },
+            "entityType": "drug",
+            "entityName": "erythro-9-(2-Hydroxy-3-nonyl) adenosine hydrochloride",
+            "id": "UMLS:C0699343"
+        },
+        {
+            "entityId": "4926_4939",
+            "span": {
+                "begin": 4926,
+                "end": 4939
+            },
+            "entityType": "gene",
+            "entityName": "Ado deaminase",
+            "id": "UMLS:C0582118"
+        },
+        {
+            "entityId": "4954_4966",
+            "span": {
+                "begin": 4954,
+                "end": 4966
+            },
+            "entityType": "drug",
+            "entityName": "dipyridamole",
+            "id": "UMLS:C0012582"
+        },
+        {
+            "entityId": "4998_5001",
+            "span": {
+                "begin": 4998,
+                "end": 5001
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "5030_5047",
+            "span": {
+                "begin": 5030,
+                "end": 5047
+            },
+            "entityType": "drug",
+            "entityName": "2-Chloroadenosine",
+            "id": "UMLS:C0000275"
+        },
+        {
+            "entityId": "5060_5097",
+            "span": {
+                "begin": 5060,
+                "end": 5097
+            },
+            "entityType": "drug",
+            "entityName": "8-(p-Sulfophenyl)theophylline hydrate",
+            "id": "UMLS:C0304443"
+        },
+        {
+            "entityId": "5151_5164",
+            "span": {
+                "begin": 5151,
+                "end": 5164
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "5207_5225",
+            "span": {
+                "begin": 5207,
+                "end": 5225
+            },
+            "entityType": "species",
+            "entityName": "Limulus polyphemus",
+            "id": "UMLS:C0259942"
+        },
+        {
+            "entityId": "5344_5347",
+            "span": {
+                "begin": 5344,
+                "end": 5347
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "5383_5393",
+            "span": {
+                "begin": 5383,
+                "end": 5393
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "5437_5447",
+            "span": {
+                "begin": 5437,
+                "end": 5447
+            },
+            "entityType": "gene",
+            "entityName": "Anti CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "5476_5486",
+            "span": {
+                "begin": 5476,
+                "end": 5486
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "5553_5587",
+            "span": {
+                "begin": 5553,
+                "end": 5587
+            },
+            "entityType": "cell",
+            "entityName": "Peripheral blood mononuclear cells",
+            "id": "UMLS:C1321301"
+        },
+        {
+            "entityId": "5589_5594",
+            "span": {
+                "begin": 5589,
+                "end": 5594
+            },
+            "entityType": "cell",
+            "entityName": "PBMCs",
+            "id": "UMLS:C1321301"
+        },
+        {
+            "entityId": "5692_5695",
+            "span": {
+                "begin": 5692,
+                "end": 5695
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "5760_5765",
+            "span": {
+                "begin": 5760,
+                "end": 5765
+            },
+            "entityType": "cell",
+            "entityName": "PBMCs",
+            "id": "UMLS:C1321301"
+        },
+        {
+            "entityId": "5783_5800",
+            "span": {
+                "begin": 5783,
+                "end": 5800
+            },
+            "entityType": "gene",
+            "entityName": "human fibronectin",
+            "id": "UMLS:C1570610"
+        },
+        {
+            "entityId": "5909_5952",
+            "span": {
+                "begin": 5909,
+                "end": 5952
+            },
+            "entityType": "gene",
+            "entityName": "human recombinant endothelial growth factor",
+            "id": "UMLS:C1515377"
+        },
+        {
+            "entityId": "5954_5968",
+            "span": {
+                "begin": 5954,
+                "end": 5968
+            },
+            "entityType": "drug",
+            "entityName": "hydrocortisone",
+            "id": "UMLS:C0020268"
+        },
+        {
+            "entityId": "5970_5980",
+            "span": {
+                "begin": 5970,
+                "end": 5980
+            },
+            "entityType": "drug",
+            "entityName": "gentamicin",
+            "id": "UMLS:C3854019"
+        },
+        {
+            "entityId": "5982_5996",
+            "span": {
+                "begin": 5982,
+                "end": 5996
+            },
+            "entityType": "drug",
+            "entityName": "amphotericin B",
+            "id": "UMLS:C0002679"
+        },
+        {
+            "entityId": "6203_6206",
+            "span": {
+                "begin": 6203,
+                "end": 6206
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "6397_6403",
+            "span": {
+                "begin": 6397,
+                "end": 6403
+            },
+            "entityType": "gene",
+            "entityName": "lectin",
+            "id": "UMLS:C0023206"
+        },
+        {
+            "entityId": "6409_6423",
+            "span": {
+                "begin": 6409,
+                "end": 6423
+            },
+            "entityType": "species",
+            "entityName": "Ulex europaeus",
+            "id": "UMLS:C0996858"
+        },
+        {
+            "entityId": "6450_6453",
+            "span": {
+                "begin": 6450,
+                "end": 6453
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "6459_6464",
+            "span": {
+                "begin": 6459,
+                "end": 6464
+            },
+            "entityType": "gene",
+            "entityName": "CD133",
+            "id": "NCBIGene:8842"
+        },
+        {
+            "entityId": "6466_6470",
+            "span": {
+                "begin": 6466,
+                "end": 6470
+            },
+            "entityType": "gene",
+            "entityName": "CD34",
+            "id": "NCBIGene:947"
+        },
+        {
+            "entityId": "6472_6476",
+            "span": {
+                "begin": 6472,
+                "end": 6476
+            },
+            "entityType": "gene",
+            "entityName": "CD45",
+            "id": "UMLS:C1870006"
+        },
+        {
+            "entityId": "6478_6482",
+            "span": {
+                "begin": 6478,
+                "end": 6482
+            },
+            "entityType": "gene",
+            "entityName": "CD14",
+            "id": "UMLS:C1367477"
+        },
+        {
+            "entityId": "6484_6488",
+            "span": {
+                "begin": 6484,
+                "end": 6488
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "6490_6493",
+            "span": {
+                "begin": 6490,
+                "end": 6493
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "6495_6501",
+            "span": {
+                "begin": 6495,
+                "end": 6501
+            },
+            "entityType": "gene",
+            "entityName": "VEGFR2",
+            "id": "UMLS:C1334306"
+        },
+        {
+            "entityId": "6503_6508",
+            "span": {
+                "begin": 6503,
+                "end": 6508
+            },
+            "entityType": "gene",
+            "entityName": "CD144",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "6570_6594",
+            "span": {
+                "begin": 6570,
+                "end": 6594
+            },
+            "entityType": "cell",
+            "entityName": "CD14+/CD45+/CXCR4+ cells",
+            "id": "UMLS:C0947286"
+        },
+        {
+            "entityId": "6655_6658",
+            "span": {
+                "begin": 6655,
+                "end": 6658
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "6682_6684",
+            "span": {
+                "begin": 6682,
+                "end": 6684
+            },
+            "entityType": "drug",
+            "entityName": "O2",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "6697_6730",
+            "span": {
+                "begin": 6697,
+                "end": 6730
+            },
+            "entityType": "cell",
+            "entityName": "Human primary cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "6920_6931",
+            "span": {
+                "begin": 6920,
+                "end": 6931
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "6995_7002",
+            "span": {
+                "begin": 6995,
+                "end": 7002
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "7019_7030",
+            "span": {
+                "begin": 7019,
+                "end": 7030
+            },
+            "entityType": "gene",
+            "entityName": "transferrin",
+            "id": "UMLS:C0040679"
+        },
+        {
+            "entityId": "7048_7063",
+            "span": {
+                "begin": 7048,
+                "end": 7063
+            },
+            "entityType": "drug",
+            "entityName": "sodium selenite",
+            "id": "UMLS:C0142923"
+        },
+        {
+            "entityId": "7095_7108",
+            "span": {
+                "begin": 7095,
+                "end": 7108
+            },
+            "entityType": "drug",
+            "entityName": "linoleic acid",
+            "id": "UMLS:C0023749"
+        },
+        {
+            "entityId": "7164_7167",
+            "span": {
+                "begin": 7164,
+                "end": 7167
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "7172_7176",
+            "span": {
+                "begin": 7172,
+                "end": 7176
+            },
+            "entityType": "drug",
+            "entityName": "EHNA",
+            "id": "UMLS:C0050173"
+        },
+        {
+            "entityId": "7244_7247",
+            "span": {
+                "begin": 7244,
+                "end": 7247
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "7259_7282",
+            "span": {
+                "begin": 7259,
+                "end": 7282
+            },
+            "entityType": "cell",
+            "entityName": "Primary human monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "7425_7434",
+            "span": {
+                "begin": 7425,
+                "end": 7434
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "7923_7928",
+            "span": {
+                "begin": 7923,
+                "end": 7928
+            },
+            "entityType": "gene",
+            "entityName": "CD184",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "8326_8329",
+            "span": {
+                "begin": 8326,
+                "end": 8329
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "8590_8623",
+            "span": {
+                "begin": 8590,
+                "end": 8623
+            },
+            "entityType": "DNA",
+            "entityName": "pre-miRTM miRNA precursor hsa-miR",
+            "id": "UMLS:C1337053"
+        },
+        {
+            "entityId": "8616_8627",
+            "span": {
+                "begin": 8616,
+                "end": 8627
+            },
+            "entityType": "gene",
+            "entityName": "hsa-miR-150",
+            "id": "UMLS:C1537805"
+        },
+        {
+            "entityId": "8656_8667",
+            "span": {
+                "begin": 8656,
+                "end": 8667
+            },
+            "entityType": "gene",
+            "entityName": "hsa-miR-150",
+            "id": "UMLS:C1537805"
+        },
+        {
+            "entityId": "8965_8968",
+            "span": {
+                "begin": 8965,
+                "end": 8968
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "9049_9062",
+            "span": {
+                "begin": 9049,
+                "end": 9062
+            },
+            "entityType": "DNA",
+            "entityName": "messenger RNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "9248_9255",
+            "span": {
+                "begin": 9248,
+                "end": 9255
+            },
+            "entityType": "gene",
+            "entityName": "DNase I",
+            "id": "UMLS:C0011519"
+        },
+        {
+            "entityId": "9334_9371",
+            "span": {
+                "begin": 9334,
+                "end": 9371
+            },
+            "entityType": "gene",
+            "entityName": "Superscript  II Reverse Transcriptase",
+            "id": "UMLS:C0035379"
+        },
+        {
+            "entityId": "9986_9996",
+            "span": {
+                "begin": 9986,
+                "end": 9996
+            },
+            "entityType": "gene",
+            "entityName": "beta-actin",
+            "id": "UMLS:C0005186"
+        },
+        {
+            "entityId": "10727_10732",
+            "span": {
+                "begin": 10727,
+                "end": 10732
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "11110_11112",
+            "span": {
+                "begin": 11110,
+                "end": 11112
+            },
+            "entityType": "gene",
+            "entityName": "U6",
+            "id": "UMLS:C1419574"
+        },
+        {
+            "entityId": "11114_11135",
+            "span": {
+                "begin": 11114,
+                "end": 11135
+            },
+            "entityType": "gene",
+            "entityName": "Homo sapiens_RNU6-2_1",
+            "id": "UMLS:C1419575"
+        },
+        {
+            "entityId": "11289_11293",
+            "span": {
+                "begin": 11289,
+                "end": 11293
+            },
+            "entityType": "DNA",
+            "entityName": "mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "11535_11540",
+            "span": {
+                "begin": 11535,
+                "end": 11540
+            },
+            "entityType": "drug",
+            "entityName": "Amino",
+            "id": "UMLS:CHEBI:46882"
+        },
+        {
+            "entityId": "12122_12132",
+            "span": {
+                "begin": 12122,
+                "end": 12132
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "12472_12475",
+            "span": {
+                "begin": 12472,
+                "end": 12475
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "12536_12539",
+            "span": {
+                "begin": 12536,
+                "end": 12539
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "12580_12583",
+            "span": {
+                "begin": 12580,
+                "end": 12583
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "12584_12588",
+            "span": {
+                "begin": 12584,
+                "end": 12588
+            },
+            "entityType": "drug",
+            "entityName": "EHNA",
+            "id": "UMLS:C0050173"
+        },
+        {
+            "entityId": "12741_12751",
+            "span": {
+                "begin": 12741,
+                "end": 12751
+            },
+            "entityType": "gene",
+            "entityName": "anti-CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "12926_12936",
+            "span": {
+                "begin": 12926,
+                "end": 12936
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "12981_12992",
+            "span": {
+                "begin": 12981,
+                "end": 12992
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "13212_13231",
+            "span": {
+                "begin": 13212,
+                "end": 13231
+            },
+            "entityType": "gene",
+            "entityName": "Luciferase reporter",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "13292_13302",
+            "span": {
+                "begin": 13292,
+                "end": 13302
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "13361_13372",
+            "span": {
+                "begin": 13361,
+                "end": 13372
+            },
+            "entityType": "drug",
+            "entityName": "L-glutamine",
+            "id": "UMLS:C0017797"
+        },
+        {
+            "entityId": "13380_13390",
+            "span": {
+                "begin": 13380,
+                "end": 13390
+            },
+            "entityType": "drug",
+            "entityName": "penicillin",
+            "id": "UMLS:C0030842"
+        },
+        {
+            "entityId": "13391_13403",
+            "span": {
+                "begin": 13391,
+                "end": 13403
+            },
+            "entityType": "drug",
+            "entityName": "streptomycin",
+            "id": "UMLS:C0038425"
+        },
+        {
+            "entityId": "13405_13419",
+            "span": {
+                "begin": 13405,
+                "end": 13419
+            },
+            "entityType": "cell",
+            "entityName": "HEK-293T cells",
+            "id": "UMLS:C2936239"
+        },
+        {
+            "entityId": "13589_13594",
+            "span": {
+                "begin": 13589,
+                "end": 13594
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "13682_13702",
+            "span": {
+                "begin": 13682,
+                "end": 13702
+            },
+            "entityType": "gene",
+            "entityName": "alkaline phosphatase",
+            "id": "UMLS:C0002059"
+        },
+        {
+            "entityId": "13787_13812",
+            "span": {
+                "begin": 13787,
+                "end": 13812
+            },
+            "entityType": "DNA",
+            "entityName": "pre-miRTM miRNA precursor",
+            "id": "UMLS:C1337053"
+        },
+        {
+            "entityId": "13813_13824",
+            "span": {
+                "begin": 13813,
+                "end": 13824
+            },
+            "entityType": "gene",
+            "entityName": "hsa-miR-150",
+            "id": "UMLS:C1537805"
+        },
+        {
+            "entityId": "13876_13886",
+            "span": {
+                "begin": 13876,
+                "end": 13886
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "13891_13911",
+            "span": {
+                "begin": 13891,
+                "end": 13911
+            },
+            "entityType": "gene",
+            "entityName": "alkaline phosphatase",
+            "id": "UMLS:C0002059"
+        },
+        {
+            "entityId": "14073_14083",
+            "span": {
+                "begin": 14073,
+                "end": 14083
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "14111_14131",
+            "span": {
+                "begin": 14111,
+                "end": 14131
+            },
+            "entityType": "gene",
+            "entityName": "alkaline phosphatase",
+            "id": "UMLS:C0002059"
+        },
+        {
+            "entityId": "14475_14486",
+            "span": {
+                "begin": 14475,
+                "end": 14486
+            },
+            "entityType": "species",
+            "entityName": "Wistar rats",
+            "id": "UMLS:C0034716"
+        },
+        {
+            "entityId": "14581_14583",
+            "span": {
+                "begin": 14581,
+                "end": 14583
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "14608_14630",
+            "span": {
+                "begin": 14608,
+                "end": 14630
+            },
+            "entityType": "drug",
+            "entityName": "18F-Fluorodeoxyglucose",
+            "id": "UMLS:C0046056"
+        },
+        {
+            "entityId": "14632_14635",
+            "span": {
+                "begin": 14632,
+                "end": 14635
+            },
+            "entityType": "drug",
+            "entityName": "FDG",
+            "id": "UMLS:C0046056"
+        },
+        {
+            "entityId": "14771_14778",
+            "span": {
+                "begin": 14771,
+                "end": 14778
+            },
+            "entityType": "drug",
+            "entityName": "18F-FDG",
+            "id": "UMLS:C0046056"
+        },
+        {
+            "entityId": "14879_14883",
+            "span": {
+                "begin": 14879,
+                "end": 14883
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "15107_15111",
+            "span": {
+                "begin": 15107,
+                "end": 15111
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15352_15360",
+            "span": {
+                "begin": 15352,
+                "end": 15360
+            },
+            "entityType": "drug",
+            "entityName": "methanol",
+            "id": "UMLS:C0001963"
+        },
+        {
+            "entityId": "15431_15435",
+            "span": {
+                "begin": 15431,
+                "end": 15435
+            },
+            "entityType": "species",
+            "entityName": "goat",
+            "id": "UMLS:C1510458"
+        },
+        {
+            "entityId": "15468_15473",
+            "span": {
+                "begin": 15468,
+                "end": 15473
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "15519_15524",
+            "span": {
+                "begin": 15519,
+                "end": 15524
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "15547_15557",
+            "span": {
+                "begin": 15547,
+                "end": 15557
+            },
+            "entityType": "cell",
+            "entityName": "clone P2B1",
+            "id": "UMLS:C0009013"
+        },
+        {
+            "entityId": "15596_15602",
+            "span": {
+                "begin": 15596,
+                "end": 15602
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "15608_15613",
+            "span": {
+                "begin": 15608,
+                "end": 15613
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "15655_15670",
+            "span": {
+                "begin": 15655,
+                "end": 15670
+            },
+            "entityType": "drug",
+            "entityName": "Alexa Fluor 488",
+            "id": "mesh:C000711379"
+        },
+        {
+            "entityId": "15679_15705",
+            "span": {
+                "begin": 15679,
+                "end": 15705
+            },
+            "entityType": "gene",
+            "entityName": "donkey anti-mouse antibody",
+            "id": "UMLS:C0003242"
+        },
+        {
+            "entityId": "15707_15722",
+            "span": {
+                "begin": 15707,
+                "end": 15722
+            },
+            "entityType": "drug",
+            "entityName": "Alexa Fluor 568",
+            "id": "UMLS:C4278804"
+        },
+        {
+            "entityId": "15731_15756",
+            "span": {
+                "begin": 15731,
+                "end": 15756
+            },
+            "entityType": "gene",
+            "entityName": "donkey anti-goat antibody",
+            "id": "UMLS:C0003242"
+        },
+        {
+            "entityId": "15785_15791",
+            "span": {
+                "begin": 15785,
+                "end": 15791
+            },
+            "entityType": "species",
+            "entityName": "donkey",
+            "id": "UMLS:C0324145"
+        },
+        {
+            "entityId": "15797_15803",
+            "span": {
+                "begin": 15797,
+                "end": 15803
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "15929_15933",
+            "span": {
+                "begin": 15929,
+                "end": 15933
+            },
+            "entityType": "drug",
+            "entityName": "DAPI",
+            "id": "UMLS:C0057142"
+        },
+        {
+            "entityId": "15967_15978",
+            "span": {
+                "begin": 15967,
+                "end": 15978
+            },
+            "entityType": "drug",
+            "entityName": "Hematoxylin",
+            "id": "UMLS:C0018964"
+        },
+        {
+            "entityId": "15983_15988",
+            "span": {
+                "begin": 15983,
+                "end": 15988
+            },
+            "entityType": "drug",
+            "entityName": "eosin",
+            "id": "UMLS:C0885297"
+        },
+        {
+            "entityId": "17068_17077",
+            "span": {
+                "begin": 17068,
+                "end": 17077
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17088_17098",
+            "span": {
+                "begin": 17088,
+                "end": 17098
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "17113_17116",
+            "span": {
+                "begin": 17113,
+                "end": 17116
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "17178_17181",
+            "span": {
+                "begin": 17178,
+                "end": 17181
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17225_17250",
+            "span": {
+                "begin": 17225,
+                "end": 17250
+            },
+            "entityType": "gene",
+            "entityName": "chemokine/receptor family",
+            "id": "UMLS:C0524914"
+        },
+        {
+            "entityId": "17304_17307",
+            "span": {
+                "begin": 17304,
+                "end": 17307
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "17327_17330",
+            "span": {
+                "begin": 17327,
+                "end": 17330
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17441_17446",
+            "span": {
+                "begin": 17441,
+                "end": 17446
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "17499_17504",
+            "span": {
+                "begin": 17499,
+                "end": 17504
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "17508_17511",
+            "span": {
+                "begin": 17508,
+                "end": 17511
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17553_17556",
+            "span": {
+                "begin": 17553,
+                "end": 17556
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "17573_17576",
+            "span": {
+                "begin": 17573,
+                "end": 17576
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17609_17619",
+            "span": {
+                "begin": 17609,
+                "end": 17619
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "17746_17750",
+            "span": {
+                "begin": 17746,
+                "end": 17750
+            },
+            "entityType": "DNA",
+            "entityName": "mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "17770_17783",
+            "span": {
+                "begin": 17770,
+                "end": 17783
+            },
+            "entityType": "drug",
+            "entityName": "actinomycin D",
+            "id": "UMLS:C0010934"
+        },
+        {
+            "entityId": "17844_17854",
+            "span": {
+                "begin": 17844,
+                "end": 17854
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "17858_17887",
+            "span": {
+                "begin": 17858,
+                "end": 17887
+            },
+            "entityType": "cell",
+            "entityName": "actinomycin D pre-treated EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "17908_17911",
+            "span": {
+                "begin": 17908,
+                "end": 17911
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17964_17967",
+            "span": {
+                "begin": 17964,
+                "end": 17967
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "17984_17994",
+            "span": {
+                "begin": 17984,
+                "end": 17994
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "18047_18050",
+            "span": {
+                "begin": 18047,
+                "end": 18050
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "18060_18070",
+            "span": {
+                "begin": 18060,
+                "end": 18070
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "18085_18088",
+            "span": {
+                "begin": 18085,
+                "end": 18088
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "18114_18119",
+            "span": {
+                "begin": 18114,
+                "end": 18119
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "19170_19173",
+            "span": {
+                "begin": 19170,
+                "end": 19173
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "19191_19196",
+            "span": {
+                "begin": 19191,
+                "end": 19196
+            },
+            "entityType": "cell",
+            "entityName": "PBMCs",
+            "id": "UMLS:C1321301"
+        },
+        {
+            "entityId": "19201_19210",
+            "span": {
+                "begin": 19201,
+                "end": 19210
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "19230_19239",
+            "span": {
+                "begin": 19230,
+                "end": 19239
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "19249_19254",
+            "span": {
+                "begin": 19249,
+                "end": 19254
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "19269_19292",
+            "span": {
+                "begin": 19269,
+                "end": 19292
+            },
+            "entityType": "cell",
+            "entityName": "primary human monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "19343_19352",
+            "span": {
+                "begin": 19343,
+                "end": 19352
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "19363_19368",
+            "span": {
+                "begin": 19363,
+                "end": 19368
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "19427_19432",
+            "span": {
+                "begin": 19427,
+                "end": 19432
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "19559_19578",
+            "span": {
+                "begin": 19559,
+                "end": 19578
+            },
+            "entityType": "gene",
+            "entityName": "anti-CXCR4 antibody",
+            "id": "UMLS:C0003242"
+        },
+        {
+            "entityId": "19596_19599",
+            "span": {
+                "begin": 19596,
+                "end": 19599
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "19608_19613",
+            "span": {
+                "begin": 19608,
+                "end": 19613
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "19665_19668",
+            "span": {
+                "begin": 19665,
+                "end": 19668
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "19743_19746",
+            "span": {
+                "begin": 19743,
+                "end": 19746
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "19947_19950",
+            "span": {
+                "begin": 19947,
+                "end": 19950
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "19981_19986",
+            "span": {
+                "begin": 19981,
+                "end": 19986
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "20016_20019",
+            "span": {
+                "begin": 20016,
+                "end": 20019
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "20613_20625",
+            "span": {
+                "begin": 20613,
+                "end": 20625
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "20640_20643",
+            "span": {
+                "begin": 20640,
+                "end": 20643
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "20664_20677",
+            "span": {
+                "begin": 20664,
+                "end": 20677
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "20681_20684",
+            "span": {
+                "begin": 20681,
+                "end": 20684
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "20704_20707",
+            "span": {
+                "begin": 20704,
+                "end": 20707
+            },
+            "entityType": "gene",
+            "entityName": "A2A",
+            "id": "NCBIGene:28882"
+        },
+        {
+            "entityId": "20717_20728",
+            "span": {
+                "begin": 20717,
+                "end": 20728
+            },
+            "entityType": "gene",
+            "entityName": "A1 receptor",
+            "id": "UMLS:C4761535"
+        },
+        {
+            "entityId": "20786_20799",
+            "span": {
+                "begin": 20786,
+                "end": 20799
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "20817_20820",
+            "span": {
+                "begin": 20817,
+                "end": 20820
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "20829_20850",
+            "span": {
+                "begin": 20829,
+                "end": 20850
+            },
+            "entityType": "gene",
+            "entityName": "A2A and A2B receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "20891_20894",
+            "span": {
+                "begin": 20891,
+                "end": 20894
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "20903_20914",
+            "span": {
+                "begin": 20903,
+                "end": 20914
+            },
+            "entityType": "gene",
+            "entityName": "A3 receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "20999_21002",
+            "span": {
+                "begin": 20999,
+                "end": 21002
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "21683_21695",
+            "span": {
+                "begin": 21683,
+                "end": 21695
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "21719_21722",
+            "span": {
+                "begin": 21719,
+                "end": 21722
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "21726_21731",
+            "span": {
+                "begin": 21726,
+                "end": 21731
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "21788_21800",
+            "span": {
+                "begin": 21788,
+                "end": 21800
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "21832_21837",
+            "span": {
+                "begin": 21832,
+                "end": 21837
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "21910_21925",
+            "span": {
+                "begin": 21910,
+                "end": 21925
+            },
+            "entityType": "gene",
+            "entityName": "pertussis toxin",
+            "id": "UMLS:C0020731"
+        },
+        {
+            "entityId": "21984_21994",
+            "span": {
+                "begin": 21984,
+                "end": 21994
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "21998_22001",
+            "span": {
+                "begin": 21998,
+                "end": 22001
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "22009_22011",
+            "span": {
+                "begin": 22009,
+                "end": 22011
+            },
+            "entityType": "gene",
+            "entityName": "A1",
+            "id": "UMLS:C4761535"
+        },
+        {
+            "entityId": "22016_22028",
+            "span": {
+                "begin": 22016,
+                "end": 22028
+            },
+            "entityType": "gene",
+            "entityName": "A3 receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22137_22140",
+            "span": {
+                "begin": 22137,
+                "end": 22140
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "22144_22149",
+            "span": {
+                "begin": 22144,
+                "end": 22149
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "22235_22256",
+            "span": {
+                "begin": 22235,
+                "end": 22256
+            },
+            "entityType": "gene",
+            "entityName": "A2A and A2B receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22258_22261",
+            "span": {
+                "begin": 22258,
+                "end": 22261
+            },
+            "entityType": "gene",
+            "entityName": "ERK",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "22266_22269",
+            "span": {
+                "begin": 22266,
+                "end": 22269
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "22299_22302",
+            "span": {
+                "begin": 22299,
+                "end": 22302
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "22352_22357",
+            "span": {
+                "begin": 22352,
+                "end": 22357
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "22369_22372",
+            "span": {
+                "begin": 22369,
+                "end": 22372
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "22408_22421",
+            "span": {
+                "begin": 22408,
+                "end": 22421
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22449_22452",
+            "span": {
+                "begin": 22449,
+                "end": 22452
+            },
+            "entityType": "gene",
+            "entityName": "MEK",
+            "id": "UMLS:C0752313"
+        },
+        {
+            "entityId": "22463_22470",
+            "span": {
+                "begin": 22463,
+                "end": 22470
+            },
+            "entityType": "drug",
+            "entityName": "PD98059",
+            "id": "UMLS:C0298346"
+        },
+        {
+            "entityId": "22506_22518",
+            "span": {
+                "begin": 22506,
+                "end": 22518
+            },
+            "entityType": "gene",
+            "entityName": "A2A receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22556_22559",
+            "span": {
+                "begin": 22556,
+                "end": 22559
+            },
+            "entityType": "gene",
+            "entityName": "ERK",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "22607_22619",
+            "span": {
+                "begin": 22607,
+                "end": 22619
+            },
+            "entityType": "gene",
+            "entityName": "A2A receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22661_22664",
+            "span": {
+                "begin": 22661,
+                "end": 22664
+            },
+            "entityType": "drug",
+            "entityName": "H89",
+            "id": "UMLS:C0082782"
+        },
+        {
+            "entityId": "22680_22685",
+            "span": {
+                "begin": 22680,
+                "end": 22685
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "22750_22755",
+            "span": {
+                "begin": 22750,
+                "end": 22755
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "22821_22833",
+            "span": {
+                "begin": 22821,
+                "end": 22833
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22864_22871",
+            "span": {
+                "begin": 22864,
+                "end": 22871
+            },
+            "entityType": "drug",
+            "entityName": "MRS1754",
+            "id": "UMLS:C1744637"
+        },
+        {
+            "entityId": "22904_22909",
+            "span": {
+                "begin": 22904,
+                "end": 22909
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "22963_22975",
+            "span": {
+                "begin": 22963,
+                "end": 22975
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "22982_22987",
+            "span": {
+                "begin": 22982,
+                "end": 22987
+            },
+            "entityType": "DNA",
+            "entityName": "siRNA",
+            "id": "UMLS:C1099354"
+        },
+        {
+            "entityId": "23012_23015",
+            "span": {
+                "begin": 23012,
+                "end": 23015
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "23019_23024",
+            "span": {
+                "begin": 23019,
+                "end": 23024
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "23143_23146",
+            "span": {
+                "begin": 23143,
+                "end": 23146
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "23272_23284",
+            "span": {
+                "begin": 23272,
+                "end": 23284
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "23298_23303",
+            "span": {
+                "begin": 23298,
+                "end": 23303
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "24519_24528",
+            "span": {
+                "begin": 24519,
+                "end": 24528
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "24540_24543",
+            "span": {
+                "begin": 24540,
+                "end": 24543
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "24581_24584",
+            "span": {
+                "begin": 24581,
+                "end": 24584
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "24588_24591",
+            "span": {
+                "begin": 24588,
+                "end": 24591
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "24603_24606",
+            "span": {
+                "begin": 24603,
+                "end": 24606
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "24639_24642",
+            "span": {
+                "begin": 24639,
+                "end": 24642
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "24670_24692",
+            "span": {
+                "begin": 24670,
+                "end": 24692
+            },
+            "entityType": "gene",
+            "entityName": "recombinant SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "24731_24741",
+            "span": {
+                "begin": 24731,
+                "end": 24741
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "24768_24771",
+            "span": {
+                "begin": 24768,
+                "end": 24771
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "24805_24808",
+            "span": {
+                "begin": 24805,
+                "end": 24808
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "24883_24888",
+            "span": {
+                "begin": 24883,
+                "end": 24888
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "26272_26291",
+            "span": {
+                "begin": 26272,
+                "end": 26291
+            },
+            "entityType": "cell",
+            "entityName": "Cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "26320_26329",
+            "span": {
+                "begin": 26320,
+                "end": 26329
+            },
+            "entityType": "gene",
+            "entityName": "SDF1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "26379_26382",
+            "span": {
+                "begin": 26379,
+                "end": 26382
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "26402_26405",
+            "span": {
+                "begin": 26402,
+                "end": 26405
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "26465_26476",
+            "span": {
+                "begin": 26465,
+                "end": 26476
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "26541_26562",
+            "span": {
+                "begin": 26541,
+                "end": 26562
+            },
+            "entityType": "gene",
+            "entityName": "anti-CXCR4 antibodies",
+            "id": "UMLS:C1624602"
+        },
+        {
+            "entityId": "26595_26598",
+            "span": {
+                "begin": 26595,
+                "end": 26598
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "26625_26628",
+            "span": {
+                "begin": 26625,
+                "end": 26628
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "26664_26669",
+            "span": {
+                "begin": 26664,
+                "end": 26669
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "26690_26697",
+            "span": {
+                "begin": 26690,
+                "end": 26697
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "26715_26724",
+            "span": {
+                "begin": 26715,
+                "end": 26724
+            },
+            "entityType": "drug",
+            "entityName": "adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "26728_26733",
+            "span": {
+                "begin": 26728,
+                "end": 26733
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "26809_26815",
+            "span": {
+                "begin": 26809,
+                "end": 26815
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "26832_26834",
+            "span": {
+                "begin": 26832,
+                "end": 26834
+            },
+            "entityType": "drug",
+            "entityName": "O2",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "26871_26874",
+            "span": {
+                "begin": 26871,
+                "end": 26874
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "26888_26898",
+            "span": {
+                "begin": 26888,
+                "end": 26898
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "26954_26961",
+            "span": {
+                "begin": 26954,
+                "end": 26961
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "26975_26985",
+            "span": {
+                "begin": 26975,
+                "end": 26985
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "27026_27033",
+            "span": {
+                "begin": 27026,
+                "end": 27033
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "27042_27047",
+            "span": {
+                "begin": 27042,
+                "end": 27047
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "27131_27141",
+            "span": {
+                "begin": 27131,
+                "end": 27141
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 gene",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "27172_27182",
+            "span": {
+                "begin": 27172,
+                "end": 27182
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "27219_27226",
+            "span": {
+                "begin": 27219,
+                "end": 27226
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28369_28381",
+            "span": {
+                "begin": 28369,
+                "end": 28381
+            },
+            "entityType": "gene",
+            "entityName": "anti-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28393_28400",
+            "span": {
+                "begin": 28393,
+                "end": 28400
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28429_28434",
+            "span": {
+                "begin": 28429,
+                "end": 28434
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "28467_28477",
+            "span": {
+                "begin": 28467,
+                "end": 28477
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "28503_28515",
+            "span": {
+                "begin": 28503,
+                "end": 28515
+            },
+            "entityType": "gene",
+            "entityName": "anti-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28521_28524",
+            "span": {
+                "begin": 28521,
+                "end": 28524
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "28549_28554",
+            "span": {
+                "begin": 28549,
+                "end": 28554
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "28622_28634",
+            "span": {
+                "begin": 28622,
+                "end": 28634
+            },
+            "entityType": "gene",
+            "entityName": "anti-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28665_28668",
+            "span": {
+                "begin": 28665,
+                "end": 28668
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "28727_28734",
+            "span": {
+                "begin": 28727,
+                "end": 28734
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28750_28761",
+            "span": {
+                "begin": 28750,
+                "end": 28761
+            },
+            "entityType": "gene",
+            "entityName": "pre-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28777_28782",
+            "span": {
+                "begin": 28777,
+                "end": 28782
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "28823_28828",
+            "span": {
+                "begin": 28823,
+                "end": 28828
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "28851_28854",
+            "span": {
+                "begin": 28851,
+                "end": 28854
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "28886_28897",
+            "span": {
+                "begin": 28886,
+                "end": 28897
+            },
+            "entityType": "gene",
+            "entityName": "pre-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "28966_28969",
+            "span": {
+                "begin": 28966,
+                "end": 28969
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "29020_29025",
+            "span": {
+                "begin": 29020,
+                "end": 29025
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "29040_29043",
+            "span": {
+                "begin": 29040,
+                "end": 29043
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "29089_29098",
+            "span": {
+                "begin": 29089,
+                "end": 29098
+            },
+            "entityType": "drug",
+            "entityName": "Adenosine",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "29108_29111",
+            "span": {
+                "begin": 29108,
+                "end": 29111
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "29131_29140",
+            "span": {
+                "begin": 29131,
+                "end": 29140
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "29178_29181",
+            "span": {
+                "begin": 29178,
+                "end": 29181
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "29185_29188",
+            "span": {
+                "begin": 29185,
+                "end": 29188
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "29231_29235",
+            "span": {
+                "begin": 29231,
+                "end": 29235
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "29237_29239",
+            "span": {
+                "begin": 29237,
+                "end": 29239
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "29258_29262",
+            "span": {
+                "begin": 29258,
+                "end": 29262
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "29308_29311",
+            "span": {
+                "begin": 29308,
+                "end": 29311
+            },
+            "entityType": "disease",
+            "entityName": "LAD",
+            "id": "mesh:D000386"
+        },
+        {
+            "entityId": "29320_29324",
+            "span": {
+                "begin": 29320,
+                "end": 29324
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "29360_29364",
+            "span": {
+                "begin": 29360,
+                "end": 29364
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "29413_29416",
+            "span": {
+                "begin": 29413,
+                "end": 29416
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "29417_29434",
+            "span": {
+                "begin": 29417,
+                "end": 29434
+            },
+            "entityType": "drug",
+            "entityName": "2-Chloroadenosine",
+            "id": "UMLS:C0000275"
+        },
+        {
+            "entityId": "29495_29507",
+            "span": {
+                "begin": 29495,
+                "end": 29507
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "29634_29638",
+            "span": {
+                "begin": 29634,
+                "end": 29638
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "29640_29645",
+            "span": {
+                "begin": 29640,
+                "end": 29645
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "29650_29655",
+            "span": {
+                "begin": 29650,
+                "end": 29655
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "29673_29677",
+            "span": {
+                "begin": 29673,
+                "end": 29677
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "29787_29790",
+            "span": {
+                "begin": 29787,
+                "end": 29790
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "30832_30835",
+            "span": {
+                "begin": 30832,
+                "end": 30835
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "30884_30888",
+            "span": {
+                "begin": 30884,
+                "end": 30888
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "30975_30978",
+            "span": {
+                "begin": 30975,
+                "end": 30978
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31197_31200",
+            "span": {
+                "begin": 31197,
+                "end": 31200
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "31212_31215",
+            "span": {
+                "begin": 31212,
+                "end": 31215
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31252_31261",
+            "span": {
+                "begin": 31252,
+                "end": 31261
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "31316_31319",
+            "span": {
+                "begin": 31316,
+                "end": 31319
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "31340_31343",
+            "span": {
+                "begin": 31340,
+                "end": 31343
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31386_31389",
+            "span": {
+                "begin": 31386,
+                "end": 31389
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "31464_31467",
+            "span": {
+                "begin": 31464,
+                "end": 31467
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31502_31507",
+            "span": {
+                "begin": 31502,
+                "end": 31507
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "31612_31615",
+            "span": {
+                "begin": 31612,
+                "end": 31615
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "31644_31647",
+            "span": {
+                "begin": 31644,
+                "end": 31647
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31775_31778",
+            "span": {
+                "begin": 31775,
+                "end": 31778
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "31782_31785",
+            "span": {
+                "begin": 31782,
+                "end": 31785
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31810_31813",
+            "span": {
+                "begin": 31810,
+                "end": 31813
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "31865_31881",
+            "span": {
+                "begin": 31865,
+                "end": 31881
+            },
+            "entityType": "gene",
+            "entityName": "chemokine family",
+            "id": "UMLS:C0282554"
+        },
+        {
+            "entityId": "31889_31894",
+            "span": {
+                "begin": 31889,
+                "end": 31894
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "31954_31957",
+            "span": {
+                "begin": 31954,
+                "end": 31957
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "31986_31996",
+            "span": {
+                "begin": 31986,
+                "end": 31996
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "32063_32073",
+            "span": {
+                "begin": 32063,
+                "end": 32073
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4 mRNA",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32088_32091",
+            "span": {
+                "begin": 32088,
+                "end": 32091
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "32160_32169",
+            "span": {
+                "begin": 32160,
+                "end": 32169
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "32187_32190",
+            "span": {
+                "begin": 32187,
+                "end": 32190
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "32302_32320",
+            "span": {
+                "begin": 32302,
+                "end": 32320
+            },
+            "entityType": "cell",
+            "entityName": "hematopoietic cell",
+            "id": "UMLS:C2323499"
+        },
+        {
+            "entityId": "32344_32349",
+            "span": {
+                "begin": 32344,
+                "end": 32349
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32509_32514",
+            "span": {
+                "begin": 32509,
+                "end": 32514
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32581_32584",
+            "span": {
+                "begin": 32581,
+                "end": 32584
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "32662_32667",
+            "span": {
+                "begin": 32662,
+                "end": 32667
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32682_32685",
+            "span": {
+                "begin": 32682,
+                "end": 32685
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "32714_32717",
+            "span": {
+                "begin": 32714,
+                "end": 32717
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "32732_32754",
+            "span": {
+                "begin": 32732,
+                "end": 32754
+            },
+            "entityType": "gene",
+            "entityName": "recombinant SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "32783_32794",
+            "span": {
+                "begin": 32783,
+                "end": 32794
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "32796_32807",
+            "span": {
+                "begin": 32796,
+                "end": 32807
+            },
+            "entityType": "cell",
+            "entityName": "Fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "32830_32840",
+            "span": {
+                "begin": 32830,
+                "end": 32840
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "32893_32898",
+            "span": {
+                "begin": 32893,
+                "end": 32898
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32955_32958",
+            "span": {
+                "begin": 32955,
+                "end": 32958
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "33062_33070",
+            "span": {
+                "begin": 33062,
+                "end": 33070
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "33072_33075",
+            "span": {
+                "begin": 33072,
+                "end": 33075
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "33205_33218",
+            "span": {
+                "begin": 33205,
+                "end": 33218
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "33222_33225",
+            "span": {
+                "begin": 33222,
+                "end": 33225
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "33286_33289",
+            "span": {
+                "begin": 33286,
+                "end": 33289
+            },
+            "entityType": "gene",
+            "entityName": "Ado",
+            "id": "UMLS:C1428110"
+        },
+        {
+            "entityId": "33298_33317",
+            "span": {
+                "begin": 33298,
+                "end": 33317
+            },
+            "entityType": "gene",
+            "entityName": "Adenosine receptors",
+            "id": "UMLS:C0001471"
+        },
+        {
+            "entityId": "33353_33371",
+            "span": {
+                "begin": 33353,
+                "end": 33371
+            },
+            "entityType": "cell",
+            "entityName": "inflammatory cells",
+            "id": "UMLS:C0440752"
+        },
+        {
+            "entityId": "33500_33513",
+            "span": {
+                "begin": 33500,
+                "end": 33513
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "33556_33559",
+            "span": {
+                "begin": 33556,
+                "end": 33559
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "33561_33564",
+            "span": {
+                "begin": 33561,
+                "end": 33564
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "33593_33610",
+            "span": {
+                "begin": 33593,
+                "end": 33610
+            },
+            "entityType": "gene",
+            "entityName": "A2-type receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "33665_33668",
+            "span": {
+                "begin": 33665,
+                "end": 33668
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "33701_33713",
+            "span": {
+                "begin": 33701,
+                "end": 33713
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "33747_33750",
+            "span": {
+                "begin": 33747,
+                "end": 33750
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "33754_33759",
+            "span": {
+                "begin": 33754,
+                "end": 33759
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "33817_33822",
+            "span": {
+                "begin": 33817,
+                "end": 33822
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "33831_33852",
+            "span": {
+                "begin": 33831,
+                "end": 33852
+            },
+            "entityType": "gene",
+            "entityName": "A2A and A2B receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "33940_33952",
+            "span": {
+                "begin": 33940,
+                "end": 33952
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "33986_33989",
+            "span": {
+                "begin": 33986,
+                "end": 33989
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "34052_34064",
+            "span": {
+                "begin": 34052,
+                "end": 34064
+            },
+            "entityType": "gene",
+            "entityName": "A2A receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "34068_34073",
+            "span": {
+                "begin": 34068,
+                "end": 34073
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "34078_34081",
+            "span": {
+                "begin": 34078,
+                "end": 34081
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "34114_34126",
+            "span": {
+                "begin": 34114,
+                "end": 34126
+            },
+            "entityType": "gene",
+            "entityName": "A2A receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "34142_34145",
+            "span": {
+                "begin": 34142,
+                "end": 34145
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "34181_34186",
+            "span": {
+                "begin": 34181,
+                "end": 34186
+            },
+            "entityType": "disease",
+            "entityName": "wound",
+            "id": "mesh:D014947"
+        },
+        {
+            "entityId": "34217_34221",
+            "span": {
+                "begin": 34217,
+                "end": 34221
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "34230_34242",
+            "span": {
+                "begin": 34230,
+                "end": 34242
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "34272_34277",
+            "span": {
+                "begin": 34272,
+                "end": 34277
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "34281_34291",
+            "span": {
+                "begin": 34281,
+                "end": 34291
+            },
+            "entityType": "cell",
+            "entityName": "leukocytes",
+            "id": "UMLS:C0023516"
+        },
+        {
+            "entityId": "34403_34416",
+            "span": {
+                "begin": 34403,
+                "end": 34416
+            },
+            "entityType": "gene",
+            "entityName": "Ado receptors",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "34567_34570",
+            "span": {
+                "begin": 34567,
+                "end": 34570
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "34586_34590",
+            "span": {
+                "begin": 34586,
+                "end": 34590
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "34604_34606",
+            "span": {
+                "begin": 34604,
+                "end": 34606
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "34675_34680",
+            "span": {
+                "begin": 34675,
+                "end": 34680
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "34728_34732",
+            "span": {
+                "begin": 34728,
+                "end": 34732
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "34781_34786",
+            "span": {
+                "begin": 34781,
+                "end": 34786
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "34813_34818",
+            "span": {
+                "begin": 34813,
+                "end": 34818
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "34850_34853",
+            "span": {
+                "begin": 34850,
+                "end": 34853
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "34874_34891",
+            "span": {
+                "begin": 34874,
+                "end": 34891
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow cells",
+            "id": "UMLS:C0005955"
+        },
+        {
+            "entityId": "34902_34907",
+            "span": {
+                "begin": 34902,
+                "end": 34907
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "34999_35004",
+            "span": {
+                "begin": 34999,
+                "end": 35004
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "35083_35088",
+            "span": {
+                "begin": 35083,
+                "end": 35088
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "35105_35109",
+            "span": {
+                "begin": 35105,
+                "end": 35109
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "35156_35159",
+            "span": {
+                "begin": 35156,
+                "end": 35159
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "35218_35222",
+            "span": {
+                "begin": 35218,
+                "end": 35222
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "35255_35260",
+            "span": {
+                "begin": 35255,
+                "end": 35260
+            },
+            "entityType": "gene",
+            "entityName": "ALDH2",
+            "id": "UMLS:C1412335"
+        },
+        {
+            "entityId": "35265_35270",
+            "span": {
+                "begin": 35265,
+                "end": 35270
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "35298_35301",
+            "span": {
+                "begin": 35298,
+                "end": 35301
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "35435_35438",
+            "span": {
+                "begin": 35435,
+                "end": 35438
+            },
+            "entityType": "gene",
+            "entityName": "Ado",
+            "id": "UMLS:C1428110"
+        },
+        {
+            "entityId": "35463_35466",
+            "span": {
+                "begin": 35463,
+                "end": 35466
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "35512_35515",
+            "span": {
+                "begin": 35512,
+                "end": 35515
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "35545_35549",
+            "span": {
+                "begin": 35545,
+                "end": 35549
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "35596_35600",
+            "span": {
+                "begin": 35596,
+                "end": 35600
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "35805_35808",
+            "span": {
+                "begin": 35805,
+                "end": 35808
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "35871_35874",
+            "span": {
+                "begin": 35871,
+                "end": 35874
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "35956_35990",
+            "span": {
+                "begin": 35956,
+                "end": 35990
+            },
+            "entityType": "gene",
+            "entityName": "vascular endothelial growth factor",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "35994_36012",
+            "span": {
+                "begin": 35994,
+                "end": 36012
+            },
+            "entityType": "cell",
+            "entityName": "inflammatory cells",
+            "id": "UMLS:C0440752"
+        },
+        {
+            "entityId": "36058_36061",
+            "span": {
+                "begin": 36058,
+                "end": 36061
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "36080_36114",
+            "span": {
+                "begin": 36080,
+                "end": 36114
+            },
+            "entityType": "gene",
+            "entityName": "vascular endothelial growth factor",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "36141_36144",
+            "span": {
+                "begin": 36141,
+                "end": 36144
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "36182_36190",
+            "span": {
+                "begin": 36182,
+                "end": 36190
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "36218_36225",
+            "span": {
+                "begin": 36218,
+                "end": 36225
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "36229_36266",
+            "span": {
+                "begin": 36229,
+                "end": 36266
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow derived mononuclear cells",
+            "id": "UMLS:C3896693"
+        },
+        {
+            "entityId": "36338_36341",
+            "span": {
+                "begin": 36338,
+                "end": 36341
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "36357_36362",
+            "span": {
+                "begin": 36357,
+                "end": 36362
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36396_36399",
+            "span": {
+                "begin": 36396,
+                "end": 36399
+            },
+            "entityType": "gene",
+            "entityName": "miR",
+            "id": "NCBIGene:220972"
+        },
+        {
+            "entityId": "36427_36430",
+            "span": {
+                "begin": 36427,
+                "end": 36430
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "36487_36493",
+            "span": {
+                "begin": 36487,
+                "end": 36493
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "36516_36523",
+            "span": {
+                "begin": 36516,
+                "end": 36523
+            },
+            "entityType": "disease",
+            "entityName": "cardiac",
+            "id": "mesh:D006331"
+        },
+        {
+            "entityId": "36562_36567",
+            "span": {
+                "begin": 36562,
+                "end": 36567
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36606_36613",
+            "span": {
+                "begin": 36606,
+                "end": 36613
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "36643_36646",
+            "span": {
+                "begin": 36643,
+                "end": 36646
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "36654_36659",
+            "span": {
+                "begin": 36654,
+                "end": 36659
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36681_36688",
+            "span": {
+                "begin": 36681,
+                "end": 36688
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "36806_36813",
+            "span": {
+                "begin": 36806,
+                "end": 36813
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "36827_36832",
+            "span": {
+                "begin": 36827,
+                "end": 36832
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36855_36860",
+            "span": {
+                "begin": 36855,
+                "end": 36860
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36906_36919",
+            "span": {
+                "begin": 36906,
+                "end": 36919
+            },
+            "entityType": "drug",
+            "entityName": "actinomycin D",
+            "id": "UMLS:C0010934"
+        },
+        {
+            "entityId": "36934_36937",
+            "span": {
+                "begin": 36934,
+                "end": 36937
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "36979_36982",
+            "span": {
+                "begin": 36979,
+                "end": 36982
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "36996_37001",
+            "span": {
+                "begin": 36996,
+                "end": 37001
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37059_37064",
+            "span": {
+                "begin": 37059,
+                "end": 37064
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37079_37082",
+            "span": {
+                "begin": 37079,
+                "end": 37082
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "37154_37159",
+            "span": {
+                "begin": 37154,
+                "end": 37159
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37167_37174",
+            "span": {
+                "begin": 37167,
+                "end": 37174
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37196_37203",
+            "span": {
+                "begin": 37196,
+                "end": 37203
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37209_37221",
+            "span": {
+                "begin": 37209,
+                "end": 37221
+            },
+            "entityType": "gene",
+            "entityName": "anti-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37261_37268",
+            "span": {
+                "begin": 37261,
+                "end": 37268
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37314_37319",
+            "span": {
+                "begin": 37314,
+                "end": 37319
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37373_37380",
+            "span": {
+                "begin": 37373,
+                "end": 37380
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37384_37396",
+            "span": {
+                "begin": 37384,
+                "end": 37396
+            },
+            "entityType": "gene",
+            "entityName": "anti-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37425_37430",
+            "span": {
+                "begin": 37425,
+                "end": 37430
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37445_37448",
+            "span": {
+                "begin": 37445,
+                "end": 37448
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "37489_37496",
+            "span": {
+                "begin": 37489,
+                "end": 37496
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37538_37543",
+            "span": {
+                "begin": 37538,
+                "end": 37543
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37558_37561",
+            "span": {
+                "begin": 37558,
+                "end": 37561
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "37615_37618",
+            "span": {
+                "begin": 37615,
+                "end": 37618
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "37628_37633",
+            "span": {
+                "begin": 37628,
+                "end": 37633
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37672_37679",
+            "span": {
+                "begin": 37672,
+                "end": 37679
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37704_37711",
+            "span": {
+                "begin": 37704,
+                "end": 37711
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37726_37738",
+            "span": {
+                "begin": 37726,
+                "end": 37738
+            },
+            "entityType": "gene",
+            "entityName": "anti-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37742_37753",
+            "span": {
+                "begin": 37742,
+                "end": 37753
+            },
+            "entityType": "gene",
+            "entityName": "pre-miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37836_37839",
+            "span": {
+                "begin": 37836,
+                "end": 37839
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "37876_37881",
+            "span": {
+                "begin": 37876,
+                "end": 37881
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37882_37892",
+            "span": {
+                "begin": 37882,
+                "end": 37892
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "37906_37910",
+            "span": {
+                "begin": 37906,
+                "end": 37910
+            },
+            "entityType": "gene",
+            "entityName": "CCR1",
+            "id": "UMLS:C1332699"
+        },
+        {
+            "entityId": "37911_37916",
+            "span": {
+                "begin": 37911,
+                "end": 37916
+            },
+            "entityType": "gene",
+            "entityName": "MCP-3",
+            "id": "UMLS:C1332692"
+        },
+        {
+            "entityId": "37956_37963",
+            "span": {
+                "begin": 37956,
+                "end": 37963
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "37967_37977",
+            "span": {
+                "begin": 37967,
+                "end": 37977
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "37979_37984",
+            "span": {
+                "begin": 37979,
+                "end": 37984
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "38010_38017",
+            "span": {
+                "begin": 38010,
+                "end": 38017
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38021_38024",
+            "span": {
+                "begin": 38021,
+                "end": 38024
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "38026_38064",
+            "span": {
+                "begin": 38026,
+                "end": 38064
+            },
+            "entityType": "cell",
+            "entityName": "human umbilical vein endothelial cells",
+            "id": "UMLS:C3179121"
+        },
+        {
+            "entityId": "38070_38109",
+            "span": {
+                "begin": 38070,
+                "end": 38109
+            },
+            "entityType": "cell",
+            "entityName": "human coronary artery endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "38151_38158",
+            "span": {
+                "begin": 38151,
+                "end": 38158
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38162_38165",
+            "span": {
+                "begin": 38162,
+                "end": 38165
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "38190_38195",
+            "span": {
+                "begin": 38190,
+                "end": 38195
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "38290_38297",
+            "span": {
+                "begin": 38290,
+                "end": 38297
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38314_38317",
+            "span": {
+                "begin": 38314,
+                "end": 38317
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "38373_38380",
+            "span": {
+                "begin": 38373,
+                "end": 38380
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38394_38403",
+            "span": {
+                "begin": 38394,
+                "end": 38403
+            },
+            "entityType": "cell",
+            "entityName": "monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "38431_38468",
+            "span": {
+                "begin": 38431,
+                "end": 38468
+            },
+            "entityType": "cell",
+            "entityName": "human microvascular endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "38553_38560",
+            "span": {
+                "begin": 38553,
+                "end": 38560
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38610_38617",
+            "span": {
+                "begin": 38610,
+                "end": 38617
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38688_38691",
+            "span": {
+                "begin": 38688,
+                "end": 38691
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "38723_38730",
+            "span": {
+                "begin": 38723,
+                "end": 38730
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        },
+        {
+            "entityId": "38841_38844",
+            "span": {
+                "begin": 38841,
+                "end": 38844
+            },
+            "entityType": "drug",
+            "entityName": "Ado",
+            "id": "UMLS:C0001443"
+        },
+        {
+            "entityId": "38873_38876",
+            "span": {
+                "begin": 38873,
+                "end": 38876
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "38911_38923",
+            "span": {
+                "begin": 38911,
+                "end": 38923
+            },
+            "entityType": "gene",
+            "entityName": "A2B receptor",
+            "id": "UMLS:C0597357"
+        },
+        {
+            "entityId": "38953_38958",
+            "span": {
+                "begin": 38953,
+                "end": 38958
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "38993_39000",
+            "span": {
+                "begin": 38993,
+                "end": 39000
+            },
+            "entityType": "gene",
+            "entityName": "miR-150",
+            "id": "UMLS:C3811719"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1108_1113",
+            "subjectText": "CXCR4",
+            "rel_name": "regulate",
+            "objectId": "1134_1143",
+            "objectText": "adenosine"
+        },
+        {
+            "subjectID": "1822_1843",
+            "subjectText": "myocardial infarction",
+            "rel_name": "stimulate",
+            "objectId": "1855_1858",
+            "objectText": "EPC"
+        },
+        {
+            "subjectID": "0_9",
+            "subjectText": "Adenosine",
+            "rel_name": "stimulate",
+            "objectId": "38_72",
+            "objectText": "Human Endothelial Progenitor Cells"
+        },
+        {
+            "subjectID": "38_72",
+            "subjectText": "Human Endothelial Progenitor Cells",
+            "rel_name": "associate",
+            "objectId": "91_103",
+            "objectText": "MicroRNA-150"
+        }
+    ]
+}

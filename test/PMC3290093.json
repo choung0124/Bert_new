@@ -1,0 +1,2148 @@
+{
+    "sourcid": "PMC3290093",
+    "publisher": "The Scientific World Journal",
+    "journal": "The Scientific World Journal",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3290093/",
+    "text": "BNP and Admission Glucose as In-Hospital Mortality Predictors in Non-ST Elevation Myocardial Infarction Objectives. Admission hyperglycemia and B-type natriuretic peptide (BNP) are associated with mortality in acute coronary syndromes, but no study compares their prediction in-hospital death. Methods. Patients with non-ST-elevation myocardial infarction (NSTEMI), in-hospital mortality and two-year mortality or readmission were compared for area under the curve (AUC), sensitivity (SEN), specificity (SPE), positive predictive value (PPV), negative predictive value (NPV), and accuracy (ACC) of glycemia and BNP. Results. Respectively, AUC, SEN, SPE, PPV, NPV, and ACC for prediction of in-hospital mortality were 0.815, 71.4%, 84.3%, 26.3%, 97.4%, and 83.3% for glycemia = 200 mg/dL and 0.748, 71.4%, 68.5%, 15.2%, 96.8% and 68.7% for BNP = 300 pg/mL. AUC of glycemia was similar to BNP (P = 0.411). In multivariate analysis we found glycemia >=200mg/dL related to in-hospital death (P = 0.004). No difference was found in two-year mortality or readmission in BNP or hyperglycemic subgroups. Conclusion. Hyperglycemia was an independent risk factor for in-hospital mortality in NSTEMI and had a good ROC curve level. Hyperglycemia and BNP, although poor in-hospital predictors of unfavorable events, were independent risk factors for death or length of stay >10 days. No relation was found between hyperglycemia or BNP and long-term events.       1. Introduction In recent years, incorporation of new laboratory methods in clinical practice has improved diagnosis and prognostic prediction of outcomes in acute coronary syndromes (ACS). Cardiac troponins, with high sensitivity and specificity for diagnosing myocardial injury, and B type natriuretic factor (BNP), primarily used in acute decompensation of heart failure but with prognostic significance in ACS, are useful in the initial evaluation of patients with acute chest pain. Glycemia, determined by using a simple, low-cost laboratory test, has been associated with a worse prognosis in ACS patients, even in the absence of diabetes. Studies have shown BNP as a prognostic factor for both early and late outcomes in non-ST elevation ACS, a presumed reflection of left ventricular dysfunction. Non-ST elevation myocardial infarction (NSTEMI) has lower in-hospital mortality than ST elevation myocardial infarction has, but higher unadjusted events in years following hospitalization. So, we hypothesized that hyperglycemia and BNP could predict patients at risk for both in-hospital and 2-year events. 2. Methods 2.1. Study Design and Population Patients with ACS admitted consecutively between January 2005 and April 2006 to an urban academic cardiology emergency single center in Sao Paulo, Brazil were prospectively evaluated with their data registered in the institution's database. Baseline clinical and admission laboratory characteristics, CAD risk factors, medicines used, in-hospital outcomes, angiography, and treatments were observed. The Ethics Committee of the hospital approved this study. A total of 1304 ACS patients were included, and a subgroup of 170 NSTEMI-only patients with admission BNP were followed up for two years. Inclusion criteria were ACS hospital admission, according to the international consensus definition, age older than 18 years, and willing to provide written informed consent. Exclusion criteria were non-NSTEMI ACS and incomplete laboratory data. Completed data were available for 96 NSTEMI patients, and written informed consent was obtained from all participants.  2.2. Definitions and Data Collection Clinical outcomes were defined as death, or death and prolonged length of stay (>10 days; mean of length of stay). Length of stay was defined as an outcome, because 90% of patients at our emergency department undergo angiographic study in 48 hours. In this setting, reinfarction or refractory angina are infrequent events at hospitalization. Mean length of stay was 10.5 and median 3.8 days (range: 0.4 to 124.6), and follow-up mean was 21.7 and median 23.2 months (range: 0.11 to 31.7), until September 2007. Long-term outcomes included death or death and hospital readmission for all causes. Blood samples were collected at admission to the emergency department. For BNP determination, a specific kit for the ADVIA Centaur analyzer (Bayer Health Care Diagnostics, Tarrytown, NY) was used, with detection limit of 2 pg/mL and range from 2 to 5000 pg/mL. The intra- and inter-assay coefficients of variation ranged from 2.1 to 4.7% for concentrations between 29 and 1700 pg/mL. Echocardiographic data were collected in second day of admission and ejection fraction was obtained. We calculated the best point of BNP in receiver operating characteristic (ROC) curve equal to 300 pg/mL, the highest point of Youden's Index. We selected the level of hyperglycemia above 200 mg/dL to separate the highest stratum seen in the literature for admission nonfasting blood glucose. Previous use of medication were assessed.           2.3. Statistical Analysis All data are described as rates and frequencies or means with standard deviations, as appropriate. Differences in the distribution of selected characteristics between patient groups were examined using the chi-square test and Fisher's exact test for categorical variables. The analysis was performed using the Student's t-test for normally distributed continuous variables and the Mann-Whitney and Kruskal-Wallis tests for nonparametric variables. Pearson correlation coefficients were used to study the correlations. We built an adjusted model in multivariate regression to analyze the independent variables associated with in-hospital death or combined in-hospital death and length of stay > 10 days: age, hypertension, smoking, diabetes, blood glucose < or >= 200 mg/dL, BNP < or >= 300 pg/mL, sex, and serum creatinine. The ROC curve was used to determine the area under the curve (AUC) of the C statistic. Cox regression model was used to evaluate independent prognostic factors of mortality and hospital readmission for all causes in the follow-up period. Two-sided P values < 0.05 were considered statistically significant. All statistical analyses were performed using SAS software version 9.2 for Windows. To obtain Youden's Index, AUC, sensitivity (SENS), specificity (SPEC), positive predictive value (PPV), negative predictive value (NPV), and accuracy (ACCU), we used a macro of the SAS software.       3. Results 3.1. Admission Blood Glucose Endpoints Table 1 presents clinical and demographic patient characteristics, grouped by blood glucose < or >= 200 mg/dL. Univariate analysis showed a predominance of women (73.7% versus 23.4%; P < 0.001), lower levels of chest pain (68.4% versus 92.2%; P = 0.005), serum hemoglobin (11.8 versus 13.9 g/dL; P < 0.001), coronary angiographic study (73.7% versus 93.5%; P = 0.011), and higher levels of diabetes (94.7% versus 38.9%; P < 0.001), heart rate (102.7 versus 77.3 beats/minute; P < 0.001), BNP (660.8 versus 283.7 pg/mL; P < 0.001), white blood cell count (11,722.2 versus 9,437.3 cells/mm3; P = 0.010), platelet count (294,889.0 versus 221,118.0 cells/mm3; P < 0.001), serum urea (65.5 versus 49.5 mg/dL; P = 0.033), serum creatinine (1.81 versus 1.20 mg/dL; P = 0.016), Killip presentation >= 2 (47.4% versus 13.0%; P < 0.001), length of stay (22.8 versus 7.4 days; P < 0.001), in-hospital mortality (26.3% versus 2.6%; P < 0.001), and combined prolonged length of stay or death (63.2% versus 16.9%; P < 0.001) in the >=200 mg/dL blood glucose group.                       3.2. BNP Endpoints Table 2 presents clinical and demographic patient characteristics, but grouped by BNP < or >= 300 pg/mL. The BNP >= 300 pg/mL group were older (69.2 versus 62.9 years; P = 0.012) and had lower levels of chest pain (66.7% versus 98.4%; P < 0.001), systolic blood pressure (125.6 versus 144.5 mmHg; P = 0.005), diastolic blood pressure (75.2 versus 87.7 mmHg; P < 0.001), hemoglobin (12.4 versus 14.1 g/dL; P < 0.001), ejection fraction (37.9% versus 49.3%; P = 0.001), coronary angiography study (75.8% versus 96.8%; P = 0.001), and higher levels of diabetes (69.7% versus 39.7%; P = 0.005), heart rate (94.9 versus 75.6 beats/minute; P = 0.001), serum urea (67.5 versus 44.8 mg/dL; P < 0.001), serum creatinine (1.76 versus 1.11 mg/dL; P = 0.002), blood glucose (213.9 versus 120.2 mg/dL; P < 0.001), Killip presentation >= 2 (45.5% versus 6.3%; P < 0.001), medical therapy alone (51.5% versus 28.6%; P = 0.027), length of stay (16.4 versus 7.4 days; P = 0.022), in-hospital mortality (15.2% versus 3.2%; P = 0.032), and combined prolonged length of stay or death (48.5% versus 14.3%; P < 0.001). No difference was found in two-year mortality or readmission for all causes in BNP or hyperglycemic subgroups.                     3.3. Combination of Laboratory Factors In multivariate logistic analysis of the in-hospital period, the adjusted model showed only hyperglycemia >= 200 mg/dL as an independent predictor of mortality (OR = 13.036, IC 95% 2.296-74.022; P < 0.001). Hyperglycemia >= 200 mg/dL (OR = 4.588; IC 95% 1.348-15.610; P < 0.001) and BNP >= 300 pg/mL (OR = 3.366, IC 95% 1.108-10.223; P = 0.027) were independent predictors of length of stay longer than 10 days or death.  Table 3 summarizes AUC, sensitivity, specificity, positive predictive value, negative predictive value, and accuracy of blood glucose and BNP for in-hospital death prediction, and Figure 1 shows ROC curve comparison of only blood glucose and BNP. Although blood glucose had been slightly better, there was no difference between admission glucose and BNP in in-hospital NSTEMI death prediction. In long-term followup, Cox regression (Figure 2) failed to show any independent predictors of mortality or combined hospital readmission for all causes or death. We analyzed the correlation between blood glucose and BNP, as shown in Table 4. There is a significant correlation between glycemia and BNP (Pearson correlation coefficient (PCC) = 0.38; P < 0.001), glycemia and hemoglobin (PCC = 0.41; P < 0.001), BNP and creatinine (PCC = 0.29; P = 0.004), and BNP and hemoglobin (PCC = 0.34; P < 0.001).                4. Discussion 4.1. Hyperglycemia and BNP Mortality of ACS Hyperglycemia is a factor long associated with ACS mortality, and its capacity for predicting a worse prognosis in NSTEMI, in our study, is at least comparable to that of BNP or better if we consider only death as the outcome. Several studies accessing BNP and admission glucose separately in ACS patients showed in-hospital and long-term prognosis around the world. The decision to use blood glucose or BNP laboratory results instead of multifactorial models can be more useful for emergency physicians. Admission hyperglycemia could be a biochemical marker for unfavorable ACS prognosis only reflecting inappropriate diabetes control, as another risk factor, and reflecting advanced atherosclerosis. In fact, hyperglycemic ACS patients usually have a history of diabetes and elevated HbA1C. On the other hand, hyperglycemia could be a signal of adrenergic stress response of a severely ill ACS patient, as observed in other acute illnesses. However, some studies with cardiac magnetic resonance have shown that hyperglycemic or diabetic patients have greater myocardial infarct size and greater microvascular obstruction, prothrombotic state, or endothelial dysfunction, or in other words, hyperglycemia could be itself involved in mechanisms of impaired blood nutrition to the ischemic wall. 4.2. Marker or Risk Factor? Hyperglycemia could itself damage coronary endothelia, but there are no convincing data supporting strategies of intensive insulin therapy to control hyperglycemia in critically ill or myocardial infarcted patients that could reverse the increased mortality, most probably due to hypoglycemic risk, another great mortality risk factor in the hospital setting. In this context, both blood glucose and BNP are better as prognostic markers in ACS patients. For example, elevated BNP can predict anterior wall ischemic localization at angiography in NSTEMI.  In our study, BNP and blood glucose were better markers of in-hospital outcomes. Admission hyperglycemia is associated with long-term risk for ACS mortality, but this association is not homogeneous in different ACS presentations, unstable angina, NSTEMI, or STEMI. Besides, mortality up to 1 year can be predicted both by admission glucose and fasting blood glucose, but the better predictor of mortality for longer periods is fasting glucose.  Correlations between BNP, glycemia, hemoglobin, and creatinine illustrated how measurement of one laboratory element can in fact assess other components of body homeostasis, becoming more difficult to separate a few independent mortality risk factors in adjusted complex models. These factors may be not related in a particular patient, or all factors could exist in consequence of a common combination of diseases: obesity, hypertension and diabetes leading to kidney disease, coronary disease, heart failure, anemia, elevated BNP. In-hospital stay was defined by clinical criteria. More severe patient were related to in-hospital mortality or required more time to be discharged from hospital. Hyperglycemia and BNP are markers of this severity of illness.  4.3. ROC Curve At a cutoff point of 200 mg/dL for blood glucose and 300 pg/dL for BNP, ROC curve analysis showed modest values of sensitivity and specificity, but a great negative predictive value for mortality. Eggers et al. compared NT-pro BNP, CRP, cystatin C, and creatinine clearance to predict reinfarction or death in patients with chest pain and ACS non-STEMI. They found AUC = 0.80 in a composite of abnormal EKG, increased cardiac troponin I and NT-pro BNP, best NT-pro BNP cutoff  point = 550 ng/L, sensitivity around 77%, and specificity around 20%, according to the ROC curve. Correia et al. studied NSTEMI patients and found no improvement in the Grace Score prediction model of in-hospital events with addition of admission glucose to the model: AUC increased from 0.81 to 0.82.            The comparison between admission blood glucose and BNP ROC curves showed no statistical difference, but we believe that blood glucose could be more useful in risk stratification of ACS patients mainly in undeveloped countries, where cost limits the adoption of new technologies.  4.4. Study Limitations We determined admission laboratory results as variables to be studied to evaluate risks beyond clinical scores like Grace or TIMI risk. We did not compare or add BNP and blood glucose to the models of risk prediction, but we simplified NSTEMI assessment by using unadjusted results to predict mortality or higher length of stay.  Some aspects of the study population like prevalence of previous coronary artery disease in up to three-quarters of patients could influence initial BNP or blood glucose and the in-hospital prognosis.  5. Conclusion This study suggests that hyperglycemia is an independent risk factor of in-hospital mortality in NSTEMI and has a good ROC curve level. Although poor in-hospital predictors of unfavorable events, both hyperglycemia and BNP were independent risk factors for death or length of stay > 10 days. There was no relation between hyperglycemia or BNP with long-term events in our NSTEMI patients.  Cardiac markers in the early hours of acute myocardial infarction: clinical performance of creatine kinase, creatine kinase MB isoenzyme (activity and mass concentration), creatine kinase MM and MB subform ratios, myoglobin and cardiac troponin T B-type natriuretic peptide at presentation and prognosis in patients with ST-segment elevation myocardial infarction: an ENTIRE-TIMI-23 substudy Effect of blood glucose concentrations on admission in non-diabetic versus diabetic patients with first acute myocardial infarction on short- and long-term mortality (from the MONICA/KORA Augsburg Myocardial Infarction Registry) N-terminal pro-brain natriuretic peptide on admission has prognostic value across the whole spectrum of acute coronary syndromes Hyperglycaemia at admission in acute coronary syndrome patients: prognostic value in diabetics and non-diabetics Prognostic importance of admission plasma glucose in diabetic and non-diabetic patients with acute myocardial infarction The prognostic value of B-type natriuretic peptide in patients with acute coronary syndromes Comparison of long-term mortality across the spectrum of acute coronary syndromes Myocardial infarction redefined:a consensus document of The Joint European Society of Cardiology/American College of Cardiology Committee f or the redefinition of myocardial infarction   Index for rating diagnostic tests Hyperglycaemia, in relation to sex, and mortality after acute coronary syndrome A macro for getting more out of your ROC curve Acute myocardial infarction. Prognostic value of white blood cell count and blood glucose level Elevated admission glucose is associated with increased long-term mortality in myocardial infarction patients, irrespective of the initially applied reperfusion strategy Admission with metabolic disorder is a useful predictor of the 1-year prognosis for patients with unstable angina, but not for patients with acute myocardial infarction: East-Osaka Acute Coronary Syndrome Registry Influence of leukocytes and glycemia on the prognosis of patients with acute myocardial infarction B-type natriuretic peptide: a strong predictor of early and late mortality in patients with acute chest pain without ST-segment elevation in the emergency department Clinical correlation of multiple biomarkers for risk assessment in patients with acute coronary syndrome Pathophysiology, prognostic significance and clinical utility of B-type natriuretic peptide in acute coronary syndromes Prevalence and risks of hyperglycaemia and undiagnosed diabetes in patients with acute myocardial infarction Determinants and importance of stress hyperglycaemia in non-diabetic patients with myocardial infarction Hyperglycemia-related mortality in critically ill patients varies with admission diagnosis Impact of hyperglycemia at admission in patients with acute ST-segment elevation myocardial infarction as assessed by contrast-enhanced MRI Relationship of dysglycemia to acute myocardial infarct size and cardiovascular outcome as determined by cardiovascular magnetic resonance Hyperglycemia is an important predictor of impaired coronary flow before reperfusion therapy in ST-segment elevation myocardial infarction Intensive insulin therapy in hospitalized patients: a systematic review B-type natriuretic peptide as a predictor of anterior wall location in patients with non-ST-elevation myocardial infarction The impact of admission plasma glucose on long-term mortality after STEMI and NSTEMI myocardial infarction Admission and fasting plasma glucose for estimating risk of death of diabetic and nondiabetic patients with acute coronary syndrome: nonlinearity of hazard ratios and time-dependent comparison Risk prediction in chest pain patients by biochemical markers including estimates of renal function Does acute hyperglycemia add prognostic value to the GRACE score in individuals with non-ST elevation acute coronary syndromes? Comparison of glucose versus BNP ROC curve. Adjusted two-year event-free survival, according to BNP < or >= 300 pg/mL.    Clinical and demographic patient characteristics, grouped by blood glucose >= or < 200 mg/dL.    All\tGlucose < 200 mg/dL\tGlucose >= 200 mg/dL\tP\t \tPatients, n (%)\t96\t77 (80.2)\t19 (19.8)\t\t \tAge (years)*\t65.1 (11.7)\t64.9 (12.0)\t65.7 (10.7)\t0.791\t \tMale, n (%)\t64 (66.7)\t59 (76.6)\t5 (26.3)\t<0.001\t \tPrior coronary artery disease, n (%)\t57 (59.4)\t43 (55.8)\t14 (73.7)\t0.156\t \tHypertension, n (%)\t86 (89.6)\t67 (87.0)\t19 (100)\t0.097\t \tCurrent smoker, n (%)\t16 (16.7)\t13 (16.7)\t3 (15.8)\t0.909\t \tDyslipidemia, n (%)\t65 (67.7)\t53 (68.8)\t12 (63.2)\t0.636\t \tDiabetes mellitus, n (%)\t48 (50)\t30 (38.9)\t18 (94.7)\t<0.001\t \tFamily history of coronary artery disease, n (%)\t35 (36.5)\t29 (37.7)\t6 (31.6)\t0.622\t \tHeart rate (beats/minute)\t82.6 (27.6)\t77.3 (71.9)\t102.7 (86.4)\t<0.001\t \tSystolic blood pressure (mmHg)\t137.5 (30.8)\t140.2 (29.6)\t127.8 (33.7)\t0.121\t \tDiastolic blood pressure (mmHg)\t83.1 (17.1)\t84.8 (16.6)\t76.8 (17.6)\t0.072\t \tKillip > I, n (%)\t19 (19.8)\t10 (13.0)\t9 (47.4)\t<0.001\t \tAdmission glucose (mg/dL)\t152.4 (100.0)\t113.1 (31.8)\t311.9 (122.8)\t<0.001\t \tBNP (pg/mL)\t358.3 (381.0)\t283.7 (339.3)\t660.8 (399.4)\t<0.001\t \tHemoglobin (g/dL)\t13.5 (2.1)\t13.9 (1.9)\t11.8 (2.2)\t<0.001\t \tWhite blood cell count (/mm3)\t9879.6 (3418.4)\t9437.3 (3181.0)\t11722.2 (3838.3)\t0.010\t \tPlatelet count (/mm3)\t235244.7 (82837.8)\t221118.0 (73987.4)\t294889.0 (93436.3)\t<0.001\t \tSerum urea (mg/dL)\t52.7 (29.4)\t49.5 (25.9)\t65.5 (38.6)\t0.033\t \tSerum creatinine (mg/dL)\t1.33 (1.00)\t1.20 (0.48)\t1.81 (1.98)\t0.016\t \tCreatinine kinase-MB (CKMB) peak (ng/mL)\t65.1 (111.1)\t73.2 (119.5)\t32.5 (58.7)\t0.154\t \tTroponin I (ng/mL)\t25.8 (40.6)\t26.5 (41.9)\t23.1 (35.6)\t0.741\t \tCholesterol (mg/dL)\t175.0 (39.4)\t174.7 (39.7)\t176.4 (39.3)\t0.892\t \tHDL-C (mg/dL)\t41.0 (10.9)\t40.9 (10.9)\t41.5 (11.2)\t0.872\t \tLDL-C (mg/dL)\t110.6 (32.5)\t110.0 (32.9)\t113.4 (321.2)\t0.732\t \tTriglycerides (mg/dL)\t130.4 (76.2)\t129.2 (72.4)\t136.0 (95.9)\t0.772\t \tEjection fraction (%)\t44.7 (15.3)\t46.4 (14.3)\t39.4 (17.4)\t0.083\t \tAngiography, n (%)\t86 (89.6)\t72 (93.5)\t14 (73.7)\t0.011\t \tMedical therapy, n (%)\t35 (36.5)\t26 (33.8)\t9 (47.4)\t0.270\t \tPercutaneous coronary intervention, n (%)\t49 (57.0)\t43 (59.7)\t6 (42.9)\t0.243\t \tSurgery, n (%)\t12 (12.5)\t8 (10.4)\t4 (21.0)\t0.208\t \tLength of stay (days)\t10.5 (18.6)\t7.4 (12.9)\t22.8 (30.2)\t<0.001\t \tFollowup (months)\t21.7 (9.7)\t22.5 (8.7)\t18.2 (12.8)\t0.084\t \tMortality, n (%)\t17 (17.7)\t11 (14.3)\t6 (31.6)\t0.077\t \t  In-hospital, n (%)\t7 (7.3)\t2 (2.6)\t5 (26.3)\t<0.001\t \t  Followup, n (%)\t10 (11.2)\t9 (12.0)\t1 (7.1)\t0.597\t \tIn-hospital mortality + prolonged length of stay, n (%)\t25 (26.0)\t13 (16.9)\t12 (63.2)\t<0.001\t \tFollow-up mortality + readmission, n (%)\t51 (57.3)\t43 (57.3)\t8 (57.1)\t0.989              Clinical and demographic patient characteristics, grouped by BNP >= or < 300 pg/mL.    All\tBNP < 300 pg/mL\tBNP >= 300 pg/mL\tP\t \tPatients, n (%)\t96\t63 (65.6)\t33 (34.4)\t\t \tAge (years)*\t65.1 (11.7)\t62.9 (11.1)\t69.2 (12.0)\t0.012\t \tMale, n (%)\t64 (66.7)\t46 (73.0)\t18 (54.5)\t0.068\t \tPrior coronary artery disease, n (%)\t57 (59.4)\t34 (54.0)\t23 (69.7)\t0.136\t \tHypertension, n (%)\t86 (89.6)\t54 (85.7)\t32 (97.0)\t0.086\t \tCurrent smoker, n (%)\t16 (16.7)\t12 (19.0)\t4 (12.1)\t0.387\t \tDyslipidemia, n (%)\t65 (67.7)\t43 (68.3)\t22 (66.7)\t0.874\t \tDiabetes mellitus, n (%)\t48 (50)\t25 (39.7)\t23 (69.7)\t0.005\t \tFamily history of coronary artery disease, n (%)\t35 (36.5)\t25 (39.7)\t10 (30.3)\t0.365\t \tHeart rate (beats/minute)\t82.6 (27.6)\t75.6 (21.8)\t94.9 (32.4)\t0.001\t \tSystolic blood pressure (mmHg)\t137.5 (30.8)\t144.5 (29.7)\t125.6 (29.3)\t0.005\t \tDiastolic blood pressure (mmHg)\t83.1 (17.1)\t87.7 (16.7)\t75.2 (14.9)\t<0.001\t \tKillip > I, n (%)\t19 (19.8)\t4 (6.3)\t15 (45.5)\t<0.001\t \tAdmission glucose (mg/dL)\t152.4 (100.0)\t120.2 (46.9)\t213.9 (139.6)\t<0.001\t \tAdmission glucose >= 200 mg/dL, n (%)\t19 (19.8)\t4 (6.3)\t15 (45.5)\t<0.001\t \tBNP (pg/mL)\t358.3 (381.0)\t142.9 (87.6)\t769.6 (387.5)\t<0.001\t \tHemoglobin (g/dL)\t13.5 (2.1)\t14.1 (1.8)\t12.4 (2.2)\t<0.001\t \tWhite blood cell count (/mm3)\t9879.6 (3418.4)\t9459.0 (3166.8)\t10681.3 (3775.9)\t0.102\t \tPlatelet count (/mm3)\t235244.7 (82837.8)\t232967.0 (71510.4)\t239455.0 (101620.0)\t0.719\t \tSerum urea (mg/dL)\t52.7 (29.4)\t44.8 (19.0)\t67.5 (38.7)\t<0.001\t \tSerum creatinine (mg/dL)\t1.33 (1.00)\t1.11 (0.39)\t1.76 (1.55)\t0.002\t \tCreatinine kinase-MB (CKMB) peak (ng/mL)\t65.1 (111.1)\t60.1 (99.9)\t74.7 (131.0)\t0.542\t \tTroponin I (ng/mL)\t25.8 (40.6)\t20.0 (32.7)\t36.9 (51.2)\t0.056\t \tCholesterol (mg/dL)\t175.0 (39.4)\t180.0 (37.9)\t165.5 (41.1)\t0.122\t \tHDL-C (mg/dL)\t41.0 (10.9)\t40.9 (10.3)\t41.3 (12.1)\t0.886\t \tLDL-C (mg/dL)\t110.6 (32.5)\t114.0 (31.3)\t103.7 (34.2)\t0.190\t \tTriglycerides (mg/dL)\t130.4 (76.2)\t129.9 (65.3)\t131.1 (94.5)\t0.947\t \tEjection fraction (%)\t44.7 (15.3)\t49.3 (14.6)\t37.9 (13.9)\t0.001\t \tAngiography, n (%)\t86 (89.6)\t61 (96.8)\t25 (75.8)\t0.001\t \tMedical therapy, n (%)\t35 (36.5)\t18 (28.6)\t17 (51.5)\t0.027\t \tPercutaneous coronary intervention, n (%)\t49 (57.0)\t38 (62.3)\t11 (44.0)\t0.119\t \tSurgery, n (%)\t12 (12.5)\t7 (11.1)\t5 (15.2)\t0.570\t \tLength of stay (days)\t10.5 (18.6)\t7.4 (14.7)\t16.4 (23.5)\t0.022\t \tFollowup (months)\t21.7 (9.7)\t22.7 (8.3)\t19.7 (11.9)\t0.143\t \tMortality, n (%)\t17 (17.7)\t8 (12.7)\t9 (27.3)\t0.076\t \t  In-hospital, n (%)\t7 (7.3)\t2 (3.2)\t5 (15.2)\t0.032\t \t  Followup, n (%)\t10 (11.2)\t6 (9.8)\t4 (14.3)\t0.537\t \tIn-hospital mortality + prolonged length of stay, n (%)\t25 (26.0)\t9 (14.3)\t16 (48.5)\t<0.001\t \tFollow-up mortality + readmission, n (%)\t51 (57.3)\t36 (59.0)\t15 (53.4)\t0.630                 Comparison of BNP and blood glucose in outcome predictions. Area under the curve, sensitivity, specificity, positive predictive value, negative predictive value, and accuracy. Biochemical factor\tPoint\tAUC*\tSensitivity (%)\tSpecificity (%)\tPPV (%)*\tNPV (%)*\tAccuracy (%)\tP \t \tIn-hospital mortality\t\t\t\t\t\t\t\t0.411\t \t Glucose (mg/dL)\t200\t0.819\t71.4\t84.3\t26.3\t97.4\t83.3\t\t \t BNP (pg/mL)\t300\t0.748\t71.4\t68.5\t15.2\t96.8\t68.7\t\t \t\t \tCombined length of stay >= 10 days or in-hospital mortality\t\t\t\t\t\t\t\t0.339\t \t Glucose (mg/dL)\t200\t0.697\t48.0\t90.1\t63.2\t83.1\t79.2\t\t \t BNP (pg/mL)\t300\t0.760\t64.0\t76.1\t48.5\t85.7\t72.9\t\t \t\t \tCombined hospital readmission or mortality\t\t\t\t\t\t\t\t0.343\t \t Glucose (mg/dL)\t200\t0.524\t15.7\t84.3\t42.9\t57.3\t55.1\t\t \t BNP (pg/mL)\t300\t0.4631\t34.2\t70.6\t46.4\t59\t55.1                    *AUC: area under the curve; PPV: positive predictive value; NPV: negative predictive value;  comparison AUC admission blood glucose versus BNP.   Correlations between blood glucose, BNP, hemoglobin, and creatinine. Factor 1\tFactor 2\tP value\tPearson Correlation Coefficient\t \tGlycemia\tBNP\t<0.001\t0.381\t \tGlycemia\tCreatinine\t0.140\t0.153\t \tGlycemia\tHemoglobin\t<0.001\t0.413\t \tBNP\tCreatinine\t0.004\t0.292\t \tBNP\tHemoglobin\t<0.001\t-0.348\t \tHemoglobin\tCreatinine\t0.008\t-0.273",
+    "entities": [
+        {
+            "entityId": "0_3",
+            "span": {
+                "begin": 0,
+                "end": 3
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "18_25",
+            "span": {
+                "begin": 18,
+                "end": 25
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "65_103",
+            "span": {
+                "begin": 65,
+                "end": 103
+            },
+            "entityType": "disease",
+            "entityName": "Non-ST Elevation Myocardial Infarction",
+            "id": "UMLS:C1536222"
+        },
+        {
+            "entityId": "126_139",
+            "span": {
+                "begin": 126,
+                "end": 139
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "144_170",
+            "span": {
+                "begin": 144,
+                "end": 170
+            },
+            "entityType": "gene",
+            "entityName": "B-type natriuretic peptide",
+            "id": "UMLS:C0054015"
+        },
+        {
+            "entityId": "172_175",
+            "span": {
+                "begin": 172,
+                "end": 175
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "210_234",
+            "span": {
+                "begin": 210,
+                "end": 234
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndromes",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "303_311",
+            "span": {
+                "begin": 303,
+                "end": 311
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "317_355",
+            "span": {
+                "begin": 317,
+                "end": 355
+            },
+            "entityType": "disease",
+            "entityName": "non-ST-elevation myocardial infarction",
+            "id": "UMLS:C1536222"
+        },
+        {
+            "entityId": "357_363",
+            "span": {
+                "begin": 357,
+                "end": 363
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "611_614",
+            "span": {
+                "begin": 611,
+                "end": 614
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "839_842",
+            "span": {
+                "begin": 839,
+                "end": 842
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "887_890",
+            "span": {
+                "begin": 887,
+                "end": 890
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "1064_1067",
+            "span": {
+                "begin": 1064,
+                "end": 1067
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "1071_1084",
+            "span": {
+                "begin": 1071,
+                "end": 1084
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemic",
+            "id": "mesh:D006943"
+        },
+        {
+            "entityId": "1108_1121",
+            "span": {
+                "begin": 1108,
+                "end": 1121
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1182_1188",
+            "span": {
+                "begin": 1182,
+                "end": 1188
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "1221_1234",
+            "span": {
+                "begin": 1221,
+                "end": 1234
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1239_1242",
+            "span": {
+                "begin": 1239,
+                "end": 1242
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "1402_1415",
+            "span": {
+                "begin": 1402,
+                "end": 1415
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "1419_1422",
+            "span": {
+                "begin": 1419,
+                "end": 1422
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "1609_1633",
+            "span": {
+                "begin": 1609,
+                "end": 1633
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndromes",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "1635_1638",
+            "span": {
+                "begin": 1635,
+                "end": 1638
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "1736_1761",
+            "span": {
+                "begin": 1736,
+                "end": 1761
+            },
+            "entityType": "gene",
+            "entityName": "B type natriuretic factor",
+            "id": "UMLS:C0033453"
+        },
+        {
+            "entityId": "1763_1766",
+            "span": {
+                "begin": 1763,
+                "end": 1766
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "1811_1824",
+            "span": {
+                "begin": 1811,
+                "end": 1824
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "1861_1864",
+            "span": {
+                "begin": 1861,
+                "end": 1864
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "1906_1914",
+            "span": {
+                "begin": 1906,
+                "end": 1914
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1926_1936",
+            "span": {
+                "begin": 1926,
+                "end": 1936
+            },
+            "entityType": "disease",
+            "entityName": "chest pain",
+            "id": "UMLS:C0008031"
+        },
+        {
+            "entityId": "2050_2053",
+            "span": {
+                "begin": 2050,
+                "end": 2053
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "2054_2062",
+            "span": {
+                "begin": 2054,
+                "end": 2062
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2087_2095",
+            "span": {
+                "begin": 2087,
+                "end": 2095
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "2116_2119",
+            "span": {
+                "begin": 2116,
+                "end": 2119
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "2179_2199",
+            "span": {
+                "begin": 2179,
+                "end": 2199
+            },
+            "entityType": "disease",
+            "entityName": "non-ST elevation ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "2226_2254",
+            "span": {
+                "begin": 2226,
+                "end": 2254
+            },
+            "entityType": "disease",
+            "entityName": "left ventricular dysfunction",
+            "id": "UMLS:C0242698"
+        },
+        {
+            "entityId": "2256_2294",
+            "span": {
+                "begin": 2256,
+                "end": 2294
+            },
+            "entityType": "disease",
+            "entityName": "Non-ST elevation myocardial infarction",
+            "id": "UMLS:C1536222"
+        },
+        {
+            "entityId": "2296_2302",
+            "span": {
+                "begin": 2296,
+                "end": 2302
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "2341_2375",
+            "span": {
+                "begin": 2341,
+                "end": 2375
+            },
+            "entityType": "disease",
+            "entityName": "ST elevation myocardial infarction",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "2471_2484",
+            "span": {
+                "begin": 2471,
+                "end": 2484
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "2489_2492",
+            "span": {
+                "begin": 2489,
+                "end": 2492
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "2507_2515",
+            "span": {
+                "begin": 2507,
+                "end": 2515
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2608_2616",
+            "span": {
+                "begin": 2608,
+                "end": 2616
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2622_2625",
+            "span": {
+                "begin": 2622,
+                "end": 2625
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "2909_2912",
+            "span": {
+                "begin": 2909,
+                "end": 2912
+            },
+            "entityType": "disease",
+            "entityName": "CAD",
+            "id": "mesh:D003324"
+        },
+        {
+            "entityId": "3082_3085",
+            "span": {
+                "begin": 3082,
+                "end": 3085
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "3086_3094",
+            "span": {
+                "begin": 3086,
+                "end": 3094
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3132_3138",
+            "span": {
+                "begin": 3132,
+                "end": 3138
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "3144_3152",
+            "span": {
+                "begin": 3144,
+                "end": 3152
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3168_3171",
+            "span": {
+                "begin": 3168,
+                "end": 3171
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "3228_3231",
+            "span": {
+                "begin": 3228,
+                "end": 3231
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "3407_3413",
+            "span": {
+                "begin": 3407,
+                "end": 3413
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "3414_3417",
+            "span": {
+                "begin": 3414,
+                "end": 3417
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "3487_3493",
+            "span": {
+                "begin": 3487,
+                "end": 3493
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "3494_3502",
+            "span": {
+                "begin": 3494,
+                "end": 3502
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3555_3567",
+            "span": {
+                "begin": 3555,
+                "end": 3567
+            },
+            "entityType": "species",
+            "entityName": "participants",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3779_3787",
+            "span": {
+                "begin": 3779,
+                "end": 3787
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3900_3906",
+            "span": {
+                "begin": 3900,
+                "end": 3906
+            },
+            "entityType": "disease",
+            "entityName": "angina",
+            "id": "UMLS:C0002962"
+        },
+        {
+            "entityId": "4276_4279",
+            "span": {
+                "begin": 4276,
+                "end": 4279
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "4718_4721",
+            "span": {
+                "begin": 4718,
+                "end": 4721
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "4853_4866",
+            "span": {
+                "begin": 4853,
+                "end": 4866
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "4969_4976",
+            "span": {
+                "begin": 4969,
+                "end": 4976
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "5223_5230",
+            "span": {
+                "begin": 5223,
+                "end": 5230
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5764_5776",
+            "span": {
+                "begin": 5764,
+                "end": 5776
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "5787_5795",
+            "span": {
+                "begin": 5787,
+                "end": 5795
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "5803_5810",
+            "span": {
+                "begin": 5803,
+                "end": 5810
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "5830_5833",
+            "span": {
+                "begin": 5830,
+                "end": 5833
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "5868_5878",
+            "span": {
+                "begin": 5868,
+                "end": 5878
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "6504_6511",
+            "span": {
+                "begin": 6504,
+                "end": 6511
+            },
+            "entityType": "drug",
+            "entityName": "Glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "6564_6571",
+            "span": {
+                "begin": 6564,
+                "end": 6571
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6606_6613",
+            "span": {
+                "begin": 6606,
+                "end": 6613
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "6678_6683",
+            "span": {
+                "begin": 6678,
+                "end": 6683
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6733_6743",
+            "span": {
+                "begin": 6733,
+                "end": 6743
+            },
+            "entityType": "disease",
+            "entityName": "chest pain",
+            "id": "UMLS:C0008031"
+        },
+        {
+            "entityId": "6777_6793",
+            "span": {
+                "begin": 6777,
+                "end": 6793
+            },
+            "entityType": "gene",
+            "entityName": "serum hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "6912_6920",
+            "span": {
+                "begin": 6912,
+                "end": 6920
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "7010_7013",
+            "span": {
+                "begin": 7010,
+                "end": 7013
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "7053_7069",
+            "span": {
+                "begin": 7053,
+                "end": 7069
+            },
+            "entityType": "cell",
+            "entityName": "white blood cell",
+            "id": "UMLS:C0023516"
+        },
+        {
+            "entityId": "7124_7132",
+            "span": {
+                "begin": 7124,
+                "end": 7132
+            },
+            "entityType": "cell",
+            "entityName": "platelet",
+            "id": "UMLS:C0005821"
+        },
+        {
+            "entityId": "7196_7200",
+            "span": {
+                "begin": 7196,
+                "end": 7200
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "7244_7254",
+            "span": {
+                "begin": 7244,
+                "end": 7254
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "7558_7565",
+            "span": {
+                "begin": 7558,
+                "end": 7565
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "7600_7603",
+            "span": {
+                "begin": 7600,
+                "end": 7603
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "7656_7663",
+            "span": {
+                "begin": 7656,
+                "end": 7663
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "7696_7699",
+            "span": {
+                "begin": 7696,
+                "end": 7699
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "7723_7726",
+            "span": {
+                "begin": 7723,
+                "end": 7726
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "7817_7827",
+            "span": {
+                "begin": 7817,
+                "end": 7827
+            },
+            "entityType": "disease",
+            "entityName": "chest pain",
+            "id": "UMLS:C0008031"
+        },
+        {
+            "entityId": "7984_7994",
+            "span": {
+                "begin": 7984,
+                "end": 7994
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "8163_8171",
+            "span": {
+                "begin": 8163,
+                "end": 8171
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "8266_8270",
+            "span": {
+                "begin": 8266,
+                "end": 8270
+            },
+            "entityType": "drug",
+            "entityName": "urea",
+            "id": "UMLS:C0041942"
+        },
+        {
+            "entityId": "8314_8324",
+            "span": {
+                "begin": 8314,
+                "end": 8324
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "8368_8375",
+            "span": {
+                "begin": 8368,
+                "end": 8375
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "8790_8793",
+            "span": {
+                "begin": 8790,
+                "end": 8793
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "8797_8810",
+            "span": {
+                "begin": 8797,
+                "end": 8810
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemic",
+            "id": "mesh:D006943"
+        },
+        {
+            "entityId": "8973_8986",
+            "span": {
+                "begin": 8973,
+                "end": 8986
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "9088_9101",
+            "span": {
+                "begin": 9088,
+                "end": 9101
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "9164_9167",
+            "span": {
+                "begin": 9164,
+                "end": 9167
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "9429_9436",
+            "span": {
+                "begin": 9429,
+                "end": 9436
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9441_9444",
+            "span": {
+                "begin": 9441,
+                "end": 9444
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "9533_9540",
+            "span": {
+                "begin": 9533,
+                "end": 9540
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9545_9548",
+            "span": {
+                "begin": 9545,
+                "end": 9548
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "9565_9572",
+            "span": {
+                "begin": 9565,
+                "end": 9572
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9641_9648",
+            "span": {
+                "begin": 9641,
+                "end": 9648
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9653_9656",
+            "span": {
+                "begin": 9653,
+                "end": 9656
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "9672_9678",
+            "span": {
+                "begin": 9672,
+                "end": 9678
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "9901_9908",
+            "span": {
+                "begin": 9901,
+                "end": 9908
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9913_9916",
+            "span": {
+                "begin": 9913,
+                "end": 9916
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "9995_9998",
+            "span": {
+                "begin": 9995,
+                "end": 9998
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10071_10081",
+            "span": {
+                "begin": 10071,
+                "end": 10081
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "10107_10110",
+            "span": {
+                "begin": 10107,
+                "end": 10110
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10115_10125",
+            "span": {
+                "begin": 10115,
+                "end": 10125
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "10155_10158",
+            "span": {
+                "begin": 10155,
+                "end": 10158
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10163_10173",
+            "span": {
+                "begin": 10163,
+                "end": 10173
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "10233_10246",
+            "span": {
+                "begin": 10233,
+                "end": 10246
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "10251_10254",
+            "span": {
+                "begin": 10251,
+                "end": 10254
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10268_10271",
+            "span": {
+                "begin": 10268,
+                "end": 10271
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "10272_10285",
+            "span": {
+                "begin": 10272,
+                "end": 10285
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "10319_10322",
+            "span": {
+                "begin": 10319,
+                "end": 10322
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "10387_10393",
+            "span": {
+                "begin": 10387,
+                "end": 10393
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "10443_10446",
+            "span": {
+                "begin": 10443,
+                "end": 10446
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10525_10528",
+            "span": {
+                "begin": 10525,
+                "end": 10528
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10543_10550",
+            "span": {
+                "begin": 10543,
+                "end": 10550
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "10565_10568",
+            "span": {
+                "begin": 10565,
+                "end": 10568
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "10569_10577",
+            "span": {
+                "begin": 10569,
+                "end": 10577
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10665_10672",
+            "span": {
+                "begin": 10665,
+                "end": 10672
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "10676_10679",
+            "span": {
+                "begin": 10676,
+                "end": 10679
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "10787_10800",
+            "span": {
+                "begin": 10787,
+                "end": 10800
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "10847_10850",
+            "span": {
+                "begin": 10847,
+                "end": 10850
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "10891_10899",
+            "span": {
+                "begin": 10891,
+                "end": 10899
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "10957_10972",
+            "span": {
+                "begin": 10957,
+                "end": 10972
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "10983_10996",
+            "span": {
+                "begin": 10983,
+                "end": 10996
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemic",
+            "id": "mesh:D006943"
+        },
+        {
+            "entityId": "10997_11000",
+            "span": {
+                "begin": 10997,
+                "end": 11000
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "11001_11009",
+            "span": {
+                "begin": 11001,
+                "end": 11009
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11036_11044",
+            "span": {
+                "begin": 11036,
+                "end": 11044
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "11058_11063",
+            "span": {
+                "begin": 11058,
+                "end": 11063
+            },
+            "entityType": "gene",
+            "entityName": "HbA1C",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "11084_11097",
+            "span": {
+                "begin": 11084,
+                "end": 11097
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11164_11167",
+            "span": {
+                "begin": 11164,
+                "end": 11167
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "11168_11175",
+            "span": {
+                "begin": 11168,
+                "end": 11175
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11198_11213",
+            "span": {
+                "begin": 11198,
+                "end": 11213
+            },
+            "entityType": "disease",
+            "entityName": "acute illnesses",
+            "id": "UMLS:C4061114"
+        },
+        {
+            "entityId": "11285_11298",
+            "span": {
+                "begin": 11285,
+                "end": 11298
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemic",
+            "id": "mesh:D006943"
+        },
+        {
+            "entityId": "11311_11319",
+            "span": {
+                "begin": 11311,
+                "end": 11319
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11333_11351",
+            "span": {
+                "begin": 11333,
+                "end": 11351
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "11464_11477",
+            "span": {
+                "begin": 11464,
+                "end": 11477
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11595_11608",
+            "span": {
+                "begin": 11595,
+                "end": 11608
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11718_11725",
+            "span": {
+                "begin": 11718,
+                "end": 11725
+            },
+            "entityType": "gene",
+            "entityName": "insulin",
+            "id": "UMLS:C0021641"
+        },
+        {
+            "entityId": "11745_11758",
+            "span": {
+                "begin": 11745,
+                "end": 11758
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "11780_11800",
+            "span": {
+                "begin": 11780,
+                "end": 11800
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarcted",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "11801_11809",
+            "span": {
+                "begin": 11801,
+                "end": 11809
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11875_11887",
+            "span": {
+                "begin": 11875,
+                "end": 11887
+            },
+            "entityType": "disease",
+            "entityName": "hypoglycemic",
+            "id": "mesh:D007003"
+        },
+        {
+            "entityId": "11983_11990",
+            "span": {
+                "begin": 11983,
+                "end": 11990
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "11995_11998",
+            "span": {
+                "begin": 11995,
+                "end": 11998
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "12035_12038",
+            "span": {
+                "begin": 12035,
+                "end": 12038
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "12039_12047",
+            "span": {
+                "begin": 12039,
+                "end": 12047
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "12071_12074",
+            "span": {
+                "begin": 12071,
+                "end": 12074
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "12141_12147",
+            "span": {
+                "begin": 12141,
+                "end": 12147
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "12164_12167",
+            "span": {
+                "begin": 12164,
+                "end": 12167
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "12178_12185",
+            "span": {
+                "begin": 12178,
+                "end": 12185
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "12241_12254",
+            "span": {
+                "begin": 12241,
+                "end": 12254
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "12293_12296",
+            "span": {
+                "begin": 12293,
+                "end": 12296
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "12361_12364",
+            "span": {
+                "begin": 12361,
+                "end": 12364
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "12380_12395",
+            "span": {
+                "begin": 12380,
+                "end": 12395
+            },
+            "entityType": "disease",
+            "entityName": "unstable angina",
+            "id": "UMLS:C0002965"
+        },
+        {
+            "entityId": "12397_12403",
+            "span": {
+                "begin": 12397,
+                "end": 12403
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "12482_12489",
+            "span": {
+                "begin": 12482,
+                "end": 12489
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "12508_12515",
+            "span": {
+                "begin": 12508,
+                "end": 12515
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "12585_12592",
+            "span": {
+                "begin": 12585,
+                "end": 12592
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "12616_12619",
+            "span": {
+                "begin": 12616,
+                "end": 12619
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "12631_12641",
+            "span": {
+                "begin": 12631,
+                "end": 12641
+            },
+            "entityType": "gene",
+            "entityName": "hemoglobin",
+            "id": "UMLS:C0019046"
+        },
+        {
+            "entityId": "12647_12657",
+            "span": {
+                "begin": 12647,
+                "end": 12657
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "12923_12930",
+            "span": {
+                "begin": 12923,
+                "end": 12930
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13011_13018",
+            "span": {
+                "begin": 13011,
+                "end": 13018
+            },
+            "entityType": "disease",
+            "entityName": "obesity",
+            "id": "UMLS:C0028754"
+        },
+        {
+            "entityId": "13020_13032",
+            "span": {
+                "begin": 13020,
+                "end": 13032
+            },
+            "entityType": "disease",
+            "entityName": "hypertension",
+            "id": "UMLS:C0020538"
+        },
+        {
+            "entityId": "13037_13045",
+            "span": {
+                "begin": 13037,
+                "end": 13045
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "13057_13071",
+            "span": {
+                "begin": 13057,
+                "end": 13071
+            },
+            "entityType": "disease",
+            "entityName": "kidney disease",
+            "id": "UMLS:C0022658"
+        },
+        {
+            "entityId": "13073_13089",
+            "span": {
+                "begin": 13073,
+                "end": 13089
+            },
+            "entityType": "disease",
+            "entityName": "coronary disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "13091_13104",
+            "span": {
+                "begin": 13091,
+                "end": 13104
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "13106_13112",
+            "span": {
+                "begin": 13106,
+                "end": 13112
+            },
+            "entityType": "disease",
+            "entityName": "anemia",
+            "id": "UMLS:C0002871"
+        },
+        {
+            "entityId": "13123_13126",
+            "span": {
+                "begin": 13123,
+                "end": 13126
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "13191_13198",
+            "span": {
+                "begin": 13191,
+                "end": 13198
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13291_13304",
+            "span": {
+                "begin": 13291,
+                "end": 13304
+            },
+            "entityType": "disease",
+            "entityName": "Hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "13309_13312",
+            "span": {
+                "begin": 13309,
+                "end": 13312
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "13411_13418",
+            "span": {
+                "begin": 13411,
+                "end": 13418
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "13437_13440",
+            "span": {
+                "begin": 13437,
+                "end": 13440
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "13590_13600",
+            "span": {
+                "begin": 13590,
+                "end": 13600
+            },
+            "entityType": "gene",
+            "entityName": "NT-pro BNP",
+            "id": "UMLS:C0754710"
+        },
+        {
+            "entityId": "13602_13605",
+            "span": {
+                "begin": 13602,
+                "end": 13605
+            },
+            "entityType": "gene",
+            "entityName": "CRP",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "13607_13617",
+            "span": {
+                "begin": 13607,
+                "end": 13617
+            },
+            "entityType": "gene",
+            "entityName": "cystatin C",
+            "id": "UMLS:C1413772"
+        },
+        {
+            "entityId": "13623_13633",
+            "span": {
+                "begin": 13623,
+                "end": 13633
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "13680_13688",
+            "span": {
+                "begin": 13680,
+                "end": 13688
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13694_13704",
+            "span": {
+                "begin": 13694,
+                "end": 13704
+            },
+            "entityType": "disease",
+            "entityName": "chest pain",
+            "id": "UMLS:C0008031"
+        },
+        {
+            "entityId": "13709_13712",
+            "span": {
+                "begin": 13709,
+                "end": 13712
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "13788_13806",
+            "span": {
+                "begin": 13788,
+                "end": 13806
+            },
+            "entityType": "gene",
+            "entityName": "cardiac troponin I",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "13811_13821",
+            "span": {
+                "begin": 13811,
+                "end": 13821
+            },
+            "entityType": "gene",
+            "entityName": "NT-pro BNP",
+            "id": "UMLS:C0754710"
+        },
+        {
+            "entityId": "13828_13838",
+            "span": {
+                "begin": 13828,
+                "end": 13838
+            },
+            "entityType": "gene",
+            "entityName": "NT-pro BNP",
+            "id": "UMLS:C0754710"
+        },
+        {
+            "entityId": "13968_13974",
+            "span": {
+                "begin": 13968,
+                "end": 13974
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "13975_13983",
+            "span": {
+                "begin": 13975,
+                "end": 13983
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14094_14101",
+            "span": {
+                "begin": 14094,
+                "end": 14101
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "14199_14206",
+            "span": {
+                "begin": 14199,
+                "end": 14206
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "14211_14214",
+            "span": {
+                "begin": 14211,
+                "end": 14214
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "14286_14293",
+            "span": {
+                "begin": 14286,
+                "end": 14293
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "14341_14344",
+            "span": {
+                "begin": 14341,
+                "end": 14344
+            },
+            "entityType": "disease",
+            "entityName": "ACS",
+            "id": "UMLS:C0742343"
+        },
+        {
+            "entityId": "14345_14353",
+            "span": {
+                "begin": 14345,
+                "end": 14353
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14625_14628",
+            "span": {
+                "begin": 14625,
+                "end": 14628
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "14639_14646",
+            "span": {
+                "begin": 14639,
+                "end": 14646
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "14699_14705",
+            "span": {
+                "begin": 14699,
+                "end": 14705
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "14858_14881",
+            "span": {
+                "begin": 14858,
+                "end": 14881
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "14909_14917",
+            "span": {
+                "begin": 14909,
+                "end": 14917
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14942_14945",
+            "span": {
+                "begin": 14942,
+                "end": 14945
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "14955_14962",
+            "span": {
+                "begin": 14955,
+                "end": 14962
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "15034_15047",
+            "span": {
+                "begin": 15034,
+                "end": 15047
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15106_15112",
+            "span": {
+                "begin": 15106,
+                "end": 15112
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "15210_15223",
+            "span": {
+                "begin": 15210,
+                "end": 15223
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15228_15231",
+            "span": {
+                "begin": 15228,
+                "end": 15231
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "15331_15344",
+            "span": {
+                "begin": 15331,
+                "end": 15344
+            },
+            "entityType": "disease",
+            "entityName": "hyperglycemia",
+            "id": "UMLS:C0020456"
+        },
+        {
+            "entityId": "15348_15351",
+            "span": {
+                "begin": 15348,
+                "end": 15351
+            },
+            "entityType": "gene",
+            "entityName": "BNP",
+            "id": "UMLS:C1417808"
+        },
+        {
+            "entityId": "15381_15387",
+            "span": {
+                "begin": 15381,
+                "end": 15387
+            },
+            "entityType": "disease",
+            "entityName": "NSTEMI",
+            "id": "UMLS:C4255010"
+        },
+        {
+            "entityId": "15388_15396",
+            "span": {
+                "begin": 15388,
+                "end": 15396
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "172_175",
+            "subjectText": "BNP",
+            "rel_name": "associate",
+            "objectId": "210_234",
+            "objectText": "acute coronary syndromes"
+        }
+    ]
+}

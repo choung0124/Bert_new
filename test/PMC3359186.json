@@ -1,0 +1,1405 @@
+{
+    "sourcid": "PMC3359186",
+    "publisher": "BioMed Central",
+    "journal": "BMC Cardiovascular Disorders",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359186/",
+    "text": "Relationship between treatment delay and final infarct size in STEMI patients treated with abciximab and primary PCI Background Studies on the impact of time to treatment on myocardial infarct size have yielded conflicting results. In this study of ST-Elevation Myocardial Infarction (STEMI) treated with primary percutaneous coronary intervention (PCI), we set out to investigate the relationship between the time from First Medical Contact (FMC) to the demonstration of an open infarct related artery (IRA) and final scar size. Between February 2006 and September 2007, 89 STEMI patients treated with primary PCI were studied with contrast enhanced magnetic resonance imaging (ceMRI) 4 to 8 weeks after the infarction. Spearman correlation was computed for health care delay time (defined as time from FMC to PCI) and myocardial injury. Multiple linear regression was used to determine covariates independently associated with infarct size. Results An occluded artery (Thrombolysis In Myocardial Infarction, TIMI flow 0-1 at initial angiogram) was seen in 56 patients (63%). The median FMC-to-patent artery was 89 minutes. There was a weak correlation between time from FMC-to-patent IRA and infarct size, r = 0.27, p = 0.01. In multiple regression analyses, LAD as the IRA, smoking and an occluded vessel at the first angiogram, but not delay time, correlated with infarct size. Conclusions In patients with STEMI treated with primary PCI we found a weak correlation between health care delay time and infarct size. Other factors like anterior infarction, a patent artery pre-PCI and effects of reperfusion injury may have had greater influence on infarct size than time-to-treatment per se. Background Reperfusion of the occluded artery in ST elevation myocardial infarction (STEMI) is preferably performed with primary Percutaneous Coronary Intervention (PCI) and adjunctive therapy with Glycoprotein (Gp) IIb/IIIa inhibitors even if this requires transportation of the patient to an institution that performs angioplasty. Studies on the impact of time to treatment on mortality have revealed conflicting results. Recently, Francone et.al studied 70 patients with STEMI with contrast enhanced Magnetic Resonance Imaging (ceMRI) and found that a shorter time to reperfusion was associated with smaller infarct size. This effect was mainly limited to patients treated within 90 minutes of symptom onset. Brodie et al. found similar results when analysing patients from the EMERALD trial with a greater impact of the duration of ischemia in anterior versus non anterior infarction. Haase et al. studied 45 STEMI patients and found no correlation between infarct size and time from onset of symptoms to PCI. In a study comparing prehospital fibrinolysis with facilitated PCI there was a relationship between time to treatment, infarct size and transmurality. Also Tarantini et al. found an association between time to treatment and the risk of a larger scar. We hypothesised that in patients with STEMI treated with primary PCI and adjunctive abciximab, time from first medical contact (FMC) to demonstration of an open infarct related artery (IRA) is associated with the degree of myocardial injury measured with ceMRI. Methods STEMI strategy in the county of Ostergotland   Since 2005 the Heart Centre of Ostergotland, serving a population of 420 000 has adopted a strategy of primary PCI for all patients with STEMI, with prehospital administration of abciximab in suitable cases. Patients who present with symptoms of Myocardial Infarction (MI) and ST elevation or extensive anterior ST depression or bundle branch block on the ECG are sent to the cath-lab with the intention of performing primary PCI. Pretreatment with acetylsalicylic acid 300 mg orally is recommended in the absence of contraindications. Bolus abciximab (0.25 mg/kg), heparin (50 U/kg) and beta blockers are given at the discretion of the attending physician. Physicians are encouraged to give pretreatment with abciximab to patients with clear ST elevation on the diagnostic ECG and distinct symptoms of MI. Patients on warfarin, with a history of bleeding, of old age, or for other reasons having a high risk for bleeding, or patients without a clear diagnosis of STEMI are usually not given abciximab before arrival in the cath lab. If not given as pretreatment abciximab is given only after angiography has confirmed occlusion/stenoses suitable for PCI.   Study population Between February 2006 and September 2007, 149 STEMI patients treated with primary PCI at the Heart Centre of Ostergotland and no known contraindication to ceMRI gave their written informed consent to participate in the study. Sixty patients were excluded due to one or more of the following reasons; previous myocardial infarction (7), death before ceMRI (3) reinfarction (1), new revascularisation with either CABG or PCI (15), new contraindication to ceMRI (3), lost to follow up (1), malignancy (1), claustrophobia while in the magnet (4), inability to perform the whole ceMRI study (2) and unwillingness to come back to the hospital to perform the ceMRI study (23). Thus, 89 patients remained for further analysis. In a broader picture the total number of primary PCI performed during the study period was 589. Thus, the majority of STEMI patients was not asked to participate either due to administrative reasons, long distance to the hospital, early transfer to the local hospital, early cardiac surgery or other factors preventing the participation of the patient. One year mortality was 12.7% in this group.   Magnetic resonance imaging ceMRI was performed 4-8 weeks after the date of primary PCI. The patients were placed in the magnet (1.5 T Achieva, Philips Healthcare, Best, the Netherlands) in supine position. A circular polarized body-array surface coil was used in all measurements. ECG-triggered MR images were obtained during repeated breath-holds. Cine-loops were acquired with a balanced steady state free precession turbo field-echo (b-SSFP TFE) sequence, on average 18, (range 10-23) short axis slices and three long axis planes (apical 2-, 3- and 4-chamber views). Temporal resolution was in between 26-41 ms (30 acquired phases). The inversion recovery turbo field echo (IR-TFE) sequence was a segmented 3D spoiled gradient echo sequence with TE = 1.3 ms, TR = 4.4 ms and TFE factor 43, leading to an acquisition phase time of 188 ms during diastole. Slice thickness was 10 mm intersection gap -5 mm (i.e. slices were overcontiguous), field-of-view 350 mm and image matrix 128 x 256. The contrast-enhanced images were acquired at the same slice positions as the cine-images, about 20 min after the administration of gadopentetate dimeglumine (Gd-DTPA) 0.2 mmol/kg bodyweight (Schering Nordiska AB, Jarfalla, Sweden). Optimal contrast between hyperenhanced areas and normal myocardium was maintained by continually adjusting the inversion time to null the signal from healthy myocardium, Figure 1. Scar size was measured by two different observers on short-axis images using the freely available software \"Segment\" http://segment.heiberg.se. Infarct volume and percentage was calculated from the short axis stack of slices. End diastolic myocardial and cavity volumes were measured from the short axis late gadolinium enhanced (LGE) images.    Late gadolinium enhancement of lateral subendocardial scar in the shortaxis view of the left ventricle. Same patient as in Additional files 1, 2, 3. The time from first medical contact (FMC) to patent artery in this particular patient was 105 minutes. Angiography All angiograms were reviewed by three experienced PCI operators blinded for all other parts of the study. The following items were analysed: location of the acute vessel occlusion, Thrombolysis In Myocardial Infarction (TIMI) flow before and after intervention, type of PCI performed, success of treatment, and extent of coronary artery disease. Disagreement between observers was solved by consensus. The time when a patent Infarct Related Artery (IRA) was obtained was defined as the time of balloon inflation in patients with TIMI 0-1 flow at the first angiogram. In patients with TIMI 2-3 flow on arrival, the time of the first angiogram demonstrating an open culprit artery was considered as time of patent IRA. First Medical Contact (FMC) was defined as time when the patient called the ambulance system for patients admitted with ambulance directly to the cath lab and time for arrival to the Emergency Department for other patients. Patients were followed for one year for the occurrence of rehospitalisation for angina, myocardial infarction, PCI or CABG and for mortality. The study protocol was approved by the Regional Ethical Review Board in Linkoping and adhered to the Declaration of Helsinki.  Statistical analysis Data were analysed with SPSS software, version18.0 (SPSS,Chicago, Illinois). Continuous variables were reported as mean +/- SD or median (25th-75th percentile) as appropriate. For normally distributed variables two-tailed Student's t-test was used to verify differences between groups. Non-normally distributed variables were compared using the Mann- Whitney U test. Categorical variables were expressed as counts (percentage). Statistical significance was assessed with the Chi Square or the Fischer's Exact test. Spearman correlations were computed for time from FMC to an open IRA and ceMRI measurements of myocardial scar. Multiple linear regression analysis was used to determine independent correlates of infarct size. Variables included were age, sex, current smoker, kidney function, diabetes, LAD as the culprit artery, TIMI 0-1 flow at the first angiogram and time from FMC to demonstration of a patent artery. Variables were entered simultaneously into the model. All reported p- values are two sided. P-values < 0.05 were considered statistically significant. Results Patient mean age was 62 years (SD 9.7). All patients had definite ST elevation on their diagnostic ECG and had elevated troponins. PCI was performed on a clearly visible culprit lesion and all patients were discharged with a diagnosis of myocardial infarction. A minority of patients (16%) were women. The median time from FMC to an open artery was 89 minutes. All but one patient received abciximab in conjunction with primary PCI of whom 79% were pre-treated with abciximab before arriving at the cath lab. A majority of patients were admitted directly to the cath lab by ambulance. No patient was lost to follow up (Table 1). The culprit vessel was the left anterior descending artery (LAD) in 46%, the circumflex artery (CX) in 12% and the right coronary artery (RCA) in 42% of patients. A patent artery (TIMI 2 or 3 flow) at the first angiogram was observed in 33 (37%) patients (Table 2). An example of an occluded circumflex artery at arrival is seen in Additional file 1, the flow effect of passing the guide wire in Additional file 2 and the final effect of balloon inflation and stent placement in Additional file 3. CeMRI was performed within 42 days (range 27-65) of the index infarction. There were no cardiovascular events between the index myocardial infarction and ceMRI (19 of the 149 patients were excluded due to this criterion). Time from FMC to a patent IRA correlated weakly with absolute infarct size measured with ceMRI (Figure 2). Patients with a patent artery within 90 minutes after FMC appeared to have smaller infarct size in absolute and relative terms than those with longer delay times although this did not reach statistical significance (Table 3). Using multiple regression analysis, LAD as a culprit vessel. Baseline characteristics FMC to patent artery < 90 min (N = 48)\tFMC to patent artery >= 90 min (N = 41)\tP value\t \tAge, years (SD)\t61.8 (9.7)\t62.9 (9.8)\t0.62\t \t\t \tWomen\t5 (10.4)\t9 (22.0)\t0.14\t \t\t \tRisk factors\t\t\t\t \t\t \t Diabetes Mellitus\t4 (8.3)\t1 (2.4)\t0.37\t \t\t \t Hypertension\t12 (25.0)\t13 (31.7)\t0.48\t \t\t \t Current smoker\t21 (43.8)\t18 (43.9)\t0.99\t \t\t \t Hyperlipidemia\t1 (2.1)\t3 (7.3)\t0.33\t \t\t \tPrevious Revascularization\t0 (0)\t0 (0)\t\t \t\t \tCreatinine clearance ml/min (SD)\t81 (23.1)\t74 (18.6)\t0.60\t \t\t \tClinical presentation\t\t\t\t \t\t \t Systolic blood pressure, mmHg (SD)\t145 (29.6)\t136 (26.4)\t0.12\t \t\t \t Heart rate, beats/min (SD)\t70 (14)\t66 (14)\t0.18\t \t\t \t Presentation off hours\t27 (56.3)\t32 (78.0)\t0.03\t \t\t \t Admission with ambulance\t44 (91.7)\t34 (82.9)\t0.21\t \t\t \t Pretreatment with abciximab\t37 (77.1)\t33 (80.5)\t0.70\t \t\t \tTime delays, median, minutes (IQR)\t\t\t\t \t\t \t Symptom to FMC\t91 (51-191)\t90 (28-229)\t0.43\t \t\t \t FMC to angiography\t66 (58-79)\t93 (85-116)\t0.0005\t \t\t \t FMC to patent artery\t78 (68-83)\t107 (100-131)\t0.0005\t \t\t \t FMC to balloon\t84 (76-100)\t111 (104-140)\t0.0005\t \t\t \t Symptom to abciximab\t150 (80-195)\t160 (78-285)\t0.48\t \t\t \t Abciximab to PCI\t53 (33-68)\t63 (43-78)\t0.13                                    Data are presented as counts (percentage) if not otherwise indicated. SD Standard Deviation. IQR Interquartile range. FMC, First Medical Contact. Creatinine clearance calculated Cockroft Gault formula ((140 - Age) * (Wt in kg) * (0.85 if female)/(72 * cr) (Plasma Creatinine * 0.8136)). PCI Percutaneous coronary intervention Angiographic data FMC to patent artery < 90 min (N = 48)\tFMC to patent artery >= 90 min (N = 41)\tP value\t \tExtent of coronary disease\t \t\t \t One vessel disease\t25 (52.1)\t22 (53.7)\t0.88\t \t\t \t Two vessel disease\t15 (31.3)\t12 (29.3)\t0.84\t \t\t \t Three vessel disease\t9 (18.8)\t6 (14.6)\t0.60\t \t\t \tInfarct related artery\t \t\t \t LAD/Diagonal\t24 (50.0)\t17 (41.5)\t0.42\t \t\t \t Cx/Intermediate/Marginal\t3 (6.3)\t8 (19.5)\t0.058\t \t\t \t RCA/RPD/Posterolateral\t21 (43.8)\t16 (39.0)\t0.65\t \t\t \tTIMI flow at first angiogram\t \t\t \t TIMI 0\t20 (41.7)\t26 (63.4)\t0.04\t \t\t \t TIMI 1\t5 (10.4)\t5 (12.5)\t1.0\t \t\t \t TIMI 2\t12 (25.0)\t4 (9.8)\t0.06\t \t\t \t TIMI 3\t11 (22.9)\t6 (14.6)\t0.32                          Data are presented as counts (percentage). FMC - First Medical Contact. LAD - Left anterior descending artery. Cx - Circumflex artery. RCA - Right coronary artery. RPD - Right posterior descending artery. TIMI - Thrombolysis in Myocardial Infarction Relationship between time (minutes) from first medical contact (FMC) to an open Infarct Related Artery (IRA) and absolute scar size (ml), r = 0.27, p = 0.01. Cardiac Magnetic Resonance data FMC to patent artery < 90 min (N = 48)\tFMC to patent artery >=90 min (N = 41)\tP value\t \tScar%\t4 (1-14)\t8 (4-13)\t0.06\t \t\t \tScar ml\t6 (1-18)\t12 (6-19)\t0.07      Data are presented as median with interquartile range. FMC, First Medical Contact Active smoking and an occluded vessel (TIMI 0-1) at the first angiogram, but not time from FMC to demonstration of a patent artery, correlated with infarct size (Table 4). During one year follow up there was no mortality. A new myocardial infarction occurred in two patients and a new revascularisation with PCI and/or CABG was performed in 16 (18%) patients. In patients with an occluded IRA at presentation in the cath lab (n = 56) there was no correlation between FMC to an open vessel (r = 0.13, p = 0.36) and infarct size. There were 10 patients with no visible scar on ceMRI. These patients were admitted due to symptoms of an acute coronary syndrome with ST elevation on their diagnostic ECG. They had a clear culprit lesion treated with primary PCI that corresponded to the ECG findings. The peak troponin in this group of patients was 3.5 (0.4-14) ug/l, (cut off value 0.05 ug/l) and they were discharged from the initial hospital stay with a diagnosis of myocardial infarction. The patients without detectable scar were not regarded as aborted infarctions and were included in the total analysis. Patients with no scar on ceMRI six weeks after infarction were younger, tended to have less extensive coronary disease, had shorter time from FMC to a patent artery and had a TIMI 2-3 flow at presentation in 80% of cases. Multiple linear regression. B (95% CI)\tP value\t \tVariable\t\t\t \t\t \tAge\t0.99 (-23-22)\t0.96\t \t\t \tOccluded artery at first angiogram\t11 (5-17)\t0.0005\t \t\t \tLAD as culprit artery\t11 (5-17)\t0.0005\t \t\t \tFMC to patent artery (minutes)\t0.02 (-0.06-0.09)\t0.61\t \t\t \tActive Smoker\t7 (1-13)\t0.02\t \t\t \tMale sex\t4 (-3-12)\t0.26\t \t\t \teGFR\t-0.1 (-0.3-0.1)\t0.23\t \t\t \tDiabetes\t1 (-10-13)\t0.82     Predictors of infarct size (Scar ml) B, regression coefficient. CI, confidence interval. FMC - First Medical Contact. LAD, Left anterior descending artery. eGFR,estimated glomerular filtration rate Discussion In this single centre prospective study of patients with STEMI we found a weak correlation between First Medical Contact (FMC) to an open IRA (median time 89 minutes) and infarct size measured with ceMRI. Measurements of overall treatment delay could be hampered by recall bias and measurement error. Therefore, in the main analysis we have used the robust measure of time from FMC-to-patent artery instead of symptom-to-patent artery. However the relationship for total delay time and infarct size was only marginally weaker (r = 0.21, p = 0.05) than health care delay time and infarct size (r = 0.27, p = 0.01). Even if the analysis was restricted to patients with an occluded artery at presentation, i.e. TIMI 0-1 flow, we found no correlation between time from symptom onset, (r = 0.12, p = 0.38), or FMC to a patent IRA (r = 0.13, p = 0.36) and infarct size. Patients who demonstrated a patent artery within 90 minutes of FMC showed a trend towards smaller infarct size than those who presented with longer delay times. Moreover, among 10 patients with no infarct detectable on ceMRI all but one had a FMC-to-patent artery time less than 80 minutes. Several studies have shown a correlation between time to treatment and mortality as well as between time to treatment and myocardial salvage and damage measured with Single Photon Emission Computed Tomography (SPECT) or ceMRI. Intuitively, we expect an association between time delay and scar size. Several mechanisms that dilute this association may be in operation and need to be accounted for, such as variable effects of reperfusion injury which may be responsible for as much as 25% of final infarct size. The circumstances governing effects of reperfusion are only partly known. In a pooled analysis of four contemporary primary PCI trials, Stone et al. showed longer symptom-onset-to-balloon time to be associated with larger infarct size measured with SPECT. Specifically there was a benefit in patients reperfused within three hours of coronary occlusion. In patients with PCI less than two hours after symptom onset infarct size was very small, being only 4% of the left ventricular myocardium. These results are in line with a study by Hedstrom et al. who provided evidence that infarct size increased with the duration of ischemia in their population with an occluded artery. There are several reasons why the correlation between time from FMC to open artery and scar size was weak in our study. A substantial number (37%) showed TIMI 2-3 flow in the IRA on the first angiogram. The true time to spontaneous opening of the IRA is most likely shorter than the time attributed to those patients in the study. This fact may dilute the relationship between time delay and scar size. In patients with TIMI 2-3 flow at angiograpy, 82% received abciximab already in the ambulance. Moreover, these patients had significantly smaller infarct size measured on ceMRI (7 vs. 17 ml, p < 0.001) and 8 out of 33 patients with a patent IRA on arrival had no sign of myocardial scar at all. The benefit of a normal epicardial blood flow in the IRA before PCI has been documented in numerous studies. Antegrade flow in the IRA has been associated with smaller infarct size and could weaken the effect of longer health care delay time. The median time from symptom-to-angiography in our study was189 minutes which also is the median time for the whole population of STEMI patients treated with primary PCI in Sweden. The total time delay to primary PCI in our population was 193 minutes. As shown in the study by Stone and supported by experimental results there is less effect on infarct size when PCI is performed two to three hours after coronary occlusion. Moreover, Francone et.al showed that myocardial salvage was detectable mainly in patients reperfused within 90 minutes after symptom onset which was achieved in only three of our patients. Additionally, the median infarct size was small, 7% of LV mass, probably reflecting that the study population represented a healthier part of the wider spectrum of STEMI patients which reduces the possibility to demonstrate significant differences between groups based on the time delay to opening the vessel. Lastly, we cannot rule out that in a larger study population we would have seen a stronger correlation between time to treatment and infarct size.  The influence of the infarct related artery Patients with infarctions within the LAD territory had significantly shorter time from symptom onset to FMC (60 vs 130, p = 0.01) but no difference in FMC to PCI or a patent artery. (88 vs 89, p = 0.44). This could be interpreted in terms of a larger ischemic area producing more intense symptoms prompting patients to seek medical attention. The patients with LAD as the culprit artery actually developed larger infarct size, 16 ml vs. 9 ml, p = 0.02, despite shorter time to treatment. Multiple regression analyses revealed LAD as the culprit artery, active smoking and an occluded vessel at the first angiogram to correlate with infarct size. This could be due to several factors such as, a) the LAD perfuses a larger myocardial territory than other vessels, b) the scar size from a maintained occlusion with a late reperfusion injury could be larger than from a shorter ischemic time combined with an early reperfusion, c) active smoking could be related to more advanced atherosclerosis, or to a hypercoagulable state lowering the chance of spontaneous thrombolysis. Limitations of the study Only patients who survived the initial hospital stay and were free from a cardiac event during the interim period were included. CeMRI was performed on average six weeks after myocardial infarction and not in the early phase of infarction. However, studies have shown that infarct size measured with ceMRI is largest in the acute phase and diminishes gradually. After 10 days the contrast enhanced area seems to be quite stable and allows reproducible measurement of the size of the final myocardial damage even if later shrinkage of scar is possible. The median symptom-to-patent artery time was more than three hours and only three patients were treated within 90 minutes of symptom onset, which is the new gold standard proposed by the study by Francone et al.. However the time delays in our study are not longer than measured in many other trials. In addition, for patients with an open vessel at angiography, the time to open artery was taken as the time of the angiography, even if spontaneous opening of the vessel may have occurred earlier. Conclusions In STEMI patients treated with primary PCI we found a weak correlation between FMC to demonstration of an open IRA and myocardial injury on ceMRI six weeks later. In this study, other factors like anterior infarction, a patent artery at the initial angiogram and effects of reperfusion injury seem to have greater influence on infarct size than time to treatment per se. Competing interests The authors declare that they have no competing interests. Authors' contributions TT, JA, MJ, JE and ES have been involved in conception and design. JE and ES recruited the subjects. TT, EM and JE have been involved in data acquisition. TT, EM and JE post processed the data. TT, JA, MJ, EM, JE and ES analysed and interpreted the data. TT performed the statistical analysis. TT, JA, MJ, JE and ES supervised the study. TT, JE and ES drafted the manuscript. TT, JA, MJ, EM, JE and ES critically revised the manuscript. All authors had full access to the data and take responsibility for its integrity. All authors have read and agree to the manuscript as written. Funding This work was supported by the Medical Research Council of Southeast Sweden, the medical faculty of Linkoping University, the Swedish Heart-Lung foundation, the Swedish Research Council, Futurum - the Academy for health Care Jonkoping County Council and the Center of Medical Image Science and Visualization at Linkoping University Hospital     Pre-publication history The pre-publication history for this paper can be accessed here: http://www.biomedcentral.com/1471-2261/12/9/prepub Supplementary Material Acknowledgements We are indebted to Elisabeth Logander and Margareta Hallgren for scheduling of patients and performing echocardiography. We also thank the staff at CMIV for investigating patients with ceMRI. Primary angioplasty versus intravenous thrombolytic therapy for acute myocardial infarction: a quantitative review of 23 randomised trials Long-term outcomes of patients with acute myocardial infarction presenting to hospitals without catheterization laboratory and randomized to immediate thrombolysis or interhospital transport for primary percutaneous coronary intervention. Five years' follow-up of the PRAGUE-2 Trial.  Abciximab as adjunctive therapy to reperfusion in acute ST-segment elevation myocardial infarction: a meta-analysis of randomized trials Effect of door-to-balloon time on mortality in patients with ST-segment elevation myocardial infarction Time delay to treatment and mortality in primary angioplasty for acute myocardial infarction: every minute of delay counts Relationship of symptom-onset-to-balloon time and door-to-balloon time with mortality in patients undergoing angioplasty for acute myocardial infarction Impact of treatment delays on outcomes of primary percutaneous coronary intervention for acute myocardial infarction: analysis from the CADILLAC trial Therapy-dependent influence of time-to-treatment interval on myocardial salvage in patients with acute myocardial infarction treated with coronary artery stenting or thrombolysis Impact of primary coronary angioplasty delay on myocardial salvage, infarct size, and microvascular damage in patients with ST-segment elevation myocardial infarction: insight from cardiovascular magnetic resonance Impact of time to treatment on myocardial reperfusion and infarct size with primary percutaneous coronary intervention for acute myocardial infarction (from the EMERALD Trial) Relationship between size of myocardial infarctions assessed by delayed contrast-enhanced MRI after primary PCI, biochemical markers, and time to intervention Influence of time-to-treatment, TIMI-flow grades, and ST-segment resolution on infarct size and infarct transmurality as assessed by delayed enhancement magnetic resonance imaging Duration of ischemia is a major determinant of transmurality and severe microvascular obstruction after primary angioplasty: a study performed with contrast-enhanced magnetic resonance Automated quantification of myocardial infarction from MR images by accounting for partial volume effects: animal, phantom, and human study System delay and mortality among patients with STEMI treated with primary percutaneous coronary intervention Symptom-onset-to-balloon time and mortality in patients with acute myocardial infarction treated by primary angioplasty Association of door-to-balloon time and mortality in patients admitted to hospital with ST elevation myocardial infarction: national cohort study Importance of time to reperfusion for 30-day and late survival and recovery of left ventricular function after primary angioplasty for acute myocardial infarction Influence of treatment delay on infarct size and clinical outcome in patients with acute myocardial infarction treated with primary angioplasty Gibbons RJ: Time to therapy and salvage in myocardial infarction Effect of cyclosporine on left ventricular remodeling after reperfused myocardial infarction Myocardial reperfusion injury Predictors of infarct size after primary coronary angioplasty in acute myocardial infarction from pooled analysis from four contemporary trials Infarct evolution in man studied in patients with first-time coronary occlusion in comparison to different species - implications for assessment of myocardial salvage Early treatment with abciximab in patients with ST elevation myocardial infarction results in a high rate of normal or near normal blood flow in the infarct related artery Spontaneous reperfusion in ST-elevation myocardial infarction: comparison of angiographic and electrocardiographic assessments Benefit of angiographic spontaneous reperfusion in STEMI: does it extend to diabetic patients? Reperfusion after primary angioplasty for ST-elevation myocardial infarction: predictors of success and relationship to clinical outcomes in the APEX-AMI angiographic study Randomized early versus late abciximab in acute myocardial infarction treated with primary coronary intervention (RELAx-AMI Trial) Patent coronary artery and myocardial infarction in the era of primary angioplasty: assessment of an old problem in a new setting with data from the Swedish Coronary Angiography and Angioplasty Registry (SCAAR) Relationship between residual blood flow in the infarct-related artery and scintigraphic infarct size, myocardial salvage, and functional recovery in patients with acute myocardial infarction Normal flow (TIMI-3) before mechanical reperfusion therapy is an independent determinant of survival in acute myocardial infarction: analysis from the primary angioplasty in myocardial infarction trials Arsrapport RIKS-HIA, SCAAR och SEPHIA 2007  The wavefront phenomenon of ischemic cell death. 1. Myocardial infarct size vs duration of coronary occlusion in dogs.  Pexelizumab and infarct size in patients with acute myocardial infarction undergoing primary percutaneous coronary Intervention: a delayed enhancement cardiac magnetic resonance substudy from the APEX-AMI trial Infarct size by contrast enhanced cardiac magnetic resonance is a stronger predictor of outcomes than left ventricular ejection fraction or end-systolic volume index: prospective cohort study Correspondence between left ventricular 17 myocardial segments and coronary arteries Effect of cigarette smoking on outcome after thrombolytic therapy for myocardial infarction Effects of primary angioplasty for acute myocardial infarction on early and late infarct size and left ventricular wall characteristics Late improvement of regional wall motion after the subacute phase of myocardial infarction treated by acute PTCA in a 6-month follow-up",
+    "entities": [
+        {
+            "entityId": "63_68",
+            "span": {
+                "begin": 63,
+                "end": 68
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "69_77",
+            "span": {
+                "begin": 69,
+                "end": 77
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "91_100",
+            "span": {
+                "begin": 91,
+                "end": 100
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "174_192",
+            "span": {
+                "begin": 174,
+                "end": 192
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "249_283",
+            "span": {
+                "begin": 249,
+                "end": 283
+            },
+            "entityType": "disease",
+            "entityName": "ST-Elevation Myocardial Infarction",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "285_290",
+            "span": {
+                "begin": 285,
+                "end": 290
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "575_580",
+            "span": {
+                "begin": 575,
+                "end": 580
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "581_589",
+            "span": {
+                "begin": 581,
+                "end": 589
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "709_719",
+            "span": {
+                "begin": 709,
+                "end": 719
+            },
+            "entityType": "disease",
+            "entityName": "infarction",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "987_1008",
+            "span": {
+                "begin": 987,
+                "end": 1008
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial Infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1061_1069",
+            "span": {
+                "begin": 1061,
+                "end": 1069
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1397_1405",
+            "span": {
+                "begin": 1397,
+                "end": 1405
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1411_1416",
+            "span": {
+                "begin": 1411,
+                "end": 1416
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "1744_1778",
+            "span": {
+                "begin": 1744,
+                "end": 1778
+            },
+            "entityType": "disease",
+            "entityName": "ST elevation myocardial infarction",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "1780_1785",
+            "span": {
+                "begin": 1780,
+                "end": 1785
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "1907_1919",
+            "span": {
+                "begin": 1907,
+                "end": 1919
+            },
+            "entityType": "gene",
+            "entityName": "Gp) IIb/IIIa",
+            "id": "UMLS:C0016011"
+        },
+        {
+            "entityId": "1975_1982",
+            "span": {
+                "begin": 1975,
+                "end": 1982
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2155_2163",
+            "span": {
+                "begin": 2155,
+                "end": 2163
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2169_2174",
+            "span": {
+                "begin": 2169,
+                "end": 2174
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "2354_2362",
+            "span": {
+                "begin": 2354,
+                "end": 2362
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2458_2466",
+            "span": {
+                "begin": 2458,
+                "end": 2466
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2531_2539",
+            "span": {
+                "begin": 2531,
+                "end": 2539
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "2608_2613",
+            "span": {
+                "begin": 2608,
+                "end": 2613
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "2614_2622",
+            "span": {
+                "begin": 2614,
+                "end": 2622
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2984_2992",
+            "span": {
+                "begin": 2984,
+                "end": 2992
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2998_3003",
+            "span": {
+                "begin": 2998,
+                "end": 3003
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "3044_3053",
+            "span": {
+                "begin": 3044,
+                "end": 3053
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "3230_3235",
+            "span": {
+                "begin": 3230,
+                "end": 3235
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "3400_3408",
+            "span": {
+                "begin": 3400,
+                "end": 3408
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3414_3419",
+            "span": {
+                "begin": 3414,
+                "end": 3419
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "3456_3465",
+            "span": {
+                "begin": 3456,
+                "end": 3465
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "3485_3493",
+            "span": {
+                "begin": 3485,
+                "end": 3493
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3523_3544",
+            "span": {
+                "begin": 3523,
+                "end": 3544
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial Infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3546_3548",
+            "span": {
+                "begin": 3546,
+                "end": 3548
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "3606_3625",
+            "span": {
+                "begin": 3606,
+                "end": 3625
+            },
+            "entityType": "disease",
+            "entityName": "bundle branch block",
+            "id": "UMLS:C0006384"
+        },
+        {
+            "entityId": "3726_3746",
+            "span": {
+                "begin": 3726,
+                "end": 3746
+            },
+            "entityType": "drug",
+            "entityName": "acetylsalicylic acid",
+            "id": "UMLS:C0004057"
+        },
+        {
+            "entityId": "3819_3828",
+            "span": {
+                "begin": 3819,
+                "end": 3828
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "3987_3996",
+            "span": {
+                "begin": 3987,
+                "end": 3996
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "4000_4008",
+            "span": {
+                "begin": 4000,
+                "end": 4008
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4080_4082",
+            "span": {
+                "begin": 4080,
+                "end": 4082
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "4084_4092",
+            "span": {
+                "begin": 4084,
+                "end": 4092
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4096_4104",
+            "span": {
+                "begin": 4096,
+                "end": 4104
+            },
+            "entityType": "drug",
+            "entityName": "warfarin",
+            "id": "UMLS:C0043031"
+        },
+        {
+            "entityId": "4203_4211",
+            "span": {
+                "begin": 4203,
+                "end": 4211
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4241_4246",
+            "span": {
+                "begin": 4241,
+                "end": 4246
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "4269_4278",
+            "span": {
+                "begin": 4269,
+                "end": 4278
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "4340_4349",
+            "span": {
+                "begin": 4340,
+                "end": 4349
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "4498_4503",
+            "span": {
+                "begin": 4498,
+                "end": 4503
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "4504_4512",
+            "span": {
+                "begin": 4504,
+                "end": 4512
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4684_4692",
+            "span": {
+                "begin": 4684,
+                "end": 4692
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "4761_4782",
+            "span": {
+                "begin": 4761,
+                "end": 4782
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "4939_4949",
+            "span": {
+                "begin": 4939,
+                "end": 4949
+            },
+            "entityType": "disease",
+            "entityName": "malignancy",
+            "id": "UMLS:C0006826"
+        },
+        {
+            "entityId": "4955_4969",
+            "span": {
+                "begin": 4955,
+                "end": 4969
+            },
+            "entityType": "disease",
+            "entityName": "claustrophobia",
+            "id": "UMLS:C0008909"
+        },
+        {
+            "entityId": "5131_5139",
+            "span": {
+                "begin": 5131,
+                "end": 5139
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5289_5294",
+            "span": {
+                "begin": 5289,
+                "end": 5294
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "5295_5303",
+            "span": {
+                "begin": 5295,
+                "end": 5303
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5515_5522",
+            "span": {
+                "begin": 5515,
+                "end": 5522
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5662_5670",
+            "span": {
+                "begin": 5662,
+                "end": 5670
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6692_6717",
+            "span": {
+                "begin": 6692,
+                "end": 6717
+            },
+            "entityType": "drug",
+            "entityName": "gadopentetate dimeglumine",
+            "id": "UMLS:C0060934"
+        },
+        {
+            "entityId": "6719_6721",
+            "span": {
+                "begin": 6719,
+                "end": 6721
+            },
+            "entityType": "drug",
+            "entityName": "Gd",
+            "id": "UMLS:CHEBI:73893"
+        },
+        {
+            "entityId": "6722_6726",
+            "span": {
+                "begin": 6722,
+                "end": 6726
+            },
+            "entityType": "drug",
+            "entityName": "DTPA",
+            "id": "UMLS:C0013254"
+        },
+        {
+            "entityId": "7282_7292",
+            "span": {
+                "begin": 7282,
+                "end": 7292
+            },
+            "entityType": "drug",
+            "entityName": "gadolinium",
+            "id": "mesh:D005682"
+        },
+        {
+            "entityId": "7780_7801",
+            "span": {
+                "begin": 7780,
+                "end": 7801
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial Infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "7904_7927",
+            "span": {
+                "begin": 7904,
+                "end": 7927
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "8098_8106",
+            "span": {
+                "begin": 8098,
+                "end": 8106
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8153_8161",
+            "span": {
+                "begin": 8153,
+                "end": 8161
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8357_8364",
+            "span": {
+                "begin": 8357,
+                "end": 8364
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8397_8405",
+            "span": {
+                "begin": 8397,
+                "end": 8405
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8514_8522",
+            "span": {
+                "begin": 8514,
+                "end": 8522
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8524_8532",
+            "span": {
+                "begin": 8524,
+                "end": 8532
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "8604_8610",
+            "span": {
+                "begin": 8604,
+                "end": 8610
+            },
+            "entityType": "disease",
+            "entityName": "angina",
+            "id": "UMLS:C0002962"
+        },
+        {
+            "entityId": "8612_8633",
+            "span": {
+                "begin": 8612,
+                "end": 8633
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "9606_9614",
+            "span": {
+                "begin": 9606,
+                "end": 9614
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "9894_9901",
+            "span": {
+                "begin": 9894,
+                "end": 9901
+            },
+            "entityType": "species",
+            "entityName": "Patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "9938_9946",
+            "span": {
+                "begin": 9938,
+                "end": 9946
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10014_10023",
+            "span": {
+                "begin": 10014,
+                "end": 10023
+            },
+            "entityType": "gene",
+            "entityName": "troponins",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "10087_10095",
+            "span": {
+                "begin": 10087,
+                "end": 10095
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10132_10153",
+            "span": {
+                "begin": 10132,
+                "end": 10153
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "10169_10177",
+            "span": {
+                "begin": 10169,
+                "end": 10177
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10189_10194",
+            "span": {
+                "begin": 10189,
+                "end": 10194
+            },
+            "entityType": "species",
+            "entityName": "women",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10267_10274",
+            "span": {
+                "begin": 10267,
+                "end": 10274
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10284_10293",
+            "span": {
+                "begin": 10284,
+                "end": 10293
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "10360_10369",
+            "span": {
+                "begin": 10360,
+                "end": 10369
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "10417_10425",
+            "span": {
+                "begin": 10417,
+                "end": 10425
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10482_10489",
+            "span": {
+                "begin": 10482,
+                "end": 10489
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10676_10684",
+            "span": {
+                "begin": 10676,
+                "end": 10684
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "10769_10777",
+            "span": {
+                "begin": 10769,
+                "end": 10777
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11149_11170",
+            "span": {
+                "begin": 11149,
+                "end": 11170
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "11196_11204",
+            "span": {
+                "begin": 11196,
+                "end": 11204
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "11350_11358",
+            "span": {
+                "begin": 11350,
+                "end": 11358
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14763_14784",
+            "span": {
+                "begin": 14763,
+                "end": 14784
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "14801_14809",
+            "span": {
+                "begin": 14801,
+                "end": 14809
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14885_14893",
+            "span": {
+                "begin": 14885,
+                "end": 14893
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14898_14906",
+            "span": {
+                "begin": 14898,
+                "end": 14906
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15049_15056",
+            "span": {
+                "begin": 15049,
+                "end": 15056
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "15077_15085",
+            "span": {
+                "begin": 15077,
+                "end": 15085
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15123_15131",
+            "span": {
+                "begin": 15123,
+                "end": 15131
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15168_15191",
+            "span": {
+                "begin": 15168,
+                "end": 15191
+            },
+            "entityType": "disease",
+            "entityName": "acute coronary syndrome",
+            "id": "UMLS:C0948089"
+        },
+        {
+            "entityId": "15340_15348",
+            "span": {
+                "begin": 15340,
+                "end": 15348
+            },
+            "entityType": "gene",
+            "entityName": "troponin",
+            "id": "UMLS:C0041199"
+        },
+        {
+            "entityId": "15366_15374",
+            "span": {
+                "begin": 15366,
+                "end": 15374
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15500_15521",
+            "span": {
+                "begin": 15500,
+                "end": 15521
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "15527_15535",
+            "span": {
+                "begin": 15527,
+                "end": 15535
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15642_15650",
+            "span": {
+                "begin": 15642,
+                "end": 15650
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15744_15760",
+            "span": {
+                "begin": 15744,
+                "end": 15760
+            },
+            "entityType": "disease",
+            "entityName": "coronary disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "16491_16499",
+            "span": {
+                "begin": 16491,
+                "end": 16499
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "16505_16510",
+            "span": {
+                "begin": 16505,
+                "end": 16510
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "16619_16626",
+            "span": {
+                "begin": 16619,
+                "end": 16626
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "17027_17034",
+            "span": {
+                "begin": 17027,
+                "end": 17034
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "17101_17109",
+            "span": {
+                "begin": 17101,
+                "end": 17109
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17298_17305",
+            "span": {
+                "begin": 17298,
+                "end": 17305
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "17312_17320",
+            "span": {
+                "begin": 17312,
+                "end": 17320
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "17492_17500",
+            "span": {
+                "begin": 17492,
+                "end": 17500
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18406_18414",
+            "span": {
+                "begin": 18406,
+                "end": 18414
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18471_18479",
+            "span": {
+                "begin": 18471,
+                "end": 18479
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "18737_18745",
+            "span": {
+                "begin": 18737,
+                "end": 18745
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "19099_19107",
+            "span": {
+                "begin": 19099,
+                "end": 19107
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19197_19205",
+            "span": {
+                "begin": 19197,
+                "end": 19205
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19253_19262",
+            "span": {
+                "begin": 19253,
+                "end": 19262
+            },
+            "entityType": "gene",
+            "entityName": "abciximab",
+            "id": "UMLS:C0288672"
+        },
+        {
+            "entityId": "19305_19313",
+            "span": {
+                "begin": 19305,
+                "end": 19313
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19412_19420",
+            "span": {
+                "begin": 19412,
+                "end": 19420
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "19465_19480",
+            "span": {
+                "begin": 19465,
+                "end": 19480
+            },
+            "entityType": "disease",
+            "entityName": "myocardial scar",
+            "id": "UMLS:C2004491"
+        },
+        {
+            "entityId": "19862_19867",
+            "span": {
+                "begin": 19862,
+                "end": 19867
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "19868_19876",
+            "span": {
+                "begin": 19868,
+                "end": 19876
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20238_20246",
+            "span": {
+                "begin": 20238,
+                "end": 20246
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20336_20344",
+            "span": {
+                "begin": 20336,
+                "end": 20344
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20510_20515",
+            "span": {
+                "begin": 20510,
+                "end": 20515
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "20516_20524",
+            "span": {
+                "begin": 20516,
+                "end": 20524
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "20848_20856",
+            "span": {
+                "begin": 20848,
+                "end": 20856
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21155_21163",
+            "span": {
+                "begin": 21155,
+                "end": 21163
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21195_21203",
+            "span": {
+                "begin": 21195,
+                "end": 21203
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21824_21839",
+            "span": {
+                "begin": 21824,
+                "end": 21839
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "21849_21870",
+            "span": {
+                "begin": 21849,
+                "end": 21870
+            },
+            "entityType": "disease",
+            "entityName": "hypercoagulable state",
+            "id": "UMLS:C0398623"
+        },
+        {
+            "entityId": "21950_21958",
+            "span": {
+                "begin": 21950,
+                "end": 21958
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22019_22026",
+            "span": {
+                "begin": 22019,
+                "end": 22026
+            },
+            "entityType": "disease",
+            "entityName": "cardiac",
+            "id": "mesh:D006331"
+        },
+        {
+            "entityId": "22121_22142",
+            "span": {
+                "begin": 22121,
+                "end": 22142
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "22579_22587",
+            "span": {
+                "begin": 22579,
+                "end": 22587
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22815_22823",
+            "span": {
+                "begin": 22815,
+                "end": 22823
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23010_23015",
+            "span": {
+                "begin": 23010,
+                "end": 23015
+            },
+            "entityType": "disease",
+            "entityName": "STEMI",
+            "id": "UMLS:C1536220"
+        },
+        {
+            "entityId": "23016_23024",
+            "span": {
+                "begin": 23016,
+                "end": 23024
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "63_68",
+            "subjectText": "STEMI",
+            "rel_name": "treat",
+            "objectId": "91_100",
+            "objectText": "abciximab"
+        },
+        {
+            "subjectID": "575_580",
+            "subjectText": "STEMI",
+            "rel_name": "treat",
+            "objectId": "709_719",
+            "objectText": "infarction"
+        }
+    ]
+}

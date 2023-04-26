@@ -1,0 +1,2608 @@
+{
+    "sourcid": "PMC3580427",
+    "publisher": "BioMed Central",
+    "journal": "Stem Cell Research & Therapy",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3580427/",
+    "text": "A comparison of the efficacy of transplantation of bone marrow-derived mesenchymal stem cells and unrestricted somatic stem cells on outcome after acute myocardial infarction Introduction A number of questions remain unanswered in the field of cell therapy for acute myocardial infarction, including what is the optimal cell type, and can therapeutic efficacy be enhanced by conditioning regimens. In this study, we sought to address these questions by directly comparing the effect of bone marrow-derived mesenchymal stem cells and unrestricted somatic stem cells delivered 24 hours post-myocardial infarction and by determining if the therapeutic efficacy of unrestricted somatic stem cells could be enhanced by exposing the cells to guiding factors before cell transplantation. Methods Unrestricted somatic stem cells were guided by exposure to 50 ng/mL basic fibroblast growth factor, 20 ng/mL hepatocyte growth factor and 20 ng/mL bone morphogenetic protein-2 for 24 hours. Using a Sprague-Dawley rat model of acute myocardial infarction, we transplanted cells by intramyocardial injection 24 hours post-myocardial infarction. Cardiac function was serially measured using echocardiography, and histological analyses of infarct morphology, angiogenesis and apoptosis were obtained. Transcriptomic and proteomic changes were assessed using microarray and real-time quantitative PCR. Results When assessed 28 days after the myocardial infarction, the delivery of mesenchymal stem cells 24 hours post-myocardial infarction did not improve ejection fraction (P = 0.19), and did not prevent the decline in ejection fraction observed in the absence of cell therapy (P = 0.17). The administration of unrestricted somatic stem cells also did not improve ejection fraction (P = 0.11), but did prevent a further decline in ejection fraction (P = 0.001). Delivery of guided unrestricted somatic stem cells significantly improved ejection fraction (P = 0.03). Guided unrestricted somatic stem cells restored function to a greater extent than mesenchymal stem cells (P = 0.03). The infarct area (P = 0.2), apoptosis (P = 0.07) and angiogenesis (P = 0.09) did not differ between groups. Microarray analysis revealed that, following pre-implantation guiding, the gene groupings of mitosis, signalling and angiogenesis were highly overrepresented, mediators of apoptosis were overrepresented, and cardiomyocyte-associated genes were not differentially expressed. Conclusions These results suggest that guided unrestricted somatic stem cells have a moderate capacity to repair cardiac damage and that they are more effective than mesenchymal stem cells in restoring cardiac function after a myocardial infarction. The mechanism of the benefit was not fully elucidated in this study, but these observations may be mediated by favorable dysregulation of angiogenic and apoptotic gene groupings. Introduction Acute myocardial infarction (MI) results in cardiomyocyte death and scar formation. The resulting impaired cardiac function leads to cardiac failure and premature death. Stem cell therapy has the potential to limit the extent of cardiac damage by accelerating the normal healing process, improving vascularization, inhibiting apoptosis, and potentially regenerating cardiac muscle. The mechanisms of effect by which stem cells improve cardiac function are increasingly being understood, and it is generally acknowledged that a combination of actions play a complementary role. The ability of transplanted cells to engraft and transdifferentiate has been shown by a number of investigators, but the extent of engraftment is low, and probably cannot account for the magnitude of effect, suggesting that alternative mechanisms play at least as important a role. One such complementary mechanism is the paracrine effect, in that mesenchymal stem cells (MSC) may mediate the functional improvement through secretion of soluble cytokines and growth factors. In view of the probable significant contribution of the paracrine effect, a number of genetic and pharmacologic approaches have been employed to further advance the effectiveness of cell therapy. For example, bone marrow-derived MSC transfected with the anti-apoptotic gene Akt and delivered via an intra-coronary route resulted in a greater improvement in cardiac function 4 weeks post-MI than delivery of unmodified MSC. Separately, the exposure of MSC to a 'cardiopoietic cocktail' was shown to enhance the reparative capacity of MSC by promoting their differentiation into a cardiac progenitor. An additional method to optimize the effect of cell therapy is through the use of alternative cell populations. Bone marrow-derived MSC are the prototypical stem cell population, and although generally effective, genetic modification strategies in some studies have been required to demonstrate a beneficial effect. Cells with a wider differentiation potential may have a greater capacity to repair cardiac damage than MSC. One such cell type is the umbilical cord blood-derived unrestricted somatic stem cell (USSC). This is considered to be a precursor of MSC, has a different surface phenotype, a wider differentiation profile, and has the advantage of non-invasive collection. USSC have been shown to improve cardiac function in small and large animal models through a combination of autocrine and paracrine effects, and USSC have immunosuppressive properties that may confer protection from immune rejection. These favorable features may provide additional therapeutic effects over MSC; however, a direct comparison of the effectiveness of USSC and MSC has not been performed, and the effect of pre-conditioning regimens on USSC has not yet been studied. In this study, we aim to address these questions. Specifically, in an animal model of the intramyocardial delivery of stem cells after MI, we compare the efficacy of MSC with USSC; and we examine whether pre-transplantation guidance of USSC improves their therapeutic efficacy. Materials and methods Animals Female Sprague-Dawley rats (Harlan Laboratories, Blackthorn, UK) weighing 200 g were used in this study. The experiments were approved by the Clinical Research Ethics Committee of National University of Ireland, Galway, and were in compliance with the Guide for the Care and Use of Laboratory Animals as published by the US National Institutes of Health (National Institutes of Health publication no. 85-23, revised 1996). The experiments were performed under a license granted by the Department of Health and Children, in compliance with the Cruelty to Animals Act - Revised, 1876. All procedures were performed by personnel certified by LAST-Ireland in animal welfare. Isolation and culture of cells Bone marrow cells were isolated from the femoral and tibial compartments of female Sprague-Dawley rats (Harlan Laboratories) and plated at a density of 1.5 x 108 in T175 culture flasks. The mesenchymal cell population was isolated based on plastic adherence. Cells were cultured in alpha- Minimum Essential Medium and F12 medium (Sigma-Aldrich, St. Louis, MO, USA) with 10% fetal bovine serum (PAA Laboratories, GmbH, Pasching, Austria) and 1% antibiotic/antimycotic at 37oC in 5% CO2. Passage four cells were used in this experiment. Prior to administration, cells were resuspended in 250 microL serum-free F12 media (Sigma). Unrestricted somatic stem cells culture Passage four human USSC (Cell-Eng Tech, Coralville, IA, USA) were cultured in BulletKit (Sigma). Prior to administration, cells were resuspended in 250 microL serum-free F12 media (Sigma). For in vitro experimentation, USSC were plated at a density of 4 x 105 cells/cm2. After 24 hours, the media was changed, and fresh media was supplemented with 50 ng/mL basic fibroblast growth factor (bFGF), 20 ng/mL hepatocyte growth factor (HGF) and 20 ng/mL bone morphogenetic protein-2 (BMP2) (all from R&D Systems, Minneapolis, MN, USA). For in vivo experimentation, USSC were guided in an identical fashion and were detached with trypsin 0.025% after 24 hours. Expansion media was supplemented with 50 ng/mL bFGF, 20 ng/mL HGF and 20 ng/mL BMP2 24 hours prior to cell administration. Myocardial infarct model and cell administration MI was performed as previously described. Briefly, Sprague-Dawley rats were anesthetized with isoflurane reduced to 5% with oxygen, intubated, and maintained on 2% isoflurane for the duration of surgery. Following a lateral thoracotomy, the left anterior descending coronary artery was identified and ligated 2 mm distal to the left auricle with a 7-0 polypropylene suture. MI was confirmed by blanching of the myocardium distal to the suture. Animals were randomly assigned to receive 4 x 106 MSC 24 hours post-MI, 4 x 106 USSC 24 hours post-MI or 4 x 106 guided USSC (cUSSC) 24 hours post-MI. Cells were delivered in five equal aliquots by an intramyocardial injection to the border zone of the infarct. Control animals received an equal volume of F12 without cells, or no intervention post-MI. We assigned our groups as MSC, USSC, cUSSC and Media and MI only.    Echocardiographic analysis An echocardiogram was performed at baseline, and at 48 hours post-MI in the case of animals not receiving cells, and 24 hours after cell administration in those randomized to cell therapy. A third echocardiogram was performed at sacrifice, 28 +-2 days after cell administration. A short-axis image of the left ventricle at the level of the papillary muscles was recorded with a 10 Hz electronic phased-array transducer and a VIVID5 Ultrasound System(General Electric, Fairfield, CT,USA). Ejection fraction (EF) was calculated as {(LVEDD)3 - (LVESD)3}/(LVEDD)3, where LVEDD is the left ventricular end-diastolic dimension and LVESD is the left ventricular end-systolic dimension. EF was expressed as a percentage, and animals were included in the study if their EF decreased by >15% from its baseline. One animal was excluded due to its EF varying by more than three standard deviations from the mean. Assessment of infarct size Myocardial fibrosis was detected by Masson's trichrome staining at 28 +-2 days post-MI. Briefly, hearts were harvested, and 15 to 18 slices of 5 microm thickness were prepared from midcavity to apex. A similar region of each heart was photographed (Olympus DP70, Olympus Corporation, Tokyo, Japan) with the aid of an inverted bright-field research microscope (Olympus IX71, Olympus Corporation) at resolutions of 1.25x, 4x and 10x, and images were recorded using the programs Image ProPlus and Analysis D. Angiogenesis assay and terminal deoxynucleotidyltransferase-mediated 2'-deoxyuridine 5'-triphosphate nick end labelling analysis Capillary density was assessed by immunohistochemical staining with Von Willebrand factor antibody (1:800, Abcam, Cambridge, MA, USA). Angiogenesis was assessed by measurement of radial diffusion and length density. Using Image ProPlus software, eight images were obtained and a grid of a known area was placed over each image. Calculation of the number of intersections of vessels with a marker on the grid allowed calculation of the radial diffusion and length density. Apoptotic cardiomyocytes in the border zone of the ischemic region were evaluated by terminal deoxynucleotidyltransferase-mediated 2'-deoxyuridine 5'-triphosphate nick end labelling (TUNEL) assay with an in situ cell death detection kit (Chemicon S7100 kit, Chemicon, Temecula, CA, USA). The percentage of TUNEL-positive cells in the border zone and infarct zone were compared to the TUNEL-positive cells in the normal myocardium. In vitro phenotypic and genotypic analysis of unrestricted somatic stem cells Immunofluorescence Immunostaining for cardiac troponin T (1:750, Abcam) and beta-myosin heavy chain (1:100, Abcam) was performed. Slides were counterstained with 4,6-diamino-2-phenylindole-containing mounting medium (Sigma). Microarray RNA was isolated (RNeasy Mini Kit, Qiagen, Hilden, Germany) and concentrated (RNeasy MinElute Cleanup Kit, Qiagen) in accordance with the manufacturer's guidelines. The integrity of RNA was evaluated with an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA). Samples with an RNA Integrity Number >9.0 were labelled and hybridized. Genome-wide expression profiling was carried out using whole human genome 4 x 44 k oligo microarrays (Agilent). Linear amplification from 500 ng total RNA and spike-in-controls (Agilent) was performed using the Agilent Low RNA Input Linear Amplification Kit Plus, one colour. Amplified RNA was directly labelled by incorporation of Cy3-labelled cytidine triphosphate. Labelled RNA was purified with RNeasy Mini spin columns (Qiagen) and 1.65 mug labelled RNA was used for chemical fragmentation and hybridization (Gene Expression Hybridization Kit, Agilent). Assembly of the gasket/slide-sandwich in the hybridization chamber (Agilent), and hybridization in the Microarray Hybridization oven (Agilent) was performed according to manufacturer instructions. Slides were scanned using an Agilent DNA Microarray Scanner. Data extraction of the resulting array images was performed using the Feature Extraction software (Agilent, Version 9.1) and GeneSpring GX v11 (Agilent) was used for statistical analysis. All samples included in downstream analysis were required to pass Agilent's QC Metrics. The global gene list was filtered to remove non-expressed genes flagged as absent. To detect differentially expressed genes, a Welch T-test using Benjamini and Hochberg multiple testing correction with an adjusted P-value <0.05 was used, along with a fold change cut off of 2.0. Functional analysis was performed using the Database for Annotation, Visualisation and Integrated Discovery. All microarray data are MIAME compliant, as detailed on the Microarray Gene Expression Data Society website. The raw data have been deposited in the MIAME compliant database ArrayExpress under accession number [E-MEXP-3638]. Data have been released in the public domain upon acceptance of this manuscript.  RNA profiling Real-time quantitative PCR was performed using a TaqMan PCR kit (Applied BioSystems, Foster City, CA, USA) in triplicate. Threshold cycle values were determined using the 2-DeltaDeltaCT method, normalized to human-specific beta-actin (Applied BioSystems). Representative upregulated and downregulated genes, as identified on microarray analysis, and pre-defined cardiac-specific genes were analysed. These genes included kazal-type serine protease inhibitor domain-containing protein 1 (KAZALD1 [GenBank:NM_030929.4]; Hs00934805_m1), extracellular matrix protein 2, female organ and adipocyte specific (ECM2; [GenBank:NM_001197295]; Hs00946422_m1), v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian) (ERBB4; [GenBank:NM_001042599.1]; Hs00171783_m1), guanine nucleotide binding protein (G protein), alpha 14 (GNA14; [GenBank:NM_004297.3]; Hs00388871_m1), dehydrogenase/reductase (SDR family) member 2 (DHRS2; [GenBank:NM_005794.3]; Hs00195090_m1), galanin prepropeptide (GAL; [GenBank:NM_015973.3]; Hs01032384_m1), tetraspanin 2 (TSPAN2; [GenBank:NM_005725.4]; Hs00194836_m1), troponin T type 2 (cardiac) (TNN2; [GenBank:NM_000364.2]; Hs00945605_m1), GATA binding protein 4 (GATA4; [GenBank:NM_002052.3]; Hs00171403_m1), heart and neural crest derivatives expressed 1 (HAND1; [GenBank:NM_004821.2]; Hs00231848_m1), NK2 homeobox 5 (NKX2.5; [GenBank:NM_004387.3]; Hs00231763_m1) and myosin, heavy chain 7, cardiac muscle, beta (MYH7; [GenBank:NM_000257.2]; Hs01110632_m1). Statistical analysis The echocardiographic data and infarct histology measurements were expressed as mean +-standard error (SE). Within group comparisons were analysed using one-sided t-test. Multiple groups were analysed with a one-sided analysis of variance and Bonferroni post hoc testing, using the statistical software PASW/SPSS  Version 18.0 (IBM, Chicago, IL, USA). A P-value of <0.05 was considered statistically significant. For analyses in which Levene's test of homogeneity of variances was significant (P <0.05), Brown-Forsythe and Welch testing was performed. Based on an expected improvement in EF of 10% (with a standard deviation of 9%) in the cUSSC group, 30 animals were required to provide a power of 90% and a two-sided alpha of 0.05 to detect this difference. Data analysis of the microarray study was performed as described above.  Results Comparison of the effect of mesenchymal stem cells and unrestricted somatic stem cells administered 24 hours post-myocardial infarction Assessment of cardiac function The first measurement of cardiac function was performed 48 hours after MI. There was no difference between groups in the EF measured at this time-point, but the MSC group did have a trend towards a higher EF than the other groups. The administration of MSC post-MI did not have a significant effect on cardiac function, as measured by echocardiography. MSC administration resulted in an EF at sacrifice of 55.3% (SE: 3.9%; n = 6), which was not statistically significantly higher than the EF observed in the MI only (n = 5) group (39.7%; SE: 4.3%; P = 0.17), or the Media (n = 6) group (41.2%; SE: 3.9%; P = 0.24) at the same time-point (Figure 1a). The EF at sacrifice in the MSC group was 5.7% lower (SE: 5.2%; P = 0.19) than the EF post-MI (Figure 1b). Ejection fraction in mesenchymal stem cell group and control groups. (a) The EF at sacrifice in the MSC group was not statistically significantly higher than the EF at sacrifice in the control groups. (b) There was a slight, but non-significant, decline in EF at sacrifice in the MSC group compared with the EF post-MI. MI Only: n = 5; Media: n = 6; MSC: n = 6. EF: ejection fraction; MI: myocardial infarction; MSC: mesenchymal stem cells. The EF measured at sacrifice in the group receiving USSC (66.5%; SE: 3.9%; n = 6) was significantly greater than the EF measured at sacrifice in the control groups of MI only (P = 0.001), and Media (P = 0.001) (Figure 2a). The administration of USSC post-MI resulted in an improvement in EF of 11% (SE: 5.25%) at sacrifice, relative to the EF measured post-MI (Figure 2b), although this improvement was not statistically significant (P = 0.11). The EF at sacrifice in the USSC group was 11.2% higher (SE: 5.5%) than the EF at sacrifice in the MSC group (55.3%; SE: 3.9%), but this difference was also not significant (P = 0.76) (Figure 2c). Ejection fraction in unrestricted somatic stem cells group and control groups. (a) The EF in the USSC group was significantly higher at sacrifice compared to the control groups (P = 0.001). This is accounted for by the improvement in EF within this group (+11%), in comparison with the decline of approximately 5% in the control groups. (b) The improvement of 11% in the USSC group was not statistically significant (P = 0.11). (c) There was no difference in the EF at sacrifice between the MSC group and the USSC group. MI Only: n = 5; Media: n = 6; MSC: n = 6; USSC: n = 6. EF: ejection fraction; MI: myocardial infarction; MSC: mesenchymal stem cells; USSC: unrestricted somatic stem cells. As the EF post-MI in the MSC group showed a trend towards being higher than the EF in the other groups, we evaluated the change in EF within each group (the difference in EF at sacrifice relative to the EF post-MI), and compared this across groups. This 'absolute change' was not significantly different between the MSC group and the USSC group (P = 0.48) (Figure 3). Thus, in this study, the administration of USSC ameliorated the decline in EF that is observed post-MI, and this effect was not observed following MSC delivery. However, USSC were not more effective than MSC in terms of restoring cardiac function. Absolute change in ejection fraction across groups. The USSC group was the only group to show an improvement in EF by the time of sacrifice. USSC delivery thus was considered to ameliorate the decline in EF observed in the control groups and the MSC group. MI Only: n = 5; Media: n = 6; MSC: n = 6; USSC: n = 6. EF: ejection fraction; MI: myocardial infarction; MSC: mesenchymal stem cells; USSC: unrestricted somatic stem cells. Assessment of infarct size Infarct area was obtained by measuring infarct length and infarct width. The mean infarct areas of the MI only group (18.6 mm2; SE: 2.6 mm2) and the Media group (20.7 mm2; SE: 2.4 mm2) were not different from the infarct areas of the MSC group (14.4 mm2; SE: 2.4 mm2) or the USSC group (17.2 mm2; SE: 2.4 mm2). There was no difference in infarct area following administration of MSC or USSC (P = 1.0) (Figure 4a). Analysis of Infarct Size, Angiogenesis and Apoptosis In the Control Groups, MSC Group and USSC Group. (a) Infarct size, (b) angiogenesis and (c) apoptosis. There was no significant difference in the infarct size, angiogenesis or apoptosis between groups. MI Only: n = 5; Media: n = 6; MSC: n = 6; USSC Group: n = 6. MI: myocardial infarction; MSC: mesenchymal stem cells; USSC: unrestricted somatic stem cells. Angiogenesis assay and TUNEL analysis Angiogenesis was assessed by the extent of radial diffusion in the border zone of each infarct, and expressed as a mean. The average radial diffusion in the MI only group (29.0 mum; SE: 3.3 mum) and Media group (24.3 mum; SE: 0.7 mum) was compared with the MSC group (21.0 mum; SE: 0.9 mum) and the USSC group (22.9 mum; SE: 1.9 mum). Testing for non-parametric data revealed no significant difference between groups (Figure 4b). In addition, the percentage of apoptotic cells in the border zone of infarcts, as assessed by TUNEL staining, was not different between groups (P = 0.07), with similar percentages of TUNEL-positive cells in the MI only group (2.2%; SE: 0.9%), the Media group (2.8%; SE: 0.8%), MSC group (6.2%; SE: 1.0%) and USSC group (4.3%, SE: 0.9%) (Figure 4c). Effect of unrestricted somatic stem cells and guided unrestricted somatic stem cells administered at 24 hours post-myocardial infarction Assessment of cardiac function The administration of cUSSC resulted in a significantly higher EF at sacrifice (65.6%; SE: 4.3%; n = 5) relative to MI only and Media (P = 0.003 for both comparisons) (Figure 5a). The administration of cUSSC resulted in an increase in EF of 20.7% (SE: 5.7%; P = 0.03) at sacrifice, relative to the EF measured 24 hours after cell administration (Figure 5b). The absolute change in EF in the cUSSC group (an increase of 20.7%) was significantly greater than that observed in the control group of MI only (P = 0.03) and Media (P = 0.01). Ejection fraction in the guided unrestricted somatic stem cells group and control groups. (a) The EF at sacrifice in the cUSSC group was significantly higher than the EF at sacrifice in the control groups. (b) The EF at sacrifice in the cUSSC group was significantly higher than the EF at 48 hours post-MI. MI Only: n = 5; Media: n = 6; cUSSC Group: n = 5. cUSSC: guided unrestricted somatic stem cells; EF: ejection fraction; MI: myocardial infarction. Comparing the cUSSC group with both the unmodified USSC group and the MSC group, there was no difference in the absolute change between the cUSSC group and the unmodified USSC group (9.7%; SE: 7.8%, P = 1.0), but there was a significant difference in the absolute change between the cUSSC group and the MSC group (P = 0.03) (Figure 6). This demonstrates that, although USSC did not generate a significantly beneficial effect when compared to MSC, cUSSC induced a greater therapeutic effect, as measured by echocardiography. Absolute change in ejection fraction across treatment groups. The change in EF across the three treatment groups is presented. There is a slight decline in EF in the MSC group, and improvements in EF in the USSC and cUSSC groups. The extent of change in the cUSSC group (20.7%) was significantly greater than the change in the MSC group (-5.7%) (P = 0.03). MSC: n = 6; USSC: n = 6; cUSSC: n = 5. cUSSC: guided unrestricted somatic stem cells; EF: ejection fraction; MSC: mesenchymal stem cells; USSC: unrestricted somatic stem cells. Assessment of infarct size The mean infarct area of the cUSSC group (12.8 mm2; SE: 2.6 mm2) was not significantly different from the infarct areas in the MI only group (P = 1.0), the Media group (P = 0.36), or the USSC group (P = 1.0) (Figure 7a). Although there was no difference in infarct size between groups, this study was not powered a priori to detect this difference. Indeed, a comparison across all groups revealed a significant correlation between infarct area and EF (r = -0.55, P = 0.002) (Figure 8), with no evidence of clustering. Of the two largest infarcts, one was observed in the USSC group, and one in the Media group. Of the three smallest infarcts, one each was observed in each of the cell groups. Analysis of Infarct Size, Angiogenesis and Apoptosis In the Control Groups, USSC Group and cUSSC Group. (a) Infarct size, (b) angiogenesis and (c) apoptosis. There was no significant difference in the infarct size, angiogenesis or apoptosis between groups. MI Only: n = 5; Media: n = 6; USSC: n = 6; cUSSC: n = 5. cUSSC: guided unrestricted somatic stem cells; MI: myocardial infarction; MSC: mesenchymal stem cells; USSC: unrestricted somatic stem cells. Correlation between ejection fraction and infarct size. Pooling all groups together, there is a significant correlation between EF and infarct size (r = -0.55; P = 0.002). There was no evidence of clustering of groups. Of the two largest infarcts, one was observed in the USSC group, and one in the Media group. Of the three smallest infarcts, one each was observed in each of the cell groups. EF: ejection fraction; LVEF: left ventricular ejection fraction; USSC: unrestricted somatic stem cells. Angiogenesis assay and TUNEL analysis The radial diffusion in the group receiving cUSSC (21.6 mum; SE: 0.6 mum), was not significantly different than the radial diffusion in all other groups, as described above (Figure 7b). The analysis of TUNEL staining also revealed the lack of effect of cUSSC on apoptosis (3.4%; SE: 1.0%) compared with all other groups (Figure 7c). In vitro phenotypic and genotypic analysis of unrestricted somatic stem cells Immunofluorescence The guiding regimen used in this study was 24 hour culture of USSC in media supplemented with 50 ng/mL bFGF, 20 ng/mL HGF and 20 ng/ml BMP2. This regimen did not result in enhanced expression of cardiac-specific markers (cardiac troponin T and beta-myosin heavy chain) as assessed by immunofluorescence. Microarray analysis To determine genomic differences of cUSSC compared with unmodified USSC, their genome-wide gene expression profiles were studied using whole human genome 4 x 44 k oligo microarrays (Agilent). There was significant differential expression of 736 genes, with a fold change of >=2.0 (adjusted P-value <0.05), with 388 upregulated and 348 downregulated. Functional analysis of differentially expressed genes was performed using the Database for Annotation, Visualisation and Integrated Discovery. From the functional annotation chart derived from this analysis, the three most significant terms are 'mitosis', 'cell division', and 'blood vessel development'. The functional terms 'vascular development' and 'blood vessel morphogenesis' were also highly represented, as were the terms 'angiogenesis' and 'regulation of angiogenesis'. Further evidence of the angiogenic profile of cUSSC was seen in the functional annotation chart, which revealed that the third most highly represented gene grouping was 'angiogenesis', after 'mitosis' and 'signalling'. Individual genes related to angiogenesis that were significantly upregulated included fibroblast growth factor homologous factor 2 (FHF2), which was upregulated approximately seven-fold; fibroblast growth factor 13 (FGF13), upregulated over four-fold; placental growth factor (PGF), coding for a vascular endothelial growth factor-like protein, upregulated over four-fold; and both angiopoietin-like 5 and platelet-derived growth factor subunit A-related peptide were upregulated over three-fold. Graphical presentations of these findings are presented in Figure 9.   Graphical representation of the (a) upregulated and (b) downregulated gene groupings based on enrichment scores. The 388 upregulated and 348 downregulated genes are grouped according to their functional classification, and subdivided to specifically demonstrate the proportion involved in apoptosis and angiogenesis/cardiogenesis. Another of the most significantly expressed gene-sets included 'regulation of apoptosis' and 'programmed cell death'. Although in this study we did not observe a reduction in the extent of apoptosis after administration of cUSSC, the microarray finding suggests that cell death regulation may play a role in mediating the positive effects of cell therapy. Also of note is the observation that primitive and mature markers of cardiac differentiation, including GATA4, Nkx2.5, beta-myosin heavy chain and cardiac troponin T, were not significantly differentially expressed in cUSSC. The absence of dysregulation of the aforementioned cardiac genes was confirmed by RT-PCR. Discussion The evolution of cell therapy for cardiac disease has seen a gradual change in the cell populations that have been administered, from unfractionated bone marrow mononuclear cells in early reports to bone marrow-derived MSC in subsequent reports, and recently to more cardiac-specific cell populations. As the cell population has become more refined, the benefits of administration have been improving, with recent reports of the successful administration of cells of a cardiac specification (either autologous or guided), in both pre-clinical and clinical studies. The variety of cell populations that have been studied demonstrates that the optimal cell population has not yet been defined, and also that cells that are more cardiac specific may be associated with a greater effectiveness. In this study, we observed results that are generally consistent with these prior observations. We studied three distinct cell populations: bone marrow-derived MSC, umbilical cord blood-derived USSC, and USSC that had been guided by pre-implantation exposure to factors considered to induce cardiac specification. The administration of cUSSC to an animal model of acute MI was associated with a beneficial effect on cardiac function. Using echocardiography as a primary determinant of effectiveness, we observed that the delivery of MSC post-MI did not result in significant recovery of cardiac function post-MI, and it did not impact on the continued decline in cardiac function post-MI. Although many studies have shown that the delivery of bone marrow-derived MSC improves cardiac function, this observation has not been replicated by all investigators. For example, in one study, it was shown that hearts receiving unmodified MSC perform no better than untreated infarcted hearts. The mechanism for this is postulated to be related to the intense inflammatory environment induced by infarction, in that transplanting cells into this environment may overwhelm the ability of these cells to survive. Modification of cells to enhance the expression of the pro-survival gene Akt1 was required before improvements in survival capacity were observed. Furthermore, unmodified MSC, which do not have a cardiac specification, may have reduced ability to repair cardiac damage as they do not have a transcriptome that is conducive to cardiac repair. Pre-treating cells with a cardiopoietic cocktail has been shown to induce cardiac specification, and significantly enhances the cells' ability to restore cardiac function, as measured by echocardiography. We evaluated the relative effectiveness of USSC, compared with MSC, to determine whether this cell population provides a greater potential for cardiac repair. We observed that the administration of USSC post-MI was only moderately effective, in that it prevents the decline in cardiac function that is observed in the absence of cell therapy. This echocardiographic outcome was not supported by significant changes in infarct size, angiogenesis or apoptosis however. Also, the administration of USSC was not more beneficial than the administration of MSC, and we cannot conclude that unmodified USSC are a substantially more effective therapy. Although there is evidence that umbilical cord blood-derived stem cells have intrinsic cardiomyogenic potential, which may provide a significant advantage over alternative cell populations, this potential advantage was not realized in our study. In this study, we did not administer immunomodulatory agents to the animals receiving human USSC therapy, and therefore the possibility exists that an immune response could partially explain our results. However, while the administration of human MSC to animal models is associated with a significant immune response, umbilical cord blood-derived cells are more immune privileged and promote a much lower immune response. Specifically, after the xenogeneic transplantation of umbilical- and bone marrow-derived stem cells, umbilical cord-derived stem cells were shown to be less immunogenic, cause less immune activation, and get rejected more slowly than bone marrow-derived cells. Separately, a recent review of the xenotransplantation of human adipose tissue-derived stem cells concluded that immunocompatability was observed in studies of the transplantation of human cells into rats, mice, dogs and rabbits. Furthermore, in a study of the allogeneic activity of USSC, USSC are shown to be conditionally immunosuppressive and their immunological properties to be regulated by the local environment. Therefore, although in our study we did not administer immunomodulatory therapy, we do not believe that this had a significant impact on our observations. Previous studies have demonstrated that cells that have been guided prior to implantation are more effective than unmodified cells. This finding has been observed in bone marrow-derived cells, and has not yet been described in USSC. The guiding factors used in this study (bFGF, HGF and BMP-2) were selected because, in embryonic tissue, they act on the primitive mesoderm to direct these cells down a cardiac pathway. However, we did not induce dysregulation of genes involved in cardiac muscle generation. To successfully induce cardiomyogenesis, it is possible that either a wider selection of guiding factors is needed, or culture conditions need to be more cardio specific. It has previously been shown that treatment of MSC with similar factors (bFGF, BMP-2, insulin-like growth factor 1 resulted in an increase in expression of cardiac-specific markers only when co-cultured in the presence of neonatal cardiomyocytes. Others have similarly reported that differentiation of bone marrow stromal cells into cells with a cardiac phenotype requires intercellular communication with myocytes, and that connexin-43, a protein required for gap junction formation, may mediate the cytoprotective effect of cell therapy. In our study, the absence of co-culture may have limited the ability of USSC to become cardiomyocytes. In cUSSC, we observed transcriptomic changes that were consistent with upregulation of both pro-angiogenic and anti-apoptotic genes, suggesting that angiogenesis and programmed cell death play central roles in mediating the benefit of this therapy. Others have shown that new vessel formation is a central component of cardiac repair; in the present study, functional annotation clustering revealed that angiogenic gene-sets were among the most upregulated clusters. Specific genes associated with angiogenesis that were upregulated in our study included FHF2, FGF13 and PGF, providing evidence of the enhanced angiogenic potential of the guided cells. Consistent with the partial angiogenic genotype that was generated in cUSSC, we observed a modestly beneficial effect of cUSSC administration on cardiac function, as measured by echocardiography. Administration of this cell population improved cardiac function post-MI, and it also had a slightly greater effect than the administration of MSC. The mechanism for this benefit was not elucidated in the present study, as histological measurements of explanted hearts did not differ between groups. Although the transcription profile of cUSSC was consistent with them having a greater angiogenic potential, this observation was not supported by our histology. A possible explanation for this is that our study was powered on the basis of anticipated improvements in cardiac function as measured by echocardiography, rather than histological parameters. Indeed, while the difference in angiogenesis between groups was not statistically significant, with a P-value of 0.09, it is conceivable that a larger cohort may have allowed statistical significance to be achieved. Further research on this observation is warranted, and it will be necessary to include assessments of the efficiency of cell engraftment and cell survival. Although prior studies have shown engraftment and survival rates of 3% at 14 days after intramyocardial cell delivery, we did not directly assess this parameter in the present study. We also did not evaluate a group of animals receiving guided MSC, as this has been performed previously, and would not represent a novel aspect to our study. Given the greater plasticity of USSC, it could be assumed that the benefit of guiding USSC would exceed that observed following guided MSC delivery. Indeed, we observed that cardiac function improved following the administration of cUSSC, but as a direct comparative group was not included, we cannot conclude that guiding MSC would have had a lesser effect. With further study, an optimal guiding regime may be identified, which would allow a direct comparison across cell types. The absence of an effect of cell therapy on infarct size has been described in a small number of studies, and is multifactorial. Possible reasons for this lack of effect include insufficient cell survival in the peri-infarct milieu that allows for a decrease in infarct size being observed. While a small number of cells persist, and their presence is enough to affect cardiac function, they are not present in sufficient numbers to decrease the extent of fibrosis or induce the formation of new cardiac muscle. In this study, we did not evaluate the survival of USSC in cardiac tissue. Another possible reason for the absence of an observed benefit was the range of infarct sizes observed within each group. Our study was primarily powered to detect a change in EF using echocardiography, and was not powered to assess infarct size a priori. However, we did observe that there was a significant correlation between infarct size and EF that suggests that the inclusion of a larger number of animals may have allowed detection of significant decreases in infarct size in line with significant increases in EF. Finally, there is no consensus regarding the optimal dose of cells (and indeed route of administration), and although we have previously investigated alternative doses and found the dose used in this study to be optimal, it remains possible that lower doses in small animals may be more beneficial. Conclusions There is a moderately beneficial effect on cardiac function after the administration of cUSSC in an animal model of acute MI. This benefit is greater than that observed after the administration of MSC, using cardiac function measured by echocardiography as the marker of improvement. In this study, we did not demonstrate that infarct morphology differed between groups, but the cUSSC group did have significant favourable dysregulation of angiogenic and apoptotic gene-sets, which may have contributed to their effectiveness. Based on the results of this study, further research on the therapeutic effect of USSC and cUSSC is warranted. Abbreviations bFGF: basic fibroblast growth factor; BMP2: bone morphogenetic protein 2; cUSSC: guided unrestricted somatic stem cells; EF: ejection fraction; HGF: hepatocyte growth factor; MI: myocardial infarction; MSC: mesenchymal stem cells; RT-PCR: reverse transcriptase polymerase chain reaction; SE: standard error; TUNEL: terminal deoxynucleotidyltransferase-mediated 2'-deoxyuridine 5'-triphosphate nick end labelling; USSC: unrestricted somatic stem cells. Competing interests TOB has received education grants from Pfizer, Novartis and Merck Ltd, has received research grants from Medtronic, and is a founder, director and equity holder in Orbsen Therapeutics. The other authors declare that they have no competing interests. Authors' contributions AF carried out all cell culture, performed and interpreted all echocardiographs, performed the microarray and PCR experiments, and drafted the manuscript. XC performed all surgical procedures and critically revised the manuscript. EOC participated in experimental design, microarray and PCR experiments and was involved in drafting the manuscript. TOB conceived of the study, participated in its design and coordination and critically revised the manuscript. All authors read and approved the final manuscript for publication. Acknowledgements We thank Aoife Duffy, Charles McHale and Georgina Shaw for their technical assistance. This work was supported by Science Foundation Ireland (SFI), Strategic Research Cluster (SRC), Grant No. SFI: 09/SRC B1794 and the European Regional Development Fund. Paracrine mechanisms in adult stem cell signaling and therapy Local delivery of marrow-derived stromal cells augments collateral perfusion through paracrine mechanisms Optimizing adult mesenchymal stem cells for heart repair Intracoronary bone marrow cell transfer after myocardial infarction: eighteen months' follow-up data from the randomized, controlled BOOST (BOne marrOw transfer to enhance ST-elevation infarct regeneration) trial Human mesenchymal stem cells differentiate to a cardiomyocyte phenotype in the adult murine heart Mesenchymal stem cell implantation in a swine myocardial infarct model: engraftment and functional effects Allogenic mesenchymal stem cells restore cardiac function in chronic ischemic cardiomyopathy via trilineage differentiation capacity Terminal differentiation is not a major determinant for the success of stem cell therapy - cross-talk between muscle-derived stem cells and host cells Paracrine action accounts for marked protection of ischemic heart by Akt-modified mesenchymal stem cells Guided cardiopoiesis enhances therapeutic benefit of bone marrow human mesenchymal stem cells in chronic myocardial infarction A new human somatic stem cell from placental cord blood with intrinsic pluripotent differentiation potential Therapeutic potential of unrestricted somatic stem cells isolated from placental cord blood for cardiac repair post myocardial infarction Cell transplantation improves ventricular function after a myocardial infarction: a preclinical study of human unrestricted somatic stem cells in a porcine model Suppression of cellular immunity by cord blood-derived unrestricted somatic stem cells is cytokine-dependent Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists Microarray Gene Expression Data Society ArrayExpress Archive Neovascularization of ischemic myocardium by human bone-marrow-derived angioblasts prevents cardiomyocyte apoptosis, reduces remodelling and improves cardiac function Intravenous mesenchymal stem cell therapy early after reperfused acute myocardial infarction improves left ventricular function and alters electrophysiologic properties Cardiac stem cells in patients with ischemic cardiomyopathy (SCIPIO): initial results of a randomised phase 1 trial C-Cure multicenter trial: lineage specified bone marrow derived cardiopoietic mesenchymal stem cells for treatment of ischemic cardiomyopathy Early beneficial effects of bone marrow-derived mesenchymal stem cells overexpressing Akt on cardiac metabolism after myocardial infarction Umbilical cord blood-derived stem cells spontaneously express cardiomyogenic traits Immunogenicity and immunomodulatory properties of umbilical cord lining mesenchymal stem cells Allogeneic and xenogeneic transplantation of adipose-derived stem cells in immunocompetent recipients without immunosuppressants Pretreatment of adult bone marrow mesenchymal stem cells with cardiomyogenic growth factors and repair of the chronically infarcted myocardium Pre-treatment of mesenchymal stem cells with a combination of growth factors enhances gap junction formation, cytoprotective effect on cardiomyocytes, and therapeutic efficacy for myocardial infarction Gap junctions and the propagation of cell survival and cell death signals Autologous mesenchymal stem cell transplantation induce VEGF and neovascularization in ischemic myocardium A quantitative, randomized study evaluating three methods of mesenchymal stem cell delivery following myocardial infarction Structure and mechanics of healing myocardial infarcts Intracoronary delivery of bone-marrow-derived stem cells",
+    "entities": [
+        {
+            "entityId": "51_93",
+            "span": {
+                "begin": 51,
+                "end": 93
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow-derived mesenchymal stem cells",
+            "id": "UMLS:C4704952"
+        },
+        {
+            "entityId": "98_129",
+            "span": {
+                "begin": 98,
+                "end": 129
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "147_174",
+            "span": {
+                "begin": 147,
+                "end": 174
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "261_288",
+            "span": {
+                "begin": 261,
+                "end": 288
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "486_528",
+            "span": {
+                "begin": 486,
+                "end": 528
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow-derived mesenchymal stem cells",
+            "id": "UMLS:C4704952"
+        },
+        {
+            "entityId": "533_564",
+            "span": {
+                "begin": 533,
+                "end": 564
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "589_610",
+            "span": {
+                "begin": 589,
+                "end": 610
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "674_692",
+            "span": {
+                "begin": 674,
+                "end": 692
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "802_820",
+            "span": {
+                "begin": 802,
+                "end": 820
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "857_887",
+            "span": {
+                "begin": 857,
+                "end": 887
+            },
+            "entityType": "gene",
+            "entityName": "basic fibroblast growth factor",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "898_922",
+            "span": {
+                "begin": 898,
+                "end": 922
+            },
+            "entityType": "gene",
+            "entityName": "hepatocyte growth factor",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "936_964",
+            "span": {
+                "begin": 936,
+                "end": 964
+            },
+            "entityType": "gene",
+            "entityName": "bone morphogenetic protein-2",
+            "id": "UMLS:C1332424"
+        },
+        {
+            "entityId": "987_1005",
+            "span": {
+                "begin": 987,
+                "end": 1005
+            },
+            "entityType": "species",
+            "entityName": "Sprague-Dawley rat",
+            "id": "UMLS:C0034715"
+        },
+        {
+            "entityId": "1015_1042",
+            "span": {
+                "begin": 1015,
+                "end": 1042
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "1109_1130",
+            "span": {
+                "begin": 1109,
+                "end": 1130
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1426_1447",
+            "span": {
+                "begin": 1426,
+                "end": 1447
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1465_1487",
+            "span": {
+                "begin": 1465,
+                "end": 1487
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal stem cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "1502_1523",
+            "span": {
+                "begin": 1502,
+                "end": 1523
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1697_1728",
+            "span": {
+                "begin": 1697,
+                "end": 1728
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "1880_1898",
+            "span": {
+                "begin": 1880,
+                "end": 1898
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "1972_1990",
+            "span": {
+                "begin": 1972,
+                "end": 1990
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "2034_2056",
+            "span": {
+                "begin": 2034,
+                "end": 2056
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal stem cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "2510_2528",
+            "span": {
+                "begin": 2510,
+                "end": 2528
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "2617_2639",
+            "span": {
+                "begin": 2617,
+                "end": 2639
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal stem cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "2678_2699",
+            "span": {
+                "begin": 2678,
+                "end": 2699
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "2899_2920",
+            "span": {
+                "begin": 2899,
+                "end": 2920
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "2922_2924",
+            "span": {
+                "begin": 2922,
+                "end": 2924
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2937_2950",
+            "span": {
+                "begin": 2937,
+                "end": 2950
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "3026_3041",
+            "span": {
+                "begin": 3026,
+                "end": 3041
+            },
+            "entityType": "disease",
+            "entityName": "cardiac failure",
+            "id": "UMLS:C0018802"
+        },
+        {
+            "entityId": "3063_3072",
+            "span": {
+                "begin": 3063,
+                "end": 3072
+            },
+            "entityType": "cell",
+            "entityName": "Stem cell",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "3309_3319",
+            "span": {
+                "begin": 3309,
+                "end": 3319
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "3485_3503",
+            "span": {
+                "begin": 3485,
+                "end": 3503
+            },
+            "entityType": "cell",
+            "entityName": "transplanted cells",
+            "id": "UMLS:C0206152"
+        },
+        {
+            "entityId": "3818_3840",
+            "span": {
+                "begin": 3818,
+                "end": 3840
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal stem cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "3842_3845",
+            "span": {
+                "begin": 3842,
+                "end": 3845
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "4396_4399",
+            "span": {
+                "begin": 4396,
+                "end": 4399
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "4478_4481",
+            "span": {
+                "begin": 4478,
+                "end": 4481
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "4701_4721",
+            "span": {
+                "begin": 4701,
+                "end": 4721
+            },
+            "entityType": "cell",
+            "entityName": "stem cell population",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "4943_4950",
+            "span": {
+                "begin": 4943,
+                "end": 4950
+            },
+            "entityType": "disease",
+            "entityName": "cardiac",
+            "id": "mesh:D006331"
+        },
+        {
+            "entityId": "4963_4966",
+            "span": {
+                "begin": 4963,
+                "end": 4966
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "4994_5053",
+            "span": {
+                "begin": 4994,
+                "end": 5053
+            },
+            "entityType": "cell",
+            "entityName": "umbilical cord blood-derived unrestricted somatic stem cell",
+            "id": "UMLS:C1710528"
+        },
+        {
+            "entityId": "5055_5059",
+            "span": {
+                "begin": 5055,
+                "end": 5059
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "5102_5105",
+            "span": {
+                "begin": 5102,
+                "end": 5105
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "5225_5229",
+            "span": {
+                "begin": 5225,
+                "end": 5229
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "5369_5373",
+            "span": {
+                "begin": 5369,
+                "end": 5373
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "5531_5534",
+            "span": {
+                "begin": 5531,
+                "end": 5534
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "5589_5593",
+            "span": {
+                "begin": 5589,
+                "end": 5593
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "5598_5601",
+            "span": {
+                "begin": 5598,
+                "end": 5601
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "5673_5677",
+            "span": {
+                "begin": 5673,
+                "end": 5677
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "5822_5832",
+            "span": {
+                "begin": 5822,
+                "end": 5832
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "5839_5841",
+            "span": {
+                "begin": 5839,
+                "end": 5841
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "5870_5873",
+            "span": {
+                "begin": 5870,
+                "end": 5873
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "5879_5883",
+            "span": {
+                "begin": 5879,
+                "end": 5883
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "5940_5944",
+            "span": {
+                "begin": 5940,
+                "end": 5944
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "6019_6038",
+            "span": {
+                "begin": 6019,
+                "end": 6038
+            },
+            "entityType": "species",
+            "entityName": "Sprague-Dawley rats",
+            "id": "UMLS:C0034715"
+        },
+        {
+            "entityId": "6522_6530",
+            "span": {
+                "begin": 6522,
+                "end": 6530
+            },
+            "entityType": "species",
+            "entityName": "Children",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6714_6731",
+            "span": {
+                "begin": 6714,
+                "end": 6731
+            },
+            "entityType": "cell",
+            "entityName": "Bone marrow cells",
+            "id": "UMLS:C0005955"
+        },
+        {
+            "entityId": "6797_6816",
+            "span": {
+                "begin": 6797,
+                "end": 6816
+            },
+            "entityType": "species",
+            "entityName": "Sprague-Dawley rats",
+            "id": "UMLS:C0034715"
+        },
+        {
+            "entityId": "6904_6931",
+            "span": {
+                "begin": 6904,
+                "end": 6931
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cell population",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "7094_7100",
+            "span": {
+                "begin": 7094,
+                "end": 7100
+            },
+            "entityType": "species",
+            "entityName": "bovine",
+            "id": "UMLS:C3667982"
+        },
+        {
+            "entityId": "7195_7198",
+            "span": {
+                "begin": 7195,
+                "end": 7198
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "7354_7380",
+            "span": {
+                "begin": 7354,
+                "end": 7380
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells culture",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "7600_7604",
+            "span": {
+                "begin": 7600,
+                "end": 7604
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "7738_7768",
+            "span": {
+                "begin": 7738,
+                "end": 7768
+            },
+            "entityType": "gene",
+            "entityName": "basic fibroblast growth factor",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "7770_7774",
+            "span": {
+                "begin": 7770,
+                "end": 7774
+            },
+            "entityType": "gene",
+            "entityName": "bFGF",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "7786_7810",
+            "span": {
+                "begin": 7786,
+                "end": 7810
+            },
+            "entityType": "gene",
+            "entityName": "hepatocyte growth factor",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "7812_7815",
+            "span": {
+                "begin": 7812,
+                "end": 7815
+            },
+            "entityType": "gene",
+            "entityName": "HGF",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "7830_7858",
+            "span": {
+                "begin": 7830,
+                "end": 7858
+            },
+            "entityType": "gene",
+            "entityName": "bone morphogenetic protein-2",
+            "id": "UMLS:C1332424"
+        },
+        {
+            "entityId": "7860_7864",
+            "span": {
+                "begin": 7860,
+                "end": 7864
+            },
+            "entityType": "gene",
+            "entityName": "BMP2",
+            "id": "UMLS:C1332424"
+        },
+        {
+            "entityId": "7941_7945",
+            "span": {
+                "begin": 7941,
+                "end": 7945
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "8005_8012",
+            "span": {
+                "begin": 8005,
+                "end": 8012
+            },
+            "entityType": "gene",
+            "entityName": "trypsin",
+            "id": "UMLS:C0041236"
+        },
+        {
+            "entityId": "8083_8087",
+            "span": {
+                "begin": 8083,
+                "end": 8087
+            },
+            "entityType": "gene",
+            "entityName": "bFGF",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "8098_8101",
+            "span": {
+                "begin": 8098,
+                "end": 8101
+            },
+            "entityType": "gene",
+            "entityName": "HGF",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "8115_8119",
+            "span": {
+                "begin": 8115,
+                "end": 8119
+            },
+            "entityType": "gene",
+            "entityName": "BMP2",
+            "id": "UMLS:C1332424"
+        },
+        {
+            "entityId": "8159_8177",
+            "span": {
+                "begin": 8159,
+                "end": 8177
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial infarct",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "8302_8312",
+            "span": {
+                "begin": 8302,
+                "end": 8312
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "8332_8338",
+            "span": {
+                "begin": 8332,
+                "end": 8338
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "8372_8382",
+            "span": {
+                "begin": 8372,
+                "end": 8382
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "8560_8573",
+            "span": {
+                "begin": 8560,
+                "end": 8573
+            },
+            "entityType": "drug",
+            "entityName": "polypropylene",
+            "id": "UMLS:C0032582"
+        },
+        {
+            "entityId": "8582_8584",
+            "span": {
+                "begin": 8582,
+                "end": 8584
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "8702_8705",
+            "span": {
+                "begin": 8702,
+                "end": 8705
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "8732_8736",
+            "span": {
+                "begin": 8732,
+                "end": 8736
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "9031_9034",
+            "span": {
+                "begin": 9031,
+                "end": 9034
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "9036_9040",
+            "span": {
+                "begin": 9036,
+                "end": 9040
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "10029_10048",
+            "span": {
+                "begin": 10029,
+                "end": 10048
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial fibrosis",
+            "id": "UMLS:C0151654"
+        },
+        {
+            "entityId": "10604_10635",
+            "span": {
+                "begin": 10604,
+                "end": 10635
+            },
+            "entityType": "drug",
+            "entityName": "2'-deoxyuridine 5'-triphosphate",
+            "id": "mesh:C027078"
+        },
+        {
+            "entityId": "10732_10762",
+            "span": {
+                "begin": 10732,
+                "end": 10762
+            },
+            "entityType": "gene",
+            "entityName": "Von Willebrand factor antibody",
+            "id": "UMLS:C0313543"
+        },
+        {
+            "entityId": "11136_11160",
+            "span": {
+                "begin": 11136,
+                "end": 11160
+            },
+            "entityType": "cell",
+            "entityName": "Apoptotic cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "11267_11298",
+            "span": {
+                "begin": 11267,
+                "end": 11298
+            },
+            "entityType": "drug",
+            "entityName": "2'-deoxyuridine 5'-triphosphate",
+            "id": "mesh:C027078"
+        },
+        {
+            "entityId": "11613_11644",
+            "span": {
+                "begin": 11613,
+                "end": 11644
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "11683_11701",
+            "span": {
+                "begin": 11683,
+                "end": 11701
+            },
+            "entityType": "gene",
+            "entityName": "cardiac troponin T",
+            "id": "UMLS:C3538889"
+        },
+        {
+            "entityId": "11721_11744",
+            "span": {
+                "begin": 11721,
+                "end": 11744
+            },
+            "entityType": "gene",
+            "entityName": "beta-myosin heavy chain",
+            "id": "UMLS:C0027100"
+        },
+        {
+            "entityId": "11807_11833",
+            "span": {
+                "begin": 11807,
+                "end": 11833
+            },
+            "entityType": "drug",
+            "entityName": "4,6-diamino-2-phenylindole",
+            "id": "mesh:C000607851"
+        },
+        {
+            "entityId": "11881_11884",
+            "span": {
+                "begin": 11881,
+                "end": 11884
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "12063_12066",
+            "span": {
+                "begin": 12063,
+                "end": 12066
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "12176_12179",
+            "span": {
+                "begin": 12176,
+                "end": 12179
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "12518_12521",
+            "span": {
+                "begin": 12518,
+                "end": 12521
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "12564_12567",
+            "span": {
+                "begin": 12564,
+                "end": 12567
+            },
+            "entityType": "drug",
+            "entityName": "Cy3",
+            "id": "UMLS:CHEBI:37990"
+        },
+        {
+            "entityId": "12577_12598",
+            "span": {
+                "begin": 12577,
+                "end": 12598
+            },
+            "entityType": "drug",
+            "entityName": "cytidine triphosphate",
+            "id": "UMLS:C0010734"
+        },
+        {
+            "entityId": "12600_12612",
+            "span": {
+                "begin": 12600,
+                "end": 12612
+            },
+            "entityType": "DNA",
+            "entityName": "Labelled RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "12678_12690",
+            "span": {
+                "begin": 12678,
+                "end": 12690
+            },
+            "entityType": "DNA",
+            "entityName": "labelled RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "14020_14023",
+            "span": {
+                "begin": 14020,
+                "end": 14023
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "14242_14267",
+            "span": {
+                "begin": 14242,
+                "end": 14267
+            },
+            "entityType": "gene",
+            "entityName": "human-specific beta-actin",
+            "id": "UMLS:C1384510"
+        },
+        {
+            "entityId": "14455_14519",
+            "span": {
+                "begin": 14455,
+                "end": 14519
+            },
+            "entityType": "gene",
+            "entityName": "kazal-type serine protease inhibitor domain-containing protein 1",
+            "id": "UMLS:C1537434"
+        },
+        {
+            "entityId": "14521_14528",
+            "span": {
+                "begin": 14521,
+                "end": 14528
+            },
+            "entityType": "gene",
+            "entityName": "KAZALD1",
+            "id": "UMLS:C1537434"
+        },
+        {
+            "entityId": "14568_14606",
+            "span": {
+                "begin": 14568,
+                "end": 14606
+            },
+            "entityType": "gene",
+            "entityName": "extracellular matrix protein 2, female",
+            "id": "UMLS:C1414249"
+        },
+        {
+            "entityId": "14637_14641",
+            "span": {
+                "begin": 14637,
+                "end": 14641
+            },
+            "entityType": "gene",
+            "entityName": "ECM2",
+            "id": "UMLS:C1414249"
+        },
+        {
+            "entityId": "14683_14747",
+            "span": {
+                "begin": 14683,
+                "end": 14747
+            },
+            "entityType": "gene",
+            "entityName": "v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian)",
+            "id": "UMLS:C1336966"
+        },
+        {
+            "entityId": "14749_14754",
+            "span": {
+                "begin": 14749,
+                "end": 14754
+            },
+            "entityType": "gene",
+            "entityName": "ERBB4",
+            "id": "UMLS:C3853568"
+        },
+        {
+            "entityId": "14798_14805",
+            "span": {
+                "begin": 14798,
+                "end": 14805
+            },
+            "entityType": "drug",
+            "entityName": "guanine",
+            "id": "UMLS:C0018321"
+        },
+        {
+            "entityId": "14798_14832",
+            "span": {
+                "begin": 14798,
+                "end": 14832
+            },
+            "entityType": "gene",
+            "entityName": "guanine nucleotide binding protein",
+            "id": "UMLS:C0086376"
+        },
+        {
+            "entityId": "14806_14816",
+            "span": {
+                "begin": 14806,
+                "end": 14816
+            },
+            "entityType": "drug",
+            "entityName": "nucleotide",
+            "id": "mesh:D009711"
+        },
+        {
+            "entityId": "14834_14843",
+            "span": {
+                "begin": 14834,
+                "end": 14843
+            },
+            "entityType": "gene",
+            "entityName": "G protein",
+            "id": "UMLS:C0086376"
+        },
+        {
+            "entityId": "14856_14861",
+            "span": {
+                "begin": 14856,
+                "end": 14861
+            },
+            "entityType": "gene",
+            "entityName": "GNA14",
+            "id": "UMLS:C1415140"
+        },
+        {
+            "entityId": "14949_14954",
+            "span": {
+                "begin": 14949,
+                "end": 14954
+            },
+            "entityType": "gene",
+            "entityName": "DHRS2",
+            "id": "UMLS:C1425464"
+        },
+        {
+            "entityId": "14995_15016",
+            "span": {
+                "begin": 14995,
+                "end": 15016
+            },
+            "entityType": "gene",
+            "entityName": "galanin prepropeptide",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "15018_15021",
+            "span": {
+                "begin": 15018,
+                "end": 15021
+            },
+            "entityType": "gene",
+            "entityName": "GAL",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "15062_15075",
+            "span": {
+                "begin": 15062,
+                "end": 15075
+            },
+            "entityType": "gene",
+            "entityName": "tetraspanin 2",
+            "id": "UMLS:C1540082"
+        },
+        {
+            "entityId": "15077_15083",
+            "span": {
+                "begin": 15077,
+                "end": 15083
+            },
+            "entityType": "gene",
+            "entityName": "TSPAN2",
+            "id": "UMLS:C1540082"
+        },
+        {
+            "entityId": "15124_15151",
+            "span": {
+                "begin": 15124,
+                "end": 15151
+            },
+            "entityType": "gene",
+            "entityName": "troponin T type 2 (cardiac)",
+            "id": "UMLS:C1420827"
+        },
+        {
+            "entityId": "15198_15220",
+            "span": {
+                "begin": 15198,
+                "end": 15220
+            },
+            "entityType": "gene",
+            "entityName": "GATA binding protein 4",
+            "id": "UMLS:C1414995"
+        },
+        {
+            "entityId": "15222_15227",
+            "span": {
+                "begin": 15222,
+                "end": 15227
+            },
+            "entityType": "gene",
+            "entityName": "GATA4",
+            "id": "UMLS:C1414995"
+        },
+        {
+            "entityId": "15316_15321",
+            "span": {
+                "begin": 15316,
+                "end": 15321
+            },
+            "entityType": "gene",
+            "entityName": "HAND1",
+            "id": "UMLS:C1415466"
+        },
+        {
+            "entityId": "15362_15376",
+            "span": {
+                "begin": 15362,
+                "end": 15376
+            },
+            "entityType": "gene",
+            "entityName": "NK2 homeobox 5",
+            "id": "UMLS:C1413784"
+        },
+        {
+            "entityId": "15428_15471",
+            "span": {
+                "begin": 15428,
+                "end": 15471
+            },
+            "entityType": "gene",
+            "entityName": "myosin, heavy chain 7, cardiac muscle, beta",
+            "id": "UMLS:C0027096"
+        },
+        {
+            "entityId": "15473_15477",
+            "span": {
+                "begin": 15473,
+                "end": 15477
+            },
+            "entityType": "gene",
+            "entityName": "MYH7",
+            "id": "UMLS:C1417542"
+        },
+        {
+            "entityId": "16408_16430",
+            "span": {
+                "begin": 16408,
+                "end": 16430
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal stem cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "16435_16466",
+            "span": {
+                "begin": 16435,
+                "end": 16466
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "16494_16515",
+            "span": {
+                "begin": 16494,
+                "end": 16515
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "16708_16711",
+            "span": {
+                "begin": 16708,
+                "end": 16711
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "16800_16803",
+            "span": {
+                "begin": 16800,
+                "end": 16803
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "16900_16903",
+            "span": {
+                "begin": 16900,
+                "end": 16903
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "17224_17227",
+            "span": {
+                "begin": 17224,
+                "end": 17227
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "17796_17800",
+            "span": {
+                "begin": 17796,
+                "end": 17800
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "17911_17913",
+            "span": {
+                "begin": 17911,
+                "end": 17913
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "17989_17993",
+            "span": {
+                "begin": 17989,
+                "end": 17993
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "18216_18220",
+            "span": {
+                "begin": 18216,
+                "end": 18220
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "18287_18290",
+            "span": {
+                "begin": 18287,
+                "end": 18290
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "19104_19107",
+            "span": {
+                "begin": 19104,
+                "end": 19107
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "19395_19398",
+            "span": {
+                "begin": 19395,
+                "end": 19398
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "19413_19417",
+            "span": {
+                "begin": 19413,
+                "end": 19417
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "19490_19494",
+            "span": {
+                "begin": 19490,
+                "end": 19494
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "19594_19597",
+            "span": {
+                "begin": 19594,
+                "end": 19597
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "19617_19621",
+            "span": {
+                "begin": 19617,
+                "end": 19621
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "19651_19654",
+            "span": {
+                "begin": 19651,
+                "end": 19654
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "20386_20389",
+            "span": {
+                "begin": 20386,
+                "end": 20389
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "20427_20431",
+            "span": {
+                "begin": 20427,
+                "end": 20431
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "20531_20534",
+            "span": {
+                "begin": 20531,
+                "end": 20534
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "20538_20542",
+            "span": {
+                "begin": 20538,
+                "end": 20542
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "21272_21275",
+            "span": {
+                "begin": 21272,
+                "end": 21275
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "21314_21318",
+            "span": {
+                "begin": 21314,
+                "end": 21318
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "21514_21522",
+            "span": {
+                "begin": 21514,
+                "end": 21522
+            },
+            "entityType": "disease",
+            "entityName": "infarcts",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "21722_21725",
+            "span": {
+                "begin": 21722,
+                "end": 21725
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "21753_21757",
+            "span": {
+                "begin": 21753,
+                "end": 21757
+            },
+            "entityType": "disease",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "21817_21835",
+            "span": {
+                "begin": 21817,
+                "end": 21835
+            },
+            "entityType": "cell",
+            "entityName": "somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "21847_21878",
+            "span": {
+                "begin": 21847,
+                "end": 21878
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "21909_21930",
+            "span": {
+                "begin": 21909,
+                "end": 21930
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "22457_22459",
+            "span": {
+                "begin": 22457,
+                "end": 22459
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "23022_23025",
+            "span": {
+                "begin": 23022,
+                "end": 23025
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "23123_23127",
+            "span": {
+                "begin": 23123,
+                "end": 23127
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "23255_23258",
+            "span": {
+                "begin": 23255,
+                "end": 23258
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "23321_23325",
+            "span": {
+                "begin": 23321,
+                "end": 23325
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "23394_23397",
+            "span": {
+                "begin": 23394,
+                "end": 23397
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "26101_26132",
+            "span": {
+                "begin": 26101,
+                "end": 26132
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "26214_26218",
+            "span": {
+                "begin": 26214,
+                "end": 26218
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "26255_26259",
+            "span": {
+                "begin": 26255,
+                "end": 26259
+            },
+            "entityType": "gene",
+            "entityName": "bFGF",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "26270_26273",
+            "span": {
+                "begin": 26270,
+                "end": 26273
+            },
+            "entityType": "gene",
+            "entityName": "HGF",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "26287_26291",
+            "span": {
+                "begin": 26287,
+                "end": 26291
+            },
+            "entityType": "gene",
+            "entityName": "BMP2",
+            "id": "UMLS:C1332424"
+        },
+        {
+            "entityId": "26373_26391",
+            "span": {
+                "begin": 26373,
+                "end": 26391
+            },
+            "entityType": "gene",
+            "entityName": "cardiac troponin T",
+            "id": "UMLS:C3538889"
+        },
+        {
+            "entityId": "26396_26419",
+            "span": {
+                "begin": 26396,
+                "end": 26419
+            },
+            "entityType": "gene",
+            "entityName": "beta-myosin heavy chain",
+            "id": "UMLS:C0027100"
+        },
+        {
+            "entityId": "26543_26547",
+            "span": {
+                "begin": 26543,
+                "end": 26547
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "27610_27654",
+            "span": {
+                "begin": 27610,
+                "end": 27654
+            },
+            "entityType": "gene",
+            "entityName": "fibroblast growth factor homologous factor 2",
+            "id": "UMLS:C1414598"
+        },
+        {
+            "entityId": "27656_27660",
+            "span": {
+                "begin": 27656,
+                "end": 27660
+            },
+            "entityType": "gene",
+            "entityName": "FHF2",
+            "id": "UMLS:C1414598"
+        },
+        {
+            "entityId": "27711_27721",
+            "span": {
+                "begin": 27711,
+                "end": 27721
+            },
+            "entityType": "cell",
+            "entityName": "fibroblast",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "27740_27745",
+            "span": {
+                "begin": 27740,
+                "end": 27745
+            },
+            "entityType": "gene",
+            "entityName": "FGF13",
+            "id": "UMLS:C1414598"
+        },
+        {
+            "entityId": "27776_27799",
+            "span": {
+                "begin": 27776,
+                "end": 27799
+            },
+            "entityType": "gene",
+            "entityName": "placental growth factor",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "27801_27804",
+            "span": {
+                "begin": 27801,
+                "end": 27804
+            },
+            "entityType": "gene",
+            "entityName": "PGF",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "27820_27867",
+            "span": {
+                "begin": 27820,
+                "end": 27867
+            },
+            "entityType": "gene",
+            "entityName": "vascular endothelial growth factor-like protein",
+            "id": "UMLS:C1522575"
+        },
+        {
+            "entityId": "27906_27925",
+            "span": {
+                "begin": 27906,
+                "end": 27925
+            },
+            "entityType": "gene",
+            "entityName": "angiopoietin-like 5",
+            "id": "UMLS:C1426346"
+        },
+        {
+            "entityId": "27930_27986",
+            "span": {
+                "begin": 27930,
+                "end": 27986
+            },
+            "entityType": "gene",
+            "entityName": "platelet-derived growth factor subunit A-related peptide",
+            "id": "UMLS:C0030956"
+        },
+        {
+            "entityId": "28883_28888",
+            "span": {
+                "begin": 28883,
+                "end": 28888
+            },
+            "entityType": "gene",
+            "entityName": "GATA4",
+            "id": "UMLS:C1414995"
+        },
+        {
+            "entityId": "28898_28921",
+            "span": {
+                "begin": 28898,
+                "end": 28921
+            },
+            "entityType": "gene",
+            "entityName": "beta-myosin heavy chain",
+            "id": "UMLS:C0027100"
+        },
+        {
+            "entityId": "29139_29154",
+            "span": {
+                "begin": 29139,
+                "end": 29154
+            },
+            "entityType": "disease",
+            "entityName": "cardiac disease",
+            "id": "UMLS:C0018799"
+        },
+        {
+            "entityId": "29239_29283",
+            "span": {
+                "begin": 29239,
+                "end": 29283
+            },
+            "entityType": "cell",
+            "entityName": "unfractionated bone marrow mononuclear cells",
+            "id": "UMLS:C4744926"
+        },
+        {
+            "entityId": "30100_30104",
+            "span": {
+                "begin": 30100,
+                "end": 30104
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "30260_30268",
+            "span": {
+                "begin": 30260,
+                "end": 30268
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "30429_30432",
+            "span": {
+                "begin": 30429,
+                "end": 30432
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "30826_30829",
+            "span": {
+                "begin": 30826,
+                "end": 30829
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "30863_30872",
+            "span": {
+                "begin": 30863,
+                "end": 30872
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "31003_31022",
+            "span": {
+                "begin": 31003,
+                "end": 31022
+            },
+            "entityType": "cell",
+            "entityName": "transplanting cells",
+            "id": "UMLS:C0206152"
+        },
+        {
+            "entityId": "31269_31272",
+            "span": {
+                "begin": 31269,
+                "end": 31272
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "31352_31359",
+            "span": {
+                "begin": 31352,
+                "end": 31359
+            },
+            "entityType": "disease",
+            "entityName": "cardiac",
+            "id": "mesh:D006331"
+        },
+        {
+            "entityId": "31688_31692",
+            "span": {
+                "begin": 31688,
+                "end": 31692
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "31708_31711",
+            "span": {
+                "begin": 31708,
+                "end": 31711
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "31843_31847",
+            "span": {
+                "begin": 31843,
+                "end": 31847
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "32140_32144",
+            "span": {
+                "begin": 32140,
+                "end": 32144
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "32196_32199",
+            "span": {
+                "begin": 32196,
+                "end": 32199
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "32240_32244",
+            "span": {
+                "begin": 32240,
+                "end": 32244
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "32321_32360",
+            "span": {
+                "begin": 32321,
+                "end": 32360
+            },
+            "entityType": "cell",
+            "entityName": "umbilical cord blood-derived stem cells",
+            "id": "UMLS:C1710528"
+        },
+        {
+            "entityId": "32621_32626",
+            "span": {
+                "begin": 32621,
+                "end": 32626
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "32627_32631",
+            "span": {
+                "begin": 32627,
+                "end": 32631
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "33011_33056",
+            "span": {
+                "begin": 33011,
+                "end": 33056
+            },
+            "entityType": "cell",
+            "entityName": "umbilical- and bone marrow-derived stem cells",
+            "id": "UMLS:C1511246"
+        },
+        {
+            "entityId": "33058_33091",
+            "span": {
+                "begin": 33058,
+                "end": 33091
+            },
+            "entityType": "cell",
+            "entityName": "umbilical cord-derived stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "33191_33216",
+            "span": {
+                "begin": 33191,
+                "end": 33216
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow-derived cells",
+            "id": "UMLS:C3896693"
+        },
+        {
+            "entityId": "33276_33315",
+            "span": {
+                "begin": 33276,
+                "end": 33315
+            },
+            "entityType": "cell",
+            "entityName": "human adipose tissue-derived stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "33401_33406",
+            "span": {
+                "begin": 33401,
+                "end": 33406
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "33418_33422",
+            "span": {
+                "begin": 33418,
+                "end": 33422
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "33424_33428",
+            "span": {
+                "begin": 33424,
+                "end": 33428
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "33430_33434",
+            "span": {
+                "begin": 33430,
+                "end": 33434
+            },
+            "entityType": "species",
+            "entityName": "dogs",
+            "id": "UMLS:C0012984"
+        },
+        {
+            "entityId": "33439_33446",
+            "span": {
+                "begin": 33439,
+                "end": 33446
+            },
+            "entityType": "species",
+            "entityName": "rabbits",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "33502_33506",
+            "span": {
+                "begin": 33502,
+                "end": 33506
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "33508_33512",
+            "span": {
+                "begin": 33508,
+                "end": 33512
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "33959_33984",
+            "span": {
+                "begin": 33959,
+                "end": 33984
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow-derived cells",
+            "id": "UMLS:C3896693"
+        },
+        {
+            "entityId": "34020_34024",
+            "span": {
+                "begin": 34020,
+                "end": 34024
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "34066_34070",
+            "span": {
+                "begin": 34066,
+                "end": 34070
+            },
+            "entityType": "gene",
+            "entityName": "bFGF",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "34072_34075",
+            "span": {
+                "begin": 34072,
+                "end": 34075
+            },
+            "entityType": "gene",
+            "entityName": "HGF",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "34080_34085",
+            "span": {
+                "begin": 34080,
+                "end": 34085
+            },
+            "entityType": "gene",
+            "entityName": "BMP-2",
+            "id": "UMLS:C1567772"
+        },
+        {
+            "entityId": "34519_34522",
+            "span": {
+                "begin": 34519,
+                "end": 34522
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "34545_34549",
+            "span": {
+                "begin": 34545,
+                "end": 34549
+            },
+            "entityType": "gene",
+            "entityName": "bFGF",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "34551_34556",
+            "span": {
+                "begin": 34551,
+                "end": 34556
+            },
+            "entityType": "gene",
+            "entityName": "BMP-2",
+            "id": "UMLS:C1567772"
+        },
+        {
+            "entityId": "34558_34586",
+            "span": {
+                "begin": 34558,
+                "end": 34586
+            },
+            "entityType": "gene",
+            "entityName": "insulin-like growth factor 1",
+            "id": "UMLS:C1334089"
+        },
+        {
+            "entityId": "34694_34717",
+            "span": {
+                "begin": 34694,
+                "end": 34717
+            },
+            "entityType": "cell",
+            "entityName": "neonatal cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "34774_34799",
+            "span": {
+                "begin": 34774,
+                "end": 34799
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow stromal cells",
+            "id": "UMLS:C1640380"
+        },
+        {
+            "entityId": "34878_34886",
+            "span": {
+                "begin": 34878,
+                "end": 34886
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "34897_34908",
+            "span": {
+                "begin": 34897,
+                "end": 34908
+            },
+            "entityType": "gene",
+            "entityName": "connexin-43",
+            "id": "UMLS:C0110613"
+        },
+        {
+            "entityId": "35084_35088",
+            "span": {
+                "begin": 35084,
+                "end": 35088
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "35099_35113",
+            "span": {
+                "begin": 35099,
+                "end": 35113
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "35670_35674",
+            "span": {
+                "begin": 35670,
+                "end": 35674
+            },
+            "entityType": "gene",
+            "entityName": "FHF2",
+            "id": "UMLS:C1414598"
+        },
+        {
+            "entityId": "35676_35681",
+            "span": {
+                "begin": 35676,
+                "end": 35681
+            },
+            "entityType": "gene",
+            "entityName": "FGF13",
+            "id": "UMLS:C1414598"
+        },
+        {
+            "entityId": "35686_35689",
+            "span": {
+                "begin": 35686,
+                "end": 35689
+            },
+            "entityType": "gene",
+            "entityName": "PGF",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "36107_36110",
+            "span": {
+                "begin": 36107,
+                "end": 36110
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37234_37237",
+            "span": {
+                "begin": 37234,
+                "end": 37237
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37363_37367",
+            "span": {
+                "begin": 37363,
+                "end": 37367
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "37417_37421",
+            "span": {
+                "begin": 37417,
+                "end": 37421
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "37466_37469",
+            "span": {
+                "begin": 37466,
+                "end": 37469
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37654_37657",
+            "span": {
+                "begin": 37654,
+                "end": 37657
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "38074_38081",
+            "span": {
+                "begin": 38074,
+                "end": 38081
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "38268_38276",
+            "span": {
+                "begin": 38268,
+                "end": 38276
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "38375_38379",
+            "span": {
+                "begin": 38375,
+                "end": 38379
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "38479_38486",
+            "span": {
+                "begin": 38479,
+                "end": 38486
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "39348_39356",
+            "span": {
+                "begin": 39348,
+                "end": 39356
+            },
+            "entityType": "disease",
+            "entityName": "acute MI",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "39429_39432",
+            "span": {
+                "begin": 39429,
+                "end": 39432
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "39841_39845",
+            "span": {
+                "begin": 39841,
+                "end": 39845
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "39884_39888",
+            "span": {
+                "begin": 39884,
+                "end": 39888
+            },
+            "entityType": "gene",
+            "entityName": "bFGF",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "39890_39920",
+            "span": {
+                "begin": 39890,
+                "end": 39920
+            },
+            "entityType": "gene",
+            "entityName": "basic fibroblast growth factor",
+            "id": "UMLS:C3692257"
+        },
+        {
+            "entityId": "39922_39926",
+            "span": {
+                "begin": 39922,
+                "end": 39926
+            },
+            "entityType": "gene",
+            "entityName": "BMP2",
+            "id": "UMLS:C1332424"
+        },
+        {
+            "entityId": "39928_39956",
+            "span": {
+                "begin": 39928,
+                "end": 39956
+            },
+            "entityType": "gene",
+            "entityName": "bone morphogenetic protein 2",
+            "id": "UMLS:C0527443"
+        },
+        {
+            "entityId": "39965_40003",
+            "span": {
+                "begin": 39965,
+                "end": 40003
+            },
+            "entityType": "cell",
+            "entityName": "guided unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "40028_40031",
+            "span": {
+                "begin": 40028,
+                "end": 40031
+            },
+            "entityType": "gene",
+            "entityName": "HGF",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "40033_40057",
+            "span": {
+                "begin": 40033,
+                "end": 40057
+            },
+            "entityType": "gene",
+            "entityName": "hepatocyte growth factor",
+            "id": "UMLS:C0369286"
+        },
+        {
+            "entityId": "40033_40043",
+            "span": {
+                "begin": 40033,
+                "end": 40043
+            },
+            "entityType": "gene",
+            "entityName": "hepatocyte",
+            "id": "UMLS:C0227525"
+        },
+        {
+            "entityId": "40044_40057",
+            "span": {
+                "begin": 40044,
+                "end": 40057
+            },
+            "entityType": "gene",
+            "entityName": "growth factor",
+            "id": "UMLS:C0018284"
+        },
+        {
+            "entityId": "40059_40061",
+            "span": {
+                "begin": 40059,
+                "end": 40061
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "40063_40084",
+            "span": {
+                "begin": 40063,
+                "end": 40084
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "40086_40089",
+            "span": {
+                "begin": 40086,
+                "end": 40089
+            },
+            "entityType": "cell",
+            "entityName": "MSC",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "40091_40113",
+            "span": {
+                "begin": 40091,
+                "end": 40113
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal stem cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "40123_40144",
+            "span": {
+                "begin": 40123,
+                "end": 40144
+            },
+            "entityType": "gene",
+            "entityName": "reverse transcriptase",
+            "id": "UMLS:C0035379"
+        },
+        {
+            "entityId": "40245_40276",
+            "span": {
+                "begin": 40245,
+                "end": 40276
+            },
+            "entityType": "drug",
+            "entityName": "2'-deoxyuridine 5'-triphosphate",
+            "id": "mesh:C027078"
+        },
+        {
+            "entityId": "40297_40301",
+            "span": {
+                "begin": 40297,
+                "end": 40301
+            },
+            "entityType": "cell",
+            "entityName": "USSC",
+            "id": "UMLS:C1171322"
+        },
+        {
+            "entityId": "40303_40334",
+            "span": {
+                "begin": 40303,
+                "end": 40334
+            },
+            "entityType": "cell",
+            "entityName": "unrestricted somatic stem cells",
+            "id": "UMLS:C1171322"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1502_1523",
+            "subjectText": "myocardial infarction",
+            "rel_name": "associate",
+            "objectId": "261_288",
+            "objectText": "acute myocardial infarction"
+        }
+    ]
+}

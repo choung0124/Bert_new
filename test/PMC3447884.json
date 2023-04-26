@@ -1,0 +1,4298 @@
+{
+    "sourcid": "PMC3447884",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3447884/",
+    "text": "Cardiac Regeneration from Activated Epicardium In contrast to lower vertebrates, the mammalian heart has a very limited regenerative capacity. Cardiomyocytes, lost after ischemia, are replaced by fibroblasts. Although the human heart is able to form new cardiomyocytes throughout its lifespan, the efficiency of this phenomenon is not enough to substitute sufficient myocardial mass after an infarction. In contrast, zebrafish hearts regenerate through epicardial activation and initiation of myocardial proliferation. With this study we obtain insights into the activation and cellular contribution of the mammalian epicardium in response to ischemia. In a mouse myocardial infarction model we analyzed the spatio-temporal changes in expression of embryonic epicardial, EMT, and stem cell markers and the contribution of cells of the Wt1-lineage to the infarcted area. Though the integrity of the epicardial layer overlaying the infarct is lost immediately after the induction of the ischemia, it was found to be regenerated at three days post infarction. In this regenerated epicardium, the embryonic gene program is transiently re-expressed as well as proliferation. Concomitant with this activation, Wt1-lineage positive subepicardial mesenchyme is formed until two weeks post-infarction. These mesenchymal cells replace the cardiomyocytes lost due to the ischemia and contribute to the fibroblast population, myofibroblasts and coronary endothelium in the infarct, and later also to the cardiomyocyte population. We show that in mice, as in lower vertebrates, an endogenous, epicardium-dependent regenerative response to injury is induced. Although this regenerative response leads to the formation of new cardiomyocytes, their number is insufficient in mice but sufficient in lower vertebrates to replace lost cardiomyocytes. These molecular and cellular analyses provide basic knowledge essential for investigations on the regeneration of the mammalian heart aiming at epicardium-derived cells. Introduction Cardiac disease leads to the highest levels of morbidity and mortality worldwide. Due to their limited regenerative capacity, cardiomyocytes lost as a result of ischemic damage are replaced by non-contractile fibrotic cells rather than by new cardiomyocytes. It has long been recognized that a potential cure, infers replenishment of cardiomyocytes from exogenous or endogenous sources. Application of stem cells has gained a lot of interest but the outcome is, thus far, rather disappointing; homing, survival and integration of newly formed cardiomyocytes are serious hurdles in regenerative cardiac medicine. Stimulation of the endogenous regenerative capacity seems an attractive alternative for the stem cell approach. In adult zebrafish, cardiac regeneration is found upon amputation of the cardiac apex, whereas in the mammalian heart such regeneration is limited to the first week after birth. During this regenerative process the epicardium was found to play a crucial role. Also from a developmental stance the epicardium is an interesting source, as (1) the epicardium is derived from a progenitor pool that also provides cardiomyocytes to the inflow of the heart, (2) epicardium-derived cells are essential regulators of cardiac growth and (3) the epicardium contributes cells to the coronaries and interstitium. Although it has been reported that embryonic epicardial genes are re-expressed in response to cardiac injury, little is known of the role of the epicardium in homeostasis and regeneration of the adult mammalian heart. Recently, it has been shown that upon a myocardial infarction a limited number of epicardium-derived cells have the capacity to contribute cardiomyocytes to the infarct, offering a novel inroad to cardiac regeneration. A prerequisite to developing regenerative strategies involving the epicardium is to understand the response of the epicardium to myocardial injury. To investigate the role of the epicardium in endogenous regeneration, we induced a myocardial infarction (MI) in mice in which the Wilm's Tumor 1 (Wt1)-lineage is genetically labeled. At various time points post-MI the cellular and molecular responses of the epicardium were analyzed. We observed that epicardial cells overlaying the ischemic area had disappeared one day post-MI. The epicardium bordering the ischemic area (border zone) was found to transiently re-express embryonic epicardial markers genes (Wt1, Tbx18, Raldh) and to initiate proliferation. At three days post-MI a new layer of epicardium with extended extracellular matrix had formed over the infarcted area expressing embryonic epicardial marker genes. In this epicardium, genes important for Epithelial-to-Mesenchymal-Transition (EMT) were expressed (Snai1, alphaSMA) and mesenchyme was observed to populate the subepicardial space. Analysis of the Wt1-lineage showed that the newly-formed epicardium and a large portion of the mesenchyme populating the subepicardial space, belonged to this lineage. Whereas most of these cells populated the infarcted area replacing the killed cardiomyocytes, immunofluorescent analysis showed that a small portion differentiated into myofibroblasts, endothelial cells, and cardiomyocytes. Materials and Methods Animals All experimental procedures complied with national and institutional guidelines. The Animal Welfare Committee (DEC) of the University of Amsterdam approved this study and registered it as DAE101301 \"Analyse van de epicard-afkomstige cellen in de regeneratie respons na een hartinfarct\". The Wt1Cre transgenic line contains an IRES-EGFP-Cre cassette 17 bp downstream of the translation stop site of the Wt1 gene in the BAC clone RP23-266M16 (http://bacpac.chori.org). This BAC clone ranges from -127 kbp to +11.5 kbp relative to the transcription start site of Wt1. The Wt1Cre mice were bred with the R26R line to visualize the Wt1 lineage. All mice were bred on a FVB background (Harlan, Indianapolis, IN) and wild-type littermates served as controls.       Surgical induction of a myocardial infarction A myocardial infarction (MI) was induced by ligation of the left anterior descending (LAD) coronary artery at 8-12 weeks of age (20 gram body weight) as previously described. Briefly, mice were anesthetized through intraperitoneal injection of Fentanyl (0.07 mg/kg), Dormicum (7 mg/kg), Dex-Domitor (0.35 mg/kg) and atropine (0.05 mg/kg). The mice were orally intubated using a 20-gauge intravenous catheter, mechanically ventilated (MiniVent, Harvard Biosciences), and placed on a heating pad to maintain body temperature. A left thoracotomy was performed at the third intercostal space, where muscles were dissected. The LAD was permanently ligated using a 9-0 unabsorbable ethilon suture. After visual verification of anemia and akinesis of the apex and anterior-lateral wall to ensure coronary occlusion, the thorax was closed in layers. The anesthesia was antagonized using Antisedan (2.5 mg/kg) and Flumazenil (0.5 mg/kg). After detubation, mice were kept warm until fully recovered. At least three mice were sacrificed at 1, 2, 3 days, 1 and 2 weeks, and 1 and 3 months after MI. Four hours before sacrifice the mice were injected intraperitoneally with 50 mg/kg 5'-Bromo-2'-Deoxyuridine (BrdU; Sigma) solution. After sacrifice the hearts were flushed with phosphate-buffered saline (PBS) and cleaved. One half was snap frozen in liquid nitrogen and the other half was fixed overnight in freshly dissolved 4%(w/v) paraformaldehyde (PFA) in PBS. The fixed hearts were processed, embedded in paraplast and sectioned at 8 microm for in situ hybridization and immunofluorescent analysis.    Quantitative PCR analysis The frozen hearts were mounted and 20 microm thick sections were cut using a cryotome. Twenty sections were collected in an eppendorf tube and an additional one was mounted for histological staining to evaluate whether the sections contained an extensive part of the infarct. If no or limited infarcted tissue was found the sample was excluded from the analysis. Total RNA was isolated from the sections using the RNeasy mini kit (Qiagen) according to the protocol of the supplier. One mg total RNA was converted into cDNA using a anchored polyT primer and SuperScript II Reverse Transcriptase (Invitrogen) in a 20 microl reaction. The RT reaction was diluted to 100 microl. Two microl single strand cDNA was used in each 5 microl qPCR reaction containing 10 pMol of the respective forward en reverse primer and LightCycler 480 SYBR Green I Master. The following primers were used: Gapdh-FW: TGTCAGCAATGCATCCTGCA, Gapdh-RV: CCGTTCAGCTCTGGGATGA, Wt1-FW: CAGATGAACCTAGGAGCTACCTTAAA, Wt1-RV: TGCCCTTCTGTCCATTTCA, Tbx18-FW: GTGGAGTCATACGCATTCTGGA, Tbx18-RV: GTGAGGATGTGTAGCAGGGACA, Snai1-FW: CTTGTGTCTGCACGACCTGT, Snai1-RV: CAGGAGAATGGCTTCTCACC, Snai2-FW: TCGTCGGCAGCTCCACTCCA, Snai2-RV: TGTCAGAGGAAGGCGGGGGAC, Raldh1-FW: TCGAGTCCCTGCCCCACTGG, Raldh1-RV: TCCACGTGGCAGATGACCTCCT, Raldh2-FW: ATGAGTGGCACGACGCCGTC, and Raldh2-RV: GCTGGAAGGCTGCACGAGCA. After an initial incubation of 5 min 95 C, the cDNA was amplified in 40 cycles of 10 sec 95 C, 20 sec 60 C, and 20 sec 72 C using a Roche Lightcycler in 384 plates. The starting concentration in each reaction was calculated using the program LinRegPCR version 12.9. The observed value of Gapdh was used to correct each sample for differences in input. In situ hybridization In situ hybridization was performed essentially as previously described. Sections were deparaffinized, rehydrated in a graded ethanol series and incubated with 10 mg/ml proteinase K dissolved in PBS for 15 min at 37 C. The proteinase K activity was blocked by rinsing the sections in 0.2% glycine in PBST (PBS+0.05%Tween-20) for 5 min. After rinsing in PBS, the sections were postfixed for 10 min in 4% PFA and 0.2% glutaraldehyde in PBS, followed by rinsing in PBS. After prehybridization for at least 1 hr at 70 C in hybridization mix (50%formamide, 5xSSC (20xSSC: 3 M NaCl, 0.3 M tri-sodium citrate, pH4.5), 1% blocking solution (Roche), 5 mM EDTA, 0.1% 3-[(3-Cholamidopropyl) dimethylammonio]-1-propanesulfonate (Sigma; Steinheim, Germany), 0.5 mg/ml heparin (BD Biosciences; Erembodegem, Belgium), and 1 mg/ml yeast total RNA (Roche), a digoxigenin (DIG)-labeled probe was added to the hybridization mix in a final concentration of 1 ng/ml. Probes specific to cardiac Troponin I (cTnI), Raldh1, Raldh2, Wt1, Tbx18, Snai1, Periostin and Fstl1 were used. After overnight hybridization, the sections were rinsed with 2xSSC, followed by two washes with 50% formamide, 2xSSC, pH 4.5, at 65 C, and rinsing in TNT (0.1 M Tris-HCl, pH7.5, 0.15 M NaCl, 0.05% Tween-20) at room temperature. Subsequently, the sections were incubated for 1 hr in MABT-block (100 mM Maleic Acid, 150 mM NaCl, pH7.4, 0.05% Tween-20, 2% blocking solution), followed by 2 hours incubation in MABT-block containing 100 mU/ml alkaline phosphatase-conjugated anti-DIG Fab fragments (Roche catnr: 1093274). After rinsing in TNT and subsequently in NTM (100 mM Tris pH9.0 100 mM NaCl, 50 mM MgCl2), probe binding was visualized using nitro blue tetrazolium chloride and 5-bromo-4-chloro-3-indolyl-phosphate (Roche catnr: 1681451). Color development was stopped by rinsing in double-distilled water. The sections were dehydrated in a graded ethanol series, rinsed in xylene, and embedded in Entellan. Images were recorded using a Leica DFC320 camera mounted on an AxioPhot microscope (Zeiss).        Immunofluorescent staining Immunofluorescent staining was essentially performed as described. In short, sections were deparaffinized, rehydrated in a graded ethanol series, boiled for 5 minutes in antigen unmasking solution (H3300, Vector), and incubated in PBS+1% Triton-x100 for 15 min. The following primary antibodies were used: anti-Troponin I (TnI) (MilliPore; catnr MB1691; 1:500), anti-Wt1 (Santa Cruz; catnr SC-192; 1:200), anti-PDGFRalpha (Santa Cruz; catnr SC-233; 1:200), anti-CD34 (BD Bioscience; catnr 36105; 1:200), anti-cKit (Southern Biotech; catnr 8380; 1:200), anti-alpha-sma (Sigma; catnr A2522; 1:1000), anti-BrdU (Becton Dickinson, catnr 347580; 1:600), anti-P-Smad1/5/8 (Cell Signaling Technology, catnr 9511; 1:200), anti-P-Erk1/2 (Cell Signaling Technology, catnr 4376; 1:200), anti-PECAM (Santa Cruz; catnr SC-1506; 1:100), and ss-Galactosidase (MP Biomedicals(Cappel), catnr 55976; 1:500). To reduce background signal of the antiserum against ss-Galactosidase, the diluted antiserum was pre-incubated with mouse heart powder before application to the respective section. Mouse heart powder was prepared by homogenizing a wildtype adult mouse heart in PBS and precipitating the proteins with 4 volumes ice cold acetone. The precipitate was collected by centrifugation, the dry pellet was ground in a mortar and stored at -20 C.                     Alexa488 or Alexa568 conjugated goat-anti-rabbit and goat-anti-mouse antibodies (Molecular Probes; 1:250) were used as secondary antibodies. The signal was amplified using tyramide signal amplification (TSA NEL702, Perkin Elmer). Nuclei were visualized using Topro3 (Molecular Probes; 1:500). Fluorescence was visualized using a Leica SPE confocal laser scanning microscope.     Results Expression of embryonic epicardial genes in the adult healthy and infarcted heart To gain insight into the response of the epicardium after a myocardial infarction we investigated the expression of markers for embryonic epicardium in the adult heart. During development, Tbx18, Wt1, Raldh1, and Raldh2 are expressed throughout the epicardial layer and in the adjacent mesenchyme, but all four gene products become down-regulated at the end of gestation. Their expression during development is associated with the formation of subepicardial mesenchyme by epithelial to mesenchymal transition (EMT), as well as with myocardial growth and differentiation. In the normal or diseased adult heart, their patterns of expression have not been described in detail. In the adult heart Wt1, Tbx18, Raldh1, and Raldh2 mRNA were found to be expressed in the epicardium covering the atrioventricular sulcus (Figure 1 A-E) and the ventricular apex, but not in the epicardium covering the ventricles or in the ventricular wall. Raldh1 mRNA was also found in a subset of mesenchymal cells present in the atrioventriuclar sulcus (Figure 1B), whereas none of the other genes is found to be expressed in this mesenchyme (Figure 1A-E). Raldh1 mRNA was further found to be expressed in the epicardial layer covering the atria (Figure 1G). Although the other genes were also expressed in the epicardial lining of the atria, they were expressed at a low level and in a mosaic pattern (Figure 1H-J).       Epicardial activation in response to myocardial ischemia. Panels A-J show the pattern of expression of cTnI (A,F), Raldh1 (B,G), Raldh2 (C,H), Tbx18 (D,I) and Wt1 (E,J) mRNA in the normal healthy heart. Raldh1 (B), Raldh2 (C), Tbx18 (D) and Wt1 (E) are expressed in the epicardium and the adjacent subepicardial mesenchyme of the atrioventricular sulcus to various extends. Raldh1 (G) is expressed throughout the epicardium overlaying the atria. Raldh2 (H), Tbx18 (I) and Wt1 (J) are expressed in a small subset of the epicardial cells overlaying the atria. Panel K shows a representative four-chamber view of an adult heart one day post-MI; the absence of expression of cTnI mRNA demarcates the infarcted area. The boxes indicate the atrium (1), atrio-ventricular sulcus (2), infarcted area of left ventricular free wall (3), the apex (4), and the right ventricular free wall (5). In the subsequent panels we have indicated this number at the left top site to indicate the position the picture was taken. Wt1 mRNA is expressed in the epicardium covering the ischemic region three days post-MI (L), to a level comparable to the one in the epicardium covering the atria (M). At one week post-MI, Wt1 is expressed in the epicardium covering the apex and left ventricle (N). Tbx18 (O-R) is expressed throughout the epicardium of the atria (O), within the atrioventricular sulcus (P), and the epicardium overlaying the infarct (Q) and it border zone (R). Raldh1 (S-U) is expressed throughout the epicardium covering the ventricles after a myocardial infarction (S,T), and in the subepicardial mesenchyme that is found in the wide subepicardial space overlaying the border zone of the infarction (U). Raldh2 (V) is expressed throughout the epicardium at one week post-MI. To validate these data we performed a qPCR analysis (W). As expected cTnI mRNA is down-regulated immediately after the induction of the infarction. Wt1, Tbx18 and Raldh1 mRNA become transiently up-regulated, being most highly expressed at 3d post-MI. Abbreviations: LA; left atrium, LV: left ventricle, RV: right ventricle, AVS: atrioventricular sulcus, Epi: epicardium, Subepi: subepicardium. The bar is 100 microm.    To investigate the changes in the spatio-temporal pattern of expression of these epicardial genes in relation to ischemia, we permanently ligated the LAD. To identify the ischemic region we hybridized an adjacent section with a cTnI probe. Already from the first day post-myocardial infarction (post-MI) the level of cTnI mRNA had dropped below detection in the ischemic myocardium (Figure 1K), allowing the identification of the site and extent of the infarct. At one day post-MI the expression of the embryonic epicardial markers had become more prominent in the regions expressing these markers in controls (eg Figure 1O, P, S), and from three days post-MI onwards their expression was detected in the epicardial cells covering the entire infarcted area as well as the border zone (Figure 1L, N, Q, R T, U). Raldh2 mRNA was, however, induced throughout the entire epicardial layer of the heart from the first day after the induction of the ischemia (Figure 1V). Concomitant with the appearance of mesenchymal cells in between the epicardium and myocardium of the border zone, these sub-epicardial mesenchymal cells were found to express the four embryonic epicardial genes as well, albeit at lower levels compared to the overlaying epicardium (Figure 1V). Although the patterns and levels of expression differed, the induction of their expression was transient, being confined to the first two weeks post-MI. At one and three months post-MI, the expression of the four embryonic epicardial genes was only found in the regions that also expressed these genes in healthy controls. To further confirm the transient induction of the expression of these genes, RNA was isolated and the expression levels were determined by quantitative PCR. As expected the level of expression of cTnI mRNA was found to be approximately 100-fold lower in infarcted hearts from the first days after the induction of the ischemia up to the latest time point analyzed, being three months post-MI. The expression levels of Wt1, Tbx18 and Raldh1 mRNA were already found to be up-regulated at 1 day post-MI, showing the highest level of expression at three days post-MI and subsequently decreasing to return to levels similar to control at one and three months post-MI (Figure 1W). Analysis of the Wt1-lineage in response to ischemic injury Patterns of gene expression do not allow an assessment of the fate of the epicardial cells after the myocardial infarction. In order to assess the fate of the epicardial cells, we needed to permanently label the epicardial cells. We have recently described a Wt1Cre mouse line, which permanently labels the proepicardium, the epicardium and its derivatives, and in a limited number of small clusters of cardiomyocytes within the ventricular septum. These observations suggest that this mouse line might be a useful tool to study the epicardial lineage after a myocardial infarction. As the Cre/loxP system relies on the similarity of the spatio-temporal pattern of expression of Wt1 and Cre, we compared the expression patterns of Wt1 and Cre mRNA in the healthy and infarcted heart. Like Wt1 mRNA, Cre mRNA was not detected in the epicardium overlaying the left and right ventricular free wall or within the adjacent myocardial wall (Figure 2A-C). This expression pattern was not found to have changed 1 day post-MI (Figure 2D-F). At three days post-MI both Wt1 and Cre mRNA expression were detected in the epicardium overlaying the border zone of the infarct (Figure 2G-I) as well as the infarction itself, albeit at lower levels (Figure 2J, L and N), and was absent from epicardium located remotely of the infarct (Figure 2K, M, and O). At one week post-MI Wt1 and Cre mRNA expression had become more prominent in the area of the infarct, being expressed in the epicardium and immediately adjacent mesenchyme (Figure 2P-U). At two weeks post-MI the expression levels of Wt1 and Cre mRNA had decreased (not shown), and were no longer detectable in the infarcted region at 1 and 3 months post-MI (Figure 1V-X). Although the findings with respect to Wt1 mRNA are in line with a previous report, we did not observe expression of Wt1 mRNA in the coronaries in the infarcted region, even if the sections were over-stained (data not shown).           Comparison of the expression pattern of Wt1 and Cre in the healthy and infarcted heart. In the ventricles of control (A-C) Wt1Cre mouse cTnI mRNA is expressed in all cardiomyocytes (A), whereas neither Wt1 (B) nor Cre (C) mRNA are detected in the ventricles. One day after LAD ligation (post-MI) (D-F), the expression level of cTnI mRNA has dropped below detection in the infarcted zone and is expressed at a lower level in the cardiomyocytes of the border zone than in remote healthy myocardium (D). At one day post-MI both Wt1 and Cre (E & F) are not detected. Three days post-MI (G-O), the expression of both Wt1 (H L) and Cre (I, N) are found in the epicardial cells covering the border of the infarcted area (G) and the infarct proper (J), but not covering remote, healthy myocardium (K, M & O). One week post-MI (P-U), the pattern of expression of Wt1 (R, S) and Cre (T, U) is essentially the same as at three days post-MI. Three months post-MI (U-W), Wt1 (W) and Cre (X) are, like in the control heart, not longer detectable. Abbreviations: LV: left ventricle, RV: right ventricle, Epi: epicardium. The bar is 100 microm.        Taken together, these observations show that the spatio-temporal pattern of expression of Cre mRNA parallels that of Wt1 mRNA, indicating that this Wt1Cre mouse line, concerning this aspect of the Cre/loxP analysis, can be used to trace the fate of Wt1 expressing cells in the region of the infarction. Since this Wt1Cre mouse line encodes a constitutive, rather than an inducible, Cre, the lineage analysis will not only show the effects that are the result of the induced myocardial infarction, but also the developmental history. To visualize the result of the developmental expression of Wt1 in the adult heart, we crossed male Wt1Cre with female R26R reporter mice and used immunofluorescent staining to identify the ss-Galactosidase (ss-Gal) expressing cells. As expected. the entire epicardium and adjacent mesenchyme, a subset of the endothelial cells of the coronaries and intermyocardial fibroblasts were found to express ss-Gal in the adult hearts (Figure 3A,B). We did not identify ss-Gal-expressing cardiomyocytes in the ventricular free wall, which is in line with our developmental analysis but in contrast to the Wt1 Cre knock-in lines. Post ischemic epicardial lineage analysis. In healthy Wt1Cre X R26R hearts ss-Gal is detected in the entire epicardium covering the ventricles, atria and atrioventricular junction (A, B). betaGal is also detected in cells of the coronaries and in inter-myocardial cells (A, A'). One day post-MI, no epicardial ss-Gal-expressing cells were observed to cover the infarcted area (C). In the epicardium and coronaries of the border zone ss-Gal was still present (D). Three days post-MI, ss-Gal-expressing epicardial cells covered the infarcted area (E). In the border zone a broadened (double arrow) subepicardial ss-Gal-expressing layer of cells appears (F,G). In the uninjured areas of the same heart ss-Gal expression was comparable to the control situation (H). The dotted line highlights the border between healthy and infarcted myocardium. One week post-MI the subepicardial layer has further broadened (double arrow, cf F & J) and the number of subepicardial ss-Gal-expressing cells has increased (J). One month post-MI the ss-Gal-expressing cells are present in the infarcted area and the epicardium covering the infarcted area (L-N). A subset of the ss-Gal-positive cells co-express cTnI (L), alpha-SMA (M) or PECAM (N). Three months post-MI the number of ss-Gal- and cTnI-co-expressing cells has increased and these cells are found throughout the infarcted area (O & P). Panel Q-S show consecutive sections showing the expression of cTnI, ss-Gal and SERCA2a. The arrow shows cardiomyocytes that are positive for all three markers. Abbreviations: LA: left atrium, LV: left ventricle, RV: right ventricle, Epi: epicardium, Subepi: subepicardium. The bar is 100 microm. Next we established the ss-Gal-expression pattern at various time points after permanent ligation of the LAD. To identify the ischemic area, we co-stained the sections for cTnI. The cTnI expression level is decreased at 1 day post-MI and below detection from three days post-MI onward in the infarcted region (Figure 3). At 1 day post-MI the ss-Gal-expressing epicardium overlying the border zone of the infarcted area showed interruptions, and was largely absent from the infarcted area (Figure 3C-D). Classic histological staining of neighboring sections confirmed that the epicardial layer covering the ischemic area had disintegrated (data not shown), which is in line with previously published data. Three days post-MI the infarcted area was found to be covered with a contiguous ss-Gal-expressing epicardial layer (figure 3E-H). These observations suggest that the epicardial layer overlaying the ischemic area is lost and regenerated within three days after the induction of ischemia. At three days post MI not only the epicardium was regenerated but also the space between the myocardium and epicardium covering the border zone of the infarction had widened and had become populated with ss-Gal-expressing mesenchymal cells (Figure 2F). In areas remote of the infarction and in controls, there was virtually no space between the epicardium and the ventricular myocardium (compare Figure 3F, J with 3H, K). At one week post-MI the space between the ss-Gal-positive epicardium and the myocardium had further widened and was no longer restricted to the border zone but included the entire infarct and was extensively populated with ss-Gal-expressing mesenchymal cells (Figure 3I-K). At one month post-MI, the wide ss-Gal-positive mesenchymal layer was still present in the border zone, but had disappeared from the infarcted area. ss-Gal-positive cells were now found throughout the infarcted area, suggesting that the subepicardial mesenchyme had invaded and replaced dead cardiomyocytes in the infarct (Figure 3L). This became even more evident at three months post-MI (data not shown). Although ss-Gal-positive cells contribute to the infarcted region not all cells are positive, increasing from 14+-2% of the cells at one week post-MI to 38+-5% of the non-myocardial cells within the infacted area, excluding the epicardium and subepicardial mesenchyme. These findings indicate that the non-myocytes in the infacted area are derived from other ancestries as well, being the endocardium and the bone marrow.       To gain insight into the phenotype of the ss-Gal-positive cells in the infarcted region triple immunofluorescent staining was performed. Based on this analysis the ss-Gal-expressing cells could be subdivided in four groups: (i) Cells co-expressing alpha-Smooth Muscle Actin (alpha-SMA) (Figure 3M), that were found throughout the infarcted area and adjacent to blood vessels. (ii) Cells co-expressing PECAM (CD31) that were located within coronary vessels (Figure 3N). (iii) Cells co-expressing cTnI, qualifying them as cardiomyocytes (Figure 3O-P). (iv) Cells co-expressing none of the three above markers, qualifying them as interstitial cells (Figure 3M-P). It should be noted that the cardiomyocytes comprise small islands of small rounded cells that most often do not show the typical architecture of adult cardiomyocytes. Due to their non-random distribution it is impossible to reliably quantify them, nevertheless we estimate that this population comprises a few hundred cells per infarct. With respect to this observation it is relevant to note that cTnI and ss-Gal double-positive cells (1) were only found at 1 and 3 months post-MI, (2) were never found in the left ventricular free wall outside the infarcted area, and (3) were never found in the ventricular free wall of controls. (4) Moreover, these cells were besides positive for cTnI also positive for other cardiomyocytes markers, like sarcoplasmic reticulum calcium ATPase 2a (SERCA2a). Proliferation of Epicardial and mesenchymal cells The observation that the epicardium overlaying the infarcted region is regenerated within the first three days after the infarct and the formation of a thick layer of subepicardial mesenchyme over the infarcted area, suggests that the healthy epicardium from the border zone grows over the infarct and that the newly formed epicardium proliferates and undergoes EMT to provide the subepicardial mesenchyme. To investigate these possibilities, mice were labeled with BrdU for 4 hours before sacrifice. As a positive control gut tissue was isolated and analyzed in parallel (Figure 4D). In control hearts, as expected, only an incidental non-myocardial cells was found to have incorporated BrdU (Figure 4A-C). One day post-MI, BrdU-incorporation was observed in the epicardial cells overlying the border zone of the infarct (Figure 4E) and in a low number of epicardial cells covering the atria (data not shown). We also observed BrdU incorporation in endocardial cells throughout the entire heart. During the following two weeks post-MI, BrdU incorporation was detected in the epicardium and mesenchymal cells overlying the infarct, but not in epicardial cells covering uninjured remote ventricular myocardium (Figure 4F-L). At 1 and 3 months post-MI, BrdU-incorporation was largely similar to controls, except for an occasional individual mesenchymal cell in the border zone of the infarct (Figure 4M-P). These observations suggest that the lost epicardium is regenerated from healthy epicardium covering the border zone. Secondly, the finding that the epicardium overlaying the infarct and its adjacent mesenchyme is not only ss-Gal-positive but also has incorporated BrdU, further underscores the idea that the subepicardial mesenchyme is de novo formed by EMT from the overlaying epicardium.       Proliferation of epicardial and subepicardial cells upon myocardial ischemia. In control hearts BrdU was not detected in the epicardium covering the atrioventricular junction (A), left ventricle (B) and atrium (C). As a positive control, BrdU incorporation was confirmed in the crypts of the gut in each mouse (D). At two days post-MI BrdU was detected in Wt1-positive epicardial cells (arrows) and some Wt1-negative cells throughout the myocardium of the apex (E). The thin dotted line highlights the border between the epicardium and underlaying myocardium. At three days post-MI BrdU-positive cells are found within in the epicardium covering the infarcted area (F), atria (G), and in mesenchymal cells in the border zone of the infarct (H). At one week post-MI BrdU was detected in cells located in the subepicardial space (double arrow) covering the infarcted area (I, J). At two weeks post-MI, BrdU was detected in a few individual subepicardial cells of the atria (arrow) (K) and of the border zone of the infarct (L). At one and three months post-MI hardly any BrdU incorporation was detected in the heart (M-P). Abbreviations: LA; left atrium, LV: left ventricle, RV: right ventricle, AVS; atrioventricular junction, Epi:epicardium, Subepi: subepicardial mesenchyme. The bar is 100 microm. Subepicardial mesenchyme formation by EMT Both the proliferation and lineage analysis point to de novo mesenchyme formation from the overlaying epicardium by EMT. To further substantiate this idea the pattern of expression of Snai1 and alpha-SMA, markers of EMT during embryogenesis, were determined in the region of the infarct. Concomitant with the appearance of mesenchymal cells adjacent to the epicardium covering the border zone and the infarcted area, expression of Snai1 (Figure 5A-C) and alpha-SMA (Figure 5J-M) were found in both the epicardial and mesenchymal cells. In areas remote of the infarct and in controls expression of Snai1 was not observed. At two weeks post-MI, the number of cells expressing these markers had decreased and at three months post-MI only a few scattered mesenchymal cells were found in the border zone. Because Snai1 is closely related to Snai2, we prepared primers to amplify the two genes separately. The qPCR analysis showed that Snai1 mRNA is not detectable in control hearts, was induced at 1 day post MI, and starts to decrease after twee weeks post-MI, to return to almost undetectable levels at three months post-MI (Figure 5C). Its relative Snai2 was detected in control hearts, and follows a similar temporal expression profile as Snai1. To exclude that the primers were not sufficiently specific, the PCR products were cloned and sequenced. Taken together these findings further underscore our interpretation that at least a subset, if not all, mesenchymal cells found between the epicardial layer and the infarcted myocardium are formed by EMT from the overlaying epicardium. Post-ischemic mesenchyme formation. Snai1 mRNA is present from three days onwards in the subepicardial mesenchyme of the apex and LV covering the infarct (A), and border zone (B). qPCR analysis (C) showed that Snai1 is already induced at one day post-MI and remains high up to two weeks post-MI, after which it gradually returns to control levels. Its close relative Snai2 shows a similar activation pattern as Snai1, with the exception that Snai2 is already detected in the healthy control heart. Within the border zone (D) and infarcted area (E) the matricellular proteins Follistatin-like1 (E,H) and Periostin (F,I) are expressed at high levels in the non-myocardial cells (cf D,G). In control hearts, alpha-SMA is present in the smooth muscle layer of the coronaries (J). At one and two weeks post-MI alpha-SMA is detected in the subepicardial mesenchyme and in mesenchymal cells located in the myocardium adjacent to the epicardium overlaying the infarct (K,L). At one and two weeks post-MI alpha-SMA-postive subepicardial mesenchyme is also found in the atria (M). P-Smad is only found in a small minority of subepicardial mesenchymal cells (arrow) directly flanking myocardial cells and adjacent to the infarct (N). Whereas P-Erk is detected in the nucleus of a subset of epicardial cells in controls and after an infarction, as well as in the cytoplasm and nucleus of an extensive subset of the subepicardial mesenchyme (O-Q). The bar is 100 microm. Another group of proteins regulating EMT are matricellular proteins. These proteins function by their ability to interact with multiple cell surface receptors, as well as by binding directly to structural or scaffold proteins. The expression of this family of proteins is most prominent during development but has also been shown to play an important role in the response to injury. We investigated the expression of two members of this family, Follistatin-like-1 (Figure 5E,H) and Periostin (Figure 5F,I), that both have been shown to be involved in mesenchyme differentiation in the developing heart. Fstl1 and Periostin mRNA were both present in the infarcted zone, with Fstl1 being more extensively expressed than Periostin (Figure 5D-I). Both mRNAs were most abundantly expressed at one week post-MI, after which their expression gradually decreased to very low, but still detectable levels, at two weeks and becoming undetectable from one month post-MI onward.   Regulators of mesenchyme differentiation Supplementing medium conditioned by EPDCs to mice, was found to reduce the size of the infarct and improve cardiac function. Recently, expression of Wnt1 was found to be induced in the epicardium and adjacent infarct tissue, eliciting a pro-fibrotic response. During development a progenitor cell population located upstream of the inflow of the heart contributes cells to the myocardium and epicardium. Inhibiting Wnt signaling during development by applying recombinant Wif1 to the developing embryo was found to increase this progenitor pool. The cooperative interaction of Smad-mediated BMP and Erk-mediated FGF-signaling subsequently directs the differentiation of these progenitors into either the myocardial or epicardial lineages. Since the lineage analysis had identified a small population of ss-Gal-positive cardiomyocytes, we determined whether P-Smad and P-Erk are expressed after a myocardial infarction. P-Smad was found to be expressed at low levels in mesenchymal cells flanking the cardiomyocytes of the border zone and in scattered cells throughout the infarcted area (Figure 5N). P-Erk, on the other hand, was observed in a small portion of epicardial cells in control hearts. At three days and one week post-MI P-Erk was observed at high levels in the mesenchyme adjacent to the epicardium overlaying the infarcted area (Figure 5O-Q). At one month post-MI, the mesenchymal cells expressing P-Erk were only found in mesenchymal cells in the border zone of the infarct. At three months post-MI the expression pattern was found to be similar to controls. P-Smad was found to be expressed at low levels in mesenchymal cells flanking the cardiomyocytes of the border zone and in scattered cells throughout the infarcted area (Figure 5N). Taken together the pattern of expression of P-Erk suggests a role in epicardial EMT, and that of P-Smad a role in the differentiation of cardiomyocytes in the infarcted.   Expression of stem cell markers in adult healthy and infarcted hearts Upon amputation of the cardiac apex in zebrafish, the epicardium is activated, and myocardial cells start to proliferate. Like the zebrafish heart, the neonatal mouse heart is able to respond to injury, whereas in the adult mouse heart proliferation of cardiomyocytes after a myocardial infarction was not observed (Figure 4). Also in this study we did not observe any BrdU incorporation in adult cardiomyocytes, suggesting that it is very unlikely that the betaGal-expressing cardiomyocytes are derived from existing cardiomyocytes by proliferation. As an alternative to de novo differentiation of epicardium-derived cells, the cardiomyocytes might originate from differentiation of stem cells that express or have expressed Wt1. The latter option seems to be a likely option because Wt1 has been shown to be important for the formation of progenitor cells in the epicardium during development, and, secondly, the adult epicardium has been suggested to be a source of stem cells. To evaluate the changes in the potential progenitor population, we determined the pattern of expression of Platelet Derived Growth Factor alpha (PDGFRalpha), CD34 and cKit by immunofluorescence (Figure 6). Unfortunately, it is technically impossible to perform reliable triple immunufluorescent staining for ss-Gal and these stem cell markers because the primary antibodies are raised in the same species. In the healthy heart PDGFRalpha, CD34 and cKit were detected in the epicardium covering the atria, atrioventricular sulcus and apex. PDGFRalpha and CD34 were also detected in a subset of mesenchymal cells in the atrioventricular sulcus (Figure 6A, D, I). This finding is in line with the identified stem cell niches and with the sites of expression of Wt1. At three days post-MI, cKit, but not PDGFRalpha and CD34, expression was observed in a portion of the epicardial cells that cover the border zone of the infarct (Figure 6E). At one and two weeks post-MI expression of all three markers was found in a subset of the mesenchymal cells adjacent to the epicardium overlaying the infarct (Figure 6B, C, F-H, K-L). From one month onward the expression of the stem cell markers was no longer detected in the area of the infarct anymore, but only in the regions found in controls (data not shown). Since the spatio-temporal pattern of expression of the stem cell markers and the cardiomyocytes markers do not overlap in the region of the infarct, this analysis does not imply a direct association. Since our analysis has shown that a large part, if not all, subepicardial cells overlaying the infarct are formed de novo by EMT from overlaying epicardium, one might speculate that after an infarction the epicardium-derived stem cell population expands and provides the precursors of the various Wt1-derived populations (Figure 3 M-P). Nevertheless, the origin of the Wt1-lineage positive cardiomyocytes remains enigmatic. Expression of stem cell markers. The different stem cell markers, CD34 (A-C), cKit (D-H) and PDGFRalpha (I-L) are shown in green, cTnI in red, and the nuclei in blue. In the healthy heart CD34-positive cells are found to be scattered through the epicardium covering the atria (A). After the induction of the ischemia CD34 is up-regulated and becomes highly expressed in the epicardium covering the infarct and its border zone (B,C), as well as in mesenchymal cells in the subepicardial space in the border zone (B). cKit is expressed in the epicardium and individual adjacent mesenchymal cells of the atria in control hearts (D). cKit becomes evident in scattered cells of the epicardium overlaying the border zone of the infarct at 3 days post-MI (E). At one week post-MI cKit is expressed throughout the epicardium overlaying the infarct and its border zone, as well as in a subset of immediately adjacent mesenchymal cells (G, H). Moreover, at this time point cKit is also expressed in the epicardium and a subset of adjacent subepicardial mesenchymal cells in the atrioventricular sulcus (F). In control heart PDGFRalpha is expressed in a small portion of the mesenchyme of the atrioventricular sulcus (I). At three days post-MI (J) and one week post-MI (L) PDGFRalpha is expressed in the epicardium overlaying the infarction. In the border zone PDGFRalpha is also expressed in mesenchymal cells within the subepicardial space (L). The dotted line highlights the border between infarcted tissue and healthy myocardium. The double arrow highlights the width of the subepicardial space. Abbreviations: LA: left atrium, LV: left ventricle, Epi: epicardium, AVS: atrioventricular sulcus. The bar is 100 microm. Discussion Traditionally, the epicardium has been regarded as a mesothelial sheath protecting the underlying myocardium and producing the pericardial fluid facilitating cardiac contraction. However, recent research has revealed that the epicardium is far from being a static anatomical structure, but plays a pivotal role in homeostasis and regeneration of the adult heart. Using the epicardium as a source of cells in novel regenerative strategies might, therefore, be an attractive option. A prerequisite for developing such novel strategies is the understanding of the cellular and molecular changes in the epicardium during regeneration. The results obtained by using in situ hybridization, immunofluorescence and classic histological analyses are summarized in a schematics (Figure 7). At one day post-MI most of the epicardium overlaying the ischemic region is disrupted. The epicardial layer immediately adjacent to the ischemic zone, i.e. the border zone, starts to express embryonic epicardial genes, starts to proliferate, and the space between the epicardium and myocardium widens. Within the epicardium of the border zone the expression of Wt1 mRNA and protein, as well as Cre is induced. At three days post-MI the ischemic myocardium is again covered with an epicardial layer that is separated from the underlying myocardium by a wide gap. This epicardium is expressing Wt1, Cre and betaGal. Taken together these observations suggest that the new epicardial layer overlaying the infarct is formed from the epicardium overlaying the border zone. In line with this interpretation the epicardial cells overlaying the border zone express genes that are also expressed during formation of epicardium during development. Schematic overview of morphological and molecular changes upon myocardial ischemia. The initially a-cellular gap between the newly formed epicardium and infarct becomes populated by mesenchymal cells. Tracing the Wt1-lineage showed that these mesenchymal cells are betaGal-positive. This observation indicates that the mesenchymal cells are descendants of cells that express or have expressed Wt1. Therefore, these mesenchymal cells are derived from the overlaying epicardium or have invaded from a remote location. The following observation suggests that the mesenchymal cells are derived from the overlaying epicardium. The BrdU labeling experiments showed incorporation of this proliferation marker in cells of the epicardium overlaying the infarct and in adjacent mesenchymal cells. Though one could conclude that both cell populations are proliferating, one could also regard the incorporated label as a short term lineage tracer, because the mice were exposed to BrdU 4 hours prior to sacrifice. As such the finding of BrdU labeling in both the epicardium and subepicardial mesenchyme mesenchymal cells suggests that the mesenchymal cells are derived from the overlaying epicardium by a process of EMT. This conclusion is underscored by the observed expression of the EMT markers Snai1 and alphaSMA. Nevertheless, we cannot exclude that descendants of Wt1-expressing cells have invaded the infarct area from remote sites, as in the healthy heart Wt1-expressing cells have been identified in stem cells niches in the atrioventricular sulcus and apex of the ventricle and, secondly, that Wt1 has been shown to be important for the formation of progenitor cells in the epicardium during development. After the induction of the ischemia the gap between the epicardium and infarcted myocardium initially widens forming an extensive mesenchymal layer. The mesenchymal cells within this layer are virtually all derived from the Wt1-lineage, as they express Wt1, Cre and/or betaGal. At this point it is of relevance to note that the Wt1 and Cre are not expressed in this region of the healthy controls, further underscoring the reactivation of the epicardium in the infarcted region. Subsequently, at one and three months post-MI, the mesenchymal layer starts to thin, as the mesenchymal cells start to occupy the space of dead cardiomyocytes. Interesting, in the forming infarct scar more than one third of the cells are positive for betaGal, indicating that not only cells of the Wt1-lineage contribute to the scar tissue. This finding is in line with analyses showing a contribution of endocardium-derived cells, bone marrow-derived cells, as well as a small contribution of cardiomyocytes to the scar. During development epicardium-derived cells contribute to the intermyocardial fibroblast population and the coronary vessels. To evaluate whether after an infarction the epicardium-derived cells, i.e. the Wt1-lineage positive cells, also contribute to these populations a triple immunofluorescent analysis was performed. This analysis showed that a small portion of the Wt1-lineage positive cells also expressed CD31, qualifying them as endothelial cells. The identification of Wt1-lineage positive coronary endothelial cells was unexpected based on a mouse study, but expected based on studies in chicken. Our Wt1-lineage analysis together with the analysis of the pattern of expression of Wt1 mRNA and protein suggests that the coronary endothelial cells are de novo formed. Alternatively, the CD31-expressing Wt1-lineage positive cells are the result of outgrowth of coronaries from the border zone into the infarcted area. Although we were not able to identify Wt1 mRNA or protein expression in the border zone of the infarct, it has been reported that after an infarct Wt1 expression is induced in coronary endothelium in the border zone. The identification of a small number of Wt1-lineage positive cardiomyocytes from one month post-MI onward was unexpected. Epicardial-to-myocardial differentiation is a contentious topic based on mouse and chicken studies. Our first concern was the specificity of our staining. However, the spatio-temporal pattern of the cardiomyocytes and the fact that they are positive for different markers does underscore the specificity of the staining. Another issue is the fact that only a very limited number of cardiomyocytes is found. Because the labeling of cells in the Cre/lox system is the result of a stochastic process, low numbers of positive cells might be the result of random recombination and thus as such illegitimate labeling. However, this does not seem to be an issue as Wt1-lineage positive myocytes are only observed in the infarct at one and three months post-MI and never in control hearts or in infarcts prior to one month post-MI. Moreover, if the labeling was due to illegitimate recombination then one would expect a random distribution throughout the infarct or even the entire heart, which is not the case. Epicardium-derived cardiomyocytes have been reported in zebra fish upon amputation of the apex and, in a recent study in mice, after a myocardial infarction. Nevertheless, the origin of these cardiomyocytes is largely unknown. Although our Wt1-lineage analysis suggests that the myocytes are direct daughters of the de novo formed epicardial layer covering the infarcted zone, other options are possible. These myocytes might be derived from the stem cell population that has expressed Wt1 early during its life-span and resides in the heart. Alternatively, these cardiomyocytes might be the result of fusion of lineage positive mesenchymal cells with existing cardiomyocytes, a phenomenon also occurring during stem cell transplantation. The observation that most of the myocytes do not have the characteristic adult cardiomyocyte shape and contain only one nucleus, renders this latter option unlikely. Nevertheless, experiments need to be performed to falsify this option. Taken together, these observations point to a Wt1-derived population of cells, that is capable of differentiating into the myocardial lineage after a myocardial infarction. When the efficiency of this process could be enhanced, this population forms an attractive source of new cardiomyocytes in a regenerative approach. Pro-fibrotic mesenchymal signaling inhibits cardiomyocyte formation The limited myocardial regenerative capacity of the mouse heart might be hard wired or the net outcome of the integration of various signaling pathways. During early development the extent of the Wt1-expressing progenitor population at the inflow of the heart is regulated by Wnt signaling, and the subsequent differentiation into the epicardial or myocardial lineages by the cooperative interaction of Erk-mediated FGF-signaling and Smad-mediated BMP-signaling. In the developing epicardium BMP-mediated myocardial differentiation is inhibited by Erk-mediated phosphorylation of Smad, rendering it incapable of accumulating in the nucleus and conveying the BMP signal. With further development, the epicardium secretes growth factors, like FGF and BMP that stimulate proliferation of the underlying myocardium. Also the adult epicardium was found to secrete growth factors that modulate the extent of the injury after a myocardial infarction. Immunofluorescent analysis of the infarcted area identified abundant P-Erk expression in the mesenchyme, as well as very limited and low levels of expression of P-Smad. These data suggest that in the infarcted region, like at the inflow of the developing heart, Erk-mediated FGF-signaling stimulates the formation of non-myocardial cells and inhibits cardiomyocyte differentiation via a cooperative interaction. This idea is further supported by the observation that Fstl1, a natural BMP inhibitor is expressed at high levels in the infarct, and as such inhibits cardiomyocyte differentiation. At first glance contradictory to our idea, ectopic expression of Fstl1 or inhibition of FGF-signaling reduces infarct size. This reduction in infarct size is, however, not due to formation of new cardiomyocytes, but the result of induced/enhanced revascularization, enhancing survival of cardiomyocytes. Also the matricellular protein, Periostin, which directs differentiation of mesenchymal cells into fibroblasts and upon disruption results in reduced infarct size, was found to be expressed at high levels in the infarct. General conclusion Taken together, this analysis shows that a regenerative response, similar to the response observed in fish, is initiated in the mouse upon MI, suggesting that an evolutionary conserved mechanism persists in the mammalian heart. However, unlike in fish, the regenerative response in mammalian heart is abrogated, resulting in the formation of only a limited number of new cardiomyocytes. Our findings provide basic knowledge that will be useful for the development of new strategies to enhance the endogenous regenerative capacity of the epicardial lineage. References Evidence for cardiomyocyte renewal in humans Cardiomyogenesis in the adult human heart Stem-cell-based therapy and lessons from the heart Cardiac regeneration: different cells same goal Epicardium and myocardium originate from a common cardiogenic precursor pool Origin of cardiac progenitor cells in the developing and postnatal heart Transient regenerative potential of the neonatal mouse heart Zebrafish heart regeneration occurs by cardiomyocyte dedifferentiation and proliferation Primary contribution to zebrafish heart regeneration by gata4(+) cardiomyocytes A dynamic epicardial injury response supports progenitor cell activity during zebrafish heart regeneration Epicardium and myocardium separate from a common precursor pool by crosstalk between bone morphogenetic protein- and fibroblast growth factor-signaling pathways Cardiac fibroblasts regulate myocardial proliferation through beta1 integrin signaling The epicardium and epicardial-derived cells: multiple functions in cardiac development Epithelial-mesenchymal transition of epicardial mesothelium is a source of cardiac CD117-positive stem cells in adult human heart Myocardial infarction induces embryonic reprogramming of epicardial c-kit(+) cells: Role of the pericardial fluid Identification of myocardial and vascular precursor cells in human and mouse epicardium Cardiac progenitor cells: Potency and control De novo cardiomyocytes from within the activated adult heart after injury Epicardially derived fibroblasts preferentially contribute to the parietal leaflets of the atrioventricular valves in the murine heart Generalized lacZ expression with the ROSA26 Cre reporter strain Toll-like receptor 4 mediates maladaptive left ventricular remodeling and impairs cardiac function after myocardial infarction Amplification efficiency: linking baseline and bias in the analysis of quantitative PCR data Atrial and ventricular myosin heavy-chain expression in the developing chicken heart: strengths and limitations of non-radioactive in situ hybridization Isl1 Expression at the Venous Pole Identifies a Novel Role for the Second Heart Field in Cardiac Development Cloning and expression analysis of the mouse T-box gene Tbx18 Analysis of TBX18 expression in chick embryos Dynamic patterns of retinoic acid synthesis and response in the developing mammalian heart Localization of the Wilm's tumour protein WT1 in avian embryos The expression of the Wilms' tumour gene, WT1, in the developing mammalian embryo Rebuilding the coronary vasculature: hedgehog as a new candidate for pharmacologic revascularization Epicardial progenitors contribute to the cardiomyocyte lineage in the developing heart Adult mouse epicardium modulates myocardial injury by secreting paracrine factors The Wilms' tumor suppressor Wt1 is expressed in the coronary vasculature after myocardial infarction Wt1 and Epicardial Fate Mapping Endothelial-to-mesenchymal transition contributes to cardiac fibrosis Experimental myocardial infarction triggers canonical Wnt signaling and endothelial-to-mesenchymal transition Bone marrow-derived myofibroblasts contribute functionally to scar formation after myocardial infarction Assessment of cardiomyocyte dna synthesis in normal and injured adult mouse hearts Wt1 is required for cardiovascular progenitor cell formation through transcriptional control of Snail and E-cadherin Matricellular proteins: an overview Matricellular proteins as modulators of cell-matrix interactions: adhesive defect in thrombospondin 2-null fibroblasts is a consequence of increased levels of matrix metalloproteinase-2 Wnt1/betacatenin injury response activates the epicardium and cardiac fibroblasts to promote cardiac repair Comprehensive gene-expression survey identifies wif1 as a modulator of cardiomyocyte differentiation Role of bone morphogenetic proteins in cardiac differentiation Heart regeneration in zebrafish The epicardium and epicardially derived cells (EPDCs) as cardiac stem cells Stem cell niches in the adult mouse heart Evidence from a genetic fate-mapping study that stem cells refresh adult mammalian cardiomyocytes after injury Coronary arteries form by developmental reprogramming of venous cells Cellular precursors of the coronary arteries Building the vertebrate heart - an evolutionary approach to cardiac development Does the subepicardial mesenchyme contribute myocardioblasts to the myocardium of the chick embryo heart? A quail-chick chimera study tracing the fate of of the epicardial primordium Stem cell induced cardiac regeneration: Fusion/mitochondrial exchange and/or transdifferentiation? Mitogen-activated protein kinase signaling in the heart: angels versus demons in a heart-breaking tale Follistatin-like 1 (Fstl1) is a bone morphogenetic protein (BMP) 4 signaling antagonist in controlling mouse lung development The BMP antagonist follistatin-like 1 is required for skeletal and lung organogenesis DIP2 disco-interacting protein 2 homolog A (Drosophila) is a candidate receptor for follistatin-related protein/follistatin-like 1-analysis of their binding with TGF-beta superfamily proteins   Follistatin-like 1 is an Akt-regulated cardioprotective factor that is secreted by the heart Follistatin-like 1, a secreted muscle protein, promotes endothelial cell function and revascularization in ischemic tissue through a nitric-oxide synthase-dependent mechanism The role of insulin-like and basic fibroblast growth factors on ischemic and infarcted myocardium: a mini review Developmental basis of adult cardiovascular diseases: valvular heart diseases The many facets of the matricelluar protein periostin during cardiac development, remodeling, and pathophysiology Genetic manipulation of periostin expression reveals a role in cardiac hypertrophy and ventricular remodeling",
+    "entities": [
+        {
+            "entityId": "85_94",
+            "span": {
+                "begin": 85,
+                "end": 94
+            },
+            "entityType": "species",
+            "entityName": "mammalian",
+            "id": "UMLS:C0024660"
+        },
+        {
+            "entityId": "143_157",
+            "span": {
+                "begin": 143,
+                "end": 157
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "170_178",
+            "span": {
+                "begin": 170,
+                "end": 178
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "196_207",
+            "span": {
+                "begin": 196,
+                "end": 207
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "222_227",
+            "span": {
+                "begin": 222,
+                "end": 227
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "254_268",
+            "span": {
+                "begin": 254,
+                "end": 268
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "417_426",
+            "span": {
+                "begin": 417,
+                "end": 426
+            },
+            "entityType": "species",
+            "entityName": "zebrafish",
+            "id": "UMLS:C0043457"
+        },
+        {
+            "entityId": "643_651",
+            "span": {
+                "begin": 643,
+                "end": 651
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "658_663",
+            "span": {
+                "begin": 658,
+                "end": 663
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "664_685",
+            "span": {
+                "begin": 664,
+                "end": 685
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "985_993",
+            "span": {
+                "begin": 985,
+                "end": 993
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "1204_1207",
+            "span": {
+                "begin": 1204,
+                "end": 1207
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "1299_1316",
+            "span": {
+                "begin": 1299,
+                "end": 1316
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "1329_1343",
+            "span": {
+                "begin": 1329,
+                "end": 1343
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1360_1368",
+            "span": {
+                "begin": 1360,
+                "end": 1368
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "1391_1412",
+            "span": {
+                "begin": 1391,
+                "end": 1412
+            },
+            "entityType": "cell",
+            "entityName": "fibroblast population",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "1414_1428",
+            "span": {
+                "begin": 1414,
+                "end": 1428
+            },
+            "entityType": "cell",
+            "entityName": "myofibroblasts",
+            "id": "UMLS:C0225360"
+        },
+        {
+            "entityId": "1492_1516",
+            "span": {
+                "begin": 1492,
+                "end": 1516
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte population",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1534_1538",
+            "span": {
+                "begin": 1534,
+                "end": 1538
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "1711_1725",
+            "span": {
+                "begin": 1711,
+                "end": 1725
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1759_1763",
+            "span": {
+                "begin": 1759,
+                "end": 1763
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "1816_1830",
+            "span": {
+                "begin": 1816,
+                "end": 1830
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2015_2030",
+            "span": {
+                "begin": 2015,
+                "end": 2030
+            },
+            "entityType": "disease",
+            "entityName": "Cardiac disease",
+            "id": "UMLS:C0018799"
+        },
+        {
+            "entityId": "2141_2155",
+            "span": {
+                "begin": 2141,
+                "end": 2155
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2258_2272",
+            "span": {
+                "begin": 2258,
+                "end": 2272
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2349_2363",
+            "span": {
+                "begin": 2349,
+                "end": 2363
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2417_2427",
+            "span": {
+                "begin": 2417,
+                "end": 2427
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "2558_2572",
+            "span": {
+                "begin": 2558,
+                "end": 2572
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "2719_2728",
+            "span": {
+                "begin": 2719,
+                "end": 2728
+            },
+            "entityType": "cell",
+            "entityName": "stem cell",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "2748_2757",
+            "span": {
+                "begin": 2748,
+                "end": 2757
+            },
+            "entityType": "species",
+            "entityName": "zebrafish",
+            "id": "UMLS:C0043457"
+        },
+        {
+            "entityId": "2841_2850",
+            "span": {
+                "begin": 2841,
+                "end": 2850
+            },
+            "entityType": "species",
+            "entityName": "mammalian",
+            "id": "UMLS:C0024660"
+        },
+        {
+            "entityId": "3148_3162",
+            "span": {
+                "begin": 3148,
+                "end": 3162
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "3541_3550",
+            "span": {
+                "begin": 3541,
+                "end": 3550
+            },
+            "entityType": "species",
+            "entityName": "mammalian",
+            "id": "UMLS:C0024660"
+        },
+        {
+            "entityId": "3598_3619",
+            "span": {
+                "begin": 3598,
+                "end": 3619
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3697_3711",
+            "span": {
+                "begin": 3697,
+                "end": 3711
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "4008_4029",
+            "span": {
+                "begin": 4008,
+                "end": 4029
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "4031_4033",
+            "span": {
+                "begin": 4031,
+                "end": 4033
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "4038_4042",
+            "span": {
+                "begin": 4038,
+                "end": 4042
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4056_4070",
+            "span": {
+                "begin": 4056,
+                "end": 4070
+            },
+            "entityType": "gene",
+            "entityName": "Wilm's Tumor 1",
+            "id": "NCBIGene:7490"
+        },
+        {
+            "entityId": "4435_4438",
+            "span": {
+                "begin": 4435,
+                "end": 4438
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "4440_4445",
+            "span": {
+                "begin": 4440,
+                "end": 4445
+            },
+            "entityType": "gene",
+            "entityName": "Tbx18",
+            "id": "UMLS:C1420606"
+        },
+        {
+            "entityId": "4748_4753",
+            "span": {
+                "begin": 4748,
+                "end": 4753
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "4755_4763",
+            "span": {
+                "begin": 4755,
+                "end": 4763
+            },
+            "entityType": "gene",
+            "entityName": "alphaSMA",
+            "id": "UMLS:C2716282"
+        },
+        {
+            "entityId": "5076_5090",
+            "span": {
+                "begin": 5076,
+                "end": 5090
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "5167_5181",
+            "span": {
+                "begin": 5167,
+                "end": 5181
+            },
+            "entityType": "cell",
+            "entityName": "myofibroblasts",
+            "id": "UMLS:C0225360"
+        },
+        {
+            "entityId": "5183_5200",
+            "span": {
+                "begin": 5183,
+                "end": 5200
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "5206_5220",
+            "span": {
+                "begin": 5206,
+                "end": 5220
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "5654_5662",
+            "span": {
+                "begin": 5654,
+                "end": 5662
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 gene",
+            "id": "UMLS:C0694898"
+        },
+        {
+            "entityId": "5812_5815",
+            "span": {
+                "begin": 5812,
+                "end": 5815
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "5828_5832",
+            "span": {
+                "begin": 5828,
+                "end": 5832
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5896_5900",
+            "span": {
+                "begin": 5896,
+                "end": 5900
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6034_6055",
+            "span": {
+                "begin": 6034,
+                "end": 6055
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "6058_6079",
+            "span": {
+                "begin": 6058,
+                "end": 6079
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "6081_6083",
+            "span": {
+                "begin": 6081,
+                "end": 6083
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "6240_6244",
+            "span": {
+                "begin": 6240,
+                "end": 6244
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6300_6308",
+            "span": {
+                "begin": 6300,
+                "end": 6308
+            },
+            "entityType": "drug",
+            "entityName": "Fentanyl",
+            "id": "UMLS:C0015846"
+        },
+        {
+            "entityId": "6323_6331",
+            "span": {
+                "begin": 6323,
+                "end": 6331
+            },
+            "entityType": "drug",
+            "entityName": "Dormicum",
+            "id": "UMLS:C0013050"
+        },
+        {
+            "entityId": "6399_6403",
+            "span": {
+                "begin": 6399,
+                "end": 6403
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6777_6783",
+            "span": {
+                "begin": 6777,
+                "end": 6783
+            },
+            "entityType": "disease",
+            "entityName": "anemia",
+            "id": "UMLS:C0002871"
+        },
+        {
+            "entityId": "6935_6944",
+            "span": {
+                "begin": 6935,
+                "end": 6944
+            },
+            "entityType": "drug",
+            "entityName": "Antisedan",
+            "id": "UMLS:C1724744"
+        },
+        {
+            "entityId": "6961_6971",
+            "span": {
+                "begin": 6961,
+                "end": 6971
+            },
+            "entityType": "drug",
+            "entityName": "Flumazenil",
+            "id": "UMLS:C0016293"
+        },
+        {
+            "entityId": "7003_7007",
+            "span": {
+                "begin": 7003,
+                "end": 7007
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7061_7065",
+            "span": {
+                "begin": 7061,
+                "end": 7065
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7175_7179",
+            "span": {
+                "begin": 7175,
+                "end": 7179
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7226_7250",
+            "span": {
+                "begin": 7226,
+                "end": 7250
+            },
+            "entityType": "drug",
+            "entityName": "5'-Bromo-2'-Deoxyuridine",
+            "id": "mesh:D001973"
+        },
+        {
+            "entityId": "7252_7256",
+            "span": {
+                "begin": 7252,
+                "end": 7256
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "7320_7329",
+            "span": {
+                "begin": 7320,
+                "end": 7329
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "7477_7493",
+            "span": {
+                "begin": 7477,
+                "end": 7493
+            },
+            "entityType": "drug",
+            "entityName": "paraformaldehyde",
+            "id": "mesh:C003043"
+        },
+        {
+            "entityId": "7495_7498",
+            "span": {
+                "begin": 7495,
+                "end": 7498
+            },
+            "entityType": "drug",
+            "entityName": "PFA",
+            "id": "UMLS:CHEBI:60594"
+        },
+        {
+            "entityId": "7943_7950",
+            "span": {
+                "begin": 7943,
+                "end": 7950
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "7969_7978",
+            "span": {
+                "begin": 7969,
+                "end": 7978
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "8045_8048",
+            "span": {
+                "begin": 8045,
+                "end": 8048
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "8233_8269",
+            "span": {
+                "begin": 8233,
+                "end": 8269
+            },
+            "entityType": "gene",
+            "entityName": "SuperScript II Reverse Transcriptase",
+            "id": "UMLS:C0035379"
+        },
+        {
+            "entityId": "8362_8380",
+            "span": {
+                "begin": 8362,
+                "end": 8380
+            },
+            "entityType": "DNA",
+            "entityName": "single strand cDNA",
+            "id": "UMLS:C0006556"
+        },
+        {
+            "entityId": "8621_8627",
+            "span": {
+                "begin": 8621,
+                "end": 8627
+            },
+            "entityType": "gene",
+            "entityName": "Wt1-FW",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "8657_8663",
+            "span": {
+                "begin": 8657,
+                "end": 8663
+            },
+            "entityType": "gene",
+            "entityName": "Wt1-RV",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "8686_8691",
+            "span": {
+                "begin": 8686,
+                "end": 8691
+            },
+            "entityType": "gene",
+            "entityName": "Tbx18",
+            "id": "UMLS:C1420606"
+        },
+        {
+            "entityId": "8720_8728",
+            "span": {
+                "begin": 8720,
+                "end": 8728
+            },
+            "entityType": "gene",
+            "entityName": "Tbx18-RV",
+            "id": "UMLS:C1420606"
+        },
+        {
+            "entityId": "8754_8762",
+            "span": {
+                "begin": 8754,
+                "end": 8762
+            },
+            "entityType": "gene",
+            "entityName": "Snai1-FW",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "8786_8794",
+            "span": {
+                "begin": 8786,
+                "end": 8794
+            },
+            "entityType": "gene",
+            "entityName": "Snai1-RV",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "8818_8826",
+            "span": {
+                "begin": 8818,
+                "end": 8826
+            },
+            "entityType": "gene",
+            "entityName": "Snai2-FW",
+            "id": "UMLS:C1420248"
+        },
+        {
+            "entityId": "8850_8858",
+            "span": {
+                "begin": 8850,
+                "end": 8858
+            },
+            "entityType": "gene",
+            "entityName": "Snai2-RV",
+            "id": "UMLS:C1420248"
+        },
+        {
+            "entityId": "8883_8892",
+            "span": {
+                "begin": 8883,
+                "end": 8892
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1-FW",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "8916_8925",
+            "span": {
+                "begin": 8916,
+                "end": 8925
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1-RV",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "8951_8960",
+            "span": {
+                "begin": 8951,
+                "end": 8960
+            },
+            "entityType": "gene",
+            "entityName": "Raldh2-FW",
+            "id": "UMLS:C1332076"
+        },
+        {
+            "entityId": "8988_8997",
+            "span": {
+                "begin": 8988,
+                "end": 8997
+            },
+            "entityType": "gene",
+            "entityName": "Raldh2-RV",
+            "id": "UMLS:C1332076"
+        },
+        {
+            "entityId": "9309_9314",
+            "span": {
+                "begin": 9309,
+                "end": 9314
+            },
+            "entityType": "gene",
+            "entityName": "Gapdh",
+            "id": "UMLS:C1414968"
+        },
+        {
+            "entityId": "9521_9528",
+            "span": {
+                "begin": 9521,
+                "end": 9528
+            },
+            "entityType": "drug",
+            "entityName": "ethanol",
+            "id": "UMLS:C0001962"
+        },
+        {
+            "entityId": "9564_9576",
+            "span": {
+                "begin": 9564,
+                "end": 9576
+            },
+            "entityType": "gene",
+            "entityName": "proteinase K",
+            "id": "UMLS:C0059256"
+        },
+        {
+            "entityId": "9618_9630",
+            "span": {
+                "begin": 9618,
+                "end": 9630
+            },
+            "entityType": "gene",
+            "entityName": "proteinase K",
+            "id": "UMLS:C0059256"
+        },
+        {
+            "entityId": "9684_9691",
+            "span": {
+                "begin": 9684,
+                "end": 9691
+            },
+            "entityType": "drug",
+            "entityName": "glycine",
+            "id": "UMLS:C0017890"
+        },
+        {
+            "entityId": "9798_9801",
+            "span": {
+                "begin": 9798,
+                "end": 9801
+            },
+            "entityType": "drug",
+            "entityName": "PFA",
+            "id": "UMLS:CHEBI:60594"
+        },
+        {
+            "entityId": "9811_9825",
+            "span": {
+                "begin": 9811,
+                "end": 9825
+            },
+            "entityType": "drug",
+            "entityName": "glutaraldehyde",
+            "id": "mesh:D005976"
+        },
+        {
+            "entityId": "9936_9945",
+            "span": {
+                "begin": 9936,
+                "end": 9945
+            },
+            "entityType": "drug",
+            "entityName": "formamide",
+            "id": "UMLS:C0016568"
+        },
+        {
+            "entityId": "9966_9970",
+            "span": {
+                "begin": 9966,
+                "end": 9970
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "10041_10045",
+            "span": {
+                "begin": 10041,
+                "end": 10045
+            },
+            "entityType": "drug",
+            "entityName": "EDTA",
+            "id": "UMLS:C0013618"
+        },
+        {
+            "entityId": "10056_10110",
+            "span": {
+                "begin": 10056,
+                "end": 10110
+            },
+            "entityType": "drug",
+            "entityName": "3-Cholamidopropyl) dimethylammonio]-1-propanesulfonate",
+            "id": "UMLS:C0138693"
+        },
+        {
+            "entityId": "10210_10225",
+            "span": {
+                "begin": 10210,
+                "end": 10225
+            },
+            "entityType": "DNA",
+            "entityName": "yeast total RNA",
+            "id": "UMLS:C2983890"
+        },
+        {
+            "entityId": "10360_10378",
+            "span": {
+                "begin": 10360,
+                "end": 10378
+            },
+            "entityType": "gene",
+            "entityName": "cardiac Troponin I",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "10380_10384",
+            "span": {
+                "begin": 10380,
+                "end": 10384
+            },
+            "entityType": "gene",
+            "entityName": "cTnI",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "10387_10393",
+            "span": {
+                "begin": 10387,
+                "end": 10393
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "10395_10401",
+            "span": {
+                "begin": 10395,
+                "end": 10401
+            },
+            "entityType": "gene",
+            "entityName": "Raldh2",
+            "id": "UMLS:C1332076"
+        },
+        {
+            "entityId": "10403_10406",
+            "span": {
+                "begin": 10403,
+                "end": 10406
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "10408_10413",
+            "span": {
+                "begin": 10408,
+                "end": 10413
+            },
+            "entityType": "gene",
+            "entityName": "Tbx18",
+            "id": "UMLS:C1420606"
+        },
+        {
+            "entityId": "10415_10420",
+            "span": {
+                "begin": 10415,
+                "end": 10420
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "10422_10431",
+            "span": {
+                "begin": 10422,
+                "end": 10431
+            },
+            "entityType": "gene",
+            "entityName": "Periostin",
+            "id": "UMLS:C1424662"
+        },
+        {
+            "entityId": "10436_10441",
+            "span": {
+                "begin": 10436,
+                "end": 10441
+            },
+            "entityType": "gene",
+            "entityName": "Fstl1",
+            "id": "UMLS:C1414831"
+        },
+        {
+            "entityId": "10553_10562",
+            "span": {
+                "begin": 10553,
+                "end": 10562
+            },
+            "entityType": "drug",
+            "entityName": "formamide",
+            "id": "UMLS:C0016568"
+        },
+        {
+            "entityId": "10614_10618",
+            "span": {
+                "begin": 10614,
+                "end": 10618
+            },
+            "entityType": "drug",
+            "entityName": "Tris",
+            "id": "UMLS:C0077281"
+        },
+        {
+            "entityId": "10638_10642",
+            "span": {
+                "begin": 10638,
+                "end": 10642
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "10650_10656",
+            "span": {
+                "begin": 10650,
+                "end": 10656
+            },
+            "entityType": "drug",
+            "entityName": "Tween-",
+            "id": "UMLS:C0041420"
+        },
+        {
+            "entityId": "10754_10765",
+            "span": {
+                "begin": 10754,
+                "end": 10765
+            },
+            "entityType": "drug",
+            "entityName": "Maleic Acid",
+            "id": "UMLS:C0065571"
+        },
+        {
+            "entityId": "10774_10778",
+            "span": {
+                "begin": 10774,
+                "end": 10778
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "10793_10801",
+            "span": {
+                "begin": 10793,
+                "end": 10801
+            },
+            "entityType": "drug",
+            "entityName": "Tween-20",
+            "id": "UMLS:C0041415"
+        },
+        {
+            "entityId": "10892_10912",
+            "span": {
+                "begin": 10892,
+                "end": 10912
+            },
+            "entityType": "gene",
+            "entityName": "alkaline phosphatase",
+            "id": "UMLS:C0002059"
+        },
+        {
+            "entityId": "10929_10932",
+            "span": {
+                "begin": 10929,
+                "end": 10932
+            },
+            "entityType": "drug",
+            "entityName": "DIG",
+            "id": "UMLS:C0012264"
+        },
+        {
+            "entityId": "11042_11046",
+            "span": {
+                "begin": 11042,
+                "end": 11046
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "11054_11059",
+            "span": {
+                "begin": 11054,
+                "end": 11059
+            },
+            "entityType": "drug",
+            "entityName": "MgCl2",
+            "id": "UMLS:C0024472"
+        },
+        {
+            "entityId": "11097_11128",
+            "span": {
+                "begin": 11097,
+                "end": 11128
+            },
+            "entityType": "drug",
+            "entityName": "nitro blue tetrazolium chloride",
+            "id": "UMLS:CHEBI:9505"
+        },
+        {
+            "entityId": "11133_11169",
+            "span": {
+                "begin": 11133,
+                "end": 11169
+            },
+            "entityType": "drug",
+            "entityName": "5-bromo-4-chloro-3-indolyl-phosphate",
+            "id": "UMLS:C0049082"
+        },
+        {
+            "entityId": "11303_11310",
+            "span": {
+                "begin": 11303,
+                "end": 11310
+            },
+            "entityType": "drug",
+            "entityName": "ethanol",
+            "id": "UMLS:C0001962"
+        },
+        {
+            "entityId": "11329_11335",
+            "span": {
+                "begin": 11329,
+                "end": 11335
+            },
+            "entityType": "drug",
+            "entityName": "xylene",
+            "id": "UMLS:C0043367"
+        },
+        {
+            "entityId": "11619_11626",
+            "span": {
+                "begin": 11619,
+                "end": 11626
+            },
+            "entityType": "drug",
+            "entityName": "ethanol",
+            "id": "UMLS:C0001962"
+        },
+        {
+            "entityId": "11795_11810",
+            "span": {
+                "begin": 11795,
+                "end": 11810
+            },
+            "entityType": "gene",
+            "entityName": "anti-Troponin I",
+            "id": "UMLS:C0370188"
+        },
+        {
+            "entityId": "11812_11815",
+            "span": {
+                "begin": 11812,
+                "end": 11815
+            },
+            "entityType": "gene",
+            "entityName": "TnI",
+            "id": "UMLS:C0077401"
+        },
+        {
+            "entityId": "11851_11859",
+            "span": {
+                "begin": 11851,
+                "end": 11859
+            },
+            "entityType": "gene",
+            "entityName": "anti-Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "11895_11910",
+            "span": {
+                "begin": 11895,
+                "end": 11910
+            },
+            "entityType": "gene",
+            "entityName": "anti-PDGFRalpha",
+            "id": "UMLS:C3853694"
+        },
+        {
+            "entityId": "11993_12002",
+            "span": {
+                "begin": 11993,
+                "end": 12002
+            },
+            "entityType": "gene",
+            "entityName": "anti-cKit",
+            "id": "UMLS:C3853650"
+        },
+        {
+            "entityId": "12138_12154",
+            "span": {
+                "begin": 12138,
+                "end": 12154
+            },
+            "entityType": "gene",
+            "entityName": "anti-P-Smad1/5/8",
+            "id": "UMLS:C1414988"
+        },
+        {
+            "entityId": "12208_12216",
+            "span": {
+                "begin": 12208,
+                "end": 12216
+            },
+            "entityType": "gene",
+            "entityName": "P-Erk1/2",
+            "id": "UMLS:C0082529"
+        },
+        {
+            "entityId": "12316_12332",
+            "span": {
+                "begin": 12316,
+                "end": 12332
+            },
+            "entityType": "gene",
+            "entityName": "ss-Galactosidase",
+            "id": "UMLS:C0016955"
+        },
+        {
+            "entityId": "12432_12448",
+            "span": {
+                "begin": 12432,
+                "end": 12448
+            },
+            "entityType": "gene",
+            "entityName": "ss-Galactosidase",
+            "id": "UMLS:C0016955"
+        },
+        {
+            "entityId": "12495_12500",
+            "span": {
+                "begin": 12495,
+                "end": 12500
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "12560_12565",
+            "span": {
+                "begin": 12560,
+                "end": 12565
+            },
+            "entityType": "species",
+            "entityName": "Mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "12625_12630",
+            "span": {
+                "begin": 12625,
+                "end": 12630
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "12699_12706",
+            "span": {
+                "begin": 12699,
+                "end": 12706
+            },
+            "entityType": "drug",
+            "entityName": "acetone",
+            "id": "UMLS:C0001002"
+        },
+        {
+            "entityId": "12848_12856",
+            "span": {
+                "begin": 12848,
+                "end": 12856
+            },
+            "entityType": "drug",
+            "entityName": "Alexa568",
+            "id": "mesh:C000607448"
+        },
+        {
+            "entityId": "12868_12872",
+            "span": {
+                "begin": 12868,
+                "end": 12872
+            },
+            "entityType": "species",
+            "entityName": "goat",
+            "id": "UMLS:C1510458"
+        },
+        {
+            "entityId": "12878_12884",
+            "span": {
+                "begin": 12878,
+                "end": 12884
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "12889_12915",
+            "span": {
+                "begin": 12889,
+                "end": 12915
+            },
+            "entityType": "gene",
+            "entityName": "goat-anti-mouse antibodies",
+            "id": "UMLS:C1624602"
+        },
+        {
+            "entityId": "13289_13298",
+            "span": {
+                "begin": 13289,
+                "end": 13298
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "13365_13386",
+            "span": {
+                "begin": 13365,
+                "end": 13386
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "13494_13499",
+            "span": {
+                "begin": 13494,
+                "end": 13499
+            },
+            "entityType": "gene",
+            "entityName": "Tbx18",
+            "id": "UMLS:C1420606"
+        },
+        {
+            "entityId": "13501_13504",
+            "span": {
+                "begin": 13501,
+                "end": 13504
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "13506_13512",
+            "span": {
+                "begin": 13506,
+                "end": 13512
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "13518_13524",
+            "span": {
+                "begin": 13518,
+                "end": 13524
+            },
+            "entityType": "gene",
+            "entityName": "Raldh2",
+            "id": "UMLS:C1332076"
+        },
+        {
+            "entityId": "13998_14033",
+            "span": {
+                "begin": 13998,
+                "end": 14033
+            },
+            "entityType": "DNA",
+            "entityName": "Wt1, Tbx18, Raldh1, and Raldh2 mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "14235_14246",
+            "span": {
+                "begin": 14235,
+                "end": 14246
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1 mRNA",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "14277_14294",
+            "span": {
+                "begin": 14277,
+                "end": 14294
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "14438_14449",
+            "span": {
+                "begin": 14438,
+                "end": 14449
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1 mRNA",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "17163_17184",
+            "span": {
+                "begin": 17163,
+                "end": 17184
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "17208_17217",
+            "span": {
+                "begin": 17208,
+                "end": 17217
+            },
+            "entityType": "gene",
+            "entityName": "cTnI mRNA",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "17702_17713",
+            "span": {
+                "begin": 17702,
+                "end": 17713
+            },
+            "entityType": "gene",
+            "entityName": "Raldh2 mRNA",
+            "id": "UMLS:C1332076"
+        },
+        {
+            "entityId": "17834_17842",
+            "span": {
+                "begin": 17834,
+                "end": 17842
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "17891_17908",
+            "span": {
+                "begin": 17891,
+                "end": 17908
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "17976_18008",
+            "span": {
+                "begin": 17976,
+                "end": 18008
+            },
+            "entityType": "cell",
+            "entityName": "sub-epicardial mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "18550_18553",
+            "span": {
+                "begin": 18550,
+                "end": 18553
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "18669_18678",
+            "span": {
+                "begin": 18669,
+                "end": 18678
+            },
+            "entityType": "gene",
+            "entityName": "cTnI mRNA",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "18727_18736",
+            "span": {
+                "begin": 18727,
+                "end": 18736
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "18891_18894",
+            "span": {
+                "begin": 18891,
+                "end": 18894
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "18896_18901",
+            "span": {
+                "begin": 18896,
+                "end": 18901
+            },
+            "entityType": "gene",
+            "entityName": "Tbx18",
+            "id": "UMLS:C1420606"
+        },
+        {
+            "entityId": "18906_18917",
+            "span": {
+                "begin": 18906,
+                "end": 18917
+            },
+            "entityType": "gene",
+            "entityName": "Raldh1 mRNA",
+            "id": "UMLS:C1412333"
+        },
+        {
+            "entityId": "19308_19329",
+            "span": {
+                "begin": 19308,
+                "end": 19329
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "19473_19478",
+            "span": {
+                "begin": 19473,
+                "end": 19478
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "19610_19624",
+            "span": {
+                "begin": 19610,
+                "end": 19624
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "19767_19788",
+            "span": {
+                "begin": 19767,
+                "end": 19788
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "19797_19800",
+            "span": {
+                "begin": 19797,
+                "end": 19800
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "19886_19889",
+            "span": {
+                "begin": 19886,
+                "end": 19889
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "19894_19897",
+            "span": {
+                "begin": 19894,
+                "end": 19897
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "19938_19941",
+            "span": {
+                "begin": 19938,
+                "end": 19941
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "19946_19954",
+            "span": {
+                "begin": 19946,
+                "end": 19954
+            },
+            "entityType": "gene",
+            "entityName": "Cre mRNA",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "19996_20004",
+            "span": {
+                "begin": 19996,
+                "end": 20004
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "20006_20014",
+            "span": {
+                "begin": 20006,
+                "end": 20014
+            },
+            "entityType": "gene",
+            "entityName": "Cre mRNA",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "20266_20269",
+            "span": {
+                "begin": 20266,
+                "end": 20269
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "20274_20282",
+            "span": {
+                "begin": 20274,
+                "end": 20282
+            },
+            "entityType": "gene",
+            "entityName": "Cre mRNA",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "20567_20570",
+            "span": {
+                "begin": 20567,
+                "end": 20570
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "20575_20583",
+            "span": {
+                "begin": 20575,
+                "end": 20583
+            },
+            "entityType": "gene",
+            "entityName": "Cre mRNA",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "20780_20783",
+            "span": {
+                "begin": 20780,
+                "end": 20783
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "20788_20796",
+            "span": {
+                "begin": 20788,
+                "end": 20796
+            },
+            "entityType": "gene",
+            "entityName": "Cre mRNA",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "20957_20965",
+            "span": {
+                "begin": 20957,
+                "end": 20965
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "21035_21043",
+            "span": {
+                "begin": 21035,
+                "end": 21043
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "22380_22388",
+            "span": {
+                "begin": 22380,
+                "end": 22388
+            },
+            "entityType": "gene",
+            "entityName": "Cre mRNA",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "22407_22415",
+            "span": {
+                "begin": 22407,
+                "end": 22415
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "22445_22450",
+            "span": {
+                "begin": 22445,
+                "end": 22450
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "22487_22490",
+            "span": {
+                "begin": 22487,
+                "end": 22490
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "22611_22616",
+            "span": {
+                "begin": 22611,
+                "end": 22616
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "22672_22675",
+            "span": {
+                "begin": 22672,
+                "end": 22675
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "22764_22785",
+            "span": {
+                "begin": 22764,
+                "end": 22785
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "22882_22885",
+            "span": {
+                "begin": 22882,
+                "end": 22885
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "22955_22959",
+            "span": {
+                "begin": 22955,
+                "end": 22959
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "23132_23149",
+            "span": {
+                "begin": 23132,
+                "end": 23149
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "23172_23199",
+            "span": {
+                "begin": 23172,
+                "end": 23199
+            },
+            "entityType": "cell",
+            "entityName": "intermyocardial fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "23222_23231",
+            "span": {
+                "begin": 23222,
+                "end": 23231
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal in",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "23284_23290",
+            "span": {
+                "begin": 23284,
+                "end": 23290
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "23419_23422",
+            "span": {
+                "begin": 23419,
+                "end": 23422
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "23423_23426",
+            "span": {
+                "begin": 23423,
+                "end": 23426
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "25140_25147",
+            "span": {
+                "begin": 25140,
+                "end": 25147
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal-",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "25288_25292",
+            "span": {
+                "begin": 25288,
+                "end": 25292
+            },
+            "entityType": "gene",
+            "entityName": "cTnI",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "25298_25302",
+            "span": {
+                "begin": 25298,
+                "end": 25302
+            },
+            "entityType": "gene",
+            "entityName": "cTnI",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "25458_25464",
+            "span": {
+                "begin": 25458,
+                "end": 25464
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "25901_25907",
+            "span": {
+                "begin": 25901,
+                "end": 25907
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "26098_26106",
+            "span": {
+                "begin": 26098,
+                "end": 26106
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "26312_26347",
+            "span": {
+                "begin": 26312,
+                "end": 26347
+            },
+            "entityType": "cell",
+            "entityName": "ss-Gal-expressing mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "26572_26578",
+            "span": {
+                "begin": 26572,
+                "end": 26578
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "26753_26788",
+            "span": {
+                "begin": 26753,
+                "end": 26788
+            },
+            "entityType": "cell",
+            "entityName": "ss-Gal-expressing mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "26835_26841",
+            "span": {
+                "begin": 26835,
+                "end": 26841
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "26841_26868",
+            "span": {
+                "begin": 26841,
+                "end": 26868
+            },
+            "entityType": "cell",
+            "entityName": "-positive mesenchymal layer",
+            "id": "UMLS:C4727483"
+        },
+        {
+            "entityId": "26952_26958",
+            "span": {
+                "begin": 26952,
+                "end": 26958
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "27090_27109",
+            "span": {
+                "begin": 27090,
+                "end": 27109
+            },
+            "entityType": "cell",
+            "entityName": "dead cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27381_27397",
+            "span": {
+                "begin": 27381,
+                "end": 27397
+            },
+            "entityType": "cell",
+            "entityName": "myocardial cells",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27516_27524",
+            "span": {
+                "begin": 27516,
+                "end": 27524
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "27886_27911",
+            "span": {
+                "begin": 27886,
+                "end": 27911
+            },
+            "entityType": "gene",
+            "entityName": "alpha-Smooth Muscle Actin",
+            "id": "UMLS:C1825843"
+        },
+        {
+            "entityId": "27913_27922",
+            "span": {
+                "begin": 27913,
+                "end": 27922
+            },
+            "entityType": "gene",
+            "entityName": "alpha-SMA",
+            "id": "UMLS:C2716282"
+        },
+        {
+            "entityId": "28046_28050",
+            "span": {
+                "begin": 28046,
+                "end": 28050
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "28133_28137",
+            "span": {
+                "begin": 28133,
+                "end": 28137
+            },
+            "entityType": "gene",
+            "entityName": "cTnI",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "28158_28172",
+            "span": {
+                "begin": 28158,
+                "end": 28172
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "28265_28283",
+            "span": {
+                "begin": 28265,
+                "end": 28283
+            },
+            "entityType": "cell",
+            "entityName": "interstitial cells",
+            "id": "UMLS:C0023602"
+        },
+        {
+            "entityId": "28327_28341",
+            "span": {
+                "begin": 28327,
+                "end": 28341
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "28444_28464",
+            "span": {
+                "begin": 28444,
+                "end": 28464
+            },
+            "entityType": "cell",
+            "entityName": "adult cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "28984_28988",
+            "span": {
+                "begin": 28984,
+                "end": 28988
+            },
+            "entityType": "gene",
+            "entityName": "cTnI",
+            "id": "UMLS:C1305957"
+        },
+        {
+            "entityId": "29013_29027",
+            "span": {
+                "begin": 29013,
+                "end": 29027
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "29065_29072",
+            "span": {
+                "begin": 29065,
+                "end": 29072
+            },
+            "entityType": "drug",
+            "entityName": "calcium",
+            "id": "UMLS:C0006675"
+        },
+        {
+            "entityId": "29073_29082",
+            "span": {
+                "begin": 29073,
+                "end": 29082
+            },
+            "entityType": "gene",
+            "entityName": "ATPase 2a",
+            "id": "UMLS:C0001473"
+        },
+        {
+            "entityId": "29111_29143",
+            "span": {
+                "begin": 29111,
+                "end": 29143
+            },
+            "entityType": "cell",
+            "entityName": "Epicardial and mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "29587_29591",
+            "span": {
+                "begin": 29587,
+                "end": 29591
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "29610_29614",
+            "span": {
+                "begin": 29610,
+                "end": 29614
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "29784_29800",
+            "span": {
+                "begin": 29784,
+                "end": 29800
+            },
+            "entityType": "cell",
+            "entityName": "myocardial cells",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "29832_29836",
+            "span": {
+                "begin": 29832,
+                "end": 29836
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "29869_29873",
+            "span": {
+                "begin": 29869,
+                "end": 29873
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "30072_30076",
+            "span": {
+                "begin": 30072,
+                "end": 30076
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "30094_30111",
+            "span": {
+                "begin": 30094,
+                "end": 30111
+            },
+            "entityType": "cell",
+            "entityName": "endocardial cells",
+            "id": "UMLS:C1184810"
+        },
+        {
+            "entityId": "30181_30185",
+            "span": {
+                "begin": 30181,
+                "end": 30185
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "30235_30252",
+            "span": {
+                "begin": 30235,
+                "end": 30252
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "30395_30399",
+            "span": {
+                "begin": 30395,
+                "end": 30399
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "30483_30499",
+            "span": {
+                "begin": 30483,
+                "end": 30499
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cell",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "30771_30777",
+            "span": {
+                "begin": 30771,
+                "end": 30777
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "30813_30817",
+            "span": {
+                "begin": 30813,
+                "end": 30817
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "32470_32475",
+            "span": {
+                "begin": 32470,
+                "end": 32475
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "32480_32489",
+            "span": {
+                "begin": 32480,
+                "end": 32489
+            },
+            "entityType": "gene",
+            "entityName": "alpha-SMA",
+            "id": "UMLS:C2716282"
+        },
+        {
+            "entityId": "32609_32626",
+            "span": {
+                "begin": 32609,
+                "end": 32626
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "32717_32722",
+            "span": {
+                "begin": 32717,
+                "end": 32722
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "32741_32750",
+            "span": {
+                "begin": 32741,
+                "end": 32750
+            },
+            "entityType": "gene",
+            "entityName": "alpha-SMA",
+            "id": "UMLS:C2716282"
+        },
+        {
+            "entityId": "32788_32820",
+            "span": {
+                "begin": 32788,
+                "end": 32820
+            },
+            "entityType": "cell",
+            "entityName": "epicardial and mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "32883_32888",
+            "span": {
+                "begin": 32883,
+                "end": 32888
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "33037_33054",
+            "span": {
+                "begin": 33037,
+                "end": 33054
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "33094_33099",
+            "span": {
+                "begin": 33094,
+                "end": 33099
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "33122_33127",
+            "span": {
+                "begin": 33122,
+                "end": 33127
+            },
+            "entityType": "gene",
+            "entityName": "Snai2",
+            "id": "UMLS:C1420248"
+        },
+        {
+            "entityId": "33216_33226",
+            "span": {
+                "begin": 33216,
+                "end": 33226
+            },
+            "entityType": "gene",
+            "entityName": "Snai1 mRNA",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "33433_33438",
+            "span": {
+                "begin": 33433,
+                "end": 33438
+            },
+            "entityType": "gene",
+            "entityName": "Snai2",
+            "id": "UMLS:C1420248"
+        },
+        {
+            "entityId": "33524_33529",
+            "span": {
+                "begin": 33524,
+                "end": 33529
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "33739_33756",
+            "span": {
+                "begin": 33739,
+                "end": 33756
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "33800_33809",
+            "span": {
+                "begin": 33800,
+                "end": 33809
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "35774_35792",
+            "span": {
+                "begin": 35774,
+                "end": 35792
+            },
+            "entityType": "gene",
+            "entityName": "Follistatin-like-1",
+            "id": "UMLS:C1414830"
+        },
+        {
+            "entityId": "35811_35820",
+            "span": {
+                "begin": 35811,
+                "end": 35820
+            },
+            "entityType": "gene",
+            "entityName": "Periostin",
+            "id": "UMLS:C1424662"
+        },
+        {
+            "entityId": "35932_35937",
+            "span": {
+                "begin": 35932,
+                "end": 35937
+            },
+            "entityType": "gene",
+            "entityName": "Fstl1",
+            "id": "UMLS:C1414831"
+        },
+        {
+            "entityId": "35942_35956",
+            "span": {
+                "begin": 35942,
+                "end": 35956
+            },
+            "entityType": "gene",
+            "entityName": "Periostin mRNA",
+            "id": "UMLS:C1424662"
+        },
+        {
+            "entityId": "36003_36008",
+            "span": {
+                "begin": 36003,
+                "end": 36008
+            },
+            "entityType": "gene",
+            "entityName": "Fstl1",
+            "id": "UMLS:C1414831"
+        },
+        {
+            "entityId": "36047_36056",
+            "span": {
+                "begin": 36047,
+                "end": 36056
+            },
+            "entityType": "gene",
+            "entityName": "Periostin",
+            "id": "UMLS:C1424662"
+        },
+        {
+            "entityId": "36077_36082",
+            "span": {
+                "begin": 36077,
+                "end": 36082
+            },
+            "entityType": "DNA",
+            "entityName": "mRNAs",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "36384_36388",
+            "span": {
+                "begin": 36384,
+                "end": 36388
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "36488_36492",
+            "span": {
+                "begin": 36488,
+                "end": 36492
+            },
+            "entityType": "gene",
+            "entityName": "Wnt1",
+            "id": "UMLS:C0812233"
+        },
+        {
+            "entityId": "36548_36555",
+            "span": {
+                "begin": 36548,
+                "end": 36555
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "36620_36646",
+            "span": {
+                "begin": 36620,
+                "end": 36646
+            },
+            "entityType": "cell",
+            "entityName": "progenitor cell population",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "36799_36815",
+            "span": {
+                "begin": 36799,
+                "end": 36815
+            },
+            "entityType": "gene",
+            "entityName": "recombinant Wif1",
+            "id": "UMLS:C1425289"
+        },
+        {
+            "entityId": "36930_36933",
+            "span": {
+                "begin": 36930,
+                "end": 36933
+            },
+            "entityType": "gene",
+            "entityName": "BMP",
+            "id": "UMLS:C0053932"
+        },
+        {
+            "entityId": "36938_36941",
+            "span": {
+                "begin": 36938,
+                "end": 36941
+            },
+            "entityType": "gene",
+            "entityName": "Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "36951_36954",
+            "span": {
+                "begin": 36951,
+                "end": 36954
+            },
+            "entityType": "gene",
+            "entityName": "FGF",
+            "id": "UMLS:C0016026"
+        },
+        {
+            "entityId": "37142_37148",
+            "span": {
+                "begin": 37142,
+                "end": 37148
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "37196_37202",
+            "span": {
+                "begin": 37196,
+                "end": 37202
+            },
+            "entityType": "gene",
+            "entityName": "P-Smad",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "37207_37212",
+            "span": {
+                "begin": 37207,
+                "end": 37212
+            },
+            "entityType": "gene",
+            "entityName": "P-Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "37235_37256",
+            "span": {
+                "begin": 37235,
+                "end": 37256
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "37258_37264",
+            "span": {
+                "begin": 37258,
+                "end": 37264
+            },
+            "entityType": "gene",
+            "entityName": "P-Smad",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "37308_37325",
+            "span": {
+                "begin": 37308,
+                "end": 37325
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37339_37353",
+            "span": {
+                "begin": 37339,
+                "end": 37353
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "37439_37444",
+            "span": {
+                "begin": 37439,
+                "end": 37444
+            },
+            "entityType": "gene",
+            "entityName": "P-Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "37665_37674",
+            "span": {
+                "begin": 37665,
+                "end": 37674
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "37721_37738",
+            "span": {
+                "begin": 37721,
+                "end": 37738
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37750_37755",
+            "span": {
+                "begin": 37750,
+                "end": 37755
+            },
+            "entityType": "gene",
+            "entityName": "P-Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "37775_37792",
+            "span": {
+                "begin": 37775,
+                "end": 37792
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37912_37918",
+            "span": {
+                "begin": 37912,
+                "end": 37918
+            },
+            "entityType": "gene",
+            "entityName": "P-Smad",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "37962_37979",
+            "span": {
+                "begin": 37962,
+                "end": 37979
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "37993_38007",
+            "span": {
+                "begin": 37993,
+                "end": 38007
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "38137_38142",
+            "span": {
+                "begin": 38137,
+                "end": 38142
+            },
+            "entityType": "gene",
+            "entityName": "P-Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "38190_38196",
+            "span": {
+                "begin": 38190,
+                "end": 38196
+            },
+            "entityType": "gene",
+            "entityName": "P-Smad",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "38230_38244",
+            "span": {
+                "begin": 38230,
+                "end": 38244
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "38374_38383",
+            "span": {
+                "begin": 38374,
+                "end": 38383
+            },
+            "entityType": "species",
+            "entityName": "zebrafish",
+            "id": "UMLS:C0043457"
+        },
+        {
+            "entityId": "38418_38434",
+            "span": {
+                "begin": 38418,
+                "end": 38434
+            },
+            "entityType": "cell",
+            "entityName": "myocardial cells",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "38466_38475",
+            "span": {
+                "begin": 38466,
+                "end": 38475
+            },
+            "entityType": "species",
+            "entityName": "zebrafish",
+            "id": "UMLS:C0043457"
+        },
+        {
+            "entityId": "38496_38501",
+            "span": {
+                "begin": 38496,
+                "end": 38501
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "38559_38564",
+            "span": {
+                "begin": 38559,
+                "end": 38564
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "38588_38602",
+            "span": {
+                "begin": 38588,
+                "end": 38602
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "38611_38632",
+            "span": {
+                "begin": 38611,
+                "end": 38632
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "38704_38708",
+            "span": {
+                "begin": 38704,
+                "end": 38708
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "38793_38826",
+            "span": {
+                "begin": 38793,
+                "end": 38826
+            },
+            "entityType": "cell",
+            "entityName": "betaGal-expressing cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "38853_38867",
+            "span": {
+                "begin": 38853,
+                "end": 38867
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "38964_38978",
+            "span": {
+                "begin": 38964,
+                "end": 38978
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "39019_39029",
+            "span": {
+                "begin": 39019,
+                "end": 39029
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "39061_39064",
+            "span": {
+                "begin": 39061,
+                "end": 39064
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "39120_39123",
+            "span": {
+                "begin": 39120,
+                "end": 39123
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "39176_39192",
+            "span": {
+                "begin": 39176,
+                "end": 39192
+            },
+            "entityType": "cell",
+            "entityName": "progenitor cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "39304_39314",
+            "span": {
+                "begin": 39304,
+                "end": 39314
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "39423_39459",
+            "span": {
+                "begin": 39423,
+                "end": 39459
+            },
+            "entityType": "gene",
+            "entityName": "Platelet Derived Growth Factor alpha",
+            "id": "UMLS:C1335430"
+        },
+        {
+            "entityId": "39461_39471",
+            "span": {
+                "begin": 39461,
+                "end": 39471
+            },
+            "entityType": "gene",
+            "entityName": "PDGFRalpha",
+            "id": "UMLS:C3853694"
+        },
+        {
+            "entityId": "39474_39478",
+            "span": {
+                "begin": 39474,
+                "end": 39478
+            },
+            "entityType": "gene",
+            "entityName": "CD34",
+            "id": "NCBIGene:947"
+        },
+        {
+            "entityId": "39483_39487",
+            "span": {
+                "begin": 39483,
+                "end": 39487
+            },
+            "entityType": "gene",
+            "entityName": "cKit",
+            "id": "UMLS:C3853650"
+        },
+        {
+            "entityId": "39624_39630",
+            "span": {
+                "begin": 39624,
+                "end": 39630
+            },
+            "entityType": "gene",
+            "entityName": "ss-Gal",
+            "id": "UMLS:C1447046"
+        },
+        {
+            "entityId": "39641_39658",
+            "span": {
+                "begin": 39641,
+                "end": 39658
+            },
+            "entityType": "cell",
+            "entityName": "stem cell markers",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "39743_39753",
+            "span": {
+                "begin": 39743,
+                "end": 39753
+            },
+            "entityType": "gene",
+            "entityName": "PDGFRalpha",
+            "id": "UMLS:C3853694"
+        },
+        {
+            "entityId": "39755_39759",
+            "span": {
+                "begin": 39755,
+                "end": 39759
+            },
+            "entityType": "gene",
+            "entityName": "CD34",
+            "id": "NCBIGene:947"
+        },
+        {
+            "entityId": "39764_39768",
+            "span": {
+                "begin": 39764,
+                "end": 39768
+            },
+            "entityType": "gene",
+            "entityName": "cKit",
+            "id": "UMLS:C3853650"
+        },
+        {
+            "entityId": "39855_39865",
+            "span": {
+                "begin": 39855,
+                "end": 39865
+            },
+            "entityType": "gene",
+            "entityName": "PDGFRalpha",
+            "id": "UMLS:C3853694"
+        },
+        {
+            "entityId": "39870_39874",
+            "span": {
+                "begin": 39870,
+                "end": 39874
+            },
+            "entityType": "gene",
+            "entityName": "CD34",
+            "id": "NCBIGene:947"
+        },
+        {
+            "entityId": "39909_39926",
+            "span": {
+                "begin": 39909,
+                "end": 39926
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "40021_40037",
+            "span": {
+                "begin": 40021,
+                "end": 40037
+            },
+            "entityType": "cell",
+            "entityName": "stem cell niches",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "40074_40077",
+            "span": {
+                "begin": 40074,
+                "end": 40077
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "40102_40106",
+            "span": {
+                "begin": 40102,
+                "end": 40106
+            },
+            "entityType": "gene",
+            "entityName": "cKit",
+            "id": "UMLS:C3853650"
+        },
+        {
+            "entityId": "40116_40126",
+            "span": {
+                "begin": 40116,
+                "end": 40126
+            },
+            "entityType": "gene",
+            "entityName": "PDGFRalpha",
+            "id": "UMLS:C3853694"
+        },
+        {
+            "entityId": "40131_40135",
+            "span": {
+                "begin": 40131,
+                "end": 40135
+            },
+            "entityType": "gene",
+            "entityName": "CD34",
+            "id": "NCBIGene:947"
+        },
+        {
+            "entityId": "40343_40360",
+            "span": {
+                "begin": 40343,
+                "end": 40360
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "40403_40410",
+            "span": {
+                "begin": 40403,
+                "end": 40410
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "40699_40713",
+            "span": {
+                "begin": 40699,
+                "end": 40713
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "40758_40765",
+            "span": {
+                "begin": 40758,
+                "end": 40765
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "41024_41063",
+            "span": {
+                "begin": 41024,
+                "end": 41063
+            },
+            "entityType": "cell",
+            "entityName": "epicardium-derived stem cell population",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "41187_41222",
+            "span": {
+                "begin": 41187,
+                "end": 41222
+            },
+            "entityType": "cell",
+            "entityName": "Wt1-lineage positive cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "44105_44113",
+            "span": {
+                "begin": 44105,
+                "end": 44113
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "44138_44141",
+            "span": {
+                "begin": 44138,
+                "end": 44141
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "44336_44339",
+            "span": {
+                "begin": 44336,
+                "end": 44339
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "44341_44344",
+            "span": {
+                "begin": 44341,
+                "end": 44344
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "44445_44452",
+            "span": {
+                "begin": 44445,
+                "end": 44452
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "44863_44880",
+            "span": {
+                "begin": 44863,
+                "end": 44880
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "44924_44941",
+            "span": {
+                "begin": 44924,
+                "end": 44941
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45000_45017",
+            "span": {
+                "begin": 45000,
+                "end": 45017
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45074_45077",
+            "span": {
+                "begin": 45074,
+                "end": 45077
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "45096_45113",
+            "span": {
+                "begin": 45096,
+                "end": 45113
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45241_45258",
+            "span": {
+                "begin": 45241,
+                "end": 45258
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45307_45311",
+            "span": {
+                "begin": 45307,
+                "end": 45311
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "45449_45466",
+            "span": {
+                "begin": 45449,
+                "end": 45466
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45629_45633",
+            "span": {
+                "begin": 45629,
+                "end": 45633
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "45650_45654",
+            "span": {
+                "begin": 45650,
+                "end": 45654
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "45706_45710",
+            "span": {
+                "begin": 45706,
+                "end": 45710
+            },
+            "entityType": "drug",
+            "entityName": "BrdU",
+            "id": "UMLS:C0006233"
+        },
+        {
+            "entityId": "45747_45789",
+            "span": {
+                "begin": 45747,
+                "end": 45789
+            },
+            "entityType": "cell",
+            "entityName": "subepicardial mesenchyme mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45808_45825",
+            "span": {
+                "begin": 45808,
+                "end": 45825
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "45967_45972",
+            "span": {
+                "begin": 45967,
+                "end": 45972
+            },
+            "entityType": "gene",
+            "entityName": "Snai1",
+            "id": "UMLS:C1420267"
+        },
+        {
+            "entityId": "45977_45985",
+            "span": {
+                "begin": 45977,
+                "end": 45985
+            },
+            "entityType": "gene",
+            "entityName": "alphaSMA",
+            "id": "UMLS:C2716282"
+        },
+        {
+            "entityId": "46178_46195",
+            "span": {
+                "begin": 46178,
+                "end": 46195
+            },
+            "entityType": "cell",
+            "entityName": "stem cells niches",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "46273_46276",
+            "span": {
+                "begin": 46273,
+                "end": 46276
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "46329_46345",
+            "span": {
+                "begin": 46329,
+                "end": 46345
+            },
+            "entityType": "cell",
+            "entityName": "progenitor cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "46411_46419",
+            "span": {
+                "begin": 46411,
+                "end": 46419
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "46455_46464",
+            "span": {
+                "begin": 46455,
+                "end": 46464
+            },
+            "entityType": "disease",
+            "entityName": "infarcted",
+            "id": "mesh:D007238"
+        },
+        {
+            "entityId": "46537_46554",
+            "span": {
+                "begin": 46537,
+                "end": 46554
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "46637_46640",
+            "span": {
+                "begin": 46637,
+                "end": 46640
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "46642_46645",
+            "span": {
+                "begin": 46642,
+                "end": 46645
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "46712_46715",
+            "span": {
+                "begin": 46712,
+                "end": 46715
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "46720_46723",
+            "span": {
+                "begin": 46720,
+                "end": 46723
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "46955_46972",
+            "span": {
+                "begin": 46955,
+                "end": 46972
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "47002_47021",
+            "span": {
+                "begin": 47002,
+                "end": 47021
+            },
+            "entityType": "cell",
+            "entityName": "dead cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "47051_47058",
+            "span": {
+                "begin": 47051,
+                "end": 47058
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "47268_47293",
+            "span": {
+                "begin": 47268,
+                "end": 47293
+            },
+            "entityType": "cell",
+            "entityName": "endocardium-derived cells",
+            "id": "UMLS:C1184810"
+        },
+        {
+            "entityId": "47295_47320",
+            "span": {
+                "begin": 47295,
+                "end": 47320
+            },
+            "entityType": "cell",
+            "entityName": "bone marrow-derived cells",
+            "id": "UMLS:C3896693"
+        },
+        {
+            "entityId": "47357_47371",
+            "span": {
+                "begin": 47357,
+                "end": 47371
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "47447_47484",
+            "span": {
+                "begin": 47447,
+                "end": 47484
+            },
+            "entityType": "cell",
+            "entityName": "intermyocardial fibroblast population",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "47797_47801",
+            "span": {
+                "begin": 47797,
+                "end": 47801
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "47822_47839",
+            "span": {
+                "begin": 47822,
+                "end": 47839
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "47863_47910",
+            "span": {
+                "begin": 47863,
+                "end": 47910
+            },
+            "entityType": "cell",
+            "entityName": "Wt1-lineage positive coronary endothelial cells",
+            "id": "UMLS:C0920751"
+        },
+        {
+            "entityId": "47937_47942",
+            "span": {
+                "begin": 47937,
+                "end": 47942
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "47983_47990",
+            "span": {
+                "begin": 47983,
+                "end": 47990
+            },
+            "entityType": "species",
+            "entityName": "chicken",
+            "id": "UMLS:C0008051"
+        },
+        {
+            "entityId": "47996_47999",
+            "span": {
+                "begin": 47996,
+                "end": 47999
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "48076_48084",
+            "span": {
+                "begin": 48076,
+                "end": 48084
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "48115_48141",
+            "span": {
+                "begin": 48115,
+                "end": 48141
+            },
+            "entityType": "cell",
+            "entityName": "coronary endothelial cells",
+            "id": "UMLS:C0920751"
+        },
+        {
+            "entityId": "48181_48185",
+            "span": {
+                "begin": 48181,
+                "end": 48185
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "48350_48358",
+            "span": {
+                "begin": 48350,
+                "end": 48358
+            },
+            "entityType": "gene",
+            "entityName": "Wt1 mRNA",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "48451_48458",
+            "span": {
+                "begin": 48451,
+                "end": 48458
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "48459_48462",
+            "span": {
+                "begin": 48459,
+                "end": 48462
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "48569_48604",
+            "span": {
+                "begin": 48569,
+                "end": 48604
+            },
+            "entityType": "cell",
+            "entityName": "Wt1-lineage positive cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "48724_48729",
+            "span": {
+                "begin": 48724,
+                "end": 48729
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "48734_48741",
+            "span": {
+                "begin": 48734,
+                "end": 48741
+            },
+            "entityType": "species",
+            "entityName": "chicken",
+            "id": "UMLS:C0008051"
+        },
+        {
+            "entityId": "48850_48864",
+            "span": {
+                "begin": 48850,
+                "end": 48864
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "49033_49047",
+            "span": {
+                "begin": 49033,
+                "end": 49047
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "49095_49098",
+            "span": {
+                "begin": 49095,
+                "end": 49098
+            },
+            "entityType": "gene",
+            "entityName": "Cre",
+            "id": "UMLS:C1511573"
+        },
+        {
+            "entityId": "49309_49338",
+            "span": {
+                "begin": 49309,
+                "end": 49338
+            },
+            "entityType": "cell",
+            "entityName": "Wt1-lineage positive myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "49438_49446",
+            "span": {
+                "begin": 49438,
+                "end": 49446
+            },
+            "entityType": "disease",
+            "entityName": "infarcts",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "49655_49688",
+            "span": {
+                "begin": 49655,
+                "end": 49688
+            },
+            "entityType": "cell",
+            "entityName": "Epicardium-derived cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "49711_49721",
+            "span": {
+                "begin": 49711,
+                "end": 49721
+            },
+            "entityType": "species",
+            "entityName": "zebra fish",
+            "id": "UMLS:C0043457"
+        },
+        {
+            "entityId": "49776_49780",
+            "span": {
+                "begin": 49776,
+                "end": 49780
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "49790_49811",
+            "span": {
+                "begin": 49790,
+                "end": 49811
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "49847_49861",
+            "span": {
+                "begin": 49847,
+                "end": 49861
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "49895_49898",
+            "span": {
+                "begin": 49895,
+                "end": 49898
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "49934_49942",
+            "span": {
+                "begin": 49934,
+                "end": 49942
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "50066_50074",
+            "span": {
+                "begin": 50066,
+                "end": 50074
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "50101_50121",
+            "span": {
+                "begin": 50101,
+                "end": 50121
+            },
+            "entityType": "cell",
+            "entityName": "stem cell population",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "50141_50144",
+            "span": {
+                "begin": 50141,
+                "end": 50144
+            },
+            "entityType": "gene",
+            "entityName": "Wt1",
+            "id": "UMLS:C2362085"
+        },
+        {
+            "entityId": "50219_50233",
+            "span": {
+                "begin": 50219,
+                "end": 50233
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "50316_50330",
+            "span": {
+                "begin": 50316,
+                "end": 50330
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "50427_50435",
+            "span": {
+                "begin": 50427,
+                "end": 50435
+            },
+            "entityType": "cell",
+            "entityName": "myocytes",
+            "id": "UMLS:C0596981"
+        },
+        {
+            "entityId": "50781_50802",
+            "span": {
+                "begin": 50781,
+                "end": 50802
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "50909_50923",
+            "span": {
+                "begin": 50909,
+                "end": 50923
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "50996_51009",
+            "span": {
+                "begin": 50996,
+                "end": 51009
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "51072_51077",
+            "span": {
+                "begin": 51072,
+                "end": 51077
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "51423_51426",
+            "span": {
+                "begin": 51423,
+                "end": 51426
+            },
+            "entityType": "gene",
+            "entityName": "Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "51436_51439",
+            "span": {
+                "begin": 51436,
+                "end": 51439
+            },
+            "entityType": "gene",
+            "entityName": "FGF",
+            "id": "UMLS:C0016026"
+        },
+        {
+            "entityId": "51468_51471",
+            "span": {
+                "begin": 51468,
+                "end": 51471
+            },
+            "entityType": "gene",
+            "entityName": "BMP",
+            "id": "UMLS:C0053932"
+        },
+        {
+            "entityId": "51512_51515",
+            "span": {
+                "begin": 51512,
+                "end": 51515
+            },
+            "entityType": "gene",
+            "entityName": "BMP",
+            "id": "UMLS:C0053932"
+        },
+        {
+            "entityId": "51568_51571",
+            "span": {
+                "begin": 51568,
+                "end": 51571
+            },
+            "entityType": "gene",
+            "entityName": "Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "51678_51681",
+            "span": {
+                "begin": 51678,
+                "end": 51681
+            },
+            "entityType": "gene",
+            "entityName": "BMP",
+            "id": "UMLS:C0053932"
+        },
+        {
+            "entityId": "51761_51764",
+            "span": {
+                "begin": 51761,
+                "end": 51764
+            },
+            "entityType": "gene",
+            "entityName": "FGF",
+            "id": "UMLS:C0016026"
+        },
+        {
+            "entityId": "51769_51772",
+            "span": {
+                "begin": 51769,
+                "end": 51772
+            },
+            "entityType": "gene",
+            "entityName": "BMP",
+            "id": "UMLS:C0053932"
+        },
+        {
+            "entityId": "51941_51962",
+            "span": {
+                "begin": 51941,
+                "end": 51962
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "52033_52038",
+            "span": {
+                "begin": 52033,
+                "end": 52038
+            },
+            "entityType": "gene",
+            "entityName": "P-Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "52125_52131",
+            "span": {
+                "begin": 52125,
+                "end": 52131
+            },
+            "entityType": "gene",
+            "entityName": "P-Smad",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "52226_52229",
+            "span": {
+                "begin": 52226,
+                "end": 52229
+            },
+            "entityType": "gene",
+            "entityName": "Erk",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "52239_52242",
+            "span": {
+                "begin": 52239,
+                "end": 52242
+            },
+            "entityType": "gene",
+            "entityName": "FGF",
+            "id": "UMLS:C0016026"
+        },
+        {
+            "entityId": "52285_52301",
+            "span": {
+                "begin": 52285,
+                "end": 52301
+            },
+            "entityType": "cell",
+            "entityName": "myocardial cells",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "52315_52328",
+            "span": {
+                "begin": 52315,
+                "end": 52328
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "52431_52436",
+            "span": {
+                "begin": 52431,
+                "end": 52436
+            },
+            "entityType": "gene",
+            "entityName": "Fstl1",
+            "id": "UMLS:C1414831"
+        },
+        {
+            "entityId": "52448_52451",
+            "span": {
+                "begin": 52448,
+                "end": 52451
+            },
+            "entityType": "gene",
+            "entityName": "BMP",
+            "id": "UMLS:C0053932"
+        },
+        {
+            "entityId": "52527_52540",
+            "span": {
+                "begin": 52527,
+                "end": 52540
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocyte",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "52623_52628",
+            "span": {
+                "begin": 52623,
+                "end": 52628
+            },
+            "entityType": "gene",
+            "entityName": "Fstl1",
+            "id": "UMLS:C1414831"
+        },
+        {
+            "entityId": "52646_52649",
+            "span": {
+                "begin": 52646,
+                "end": 52649
+            },
+            "entityType": "gene",
+            "entityName": "FGF",
+            "id": "UMLS:C0016026"
+        },
+        {
+            "entityId": "52754_52768",
+            "span": {
+                "begin": 52754,
+                "end": 52768
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "52846_52860",
+            "span": {
+                "begin": 52846,
+                "end": 52860
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "52894_52903",
+            "span": {
+                "begin": 52894,
+                "end": 52903
+            },
+            "entityType": "gene",
+            "entityName": "Periostin",
+            "id": "UMLS:C1424662"
+        },
+        {
+            "entityId": "52938_52955",
+            "span": {
+                "begin": 52938,
+                "end": 52955
+            },
+            "entityType": "cell",
+            "entityName": "mesenchymal cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "52961_52972",
+            "span": {
+                "begin": 52961,
+                "end": 52972
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "53012_53019",
+            "span": {
+                "begin": 53012,
+                "end": 53019
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "53230_53235",
+            "span": {
+                "begin": 53230,
+                "end": 53235
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "53313_53322",
+            "span": {
+                "begin": 53313,
+                "end": 53322
+            },
+            "entityType": "species",
+            "entityName": "mammalian",
+            "id": "UMLS:C0024660"
+        },
+        {
+            "entityId": "53384_53393",
+            "span": {
+                "begin": 53384,
+                "end": 53393
+            },
+            "entityType": "species",
+            "entityName": "mammalian",
+            "id": "UMLS:C0024660"
+        },
+        {
+            "entityId": "53473_53487",
+            "span": {
+                "begin": 53473,
+                "end": 53487
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1360_1368",
+            "subjectText": "ischemia",
+            "rel_name": "associate",
+            "objectId": "1391_1412",
+            "objectText": "fibroblast population"
+        }
+    ]
+}

@@ -1,0 +1,2725 @@
+{
+    "sourcid": "PMC3509582",
+    "publisher": "Molecular Diversity Preservation International (MDPI)",
+    "journal": "International Journal of Molecular Sciences",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509582/",
+    "text": "Protection against Ischemia-Induced Oxidative Stress Conferred by Vagal Stimulation in the Rat Heart: Involvement of the AMPK-PKC Pathway Reactive oxygen species (ROS) production is an important mechanism in myocardial ischemia and nicotinamide adenine dinucleotide phosphate (NADPH) oxidase is one of major sources of ROS in the heart. Previous studies showed that vagus nerve stimulation (VNS) is beneficial in treating ischemic heart diseases. However, the effect of VNS on ROS production remains elusive. In this study, we investigated the role of VNS onischemia-induced ROS production. Our results demonstrated that VNS alleviated the myocardial injury, attenuated the cardiac dysfunction, reserved the antioxidant enzyme activity and inhibited the formation of ROS as evidenced by the decreased NADPH oxidase (Nox) activity and superoxide fluorescence intensity as well as the expression of p67phox, Rac1 and nitrotyrosine. Furthermore, VNS resulted in the phosphorylation and activation of adenosine monophosphate activated protein kinase (AMPK), which in turn led to an inactivation of Nox by protein kinase C (PKC); however, the phenomena were repressed by the administration of a muscarinic antagonist atropine. Taken together, these data indicate that VNS decreases ROS via AMPK-PKC-Nox pathway; this may have potential importance for the treatment of ischemic heart diseases. 1. Introduction Acute myocardial infarction (AMI) is a major cause of morbidity and mortality worldwide, which is associated with increasing production of reactive oxygen species (ROS) such as superoxide. Vanden et al. have reported that cultured cardiomyocytes generate significant ROS during ischemia and ROS generation contributes significantly to the cellular injury seen at reperfusion. Furthermore, ROS induce a variety of cardiomyocyte abnormalities including cell death and apoptosis. ROS may emanate from several sources, including nicotinamide adenine dinucleotide phosphate (NADPH) oxidase, xanthine oxidase, nitric oxide synthase and mitochondrial cytochromes. Although each of these can contribute to the oxidative burden, evidence is accumulating that the predominant superoxide-producing enzyme in heart is NADPH oxidase (Nox), which is important in signal transduction-dependent ROS. The Nox system comprises seven members, including Nox1-5, Duox1 and Duox2. However, the main Nox isoforms expressed in cardiac tissue are Nox2, which are implicated in ischemia and heart failure, as well as cardiac hypertrophy. Numerous studies have indicated that Nox-derived ROS plays an important role in the pathophysiology of many cardiovascular diseases. Thus, inhibition of Nox-derived ROS production might be a useful strategy for treating myocardial ischemia diseases. It is recognized that an imbalance of the autonomic nervous system is involved in myocardial ischemia. Increased sympathetic activity and reduced vagal activity contribute to increased mortality both in AMI and heart failure. Recently, studies from several labs including our own have reported that vagus nerve stimulation (VNS) inhibits inflammation factors release, modulates myocardial remodeling and markedly improves survival after myocardial infarction in rats, as well as improving cardiac function in heart failure patients, suggesting an ameliorative effect of direct neural interventions against ischemic heart diseases. With regard to life-threatening arrhythmias in rats with acute ischemia, VNS has been reported to prevent ventricular fibrillation in rats by the prevention of the loss of phosphorylated Cx43. In addition to this, NO may be involved in the antifibrillatory effect of VNS. This study has been undertaken in order to evaluate the role of VNS treatment on cardiac oxidative stress in rats with AMI. Furthermore, we evaluated the possible underlying signaling mechanism with a special focus on AMPK-PKC signaling, which is involved in the Nox-mediated ROS production. 2. Results and Discussion 2.1. Vagal Stimulation Attenuated Myocardial Injury and Improved Cardiac Function In the present study, we stimulated the right vagus nerve following the previous experience and employed a new stimulation parameter that lowering the heart rate (HR) by 10% compared to baseline level. Figure 1A-C shows serum levels of lactic dehydrogenase (LDH), creatine kinase (CK) and cardiac troponin T (cTnT) in all groups. The model rats (M group) exhibited a significant serum enzyme rise compared with the control (C) group. In the MS group, subjected to VNS during AMI, serum LDH, CK as well as cTnT activity were significantly decreased compared with the M group. However, the cardioprotective role of VNS was partially offset by atropine (atro) in the AMS group, subjected to atropine and VNS during AMI. Figure 1D shows representative sections of hearts after AMI in M, MS and AMS groups, respectively. Quantitative comparison of infarct size in the M, MS and AMS groups demonstrated a significant difference in infarct size among the three groups, similar to the results of serum enzymes level.   As shown in Figure 2, there were no significant differences between the C group and S (vagal stimulation alone without AMI) group with respect to the heamodynamic measurements. Cardiac function was better and stable as indicated by the mean arterial pressure (MAP), left ventricular systolic pressure (LVSP), contractility (maximal slope of systolic pressure increment, +dp/dtmax) and diastolic pressure (left ventricular end-diastolic pressure, LVEDP), while the administration of atropine resulted in a decreases of cardiac function. These results indicated that direct parasympathetic activation by VNS could induce positive effects on myocardial injury and left ventricular function in the present study. 2.2. Changes of Serum Oxidant and Antioxidant Enzyme Activities in Each Group Increased contents of serum malonaldehyde (MDA) and decreased levels of serum superoxide dismutase (SOD), total antioxidant capability (T-AOC) and glutathione reductase (GR) as well as glutathione peroxidase (GPx) had been induced in AMI rats compared to C groups (Figure 3). However, VNS reduced MDA contents and increased SOD, T-AOC, GR as well as GPx levels. After administration of atropine, the beneficial role of VNS was depleted. These results showed that VNS can reverse the imbalance of oxidatant-antioxidant system induced by myocardial ischemia. 2.3. Vagal Stimulation Inhibited Oxidative Stress in Rats with AMI Mainly via the NADPH Pathway We first determined the intracellular ROS content in frozen ventricular tissue sections from rats in each group. Dihydroethidium (DHE) fluorescence staining, a relatively specific marker of superoxide, is significantly stronger in AMI group compared to controls (Figure 4A). As expected, the intensity of fluorescent signal in the MS group was significantly reduced relative to the M groups (Figure 4B). It has been reported that SOD serves as a major antioxidant enzyme responsible for the first step of the superoxide removal system. SOD consists of three enzymatic isoforms: cytosolic CuZn-SOD (SOD1), mitochondrial Mn-SOD (SOD2) and extracellular CuZn-SOD (SOD3). However, SOD3 is expressed only in a limited number of tissues (lung, kidney, and fat tissue). Thus, in the present study, we only focused on the effect of VNS on the SOD1 and SOD2 protein expression. Obviously, VNS enhanced the expression of SOD1 and SOD2 in rat myocardium (Figure 4C). Since it has been reported that the predominant superoxide-producing enzyme in heart is Nox, we analyzed the expression of Nox associated subunits, p67phox and Rac1. We also analyzed the expression of nitrotyrosine, which is also an important molecular indicator of ROS. VNS evidently inhibited the expression of p67phox, Rac1 as well as nitrotyrosine (Figure 4C). However, atropine significantly facilitated the upregulation of p67phox, Rac1 and nitrotyrosine expression. Then we determined whether the increase in ROS production is attributable to the activation of Nox, a superoxide-producing enzyme. After myocardial infarction, Nox activity was significantly increased compared to control group; however, VNS markedly decreased the Nox activity while atropine, an antagonist of muscarinic receptor, increased the activity of Nox activity (Figure 5A).We also measured the protein expression of Nox2, which is the key Nox isoforms in the cardiomyocytes (Figure 5B). The results demonstrated that Nox was involved in myocardial ischemia-induced ROS production, implying that vagal stimulation inhibited oxidative stress in rats with AMI via the Nox pathway. Roe et al. have demonstrated that inhibition of Nox alleviated experimental diabetes-induced myocardial contractile dysfunction. Our findings on myocardial dysfunction related to AMI can be explained, at least in part, by the formation of ROS which is thought to exert negative inotropic effects. 2.4 Effects of Vagal Stimulation on AMPK-PKC Pathway AMPK can reverse and alter many cellular pathways to protective against the oxidative injury. We assume that myocardial ischemia-induced ROS generation was caused by the regression of AMPK phosphorylation. To verify our hypothesis, the protein expression of AMPK phosphorylation was evaluated by western blot analysis. As shown in Figure 6A, AMPK phosphorylation was decreased in AMI group compared with control group. In contrast, VNS significantly increased the phosphorylation of AMPK. However, atropine antagonized the protective role conferred by VNS. Furthermore, previous studies have shown that PKC isoforms play a key role in the regulation of Nox subunit and AMPK-alpha can inhibit the ROS production through the suppression of PKC, which in turn prevents activation of Nox. Therefore, we focused on our attention on the effect of VNS on PKC phosphorylation. As shown in Figure 6B, myocardial ischemia facilitated the PKC phosphorylation compared with control group while VNS significantly decreased PKC phosphorylation level. However, atropine prevented the VNS-induced reduction of phosphorylation PKC. These results demonstrated that AMPK-PKC pathway might be the molecular basis of the VNS-mediated cardioprotective role. 3. Experimental Section 3.1. Animals Adult male Sprague-Dawley rats (220-250 g) were purchased from the Experimental Animal Centre of Xi'an Jiaotong University. All experimental procedures were in accordance with the Guidelines on the Care and Use of Laboratory Animals and were approved by the Ethics Committee of Xi'an Jiaotong University.       3.2. Heamodynamics Measurements and Induction of Acute Myocardial Infarction Rats were anaesthetized with urethane intraperitoneally (1-1.2 g/kg). Rats were then tracheotomized, intubated and ventilated mechanically. Arterial pH, PO2 and PCO2 were maintained within the physiological range by supplying oxygen and changing the respiratory rate. A polyethylene catheter (PE-50, Becton Dickinson), containing saline solution with heparin, was placed in the left ventricle via the right carotid artery and connected to a pressure transducer to monitor left ventricular (LV) systolic pressure (LVSP), LV end-diastolic pressure (LVEDP) and the maximum rate of increase/decrease of LV pressure (+-dp/dtmax). Another heparin-filled PE-50 was inserted into the right femoral artery to record arterial pressure. An instantaneous heart rate (HR) was measured from the lead II electrocardiogram (ECG). Experimental solutions were infused started with coronary artery ligation through another PE-50 tubing, which was cannulated into the right femoral vein. Atropine sulfate (1 mg/kg) was administered as a muscarinic receptor antagonist.   AMI was established by ligation of the left anterior descending artery (LAD), as described previously. AMI was deemed successful on the basis of regional cyanosis of the myocardial surface distal to the suture, accompanied by the elevation of the ST segment on the electrocardiogram. 3.3. Vagus Nerve Stimulation Bilateral cervical vagus nerves were identified and transected at the neck region. A pair of bipolar electrodes was attached at the cardiac end of the right vagus nerve. Only the distal end of the vagal nerve was placed on a pair of platinum wires and was used for stimulation. The electrode was connected to an isolated constant voltage stimulator (ML866, Power Lab, AD Instruments, Australia). The vagus nerve was stimulated with electrical rectangular pulses of 1ms duration at 2 Hz during LAD ligation. The electrical voltage of pulses was optimized in each rat to obtain a 10% reduction in HR started with LAD ligation. The actual electrical voltage was in the range of 2 to 4 V. VNS was performed with LAD ligation and continued for 240 min after LAD ligation (Figure 7A). To prevent drying and to provide insulation, the stimulation electrodes and the vagus nerve were immersed in a mixture of white petrolatum (vaseline) and paraffin. To ensure the effectiveness of our VNS, we monitored HR during the experimental protocol. As shown in Figure 7B, a 10% reduction in HR was seen with VNS and this effect of VNS was completely reversible because HR returned to the pre-stimulation levels within 20 s after cessation of VNS. 3.4. Exclusion Criteria Rats were excluded from the study if: (1) intractable severe arrhythmia occurred; (2) the rat died during the surgical procedures and responded poorly to VNS; and (3) a sustained fall in MAP to <60 mmHg was observed. 3.5. Blood Sampling and Tissue Preparation Each animal had 2 mL of whole blood rapidly withdrawn via the arterial catheter into a syringe. Blood samples were taken before 5 min at the end of experiment. At the end of the experiment, the animals were euthanized. The whole heart was quickly excised and washed with cold phosphate buffer consisting of (in mM): 137 NaCl, 2.7 KCl, 10 Na2HPO4, and 2 KH2PO4 at pH 7.4. Then right ventricular free wall, and atrial appendages were dissected away, the remaining left ventricular wall was snap frozen in liquid nitrogen and stored at -80  C.    3.6. Cardiac Specific Injury Markers Measurement Blood was collected into serum separator tubes (Becton Dickinson, Rutherford, NJ, USA) and serum was obtained by centrifugation at 6000g for 6 min. Serum levels of LDH and CK were evaluated according to the manufacturer's instructions (Nanjing Jiancheng Biological Technology, Nanjing, China). Serum level of cTnT was measured by a commercial kit (Xitang Biology Technology Company, Shanghai, China).   3.7. Assessment of Infarction Size At the end of experiment, 2 mL of 5% Evans Blue was injected slowly to the vena cava and used to determine the left ventricular tissue that was not subjected to regional ischemia. The myocardial ischemic area at risk (IAR) was identified as the region without any blue stain. Then the heart was immediately sliced into seven 2-mm thick sections and these were incubated with 5% 2,3,5-triphenyltetrazolium chloride (TTC) at 37  C for 30 min. The sections were then transferred into 10% formalin and kept at 4  C for 48 h. The infarction size was defined as TTC-unstained area and expressed as the percentage of the IAR. With respect to clinical importance, only rats with large infarction (> 30%) were selected for analysis.   3.8. Determination of Oxidant and Antioxidant Enzyme Activities MDA, SOD, T-AOC and GR as well as GPx in the serum were analyzed using commercially available kits (Nanjing Jiancheng Biological Technology, Nanjing, China) according to the manufacturer's instructions. All trials were performed in triplicate.   3.9. NADPH Oxidase Activity We measured the activity of Nox, the major source of ROS production. The cardiac Nox activity, expressed as the NADP/NADPH ratio, was measured with a commercial kit (Genmed Scientific Inc. Arlington, MA, USA) by reading absorbance at 340 nm on a microplate reader. The greater the optical density, the higher the Nox activity was determined to be. 3.10. Measurement of Superoxide Generation Production of superoxide was detected in a serial 10 mum frozen sections from LV tissue by DHE (Beyotime Institute of Biotechnology, Nanjing, China) staining. Tissue sections were incubated with 10 mumol/L DHE at 37  C for 30 min in a humidified chamber protected from light. Fluorescent images obtained with an inverted fluorescence microscope (TE-2000U, Nikon, Japan) and were analyzed with Image-Pro Plus 5.0.  3.11. Western Blotting Analysis Approximately 80 mg of myocardial tissue sample obtained from the LV free wall (anterior wall) was homogeneized in 1 mL lysis buffer containing 50 mmol/L Tris (pH 7.4), 1% TritonX-100, 1 mM EDTA, 0.5% deoxycholic, 500 mM NaCl, 0.1% sodium dodecyl sulphate, 10 mM MgCl2, 2 mM Na3VO4 and protease inhibitors. The homogenate was centrifuged at 12,000g for 5 min at 4  C and the supernatant collected as protein extracts. Protein concentration was determined by Bradford dye reagent (Bio-Rad, Marnes-la-Coquette, France) using bovine serum albumin as standard. Proteins (50 mg) were separated by 10% sodium dodecyl sulphate-polyacrylamide gel electrophoresis and transferred to polyvinylidene fluoride membranes. The membranes were blocked for 1 h at room temperature in 5% dry milk in Tris-buffered saline containing 0.1% Tween 20 (TBST), and incubated overnight at 4  C with one of the following primary antibodies: rabbit anti-Nox2 (1:2000 dilution, Abcam, Cambridge, UK), rabbit anti-SOD1(1:5000 dilation, Abcam, Cambridge, UK), rabbit anti-SOD2 (1:5000 dilation, Abcam, Cambridge, UK), rabbit anti-nitrotyrosine (1:2000 dilution, Santa Cruz, CA, USA), rabbit anti-p67phox (1:1000 dilution, Cell signaling Technology), rabbit anti-Rac-1 (1:1000 dilution, Cell Signaling Technology Inc., Waltham, MA, USA), rabbit anti-PKC-alpha (1:500 dilution, Bioworld Technology, Inc., St. Louis Park, MN, USA), rabbit anti-phospho-PKC-alpha (1:500 dilution, Bioworld Technology), rabbit anti-AMPK-1alpha (1:1000 dilution, Abcam, Cambridge, UK), anti-phospho-AMPK-1alpha (1:1000 dilation, Abcam, Cambridge, UK) and mouse anti-GAPDH (1:5000, Santa Cruz Biotechnology, Inc., CA, USA). The expression of GAPDH was used as an internal control. After incubation with primary antibodies, the membrane was washed three times with TBST for 10 min each and then incubated for 2 h with appropriate horseradish peroxidase-conjugated secondary antibodies. Chemiluminescence was detected using an ECL-Plus kit (PerkinElmer Life Science, Waltham, MA, USA) and the light signals were detected by X-ray film. 3.12. Statistical Analysis Data were expressed as means +- SEM. Each variable was compared between the different groups using a one-way ANOVA. When an overall difference was found, a Tukey test was performed. A p-value of less than 0.05 was set as the criterion for significance in all comparisons. 4. Conclusions In the present study, we demonstrated how VNS-mediated signaling protects rats with AMI from oxidative stress (Figure 8). We showed that VNS decreased Nox-derived ROS, for the first time, as evidenced by the decreased Nox activity and fluorescence intensity. In addition, this protection was accompanied by the enhanced antioxidant capacity, such as raised plasma T-AOC level and SOD activity as well as its expression. Mechanistically, our results showed for the first time that VNS increased the phosphorylation of AMPK and suppressed the phosphorylation of PKC. Moreover, we also showed that nearly all these cardioprotective roles of VNS were effectively abolished or diminished by atropine, a muscarinic receptor antagonist, implying that muscarinic receptor may participate in the VNS-mediated inhibition of ischemia-induced ROS production. These findings implicate that the parasympathetic nerve system can serve as a promising target for the treatment of ischemic heart diseases. Conflict of Interest The authors declare no conflict of interest. References Oxidative stress versus antioxidant defenses in patients with acute myocardial infarction Significant levels of oxidants are generated by isolated cardiomyocytes during ischemia prior to reperfusion Isorhamnetin inhibits H2O2-induced activation of the intrinsic apoptotic pathway in H9c2 cardiomyocytes through scavenging reactive oxygen species and ERK inactivation NADPH oxidase and heart failure The NOX family of ROS-generating NADPH oxidases: Physiology and pathophysiology NADPH oxidase signaling and cardiac myocyte function Ischemia induces nuclear NOX2 expression in cardiomyocytes and subsequently activates apoptosis Increased Nox2 expression in human cardiomyocytes after acute myocardial infarction Increased myocardial NADPH oxidase activity in human heart failure Contrasting roles of NADPH oxidase isoforms in pressure-overload versus angiotensin II-induced cardiac hypertrophy On the genesis of myocardial ischemia Increased cardiac sympathetic nerve activity following acute myocardial infarction in a sheep model Autonomic imbalance and immune activation in chronic heart failure:Pathophysiological links   Tumour necrosis factor-alpha and its receptors in the beneficial effects of vagal stimulation after myocardial infarction in rats Vagal nerve stimulation markedly improves long-term survival after chronic heart failure in rats Long term vagal stimulation in patients with advanced heart failure: First experience in man Efferent vagal nerve stimulation protects heart against ischemia-induced arrhythmias by preserving connexin43 protein Nitric oxide mediates the vagal protective effect on ventricular fibrillation via effects on action potential duration restitution in the rabbit heart Insulin generates free radicals in human fibroblasts ex vivo by a protein kinase C-dependent mechanism, which is inhibited by pravastatin Coenzyme Q10 suppresses oxLDL-induced endothelial oxidative injuries by the modulation of LOX-1-mediated ROS generation via the AMPK/PKC/NADPH oxidase signaling pathway Inhibition of copper-zinc superoxide dismutase induces cell growth, hypertrophic phenotype, and apoptosis in neonatal rat cardiac myocytes in vitro Tissue distribution of immunoreactive mouse extracellular superoxide dismutase Inhibition of NADPH oxidase alleviates experimental diabetes-induced myocardial contractile dysfunction Resistin worsens cardiac ischaemia-reperfusion injury The AMP-activated protein kinase:Fuel gauge of the mammalian cell?   Protein kinase C delta is required for p47phox phosphorylation and translocation in activated human monocytes Rosiglitazone reduces glucose-induced oxidative stress mediated by NAD(P)H oxidase via AMPK-dependent mechanism  IL-10 inhibits inflammation and attenuates left ventricular remodeling after myocardial infarction via activation of STAT3 and suppression of HuR Tissue kallikrein and kinin infusion rescues failing myocardium after myocardial infarction Accumulation of cAMP augments dynamic vagal control of heart rate Vagal stimulation suppresses ischemia-induced myocardial interstitial norepinephrine release Differential effects of NADPH oxidase and xanthine oxidase inhibition on sympathetic reinnervation in postinfarct rat hearts Vagal stimulation decreased susceptibility of myocardial injury. The animals were randomized into five groups: C indicates sham-operated rats with sham stimulation; S depicts rats treated with only right vagus nerve stimulation (VNS); M indicates acute myocardial infarction (AMI) rats treated without VNS; MS represents AMI rats treated with VNS while AMS means the acute myocardial infarction rats with both vagal stimulation and atropine sulfate. (A) Serum levels of LDH from each group; (B) Serum levels of creatine kinase (CK) from each group (n = 12 for each group); (C) Serum levels of cTnT from each group; (D) Reduction in AMI-induced myocardial infarct size (percentage risk area) by VNS. Note: the blue color is Evans blue dye; the red color is 2,3,5-triphenyltetrazolium chloride staining corresponding to the uninfarcted area. The white color corresponds to the infarcted area. Data are the mean +- SEM (n = 6). *p < 0.05 compared with control (C); #, & p < 0.05 compared with M and AMS, respectively. Effect of vagal nerve stimulation (VNS) on cardiac function. (A) MAP, mean arterial pressure; (B) HR, heart rate; (C) LVSP, left ventricular systolic pressure; (D) LVEDP, left ventricular end-diastolic pressure; (E) +dP/dt = maximal slope of systolic pressure increment; (F) -dP/dt = maximal slope of diastolic pressure decrement; (G) Raw pressure data collected in C, M and MS group at the end of experiment. Data are the mean +- SEM (n = 12). *p < 0.05 compared with control (C); #, & p < 0.05 compared with M and AMS, respectively.   Changes of serum MDA, SOD, T-AOC, GR and GPx levels in each group. (A) MDA; (B) SOD; (C) T-AOC; (D) GR; and (E) GPx levels in serum, respectively. Data shown are mean +- SEM (n = 6). *p < 0.05 compared with control (C); #,& p < 0.05 compared with M and AMS, respectively. Effect of vagal stimulation on oxidative stress in rats with AMI. Rats in each group were sacrificed at the end of experiment and serum was collected. (A) Representative of DHE fluorescence staining for superoxide in LV tissue sections; (B) Fluorescent intensity of superoxide in each group; (C) Representative of SOD1,SOD2, p67phox, Rac1 and nitrotyrosine expression and their respective quantification in control; Data shown are mean +- SEM (n = 5). *p < 0.05 compared with control (C); #,& p < 0.05 compared with M and AMS, respectively. VNS inhibits oxidative stress in rats with AMI via Nox pathway. (A) Nox activity measured by lucigenin-enhanced chemiluminescence in each group; (B) Representative of Nox2 protein and analysis in each group. Data shown are mean +- SEM (n = 5). *p < 0.05 compared with control (C); #,& p < 0.05 compared with M and AMS, respectively. Vagal nerve stimulation modulated ROS generation via AMPK-PKC expression. (A) Representative of Western blots for phosphorylated and total AMPK expression from each group; (B) Representative of Western blots for phosphorylated and total PKC expression from each group. Data shown are mean +- SEM (n = 5).*p < 0.05 compared with control (C); #,& p < 0.05 compared with M and AMS, respectively. Schematic representation of the protocol and changes in HR with VNS. (A) Experimental protocol. After initial surgical preparation, rats were allowed 30 min stabilization. The AMI model was established by ligation of the left anterior descending artery (LAD), VNS was started with coronary artery ligation and continued for the 240 min of artery ligation; (B) Changes in HR with VNS. During the VNS, HR was reduced by 10% from baseline, indicating that the effective of VNS; while after the cessation of VNS, HR almost returned to the baseline level, indicating the effective role of VNS. Schematic overview of the protective effects of the VNS on myocardial ischemia-induced ROS production. VNS can inhibit the myocardial ischemia induced-ROS production mainly through the AMPK-PKC-Nox pathway and muscarinic receptor is involved in the cardioprotection role of VNS.",
+    "entities": [
+        {
+            "entityId": "19_27",
+            "span": {
+                "begin": 19,
+                "end": 27
+            },
+            "entityType": "disease",
+            "entityName": "Ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "91_94",
+            "span": {
+                "begin": 91,
+                "end": 94
+            },
+            "entityType": "species",
+            "entityName": "Rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "121_125",
+            "span": {
+                "begin": 121,
+                "end": 125
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "126_129",
+            "span": {
+                "begin": 126,
+                "end": 129
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "147_153",
+            "span": {
+                "begin": 147,
+                "end": 153
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "208_227",
+            "span": {
+                "begin": 208,
+                "end": 227
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "232_291",
+            "span": {
+                "begin": 232,
+                "end": 291
+            },
+            "entityType": "gene",
+            "entityName": "nicotinamide adenine dinucleotide phosphate (NADPH) oxidase",
+            "id": "UMLS:C1414179"
+        },
+        {
+            "entityId": "422_445",
+            "span": {
+                "begin": 422,
+                "end": 445
+            },
+            "entityType": "disease",
+            "entityName": "ischemic heart diseases",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "801_814",
+            "span": {
+                "begin": 801,
+                "end": 814
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "816_819",
+            "span": {
+                "begin": 816,
+                "end": 819
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "834_844",
+            "span": {
+                "begin": 834,
+                "end": 844
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "897_904",
+            "span": {
+                "begin": 897,
+                "end": 904
+            },
+            "entityType": "gene",
+            "entityName": "p67phox",
+            "id": "UMLS:C1417609"
+        },
+        {
+            "entityId": "906_910",
+            "span": {
+                "begin": 906,
+                "end": 910
+            },
+            "entityType": "gene",
+            "entityName": "Rac1",
+            "id": "UMLS:C1419227"
+        },
+        {
+            "entityId": "915_928",
+            "span": {
+                "begin": 915,
+                "end": 928
+            },
+            "entityType": "drug",
+            "entityName": "nitrotyrosine",
+            "id": "mesh:C002744"
+        },
+        {
+            "entityId": "997_1045",
+            "span": {
+                "begin": 997,
+                "end": 1045
+            },
+            "entityType": "gene",
+            "entityName": "adenosine monophosphate activated protein kinase",
+            "id": "UMLS:C0033640"
+        },
+        {
+            "entityId": "1047_1051",
+            "span": {
+                "begin": 1047,
+                "end": 1051
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "1094_1097",
+            "span": {
+                "begin": 1094,
+                "end": 1097
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "1101_1117",
+            "span": {
+                "begin": 1101,
+                "end": 1117
+            },
+            "entityType": "gene",
+            "entityName": "protein kinase C",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "1119_1122",
+            "span": {
+                "begin": 1119,
+                "end": 1122
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "1212_1220",
+            "span": {
+                "begin": 1212,
+                "end": 1220
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "1285_1289",
+            "span": {
+                "begin": 1285,
+                "end": 1289
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "1290_1293",
+            "span": {
+                "begin": 1290,
+                "end": 1293
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "1294_1297",
+            "span": {
+                "begin": 1294,
+                "end": 1297
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "1363_1386",
+            "span": {
+                "begin": 1363,
+                "end": 1386
+            },
+            "entityType": "disease",
+            "entityName": "ischemic heart diseases",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "1404_1431",
+            "span": {
+                "begin": 1404,
+                "end": 1431
+            },
+            "entityType": "disease",
+            "entityName": "Acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "1433_1436",
+            "span": {
+                "begin": 1433,
+                "end": 1436
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "1552_1558",
+            "span": {
+                "begin": 1552,
+                "end": 1558
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "1581_1591",
+            "span": {
+                "begin": 1581,
+                "end": 1591
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "1626_1649",
+            "span": {
+                "begin": 1626,
+                "end": 1649
+            },
+            "entityType": "cell",
+            "entityName": "cultured cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "1682_1690",
+            "span": {
+                "begin": 1682,
+                "end": 1690
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "1817_1844",
+            "span": {
+                "begin": 1817,
+                "end": 1844
+            },
+            "entityType": "disease",
+            "entityName": "cardiomyocyte abnormalities",
+            "id": "UMLS:C0000768"
+        },
+        {
+            "entityId": "1929_1988",
+            "span": {
+                "begin": 1929,
+                "end": 1988
+            },
+            "entityType": "gene",
+            "entityName": "nicotinamide adenine dinucleotide phosphate (NADPH) oxidase",
+            "id": "UMLS:C1414179"
+        },
+        {
+            "entityId": "1990_2006",
+            "span": {
+                "begin": 1990,
+                "end": 2006
+            },
+            "entityType": "gene",
+            "entityName": "xanthine oxidase",
+            "id": "UMLS:C0043317"
+        },
+        {
+            "entityId": "2008_2029",
+            "span": {
+                "begin": 2008,
+                "end": 2029
+            },
+            "entityType": "gene",
+            "entityName": "nitric oxide synthase",
+            "id": "UMLS:C0132555"
+        },
+        {
+            "entityId": "2034_2059",
+            "span": {
+                "begin": 2034,
+                "end": 2059
+            },
+            "entityType": "gene",
+            "entityName": "mitochondrial cytochromes",
+            "id": "UMLS:C0010798"
+        },
+        {
+            "entityId": "2170_2180",
+            "span": {
+                "begin": 2170,
+                "end": 2180
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "2210_2223",
+            "span": {
+                "begin": 2210,
+                "end": 2223
+            },
+            "entityType": "gene",
+            "entityName": "NADPH oxidase",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "2225_2228",
+            "span": {
+                "begin": 2225,
+                "end": 2228
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "2292_2295",
+            "span": {
+                "begin": 2292,
+                "end": 2295
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "2338_2344",
+            "span": {
+                "begin": 2338,
+                "end": 2344
+            },
+            "entityType": "gene",
+            "entityName": "Nox1-5",
+            "id": "UMLS:C1456389"
+        },
+        {
+            "entityId": "2346_2351",
+            "span": {
+                "begin": 2346,
+                "end": 2351
+            },
+            "entityType": "gene",
+            "entityName": "Duox1",
+            "id": "UMLS:C1414179"
+        },
+        {
+            "entityId": "2356_2361",
+            "span": {
+                "begin": 2356,
+                "end": 2361
+            },
+            "entityType": "gene",
+            "entityName": "Duox2",
+            "id": "UMLS:C1421916"
+        },
+        {
+            "entityId": "2381_2393",
+            "span": {
+                "begin": 2381,
+                "end": 2393
+            },
+            "entityType": "gene",
+            "entityName": "Nox isoforms",
+            "id": "UMLS:C0597298"
+        },
+        {
+            "entityId": "2426_2430",
+            "span": {
+                "begin": 2426,
+                "end": 2430
+            },
+            "entityType": "gene",
+            "entityName": "Nox2",
+            "id": "UMLS:C1413844"
+        },
+        {
+            "entityId": "2456_2464",
+            "span": {
+                "begin": 2456,
+                "end": 2464
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "2469_2482",
+            "span": {
+                "begin": 2469,
+                "end": 2482
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "2495_2514",
+            "span": {
+                "begin": 2495,
+                "end": 2514
+            },
+            "entityType": "disease",
+            "entityName": "cardiac hypertrophy",
+            "id": "UMLS:C1383860"
+        },
+        {
+            "entityId": "2553_2556",
+            "span": {
+                "begin": 2553,
+                "end": 2556
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "2624_2647",
+            "span": {
+                "begin": 2624,
+                "end": 2647
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular diseases",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "2669_2672",
+            "span": {
+                "begin": 2669,
+                "end": 2672
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "2736_2764",
+            "span": {
+                "begin": 2736,
+                "end": 2764
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia diseases",
+            "id": "UMLS:C0878544"
+        },
+        {
+            "entityId": "2848_2867",
+            "span": {
+                "begin": 2848,
+                "end": 2867
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "2969_2972",
+            "span": {
+                "begin": 2969,
+                "end": 2972
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2977_2990",
+            "span": {
+                "begin": 2977,
+                "end": 2990
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "3203_3224",
+            "span": {
+                "begin": 3203,
+                "end": 3224
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "3228_3232",
+            "span": {
+                "begin": 3228,
+                "end": 3232
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "3275_3288",
+            "span": {
+                "begin": 3275,
+                "end": 3288
+            },
+            "entityType": "disease",
+            "entityName": "heart failure",
+            "id": "UMLS:C0018801"
+        },
+        {
+            "entityId": "3289_3297",
+            "span": {
+                "begin": 3289,
+                "end": 3297
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "3372_3395",
+            "span": {
+                "begin": 3372,
+                "end": 3395
+            },
+            "entityType": "disease",
+            "entityName": "ischemic heart diseases",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "3429_3440",
+            "span": {
+                "begin": 3429,
+                "end": 3440
+            },
+            "entityType": "disease",
+            "entityName": "arrhythmias",
+            "id": "UMLS:C0003811"
+        },
+        {
+            "entityId": "3444_3448",
+            "span": {
+                "begin": 3444,
+                "end": 3448
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "3454_3468",
+            "span": {
+                "begin": 3454,
+                "end": 3468
+            },
+            "entityType": "disease",
+            "entityName": "acute ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "3503_3527",
+            "span": {
+                "begin": 3503,
+                "end": 3527
+            },
+            "entityType": "disease",
+            "entityName": "ventricular fibrillation",
+            "id": "UMLS:C0042510"
+        },
+        {
+            "entityId": "3531_3535",
+            "span": {
+                "begin": 3531,
+                "end": 3535
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "3584_3588",
+            "span": {
+                "begin": 3584,
+                "end": 3588
+            },
+            "entityType": "gene",
+            "entityName": "Cx43",
+            "id": "UMLS:C0110613"
+        },
+        {
+            "entityId": "3611_3613",
+            "span": {
+                "begin": 3611,
+                "end": 3613
+            },
+            "entityType": "drug",
+            "entityName": "NO",
+            "id": "UMLS:C0028128"
+        },
+        {
+            "entityId": "3778_3782",
+            "span": {
+                "begin": 3778,
+                "end": 3782
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "3788_3791",
+            "span": {
+                "begin": 3788,
+                "end": 3791
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "3887_3891",
+            "span": {
+                "begin": 3887,
+                "end": 3891
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "3892_3895",
+            "span": {
+                "begin": 3892,
+                "end": 3895
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "3932_3935",
+            "span": {
+                "begin": 3932,
+                "end": 3935
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "4305_4325",
+            "span": {
+                "begin": 4305,
+                "end": 4325
+            },
+            "entityType": "gene",
+            "entityName": "lactic dehydrogenase",
+            "id": "UMLS:C1335186"
+        },
+        {
+            "entityId": "4327_4330",
+            "span": {
+                "begin": 4327,
+                "end": 4330
+            },
+            "entityType": "gene",
+            "entityName": "LDH",
+            "id": "UMLS:C0022917"
+        },
+        {
+            "entityId": "4333_4348",
+            "span": {
+                "begin": 4333,
+                "end": 4348
+            },
+            "entityType": "gene",
+            "entityName": "creatine kinase",
+            "id": "UMLS:C0010287"
+        },
+        {
+            "entityId": "4350_4352",
+            "span": {
+                "begin": 4350,
+                "end": 4352
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "4358_4376",
+            "span": {
+                "begin": 4358,
+                "end": 4376
+            },
+            "entityType": "gene",
+            "entityName": "cardiac troponin T",
+            "id": "UMLS:C1420826"
+        },
+        {
+            "entityId": "4378_4382",
+            "span": {
+                "begin": 4378,
+                "end": 4382
+            },
+            "entityType": "gene",
+            "entityName": "cTnT",
+            "id": "UMLS:C3538782"
+        },
+        {
+            "entityId": "4409_4413",
+            "span": {
+                "begin": 4409,
+                "end": 4413
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "4544_4547",
+            "span": {
+                "begin": 4544,
+                "end": 4547
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "4555_4558",
+            "span": {
+                "begin": 4555,
+                "end": 4558
+            },
+            "entityType": "gene",
+            "entityName": "LDH",
+            "id": "UMLS:C0022917"
+        },
+        {
+            "entityId": "4560_4562",
+            "span": {
+                "begin": 4560,
+                "end": 4562
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "4574_4578",
+            "span": {
+                "begin": 4574,
+                "end": 4578
+            },
+            "entityType": "gene",
+            "entityName": "cTnT",
+            "id": "UMLS:C3538782"
+        },
+        {
+            "entityId": "4710_4718",
+            "span": {
+                "begin": 4710,
+                "end": 4718
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "4733_4736",
+            "span": {
+                "begin": 4733,
+                "end": 4736
+            },
+            "entityType": "disease",
+            "entityName": "AMS",
+            "id": "UMLS:C1860224"
+        },
+        {
+            "entityId": "4757_4765",
+            "span": {
+                "begin": 4757,
+                "end": 4765
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "4781_4784",
+            "span": {
+                "begin": 4781,
+                "end": 4784
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "4842_4845",
+            "span": {
+                "begin": 4842,
+                "end": 4845
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "4935_4937",
+            "span": {
+                "begin": 4935,
+                "end": 4937
+            },
+            "entityType": "disease",
+            "entityName": "MS",
+            "id": "mesh:D009103"
+        },
+        {
+            "entityId": "4942_4945",
+            "span": {
+                "begin": 4942,
+                "end": 4945
+            },
+            "entityType": "disease",
+            "entityName": "AMS",
+            "id": "UMLS:C1860224"
+        },
+        {
+            "entityId": "5199_5202",
+            "span": {
+                "begin": 5199,
+                "end": 5202
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "5562_5570",
+            "span": {
+                "begin": 5562,
+                "end": 5570
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "5719_5729",
+            "span": {
+                "begin": 5719,
+                "end": 5729
+            },
+            "entityType": "disease",
+            "entityName": "myocardial",
+            "id": "mesh:D009202"
+        },
+        {
+            "entityId": "5895_5908",
+            "span": {
+                "begin": 5895,
+                "end": 5908
+            },
+            "entityType": "drug",
+            "entityName": "malonaldehyde",
+            "id": "UMLS:C0024643"
+        },
+        {
+            "entityId": "5910_5913",
+            "span": {
+                "begin": 5910,
+                "end": 5913
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "5939_5965",
+            "span": {
+                "begin": 5939,
+                "end": 5965
+            },
+            "entityType": "gene",
+            "entityName": "serum superoxide dismutase",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "5967_5970",
+            "span": {
+                "begin": 5967,
+                "end": 5970
+            },
+            "entityType": "gene",
+            "entityName": "SOD",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "6014_6035",
+            "span": {
+                "begin": 6014,
+                "end": 6035
+            },
+            "entityType": "gene",
+            "entityName": "glutathione reductase",
+            "id": "UMLS:C1415326"
+        },
+        {
+            "entityId": "6037_6039",
+            "span": {
+                "begin": 6037,
+                "end": 6039
+            },
+            "entityType": "gene",
+            "entityName": "GR",
+            "id": "UMLS:C1415326"
+        },
+        {
+            "entityId": "6052_6074",
+            "span": {
+                "begin": 6052,
+                "end": 6074
+            },
+            "entityType": "gene",
+            "entityName": "glutathione peroxidase",
+            "id": "UMLS:C0017822"
+        },
+        {
+            "entityId": "6076_6079",
+            "span": {
+                "begin": 6076,
+                "end": 6079
+            },
+            "entityType": "gene",
+            "entityName": "GPx",
+            "id": "UMLS:C0017822"
+        },
+        {
+            "entityId": "6101_6104",
+            "span": {
+                "begin": 6101,
+                "end": 6104
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "6105_6109",
+            "span": {
+                "begin": 6105,
+                "end": 6109
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "6164_6167",
+            "span": {
+                "begin": 6164,
+                "end": 6167
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "6191_6194",
+            "span": {
+                "begin": 6191,
+                "end": 6194
+            },
+            "entityType": "gene",
+            "entityName": "SOD",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "6203_6205",
+            "span": {
+                "begin": 6203,
+                "end": 6205
+            },
+            "entityType": "gene",
+            "entityName": "GR",
+            "id": "UMLS:C1415326"
+        },
+        {
+            "entityId": "6217_6220",
+            "span": {
+                "begin": 6217,
+                "end": 6220
+            },
+            "entityType": "gene",
+            "entityName": "GPx",
+            "id": "UMLS:C0017822"
+        },
+        {
+            "entityId": "6253_6261",
+            "span": {
+                "begin": 6253,
+                "end": 6261
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "6403_6422",
+            "span": {
+                "begin": 6403,
+                "end": 6422
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "6477_6481",
+            "span": {
+                "begin": 6477,
+                "end": 6481
+            },
+            "entityType": "species",
+            "entityName": "Rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "6487_6490",
+            "span": {
+                "begin": 6487,
+                "end": 6490
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "6506_6511",
+            "span": {
+                "begin": 6506,
+                "end": 6511
+            },
+            "entityType": "drug",
+            "entityName": "NADPH",
+            "id": "UMLS:CHEBI:57783"
+        },
+        {
+            "entityId": "6613_6617",
+            "span": {
+                "begin": 6613,
+                "end": 6617
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "6633_6648",
+            "span": {
+                "begin": 6633,
+                "end": 6648
+            },
+            "entityType": "drug",
+            "entityName": "Dihydroethidium",
+            "id": "UMLS:C0644810"
+        },
+        {
+            "entityId": "6650_6653",
+            "span": {
+                "begin": 6650,
+                "end": 6653
+            },
+            "entityType": "drug",
+            "entityName": "DHE",
+            "id": "UMLS:C0058031"
+        },
+        {
+            "entityId": "6710_6720",
+            "span": {
+                "begin": 6710,
+                "end": 6720
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "6751_6754",
+            "span": {
+                "begin": 6751,
+                "end": 6754
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "6950_6953",
+            "span": {
+                "begin": 6950,
+                "end": 6953
+            },
+            "entityType": "gene",
+            "entityName": "SOD",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "7029_7039",
+            "span": {
+                "begin": 7029,
+                "end": 7039
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "7056_7059",
+            "span": {
+                "begin": 7056,
+                "end": 7059
+            },
+            "entityType": "gene",
+            "entityName": "SOD",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "7118_7122",
+            "span": {
+                "begin": 7118,
+                "end": 7122
+            },
+            "entityType": "gene",
+            "entityName": "SOD1",
+            "id": "UMLS:C1420306"
+        },
+        {
+            "entityId": "7125_7145",
+            "span": {
+                "begin": 7125,
+                "end": 7145
+            },
+            "entityType": "gene",
+            "entityName": "mitochondrial Mn-SOD",
+            "id": "UMLS:C0024708"
+        },
+        {
+            "entityId": "7147_7151",
+            "span": {
+                "begin": 7147,
+                "end": 7151
+            },
+            "entityType": "gene",
+            "entityName": "SOD2",
+            "id": "UMLS:C1420307"
+        },
+        {
+            "entityId": "7181_7185",
+            "span": {
+                "begin": 7181,
+                "end": 7185
+            },
+            "entityType": "gene",
+            "entityName": "SOD3",
+            "id": "UMLS:C1420308"
+        },
+        {
+            "entityId": "7197_7201",
+            "span": {
+                "begin": 7197,
+                "end": 7201
+            },
+            "entityType": "gene",
+            "entityName": "SOD3",
+            "id": "UMLS:C1420308"
+        },
+        {
+            "entityId": "7355_7359",
+            "span": {
+                "begin": 7355,
+                "end": 7359
+            },
+            "entityType": "gene",
+            "entityName": "SOD1",
+            "id": "UMLS:C1420306"
+        },
+        {
+            "entityId": "7364_7376",
+            "span": {
+                "begin": 7364,
+                "end": 7376
+            },
+            "entityType": "gene",
+            "entityName": "SOD2 protein",
+            "id": "UMLS:C0968147"
+        },
+        {
+            "entityId": "7431_7435",
+            "span": {
+                "begin": 7431,
+                "end": 7435
+            },
+            "entityType": "gene",
+            "entityName": "SOD1",
+            "id": "UMLS:C1420306"
+        },
+        {
+            "entityId": "7440_7444",
+            "span": {
+                "begin": 7440,
+                "end": 7444
+            },
+            "entityType": "gene",
+            "entityName": "SOD2",
+            "id": "UMLS:C1420307"
+        },
+        {
+            "entityId": "7448_7451",
+            "span": {
+                "begin": 7448,
+                "end": 7451
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "7524_7534",
+            "span": {
+                "begin": 7524,
+                "end": 7534
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "7564_7567",
+            "span": {
+                "begin": 7564,
+                "end": 7567
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "7599_7602",
+            "span": {
+                "begin": 7599,
+                "end": 7602
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "7624_7631",
+            "span": {
+                "begin": 7624,
+                "end": 7631
+            },
+            "entityType": "gene",
+            "entityName": "p67phox",
+            "id": "UMLS:C1417609"
+        },
+        {
+            "entityId": "7636_7640",
+            "span": {
+                "begin": 7636,
+                "end": 7640
+            },
+            "entityType": "gene",
+            "entityName": "Rac1",
+            "id": "UMLS:C1419227"
+        },
+        {
+            "entityId": "7677_7690",
+            "span": {
+                "begin": 7677,
+                "end": 7690
+            },
+            "entityType": "drug",
+            "entityName": "nitrotyrosine",
+            "id": "mesh:C002744"
+        },
+        {
+            "entityId": "7789_7796",
+            "span": {
+                "begin": 7789,
+                "end": 7796
+            },
+            "entityType": "gene",
+            "entityName": "p67phox",
+            "id": "UMLS:C1417609"
+        },
+        {
+            "entityId": "7798_7802",
+            "span": {
+                "begin": 7798,
+                "end": 7802
+            },
+            "entityType": "gene",
+            "entityName": "Rac1",
+            "id": "UMLS:C1419227"
+        },
+        {
+            "entityId": "7814_7827",
+            "span": {
+                "begin": 7814,
+                "end": 7827
+            },
+            "entityType": "drug",
+            "entityName": "nitrotyrosine",
+            "id": "mesh:C002744"
+        },
+        {
+            "entityId": "7850_7858",
+            "span": {
+                "begin": 7850,
+                "end": 7858
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "7905_7912",
+            "span": {
+                "begin": 7905,
+                "end": 7912
+            },
+            "entityType": "gene",
+            "entityName": "p67phox",
+            "id": "UMLS:C1417609"
+        },
+        {
+            "entityId": "7914_7918",
+            "span": {
+                "begin": 7914,
+                "end": 7918
+            },
+            "entityType": "gene",
+            "entityName": "Rac1",
+            "id": "UMLS:C1419227"
+        },
+        {
+            "entityId": "7923_7936",
+            "span": {
+                "begin": 7923,
+                "end": 7936
+            },
+            "entityType": "drug",
+            "entityName": "nitrotyrosine",
+            "id": "mesh:C002744"
+        },
+        {
+            "entityId": "8044_8047",
+            "span": {
+                "begin": 8044,
+                "end": 8047
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8051_8061",
+            "span": {
+                "begin": 8051,
+                "end": 8061
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "8086_8107",
+            "span": {
+                "begin": 8086,
+                "end": 8107
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "8109_8112",
+            "span": {
+                "begin": 8109,
+                "end": 8112
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8213_8216",
+            "span": {
+                "begin": 8213,
+                "end": 8216
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8232_8240",
+            "span": {
+                "begin": 8232,
+                "end": 8240
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "8259_8278",
+            "span": {
+                "begin": 8259,
+                "end": 8278
+            },
+            "entityType": "gene",
+            "entityName": "muscarinic receptor",
+            "id": "UMLS:C0034826"
+        },
+        {
+            "entityId": "8306_8309",
+            "span": {
+                "begin": 8306,
+                "end": 8309
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8374_8378",
+            "span": {
+                "begin": 8374,
+                "end": 8378
+            },
+            "entityType": "gene",
+            "entityName": "Nox2",
+            "id": "UMLS:C1413844"
+        },
+        {
+            "entityId": "8397_8409",
+            "span": {
+                "begin": 8397,
+                "end": 8409
+            },
+            "entityType": "gene",
+            "entityName": "Nox isoforms",
+            "id": "UMLS:C0597298"
+        },
+        {
+            "entityId": "8417_8431",
+            "span": {
+                "begin": 8417,
+                "end": 8431
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "8475_8478",
+            "span": {
+                "begin": 8475,
+                "end": 8478
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8495_8514",
+            "span": {
+                "begin": 8495,
+                "end": 8514
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "8601_8605",
+            "span": {
+                "begin": 8601,
+                "end": 8605
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "8611_8614",
+            "span": {
+                "begin": 8611,
+                "end": 8614
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "8623_8626",
+            "span": {
+                "begin": 8623,
+                "end": 8626
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8684_8687",
+            "span": {
+                "begin": 8684,
+                "end": 8687
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "8712_8720",
+            "span": {
+                "begin": 8712,
+                "end": 8720
+            },
+            "entityType": "disease",
+            "entityName": "diabetes",
+            "id": "UMLS:C0011847"
+        },
+        {
+            "entityId": "8781_8803",
+            "span": {
+                "begin": 8781,
+                "end": 8803
+            },
+            "entityType": "disease",
+            "entityName": "myocardial dysfunction",
+            "id": "UMLS:C0340515"
+        },
+        {
+            "entityId": "8815_8818",
+            "span": {
+                "begin": 8815,
+                "end": 8818
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "8969_8973",
+            "span": {
+                "begin": 8969,
+                "end": 8973
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "8974_8977",
+            "span": {
+                "begin": 8974,
+                "end": 8977
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "8986_8990",
+            "span": {
+                "begin": 8986,
+                "end": 8990
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "9095_9114",
+            "span": {
+                "begin": 9095,
+                "end": 9114
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "9170_9174",
+            "span": {
+                "begin": 9170,
+                "end": 9174
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "9244_9248",
+            "span": {
+                "begin": 9244,
+                "end": 9248
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "9328_9332",
+            "span": {
+                "begin": 9328,
+                "end": 9332
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "9366_9369",
+            "span": {
+                "begin": 9366,
+                "end": 9369
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "9469_9473",
+            "span": {
+                "begin": 9469,
+                "end": 9473
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "9484_9492",
+            "span": {
+                "begin": 9484,
+                "end": 9492
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "9589_9601",
+            "span": {
+                "begin": 9589,
+                "end": 9601
+            },
+            "entityType": "gene",
+            "entityName": "PKC isoforms",
+            "id": "UMLS:C0597298"
+        },
+        {
+            "entityId": "9639_9650",
+            "span": {
+                "begin": 9639,
+                "end": 9650
+            },
+            "entityType": "gene",
+            "entityName": "Nox subunit",
+            "id": "UMLS:C0599220"
+        },
+        {
+            "entityId": "9724_9727",
+            "span": {
+                "begin": 9724,
+                "end": 9727
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "9766_9769",
+            "span": {
+                "begin": 9766,
+                "end": 9769
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "9834_9837",
+            "span": {
+                "begin": 9834,
+                "end": 9837
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "9878_9897",
+            "span": {
+                "begin": 9878,
+                "end": 9897
+            },
+            "entityType": "disease",
+            "entityName": "myocardial ischemia",
+            "id": "UMLS:C0151744"
+        },
+        {
+            "entityId": "9914_9917",
+            "span": {
+                "begin": 9914,
+                "end": 9917
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "9996_9999",
+            "span": {
+                "begin": 9996,
+                "end": 9999
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "10032_10040",
+            "span": {
+                "begin": 10032,
+                "end": 10040
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "10096_10099",
+            "span": {
+                "begin": 10096,
+                "end": 10099
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "10133_10137",
+            "span": {
+                "begin": 10133,
+                "end": 10137
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "10138_10141",
+            "span": {
+                "begin": 10138,
+                "end": 10141
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "10270_10289",
+            "span": {
+                "begin": 10270,
+                "end": 10289
+            },
+            "entityType": "species",
+            "entityName": "Sprague-Dawley rats",
+            "id": "UMLS:C0034715"
+        },
+        {
+            "entityId": "10619_10646",
+            "span": {
+                "begin": 10619,
+                "end": 10646
+            },
+            "entityType": "disease",
+            "entityName": "Acute Myocardial Infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "10647_10651",
+            "span": {
+                "begin": 10647,
+                "end": 10651
+            },
+            "entityType": "species",
+            "entityName": "Rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "10676_10684",
+            "span": {
+                "begin": 10676,
+                "end": 10684
+            },
+            "entityType": "drug",
+            "entityName": "urethane",
+            "id": "UMLS:C0041964"
+        },
+        {
+            "entityId": "10717_10721",
+            "span": {
+                "begin": 10717,
+                "end": 10721
+            },
+            "entityType": "species",
+            "entityName": "Rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "10873_10879",
+            "span": {
+                "begin": 10873,
+                "end": 10879
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "11615_11631",
+            "span": {
+                "begin": 11615,
+                "end": 11631
+            },
+            "entityType": "drug",
+            "entityName": "Atropine sulfate",
+            "id": "UMLS:C0596005"
+        },
+        {
+            "entityId": "11664_11683",
+            "span": {
+                "begin": 11664,
+                "end": 11683
+            },
+            "entityType": "gene",
+            "entityName": "muscarinic receptor",
+            "id": "UMLS:C0034826"
+        },
+        {
+            "entityId": "11698_11701",
+            "span": {
+                "begin": 11698,
+                "end": 11701
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "11852_11860",
+            "span": {
+                "begin": 11852,
+                "end": 11860
+            },
+            "entityType": "disease",
+            "entityName": "cyanosis",
+            "id": "UMLS:C0010520"
+        },
+        {
+            "entityId": "12244_12252",
+            "span": {
+                "begin": 12244,
+                "end": 12252
+            },
+            "entityType": "drug",
+            "entityName": "platinum",
+            "id": "UMLS:C1171558"
+        },
+        {
+            "entityId": "12573_12576",
+            "span": {
+                "begin": 12573,
+                "end": 12576
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "12918_12928",
+            "span": {
+                "begin": 12918,
+                "end": 12928
+            },
+            "entityType": "drug",
+            "entityName": "petrolatum",
+            "id": "UMLS:C0031262"
+        },
+        {
+            "entityId": "12930_12938",
+            "span": {
+                "begin": 12930,
+                "end": 12938
+            },
+            "entityType": "drug",
+            "entityName": "vaseline",
+            "id": "UMLS:C0728774"
+        },
+        {
+            "entityId": "12944_12952",
+            "span": {
+                "begin": 12944,
+                "end": 12952
+            },
+            "entityType": "drug",
+            "entityName": "paraffin",
+            "id": "UMLS:C0030415"
+        },
+        {
+            "entityId": "13266_13270",
+            "span": {
+                "begin": 13266,
+                "end": 13270
+            },
+            "entityType": "species",
+            "entityName": "Rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "13327_13337",
+            "span": {
+                "begin": 13327,
+                "end": 13337
+            },
+            "entityType": "disease",
+            "entityName": "arrhythmia",
+            "id": "UMLS:C0003811"
+        },
+        {
+            "entityId": "13356_13359",
+            "span": {
+                "begin": 13356,
+                "end": 13359
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "13802_13811",
+            "span": {
+                "begin": 13802,
+                "end": 13811
+            },
+            "entityType": "drug",
+            "entityName": "phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "13846_13850",
+            "span": {
+                "begin": 13846,
+                "end": 13850
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "13856_13859",
+            "span": {
+                "begin": 13856,
+                "end": 13859
+            },
+            "entityType": "drug",
+            "entityName": "KCl",
+            "id": "UMLS:C0032825"
+        },
+        {
+            "entityId": "13864_13871",
+            "span": {
+                "begin": 13864,
+                "end": 13871
+            },
+            "entityType": "drug",
+            "entityName": "Na2HPO4",
+            "id": "UMLS:CHEBI:34683"
+        },
+        {
+            "entityId": "14283_14286",
+            "span": {
+                "begin": 14283,
+                "end": 14286
+            },
+            "entityType": "gene",
+            "entityName": "LDH",
+            "id": "UMLS:C0022917"
+        },
+        {
+            "entityId": "14291_14293",
+            "span": {
+                "begin": 14291,
+                "end": 14293
+            },
+            "entityType": "gene",
+            "entityName": "CK",
+            "id": "UMLS:C1872855"
+        },
+        {
+            "entityId": "14428_14432",
+            "span": {
+                "begin": 14428,
+                "end": 14432
+            },
+            "entityType": "gene",
+            "entityName": "cTnT",
+            "id": "UMLS:C3538782"
+        },
+        {
+            "entityId": "14727_14735",
+            "span": {
+                "begin": 14727,
+                "end": 14735
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "14935_14970",
+            "span": {
+                "begin": 14935,
+                "end": 14970
+            },
+            "entityType": "drug",
+            "entityName": "2,3,5-triphenyltetrazolium chloride",
+            "id": "UMLS:C0146883"
+        },
+        {
+            "entityId": "14972_14975",
+            "span": {
+                "begin": 14972,
+                "end": 14975
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "15042_15050",
+            "span": {
+                "begin": 15042,
+                "end": 15050
+            },
+            "entityType": "drug",
+            "entityName": "formalin",
+            "id": "UMLS:C0949307"
+        },
+        {
+            "entityId": "15113_15116",
+            "span": {
+                "begin": 15113,
+                "end": 15116
+            },
+            "entityType": "drug",
+            "entityName": "TTC",
+            "id": "mesh:C009591"
+        },
+        {
+            "entityId": "15218_15222",
+            "span": {
+                "begin": 15218,
+                "end": 15222
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15347_15350",
+            "span": {
+                "begin": 15347,
+                "end": 15350
+            },
+            "entityType": "drug",
+            "entityName": "MDA",
+            "id": "UMLS:C0000379"
+        },
+        {
+            "entityId": "15352_15355",
+            "span": {
+                "begin": 15352,
+                "end": 15355
+            },
+            "entityType": "gene",
+            "entityName": "SOD",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "15367_15369",
+            "span": {
+                "begin": 15367,
+                "end": 15369
+            },
+            "entityType": "gene",
+            "entityName": "GR",
+            "id": "UMLS:C1415326"
+        },
+        {
+            "entityId": "15381_15384",
+            "span": {
+                "begin": 15381,
+                "end": 15384
+            },
+            "entityType": "gene",
+            "entityName": "GPx",
+            "id": "UMLS:C0017822"
+        },
+        {
+            "entityId": "15598_15611",
+            "span": {
+                "begin": 15598,
+                "end": 15611
+            },
+            "entityType": "gene",
+            "entityName": "NADPH Oxidase",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "15649_15652",
+            "span": {
+                "begin": 15649,
+                "end": 15652
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "15733_15737",
+            "span": {
+                "begin": 15733,
+                "end": 15737
+            },
+            "entityType": "drug",
+            "entityName": "NADP",
+            "id": "UMLS:C0027303"
+        },
+        {
+            "entityId": "15738_15743",
+            "span": {
+                "begin": 15738,
+                "end": 15743
+            },
+            "entityType": "drug",
+            "entityName": "NADPH",
+            "id": "UMLS:CHEBI:57783"
+        },
+        {
+            "entityId": "15934_15937",
+            "span": {
+                "begin": 15934,
+                "end": 15937
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "15990_16000",
+            "span": {
+                "begin": 15990,
+                "end": 16000
+            },
+            "entityType": "drug",
+            "entityName": "Superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "16026_16036",
+            "span": {
+                "begin": 16026,
+                "end": 16036
+            },
+            "entityType": "drug",
+            "entityName": "superoxide",
+            "id": "mesh:D013481"
+        },
+        {
+            "entityId": "16103_16106",
+            "span": {
+                "begin": 16103,
+                "end": 16106
+            },
+            "entityType": "drug",
+            "entityName": "DHE",
+            "id": "UMLS:C0058031"
+        },
+        {
+            "entityId": "16218_16221",
+            "span": {
+                "begin": 16218,
+                "end": 16221
+            },
+            "entityType": "drug",
+            "entityName": "DHE",
+            "id": "UMLS:C0058031"
+        },
+        {
+            "entityId": "16630_16641",
+            "span": {
+                "begin": 16630,
+                "end": 16641
+            },
+            "entityType": "drug",
+            "entityName": "TritonX-100",
+            "id": "mesh:D017830"
+        },
+        {
+            "entityId": "16648_16652",
+            "span": {
+                "begin": 16648,
+                "end": 16652
+            },
+            "entityType": "drug",
+            "entityName": "EDTA",
+            "id": "UMLS:C0013618"
+        },
+        {
+            "entityId": "16679_16683",
+            "span": {
+                "begin": 16679,
+                "end": 16683
+            },
+            "entityType": "drug",
+            "entityName": "NaCl",
+            "id": "UMLS:C0037494"
+        },
+        {
+            "entityId": "16690_16713",
+            "span": {
+                "begin": 16690,
+                "end": 16713
+            },
+            "entityType": "drug",
+            "entityName": "sodium dodecyl sulphate",
+            "id": "UMLS:C0037506"
+        },
+        {
+            "entityId": "16721_16726",
+            "span": {
+                "begin": 16721,
+                "end": 16726
+            },
+            "entityType": "drug",
+            "entityName": "MgCl2",
+            "id": "UMLS:C0024472"
+        },
+        {
+            "entityId": "16733_16739",
+            "span": {
+                "begin": 16733,
+                "end": 16739
+            },
+            "entityType": "drug",
+            "entityName": "Na3VO4",
+            "id": "UMLS:CHEBI:35607"
+        },
+        {
+            "entityId": "16981_17001",
+            "span": {
+                "begin": 16981,
+                "end": 17001
+            },
+            "entityType": "gene",
+            "entityName": "bovine serum albumin",
+            "id": "UMLS:C0036774"
+        },
+        {
+            "entityId": "17054_17077",
+            "span": {
+                "begin": 17054,
+                "end": 17077
+            },
+            "entityType": "drug",
+            "entityName": "sodium dodecyl sulphate",
+            "id": "UMLS:C0037506"
+        },
+        {
+            "entityId": "17078_17092",
+            "span": {
+                "begin": 17078,
+                "end": 17092
+            },
+            "entityType": "drug",
+            "entityName": "polyacrylamide",
+            "id": "UMLS:C0071499"
+        },
+        {
+            "entityId": "17132_17155",
+            "span": {
+                "begin": 17132,
+                "end": 17155
+            },
+            "entityType": "drug",
+            "entityName": "polyvinylidene fluoride",
+            "id": "UMLS:C0071710"
+        },
+        {
+            "entityId": "17240_17244",
+            "span": {
+                "begin": 17240,
+                "end": 17244
+            },
+            "entityType": "drug",
+            "entityName": "Tris",
+            "id": "UMLS:C0077281"
+        },
+        {
+            "entityId": "17277_17285",
+            "span": {
+                "begin": 17277,
+                "end": 17285
+            },
+            "entityType": "drug",
+            "entityName": "Tween 20",
+            "id": "UMLS:C0041415"
+        },
+        {
+            "entityId": "17372_17388",
+            "span": {
+                "begin": 17372,
+                "end": 17388
+            },
+            "entityType": "gene",
+            "entityName": "rabbit anti-Nox2",
+            "id": "UMLS:C1413844"
+        },
+        {
+            "entityId": "17430_17446",
+            "span": {
+                "begin": 17430,
+                "end": 17446
+            },
+            "entityType": "gene",
+            "entityName": "rabbit anti-SOD1",
+            "id": "UMLS:C1420306"
+        },
+        {
+            "entityId": "17487_17503",
+            "span": {
+                "begin": 17487,
+                "end": 17503
+            },
+            "entityType": "gene",
+            "entityName": "rabbit anti-SOD2",
+            "id": "UMLS:C1420307"
+        },
+        {
+            "entityId": "17545_17551",
+            "span": {
+                "begin": 17545,
+                "end": 17551
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "17557_17570",
+            "span": {
+                "begin": 17557,
+                "end": 17570
+            },
+            "entityType": "drug",
+            "entityName": "nitrotyrosine",
+            "id": "mesh:C002744"
+        },
+        {
+            "entityId": "17611_17617",
+            "span": {
+                "begin": 17611,
+                "end": 17617
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "17623_17630",
+            "span": {
+                "begin": 17623,
+                "end": 17630
+            },
+            "entityType": "gene",
+            "entityName": "p67phox",
+            "id": "UMLS:C1417609"
+        },
+        {
+            "entityId": "17677_17694",
+            "span": {
+                "begin": 17677,
+                "end": 17694
+            },
+            "entityType": "gene",
+            "entityName": "rabbit anti-Rac-1",
+            "id": "UMLS:C1419227"
+        },
+        {
+            "entityId": "17764_17770",
+            "span": {
+                "begin": 17764,
+                "end": 17770
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "17776_17779",
+            "span": {
+                "begin": 17776,
+                "end": 17779
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "17856_17862",
+            "span": {
+                "begin": 17856,
+                "end": 17862
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "17876_17879",
+            "span": {
+                "begin": 17876,
+                "end": 17879
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "17925_17948",
+            "span": {
+                "begin": 17925,
+                "end": 17948
+            },
+            "entityType": "gene",
+            "entityName": "rabbit anti-AMPK-1alpha",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "17990_18014",
+            "span": {
+                "begin": 17990,
+                "end": 18014
+            },
+            "entityType": "gene",
+            "entityName": "anti-phospho-AMPK-1alpha",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "18059_18064",
+            "span": {
+                "begin": 18059,
+                "end": 18064
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "18070_18075",
+            "span": {
+                "begin": 18070,
+                "end": 18075
+            },
+            "entityType": "gene",
+            "entityName": "GAPDH",
+            "id": "UMLS:C1414968"
+        },
+        {
+            "entityId": "18145_18150",
+            "span": {
+                "begin": 18145,
+                "end": 18150
+            },
+            "entityType": "gene",
+            "entityName": "GAPDH",
+            "id": "UMLS:C1414968"
+        },
+        {
+            "entityId": "18332_18354",
+            "span": {
+                "begin": 18332,
+                "end": 18354
+            },
+            "entityType": "gene",
+            "entityName": "horseradish peroxidase",
+            "id": "UMLS:C0019941"
+        },
+        {
+            "entityId": "18925_18929",
+            "span": {
+                "begin": 18925,
+                "end": 18929
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "18935_18938",
+            "span": {
+                "begin": 18935,
+                "end": 18938
+            },
+            "entityType": "disease",
+            "entityName": "AMI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "19002_19005",
+            "span": {
+                "begin": 19002,
+                "end": 19005
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "19069_19072",
+            "span": {
+                "begin": 19069,
+                "end": 19072
+            },
+            "entityType": "gene",
+            "entityName": "Nox",
+            "id": "UMLS:C0068355"
+        },
+        {
+            "entityId": "19231_19234",
+            "span": {
+                "begin": 19231,
+                "end": 19234
+            },
+            "entityType": "gene",
+            "entityName": "SOD",
+            "id": "UMLS:C0038838"
+        },
+        {
+            "entityId": "19368_19372",
+            "span": {
+                "begin": 19368,
+                "end": 19372
+            },
+            "entityType": "gene",
+            "entityName": "AMPK",
+            "id": "UMLS:C3890397"
+        },
+        {
+            "entityId": "19411_19414",
+            "span": {
+                "begin": 19411,
+                "end": 19414
+            },
+            "entityType": "gene",
+            "entityName": "PKC",
+            "id": "UMLS:C1826724"
+        },
+        {
+            "entityId": "19537_19545",
+            "span": {
+                "begin": 19537,
+                "end": 19545
+            },
+            "entityType": "drug",
+            "entityName": "atropine",
+            "id": "UMLS:C0004259"
+        },
+        {
+            "entityId": "19549_19568",
+            "span": {
+                "begin": 19549,
+                "end": 19568
+            },
+            "entityType": "gene",
+            "entityName": "muscarinic receptor",
+            "id": "UMLS:C0034826"
+        },
+        {
+            "entityId": "19595_19614",
+            "span": {
+                "begin": 19595,
+                "end": 19614
+            },
+            "entityType": "gene",
+            "entityName": "muscarinic receptor",
+            "id": "UMLS:C0034826"
+        },
+        {
+            "entityId": "19665_19673",
+            "span": {
+                "begin": 19665,
+                "end": 19673
+            },
+            "entityType": "disease",
+            "entityName": "ischemia",
+            "id": "UMLS:C0022116"
+        },
+        {
+            "entityId": "19814_19837",
+            "span": {
+                "begin": 19814,
+                "end": 19837
+            },
+            "entityType": "disease",
+            "entityName": "ischemic heart diseases",
+            "id": "UMLS:C0151744"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "834_844",
+            "subjectText": "superoxide",
+            "rel_name": "inhibit",
+            "objectId": "801_814",
+            "objectText": "NADPH oxidase"
+        },
+        {
+            "subjectID": "19_27",
+            "subjectText": "Ischemia",
+            "rel_name": "stimulate",
+            "objectId": "121_125",
+            "objectText": "AMPK"
+        }
+    ]
+}

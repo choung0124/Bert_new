@@ -1,0 +1,4422 @@
+{
+    "sourcid": "PMC3460871",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3460871/",
+    "text": "Suicide Gene Reveals the Myocardial Neovascularization Role of Mesenchymal Stem Cells Overexpressing CXCR4 (MSCCXCR4) Background Our previous studies indicated that MSCCXCR4 improved cardiac function after myocardial infarction (MI). This study was aimed to investigate the specific role of MSCCXCR4 in neovascularization of infarcted myocardium using a suicide gene approach. Methods MSCs were transduced with either lentivirus-null vector/GFP (MSCNull as control) or vector encoding for overexpressing CXCR4/GFP. The MSC derived-endothelial cell (EC) differentiation was assessed by a tube formation assay, Dil-ac-LDL uptake, EC marker expression, and VE-cadherin promoter activity assay. Gene expression was analyzed by quantitative RT-PCR or Western blot. The suicide gene approach was under the control of VE-cadherin promoter. In vivo studies: Cell patches containing MSCNull or MSCCXCR4 were transduced with suicide gene and implanted into the myocardium of MI rat. Rats received either ganciclovir (GCV) or vehicle after cell implantation. After one month, the cardiac functional changes and neovascularization were assessed by echocardiography, histological analysis, and micro-CT imaging. Results The expression of VEGF-A and HIF-1alpha was significantly higher in MSCCXCR4 as compared to MSCNull under hypoxia. Additionally, MSCCXCR4 enhanced new vessel formation and EC differentiation, as well as STAT3 phosphorylation under hypoxia. STAT3 participated in the transcription of VE-cadherin in MSCCXCR4 under hypoxia, which was inhibited by WP1066 (a STAT3 inhibitor). In addition, GCV specifically induced death of ECs with suicide gene activation. In vivo studies: MSCCXCR4 implantation promoted cardiac functional restoration, reduced infarct size, improved cardiac remodeling, and enhanced neovascularization in ischemic heart tissue. New vessels derived from MSCCXCR4 were observed at the injured heart margins and communicated with native coronary arteries. However, the derived vessel networks were reduced by GCV, reversing improvement of cardiac function. Conclusion The transplanted MSCCXCR4 enhanced neovascularization after MI by boosting release of angiogenic factors and increasing the potential of endothelial differentiation. Introduction Myocardial infarction (MI) occurs when coronary blood supply is interrupted, destroying distal blood vessels and myocardium. Insufficient cardiac capillary density and perfusion after MI have been identified as critical conditions triggering endothelial apoptosis, leading to an increase in infarct size and left ventricular dysfunction. Thus, therapeutic angiogenesis has been proposed as an important strategy for the treatment of vascular insufficiency in MI. Recently, progenitor/stem cell therapy has shown the potential to reverse ischemic damage and repair heart tissue injury through angiogenesis. The multipotency, low immunogenicity, ready availability, and extensive capacity for expansion of bone morrow derived mesenchymal stem/stromal cells (MSCs) has led to their adoption as an important cell resource for regenerative medicine. For decades, transplanted MSCs have been shown to improve angiogenesis after MI, but the mechanism by which this process occurs remains controversial. Emerging evidence demonstrates that the therapeutic effects may result from the growth factors secreted by MSCs, as well as the differentiation into endothelial cells (ECs), pericytes, smooth muscle, and cardiomyocytes (CM). Therefore, it is clinically significant to develop approaches that increase the paracrine effects or cardiovascular cell differentiation of MSCs for post-MI therapy. Considering the triple lineage differentiation potential of MSCs, the vascular cell fate decision is particularly important to the restoration of cardiac function after MI. It was initially thought that MSCs differentiate into ECs, which become integrated into the newly formed blood vessels. However, the vascular differentiation potential of MSCs remains controversial; some studies have suggested that ECs derived from ordinary MSCs are rare and infrequently detected after transplantation. Alternatively, it has been speculated that angiogenic growth factors released by MSCs (promoting the growth of pre-existing vessels) are directly responsible for the beneficial effects. According to such studies, it is very difficult for ordinary MSCs to differentiate into ECs. However, through genetic engineering, it is possible to enhance both the paracrine effects and the endothelial differentiation potency of MSCs. In our previous studies, MSCs were genetically engineered to overexpress CXCR4 using viral transduction (MSCCXCR4). The mobilization and engraftment capacity of MSCCXCR4 into the ischemic area were enhanced, as was the secretion of paracrine factors [e.g., vascular endothelial growth factor-A (VEGF-A)], which promoted neomyoangiogenesis and alleviated early signs of left ventricular remodeling. However, the mechanisms by which MSCCXCR4 promote cytokine secretion and support neovascularization effects remain to be elucidated. In the present study we investigated the pathways relevant to self-renewal or differentiation of MSCs, including hypoxia-inducible factor-1alpha (HIF-1alpha), phosphoinositide 3-kinase (PI3K), mitogen-activated protein kinase (MAPK), and the signal transducers and activators of transcription 3 (STAT3) pathway. In addition, the extent to which CXCR4 overexpression alters the tendency of transplanted MSCs to differentiate into ECs has not yet been reported from in vivo studies. To assess EC differentiation from MSCCXCR4 and the resulting changes in cardiac function after transplantation, an \"inducible suicide gene\" approach was employed. The herpes simplex viral genome encodes an enzyme, thymidine kinase (TK), which is foreign to mammalian cells. If the TK gene, following a tissue specific promoter (e.g. vascular endothelium (VE)-cadherin), is transduced into the target cells, the TK expression will be under the control of the cell phenotype. TK converts the pro-drug ganciclovir (GCV) into a cytotoxic agent which causes \"cell suicide\" but has no effect on cells without TK expression. This approach was used to selectively ablate ECs differentiated from MSCs, allowing for direct assessment of the contribution of MSC-to-EC differentiation to cardiac repair, and the degree to which CXCR4 overexpression enhances this process. Thus, by specifically targeting differentiated ECs, we address the role of MSCCXCR4 in neovascularization during cardiac repair after MI.         Materials and Methods Experiments using animal subjects or animal-derived materials were conducted in accordance with the Guide for the Care and Use of Laboratory Animals (NIH Publication No. 85-23, revised 1996) and under guidelines and protocols approved by the University of Cincinnati Institutional Animal Care and Use Committee. Reagents Cell culture supplies were obtained from Invitrogen (Carlsbad, CA). Antibody against CXCR4 was purchased from Millipore (Temecula, CA). Antibodies against VEGF-A, HIF-1alpha, GFP, Troponin I, and beta-actin were from Santa Cruz Biotechnology (Santa Cruz, CA). LY294002 and antibodies against phosphorylated (p-) STAT3 (Tyr705) and STAT3 were from Cell Signaling Technology (Beverly, MA). WP1066 was purchased from Chemicon (Millipore). Ganciclovir (GCV), SB203580, SP600125, PD98059, and other readily available chemicals were purchased from Sigma-Aldrich (St Louis, MO). Lentiviral vectors and transduction Lentiviral vector backbone pCDH-CMV-MCS-EF1-CopGFP+Puro (pCDH-GFP) was purchased from System Biosciences (Mountain View, CA). The rat CXCR4 CDS was subcloned into the EcoRI and NotI restriction enzyme sites of pCDH-GFP from the reported vector for CXCR4 overexpression (pCDH-CXCR4-GFP). To determine the contribution of MSCCXCR4 to angiogenesis, the gene suicide therapy approach was applied. The luciferase gene reporter vector accommodating wild type VE-cadherin promoter (pGL-VE) was kindly provided by Dr. Kishore K. Wary. The multiple cloning site of pCDH-GFP between EcoRI and NotI was replaced with TK gene obtained from pORF-TK (Invivogen, San Diego, CA) to construct the vector pCDH-TK-GFP. VE-cadherin promoter was then subcloned into pCDH-TK-GFP between ClaI and XbaI restriction enzyme sites replacing the CMV promoter (pCDH-VE-TK), while a short fragment (21 bp) was subcloned into the same sites to produce a promoterless vector as the negative control (pCDH-N-TK). (See Table S1 for the sequences of PCR primers for subcloning.) The identity of the promoter and gene was confirmed by sequencing (Genewiz, South Plainfield, NJ). According to manufacturer's instructions (System Biosciences), pseudoviral particles were produced in 293TN cells using pPACK Lentivector Packaging Kit and concentrated by PEG-it Virus Concentration Solution. The target cells were transduced with pseudoviral stock and selected by puromycin (5 microg/mL, Sigma), as reported previously. Cell culture and suicide gene approach MSCs from healthy 8-week-old Sprague-Dawley (SD) rats were isolated from bone marrow aspirates using plastic adherence to remove the non-adherent hematopoietic progenitors and blood cells, as described previously. Confluent MSCs in seeded cultures were removed from the flask by 0.25% trypsin. Passage 2-4 MSCs were used in the study. Human umbilical vein endothelial cells (ECs) were purchased from American Type Culture Collection (ATCC, Bethesda, MD) and cultured in endothelial growth medium with 10% fetal bovine serum (FBS). Mouse muscle myoblasts were purchased from ATCC. Cardiomyocytes from hearts of neonatal rats were isolated by collagenase digestion as described previously. Cells were cultured in low glucose Dulbecco's modified Eagle's medium (DMEM) containing 10% FBS and 1% antibiotics (streptomycin and penicillin), incubated at 37 C in a humid atmosphere of 5%CO2/95% air (as normoxic control). MSCs were exposed to hypoxic conditions (O2/CO2 incubator-MCO-18M, Sanyo) in a humidified atmosphere of 1%O2/5%CO2/94%N2. MSCCXCR4 were genetically engineered by pCDH-CXCR4-GFP lentiviral transduction, and MSCNull were manipulated by pCDH-GFP lentiviral transduction. When the cell population reached 70-80% confluence, all cell experiments were performed without serum or antibiotics, and repeated at least three times.      Viral supernatants containing pCDH-N-TK or pCDH-VE-TK were incubated to ECs (ECN-TK or ECVE-TK) and MSCs (MSCN-TK or MSCVE-TK), respectively. And then the cells (MSCs, ECs, cardiomyocytes, and myoblasts) were treated with 100 microM GCV (PBS as vehicle) for 4 days. The number of viable cells identified by GFP or immunostaining was counted under the microscope at 200-magnification. Western blotting MSCNull or MSCCXCR4 were exposed to either normoxic or hypoxic conditions. The CXCR4, VEGF-A, HIF-1alpha, and STAT3 were determined by western blotting, according to the protocols described previously. Briefly, after electrophoresis, transformation, and immunoblotting, the samples on PVDF membranes were visualized using an enhanced chemiluminescence system (Invitrogen), exposed to X-ray film and then quantified by laser scanning densitometry (GE Healthcare Life Sciences, Piscataway, NJ). beta-actin was used as the internal reference control of CXCR4, VEGF-A, and HIF-1alpha expression. STAT3 phosphorylation was analyzed after normalization against total STAT3. Quantitative RT-PCR (qPCR) The mRNA levels of VEGF-A, angiopioetin-1, IGF-1alpha, VE-cadherin, and CD31 in MSCNull or MSCCXCR4 were examined by qPCR according to the protocols reported previously. (The sequences of PCR primers are listed in Table S1.) Briefly, after reverse transcription, PCR was carried out on the iQ5 real-time system (Bio-Rad, Hercules, CA) with the SYBR Supermix (Qiagen, Valencia, CA). The fold changes of each target mRNA expression relative to beta-actin under experimental and control conditions were calculated based on the threshold cycle (CT) as r = 2-Delta(DeltaC T ), where DeltaCT = CT(target)-CT(beta-actin) and Delta(DeltaCT) = DeltaCT(experimental)-DeltaCT(control). Tube formation assay The assay was performed with a tube formation assay kit (Chemicon, Millipore) according to the manufacturer's instructions. Briefly, the solution of ECMatrix was thawed on ice overnight, mixed with 10 diluents of ECMatrix, and placed in a 96-well tissue culture plate at 37 C for 1 hour to allow the matrix solution to solidify. MSCNull or MSCCXCR4 were exposed to either normoxia or hypoxic conditions for 48 hours. They were then seeded (5x103cells/well) on top of the solidified matrigel and incubated at 37 C for 4 hours. After cellular network structures were fully developed, the total capillary tube number was measured under an inverted light microscope (Olympus America, Melville, NY) at 200-magnification. Four independent fields were assessed for each well, and the average number of tubes was determined.    Identification of the MSC-derived ECs MSCNull and MSCCXCR4 were exposed to either normoxia or hypoxic conditions for 48 hours. Adherent MSCs were incubated with 200 microg/ml 1,1-dioctadecyl-3,3,3,3-tetramethyl-indocarbocyanine-labeled acetylated low density lipoprotein (Dil-Ac-LDL, Biomedical Technologies) for 4 hours and then fixed with 4% paraformaldehyde for 10 min. The positive cells stained with Dil-Ac-LDL were identified as differentiated ECs with a fluorescent microscope (Olympus) at 200-magnification. Nuclei were stained with DAPI. The number of positive cells per well was counted in 4 randomly selected fields. Transient transfection and luciferase assay To determine the effect of CXCR4 overexpression on VE-cadherin transcription, MSCNull and MSCCXCR4 were transiently transfected with pGL-VE and pGL4.75 (Renilla luciferase control vector, Promega, Madison, WI) by DharmaFECT  Duo transfection reagent (Thermo Scientific, Florence, KY) according to the manufacturer's protocol, and then exposed to either normoxia or hypoxic conditions for 24 hours respectively. Additionally, to explore the pathways related to the VE-cadherin promoter activity, MSCCXCR4 were transiently transfected with pGL-VE and pGL4.75 and then treated with DMSO (vehicle), SB203580 (p38 inhibitor, 5 microM), SP600125 (JNK inhibitor, 5 microM), PD98059 (ERK inhibitor, 10 microM), LY294002 (PI3K inhibitor, 10 microM), or WP1066 (STAT3 inhibitor, 5 microM) for 1 hour respectively, before exposure to hypoxia for 24 hours. Subsequently, we used a Dual-Glo  luciferase assay system (Promega) to detect the promoter activity according to the manufacturer's protocol. After incubation, cells were lysed and double luciferase activity was measured using a luminometer (Mutilabel detection platform, Bioscan, Inc. Washington, DC). Firefly luciferase activity was normalized by Renilla luciferase activity in cell lysates, and at least three independent experiments were repeated. Cell transplantation and MI model The stable cell line MSCVE-TK was transduced using control or CXCR4 lentivirus to generate MSCTK+Null or MSCTK+CXCR4 respectively. MI model after permanent LAD ligation was developed in SD rats as described previously. Meanwhile, the MI rats were implanted with a peritoneal cell patch as described previously, containing MSCTK+Null or MSCTK+CXCR4 (1x106). After one week, the rats were injected intraperitoneally with 10 mg/kg GCV (Sigma) daily for 7 days and the same dose of saline was injected as vehicle controls. Briefly, the different experimental groups were divided as follows: (i) MSCTK+Null with vehicle, (ii) MSCTK+CXCR4 with vehicle, (iii) MSCTK+Null with GCV, (iv) MSCTK+CXCR4 with GCV. Since MSCs transduced with lentiviral pCDH-N-TK or pCDH-VE-TK had the similar effects on the cardiac neovascularization and functional restoration of MI rats, the data of MSCs transduced with lentiviral pCDH-N-TK are not included in the present study.  Cardiac function assessment by echocardiography Echocardiography (iE33 Ultrasound System, Phillips, Oceanside, CA) with a 15-MHz probe was performed at 4 weeks after MI to assess systolic and diastolic dimensions in addition to anterior wall thickness. Hearts were imaged in 2-D long-axis view at the level of the greatest left ventricular (LV) diameter with animals under light general anesthesia. This view was used to position the M-mode cursor perpendicular to the LV anterior and posterior walls. LV end-diastolic (LVDd) and end-systolic diameters (LVDs) were measured from M-mode recordings using the leading-edge method. LV ejection fraction (EF) was calculated as: EF = (LVDd3-LVDs3)/LVDd3x100%. Fractional shortening (FS) was also determined as: FS = (LVDd-LVDs)/LVDdx100%. All measurements were performed according to the American Society for Echocardiography leading-edge technique, and averaged over three consecutive cardiac cycles.               Immunohistochemical analysis The neovascularization derived from MSCs was identified by von Willebrand Factor (vWF) and GFP expression. The immunohistochemical studies were performed on heart tissues at 4 weeks after MI. Briefly, heart tissue sections were harvested, fixed in 10% formalin, and sectioned at 5 microm thickness. The antibodies against vWF or GFP were used to discern new vessel networks derived from MSCs. DAPI was used to identify nuclei. Fluorescent imaging was performed with the microscope at 200-magnification. The vWF or GFP positive vessel numbers per mm2 were counted in 4 randomly selected fields. Measurement of infarct size Fixed hearts were embedded in paraffin and sections from apex, mid-LV, and base were stained with Masson's Trichrome. BX41 camera was used to obtain images of LV area on each slide using MagnaFire software (Olympus). Infarct size and total LV area of each image were measured using the Image-Pro Plus software (Media Cybernetics, Carlsbad, CA), and the percentage of the infarct size was calculated using the formula [fibrosis area/total LV area]x100%, as previously described.  Micro Computed Tomography (micro-CT) imaging At 4 weeks after MI, the animals were deeply anesthetized (100 mg/kg ketamine and 10 mg/kg xylazine) and anticoagulated with heparin saline (100 IU/kg). The thoracic cage was opened and the thoracic aorta isolated, into which a polyethylene cannula was inserted. The arterial cannula was connected to a syringe pump, and heparin was infused at constant pressure (100 mmHg) and flow (200 microL/min). Before perfusion, the superior vena cava and inferior vena cava (IVC) were opened as vents. All animals were euthanized with i.v. KCl solution (25 mmol/L), to stop the heart in diastole. Then, MICROFIL silicone rubber, including 8 mL MV-compound (MICROFIL MV-122, Flow Tech, South Windsor, CT), 10 mL MV-diluents, and 5% MV curing agent, was infused into the coronary arteries via the aorta. The MICROFIL perfusion was continued until the materials flowed freely from the IVC. The heart then underwent a Micro-CT imaging scan on Inveon Multimodality System (Siemens, Malvern, PA). We performed image segmentation to define the patch area and its blood vessels, followed by quantitative analysis of blood vessel volume using the Inveon workstation and software. Statistical Analysis Data from repeated experiments are present as the mean +- SD. Data were compared between groups using one- or two-way analysis of variance (ANOVA). Following ANOVA, the least significant difference (LSD) post hoc test or Dunnetts t-test with Bonferroni correction were used to analyze the significance of differences between mean values of the experimental and control groups. p<0.05 was considered significant. Results MSCCXCR4 enhanced the expression of VEGF-A and HIF-1alpha under hypoxia The level of CXCR4 expression was significantly higher under normoxia in MSCCXCR4 when compared to MSCNull (p<0.05), and further increased after exposure to hypoxia for 12 to 48 hrs, which was concomitant with an increase in VEGF-A expression confirmed by Western blot (Fig. 1A and 1B). In addition, there was no significant difference in VEGF-A expression between MSCCXCR4 and MSCNull under normoxia (Fig. 1C). However, the VEGF-A expression was significantly upregulated in MSCCXCR4 as compared to MSCNull (2 fold, p<0.05) under hypoxia within 24 hrs, and a similar pattern was also observed in angiopoietin-1 and IGF-1alpha as analyzed by qPCR (Fig. 1C). The expression of VEGF-A and HIF-1alpha under normoxia or hypoxia. (A): The expression of CXCR4 and VEGF-A was analyzed by Western blots in MSCs under normoxia or hypoxia for 48 hours. (B): Quantitative analysis for CXCR4 and VEGF-A expression after normalization against beta-actin. (C): The mRNA expression of VEGF-A, angiopoietin-1, and IGF-1alpha was analyzed by qPCR in MSCs under normoxia or hypoxia for 12 or 24 hours after normalization. (D): The expression of HIF-1alpha was analyzed by Western blot in MSCs under normoxia or hypoxia for 24 hours. (E): Quantitative analysis for HIF-1alpha expression after normalization against beta-actin. Hypoxia (0 hr), normoxia; CXCR4 virus (-), MSCNull; CXCR4 virus (+), MSCCXCR4. * p<0.05; ** p<0.01. Data are the mean +- SD (n = 4). The expression of HIF-1alpha was scarcely observed in both MSCNull and MSCCXCR4 under the normoxic conditions (Fig. 1D). However, the level of HIF-1alpha was gradually and significantly upregulated from 6 to 24 hrs after exposure to hypoxia in MSCCXCR4 as compared to MSCNull (Fig. 1D and 1E). Overexpression of CXCR4 enhanced the angiogenesis in MSCs The tube formation assay was performed on matrigel-precoated wells. The MSCNull exhibited small round shapes, isolated cells, and minimal migration under both normoxia and hypoxia (Fig. 2A). However, MSCCXCR4 led to the development of capillary tubes, sprouting of new capillaries, and finally the formation of cellular networks. The number of tube-like structures was significantly increased in MSCCXCR4 as compared to MSCNull under normoxia, and further enhanced by hypoxia (p<0.05, Fig. 2A and 2B). The in vitro angiogenic properties of MSCNull and MSCCXCR4. (A): The new tube formation of MSCs under normoxia or hypoxia is showed (yellow arrows). Scale bars = 200 microm. (B): Quantification of total tube numbers in high power fields (HPF) was calculated. (C): The EC differentiation under hypoxia is identified by the uptake of Dil-ac-LDL (red); Viral manipulated MSCs are showed by GFP (green); All nuclei are stained with DAPI (blue). Scale bars = 100 microm. (D): Quantification of positive Dil-ac-LDL cell numbers per mm2 was calculated. (E): The expression of endothelial specific markers (VE-cadherin and CD31) was analyzed by RT-PCR in MSCCXCR4 under hypoxia for 72 hours. CAD, cadherin. * p<0.05; ** p<0.01. Data are the mean +- SD (n = 4).       The ECs derived from MSCCXCR4 were recognized as cells with endothelial-like spindle-shaped morphology and were identified as Dil-Ac-LDL uptake (Fig. 2C). The number of Dil-Ac-LDL-positive cells was higher in MSCCXCR4 as compared to MSCNull (p<0.01, Fig. 2D). qPCR revealed that the endothelial markers, VE-cadherin and CD31, were significantly upregulated in MSCCXCR4 as compared to MSCNull under hypoxic conditions (Fig. 2E). MSCCXCR4 enhanced the transcription of VE-cadherin through STAT3 pathway Under normoxic conditions, the luciferase activity of both MSCNull and MSCCXCR4 was low, but it was significantly higher (over 2.5-fold) in MSCCXCR4 compared to MSCNull under hypoxia (p<0.05, Fig. 3A). Compared to the DMSO treatment, the STAT3 inhibitor (WP1066) significantly decreased the luciferase activity of MSCCXCR4 by 60% (p<0.05), but other signaling pathway inhibitors had no significant effects (Fig. 3B). After 6 hours of hypoxia, the level of phosphorylated STAT3 gradually increased significantly in MSCCXCR4 as compared to the MSCNull (Fig. 3C and 3D). Moreover, WP-1066 treatment significantly reduced the VE-cadherin mRNA expression of MSCCXCR4 by 70% (p<0.01), as compared to MSCCXCR4 treated with DMSO (Fig. 3E). The transcriptional level of VE-cadherin in MSCCXCR4 under hypoxia is mediated by STAT3 pathway. (A): The luciferase activity of both MSCNull and MSCCXCR4 under normoxia or hypoxia for 24 hours was measured. (B): The VE-cadherin promoter activity of MSCCXCR4 under hypoxia for 24 hours was impacted by various inhibitors. (C): STAT3 expression was analyzed by Western blots in MSCs under normoxia or hypoxia for 24 hours. (D): Quantitative analysis for STAT3 phosphorylation after normalization against total STAT3. (E): The VE-cadherin expression was analyzed by RT-PCR in MSCCXCR4 treated with DMSO or WP1066 under hypoxia for 72 hours. * p<0.05; ** p<0.01. All values are expressed as mean +- SD (n = 4).     Transduction of TK for suicide gene delivery The lentiviral vectors pCDH-N-TK and pCDH-VE-TK were constructed, as shown in Figure 4A. The VE-cadherin promoter activity of pCDH-VE-TK (blue) was detected in ECs as the positive control, and the position was removed to produce a promoterless vector pCDH-N-TK as the control vector. The performance of vector was confirmed by GFP expression (Fig. 4C). TK gene can be expressed in ECVE-TK, but not in ordinary EC or ECN-TK (Fig. 4B). Transduction of TK for suicide gene delivery and the effect of GCV on cell growth. (A): Schematic diagram of suicide gene vector p-VE-TK and its promoterless control vector p-N-TK; VECAD, VE-cadherin promoter; TK, HSV1-thymidine kinase; EF1, constitutive elongation factor 1 alpha promoter; copGFP, copepod green fluorescent protein. (B): The TK gene was expressed in ECVE-TK, but not in ordinary ECs or ECN-TK, as analyzed by RT-PCR. (C): Viral manipulated ECs are showed by GFP (green) and contrast ECs in the bright field of light microscopy. Scale bars = 200 microm. (D): Quantification of viable EC numbers. (E): Quantification of viable MSC numbers. (F): Effect of GCV on cardiomyocytes identified by alpha-actinin (red) and myoblasts identified by desmin (red). All nuclei are stained with DAPI (blue). Scale bars = 100 microm. (G): Quantification of viable cardiomyocyte and myoblast numbers. (H): Schematic diagram for showing that GCV can induce the cell death of ECs derived from MSCs with TK expression which is inactivated in other phenotype or undifferentiated cells. CM, cardiomyocytes; GCV (-), vehicle; GCV (+), ganciclovir 100 microM. ** p<0.01. All values are expressed as mean +- SD (n = 4). The number of ECVE-TK was significantly decreased by the administration of GCV (vs. vehicle, p<0.01), but ECN-TK were unaffected (Fig. 4C and 4D). In absence of GCV, there was no significant difference between the cell numbers of ECVE-TK and ECN-TK, which indicated that the expression of TK had no effect on EC growth (Fig. 4C and 4D). Moreover, the growth of MSCVE-TK without TK expression under normal culture conditions was not influenced (Fig. 4C and 4E). In addition to MSCs, GCV had no effect on the other non-endothelial cells, including cardiomyocytes and myoblasts (Fig. 4F and 4G). Thus, in the presence of GCV, cell suicide was induced under the control of VE-cadherin promoter, which was not activated in other phenotype or undifferentiated cells (Fig. 4H). GCV reversed MSCTK+CXCR4 induced neovascularization In the absence of GCV (Vehicle), MSCCXCR4 significantly enhanced the new vessel formation with vWF expression compared to the MSCTK+Null group (Fig. 5A). However, the administration of GCV reduced the vessel numbers of MSCTK+Null (p<0.01), especially for the MSCTK+CXCR4 (p<0.01), as compared to the vehicle treatment (Fig. 5A). GCV reverses the MSC-induced vessel formation in border area of ischemic heart. (A): The vessel formation in the ischemic border zone is identified by vWF; Cardiomyocytes are identified by troponin I; All nuclei are stained with DAPI; Quantification of vWF positive vessel numbers was analyzed. (B): The new vessels derived from exogenous genetically manipulated MSCs are identified by GFP (green); Cardiomyocytes are identified by troponin I; All nuclei are stained with DAPI. Quantification of GFP positive vessel numbers was calculated. Scale bars = 100 microm. GCV (-), vehicle; GCV (+), ganciclovir 10 mg/kg. * p<0.05; ** p<0.01. Data are the mean +- SD (n = 5).        Additionally, the number of GFP positive new vessels derived from MSCCXCR4 was significantly higher than that of MSCTK+Null in the absence of GCV (Fig. 5B). In contrast, GCV abolished the new vessel formation derived from MSCTK+Null, as observed that GFP+ cell number was significantly reduced (p<0.05), especially for the MSCTK+CXCR4 (p<0.01), as compared to the vehicle treatment (Fig. 5B). GCV had no effect on the normal vascular structures in cardiac tissues of rats (data not shown). Neovascularization integrating the cell patch and cardiac circulation The neovascularization of implanted MSC patches was further analyzed by micro-CT scan (Video S1). The radiocontrast agents which were infused into the coronary arteries showed the new vessel networks (Fig. 6A). The vessels derived from MSCs in cell patch were identified by GFP (Fig. 6B). In the absence of GCV, the new vessels from MSCTK+Null group were seldom identified (Fig. 6A and 6B). However, a significantly increased number of new vessels derived from MSCTK+CXCR4 were observed (Fig. 6A and 6B), which were integrated with the coronary arteries in the heart (indicated by dotted line, Fig. 6A). Importantly, the new vessels derived from MSCTK+CXCR4 were eliminated by GCV treatment (Fig. 6A and 6B). Therefore, the reversal effect of GCV revealed that CXCR4 overexpression increased the potential and tendency of transplanted MSC differentiated into ECs. Micro-CT scan shows the vessel distribution in the whole heart. (A): The perfusion of contrast agents indicates the cardiac vessel networks of various groups. The dotted line shows the location of cell patch. (B): In cell patch, the new formed vessels are identified by GFP (green) and quantitative data. All nuclei are stained with DAPI (blue). Scale bars = 100 microm. * p<0.05; ** p<0.01. All values are expressed as mean +- SD (n = 4).      GCV reversed the CXCR4-mediated improvement in cardiac function by destroying ECs derived from transplanted MSCs Cardiac function was analyzed by echocardiography after cell patch implantation for 4 weeks. Compared to the MSCTK+Null group, the MSCTK+CXCR4 group exhibited a significant reduction in LV remodeling, as showed by decreased LVDd and LVDs (p<0.05, as well as increased systolic wall thickness of MSCTK+CXCR4 group, Fig. 7A to 7C). Additionally, EF and FS of the MSCTK+CXCR4 group was significantly higher than that of MSCTK+Null group (p<0.05, Fig. 7B). Effect of GCV on cardiac function and heart remodeling. (A): M-mode echocardiograms in various treatment groups at 4 weeks after cell patch implantation. (B): Left ventricular end-diastolic dimension (LVDd), left ventricular end-systolic dimension (LVDs), ejection fraction (EF), fractional shortening (FS), and systolic wall thickness of various groups. (C): The long/short axis views of various groups. Left ventricular wall thinning (yellow bar) and aneurysm formation (yellow arrows). (D): 5-microm sections from heart slices stained with Masson's Trichome in various treatments. (E): The percentage of infarct size in hearts of various groups. * p<0.05; ** p<0.01. All values are expressed as mean +- SD (n = 5).  Functional assessments (LVDd, LVDs, LVEF, LVFS, and systolic wall thickness) were then used to determine the effect of GCV on restoration of left ventricular mechanics. In the MSCTK+Null group, there was no statistical difference in cardiac remodeling between vehicle and GCV treatments (Fig. 7A and 7B). However, the beneficial effects of the MSCTK+CXCR4 on heart function were significantly reversed after the administration of GCV, as indicated by a significant increase in both LVDd and LVDs, and an accompanying reduction of EF, FS, as well as systolic wall thickness as compared to the vehicle treatment (Fig. 7A to 7C). In addition, the MSCTK+Null transplanted animals in both vehicle and GCV treatment groups exhibited left ventricular wall thinning (Fig. 7C). However, in the absence of GCV, left ventricular wall thinning was significantly preserved in the MSCTK+CXCR4 group, as compared to MSCTK+Null group (Fig. 7C). Importantly, when the MSCTK+CXCR4 group underwent GCV treatment, the left ventricular wall thickness was significantly reduced as compared to vehicle treatment in same group, and aneurysm formation was also observed in some hearts (Fig. 7C). The change of LV infarct size was assessed using Masson's Trichrome staining (Fig. 7D and 7E). In the absence of GCV, the infarct size was significantly reduced in the MSCTK+CXCR4 group as compared to MSCTK+Null group (p<0.05). Additionally, the therapeutic effect of MSCTK+CXCR4 was eliminated after GCV treatment as compared to the vehicle treatment (p<0.01). Discussion In this study, we investigated the role of MSCCXCR4 in neovascularization during cardiac repair after MI and its mechanism. The in vitro studies showed that MSCCXCR4 released angiogenic factors and enhanced the capacity for vessel formation under hypoxic conditions, which involved HIF-1alpha and STAT3 pathways. For the in vivo studies, MSCCXCR4 seeded on peritoneum (patch) promoted neovascularization when applied to the epicardial surface of MI rats. However, the specific elimination of ECs derived from MSCCXCR4 by suicide gene activation significantly abrogated the enhanced capillary density and the improvement of cardiac function. The autocrine/paracrine mechanism of stem cell therapy plays an important role in cardiac functional restoration after MI. We found that CXCR4 overexpression enhanced the gene expression of VEGF-A in MSCs under hypoxia, which was consistent with observations from our previous studies. VEGF signaling pathway plays an essential role in vascular homeostasis and in the angiogenic cascade. In addition, hypoxia is an important component of an ischemic insult. It is a critical regulator of both protective and pathological vascular adaptations and composes the niche to maintain stem cells. The oxygen-sensing HIF is also important for vascular homeostasis responding to hypoxic conditions. As other studies have demonstrated, the ubiquitin-mediated proteolysis of HIF is inhibited under hypoxia, thereby activating distinct angiogenic factor genes such as VEGF, whose promoters include hypoxia-response elements. In our studies, hypoxia increased the expression of HIF-1alpha, which was further enhanced by MSCCXCR4. Thus, when MSCCXCR4 were implanted in a hypoxic microenvironment, the increasing expression of angiogenic factors initiated a cascade that promotes cytokine-induced cardiac angiogenesis. In addition to the paracrine effect of MSCs, the endothelial differentiation potential also plays an important role in new vessel formation. MSCCXCR4 acquired endothelial characteristics, including tube formation, uptake of Dil-ac-LDL, and expression of the endothelial cell markers, suggesting that CXCR4 overexpression enhanced the EC differentiation of MSCs. Within the cadherin family, VE-cadherin is the only specific endothelial adhesion molecule and the major determinant of EC contact integrity and activity, which is very important for vascular development and differentiation. The CXCR4 overexpression enhanced the expression of VE-cadherin at the transcriptional level in MSCs as well as the phosphorylation of STAT3 under hypoxia. The observation was further confirmed by the STAT3 inhibitor (WP1066) which decreased the promoter activity and mRNA expression of VE-cadherin in MSCCXCR4 under hypoxia. Therefore, STAT3 participated in the differentiation of MSCCXCR4 into ECs by regulating the endothelial gene expression. CXCR4 is a G protein-coupled receptor and activates several G-protein mediated downstream signaling pathways after binding its ligands. However, the expression of CXCR4 in MSCs showed a gradually decreasing tendency after the hypoxic stimuli over a long timeframe. The decrease in the expression of CXCR4 might result from the ligand-induced receptor internalization and endocytosis via a clathrin or caveolae dependent pathway. Therefore, the overexpression of CXCR4 is important to compensate for pathological insufficiency and prolong the therapeutic effect under the ischemic conditions. One endpoint of CXCR4 signaling is the activation of transcription factors. In addition, the SDF-1alpha/CXCR4 axis was reported to upregulate STAT3 activation in ischemic cardiomyocytes, thereby mediating acute cardioprotection. The activation of STAT3 also played a pivotal role in EC differentiation of cardiac stem cells. Consequently, under the hypoxic microenvironment, along with the secretion of angiogenic factors, the overexpression of CXCR4 activated the STAT3 signaling pathway in MSCs, thereby promoting the differentiation into ECs. To highlight the role of ECs derived from MSCs in myocardial neovascularization, the effect of MSCCXCR4 on angiogenesis was abolished by the suicide gene approach under the control of an endothelial specific promoter. The transcription and expression of VE-cadherin in ECs are due to its promoter containing multiple specific regulatory elements, which are silenced in non-endothelial cells. Hence, the transduction of TK gene linked to VE-cadherin promoter can achieve the suicide gene approach. After GCV is absorbed by ECs derived from MSCs, it can be transformed into a cytotoxic agent by the activation of TK gene and cause cell death. Our data showed that TK was expressed under the control of VE-cadherin promoter in ECs. GCV specifically killed ECs expressing TK, indicating the effectiveness of the suicide gene approach. However, GCV had no effect on the growth of non-endothelial cells, including ordinary MSCs, myoblasts, and normal preexisting cardiovascular cells. By using the GCV-induced suicide gene approach, we assessed the EC differentiation level of MSCs after implantation of cell patches. The CXCR4 overexpression enhanced the migration and vessel formation of MSCs in the infarcted area, which was consistent with our previous studies, in which we showed significantly enhanced heart function. However, the administration of GCV decreased the vessel formation of MSCCXCR4, and abolished the benefits of MSCCXCR4 induced cardiac protection. As revealed by micro-CT, the vessel networks derived from MSCCXCR4 were observed around the left ventricle and in the cell patch, which communicated with the native coronary arteries. The vascular integration provides oxygen and nutrient supplies to the myocardium served by the vessels. We confirmed that the derived new vessels around the ischemic heart and in the cell patch were eliminated by GCV treatment. To assess the therapeutic effect of ECs derived from MSCs, cardiac function improvement was analyzed using echocardiography combined with the suicide gene approach. In the absence of GCV, MSCCXCR4 ameliorated the post-MI loss of cardiac function as indicated by increased left ventricular ejection fraction and decreased the extent of remodeling after MI. However, the administration of GCV reversed the beneficial effects of MSCCXCR4, as evidenced by worsening cardiac function, aneurysm formation, and left ventricular wall thinning. Clearly, GCV reversed the heart functional improvement after cell implantation, highlighting that the therapeutic effects of MSCCXCR4 were mainly resulted from differentiated ECs to form new vessels. The therapeutic effects were significantly reversed when the suicide gene activation was invoked to specifically kill the MSCCXCR4 differentiated into ECs, suggesting the important role of MSC-to-EC differentiation in MI treatment. The EC differentiation of MSCs was enhanced by CXCR4 overexpression, which contributed to the neovascularization in the ischemic hearts. Importantly, ECs are the critical component of blood vessels, regulating angiogenic sprouting and vascular tube formation. Thus, the new vessels derived from MSCCXCR4 can improve blood flow for supplying nutrition to the damaged heart, thereby promoting the cardiac functional restoration. Conclusions In summary, MSCCXCR4 enhanced the release of angiogenic factors and the EC differentiation of MSCs involved in HIF-1alpha and STAT3 pathways under hypoxia. The specific gene suicide approach demonstrated that the neovascularization of MSCCXCR4 in the ischemic hearts was mainly due to the EC differentiation. The new vessels derived from MSCCXCR4 integrated to coronary artery, providing new functional vascularity for ischemic tissues. Supporting Information References Angiogenesis and vasculogenesis in treatment of cardiovascular disease Sustained persistence of transplanted proangiogenic cells contributes to neovascularization and cardiac function after ischemia Bone marrow derived mesenchymal cell mobilization by granulocyte-colony stimulating factor after acute myocardial infarction: results from the Stem Cells in Myocardial Infarction (STEMMI) trial Intracoronary bone marrow-derived progenitor cells in acute myocardial infarction Pluripotency of mesenchymal stem cells derived from adult marrow The elusive nature and function of mesenchymal stem cells Allogeneic mesenchymal stem cells restore cardiac function in chronic ischemic cardiomyopathy via trilineage differentiating capacity Paracrine mechanisms in adult stem cell signaling and therapy Mechanism of improved cardiac function after bone marrow mononuclear cell therapy: role of cardiovascular lineage commitment Mesenchymal stem cells can be differentiated into endothelial cells in vitro Neovascularization of ischemic myocardium by human bone-marrow-derived angioblasts prevents cardiomyocyte apoptosis, reduces remodeling and improves cardiac function Mesenchymal progenitor cells differentiate into an endothelial phenotype, enhance vascular density, and improve heart function in a rat cellular cardiomyoplasty model Bone marrow-derived cells do not incorporate into the adult growing vasculature Mobilization of bone marrow-derived cells enhances the angiogenic response to hypoxia without transdifferentiation into endothelial cells Bone marrow-derived cells do not repair endothelium in a mouse model of chronic endothelial cell dysfunction Genetically manipulated progenitor cell sheet with diprotin A improves myocardial function and repair of infarcted hearts Gene manipulated peritoneal cell patch repairs infarcted myocardium Over-expression of CXCR4 on mesenchymal stem cells augments myoangiogenesis in the infarcted myocardium Constitutive expression of HIF-1alpha and HIF-2alpha in bone marrow stromal cells differentially promotes their proangiogenic properties Overexpression of phosphoinositide-3-kinase class II alpha enhances mesenchymal stem cell survival in infarcted myocardium MAPK/ERK signalling mediates VEGF-induced bone marrow stem cell differentiation into endothelial cell Activation of host tissue trophic factors through JAK-STAT3 signaling: a mechanism of mesenchymal stem cell-mediated cardiac repair Metabolic suicide genes in gene therapy Reduced growth in response to ganciclovir treatment of subcutaneous xenografts expressing HSV-tk in the vascular compartment Kruppel-like factor-4 transcriptionally regulates VE-cadherin expression and endothelial barrier function Reduced collagen deposition in infarcted myocardium facilitates induced pluripotent stem cell engraftment and angiomyogenesis for improvement of left ventricular function Combining neuropeptide Y and mesenchymal stem cells reverses remodeling after myocardial infarction The MSC: An Injury Drugstore Autocrine VEGF signaling is required for vascular homeostasis The role of hypoxia in vascular injury and repair Oxygen in stem cell biology: a critical component of the stem cell niche Hypoxia-Inducible Factors and the Response to Hypoxic Stress Siah2 regulates stability of prolyl-hydroxylases, controls HIF1alpha abundance, and modulates physiological responses to hypoxia Genomic structure and chromosomal mapping of the mouse VE-cadherin gene (Cdh5) The vascular endothelial-cadherin promoter directs endothelial-specific expression in transgenic mice The alpha-chemokine, stromal cell-derived factor-1alpha, binds to the transmembrane G-protein-coupled CXCR-4 receptor and activates multiple signal transduction pathways Intracellular localization and constitutive endocytosis of CXCR4 in human CD34+ hematopoietic progenitor cells Distinct mechanisms of agonist-induced endocytosis for human chemokine receptors CCR5 and CXCR4 SDF-1/CXCR4 mediates acute protection of cardiac function through myocardial STAT3 signaling following global ischemia/reperfusion injury STAT3/Pim-1 signaling pathway plays a crucial role in endothelial differentiation of cardiac resident Sca-1+ cells both in vitro and in vivo HIF-2alpha specifically activates the VE-cadherin promoter independently of hypoxia and in synergy with Ets-1 through two essential ETS-binding sites Requirement of a GT box (Sp1 site) and two Ets binding sites for vascular endothelial cadherin gene transcription Induction of vascular progenitor cells from endothelial cells stimulates coronary collateral growth Molecular control of endothelial cell behaviour during blood vessel morphogenesis",
+    "entities": [
+        {
+            "entityId": "63_85",
+            "span": {
+                "begin": 63,
+                "end": 85
+            },
+            "entityType": "cell",
+            "entityName": "Mesenchymal Stem Cells",
+            "id": "UMLS:C1257975"
+        },
+        {
+            "entityId": "101_106",
+            "span": {
+                "begin": 101,
+                "end": 106
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "108_116",
+            "span": {
+                "begin": 108,
+                "end": 116
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "206_227",
+            "span": {
+                "begin": 206,
+                "end": 227
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "229_231",
+            "span": {
+                "begin": 229,
+                "end": 231
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "291_299",
+            "span": {
+                "begin": 291,
+                "end": 299
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "385_389",
+            "span": {
+                "begin": 385,
+                "end": 389
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "441_444",
+            "span": {
+                "begin": 441,
+                "end": 444
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "504_509",
+            "span": {
+                "begin": 504,
+                "end": 509
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "510_513",
+            "span": {
+                "begin": 510,
+                "end": 513
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "531_547",
+            "span": {
+                "begin": 531,
+                "end": 547
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cell",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "549_551",
+            "span": {
+                "begin": 549,
+                "end": 551
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "609_612",
+            "span": {
+                "begin": 609,
+                "end": 612
+            },
+            "entityType": "drug",
+            "entityName": "Dil",
+            "id": "UMLS:CHEBI:27730"
+        },
+        {
+            "entityId": "613_619",
+            "span": {
+                "begin": 613,
+                "end": 619
+            },
+            "entityType": "gene",
+            "entityName": "ac-LDL",
+            "id": "UMLS:C1412573"
+        },
+        {
+            "entityId": "654_674",
+            "span": {
+                "begin": 654,
+                "end": 674
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "811_831",
+            "span": {
+                "begin": 811,
+                "end": 831
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "968_971",
+            "span": {
+                "begin": 968,
+                "end": 971
+            },
+            "entityType": "species",
+            "entityName": "rat",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "973_977",
+            "span": {
+                "begin": 973,
+                "end": 977
+            },
+            "entityType": "species",
+            "entityName": "Rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "994_1005",
+            "span": {
+                "begin": 994,
+                "end": 1005
+            },
+            "entityType": "drug",
+            "entityName": "ganciclovir",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "1007_1010",
+            "span": {
+                "begin": 1007,
+                "end": 1010
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "1225_1231",
+            "span": {
+                "begin": 1225,
+                "end": 1231
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "1236_1246",
+            "span": {
+                "begin": 1236,
+                "end": 1246
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "1336_1344",
+            "span": {
+                "begin": 1336,
+                "end": 1344
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "1379_1381",
+            "span": {
+                "begin": 1379,
+                "end": 1381
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "1410_1415",
+            "span": {
+                "begin": 1410,
+                "end": 1415
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "1447_1452",
+            "span": {
+                "begin": 1447,
+                "end": 1452
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "1490_1501",
+            "span": {
+                "begin": 1490,
+                "end": 1501
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "1552_1558",
+            "span": {
+                "begin": 1552,
+                "end": 1558
+            },
+            "entityType": "drug",
+            "entityName": "WP1066",
+            "id": "UMLS:C1957161"
+        },
+        {
+            "entityId": "1562_1567",
+            "span": {
+                "begin": 1562,
+                "end": 1567
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "1593_1596",
+            "span": {
+                "begin": 1593,
+                "end": 1596
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "1627_1630",
+            "span": {
+                "begin": 1627,
+                "end": 1630
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "2028_2031",
+            "span": {
+                "begin": 2028,
+                "end": 2031
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "2266_2287",
+            "span": {
+                "begin": 2266,
+                "end": 2287
+            },
+            "entityType": "disease",
+            "entityName": "Myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "2289_2291",
+            "span": {
+                "begin": 2289,
+                "end": 2291
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2450_2452",
+            "span": {
+                "begin": 2450,
+                "end": 2452
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2574_2602",
+            "span": {
+                "begin": 2574,
+                "end": 2602
+            },
+            "entityType": "disease",
+            "entityName": "left ventricular dysfunction",
+            "id": "UMLS:C0242698"
+        },
+        {
+            "entityId": "2699_2721",
+            "span": {
+                "begin": 2699,
+                "end": 2721
+            },
+            "entityType": "disease",
+            "entityName": "vascular insufficiency",
+            "id": "UMLS:C0232352"
+        },
+        {
+            "entityId": "2725_2727",
+            "span": {
+                "begin": 2725,
+                "end": 2727
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "2750_2759",
+            "span": {
+                "begin": 2750,
+                "end": 2759
+            },
+            "entityType": "cell",
+            "entityName": "stem cell",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "2830_2835",
+            "span": {
+                "begin": 2830,
+                "end": 2835
+            },
+            "entityType": "disease",
+            "entityName": "heart",
+            "id": "mesh:D006331"
+        },
+        {
+            "entityId": "2970_3020",
+            "span": {
+                "begin": 2970,
+                "end": 3020
+            },
+            "entityType": "cell",
+            "entityName": "bone morrow derived mesenchymal stem/stromal cells",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3022_3026",
+            "span": {
+                "begin": 3022,
+                "end": 3026
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3137_3141",
+            "span": {
+                "begin": 3137,
+                "end": 3141
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3369_3373",
+            "span": {
+                "begin": 3369,
+                "end": 3373
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3411_3428",
+            "span": {
+                "begin": 3411,
+                "end": 3428
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "3430_3433",
+            "span": {
+                "begin": 3430,
+                "end": 3433
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "3436_3445",
+            "span": {
+                "begin": 3436,
+                "end": 3445
+            },
+            "entityType": "cell",
+            "entityName": "pericytes",
+            "id": "UMLS:C0598800"
+        },
+        {
+            "entityId": "3466_3480",
+            "span": {
+                "begin": 3466,
+                "end": 3480
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "3482_3484",
+            "span": {
+                "begin": 3482,
+                "end": 3484
+            },
+            "entityType": "cell",
+            "entityName": "CM",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "3627_3631",
+            "span": {
+                "begin": 3627,
+                "end": 3631
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3713_3717",
+            "span": {
+                "begin": 3713,
+                "end": 3717
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3822_3824",
+            "span": {
+                "begin": 3822,
+                "end": 3824
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "3856_3860",
+            "span": {
+                "begin": 3856,
+                "end": 3860
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "3880_3883",
+            "span": {
+                "begin": 3880,
+                "end": 3883
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "3997_4001",
+            "span": {
+                "begin": 3997,
+                "end": 4001
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "4058_4061",
+            "span": {
+                "begin": 4058,
+                "end": 4061
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "4084_4088",
+            "span": {
+                "begin": 4084,
+                "end": 4088
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "4228_4232",
+            "span": {
+                "begin": 4228,
+                "end": 4232
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "4394_4398",
+            "span": {
+                "begin": 4394,
+                "end": 4398
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "4421_4424",
+            "span": {
+                "begin": 4421,
+                "end": 4424
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "4564_4568",
+            "span": {
+                "begin": 4564,
+                "end": 4568
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "4595_4673",
+            "span": {
+                "begin": 4595,
+                "end": 4673
+            },
+            "entityType": "gene",
+            "entityName": "MSCs were genetically engineered to overexpress CXCR4 using viral transduction",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "4827_4863",
+            "span": {
+                "begin": 4827,
+                "end": 4863
+            },
+            "entityType": "gene",
+            "entityName": "vascular endothelial growth factor-A",
+            "id": "UMLS:C1171892"
+        },
+        {
+            "entityId": "4865_4871",
+            "span": {
+                "begin": 4865,
+                "end": 4871
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "5198_5202",
+            "span": {
+                "begin": 5198,
+                "end": 5202
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "5214_5245",
+            "span": {
+                "begin": 5214,
+                "end": 5245
+            },
+            "entityType": "gene",
+            "entityName": "hypoxia-inducible factor-1alpha",
+            "id": "UMLS:C1528322"
+        },
+        {
+            "entityId": "5247_5257",
+            "span": {
+                "begin": 5247,
+                "end": 5257
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "5260_5285",
+            "span": {
+                "begin": 5260,
+                "end": 5285
+            },
+            "entityType": "gene",
+            "entityName": "phosphoinositide 3-kinase",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "5287_5291",
+            "span": {
+                "begin": 5287,
+                "end": 5291
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "5294_5326",
+            "span": {
+                "begin": 5294,
+                "end": 5326
+            },
+            "entityType": "gene",
+            "entityName": "mitogen-activated protein kinase",
+            "id": "UMLS:C0752312"
+        },
+        {
+            "entityId": "5328_5332",
+            "span": {
+                "begin": 5328,
+                "end": 5332
+            },
+            "entityType": "gene",
+            "entityName": "MAPK",
+            "id": "UMLS:C0752312"
+        },
+        {
+            "entityId": "5343_5395",
+            "span": {
+                "begin": 5343,
+                "end": 5395
+            },
+            "entityType": "gene",
+            "entityName": "signal transducers and activators of transcription 3",
+            "id": "UMLS:C1336776"
+        },
+        {
+            "entityId": "5397_5402",
+            "span": {
+                "begin": 5397,
+                "end": 5402
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "5446_5451",
+            "span": {
+                "begin": 5446,
+                "end": 5451
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "5503_5507",
+            "span": {
+                "begin": 5503,
+                "end": 5507
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "5530_5533",
+            "span": {
+                "begin": 5530,
+                "end": 5533
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "5592_5594",
+            "span": {
+                "begin": 5592,
+                "end": 5594
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "5796_5812",
+            "span": {
+                "begin": 5796,
+                "end": 5812
+            },
+            "entityType": "gene",
+            "entityName": "thymidine kinase",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "5814_5816",
+            "span": {
+                "begin": 5814,
+                "end": 5816
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "5839_5854",
+            "span": {
+                "begin": 5839,
+                "end": 5854
+            },
+            "entityType": "cell",
+            "entityName": "mammalian cells",
+            "id": "UMLS:C1512977"
+        },
+        {
+            "entityId": "5863_5870",
+            "span": {
+                "begin": 5863,
+                "end": 5870
+            },
+            "entityType": "gene",
+            "entityName": "TK gene",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "5915_5949",
+            "span": {
+                "begin": 5915,
+                "end": 5949
+            },
+            "entityType": "gene",
+            "entityName": "vascular endothelium (VE)-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "5975_5987",
+            "span": {
+                "begin": 5975,
+                "end": 5987
+            },
+            "entityType": "cell",
+            "entityName": "target cells",
+            "id": "UMLS:C0221284"
+        },
+        {
+            "entityId": "5993_5995",
+            "span": {
+                "begin": 5993,
+                "end": 5995
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "6056_6058",
+            "span": {
+                "begin": 6056,
+                "end": 6058
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "6081_6092",
+            "span": {
+                "begin": 6081,
+                "end": 6092
+            },
+            "entityType": "drug",
+            "entityName": "ganciclovir",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "6094_6097",
+            "span": {
+                "begin": 6094,
+                "end": 6097
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "6185_6187",
+            "span": {
+                "begin": 6185,
+                "end": 6187
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "6245_6248",
+            "span": {
+                "begin": 6245,
+                "end": 6248
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "6269_6273",
+            "span": {
+                "begin": 6269,
+                "end": 6273
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "6336_6338",
+            "span": {
+                "begin": 6336,
+                "end": 6338
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "6398_6403",
+            "span": {
+                "begin": 6398,
+                "end": 6403
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "6489_6492",
+            "span": {
+                "begin": 6489,
+                "end": 6492
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "6517_6525",
+            "span": {
+                "begin": 6517,
+                "end": 6525
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "6576_6578",
+            "span": {
+                "begin": 6576,
+                "end": 6578
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "7016_7021",
+            "span": {
+                "begin": 7016,
+                "end": 7021
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "7086_7092",
+            "span": {
+                "begin": 7086,
+                "end": 7092
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "7094_7104",
+            "span": {
+                "begin": 7094,
+                "end": 7104
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "7106_7109",
+            "span": {
+                "begin": 7106,
+                "end": 7109
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "7111_7121",
+            "span": {
+                "begin": 7111,
+                "end": 7121
+            },
+            "entityType": "gene",
+            "entityName": "Troponin I",
+            "id": "UMLS:C0077401"
+        },
+        {
+            "entityId": "7127_7137",
+            "span": {
+                "begin": 7127,
+                "end": 7137
+            },
+            "entityType": "gene",
+            "entityName": "beta-actin",
+            "id": "UMLS:C0005186"
+        },
+        {
+            "entityId": "7191_7199",
+            "span": {
+                "begin": 7191,
+                "end": 7199
+            },
+            "entityType": "drug",
+            "entityName": "LY294002",
+            "id": "UMLS:C0251991"
+        },
+        {
+            "entityId": "7243_7248",
+            "span": {
+                "begin": 7243,
+                "end": 7248
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "7262_7267",
+            "span": {
+                "begin": 7262,
+                "end": 7267
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "7319_7325",
+            "span": {
+                "begin": 7319,
+                "end": 7325
+            },
+            "entityType": "drug",
+            "entityName": "WP1066",
+            "id": "UMLS:C1957161"
+        },
+        {
+            "entityId": "7367_7378",
+            "span": {
+                "begin": 7367,
+                "end": 7378
+            },
+            "entityType": "drug",
+            "entityName": "Ganciclovir",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "7380_7383",
+            "span": {
+                "begin": 7380,
+                "end": 7383
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "7386_7394",
+            "span": {
+                "begin": 7386,
+                "end": 7394
+            },
+            "entityType": "drug",
+            "entityName": "SB203580",
+            "id": "UMLS:C0297666"
+        },
+        {
+            "entityId": "7396_7404",
+            "span": {
+                "begin": 7396,
+                "end": 7404
+            },
+            "entityType": "drug",
+            "entityName": "SP600125",
+            "id": "UMLS:C0968383"
+        },
+        {
+            "entityId": "7406_7413",
+            "span": {
+                "begin": 7406,
+                "end": 7413
+            },
+            "entityType": "drug",
+            "entityName": "PD98059",
+            "id": "UMLS:C0298346"
+        },
+        {
+            "entityId": "7669_7682",
+            "span": {
+                "begin": 7669,
+                "end": 7682
+            },
+            "entityType": "gene",
+            "entityName": "rat CXCR4 CDS",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "7787_7792",
+            "span": {
+                "begin": 7787,
+                "end": 7792
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "7814_7819",
+            "span": {
+                "begin": 7814,
+                "end": 7819
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "7820_7823",
+            "span": {
+                "begin": 7820,
+                "end": 7823
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "8112_8117",
+            "span": {
+                "begin": 8112,
+                "end": 8117
+            },
+            "entityType": "gene",
+            "entityName": "EcoRI",
+            "id": "UMLS:C0011516"
+        },
+        {
+            "entityId": "8145_8152",
+            "span": {
+                "begin": 8145,
+                "end": 8152
+            },
+            "entityType": "gene",
+            "entityName": "TK gene",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "8239_8259",
+            "span": {
+                "begin": 8239,
+                "end": 8259
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "8289_8291",
+            "span": {
+                "begin": 8289,
+                "end": 8291
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "8292_8295",
+            "span": {
+                "begin": 8292,
+                "end": 8295
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "8514_8516",
+            "span": {
+                "begin": 8514,
+                "end": 8516
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "8854_8857",
+            "span": {
+                "begin": 8854,
+                "end": 8857
+            },
+            "entityType": "drug",
+            "entityName": "PEG",
+            "id": "mesh:D011092"
+        },
+        {
+            "entityId": "8895_8907",
+            "span": {
+                "begin": 8895,
+                "end": 8907
+            },
+            "entityType": "cell",
+            "entityName": "target cells",
+            "id": "UMLS:C0221284"
+        },
+        {
+            "entityId": "8963_8972",
+            "span": {
+                "begin": 8963,
+                "end": 8972
+            },
+            "entityType": "drug",
+            "entityName": "puromycin",
+            "id": "UMLS:C0034145"
+        },
+        {
+            "entityId": "9058_9062",
+            "span": {
+                "begin": 9058,
+                "end": 9062
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "9107_9111",
+            "span": {
+                "begin": 9107,
+                "end": 9111
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "9234_9245",
+            "span": {
+                "begin": 9234,
+                "end": 9245
+            },
+            "entityType": "cell",
+            "entityName": "blood cells",
+            "id": "UMLS:C0005773"
+        },
+        {
+            "entityId": "9282_9286",
+            "span": {
+                "begin": 9282,
+                "end": 9286
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "9343_9350",
+            "span": {
+                "begin": 9343,
+                "end": 9350
+            },
+            "entityType": "gene",
+            "entityName": "trypsin",
+            "id": "UMLS:C0041236"
+        },
+        {
+            "entityId": "9364_9368",
+            "span": {
+                "begin": 9364,
+                "end": 9368
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "9393_9431",
+            "span": {
+                "begin": 9393,
+                "end": 9431
+            },
+            "entityType": "cell",
+            "entityName": "Human umbilical vein endothelial cells",
+            "id": "UMLS:C3179121"
+        },
+        {
+            "entityId": "9433_9436",
+            "span": {
+                "begin": 9433,
+                "end": 9436
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "9569_9575",
+            "span": {
+                "begin": 9569,
+                "end": 9575
+            },
+            "entityType": "species",
+            "entityName": "bovine",
+            "id": "UMLS:C3667982"
+        },
+        {
+            "entityId": "9589_9611",
+            "span": {
+                "begin": 9589,
+                "end": 9611
+            },
+            "entityType": "cell",
+            "entityName": "Mouse muscle myoblasts",
+            "id": "UMLS:C0596995"
+        },
+        {
+            "entityId": "9638_9652",
+            "span": {
+                "begin": 9638,
+                "end": 9652
+            },
+            "entityType": "cell",
+            "entityName": "Cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "9677_9681",
+            "span": {
+                "begin": 9677,
+                "end": 9681
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "9699_9710",
+            "span": {
+                "begin": 9699,
+                "end": 9710
+            },
+            "entityType": "gene",
+            "entityName": "collagenase",
+            "id": "UMLS:C0162745"
+        },
+        {
+            "entityId": "9773_9780",
+            "span": {
+                "begin": 9773,
+                "end": 9780
+            },
+            "entityType": "drug",
+            "entityName": "glucose",
+            "id": "UMLS:C0017725"
+        },
+        {
+            "entityId": "9862_9874",
+            "span": {
+                "begin": 9862,
+                "end": 9874
+            },
+            "entityType": "drug",
+            "entityName": "streptomycin",
+            "id": "UMLS:C0038425"
+        },
+        {
+            "entityId": "9879_9889",
+            "span": {
+                "begin": 9879,
+                "end": 9889
+            },
+            "entityType": "drug",
+            "entityName": "penicillin",
+            "id": "UMLS:C0030842"
+        },
+        {
+            "entityId": "9937_9940",
+            "span": {
+                "begin": 9937,
+                "end": 9940
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "9972_9976",
+            "span": {
+                "begin": 9972,
+                "end": 9976
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "10013_10015",
+            "span": {
+                "begin": 10013,
+                "end": 10015
+            },
+            "entityType": "drug",
+            "entityName": "O2",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "10016_10019",
+            "span": {
+                "begin": 10016,
+                "end": 10019
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "10078_10080",
+            "span": {
+                "begin": 10078,
+                "end": 10080
+            },
+            "entityType": "drug",
+            "entityName": "O2",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "10083_10086",
+            "span": {
+                "begin": 10083,
+                "end": 10086
+            },
+            "entityType": "drug",
+            "entityName": "CO2",
+            "id": "UMLS:C2347816"
+        },
+        {
+            "entityId": "10090_10092",
+            "span": {
+                "begin": 10090,
+                "end": 10092
+            },
+            "entityType": "drug",
+            "entityName": "N2",
+            "id": "UMLS:CHEBI:30105"
+        },
+        {
+            "entityId": "10139_10144",
+            "span": {
+                "begin": 10139,
+                "end": 10144
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "10145_10148",
+            "span": {
+                "begin": 10145,
+                "end": 10148
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "10211_10214",
+            "span": {
+                "begin": 10211,
+                "end": 10214
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "10470_10473",
+            "span": {
+                "begin": 10470,
+                "end": 10473
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "10498_10502",
+            "span": {
+                "begin": 10498,
+                "end": 10502
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "10560_10564",
+            "span": {
+                "begin": 10560,
+                "end": 10564
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "10566_10569",
+            "span": {
+                "begin": 10566,
+                "end": 10569
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "10571_10585",
+            "span": {
+                "begin": 10571,
+                "end": 10585
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "10591_10600",
+            "span": {
+                "begin": 10591,
+                "end": 10600
+            },
+            "entityType": "cell",
+            "entityName": "myoblasts",
+            "id": "UMLS:C0596995"
+        },
+        {
+            "entityId": "10631_10634",
+            "span": {
+                "begin": 10631,
+                "end": 10634
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "10678_10690",
+            "span": {
+                "begin": 10678,
+                "end": 10690
+            },
+            "entityType": "cell",
+            "entityName": "viable cells",
+            "id": "UMLS:C1441322"
+        },
+        {
+            "entityId": "10705_10708",
+            "span": {
+                "begin": 10705,
+                "end": 10708
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "10878_10883",
+            "span": {
+                "begin": 10878,
+                "end": 10883
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "10885_10891",
+            "span": {
+                "begin": 10885,
+                "end": 10891
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "10893_10903",
+            "span": {
+                "begin": 10893,
+                "end": 10903
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "10909_10914",
+            "span": {
+                "begin": 10909,
+                "end": 10914
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "11292_11302",
+            "span": {
+                "begin": 11292,
+                "end": 11302
+            },
+            "entityType": "gene",
+            "entityName": "beta-actin",
+            "id": "UMLS:C0005186"
+        },
+        {
+            "entityId": "11349_11354",
+            "span": {
+                "begin": 11349,
+                "end": 11354
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "11356_11362",
+            "span": {
+                "begin": 11356,
+                "end": 11362
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "11368_11378",
+            "span": {
+                "begin": 11368,
+                "end": 11378
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "11391_11396",
+            "span": {
+                "begin": 11391,
+                "end": 11396
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "11460_11465",
+            "span": {
+                "begin": 11460,
+                "end": 11465
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "11498_11502",
+            "span": {
+                "begin": 11498,
+                "end": 11502
+            },
+            "entityType": "DNA",
+            "entityName": "mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "11513_11519",
+            "span": {
+                "begin": 11513,
+                "end": 11519
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "11537_11547",
+            "span": {
+                "begin": 11537,
+                "end": 11547
+            },
+            "entityType": "gene",
+            "entityName": "IGF-1alpha",
+            "id": "UMLS:C1334089"
+        },
+        {
+            "entityId": "11549_11560",
+            "span": {
+                "begin": 11549,
+                "end": 11560
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "11566_11570",
+            "span": {
+                "begin": 11566,
+                "end": 11570
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "11901_11912",
+            "span": {
+                "begin": 11901,
+                "end": 11912
+            },
+            "entityType": "DNA",
+            "entityName": "target mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "11936_11946",
+            "span": {
+                "begin": 11936,
+                "end": 11946
+            },
+            "entityType": "gene",
+            "entityName": "beta-actin",
+            "id": "UMLS:C0005186"
+        },
+        {
+            "entityId": "12096_12106",
+            "span": {
+                "begin": 12096,
+                "end": 12106
+            },
+            "entityType": "gene",
+            "entityName": "beta-actin",
+            "id": "UMLS:C0005186"
+        },
+        {
+            "entityId": "13146_13150",
+            "span": {
+                "begin": 13146,
+                "end": 13150
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "13185_13237",
+            "span": {
+                "begin": 13185,
+                "end": 13237
+            },
+            "entityType": "drug",
+            "entityName": "1,1-dioctadecyl-3,3,3,3-tetramethyl-indocarbocyanine",
+            "id": "mesh:C024286"
+        },
+        {
+            "entityId": "13282_13292",
+            "span": {
+                "begin": 13282,
+                "end": 13292
+            },
+            "entityType": "gene",
+            "entityName": "Dil-Ac-LDL",
+            "id": "UMLS:C1412573"
+        },
+        {
+            "entityId": "13354_13370",
+            "span": {
+                "begin": 13354,
+                "end": 13370
+            },
+            "entityType": "drug",
+            "entityName": "paraformaldehyde",
+            "id": "mesh:C003043"
+        },
+        {
+            "entityId": "13415_13418",
+            "span": {
+                "begin": 13415,
+                "end": 13418
+            },
+            "entityType": "drug",
+            "entityName": "Dil",
+            "id": "UMLS:CHEBI:27730"
+        },
+        {
+            "entityId": "13419_13425",
+            "span": {
+                "begin": 13419,
+                "end": 13425
+            },
+            "entityType": "gene",
+            "entityName": "Ac-LDL",
+            "id": "UMLS:C1412573"
+        },
+        {
+            "entityId": "13460_13463",
+            "span": {
+                "begin": 13460,
+                "end": 13463
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "13551_13555",
+            "span": {
+                "begin": 13551,
+                "end": 13555
+            },
+            "entityType": "drug",
+            "entityName": "DAPI",
+            "id": "UMLS:C0057142"
+        },
+        {
+            "entityId": "13665_13675",
+            "span": {
+                "begin": 13665,
+                "end": 13675
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "13709_13714",
+            "span": {
+                "begin": 13709,
+                "end": 13714
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "13733_13744",
+            "span": {
+                "begin": 13733,
+                "end": 13744
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "13835_13853",
+            "span": {
+                "begin": 13835,
+                "end": 13853
+            },
+            "entityType": "gene",
+            "entityName": "Renilla luciferase",
+            "id": "UMLS:C1450145"
+        },
+        {
+            "entityId": "14146_14166",
+            "span": {
+                "begin": 14146,
+                "end": 14166
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "14261_14265",
+            "span": {
+                "begin": 14261,
+                "end": 14265
+            },
+            "entityType": "drug",
+            "entityName": "DMSO",
+            "id": "UMLS:C0012403"
+        },
+        {
+            "entityId": "14277_14285",
+            "span": {
+                "begin": 14277,
+                "end": 14285
+            },
+            "entityType": "drug",
+            "entityName": "SB203580",
+            "id": "UMLS:C0297666"
+        },
+        {
+            "entityId": "14287_14290",
+            "span": {
+                "begin": 14287,
+                "end": 14290
+            },
+            "entityType": "gene",
+            "entityName": "p38",
+            "id": "UMLS:C1705791"
+        },
+        {
+            "entityId": "14313_14321",
+            "span": {
+                "begin": 14313,
+                "end": 14321
+            },
+            "entityType": "drug",
+            "entityName": "SP600125",
+            "id": "UMLS:C0968383"
+        },
+        {
+            "entityId": "14323_14326",
+            "span": {
+                "begin": 14323,
+                "end": 14326
+            },
+            "entityType": "gene",
+            "entityName": "JNK",
+            "id": "UMLS:C1367731"
+        },
+        {
+            "entityId": "14349_14356",
+            "span": {
+                "begin": 14349,
+                "end": 14356
+            },
+            "entityType": "drug",
+            "entityName": "PD98059",
+            "id": "UMLS:C0298346"
+        },
+        {
+            "entityId": "14358_14361",
+            "span": {
+                "begin": 14358,
+                "end": 14361
+            },
+            "entityType": "gene",
+            "entityName": "ERK",
+            "id": "UMLS:C3849574"
+        },
+        {
+            "entityId": "14385_14393",
+            "span": {
+                "begin": 14385,
+                "end": 14393
+            },
+            "entityType": "drug",
+            "entityName": "LY294002",
+            "id": "UMLS:C0251991"
+        },
+        {
+            "entityId": "14395_14399",
+            "span": {
+                "begin": 14395,
+                "end": 14399
+            },
+            "entityType": "gene",
+            "entityName": "PI3K",
+            "id": "UMLS:C0369773"
+        },
+        {
+            "entityId": "14426_14432",
+            "span": {
+                "begin": 14426,
+                "end": 14432
+            },
+            "entityType": "drug",
+            "entityName": "WP1066",
+            "id": "UMLS:C1957161"
+        },
+        {
+            "entityId": "14434_14439",
+            "span": {
+                "begin": 14434,
+                "end": 14439
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "14715_14725",
+            "span": {
+                "begin": 14715,
+                "end": 14725
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "14830_14848",
+            "span": {
+                "begin": 14830,
+                "end": 14848
+            },
+            "entityType": "gene",
+            "entityName": "Firefly luciferase",
+            "id": "UMLS:C0311727"
+        },
+        {
+            "entityId": "14876_14894",
+            "span": {
+                "begin": 14876,
+                "end": 14894
+            },
+            "entityType": "gene",
+            "entityName": "Renilla luciferase",
+            "id": "UMLS:C1450145"
+        },
+        {
+            "entityId": "15004_15006",
+            "span": {
+                "begin": 15004,
+                "end": 15006
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "15017_15033",
+            "span": {
+                "begin": 15017,
+                "end": 15033
+            },
+            "entityType": "cell",
+            "entityName": "stable cell line",
+            "id": "UMLS:C0598091"
+        },
+        {
+            "entityId": "15075_15080",
+            "span": {
+                "begin": 15075,
+                "end": 15080
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "15124_15129",
+            "span": {
+                "begin": 15124,
+                "end": 15129
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "15144_15146",
+            "span": {
+                "begin": 15144,
+                "end": 15146
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "15202_15206",
+            "span": {
+                "begin": 15202,
+                "end": 15206
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15250_15254",
+            "span": {
+                "begin": 15250,
+                "end": 15254
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15355_15360",
+            "span": {
+                "begin": 15355,
+                "end": 15360
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "15390_15394",
+            "span": {
+                "begin": 15390,
+                "end": 15394
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15441_15444",
+            "span": {
+                "begin": 15441,
+                "end": 15444
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "15640_15645",
+            "span": {
+                "begin": 15640,
+                "end": 15645
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "15682_15685",
+            "span": {
+                "begin": 15682,
+                "end": 15685
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "15698_15703",
+            "span": {
+                "begin": 15698,
+                "end": 15703
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "15709_15712",
+            "span": {
+                "begin": 15709,
+                "end": 15712
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "15720_15724",
+            "span": {
+                "begin": 15720,
+                "end": 15724
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "15757_15761",
+            "span": {
+                "begin": 15757,
+                "end": 15761
+            },
+            "entityType": "gene",
+            "entityName": "N-TK",
+            "id": "UMLS:C0369718"
+        },
+        {
+            "entityId": "15867_15871",
+            "span": {
+                "begin": 15867,
+                "end": 15871
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "15885_15889",
+            "span": {
+                "begin": 15885,
+                "end": 15889
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "15922_15926",
+            "span": {
+                "begin": 15922,
+                "end": 15926
+            },
+            "entityType": "gene",
+            "entityName": "N-TK",
+            "id": "UMLS:C0369718"
+        },
+        {
+            "entityId": "16992_16996",
+            "span": {
+                "begin": 16992,
+                "end": 16996
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "17015_17036",
+            "span": {
+                "begin": 17015,
+                "end": 17036
+            },
+            "entityType": "gene",
+            "entityName": "von Willebrand Factor",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "17038_17041",
+            "span": {
+                "begin": 17038,
+                "end": 17041
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "17047_17050",
+            "span": {
+                "begin": 17047,
+                "end": 17050
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "17208_17216",
+            "span": {
+                "begin": 17208,
+                "end": 17216
+            },
+            "entityType": "drug",
+            "entityName": "formalin",
+            "id": "UMLS:C0949307"
+        },
+        {
+            "entityId": "17278_17281",
+            "span": {
+                "begin": 17278,
+                "end": 17281
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "17285_17288",
+            "span": {
+                "begin": 17285,
+                "end": 17288
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "17343_17347",
+            "span": {
+                "begin": 17343,
+                "end": 17347
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "17349_17353",
+            "span": {
+                "begin": 17349,
+                "end": 17353
+            },
+            "entityType": "drug",
+            "entityName": "DAPI",
+            "id": "UMLS:C0057142"
+        },
+        {
+            "entityId": "17463_17466",
+            "span": {
+                "begin": 17463,
+                "end": 17466
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "17470_17473",
+            "span": {
+                "begin": 17470,
+                "end": 17473
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "17565_17572",
+            "span": {
+                "begin": 17565,
+                "end": 17572
+            },
+            "entityType": "disease",
+            "entityName": "infarct",
+            "id": "UMLS:C0021308"
+        },
+        {
+            "entityId": "17608_17616",
+            "span": {
+                "begin": 17608,
+                "end": 17616
+            },
+            "entityType": "drug",
+            "entityName": "paraffin",
+            "id": "UMLS:C0030415"
+        },
+        {
+            "entityId": "18171_18179",
+            "span": {
+                "begin": 18171,
+                "end": 18179
+            },
+            "entityType": "drug",
+            "entityName": "ketamine",
+            "id": "UMLS:C0022614"
+        },
+        {
+            "entityId": "18193_18201",
+            "span": {
+                "begin": 18193,
+                "end": 18201
+            },
+            "entityType": "drug",
+            "entityName": "xylazine",
+            "id": "UMLS:C0043366"
+        },
+        {
+            "entityId": "18330_18342",
+            "span": {
+                "begin": 18330,
+                "end": 18342
+            },
+            "entityType": "drug",
+            "entityName": "polyethylene",
+            "id": "UMLS:C0137914"
+        },
+        {
+            "entityId": "18632_18635",
+            "span": {
+                "begin": 18632,
+                "end": 18635
+            },
+            "entityType": "drug",
+            "entityName": "KCl",
+            "id": "UMLS:C0032825"
+        },
+        {
+            "entityId": "19740_19746",
+            "span": {
+                "begin": 19740,
+                "end": 19746
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "19751_19761",
+            "span": {
+                "begin": 19751,
+                "end": 19761
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "19789_19794",
+            "span": {
+                "begin": 19789,
+                "end": 19794
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "20001_20007",
+            "span": {
+                "begin": 20001,
+                "end": 20007
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "20115_20121",
+            "span": {
+                "begin": 20115,
+                "end": 20121
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "20201_20207",
+            "span": {
+                "begin": 20201,
+                "end": 20207
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "20373_20387",
+            "span": {
+                "begin": 20373,
+                "end": 20387
+            },
+            "entityType": "gene",
+            "entityName": "angiopoietin-1",
+            "id": "UMLS:C0533670"
+        },
+        {
+            "entityId": "20392_20402",
+            "span": {
+                "begin": 20392,
+                "end": 20402
+            },
+            "entityType": "gene",
+            "entityName": "IGF-1alpha",
+            "id": "UMLS:C1334089"
+        },
+        {
+            "entityId": "21235_21245",
+            "span": {
+                "begin": 21235,
+                "end": 21245
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "21360_21370",
+            "span": {
+                "begin": 21360,
+                "end": 21370
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "21529_21534",
+            "span": {
+                "begin": 21529,
+                "end": 21534
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "21564_21568",
+            "span": {
+                "begin": 21564,
+                "end": 21568
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "22834_22837",
+            "span": {
+                "begin": 22834,
+                "end": 22837
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "22956_22959",
+            "span": {
+                "begin": 22956,
+                "end": 22959
+            },
+            "entityType": "drug",
+            "entityName": "Dil",
+            "id": "UMLS:CHEBI:27730"
+        },
+        {
+            "entityId": "22960_22966",
+            "span": {
+                "begin": 22960,
+                "end": 22966
+            },
+            "entityType": "gene",
+            "entityName": "Ac-LDL",
+            "id": "UMLS:C1412573"
+        },
+        {
+            "entityId": "23134_23145",
+            "span": {
+                "begin": 23134,
+                "end": 23145
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "23150_23154",
+            "span": {
+                "begin": 23150,
+                "end": 23154
+            },
+            "entityType": "gene",
+            "entityName": "CD31",
+            "id": "NCBIGene:5175"
+        },
+        {
+            "entityId": "23258_23266",
+            "span": {
+                "begin": 23258,
+                "end": 23266
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "23297_23308",
+            "span": {
+                "begin": 23297,
+                "end": 23308
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "23317_23322",
+            "span": {
+                "begin": 23317,
+                "end": 23322
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "23362_23372",
+            "span": {
+                "begin": 23362,
+                "end": 23372
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "23549_23553",
+            "span": {
+                "begin": 23549,
+                "end": 23553
+            },
+            "entityType": "drug",
+            "entityName": "DMSO",
+            "id": "UMLS:C0012403"
+        },
+        {
+            "entityId": "23569_23574",
+            "span": {
+                "begin": 23569,
+                "end": 23574
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "23586_23592",
+            "span": {
+                "begin": 23586,
+                "end": 23592
+            },
+            "entityType": "drug",
+            "entityName": "WP1066",
+            "id": "UMLS:C1957161"
+        },
+        {
+            "entityId": "23622_23632",
+            "span": {
+                "begin": 23622,
+                "end": 23632
+            },
+            "entityType": "gene",
+            "entityName": "luciferase",
+            "id": "UMLS:C0024075"
+        },
+        {
+            "entityId": "23802_23807",
+            "span": {
+                "begin": 23802,
+                "end": 23807
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "23909_23916",
+            "span": {
+                "begin": 23909,
+                "end": 23916
+            },
+            "entityType": "drug",
+            "entityName": "WP-1066",
+            "id": "UMLS:C1957161"
+        },
+        {
+            "entityId": "23953_23969",
+            "span": {
+                "begin": 23953,
+                "end": 23969
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin mRNA",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "24047_24051",
+            "span": {
+                "begin": 24047,
+                "end": 24051
+            },
+            "entityType": "drug",
+            "entityName": "DMSO",
+            "id": "UMLS:C0012403"
+        },
+        {
+            "entityId": "24791_24793",
+            "span": {
+                "begin": 24791,
+                "end": 24793
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "24913_24933",
+            "span": {
+                "begin": 24913,
+                "end": 24933
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "24980_24983",
+            "span": {
+                "begin": 24980,
+                "end": 24983
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "25147_25150",
+            "span": {
+                "begin": 25147,
+                "end": 25150
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "25173_25180",
+            "span": {
+                "begin": 25173,
+                "end": 25180
+            },
+            "entityType": "gene",
+            "entityName": "TK gene",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "25230_25232",
+            "span": {
+                "begin": 25230,
+                "end": 25232
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "26541_26544",
+            "span": {
+                "begin": 26541,
+                "end": 26544
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "26627_26630",
+            "span": {
+                "begin": 26627,
+                "end": 26630
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "26755_26757",
+            "span": {
+                "begin": 26755,
+                "end": 26757
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "26775_26777",
+            "span": {
+                "begin": 26775,
+                "end": 26777
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "26844_26846",
+            "span": {
+                "begin": 26844,
+                "end": 26846
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "26942_26946",
+            "span": {
+                "begin": 26942,
+                "end": 26946
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "26948_26951",
+            "span": {
+                "begin": 26948,
+                "end": 26951
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "26983_27000",
+            "span": {
+                "begin": 26983,
+                "end": 27000
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "27012_27026",
+            "span": {
+                "begin": 27012,
+                "end": 27026
+            },
+            "entityType": "cell",
+            "entityName": "cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "27031_27040",
+            "span": {
+                "begin": 27031,
+                "end": 27040
+            },
+            "entityType": "cell",
+            "entityName": "myoblasts",
+            "id": "UMLS:C0596995"
+        },
+        {
+            "entityId": "27084_27087",
+            "span": {
+                "begin": 27084,
+                "end": 27087
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "27135_27155",
+            "span": {
+                "begin": 27135,
+                "end": 27155
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "27237_27240",
+            "span": {
+                "begin": 27237,
+                "end": 27240
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "27256_27261",
+            "span": {
+                "begin": 27256,
+                "end": 27261
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "27307_27310",
+            "span": {
+                "begin": 27307,
+                "end": 27310
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "27384_27387",
+            "span": {
+                "begin": 27384,
+                "end": 27387
+            },
+            "entityType": "gene",
+            "entityName": "vWF",
+            "id": "UMLS:C1336938"
+        },
+        {
+            "entityId": "27474_27477",
+            "span": {
+                "begin": 27474,
+                "end": 27477
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "27554_27559",
+            "span": {
+                "begin": 27554,
+                "end": 27559
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "28321_28324",
+            "span": {
+                "begin": 28321,
+                "end": 28324
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "28435_28438",
+            "span": {
+                "begin": 28435,
+                "end": 28438
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "28463_28466",
+            "span": {
+                "begin": 28463,
+                "end": 28466
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "28544_28547",
+            "span": {
+                "begin": 28544,
+                "end": 28547
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "28622_28627",
+            "span": {
+                "begin": 28622,
+                "end": 28627
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "28686_28689",
+            "span": {
+                "begin": 28686,
+                "end": 28689
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "28760_28764",
+            "span": {
+                "begin": 28760,
+                "end": 28764
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "29089_29093",
+            "span": {
+                "begin": 29089,
+                "end": 29093
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "29127_29130",
+            "span": {
+                "begin": 29127,
+                "end": 29130
+            },
+            "entityType": "gene",
+            "entityName": "GFP",
+            "id": "UMLS:C0120285"
+        },
+        {
+            "entityId": "29160_29163",
+            "span": {
+                "begin": 29160,
+                "end": 29163
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "29320_29325",
+            "span": {
+                "begin": 29320,
+                "end": 29325
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "29505_29510",
+            "span": {
+                "begin": 29505,
+                "end": 29510
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "29530_29533",
+            "span": {
+                "begin": 29530,
+                "end": 29533
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "29596_29599",
+            "span": {
+                "begin": 29596,
+                "end": 29599
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "29614_29619",
+            "span": {
+                "begin": 29614,
+                "end": 29619
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "29712_29715",
+            "span": {
+                "begin": 29712,
+                "end": 29715
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "30162_30165",
+            "span": {
+                "begin": 30162,
+                "end": 30165
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "30179_30184",
+            "span": {
+                "begin": 30179,
+                "end": 30184
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "30240_30243",
+            "span": {
+                "begin": 30240,
+                "end": 30243
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "30270_30274",
+            "span": {
+                "begin": 30270,
+                "end": 30274
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "30412_30417",
+            "span": {
+                "begin": 30412,
+                "end": 30417
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "30576_30581",
+            "span": {
+                "begin": 30576,
+                "end": 30581
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "30642_30647",
+            "span": {
+                "begin": 30642,
+                "end": 30647
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "31566_31569",
+            "span": {
+                "begin": 31566,
+                "end": 31569
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "31719_31722",
+            "span": {
+                "begin": 31719,
+                "end": 31722
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "31797_31802",
+            "span": {
+                "begin": 31797,
+                "end": 31802
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "31877_31880",
+            "span": {
+                "begin": 31877,
+                "end": 31880
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "32143_32146",
+            "span": {
+                "begin": 32143,
+                "end": 32146
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "32243_32246",
+            "span": {
+                "begin": 32243,
+                "end": 32246
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "32320_32325",
+            "span": {
+                "begin": 32320,
+                "end": 32325
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32404_32409",
+            "span": {
+                "begin": 32404,
+                "end": 32409
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32426_32429",
+            "span": {
+                "begin": 32426,
+                "end": 32429
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "32555_32563",
+            "span": {
+                "begin": 32555,
+                "end": 32563
+            },
+            "entityType": "disease",
+            "entityName": "aneurysm",
+            "id": "UMLS:C0002940"
+        },
+        {
+            "entityId": "32731_32734",
+            "span": {
+                "begin": 32731,
+                "end": 32734
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "32792_32797",
+            "span": {
+                "begin": 32792,
+                "end": 32797
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32892_32897",
+            "span": {
+                "begin": 32892,
+                "end": 32897
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "32919_32922",
+            "span": {
+                "begin": 32919,
+                "end": 32922
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "33034_33042",
+            "span": {
+                "begin": 33034,
+                "end": 33042
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "33093_33095",
+            "span": {
+                "begin": 33093,
+                "end": 33095
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "33273_33283",
+            "span": {
+                "begin": 33273,
+                "end": 33283
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "33288_33293",
+            "span": {
+                "begin": 33288,
+                "end": 33293
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "33437_33439",
+            "span": {
+                "begin": 33437,
+                "end": 33439
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "33440_33444",
+            "span": {
+                "begin": 33440,
+                "end": 33444
+            },
+            "entityType": "species",
+            "entityName": "rats",
+            "id": "UMLS:C0034721"
+        },
+        {
+            "entityId": "33483_33486",
+            "span": {
+                "begin": 33483,
+                "end": 33486
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "33669_33678",
+            "span": {
+                "begin": 33669,
+                "end": 33678
+            },
+            "entityType": "cell",
+            "entityName": "stem cell",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "33751_33753",
+            "span": {
+                "begin": 33751,
+                "end": 33753
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "33769_33774",
+            "span": {
+                "begin": 33769,
+                "end": 33774
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "33822_33828",
+            "span": {
+                "begin": 33822,
+                "end": 33828
+            },
+            "entityType": "gene",
+            "entityName": "VEGF-A",
+            "id": "UMLS:C1823619"
+        },
+        {
+            "entityId": "33832_33836",
+            "span": {
+                "begin": 33832,
+                "end": 33836
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "33918_33922",
+            "span": {
+                "begin": 33918,
+                "end": 33922
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1256770"
+        },
+        {
+            "entityId": "34209_34219",
+            "span": {
+                "begin": 34209,
+                "end": 34219
+            },
+            "entityType": "cell",
+            "entityName": "stem cells",
+            "id": "UMLS:C0038250"
+        },
+        {
+            "entityId": "34225_34231",
+            "span": {
+                "begin": 34225,
+                "end": 34231
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "34240_34243",
+            "span": {
+                "begin": 34240,
+                "end": 34243
+            },
+            "entityType": "gene",
+            "entityName": "HIF",
+            "id": "UMLS:C3811709"
+        },
+        {
+            "entityId": "34361_34370",
+            "span": {
+                "begin": 34361,
+                "end": 34370
+            },
+            "entityType": "gene",
+            "entityName": "ubiquitin",
+            "id": "UMLS:C0041538"
+        },
+        {
+            "entityId": "34395_34398",
+            "span": {
+                "begin": 34395,
+                "end": 34398
+            },
+            "entityType": "gene",
+            "entityName": "HIF",
+            "id": "UMLS:C3811709"
+        },
+        {
+            "entityId": "34487_34491",
+            "span": {
+                "begin": 34487,
+                "end": 34491
+            },
+            "entityType": "gene",
+            "entityName": "VEGF",
+            "id": "UMLS:C1256770"
+        },
+        {
+            "entityId": "34596_34606",
+            "span": {
+                "begin": 34596,
+                "end": 34606
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "34874_34878",
+            "span": {
+                "begin": 34874,
+                "end": 34878
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "35063_35069",
+            "span": {
+                "begin": 35063,
+                "end": 35069
+            },
+            "entityType": "gene",
+            "entityName": "ac-LDL",
+            "id": "UMLS:C1412573"
+        },
+        {
+            "entityId": "35093_35109",
+            "span": {
+                "begin": 35093,
+                "end": 35109
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cell",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "35135_35140",
+            "span": {
+                "begin": 35135,
+                "end": 35140
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "35169_35171",
+            "span": {
+                "begin": 35169,
+                "end": 35171
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "35191_35195",
+            "span": {
+                "begin": 35191,
+                "end": 35195
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "35208_35223",
+            "span": {
+                "begin": 35208,
+                "end": 35223
+            },
+            "entityType": "gene",
+            "entityName": "cadherin family",
+            "id": "UMLS:C1413274"
+        },
+        {
+            "entityId": "35225_35236",
+            "span": {
+                "begin": 35225,
+                "end": 35236
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "35317_35319",
+            "span": {
+                "begin": 35317,
+                "end": 35319
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "35426_35431",
+            "span": {
+                "begin": 35426,
+                "end": 35431
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "35474_35485",
+            "span": {
+                "begin": 35474,
+                "end": 35485
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "35518_35522",
+            "span": {
+                "begin": 35518,
+                "end": 35522
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "35557_35562",
+            "span": {
+                "begin": 35557,
+                "end": 35562
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "35623_35628",
+            "span": {
+                "begin": 35623,
+                "end": 35628
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "35640_35646",
+            "span": {
+                "begin": 35640,
+                "end": 35646
+            },
+            "entityType": "drug",
+            "entityName": "WP1066",
+            "id": "UMLS:C1957161"
+        },
+        {
+            "entityId": "35690_35694",
+            "span": {
+                "begin": 35690,
+                "end": 35694
+            },
+            "entityType": "DNA",
+            "entityName": "mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "35709_35720",
+            "span": {
+                "begin": 35709,
+                "end": 35720
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "35759_35764",
+            "span": {
+                "begin": 35759,
+                "end": 35764
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "35818_35821",
+            "span": {
+                "begin": 35818,
+                "end": 35821
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "35869_35874",
+            "span": {
+                "begin": 35869,
+                "end": 35874
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "35880_35906",
+            "span": {
+                "begin": 35880,
+                "end": 35906
+            },
+            "entityType": "gene",
+            "entityName": "G protein-coupled receptor",
+            "id": "UMLS:C0682972"
+        },
+        {
+            "entityId": "35929_35938",
+            "span": {
+                "begin": 35929,
+                "end": 35938
+            },
+            "entityType": "gene",
+            "entityName": "G-protein",
+            "id": "UMLS:C0086376"
+        },
+        {
+            "entityId": "36032_36037",
+            "span": {
+                "begin": 36032,
+                "end": 36037
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36041_36045",
+            "span": {
+                "begin": 36041,
+                "end": 36045
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "36168_36173",
+            "span": {
+                "begin": 36168,
+                "end": 36173
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36258_36266",
+            "span": {
+                "begin": 36258,
+                "end": 36266
+            },
+            "entityType": "gene",
+            "entityName": "clathrin",
+            "id": "UMLS:C0008905"
+        },
+        {
+            "entityId": "36331_36336",
+            "span": {
+                "begin": 36331,
+                "end": 36336
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36477_36482",
+            "span": {
+                "begin": 36477,
+                "end": 36482
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36554_36564",
+            "span": {
+                "begin": 36554,
+                "end": 36564
+            },
+            "entityType": "gene",
+            "entityName": "SDF-1alpha",
+            "id": "UMLS:C1955901"
+        },
+        {
+            "entityId": "36565_36570",
+            "span": {
+                "begin": 36565,
+                "end": 36570
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36603_36608",
+            "span": {
+                "begin": 36603,
+                "end": 36608
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "36623_36646",
+            "span": {
+                "begin": 36623,
+                "end": 36646
+            },
+            "entityType": "cell",
+            "entityName": "ischemic cardiomyocytes",
+            "id": "UMLS:C0225828"
+        },
+        {
+            "entityId": "36708_36713",
+            "span": {
+                "begin": 36708,
+                "end": 36713
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "36744_36746",
+            "span": {
+                "begin": 36744,
+                "end": 36746
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "36766_36784",
+            "span": {
+                "begin": 36766,
+                "end": 36784
+            },
+            "entityType": "cell",
+            "entityName": "cardiac stem cells",
+            "id": "UMLS:C4084729"
+        },
+        {
+            "entityId": "36906_36911",
+            "span": {
+                "begin": 36906,
+                "end": 36911
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "36926_36931",
+            "span": {
+                "begin": 36926,
+                "end": 36931
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "36953_36957",
+            "span": {
+                "begin": 36953,
+                "end": 36957
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "37002_37005",
+            "span": {
+                "begin": 37002,
+                "end": 37005
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37032_37035",
+            "span": {
+                "begin": 37032,
+                "end": 37035
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37049_37053",
+            "span": {
+                "begin": 37049,
+                "end": 37053
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "37102_37110",
+            "span": {
+                "begin": 37102,
+                "end": 37110
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "37261_37272",
+            "span": {
+                "begin": 37261,
+                "end": 37272
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "37276_37279",
+            "span": {
+                "begin": 37276,
+                "end": 37279
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37376_37397",
+            "span": {
+                "begin": 37376,
+                "end": 37397
+            },
+            "entityType": "cell",
+            "entityName": "non-endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37426_37433",
+            "span": {
+                "begin": 37426,
+                "end": 37433
+            },
+            "entityType": "gene",
+            "entityName": "TK gene",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "37444_37464",
+            "span": {
+                "begin": 37444,
+                "end": 37464
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "37510_37513",
+            "span": {
+                "begin": 37510,
+                "end": 37513
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "37529_37532",
+            "span": {
+                "begin": 37529,
+                "end": 37532
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37546_37550",
+            "span": {
+                "begin": 37546,
+                "end": 37550
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "37618_37625",
+            "span": {
+                "begin": 37618,
+                "end": 37625
+            },
+            "entityType": "gene",
+            "entityName": "TK gene",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "37669_37671",
+            "span": {
+                "begin": 37669,
+                "end": 37671
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "37707_37727",
+            "span": {
+                "begin": 37707,
+                "end": 37727
+            },
+            "entityType": "gene",
+            "entityName": "VE-cadherin promoter",
+            "id": "UMLS:C1332729"
+        },
+        {
+            "entityId": "37731_37734",
+            "span": {
+                "begin": 37731,
+                "end": 37734
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37736_37739",
+            "span": {
+                "begin": 37736,
+                "end": 37739
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "37760_37763",
+            "span": {
+                "begin": 37760,
+                "end": 37763
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37775_37777",
+            "span": {
+                "begin": 37775,
+                "end": 37777
+            },
+            "entityType": "gene",
+            "entityName": "TK",
+            "id": "UMLS:C1336633"
+        },
+        {
+            "entityId": "37847_37850",
+            "span": {
+                "begin": 37847,
+                "end": 37850
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "37886_37903",
+            "span": {
+                "begin": 37886,
+                "end": 37903
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "37924_37928",
+            "span": {
+                "begin": 37924,
+                "end": 37928
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "37930_37939",
+            "span": {
+                "begin": 37930,
+                "end": 37939
+            },
+            "entityType": "cell",
+            "entityName": "myoblasts",
+            "id": "UMLS:C0596995"
+        },
+        {
+            "entityId": "37945_37984",
+            "span": {
+                "begin": 37945,
+                "end": 37984
+            },
+            "entityType": "cell",
+            "entityName": "normal preexisting cardiovascular cells",
+            "id": "UMLS:C1268443"
+        },
+        {
+            "entityId": "37999_38002",
+            "span": {
+                "begin": 37999,
+                "end": 38002
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "38050_38052",
+            "span": {
+                "begin": 38050,
+                "end": 38052
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "38078_38082",
+            "span": {
+                "begin": 38078,
+                "end": 38082
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "38123_38128",
+            "span": {
+                "begin": 38123,
+                "end": 38128
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "38191_38195",
+            "span": {
+                "begin": 38191,
+                "end": 38195
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "38356_38359",
+            "span": {
+                "begin": 38356,
+                "end": 38359
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "38689_38695",
+            "span": {
+                "begin": 38689,
+                "end": 38695
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "38868_38871",
+            "span": {
+                "begin": 38868,
+                "end": 38871
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "38919_38922",
+            "span": {
+                "begin": 38919,
+                "end": 38922
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "38936_38940",
+            "span": {
+                "begin": 38936,
+                "end": 38940
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "39066_39069",
+            "span": {
+                "begin": 39066,
+                "end": 39069
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "39270_39273",
+            "span": {
+                "begin": 39270,
+                "end": 39273
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "39363_39371",
+            "span": {
+                "begin": 39363,
+                "end": 39371
+            },
+            "entityType": "disease",
+            "entityName": "aneurysm",
+            "id": "UMLS:C0002940"
+        },
+        {
+            "entityId": "39428_39431",
+            "span": {
+                "begin": 39428,
+                "end": 39431
+            },
+            "entityType": "drug",
+            "entityName": "GCV",
+            "id": "UMLS:C0017066"
+        },
+        {
+            "entityId": "39594_39597",
+            "span": {
+                "begin": 39594,
+                "end": 39597
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "39770_39773",
+            "span": {
+                "begin": 39770,
+                "end": 39773
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "39815_39817",
+            "span": {
+                "begin": 39815,
+                "end": 39817
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "39837_39839",
+            "span": {
+                "begin": 39837,
+                "end": 39839
+            },
+            "entityType": "disease",
+            "entityName": "MI",
+            "id": "mesh:D009203"
+        },
+        {
+            "entityId": "39855_39857",
+            "span": {
+                "begin": 39855,
+                "end": 39857
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "39877_39881",
+            "span": {
+                "begin": 39877,
+                "end": 39881
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "39898_39903",
+            "span": {
+                "begin": 39898,
+                "end": 39903
+            },
+            "entityType": "gene",
+            "entityName": "CXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "40001_40004",
+            "span": {
+                "begin": 40001,
+                "end": 40004
+            },
+            "entityType": "cell",
+            "entityName": "ECs",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "40302_40310",
+            "span": {
+                "begin": 40302,
+                "end": 40310
+            },
+            "entityType": "gene",
+            "entityName": "MSCCXCR4",
+            "id": "UMLS:C1332823"
+        },
+        {
+            "entityId": "40362_40364",
+            "span": {
+                "begin": 40362,
+                "end": 40364
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "40384_40388",
+            "span": {
+                "begin": 40384,
+                "end": 40388
+            },
+            "entityType": "cell",
+            "entityName": "MSCs",
+            "id": "UMLS:C3178844"
+        },
+        {
+            "entityId": "40401_40411",
+            "span": {
+                "begin": 40401,
+                "end": 40411
+            },
+            "entityType": "gene",
+            "entityName": "HIF-1alpha",
+            "id": "UMLS:C1333897"
+        },
+        {
+            "entityId": "40416_40421",
+            "span": {
+                "begin": 40416,
+                "end": 40421
+            },
+            "entityType": "gene",
+            "entityName": "STAT3",
+            "id": "UMLS:C1367307"
+        },
+        {
+            "entityId": "40579_40581",
+            "span": {
+                "begin": 40579,
+                "end": 40581
+            },
+            "entityType": "cell",
+            "entityName": "EC",
+            "id": "UMLS:C0225336"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "1593_1596",
+            "subjectText": "GCV",
+            "rel_name": "stimulate",
+            "objectId": "1627_1630",
+            "objectText": "ECs"
+        },
+        {
+            "subjectID": "1490_1501",
+            "subjectText": "VE-cadherin",
+            "rel_name": "inhibit",
+            "objectId": "1552_1558",
+            "objectText": "WP1066"
+        },
+        {
+            "subjectID": "108_116",
+            "subjectText": "MSCCXCR4",
+            "rel_name": "associate",
+            "objectId": "63_85",
+            "objectText": "Mesenchymal Stem Cells"
+        }
+    ]
+}

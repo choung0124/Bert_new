@@ -1,0 +1,3583 @@
+{
+    "sourcid": "PMC3585177",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3585177/",
+    "text": "Increased Circulating miR-21 Levels Are Associated with Kidney Fibrosis MicroRNAs (miRNAs) are a class of noncoding RNA acting at a post-transcriptional level to control the expression of large sets of target mRNAs. While there is evidence that miRNAs deregulation plays a causative role in various complex disorders, their role in fibrotic kidney diseases is largely unexplored. Here, we found a strong up-regulation of miR-21 in the kidneys of mice with unilateral ureteral obstruction and also in the kidneys of patients with severe kidney fibrosis. In addition, mouse primary fibroblasts derived from fibrotic kidneys exhibited higher miR-21 expression level compared to those derived from normal kidneys. Expression of miR-21 in normal primary kidney fibroblasts was induced upon TGFbeta exposure, a key growth factor involved in fibrogenesis. Finally, ectopic expression of miR-21 in primary kidney fibroblasts was sufficient to promote myofibroblast differentiation. As circulating miRNAs have been suggested as promising non-invasive biomarkers, we further assess whether circulating miR-21 levels are associated with renal fibrosis using sera from 42 renal transplant recipients, categorized according to their renal fibrosis severity, evaluated on allograft biopsies (Interstitial Fibrosis/Tubular Atrophy (IF/TA). Circulating miR-21 levels are significantly increased in patients with severe IF/TA grade (IF/TA grade 3: 3.0+-1.0 vs lower grade of fibrosis: 1.5+-1.2; p = 0.001). By contrast, circulating miR-21 levels were not correlated with other renal histological lesions. In a multivariate linear regression model including IF/TA grade and estimated GFR, independent associations were found between circulating miR-21 levels and IF/TA score (ss = 0.307, p = 0.03), and between miR-21 levels and aMDRD (ss = -0.398, p = 0.006). Altogether, these data suggest miR-21 has a key pathogenic role in kidney fibrosis and may represent a novel, predictive and reliable blood marker of kidney fibrosis.                     Introduction Renal fibrosis, the final common end stage of a wide variety of chronic kidney diseases, is characterized by the excessive and persistent accumulation of extracellular matrix (ECM) proteins responsible for the progressive destruction of kidney parenchyma. In particular, kidney transplantation may be considered as an in vivo model of accelerated interstitial kidney fibrosis. Indeed, after renal transplantation, several processes involving both alloantigen-dependent and independent factors induce chronic allograft dysfunction and consequently a renal change characterized notably by interstitial fibrosis (IF), tubular atrophy (TA) and glomerular sclerosis. Kidney fibrosis is a complex disorder whose underlying molecular mechanisms remain largely unknown. Irrespective of the initial cause (infectious, autoimmune, toxic, obstructive...), the current paradigm suggests that aberrant wound healing of the kidney tissue following the sustained injury is the key driving process of the fibrotic response. Indeed, after the initial insult, the affected kidney tissue undergoes a cascade of molecular events to restore tissue integrity. These processes include in particular the activation of kidney resident cells followed by the release of proinflammatory cytokines along with the subsequent infiltration of inflammatory monocytes/macrophages and T cells to the injured sites. Depending on the etiology of renal injury and if the injurious condition is sustained, glomerular or interstitial infiltrated inflammatory cells become activated, and produce detrimental molecules such as pro-fibrotic and inflammatory cytokines (especially TGFbeta) or reactive oxygen species. Finally, mesangial cells, fibroblasts, and tubular epithelial cells are then stimulated and undergo phenotypic activation or transition and produce a large amount of ECM components. This continuous excessive deposition of ECM proteins results in fibrous scars and distorts the fine architecture of kidney tissue, ultimately leading to the loss of kidney function. MiRNAs, a set of approximately 22 nucleotide noncoding RNAs, are a major class of gene expression regulators with essential functions in numerous biological processes including development, differentiation, stress response, apoptosis and proliferation. Since the first miRNA was identified in Caenorhabditis elegans as an important factor for timing of larval development, about 1500 miRNAs have now been identified and/or characterized in the human genome (miRbase version 18, see http://www.mirbase.org/). To date, numerous studies have identified specific miRNA expression patterns related to the initiation and progression of various diseases including cancer as well as inflammatory, infectious and autoimmune diseases. Nevertheless, the precise role of miRNA in kidney fibrosis remains largely unknown. Increasing evidence also suggests that miRNA profiling is a promising approach to develop new biomarkers for diagnosis, prognosis or disease activity. This line of research is best exemplified with the discovery of high correlation between circulating miRNA levels and various clinico-pathological endpoints. This, along with the remarkable stability of miRNAs in plasma and serum, underscores their powerful value as a new class of blood-based biomarkers and opens new avenues for the development of non-invasive tests. To identify miRNAs with potential roles in the development of renal fibrosis, we performed a genome-wide assessment of miRNA expression in kidneys obtained from mice with unilateral ureteral obstruction, a well-established experimental model of renal fibrosis. In particular, we identified a strong up-regulation of miR-21 during the fibrogenic response to kidney injury in mice and also in renal tissue samples from patients with advanced kidney fibrosis. Therefore, since miR-21 was detected in serum, the potential of circulating miR-21 levels as a non invasive marker of kidney fibrosis was further investigated. To our knowledge, we showed for the first time that miR-21 circulating levels are significantly increased in patients affected by severe kidney fibrosis. In addition, circulating miR-21 levels were also correlated to estimated Glomerular Filtration Rate. These preliminary data suggest that circulating miR-21 expression is a potential novel and predictive marker of severe kidney fibrosis. Results miR-21 is a relevant miRNA involved in kidney fibrosis In a systematic approach to identify miRNAs involved in kidney fibrosis, we compared miRNA expression profile of fibrotic kidneys from mice 28 days after Unilateral Ureteral Obstruction (UUO) to that of control kidneys using microarray. MiRNAs were considered as statistically differentially expressed between injured and control kidneys at p-value below 0.01. We identified a panel of 50 miRNAs whose expression significantly differs between normal and fibrotic kidneys ( Figure 1A  and  Table 1 ) of which 37 were down-regulated and 13 were up-regulated in mouse fibrotic kidneys. Most notable, among the up-regulated miRNAs were miR-205, miR-342 and miR-21, while miR-29c, miR-192, miR-30b and miR-200a were significantly down-regulated. To assess the clinical relevance of these findings, differential expression of these seven representative miRNAs in the mouse model was further evaluated by real-time PCR in human fibrotic kidneys ( Figure 1B ). In particular, our data showed a strong up-regulation of miR-21 in the injured kidney (fold change of 3 between injured and control kidneys), a miRNA known to exert major pathogenic effects in tissue fibrosis. Noteworthy, in fibrotic kidneys, miR-21 exhibited the highest expression level. Then, the following experiments focused on miR-21 implication in renal fibrosis. miR-21 as a relevant miRNA involved in kidney fibrosis. (A) Heat map representing the statistically significant (Bonferroni adjusted p-value <0.01) differentially expressed microRNAs in kidneys with unilateral ureteral obstruction (UUO 28 Days) compared to control kidneys (sham). n = 4 mice in each group. (B) Differential expression of miR-29c, miR-30b, miR-200a, miR-192, miR-342-3p, miR-205 and miR-21 in UUO mouse model (array) and in human fibrotic kidneys (quantitative PCR, qPCR). Results are indicated as mean of log2 (injured kidneys versus control kidneys). Errors are presented as SEM. Significant differences in miRNA expression between injured and control kidneys, according to array or qPCR experiments were represented as follow: *p<0.05, **p<0.01. Mice: n = 4 in each group. Human: n = 10 in each group.             Expression profiles of miRNAs were performed by microarray analysis and revealed 50 differentially expressed miRNAs in UUO mouse model. p-value\tLog2 (UUO/sham)\t \tDown-regulated miRNA (n = 37)\t \tmmu-miR-192\t0.000431\t-3.8048091\t \tmmu-miR-194\t0.00008\t-3.48449657\t \tmmu-miR-144\t0.000891\t-3.17617514\t \tmmu-miR-1939\t0.001536\t-3.11770452\t \tmmu-miR-193\t0.000000\t-2.78494363\t \tmmu-miR-30e\t0.000075\t-2.63929985\t \tmmu-miR-378\t0.000001\t-2.43765114\t \tmmu-miR-2146\t0.000024\t-2.39497824\t \tmmu-miR-30e*\t0.000328\t-2.3730894\t \tmmu-miR-378*\t0.000028\t-2.3438244\t \tmmu-miR-3107\t0.000295\t-2.23862079\t \tmmu-miR-451\t0.001343\t-2.21756793\t \tmmu-miR-30c\t0.000215\t-2.17793469\t \tmmu-miR-185\t0.000043\t-2.13355136\t \tmmu-miR-107\t0.000001\t-2.11357549\t \tmmu-miR-365\t0.000021\t-2.07829141\t \tmmu-miR-29c\t0.000003\t-2.05768538\t \tmmu-miR-2134\t0.000124\t-1.95207121\t \tmmu-miR-2141\t0.000019\t-1.82916396\t \tmmu-miR-2140\t0.000028\t-1.77781433\t \tmmu-miR-30a*\t0.002073\t-1.77216121\t \tmmu-miR-29b\t0.000146\t-1.74096964\t \tmmu-miR-30a\t0.000137\t-1.72715807\t \tmmu-miR-429\t0.00018\t-1.53884554\t \tmmu-miR-22\t0.000304\t-1.4779387\t \tmmu-miR-200b\t0.00192\t-1.46695047\t \tmmu-miR-200a\t0.000364\t-1.39479684\t \tmmu-miR-221\t0.000368\t-1.37628416\t \tmmu-miR-2145\t0.000100\t-1.29225451\t \tmmu-miR-455\t0.002542\t-1.27395678\t \tmmu-miR-101a\t0.000056\t-1.227094\t \tmmu-miR-let-7g\t0.000086\t-1.22309962\t \tmmu-miR-2138\t0.000056\t-1.1250415\t \tmmu-miR-30b\t0.000004\t-1.12075616\t \tmmu-miR-2133\t0.000382\t-1.09512979\t \tmmu-miR-30d\t0.003136\t-1.08042327\t \tmmu-miR-218\t0.000175\t-1.00312769\t \tUp-regulated miRNA (n = 13)\t \tmmu-miR-205\t0.000184\t3.92700288\t \tmmu-miR-199a-3p\t0.000026\t1.98898365\t \tmmu-miR-342-3p\t0.000027\t1.95335752\t \tmmu-miR-214\t0.000015\t1.94544365\t \tmmu-miR-199a-5p\t0.000000\t1.88971783\t \tmmu-miR-223\t0.000019\t1.76768255\t \tmmu-miR-199b*\t0.000052\t1.67170497\t \tmmu-miR-21\t0.000718\t1.61857791\t \tmmu-miR-146a\t0.000001\t1.51438686\t \tmmu-miR-142-3p\t0.002995\t1.38532666\t \tmmu-miR-148a\t0.001349\t1.2935533\t \tmmu-miR-100\t0.000001\t1.15643869\t \tmmu-miR-350\t0.002692\t1.10017907                                                                                       Altered expression of miR-21 in fibrotic kidneys As depicted in  Figure 2A , mice with UUO exhibited a time dependent increased expression of miR-21 during disease progression. In situ hybridization experiments performed in the injured kidneys 28 days after UUO revealed a selective expression of miR-21 in area consistent with fibrotic lesions ( Figure 2B ). In addition, miR-21 levels were correlated with the expression of two major extracellular matrix proteins (fibronectin and type I collagen, COL1A1) released by activated kidney fibroblasts, as well as TGFbeta, a central pro-fibrotic growth factor, and alpha Smooth Muscle Actin (ACTA2), a marker of myofibroblast differentiation ( Figure 2C-F ). Furthermore, expression of miR-21 in normal primary kidney fibroblasts was significantly induced upon TGFbeta exposure ( Figure 3A and 3B ). Fibroblasts derived from fibrotic kidneys (28 days UUO) exhibited higher miR-21 expression level ( Figure 3C ) and higher ACTA2 expression ( Figure 3D ) compared to control fibroblasts. Finally, we further showed that ectopic expression of miR-21 in primary kidney fibroblasts was sufficient to promote myofibroblast differentiation, as determined by an increased in both ACTA2 ( Figure 3E ) and COL1A1 ( Figure 3F ) expression levels. Altogether, these findings strongly suggest that miR-21 is likely to be involved in the pathogenic activation of kidney fibroblasts during fibrosis. miR-21 is up-regulated in kidneys from Unilateral Ureteral Obstruction (UUO) mice. (A) miR-21 expression in kidneys from C57BL/6 mice after UUO at the indicated time points. SNO-251 was used as normalizer, n = 5 to 9 mice in each group. (B) In situ hybridization assay was performed to determine the stromal localization of miR-21 and its colocalization with alpha-SMA in kidneys of C57BL/6 mice harvested 28 days after UUO. (C) COL1A1, (D) fibronectin, (E) ACTA2 and (F) TGFbeta expression in kidney from C57BL/6 mice after UUO at the indicated time points. PPIA was used as normalizer, n = 5 to 9 mice in each group. Data are expressed as mean +- SEM. * p<0.05 and ** p<0.01.    miR-21 is expressed in activated renal fibroblasts and upregulated in response to TGFbeta stimulation . miR-21 and ACTA2 expression levels obtained by real time PCR in (A-B) control primary kidney fibroblasts exposed or not to TGF-beta1 (10 ng/mL), and in (C-D) primary fibroblasts derived from fibrotic kidneys (UUO mice) and primary fibroblasts derived from normal kidneys (sham mice). (E-F) ACTA2 and COL1A1 expression levels obtained by real time PCR in control primary kidney fibroblasts transfected with either scrambled miRNA (neg) or premiR-21 (10 nM). Data are expressed as mean +- SEM. * p<0.05.     Interestingly, miR-21 expression was strongly up-regulated in kidneys explanted from renal transplanted patients and exhibiting severe fibrosis on graft biopsies ( Figure 4A ). This tissue expression was specifically localized in myofibroblasts-rich areas, as determined by alpha-smooth muscle actin immunostaining ( Figure 4B ). miR-21 is up-regulated in kidneys from patients with severe kidney fibrosis. (A) miR-21 expression obtained by real time PCR in kidneys from patients with severe kidney fibrosis (cases n = 11) versus normal human kidneys (controls n = 12). RNU6B was used as normalizer. Data are expressed as mean +- SEM. * p<0.05. (B) In situ hybridization assay was performed to determine to determine the stromal localization of miR-21 and its colocalization with alpha-SMA in the kidney from detransplanted patients. Results represent one out of three independent experiments.      Elevated circulating miR-21 levels are associated with kidney fibrosis Patients were categorized in different groups according to renal allograft fibrosis score based on Banff classification as detailed in  Table 2 . To exclude potential biases, we determined to what extent serum miRNA levels were confounded with the baseline patient characteristics. Serum miR-21 levels were not different according to patient gender or age ( Figure 5A-B ). Serum levels of miR-21 in patients with severe fibrosis (IF/TA grade 3) were significantly elevated when compared to other patients (IF/TA grades 0, 1 and 2) (3.0+-1.0 vs 1.5+-1.2; p<0.001) ( Figure 5C ). As shown in  Figure 5D , circulating miR-21 levels gradually increased with IF/TA fibrosis grade (R = 0.376, p = 0.01). The predictive power of circulating miR-21 levels for the presence of severe kidney fibrosis (IF/TA grade 3) was evaluated by ROC-analysis ( Figure 5E ). This revealed an area under the curve of 0.891 (95% confidence interval, 0.792-0.989). By contrast, circulating miR-21 levels were not correlated with other Banff criteria related to acute inflammation, chronic vascular or glomerular changes ( Figure 6 ). Subsequently, we assessed the correlation between serum levels of miR-21 with patient renal function. MiR-21 correlated significantly to both estimated glomerular filtration rate (GFR) evaluated by aMDRD formula (regression coefficient R = -0.451, p = 0.003,  Figure 5F ) and plasmatic creatinine (R = 0.490, p<0.0001, not shown). In a model including IF/TA grade and estimated GFR, multivariate linear regression described independent associations between circulating miR-21 levels and IF/TA score (ss = 0.307, p = 0.03), as well as miR-21 levels and aMDRD (ss = -0.398, p = 0.006). By contrast, no correlation was observed between miR-21 levels and cellular lysis markers (as lactate dehydrogenase, alanine amino transferase and aspartate amino transferase) or C Reactive Protein.                                             Circulating miR-21 is a potential biomarker of kidney fibrosis. (A, B) Circulating miR-21 levels are not affected by patient gender or age. (C, D) miR-21 circulating levels are increased in patients with high grade of Interstitial Fibrosis/Tubular Atrophy grade 3 (IF/TA grade 3). MiR-16 was used as normalizer. (E) Receiver operating characteristic curve analysis displaying the diagnostic power in predicting severe kidney fibrosis (IF/TA grade 3) of circulating miR-21 levels (area under the curve (AUC): 0.891). (F) Significant correlation (p<0.003, R = -0.451) between circulating miR-21 and glomerular filtration rate (based on MDRD formula) in patients with various grade of kidney fibrosis is shown. Data are expressed as mean +- SEM. ** p<0.01.       Circulating miR-21 levels are not associated with Banff criteria related to acute lesions or chronic vascular or glomerular lesions. i: Mononuclear Cell Interstitial Inflammation, t: Tubulitis, g: Glomerulitis, v: Intimal Arteritis, ptc: Peritubular Capillaritis, cg: Allograft Glomerulopathy, mm: Mesangial Matrix Increase, cv: Fibrous Intimal Thickening, ah: Arteriolar Hyaline Thickening. NS: not significant. Patient demographics. IF/TA 0\tIF/TA 1\tIF/TA 2\tIF/TA 3\tp-value\t \tn\t13\t12\t7\t10\tns\t \tMale/Female (n)\t9/4\t8/4\t2/5\t4/6\tns\t \tPost-graft delay (months)\t19.0+-6.2\t35.9+-37.2\t66.2+-43.4\t70.9+-56.3\tp = 0.002\t \tAge (recipient, years).\t47.2+-13.0\t49.3+-15.4\t42.9+-15.4\t42.9+-15.4\tns\t \teGFR (MDRD, mL/min/1.73m2)\t34+-19\t40+-21\t42+-19\t24+-11\tns         ns: not significant, eGFR: estimated Glomerular Filtration Rate, MDRD: Modification of Diet in Renal Diseases. Discussion The discovery of serum miRNAs as potential biomarkers holds great promise to overcome the difficulties of collecting tissue samples by an invasive process. In particular, as circulating miRNAs are reliably stable and can be detected with high sensitivity and specificity, recent studies have reported that, in response to tissue injury, miRNAs expressed in specific cell types can be released into the bloodstream, reflecting therefore tissue damage. In this study, we first investigated whether the UUO mouse model accurately reflected the changes in miRNA expression occurring during human kidney fibrosis. Overall, our data showed a good concordance between miRNAs differentially expressed in human and mice fibrotic kidneys, suggesting therefore that the UUO mouse model is clinically relevant to investigate miRNA pathogenic functions. Although microarrays were performed at late stage of fibrosis (28 days after UUO), our data are consistent with previous reports based on mice that underwent a shorter obstruction period. In line with previous findings, miR-29 family members (i.e. miR-29b and miR-29c), which are involved in the regulation of ECM component synthesis, especially collagen, are under-expressed 28 days after UUO. We also observed a down-regulation of miR-192, a miRNA exhibiting both pro- and anti-fibrotic properties depending of cell phenotype. Nevertheless, controversial results have been reported, as Zarjou et al.  also observed a down-regulation of this miRNA whereas Chung et al. found an up-regulation of miR-192 using the same experimental mouse model. Given the established role of miR-21 in tissue fibrosis, we decided to focus on this miRNA by assessing whether miR-21 in addition to its profibrotic effects was a reliable non invasive blood marker of kidney fibrosis. MiR-21 is one of the most extensively studied miRNA. Previous reports have indeed shown its consistent up-regulation in various disease conditions including cancers. In the context of fibrosis, recent reports demonstrated a major role of miR-21 in mediating the pathogenic activation of lung, kidney and cardiac fibroblasts and ultimately fibrosis. Importantly, miR-21 could also be a novel promising therapeutic target to treat fibrosis. Indeed, in vivo modulation of miR-21 using antisens oligonucleotides strategy may attenuate the manifestation of chronic fibrosis. In the present study, our data confirmed the central pathogenic role played by miR-21 to orchestrate the molecular events leading to kidney fibrosis. MiR-21 expression was consistently induced in both human and mouse fibrotic kidney, especially in myofibroblasts-rich areas. In particular, miR-21 expression was well correlated with disease progression in the experimental mouse model and was significantly up-regulated as early as day 4 following UUO. Therefore, altered expression of miR-21 is likely to represent an early molecular event driving the fibrosis process rather than a secondary effect of the long-standing disease process. Although miR-21 functions have been extensively characterized in tissue fibrosis, these previous studies largely focused on miR-21 tissue expression and did not evaluate the potential of circulating miR-21 level as a biomarker of tissue fibrosis. Only Villar et al. (2012) described a correlation between myocardial and circulating miR-21 levels in aortic stenosis patients with myocardial fibrosis. Therefore, we tested the hypothesis that circulating miR-21 levels are associated with renal fibrosis and discriminate patients by fibrosis grade. Patients included in this study were renal transplant recipients treated with Tacrolimus, an anti-calcineurin known for its pro-fibrotic effects. To our best knowledge, we report for the first time that miR-21 circulating levels are not only significantly increased in patients with severe IF/TA grade but also gradually increase with IF/TA fibrosis grade. This correlation was specific of kidney fibrosis as no other significant association was found with other histological changes related to acute inflammation, chronic vascular or glomerular alterations. This strongly suggests that the increased expression of miR-21 observed in serum reflects the proportion of kidney tissue damaged by active fibrosis. Noteworthy, we observed a significant inverse correlation between circulating miR-21 levels and patient renal function status evaluated by aMDRD (abbreviated Modification of Diet in Renal Disease) formula. Nevertheless, in a multivariate analysis, circulating miR-21 levels remain associated to kidney fibrosis grade, independently of renal function. In conclusion, our results defined miR-21 as a reliable serum marker of severe kidney fibrosis in renal transplanted patients. This study highlights that assessing circulating miRNAs is a promising non invasive approach that may help to stratify patients according to kidney fibrosis grade. From this point of view, large scale assessment of circulating miRNA levels using high throughput technologies will undoubtly provide new specific markers relevant for clinicians. Methods Ethics Statement Patients provided their written informed consent. This study was performed in accordance with the Declaration of Helsinki and was approved by our local ethics committee (CPP Nord-Ouest IV). All animal care and experimental protocols were approved by the Institutional Animal Care and Use Committee (IACUC) of Lille 2 University (Protocol Number: CEEA 162011). Manipulators carried out all experimental protocols under strict guidelines to ensure careful and consistent handling of the mice. Patients 42 renal transplanted recipients uniformly treated with Tacrolimus were included. During the follow-up, biopsies were performed routinely three months after transplantation (protocol biopsies) or later on clinical indication (for cause biopsies), as described in our local regular protocol of renal transplant care. Renal fibrosis severity was evaluated according to histological criteria (interstitial fibrosis (ci) and tubular atrophy (ct) scores) defining Interstitial Fibrosis/Tubular Atrophy (IF/TA, 2007 Banff classification). Patients were selected according to IF/TA score in order to get homogeneous groups. Sera were collected at the time of biopsies. Non-pathological renal parenchyma samples were collected from twelve nephrectomies performed for renal or urinary tract cancer in patients with normal renal function. Mirror samples were analyzed by a pathologist to ensure the absence of lesion. Fibrotic renal parenchyma samples were obtained from eleven explanted renal allografts. Mouse model of kidney fibrosis All animal care and experimental protocols were conducted according to European, national and institutional regulations (Protocol Number: CEEA 162011). Manipulators carried out all experimental protocols under strict guidelines to ensure careful and consistent handling of the mice. 9-12 weeks old male C57BL/6 mice were purchased from Charles River. Mice underwent anesthesia by intraperitoneal injection of pentobarbital (50 mg/kg body weight) and were subjected to Unilateral Ureteral Obstruction (UUO). After standard laparotomy, the left proximal ureter was exposed and ligated with 4-0 silk at two points. The sham operation consisted of a similar identification of the left ureter without ligation.     Histopathology Human and mouse kidney samples from non-pathological and fibrotic kidney specimens were formalin-fixed and paraffin-embedded. Three-micrometer-thick sections were stained with hematoxylin and eosin as well as Masson's trichrome to assess the degree of fibrosis. Grading was performed according to updated Banff 07 classification. Mouse renal fibroblast primary culture Mouse kidneys were dissected in 1 mm3 fragments. Fragments were incubated 30 min at 37 C in 5 mL of complete Dulbecco's Modified Eagle Medium (DMEM) containing 10% fetal bovine serum (FBS), 1% penicillin/streptomycin and 2 mg/mL collagenase IV (200 U/mL, Invitrogen). This step was performed three times and the suspension was filtered after each digestion step on 70 microm filters. Cells were centrifuged 5 min at 1200 rpm and washed twice with Phosphate Buffer Saline (PBS). Cells were cultured with complete DMEM (10% FBS) at 37 C with 5% v/v CO2 in a humidified atmosphere. One hour after plating, medium was changed to remove non adherent epithelial cells. Pre-miRNAs overexpression in kidney fibroblasts Pre-miR-21 and control miRNA (miR-Neg # 1) were purchased from Ambion. Primary mouse renal fibroblasts were grown in 10% FBS in DMEM and transfected at 50% confluency in 6-well plates using Lipofectamin RNAi MAX  (Invitrogen) with pre-miRNA at a 10 nM final concentration. Recombinant TGFbeta was purchased from Sigma-Aldrich. miRNAs isolation from serum Total RNAs, including miRNAs, were extracted from 200 microL of serum using miRNeasy Mini kit (Qiagen) with few modifications. In particular, 4 microg MSII RNA (Roche) were added to samples chloroform extraction. Tissues and cells RNA extraction Total RNA were extracted from tissue and cell samples with the miRNeasy Mini kit (Qiagen). Integrity of RNA was assessed by using an Experion Automated Electrophoresis System (Biorad) (RQI above 8). For human formalin-fixed and paraffin-embedded kidney samples, total RNA was obtained using the RecoverAll  Total Nucleic Acid Isolation Kit (Ambion).   Array analysis MicroRNA profiling was performed with an Agilent GeneChip  Mouse miRNA Microarray containing 567 microRNAs (Sanger miRbase release 10.1), in accordance with the protocol described by the manufacturer (Agilent). MicroRNA microarray data were log2 transformed and normalized to the mean of each array, and a t-test was used to identify those microRNAs that were differentially expressed (p<0.01) between injured kidneys and controls. The experimental data and microarray design have been deposited in the NCBI Gene Expression Omnibus (GEO) (http://www.ncbi.nlm.nih.gov/geo/) under serie GSE39831.  Quantitative RT-PCR Mature miRNAs expression MiR-21 expression was evaluated using TaqMan MicroRNA Assay (Applied Biosystems) as described in their protocol. Real-time PCR was performed using Master Mix II, no UNG (Applied Biosystems) and Step One Plus Real Time PCR System. Expression levels of mature microRNAs were calculated based on the comparative threshold cycle method (2-DeltaDeltaCT). Gene expression Expression levels of fibronectin, collagen 1, TGFbeta and alphaSMA (ACTA2) were analyzed using TaqMan MicroRNA Assay (Applied Biosystems) according to the manufacturer's instructions. Real-time PCR was performed using TaqMan  Gene Expression Master Mix (Applied Biosystems) and Step One Plus Real Time PCR System. Expression levels of mRNA were assessed using the comparative threshold cycle method (2-DeltaDeltaCT). PPIA (cyclophilin A) was used as normalizer. Immunohistochemistry Immunohistochemical study was performed on an automated immunostainer (Benchmark XT, Ventana) with the XT ultraview diaminobenzidine kit. Dewaxed samples were subjected to antigen retrieval in Tris-EDTA buffer pH 9 for 30 min, then incubated with the primary antibody anti-human alpha smooth muscle antigen (clone 1A4, DAKO; dilution 1/200). Negative controls were performed by omitting primary antibodies. In situ hybridization  In situ hybridization of miR-21 was performed using double DIG-labeled LNA probes (Exiqon, Woburn, MA). Paraffin-embedded mouse kidneys were dewaxed in xylene and rehydrated in descending grades of alcohol. Slides were then washed in PBS (pH 7.5) and permeabilized by incubating in proteinase K (Exiqon) for 15 min at 37 C. The slides were again washed in PBS, and prehybridized in hybridization buffer (Exiqon) in a humidified chamber. The 5' DIG-labeled LNA probes were then added to the sections at a 80 nM concentration and incubated 2 hours at 50 C in a humidified chamber. Slides were rinsed in 5X SSC, 1X SSC and 0.2X SSC solutions at the same hybridization temperature and rinsed again with 0.2X SSC at room temperature. This was followed by blocking with 2% sheep serum, 2 mg/mL Bovine Serum Albumine in PBS +0.1% Tween 20 (PBST) and incubation with anti-DIG-AP Fab fragments antibody (1:800) (Roche Applied Sciences) for 2 hours at room temperature. After washing in PBST, the color reaction was carried out by incubation in 5-bromo-4-chloro-3-indolyl phosphate (BCIP)/nitro blue tetrazolium (NBT) color solution (Roche Applied Sciences) with 1 mM levamisole overnight at room temperature. The color reaction was stopped after observation of sufficient development of blue precipitate by washing with PBST. Slides were then counterstained with Fast-Red.        Statistical analysis Results of experimental data are given as mean +- Standard Error of the Mean (S.E.M). Statistical significance between experimental groups was assessed using ANOVA, unpaired Student's t-test or non parametric test. Correlations between serum levels of miRNA and clinical values were determined by calculating the Pearson correlation coefficient. In order to appreciate the accuracy of miR-21 as kidney fibrosis marker (IF/TA grade 3), a Receiver Operating Characteristic (ROC) curve was generated. To analyze association between miR-21 and covariables, we performed multivariable linear regression. Statistical analyses were performed using the SPSS package, version 15.0 for Windows (Chicago, Illinois, USA). Significance was assumed at a p level of less than 5%. References Mechanisms of tubulointerstitial fibrosis Renal fibrosis: novel insights into mechanisms and therapeutic targets Association of caveolin-1 gene polymorphism with kidney transplant fibrosis and allograft failure The pathology of chronic allograft dysfunction An integrative view on the role of TGF-beta in the progressive tubular deletion associated with chronic kidney disease Diverse roles of TGF-beta/Smads in renal fibrosis and inflammation Transforming growth factor-beta and fibrosis Renal fibrosis: new insights into the pathogenesis and therapeutics Mechanisms of tubulointerstitial fibrosis How microRNAs control cell division, differentiation and death An abundant class of tiny RNAs with probable regulatory roles in Caenorhabditis elegans Identification of novel genes coding for small expressed RNAs Non-coding RNAs in human disease MicroRNAs in Human Diseases: From Lung, Liver and Kidney Diseases to Infectious Disease, Sickle Cell Disease and Endometrium Disease MicroRNAs and the regulation of fibrosis MicroRNAs in kidney function and disease miRNAs and their potential for use against cancer and other diseases Toxicological implications of modulation of gene expression by microRNAs MicroRNA identification in plasma and serum: a new tool to diagnose and monitor diseases MicroRNAs in body fluids - the mix of hormones and biomarkers   Extracellular microRNA: a new source of biomarkers Ureteral obstruction as a model of renal interstitial fibrosis and obstructive nephropathy Prognostic role of microRNA-21 in various carcinomas: a systematic review and meta-analysis MicroRNA-21: a novel therapeutic target in human cancer Serum microRNAs are promising novel biomarkers Characterization of microRNAs in serum: a novel class of biomarkers for diagnosis of cancer and other diseases Identification of a microRNA signature in renal fibrosis: role of miR-21 MicroRNA-21 promotes fibrosis of the kidney by silencing metabolic pathways Duffield J, Grafals M, Portilla D. MicroRNAs are potential therapeutic targets in fibrosing kidney disease: lessons from animal models. Drug Disovery Today Disease Models. In press. TGF-beta/Smad3 signaling promotes renal fibrosis by inhibiting miR-29 Micro-RNA profiling reveals a role for miR-29 in human and murine liver fibrosis Dysregulation of microRNAs after myocardial infarction reveals a role of miR-29 in cardiac fibrosis Pleiotropy of microRNA-192 in the kidney miR-192 mediates TGF-beta/Smad3-driven renal fibrosis miR-21 as a key regulator of oncogenic processes miR-21: a small multi-faceted RNA MicroRNA and cancer - focus on apoptosis   miR-21 mediates fibrogenic activation of pulmonary fibroblasts and lung fibrosis MicroRNAs in idiopathic pulmonary fibrosis Smad3-mediated upregulation of miR-21 promotes renal fibrosis MicroRNAs in the cardiovascular system Comparison of different miR-21 inhibitor chemistries in a cardiac disease model Villar AV, Garcia R, Merino D, Llano M, Cobo M, .. (2012) Myocardial and circulating levels of microRNA-21 reflect left ventricular fibrosis in aortic stenosis patients. Int J Cardiol. Aug 8. (Epub ahead of print).  Calcineurin inhibitor nephrotoxicity The pharmacogenetics of calcineurin inhibitor-related nephrotoxicity Banff 07 classification of renal allograft pathology: updates and future directions Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method",
+    "entities": [
+        {
+            "entityId": "22_28",
+            "span": {
+                "begin": 22,
+                "end": 28
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "56_71",
+            "span": {
+                "begin": 56,
+                "end": 71
+            },
+            "entityType": "disease",
+            "entityName": "Kidney Fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "72_81",
+            "span": {
+                "begin": 72,
+                "end": 81
+            },
+            "entityType": "DNA",
+            "entityName": "MicroRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "83_89",
+            "span": {
+                "begin": 83,
+                "end": 89
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "106_119",
+            "span": {
+                "begin": 106,
+                "end": 119
+            },
+            "entityType": "DNA",
+            "entityName": "noncoding RNA",
+            "id": "UMLS:C0887909"
+        },
+        {
+            "entityId": "202_214",
+            "span": {
+                "begin": 202,
+                "end": 214
+            },
+            "entityType": "DNA",
+            "entityName": "target mRNAs",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "245_251",
+            "span": {
+                "begin": 245,
+                "end": 251
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "299_316",
+            "span": {
+                "begin": 299,
+                "end": 316
+            },
+            "entityType": "disease",
+            "entityName": "complex disorders",
+            "id": "UMLS:C0012634"
+        },
+        {
+            "entityId": "332_356",
+            "span": {
+                "begin": 332,
+                "end": 356
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic kidney diseases",
+            "id": "UMLS:C0022658"
+        },
+        {
+            "entityId": "421_427",
+            "span": {
+                "begin": 421,
+                "end": 427
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "446_450",
+            "span": {
+                "begin": 446,
+                "end": 450
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "456_487",
+            "span": {
+                "begin": 456,
+                "end": 487
+            },
+            "entityType": "disease",
+            "entityName": "unilateral ureteral obstruction",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "515_523",
+            "span": {
+                "begin": 515,
+                "end": 523
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "536_551",
+            "span": {
+                "begin": 536,
+                "end": 551
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "566_591",
+            "span": {
+                "begin": 566,
+                "end": 591
+            },
+            "entityType": "cell",
+            "entityName": "mouse primary fibroblasts",
+            "id": "UMLS:C1522260"
+        },
+        {
+            "entityId": "605_621",
+            "span": {
+                "begin": 605,
+                "end": 621
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic kidneys",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "639_645",
+            "span": {
+                "begin": 639,
+                "end": 645
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "724_730",
+            "span": {
+                "begin": 724,
+                "end": 730
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "741_767",
+            "span": {
+                "begin": 741,
+                "end": 767
+            },
+            "entityType": "cell",
+            "entityName": "primary kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "785_792",
+            "span": {
+                "begin": 785,
+                "end": 792
+            },
+            "entityType": "gene",
+            "entityName": "TGFbeta",
+            "id": "UMLS:C1527196"
+        },
+        {
+            "entityId": "880_886",
+            "span": {
+                "begin": 880,
+                "end": 886
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "890_916",
+            "span": {
+                "begin": 890,
+                "end": 916
+            },
+            "entityType": "cell",
+            "entityName": "primary kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "943_956",
+            "span": {
+                "begin": 943,
+                "end": 956
+            },
+            "entityType": "cell",
+            "entityName": "myofibroblast",
+            "id": "UMLS:C0225360"
+        },
+        {
+            "entityId": "989_995",
+            "span": {
+                "begin": 989,
+                "end": 995
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "1092_1098",
+            "span": {
+                "begin": 1092,
+                "end": 1098
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "1126_1140",
+            "span": {
+                "begin": 1126,
+                "end": 1140
+            },
+            "entityType": "disease",
+            "entityName": "renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "1220_1234",
+            "span": {
+                "begin": 1220,
+                "end": 1234
+            },
+            "entityType": "disease",
+            "entityName": "renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "1278_1299",
+            "span": {
+                "begin": 1278,
+                "end": 1299
+            },
+            "entityType": "disease",
+            "entityName": "Interstitial Fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "1317_1319",
+            "span": {
+                "begin": 1317,
+                "end": 1319
+            },
+            "entityType": "disease",
+            "entityName": "IF",
+            "id": "mesh:D049912"
+        },
+        {
+            "entityId": "1320_1322",
+            "span": {
+                "begin": 1320,
+                "end": 1322
+            },
+            "entityType": "disease",
+            "entityName": "TA",
+            "id": "mesh:D013700"
+        },
+        {
+            "entityId": "1337_1343",
+            "span": {
+                "begin": 1337,
+                "end": 1343
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "1382_1390",
+            "span": {
+                "begin": 1382,
+                "end": 1390
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "1403_1405",
+            "span": {
+                "begin": 1403,
+                "end": 1405
+            },
+            "entityType": "disease",
+            "entityName": "IF",
+            "id": "mesh:D049912"
+        },
+        {
+            "entityId": "1458_1466",
+            "span": {
+                "begin": 1458,
+                "end": 1466
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "1515_1521",
+            "span": {
+                "begin": 1515,
+                "end": 1521
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "1727_1733",
+            "span": {
+                "begin": 1727,
+                "end": 1733
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "1793_1799",
+            "span": {
+                "begin": 1793,
+                "end": 1799
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "1874_1880",
+            "span": {
+                "begin": 1874,
+                "end": 1880
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "1910_1925",
+            "span": {
+                "begin": 1910,
+                "end": 1925
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "1993_2008",
+            "span": {
+                "begin": 1993,
+                "end": 2008
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "2043_2057",
+            "span": {
+                "begin": 2043,
+                "end": 2057
+            },
+            "entityType": "disease",
+            "entityName": "Renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "2107_2130",
+            "span": {
+                "begin": 2107,
+                "end": 2130
+            },
+            "entityType": "disease",
+            "entityName": "chronic kidney diseases",
+            "id": "UMLS:C1561643"
+        },
+        {
+            "entityId": "2390_2418",
+            "span": {
+                "begin": 2390,
+                "end": 2418
+            },
+            "entityType": "disease",
+            "entityName": "interstitial kidney fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "2543_2572",
+            "span": {
+                "begin": 2543,
+                "end": 2572
+            },
+            "entityType": "disease",
+            "entityName": "chronic allograft dysfunction",
+            "id": "UMLS:C0231178"
+        },
+        {
+            "entityId": "2630_2651",
+            "span": {
+                "begin": 2630,
+                "end": 2651
+            },
+            "entityType": "disease",
+            "entityName": "interstitial fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "2653_2655",
+            "span": {
+                "begin": 2653,
+                "end": 2655
+            },
+            "entityType": "disease",
+            "entityName": "IF",
+            "id": "mesh:D049912"
+        },
+        {
+            "entityId": "2675_2677",
+            "span": {
+                "begin": 2675,
+                "end": 2677
+            },
+            "entityType": "disease",
+            "entityName": "TA",
+            "id": "mesh:D013700"
+        },
+        {
+            "entityId": "2683_2703",
+            "span": {
+                "begin": 2683,
+                "end": 2703
+            },
+            "entityType": "disease",
+            "entityName": "glomerular sclerosis",
+            "id": "UMLS:C0178664"
+        },
+        {
+            "entityId": "2705_2720",
+            "span": {
+                "begin": 2705,
+                "end": 2720
+            },
+            "entityType": "disease",
+            "entityName": "Kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "3354_3376",
+            "span": {
+                "begin": 3354,
+                "end": 3376
+            },
+            "entityType": "cell",
+            "entityName": "inflammatory monocytes",
+            "id": "UMLS:C0026473"
+        },
+        {
+            "entityId": "3377_3388",
+            "span": {
+                "begin": 3377,
+                "end": 3388
+            },
+            "entityType": "cell",
+            "entityName": "macrophages",
+            "id": "UMLS:C0024432"
+        },
+        {
+            "entityId": "3510_3567",
+            "span": {
+                "begin": 3510,
+                "end": 3567
+            },
+            "entityType": "cell",
+            "entityName": "glomerular or interstitial infiltrated inflammatory cells",
+            "id": "UMLS:C0440752"
+        },
+        {
+            "entityId": "3680_3687",
+            "span": {
+                "begin": 3680,
+                "end": 3687
+            },
+            "entityType": "gene",
+            "entityName": "TGFbeta",
+            "id": "UMLS:C1527196"
+        },
+        {
+            "entityId": "3701_3707",
+            "span": {
+                "begin": 3701,
+                "end": 3707
+            },
+            "entityType": "drug",
+            "entityName": "oxygen",
+            "id": "UMLS:C0030054"
+        },
+        {
+            "entityId": "3726_3741",
+            "span": {
+                "begin": 3726,
+                "end": 3741
+            },
+            "entityType": "cell",
+            "entityName": "mesangial cells",
+            "id": "UMLS:C0227651"
+        },
+        {
+            "entityId": "3743_3754",
+            "span": {
+                "begin": 3743,
+                "end": 3754
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "4081_4087",
+            "span": {
+                "begin": 4081,
+                "end": 4087
+            },
+            "entityType": "DNA",
+            "entityName": "MiRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "4112_4140",
+            "span": {
+                "begin": 4112,
+                "end": 4140
+            },
+            "entityType": "DNA",
+            "entityName": "22 nucleotide noncoding RNAs",
+            "id": "UMLS:C0887909"
+        },
+        {
+            "entityId": "4350_4355",
+            "span": {
+                "begin": 4350,
+                "end": 4355
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "4374_4396",
+            "span": {
+                "begin": 4374,
+                "end": 4396
+            },
+            "entityType": "species",
+            "entityName": "Caenorhabditis elegans",
+            "id": "UMLS:C0162610"
+        },
+        {
+            "entityId": "4465_4471",
+            "span": {
+                "begin": 4465,
+                "end": 4471
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "4640_4645",
+            "span": {
+                "begin": 4640,
+                "end": 4645
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "4738_4744",
+            "span": {
+                "begin": 4738,
+                "end": 4744
+            },
+            "entityType": "disease",
+            "entityName": "cancer",
+            "id": "UMLS:C0006826"
+        },
+        {
+            "entityId": "4756_4795",
+            "span": {
+                "begin": 4756,
+                "end": 4795
+            },
+            "entityType": "disease",
+            "entityName": "inflammatory, infectious and autoimmune",
+            "id": "UMLS:C0443146"
+        },
+        {
+            "entityId": "4849_4864",
+            "span": {
+                "begin": 4849,
+                "end": 4864
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "5142_5147",
+            "span": {
+                "begin": 5142,
+                "end": 5147
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "5244_5250",
+            "span": {
+                "begin": 5244,
+                "end": 5250
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "5423_5429",
+            "span": {
+                "begin": 5423,
+                "end": 5429
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "5473_5487",
+            "span": {
+                "begin": 5473,
+                "end": 5487
+            },
+            "entityType": "disease",
+            "entityName": "renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "5530_5535",
+            "span": {
+                "begin": 5530,
+                "end": 5535
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "5572_5576",
+            "span": {
+                "begin": 5572,
+                "end": 5576
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5593_5613",
+            "span": {
+                "begin": 5593,
+                "end": 5613
+            },
+            "entityType": "disease",
+            "entityName": "ureteral obstruction",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "5656_5670",
+            "span": {
+                "begin": 5656,
+                "end": 5670
+            },
+            "entityType": "disease",
+            "entityName": "renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "5727_5733",
+            "span": {
+                "begin": 5727,
+                "end": 5733
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "5785_5789",
+            "span": {
+                "begin": 5785,
+                "end": 5789
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5828_5836",
+            "span": {
+                "begin": 5828,
+                "end": 5836
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "5842_5866",
+            "span": {
+                "begin": 5842,
+                "end": 5866
+            },
+            "entityType": "disease",
+            "entityName": "advanced kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "5885_5891",
+            "span": {
+                "begin": 5885,
+                "end": 5891
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "5944_5950",
+            "span": {
+                "begin": 5944,
+                "end": 5950
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "5986_6001",
+            "span": {
+                "begin": 5986,
+                "end": 6001
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "6080_6086",
+            "span": {
+                "begin": 6080,
+                "end": 6086
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "6137_6145",
+            "span": {
+                "begin": 6137,
+                "end": 6145
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "6165_6180",
+            "span": {
+                "begin": 6165,
+                "end": 6180
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "6207_6213",
+            "span": {
+                "begin": 6207,
+                "end": 6213
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "6331_6337",
+            "span": {
+                "begin": 6331,
+                "end": 6337
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "6402_6417",
+            "span": {
+                "begin": 6402,
+                "end": 6417
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "6427_6433",
+            "span": {
+                "begin": 6427,
+                "end": 6433
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "6466_6481",
+            "span": {
+                "begin": 6466,
+                "end": 6481
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "6519_6525",
+            "span": {
+                "begin": 6519,
+                "end": 6525
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "6538_6553",
+            "span": {
+                "begin": 6538,
+                "end": 6553
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "6567_6572",
+            "span": {
+                "begin": 6567,
+                "end": 6572
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "6617_6621",
+            "span": {
+                "begin": 6617,
+                "end": 6621
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "6636_6667",
+            "span": {
+                "begin": 6636,
+                "end": 6667
+            },
+            "entityType": "disease",
+            "entityName": "Unilateral Ureteral Obstruction",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "6669_6672",
+            "span": {
+                "begin": 6669,
+                "end": 6672
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "6719_6725",
+            "span": {
+                "begin": 6719,
+                "end": 6725
+            },
+            "entityType": "DNA",
+            "entityName": "MiRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "6871_6877",
+            "span": {
+                "begin": 6871,
+                "end": 6877
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "6936_6944",
+            "span": {
+                "begin": 6936,
+                "end": 6944
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic",
+            "id": "mesh:D005355"
+        },
+        {
+            "entityId": "7041_7046",
+            "span": {
+                "begin": 7041,
+                "end": 7046
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7047_7055",
+            "span": {
+                "begin": 7047,
+                "end": 7055
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic",
+            "id": "mesh:D005355"
+        },
+        {
+            "entityId": "7102_7108",
+            "span": {
+                "begin": 7102,
+                "end": 7108
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "7114_7121",
+            "span": {
+                "begin": 7114,
+                "end": 7121
+            },
+            "entityType": "gene",
+            "entityName": "miR-205",
+            "id": "NCBIGene:406988"
+        },
+        {
+            "entityId": "7123_7130",
+            "span": {
+                "begin": 7123,
+                "end": 7130
+            },
+            "entityType": "gene",
+            "entityName": "miR-342",
+            "id": "NCBIGene:442909"
+        },
+        {
+            "entityId": "7135_7141",
+            "span": {
+                "begin": 7135,
+                "end": 7141
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "7149_7156",
+            "span": {
+                "begin": 7149,
+                "end": 7156
+            },
+            "entityType": "gene",
+            "entityName": "miR-29c",
+            "id": "NCBIGene:407026"
+        },
+        {
+            "entityId": "7158_7165",
+            "span": {
+                "begin": 7158,
+                "end": 7165
+            },
+            "entityType": "gene",
+            "entityName": "miR-192",
+            "id": "NCBIGene:406967"
+        },
+        {
+            "entityId": "7167_7174",
+            "span": {
+                "begin": 7167,
+                "end": 7174
+            },
+            "entityType": "gene",
+            "entityName": "miR-30b",
+            "id": "NCBIGene:407030"
+        },
+        {
+            "entityId": "7179_7187",
+            "span": {
+                "begin": 7179,
+                "end": 7187
+            },
+            "entityType": "gene",
+            "entityName": "miR-200a",
+            "id": "NCBIGene:406983"
+        },
+        {
+            "entityId": "7329_7335",
+            "span": {
+                "begin": 7329,
+                "end": 7335
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "7343_7348",
+            "span": {
+                "begin": 7343,
+                "end": 7348
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7397_7402",
+            "span": {
+                "begin": 7397,
+                "end": 7402
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "7403_7419",
+            "span": {
+                "begin": 7403,
+                "end": 7419
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic kidneys",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "7492_7498",
+            "span": {
+                "begin": 7492,
+                "end": 7498
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "7579_7584",
+            "span": {
+                "begin": 7579,
+                "end": 7584
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "7628_7643",
+            "span": {
+                "begin": 7628,
+                "end": 7643
+            },
+            "entityType": "disease",
+            "entityName": "tissue fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "7660_7676",
+            "span": {
+                "begin": 7660,
+                "end": 7676
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic kidneys",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "7678_7684",
+            "span": {
+                "begin": 7678,
+                "end": 7684
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "7768_7774",
+            "span": {
+                "begin": 7768,
+                "end": 7774
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "7790_7804",
+            "span": {
+                "begin": 7790,
+                "end": 7804
+            },
+            "entityType": "disease",
+            "entityName": "renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "10729_10735",
+            "span": {
+                "begin": 10729,
+                "end": 10735
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "10739_10755",
+            "span": {
+                "begin": 10739,
+                "end": 10755
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic kidneys",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "10784_10788",
+            "span": {
+                "begin": 10784,
+                "end": 10788
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10794_10797",
+            "span": {
+                "begin": 10794,
+                "end": 10797
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "10849_10855",
+            "span": {
+                "begin": 10849,
+                "end": 10855
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "10965_10968",
+            "span": {
+                "begin": 10965,
+                "end": 10968
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "11004_11010",
+            "span": {
+                "begin": 11004,
+                "end": 11010
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "11080_11086",
+            "span": {
+                "begin": 11080,
+                "end": 11086
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "11174_11185",
+            "span": {
+                "begin": 11174,
+                "end": 11185
+            },
+            "entityType": "gene",
+            "entityName": "fibronectin",
+            "id": "UMLS:C1570610"
+        },
+        {
+            "entityId": "11190_11205",
+            "span": {
+                "begin": 11190,
+                "end": 11205
+            },
+            "entityType": "gene",
+            "entityName": "type I collagen",
+            "id": "UMLS:C0041455"
+        },
+        {
+            "entityId": "11207_11213",
+            "span": {
+                "begin": 11207,
+                "end": 11213
+            },
+            "entityType": "gene",
+            "entityName": "COL1A1",
+            "id": "NCBIGene:1277"
+        },
+        {
+            "entityId": "11237_11255",
+            "span": {
+                "begin": 11237,
+                "end": 11255
+            },
+            "entityType": "cell",
+            "entityName": "kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "11268_11275",
+            "span": {
+                "begin": 11268,
+                "end": 11275
+            },
+            "entityType": "gene",
+            "entityName": "TGFbeta",
+            "id": "UMLS:C1527196"
+        },
+        {
+            "entityId": "11319_11344",
+            "span": {
+                "begin": 11319,
+                "end": 11344
+            },
+            "entityType": "gene",
+            "entityName": "alpha Smooth Muscle Actin",
+            "id": "UMLS:C1825843"
+        },
+        {
+            "entityId": "11346_11351",
+            "span": {
+                "begin": 11346,
+                "end": 11351
+            },
+            "entityType": "gene",
+            "entityName": "ACTA2",
+            "id": "UMLS:C1412137"
+        },
+        {
+            "entityId": "11440_11446",
+            "span": {
+                "begin": 11440,
+                "end": 11446
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "11457_11483",
+            "span": {
+                "begin": 11457,
+                "end": 11483
+            },
+            "entityType": "cell",
+            "entityName": "primary kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "11515_11522",
+            "span": {
+                "begin": 11515,
+                "end": 11522
+            },
+            "entityType": "gene",
+            "entityName": "TGFbeta",
+            "id": "UMLS:C1527196"
+        },
+        {
+            "entityId": "11554_11565",
+            "span": {
+                "begin": 11554,
+                "end": 11565
+            },
+            "entityType": "cell",
+            "entityName": "Fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "11579_11595",
+            "span": {
+                "begin": 11579,
+                "end": 11595
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic kidneys",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "11605_11608",
+            "span": {
+                "begin": 11605,
+                "end": 11608
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "11627_11633",
+            "span": {
+                "begin": 11627,
+                "end": 11633
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "11676_11681",
+            "span": {
+                "begin": 11676,
+                "end": 11681
+            },
+            "entityType": "gene",
+            "entityName": "ACTA2",
+            "id": "UMLS:C1412137"
+        },
+        {
+            "entityId": "11727_11738",
+            "span": {
+                "begin": 11727,
+                "end": 11738
+            },
+            "entityType": "cell",
+            "entityName": "fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "11794_11800",
+            "span": {
+                "begin": 11794,
+                "end": 11800
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "11804_11830",
+            "span": {
+                "begin": 11804,
+                "end": 11830
+            },
+            "entityType": "cell",
+            "entityName": "primary kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "11857_11870",
+            "span": {
+                "begin": 11857,
+                "end": 11870
+            },
+            "entityType": "cell",
+            "entityName": "myofibroblast",
+            "id": "UMLS:C0225360"
+        },
+        {
+            "entityId": "11926_11931",
+            "span": {
+                "begin": 11926,
+                "end": 11931
+            },
+            "entityType": "gene",
+            "entityName": "ACTA2",
+            "id": "UMLS:C1412137"
+        },
+        {
+            "entityId": "11950_11956",
+            "span": {
+                "begin": 11950,
+                "end": 11956
+            },
+            "entityType": "gene",
+            "entityName": "COL1A1",
+            "id": "NCBIGene:1277"
+        },
+        {
+            "entityId": "12039_12045",
+            "span": {
+                "begin": 12039,
+                "end": 12045
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "12103_12121",
+            "span": {
+                "begin": 12103,
+                "end": 12121
+            },
+            "entityType": "cell",
+            "entityName": "kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "12129_12137",
+            "span": {
+                "begin": 12129,
+                "end": 12137
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "13445_13451",
+            "span": {
+                "begin": 13445,
+                "end": 13451
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "13534_13542",
+            "span": {
+                "begin": 13534,
+                "end": 13542
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "13565_13573",
+            "span": {
+                "begin": 13565,
+                "end": 13573
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "13660_13674",
+            "span": {
+                "begin": 13660,
+                "end": 13674
+            },
+            "entityType": "cell",
+            "entityName": "myofibroblasts",
+            "id": "UMLS:C0225360"
+        },
+        {
+            "entityId": "13704_13729",
+            "span": {
+                "begin": 13704,
+                "end": 13729
+            },
+            "entityType": "gene",
+            "entityName": "alpha-smooth muscle actin",
+            "id": "UMLS:C1825843"
+        },
+        {
+            "entityId": "14350_14356",
+            "span": {
+                "begin": 14350,
+                "end": 14356
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "14384_14399",
+            "span": {
+                "begin": 14384,
+                "end": 14399
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "14400_14408",
+            "span": {
+                "begin": 14400,
+                "end": 14408
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14475_14483",
+            "span": {
+                "begin": 14475,
+                "end": 14483
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "14604_14615",
+            "span": {
+                "begin": 14604,
+                "end": 14615
+            },
+            "entityType": "DNA",
+            "entityName": "serum miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "14657_14664",
+            "span": {
+                "begin": 14657,
+                "end": 14664
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14682_14694",
+            "span": {
+                "begin": 14682,
+                "end": 14694
+            },
+            "entityType": "gene",
+            "entityName": "Serum miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "14734_14741",
+            "span": {
+                "begin": 14734,
+                "end": 14741
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14789_14795",
+            "span": {
+                "begin": 14789,
+                "end": 14795
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "14799_14807",
+            "span": {
+                "begin": 14799,
+                "end": 14807
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "14820_14828",
+            "span": {
+                "begin": 14820,
+                "end": 14828
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "14896_14904",
+            "span": {
+                "begin": 14896,
+                "end": 14904
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15015_15021",
+            "span": {
+                "begin": 15015,
+                "end": 15021
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "15060_15068",
+            "span": {
+                "begin": 15060,
+                "end": 15068
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "15134_15140",
+            "span": {
+                "begin": 15134,
+                "end": 15140
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "15175_15190",
+            "span": {
+                "begin": 15175,
+                "end": 15190
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "15364_15370",
+            "span": {
+                "begin": 15364,
+                "end": 15370
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "15574_15580",
+            "span": {
+                "begin": 15574,
+                "end": 15580
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "15586_15593",
+            "span": {
+                "begin": 15586,
+                "end": 15593
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "15610_15616",
+            "span": {
+                "begin": 15610,
+                "end": 15616
+            },
+            "entityType": "gene",
+            "entityName": "MiR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "15794_15804",
+            "span": {
+                "begin": 15794,
+                "end": 15804
+            },
+            "entityType": "drug",
+            "entityName": "creatinine",
+            "id": "UMLS:C0010294"
+        },
+        {
+            "entityId": "15977_15983",
+            "span": {
+                "begin": 15977,
+                "end": 15983
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "16042_16048",
+            "span": {
+                "begin": 16042,
+                "end": 16048
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "16141_16147",
+            "span": {
+                "begin": 16141,
+                "end": 16147
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "16186_16207",
+            "span": {
+                "begin": 16186,
+                "end": 16207
+            },
+            "entityType": "gene",
+            "entityName": "lactate dehydrogenase",
+            "id": "UMLS:C0022917"
+        },
+        {
+            "entityId": "16209_16234",
+            "span": {
+                "begin": 16209,
+                "end": 16234
+            },
+            "entityType": "gene",
+            "entityName": "alanine amino transferase",
+            "id": "UMLS:C3887708"
+        },
+        {
+            "entityId": "16239_16266",
+            "span": {
+                "begin": 16239,
+                "end": 16266
+            },
+            "entityType": "gene",
+            "entityName": "aspartate amino transferase",
+            "id": "UMLS:C0004002"
+        },
+        {
+            "entityId": "16271_16289",
+            "span": {
+                "begin": 16271,
+                "end": 16289
+            },
+            "entityType": "gene",
+            "entityName": "C Reactive Protein",
+            "id": "UMLS:C4048285"
+        },
+        {
+            "entityId": "17986_17998",
+            "span": {
+                "begin": 17986,
+                "end": 17998
+            },
+            "entityType": "DNA",
+            "entityName": "serum miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "18155_18161",
+            "span": {
+                "begin": 18155,
+                "end": 18161
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "18306_18312",
+            "span": {
+                "begin": 18306,
+                "end": 18312
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "18469_18472",
+            "span": {
+                "begin": 18469,
+                "end": 18472
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "18473_18478",
+            "span": {
+                "begin": 18473,
+                "end": 18478
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "18521_18526",
+            "span": {
+                "begin": 18521,
+                "end": 18526
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "18555_18560",
+            "span": {
+                "begin": 18555,
+                "end": 18560
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "18561_18576",
+            "span": {
+                "begin": 18561,
+                "end": 18576
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "18630_18636",
+            "span": {
+                "begin": 18630,
+                "end": 18636
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "18665_18670",
+            "span": {
+                "begin": 18665,
+                "end": 18670
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "18675_18679",
+            "span": {
+                "begin": 18675,
+                "end": 18679
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "18680_18688",
+            "span": {
+                "begin": 18680,
+                "end": 18688
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic",
+            "id": "mesh:D005355"
+        },
+        {
+            "entityId": "18728_18731",
+            "span": {
+                "begin": 18728,
+                "end": 18731
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "18732_18737",
+            "span": {
+                "begin": 18732,
+                "end": 18737
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "18782_18787",
+            "span": {
+                "begin": 18782,
+                "end": 18787
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "18863_18871",
+            "span": {
+                "begin": 18863,
+                "end": 18871
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "18887_18890",
+            "span": {
+                "begin": 18887,
+                "end": 18890
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "18948_18952",
+            "span": {
+                "begin": 18948,
+                "end": 18952
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "19058_19065",
+            "span": {
+                "begin": 19058,
+                "end": 19065
+            },
+            "entityType": "gene",
+            "entityName": "miR-29b",
+            "id": "NCBIGene:407024"
+        },
+        {
+            "entityId": "19070_19077",
+            "span": {
+                "begin": 19070,
+                "end": 19077
+            },
+            "entityType": "gene",
+            "entityName": "miR-29c",
+            "id": "NCBIGene:407026"
+        },
+        {
+            "entityId": "19156_19164",
+            "span": {
+                "begin": 19156,
+                "end": 19164
+            },
+            "entityType": "gene",
+            "entityName": "collagen",
+            "id": "UMLS:C0009325"
+        },
+        {
+            "entityId": "19200_19203",
+            "span": {
+                "begin": 19200,
+                "end": 19203
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "19243_19250",
+            "span": {
+                "begin": 19243,
+                "end": 19250
+            },
+            "entityType": "gene",
+            "entityName": "miR-192",
+            "id": "NCBIGene:406967"
+        },
+        {
+            "entityId": "19254_19259",
+            "span": {
+                "begin": 19254,
+                "end": 19259
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "19453_19458",
+            "span": {
+                "begin": 19453,
+                "end": 19458
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "19506_19513",
+            "span": {
+                "begin": 19506,
+                "end": 19513
+            },
+            "entityType": "gene",
+            "entityName": "miR-192",
+            "id": "NCBIGene:406967"
+        },
+        {
+            "entityId": "19542_19547",
+            "span": {
+                "begin": 19542,
+                "end": 19547
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "19585_19589",
+            "span": {
+                "begin": 19585,
+                "end": 19589
+            },
+            "entityType": "gene",
+            "entityName": "miR-",
+            "id": "NCBIGene:220972"
+        },
+        {
+            "entityId": "19667_19673",
+            "span": {
+                "begin": 19667,
+                "end": 19673
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "19757_19772",
+            "span": {
+                "begin": 19757,
+                "end": 19772
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "19774_19780",
+            "span": {
+                "begin": 19774,
+                "end": 19780
+            },
+            "entityType": "gene",
+            "entityName": "MiR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "19820_19825",
+            "span": {
+                "begin": 19820,
+                "end": 19825
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "19931_19938",
+            "span": {
+                "begin": 19931,
+                "end": 19938
+            },
+            "entityType": "disease",
+            "entityName": "cancers",
+            "id": "UMLS:C0006826"
+        },
+        {
+            "entityId": "19958_19966",
+            "span": {
+                "begin": 19958,
+                "end": 19966
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "20012_20018",
+            "span": {
+                "begin": 20012,
+                "end": 20018
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20061_20097",
+            "span": {
+                "begin": 20061,
+                "end": 20097
+            },
+            "entityType": "cell",
+            "entityName": "lung, kidney and cardiac fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "20113_20121",
+            "span": {
+                "begin": 20113,
+                "end": 20121
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "20136_20142",
+            "span": {
+                "begin": 20136,
+                "end": 20142
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20203_20211",
+            "span": {
+                "begin": 20203,
+                "end": 20211
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "20243_20249",
+            "span": {
+                "begin": 20243,
+                "end": 20249
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20326_20342",
+            "span": {
+                "begin": 20326,
+                "end": 20342
+            },
+            "entityType": "disease",
+            "entityName": "chronic fibrosis",
+            "id": "UMLS:C0334133"
+        },
+        {
+            "entityId": "20423_20429",
+            "span": {
+                "begin": 20423,
+                "end": 20429
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20477_20492",
+            "span": {
+                "begin": 20477,
+                "end": 20492
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "20494_20500",
+            "span": {
+                "begin": 20494,
+                "end": 20500
+            },
+            "entityType": "gene",
+            "entityName": "MiR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20545_20550",
+            "span": {
+                "begin": 20545,
+                "end": 20550
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "20555_20560",
+            "span": {
+                "begin": 20555,
+                "end": 20560
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "20561_20569",
+            "span": {
+                "begin": 20561,
+                "end": 20569
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic",
+            "id": "mesh:D005355"
+        },
+        {
+            "entityId": "20592_20606",
+            "span": {
+                "begin": 20592,
+                "end": 20606
+            },
+            "entityType": "cell",
+            "entityName": "myofibroblasts",
+            "id": "UMLS:C0225360"
+        },
+        {
+            "entityId": "20634_20640",
+            "span": {
+                "begin": 20634,
+                "end": 20640
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20717_20722",
+            "span": {
+                "begin": 20717,
+                "end": 20722
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "20792_20795",
+            "span": {
+                "begin": 20792,
+                "end": 20795
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "20830_20836",
+            "span": {
+                "begin": 20830,
+                "end": 20836
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "20897_20905",
+            "span": {
+                "begin": 20897,
+                "end": 20905
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "20992_20998",
+            "span": {
+                "begin": 20992,
+                "end": 20998
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "21048_21063",
+            "span": {
+                "begin": 21048,
+                "end": 21063
+            },
+            "entityType": "disease",
+            "entityName": "tissue fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "21107_21113",
+            "span": {
+                "begin": 21107,
+                "end": 21113
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "21182_21188",
+            "span": {
+                "begin": 21182,
+                "end": 21188
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "21315_21321",
+            "span": {
+                "begin": 21315,
+                "end": 21321
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "21332_21347",
+            "span": {
+                "begin": 21332,
+                "end": 21347
+            },
+            "entityType": "disease",
+            "entityName": "aortic stenosis",
+            "id": "UMLS:C0003507"
+        },
+        {
+            "entityId": "21348_21356",
+            "span": {
+                "begin": 21348,
+                "end": 21356
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21362_21381",
+            "span": {
+                "begin": 21362,
+                "end": 21381
+            },
+            "entityType": "disease",
+            "entityName": "myocardial fibrosis",
+            "id": "UMLS:C0151654"
+        },
+        {
+            "entityId": "21436_21442",
+            "span": {
+                "begin": 21436,
+                "end": 21442
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "21470_21484",
+            "span": {
+                "begin": 21470,
+                "end": 21484
+            },
+            "entityType": "disease",
+            "entityName": "renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "21502_21510",
+            "span": {
+                "begin": 21502,
+                "end": 21510
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21514_21522",
+            "span": {
+                "begin": 21514,
+                "end": 21522
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "21530_21538",
+            "span": {
+                "begin": 21530,
+                "end": 21538
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21608_21618",
+            "span": {
+                "begin": 21608,
+                "end": 21618
+            },
+            "entityType": "drug",
+            "entityName": "Tacrolimus",
+            "id": "UMLS:C0085149"
+        },
+        {
+            "entityId": "21628_21639",
+            "span": {
+                "begin": 21628,
+                "end": 21639
+            },
+            "entityType": "gene",
+            "entityName": "calcineurin",
+            "id": "UMLS:C0054450"
+        },
+        {
+            "entityId": "21733_21739",
+            "span": {
+                "begin": 21733,
+                "end": 21739
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "21799_21807",
+            "span": {
+                "begin": 21799,
+                "end": 21807
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "21871_21879",
+            "span": {
+                "begin": 21871,
+                "end": 21879
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "21920_21935",
+            "span": {
+                "begin": 21920,
+                "end": 21935
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "22045_22087",
+            "span": {
+                "begin": 22045,
+                "end": 22087
+            },
+            "entityType": "disease",
+            "entityName": "chronic vascular or glomerular alterations",
+            "id": "UMLS:C0268731"
+        },
+        {
+            "entityId": "22145_22151",
+            "span": {
+                "begin": 22145,
+                "end": 22151
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "22229_22237",
+            "span": {
+                "begin": 22229,
+                "end": 22237
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "22317_22323",
+            "span": {
+                "begin": 22317,
+                "end": 22323
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "22335_22342",
+            "span": {
+                "begin": 22335,
+                "end": 22342
+            },
+            "entityType": "species",
+            "entityName": "patient",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22421_22434",
+            "span": {
+                "begin": 22421,
+                "end": 22434
+            },
+            "entityType": "disease",
+            "entityName": "Renal Disease",
+            "id": "UMLS:C0022658"
+        },
+        {
+            "entityId": "22499_22505",
+            "span": {
+                "begin": 22499,
+                "end": 22505
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "22534_22549",
+            "span": {
+                "begin": 22534,
+                "end": 22549
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "22625_22631",
+            "span": {
+                "begin": 22625,
+                "end": 22631
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "22669_22684",
+            "span": {
+                "begin": 22669,
+                "end": 22684
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "22707_22715",
+            "span": {
+                "begin": 22707,
+                "end": 22715
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22766_22772",
+            "span": {
+                "begin": 22766,
+                "end": 22772
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "22836_22844",
+            "span": {
+                "begin": 22836,
+                "end": 22844
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "22858_22873",
+            "span": {
+                "begin": 22858,
+                "end": 22873
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "22944_22949",
+            "span": {
+                "begin": 22944,
+                "end": 22949
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "23086_23094",
+            "span": {
+                "begin": 23086,
+                "end": 23094
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23571_23575",
+            "span": {
+                "begin": 23571,
+                "end": 23575
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "23577_23585",
+            "span": {
+                "begin": 23577,
+                "end": 23585
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "23642_23652",
+            "span": {
+                "begin": 23642,
+                "end": 23652
+            },
+            "entityType": "drug",
+            "entityName": "Tacrolimus",
+            "id": "UMLS:C0085149"
+        },
+        {
+            "entityId": "23902_23916",
+            "span": {
+                "begin": 23902,
+                "end": 23916
+            },
+            "entityType": "disease",
+            "entityName": "Renal fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "23976_23997",
+            "span": {
+                "begin": 23976,
+                "end": 23997
+            },
+            "entityType": "disease",
+            "entityName": "interstitial fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "24045_24066",
+            "span": {
+                "begin": 24045,
+                "end": 24066
+            },
+            "entityType": "disease",
+            "entityName": "Interstitial Fibrosis",
+            "id": "UMLS:C3887486"
+        },
+        {
+            "entityId": "24119_24127",
+            "span": {
+                "begin": 24119,
+                "end": 24127
+            },
+            "entityType": "species",
+            "entityName": "Patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24345_24374",
+            "span": {
+                "begin": 24345,
+                "end": 24374
+            },
+            "entityType": "disease",
+            "entityName": "renal or urinary tract cancer",
+            "id": "UMLS:C0751571"
+        },
+        {
+            "entityId": "24378_24386",
+            "span": {
+                "begin": 24378,
+                "end": 24386
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "24582_24587",
+            "span": {
+                "begin": 24582,
+                "end": 24587
+            },
+            "entityType": "species",
+            "entityName": "Mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "24597_24612",
+            "span": {
+                "begin": 24597,
+                "end": 24612
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "24890_24894",
+            "span": {
+                "begin": 24890,
+                "end": 24894
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "24924_24928",
+            "span": {
+                "begin": 24924,
+                "end": 24928
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "24964_24968",
+            "span": {
+                "begin": 24964,
+                "end": 24968
+            },
+            "entityType": "species",
+            "entityName": "Mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "25022_25035",
+            "span": {
+                "begin": 25022,
+                "end": 25035
+            },
+            "entityType": "drug",
+            "entityName": "pentobarbital",
+            "id": "UMLS:C0030883"
+        },
+        {
+            "entityId": "25081_25112",
+            "span": {
+                "begin": 25081,
+                "end": 25112
+            },
+            "entityType": "disease",
+            "entityName": "Unilateral Ureteral Obstruction",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "25114_25117",
+            "span": {
+                "begin": 25114,
+                "end": 25117
+            },
+            "entityType": "disease",
+            "entityName": "UUO",
+            "id": "UMLS:C0041956"
+        },
+        {
+            "entityId": "25338_25343",
+            "span": {
+                "begin": 25338,
+                "end": 25343
+            },
+            "entityType": "species",
+            "entityName": "Human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "25348_25353",
+            "span": {
+                "begin": 25348,
+                "end": 25353
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "25395_25403",
+            "span": {
+                "begin": 25395,
+                "end": 25403
+            },
+            "entityType": "disease",
+            "entityName": "fibrotic",
+            "id": "mesh:D005355"
+        },
+        {
+            "entityId": "25426_25434",
+            "span": {
+                "begin": 25426,
+                "end": 25434
+            },
+            "entityType": "drug",
+            "entityName": "formalin",
+            "id": "UMLS:C0949307"
+        },
+        {
+            "entityId": "25445_25453",
+            "span": {
+                "begin": 25445,
+                "end": 25453
+            },
+            "entityType": "drug",
+            "entityName": "paraffin",
+            "id": "UMLS:C0030415"
+        },
+        {
+            "entityId": "25514_25525",
+            "span": {
+                "begin": 25514,
+                "end": 25525
+            },
+            "entityType": "drug",
+            "entityName": "hematoxylin",
+            "id": "UMLS:C0018964"
+        },
+        {
+            "entityId": "25530_25535",
+            "span": {
+                "begin": 25530,
+                "end": 25535
+            },
+            "entityType": "drug",
+            "entityName": "eosin",
+            "id": "UMLS:C0885297"
+        },
+        {
+            "entityId": "25590_25598",
+            "span": {
+                "begin": 25590,
+                "end": 25598
+            },
+            "entityType": "disease",
+            "entityName": "fibrosis",
+            "id": "UMLS:C0016059"
+        },
+        {
+            "entityId": "25668_25706",
+            "span": {
+                "begin": 25668,
+                "end": 25706
+            },
+            "entityType": "cell",
+            "entityName": "Mouse renal fibroblast primary culture",
+            "id": "UMLS:C1522260"
+        },
+        {
+            "entityId": "25707_25712",
+            "span": {
+                "begin": 25707,
+                "end": 25712
+            },
+            "entityType": "species",
+            "entityName": "Mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "25877_25883",
+            "span": {
+                "begin": 25877,
+                "end": 25883
+            },
+            "entityType": "species",
+            "entityName": "bovine",
+            "id": "UMLS:C3667982"
+        },
+        {
+            "entityId": "25936_25950",
+            "span": {
+                "begin": 25936,
+                "end": 25950
+            },
+            "entityType": "gene",
+            "entityName": "collagenase IV",
+            "id": "UMLS:C0162745"
+        },
+        {
+            "entityId": "26154_26163",
+            "span": {
+                "begin": 26154,
+                "end": 26163
+            },
+            "entityType": "drug",
+            "entityName": "Phosphate",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "26352_26368",
+            "span": {
+                "begin": 26352,
+                "end": 26368
+            },
+            "entityType": "cell",
+            "entityName": "epithelial cells",
+            "id": "UMLS:C0014597"
+        },
+        {
+            "entityId": "26370_26380",
+            "span": {
+                "begin": 26370,
+                "end": 26380
+            },
+            "entityType": "DNA",
+            "entityName": "Pre-miRNAs",
+            "id": "UMLS:C1337053"
+        },
+        {
+            "entityId": "26399_26417",
+            "span": {
+                "begin": 26399,
+                "end": 26417
+            },
+            "entityType": "cell",
+            "entityName": "kidney fibroblasts",
+            "id": "UMLS:C0016030"
+        },
+        {
+            "entityId": "26418_26428",
+            "span": {
+                "begin": 26418,
+                "end": 26428
+            },
+            "entityType": "gene",
+            "entityName": "Pre-miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "26489_26520",
+            "span": {
+                "begin": 26489,
+                "end": 26520
+            },
+            "entityType": "cell",
+            "entityName": "Primary mouse renal fibroblasts",
+            "id": "UMLS:C1522260"
+        },
+        {
+            "entityId": "26649_26658",
+            "span": {
+                "begin": 26649,
+                "end": 26658
+            },
+            "entityType": "DNA",
+            "entityName": "pre-miRNA",
+            "id": "UMLS:C1337053"
+        },
+        {
+            "entityId": "26691_26710",
+            "span": {
+                "begin": 26691,
+                "end": 26710
+            },
+            "entityType": "gene",
+            "entityName": "Recombinant TGFbeta",
+            "id": "UMLS:C1527196"
+        },
+        {
+            "entityId": "26745_26751",
+            "span": {
+                "begin": 26745,
+                "end": 26751
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "26779_26783",
+            "span": {
+                "begin": 26779,
+                "end": 26783
+            },
+            "entityType": "DNA",
+            "entityName": "RNAs",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "26795_26801",
+            "span": {
+                "begin": 26795,
+                "end": 26801
+            },
+            "entityType": "DNA",
+            "entityName": "miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "26924_26932",
+            "span": {
+                "begin": 26924,
+                "end": 26932
+            },
+            "entityType": "DNA",
+            "entityName": "MSII RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "26963_26973",
+            "span": {
+                "begin": 26963,
+                "end": 26973
+            },
+            "entityType": "drug",
+            "entityName": "chloroform",
+            "id": "UMLS:C0008238"
+        },
+        {
+            "entityId": "27004_27007",
+            "span": {
+                "begin": 27004,
+                "end": 27007
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "27123_27126",
+            "span": {
+                "begin": 27123,
+                "end": 27126
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "27222_27227",
+            "span": {
+                "begin": 27222,
+                "end": 27227
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "27228_27236",
+            "span": {
+                "begin": 27228,
+                "end": 27236
+            },
+            "entityType": "drug",
+            "entityName": "formalin",
+            "id": "UMLS:C0949307"
+        },
+        {
+            "entityId": "27247_27255",
+            "span": {
+                "begin": 27247,
+                "end": 27255
+            },
+            "entityType": "drug",
+            "entityName": "paraffin",
+            "id": "UMLS:C0030415"
+        },
+        {
+            "entityId": "27386_27394",
+            "span": {
+                "begin": 27386,
+                "end": 27394
+            },
+            "entityType": "DNA",
+            "entityName": "MicroRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "27483_27492",
+            "span": {
+                "begin": 27483,
+                "end": 27492
+            },
+            "entityType": "DNA",
+            "entityName": "microRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "27597_27605",
+            "span": {
+                "begin": 27597,
+                "end": 27605
+            },
+            "entityType": "DNA",
+            "entityName": "MicroRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "27726_27735",
+            "span": {
+                "begin": 27726,
+                "end": 27735
+            },
+            "entityType": "DNA",
+            "entityName": "microRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "28002_28015",
+            "span": {
+                "begin": 28002,
+                "end": 28015
+            },
+            "entityType": "DNA",
+            "entityName": "Mature miRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "28027_28033",
+            "span": {
+                "begin": 28027,
+                "end": 28033
+            },
+            "entityType": "gene",
+            "entityName": "MiR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "28278_28294",
+            "span": {
+                "begin": 28278,
+                "end": 28294
+            },
+            "entityType": "DNA",
+            "entityName": "mature microRNAs",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "28414_28425",
+            "span": {
+                "begin": 28414,
+                "end": 28425
+            },
+            "entityType": "gene",
+            "entityName": "fibronectin",
+            "id": "UMLS:C1570610"
+        },
+        {
+            "entityId": "28427_28437",
+            "span": {
+                "begin": 28427,
+                "end": 28437
+            },
+            "entityType": "gene",
+            "entityName": "collagen 1",
+            "id": "UMLS:C0041455"
+        },
+        {
+            "entityId": "28439_28446",
+            "span": {
+                "begin": 28439,
+                "end": 28446
+            },
+            "entityType": "gene",
+            "entityName": "TGFbeta",
+            "id": "UMLS:C1527196"
+        },
+        {
+            "entityId": "28451_28459",
+            "span": {
+                "begin": 28451,
+                "end": 28459
+            },
+            "entityType": "gene",
+            "entityName": "alphaSMA",
+            "id": "UMLS:C2716282"
+        },
+        {
+            "entityId": "28461_28466",
+            "span": {
+                "begin": 28461,
+                "end": 28466
+            },
+            "entityType": "gene",
+            "entityName": "ACTA2",
+            "id": "UMLS:C1412137"
+        },
+        {
+            "entityId": "28728_28732",
+            "span": {
+                "begin": 28728,
+                "end": 28732
+            },
+            "entityType": "DNA",
+            "entityName": "mRNA",
+            "id": "UMLS:C0035696"
+        },
+        {
+            "entityId": "28810_28814",
+            "span": {
+                "begin": 28810,
+                "end": 28814
+            },
+            "entityType": "gene",
+            "entityName": "PPIA",
+            "id": "UMLS:C1418793"
+        },
+        {
+            "entityId": "28816_28829",
+            "span": {
+                "begin": 28816,
+                "end": 28829
+            },
+            "entityType": "gene",
+            "entityName": "cyclophilin A",
+            "id": "UMLS:C0164198"
+        },
+        {
+            "entityId": "29069_29073",
+            "span": {
+                "begin": 29069,
+                "end": 29073
+            },
+            "entityType": "drug",
+            "entityName": "Tris",
+            "id": "UMLS:C0077281"
+        },
+        {
+            "entityId": "29331_29337",
+            "span": {
+                "begin": 29331,
+                "end": 29337
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "29410_29418",
+            "span": {
+                "begin": 29410,
+                "end": 29418
+            },
+            "entityType": "drug",
+            "entityName": "Paraffin",
+            "id": "UMLS:C0030415"
+        },
+        {
+            "entityId": "29428_29433",
+            "span": {
+                "begin": 29428,
+                "end": 29433
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "29458_29464",
+            "span": {
+                "begin": 29458,
+                "end": 29464
+            },
+            "entityType": "drug",
+            "entityName": "xylene",
+            "id": "UMLS:C0043367"
+        },
+        {
+            "entityId": "29504_29511",
+            "span": {
+                "begin": 29504,
+                "end": 29511
+            },
+            "entityType": "drug",
+            "entityName": "alcohol",
+            "id": "UMLS:C0001975"
+        },
+        {
+            "entityId": "29588_29600",
+            "span": {
+                "begin": 29588,
+                "end": 29600
+            },
+            "entityType": "gene",
+            "entityName": "proteinase K",
+            "id": "UMLS:C0059256"
+        },
+        {
+            "entityId": "30073_30078",
+            "span": {
+                "begin": 30073,
+                "end": 30078
+            },
+            "entityType": "species",
+            "entityName": "sheep",
+            "id": "UMLS:C0036945"
+        },
+        {
+            "entityId": "30094_30115",
+            "span": {
+                "begin": 30094,
+                "end": 30115
+            },
+            "entityType": "gene",
+            "entityName": "Bovine Serum Albumine",
+            "id": "UMLS:C0036774"
+        },
+        {
+            "entityId": "30129_30137",
+            "span": {
+                "begin": 30129,
+                "end": 30137
+            },
+            "entityType": "drug",
+            "entityName": "Tween 20",
+            "id": "UMLS:C0041415"
+        },
+        {
+            "entityId": "30165_30199",
+            "span": {
+                "begin": 30165,
+                "end": 30199
+            },
+            "entityType": "gene",
+            "entityName": "anti-DIG-AP Fab fragments antibody",
+            "id": "UMLS:C0003242"
+        },
+        {
+            "entityId": "30341_30377",
+            "span": {
+                "begin": 30341,
+                "end": 30377
+            },
+            "entityType": "drug",
+            "entityName": "5-bromo-4-chloro-3-indolyl phosphate",
+            "id": "UMLS:C0049082"
+        },
+        {
+            "entityId": "30379_30383",
+            "span": {
+                "begin": 30379,
+                "end": 30383
+            },
+            "entityType": "drug",
+            "entityName": "BCIP",
+            "id": "UMLS:C0031603"
+        },
+        {
+            "entityId": "30385_30407",
+            "span": {
+                "begin": 30385,
+                "end": 30407
+            },
+            "entityType": "drug",
+            "entityName": "nitro blue tetrazolium",
+            "id": "UMLS:C0028147"
+        },
+        {
+            "entityId": "30409_30412",
+            "span": {
+                "begin": 30409,
+                "end": 30412
+            },
+            "entityType": "drug",
+            "entityName": "NBT",
+            "id": "UMLS:CHEBI:9505"
+        },
+        {
+            "entityId": "30464_30474",
+            "span": {
+                "begin": 30464,
+                "end": 30474
+            },
+            "entityType": "drug",
+            "entityName": "levamisole",
+            "id": "UMLS:C0023556"
+        },
+        {
+            "entityId": "30950_30955",
+            "span": {
+                "begin": 30950,
+                "end": 30955
+            },
+            "entityType": "DNA",
+            "entityName": "miRNA",
+            "id": "UMLS:C1101610"
+        },
+        {
+            "entityId": "31083_31089",
+            "span": {
+                "begin": 31083,
+                "end": 31089
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        },
+        {
+            "entityId": "31093_31108",
+            "span": {
+                "begin": 31093,
+                "end": 31108
+            },
+            "entityType": "disease",
+            "entityName": "kidney fibrosis",
+            "id": "UMLS:C0151650"
+        },
+        {
+            "entityId": "31227_31233",
+            "span": {
+                "begin": 31227,
+                "end": 31233
+            },
+            "entityType": "gene",
+            "entityName": "miR-21",
+            "id": "UMLS:C1537719"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "332_356",
+            "subjectText": "fibrotic kidney diseases",
+            "rel_name": "associate",
+            "objectId": "299_316",
+            "objectText": "complex disorders"
+        },
+        {
+            "subjectID": "299_316",
+            "subjectText": "complex disorders",
+            "rel_name": "associate",
+            "objectId": "332_356",
+            "objectText": "fibrotic kidney diseases"
+        },
+        {
+            "subjectID": "1126_1140",
+            "subjectText": "renal fibrosis",
+            "rel_name": "biomarker",
+            "objectId": "1092_1098",
+            "objectText": "miR-21"
+        },
+        {
+            "subjectID": "1092_1098",
+            "subjectText": "miR-21",
+            "rel_name": "associate",
+            "objectId": "1126_1140",
+            "objectText": "renal fibrosis"
+        },
+        {
+            "subjectID": "22_28",
+            "subjectText": "miR-21",
+            "rel_name": "associate",
+            "objectId": "56_71",
+            "objectText": "Kidney Fibrosis"
+        },
+        {
+            "subjectID": "741_767",
+            "subjectText": "primary kidney fibroblasts",
+            "rel_name": "stimulate",
+            "objectId": "785_792",
+            "objectText": "TGFbeta"
+        }
+    ]
+}

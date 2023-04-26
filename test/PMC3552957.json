@@ -1,0 +1,1558 @@
+{
+    "sourcid": "PMC3552957",
+    "publisher": "Public Library of Science",
+    "journal": "PLoS ONE",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3552957/",
+    "text": "No Evidence for Cardiac Dysfunction in Kif6 Mutant Mice A KIF6 variant in man has been reported to be associated with adverse cardiovascular outcomes after myocardial infarction. No clear biological or physiological data exist for Kif6. We sought to investigate the impact of a deleterious KIF6 mutation on cardiac function in mice. Kif6 mutant mice were generated and verified. Cardiac function was assessed by serial echocardiography at baseline, after ageing and after exercise. Lipid levels were also measured. No discernable adverse lipid or cardiac phenotype was detected in Kif6 mutant mice. These data suggest that dysfunction of Kif6 is linked to other more complex biological/biochemical parameters or is unlikely to be of material consequence in cardiac function. Introduction There has been considerable debate within the cardiovascular community regarding the role of kinesin-like protein 6 (Kif6) in coronary artery disease. Initial reports using a candidate gene based approach in several atherosclerosis population cohorts observed an increase risk of adverse coronary events in carriers of the rs20455 C variant in the KIF6 gene which leads to a Trp719Arg substitution in the Kif6 protein. These findings were controversial and refuted by a large GWAS meta-analysis using 19 case-control studies where cases were defined either by a history of prior myocardial infarction and/or the presence of coronary artery disease at angiography. Furthermore no association between the kif6 variant and coronary events was observed in the most recent large meta-analysis. However, evidence from interventional randomized controlled trials (RCTs) with statins associated carriage of this genotype with a greater clinical response to statin therapy. As a clinical test based on KIF6 genotype was already on the market, the utility and clinical significance of this was in doubt. More recently, retrospective analyses from several large independent RCTs have not observed an increased risk of adverse vascular events or an attenuated response to statin therapy amongst Kif6 719Arg carriers. In an attempt to reconcile these discrepant findings, Ference et al hypothesized that the rs20455 C variant in the KIF6 gene may influence LDL levels. By performing a regression meta-analysis involving almost 145,000 patients, they reported that carriers demonstrated greater reductions in LDL, when treated with statins and consequently greater reduction in clinical events when compared to non-carriers. Kif6 is a member of the Kinesin 9 superfamily but the precise molecular function of Kif6 is not known. It is likely to play a role in the cellular transport of proteins along microtubules and could plausibly be involved in cellular transport in the cardiovascular system. Hitherto, all studies have focused on investigating polymorphism in the KIF6 gene within the context of coronary artery disease yet to our knowledge there has been no investigation (experimental or clinical) into its function (if any) on heart function. We hypothesised that if loss of Kif6 function was associated with cardiovascular disease, then mice with a deleterious mutation in the Kif6 motor domain may exhibit defects in cardiac physiology. Therefore, we identified mice with an N-ethyl-N-nitrosourea (ENU) induced mutation in the Kif6 motor, and investigated the structural and functional cardiac phenotypes by high frequency transthoracic echocardiography. Methods Kif6 mutant mice were obtained from the RIKEN Bioresource Centre (Japan, RBRC03194), backcrossed 5 generations to C57BL/6 and classed as incipient congenics. The likelihood that a phenotype would arise because of a confounding mutation in the RIKEN library is statistically slim (p<0.002). RT-PCR and Western blot analysis of Kif6 expression was performed according to standard methods. A rabbit polyclonal antibody (Kif6 C165) was generated using a peptide containing 20 C-terminal amino acids of human Kif6 as an immunogen. Specificity of the antibody was demonstrated by showing competition of the antisera with the immunizing peptide in cells transfected with recombinant full length human Kif6 (data not shown). Lipid levels were assessed at 18 weeks of age. Cardiac function was measured using serial echocardiography in mice (some were exercised on running wheels) for periods of time up to 43 weeks. The supplemental methods and data contain additional information. All animal work was carried out in strict accordance with UK Home Office regulations under project licence approval 40/3307. The experimental protocols were approved by the University of Sheffield ethical review board. All echocardiography was carried out under isoflurane anaesthesia and all efforts were made to minimize suffering. Results Kif6 Expression in Mouse Tissues, Generation of the kif6 Mutation in Mice, Confirmation and Prediction of Effect on the Motor Domain Kif6 protein was detected in a variety of tissues including heart and endothelial cells (Figure 1A and B). To generate a model of KIF6 mutation in mice, exons 2, 3 and 7 were sequenced in >7000 DNA samples from ENU-mutagenised mice in the RIKEN Biorepository. This led to the identification of an A to G mutation in the exon 3 splice acceptor site of the Rgsc2221 (RBRC03194) mouse line (Fig. 1C). Since this nucleotide change is predicted to disrupt splicing of the KIF6 mRNA, we re-derived these mice by microinjection of sperm from an F1 Rgsc2221 male into C57BL/6 oocytes so as to permit experimental testing of the possible role for Kif6 in cardiac dysfunction. Subsequently, offspring carrying the mutation were identified by PCR and HpyCH4V restriction digest, and maintained on the C57BL6/J background. Kif6 expression in tissues, cells, mutant mice and structural information. (A) Multi-tissue Western blot analysis of Kif6 protein expression. 20 microg of total protein from each tissue was separated by PAGE. The predicted molecular weight of Kif6 is 92KDa. An arrowhead indicates the Kif6 protein recognized by the C165 antisera. (B) Transfected c-myc epitope tagged Kif6a in HEK 293 cells and Kif6 in primary endothelial cells (HUVEC). (C) DNA sequence of exon 3 in Kif6 mutants, showing the A>T mutation at the -2 position of the exon 3 splice acceptor site. (D) RT-PCR of Kif6 RNA extracted from heart and brain tissue of wild type and mutant mice. (E) cDNA sequence of the mutant RT-PCR product, showing exon 2 reading into exon 4. (F) Ribbon representation of mouse KIF6 motor domain modeled on the crystal structure of the human KIF9 motor domain in complex with ADP (PDB 3nwn). The ADP molecule is represented in a sticks model and the region (residue K59 to residue S86) corresponding to exon 3 deletion is shown in red. Secondary structure elements are numbered according to the convention for the kinesin motors. We extracted RNA from KIF6 mutant and wild type littermates, and conducted RT-PCR with forward and reverse primers located in exons 1 and 5 respectively, to investigate any differences in splicing of the KIF6 mRNA (Fig. 1D). This revealed the amplification of a shorter PCR product in heterozygous and homozygous mutant mice, implying an alteration in splicing. Sequencing of the shorter product revealed that the effect of the mutation is to cause exon 3 to be skipped from the KIF6 mRNA (Fig. 1E). This leads to a novel transcript encoding a shortened Kif6 protein with a 25 amino acid in-frame deletion in the motor domain. On this basis we propose the name KIF6 DeltaE3 for this allele. Kif6 shares 38% identical amino acid sequence with human Kif9. Kinesin motor domains all have rather similar structures, consisting of eight beta-sheet strands sandwiched between six alpha-helices (three on either side, Fig. 1F). The core of the motor domain is made up by strand beta1 up to and including helix alpha6. The major effect of exon 3 deletion from the KIF6 gene, is to generate a product missing several elements of secondary structure necessary to support the core of the protein (deletion of beta1c-beta2-alpha1). In addition, the nucleotide-binding pocket lies in a groove partially formed by helix alpha1, which is absent in the Kif6 mutant protein. Helix alpha1 leads directly into the highly conserved N-1 region (nucleotide binding region or P-loop), and contains conserved residues across kinesins and myosins. The P-loop is the highest conserved region across kinesin and myosin families, therefore preceding structural elements such as helix alpha1, are crucial to maintain the loop conformation necessary for motor function even though they do not seem to bear any specific function. It is therefore highly likely that the gene produced by deletion of exon 3 has a misfolded motor domain, unable to bind or hydrolyze ATP. Lipid and Cardiac Phenotype of Kif6 Mutant Mice Fasted lipid levels at 18 weeks of age indicated trends toward higher triglyceride levels in mutant mice but this did not reach statistical significance (Figure S1). Echocardiography at 6 weeks of age revealed no significant differences in Left (LVIDd), right (RVIDd) ventricle cavity size (Fig. 2a and b) or LV contractility (Fig. 2c) and tissue Doppler velocities (Table S1). When contractility was defined with M-Mode derived indices, KIF6 DeltaE3/+ mice had mildly reduced LV fractional shortening and ejection fractions compared to homozygous mice only (Table S1). Left ventricle derived heart rate (Fig. 2d), stroke volume (microl) (Fig. 2e), aortic VTI (cm) and cardiac output (Fig. 2f) were not significantly different between groups (Table S1). Serial cardiac function in adult male Kif6 mutant mice. Serial assessment (6-18 weeks) revealed no significant difference at either time point in size of A) Left or B) Right ventricle in diastole, C) LV contractility measured by fractional area change (FAC), D) heart rate, E) Stroke volume or F) Cardiac output. N = 4 per group.       To evaluate cardiac function with increasing age, serial echocardiographic studies in mice after a further 6 and 12 weeks were performed (Table S1). No significant differences between the three strains of mice in all of the twelve parameters studied were found, except for a higher LVPWTDISa velocity in the KIF6 DeltaE3/+ mice at 18 weeks of age (Table S1). Echocardiography was also performed in older mice at 43 weeks of age and we observed no evidence of reduced cardiac function in KIF6 DeltaE3/DeltaE3 homozygous mice (Table S1). Exercise Capacity and Cardiac Function in Adult Mice To determine if a physiological stressor such as exercise could lead to the development of an abnormal cardiac phenotype, voluntary wheel running was assessed in female KIF6 DeltaE3/DeltaE3 mice after an exercise period of 13 weeks. There were no significant differences in the distances (>5 Km/night) run by the mice (data not shown) or the relevant ventricular physiology parameters (Figure S2 and Table S2). Discussion This study is the first to undertake whole animal research with mutant KIF6 mice, and the first to attempt to find a physiological cardiac effect related to altered Kif6 function. Only one other study has attempted to link KIF6 genotype with a vascular biological process, namely endothelial progenitor cell (EPC) production in humans. This study revealed that the Arg/Arg KIF6 genotype was associated with a lower tendency to produce late outgrowth EPCs. This was suggested to be as a result of Kif6 effects on cytokinesis. Given the existing expression data detailing high Kif6 mRNA expression in rodent cardiac muscle (http://www.ebi.ac.uk/gxa/gene/ENSRNOG00000011453?ef=organism_part) which we formally confirm in mouse heart in this study, we speculated that Kif6 dysfunction might impact lipid profiles, cardiac structure and function at rest or after exercise in mice, despite there being no prior human association studies. Our data also clearly show that there is no effect of disrupting the Kif6 motor domain on cardiac structure or function even when mice are studied up to the age of 43 weeks or under exercise conditions. There was no significant impact of the Kif6 mutation upon lipid levels; we assert therefore, that it is unlikely that dysfunction of the Kif6 motor protein has any discernable effect on cardiac function. Interestingly, and in support of our work, Davani et al. did not observe any significant difference in LV ejection fraction after acute myocardial infarction in relation to KIF6 genotype. Study Limitations In our study we investigated the effects of a mutation that lies within the motor domain of the KIF6 gene, whereas the variant studied in humans lies within the tail domain. However given that the motor domain mutation under investigation here is likely to lead a non-functional KIF6 gene, we believe nonetheless that it remains a useful model to determine the role of kif6 in cardiac function. Our study primarily investigated whether mice with non-functioning kif6 had impaired ventricular function. Although we did not specifically investigate atherosclerosis, we observed no significant differences in lipid levels in KIF6 DeltaE3/DeltaE3 mice. Group sizes were 8 animals and study power was 74% for these measures. It is possible that much larger group sizes may have revealed statistically significant differences. However, unlike humans, mice have much lower LDL levels and given the reported link between the kif6 variant with higher LDL levels and adverse coronary events, it is possible that effects of Kif6 may only be revealed on a proatherogenic mouse background (such as apoE or LDL-receptor null mice fed a high fat diet). Conclusion The data presented here strongly suggest that mice with a mutation within the motor domain of Kif6 (KIF6 DeltaE3) mutant mice have no discernible adverse cardiac phenotype. Supporting Information References Bare LA, Morrison AC, Rowland CM, Shiffman D, Luke MM, . (2007) Five common gene variants identify elevated genetic risk for coronary heart disease. Genetics in Medicine 9: 682-689 610.1097/GIM.1090b1013e318156fb318162.   Prediction of Coronary Heart Disease Risk using a Genetic Risk Score: The Atherosclerosis Risk in Communities Study A Kinesin Family Member 6 Variant Is Associated With Coronary Heart Disease in the Women's Health Study   Association of gene variants with incident myocardial infarction in the Cardiovascular Health Study Lack of Association Between the Trp719Arg Polymorphism in Kinesin-Like Protein-6 and Coronary Artery Disease in 19 Case-Control Studies A Common KIF6 Polymorphism Increases Vulnerability to Low-Density Lipoprotein Cholesterol: Two Meta-Analyses and a Meta-Regression Analysis Association of the Trp719Arg Polymorphism in Kinesin-Like Protein 6 With Myocardial Infarction and Coronary Heart Disease in 2 Prospective Trials: The CARE and WOSCOPS Trials KIF6 Trp719Arg polymorphism and the effect of statin therapy in elderly patients: results from the PROSPER study Effect of pravastatin therapy on coronary events in carriers of the KIF6 719Arg allele from the cholesterol and recurrent events trial KIF6 polymorphism as a predictor of risk of coronary events and of clinical event reduction by statin therapy Surprises of the Genome and \"Personalized\" Medicine     The KIF6 collapse Kinesin-Like Protein 6 (KIF6) Polymorphism and the Efficacy of Rosuvastatin in Primary Prevention/Clinical Perspective No impact of KIF6 genotype on vascular risk and statin response among 18,348 randomized patients in the heart protection study The 719Arg variant of KIF6 and cardiovascular outcomes in statin-treated, stable coronary patients of the treating to new targets and incremental decrease in end points through aggressive lipid-lowering prospective studies KIF6, LPA, TAS2R50, and VAMP8 genetic variation, low density lipoprotein cholesterol lowering response to pravastatin, and heart disease risk reduction in the elderly Lack of association between the Trp719Arg polymorphism in kinesin-like protein-6 and cardiovascular risk and efficacy of atorvastatin among subjects with diabetes on dialysis: The 4D study Analysis of the kinesin superfamily: insights into structure and function Kinesin superfamily motor proteins and intracellular transport Estimating the number of coding mutations in genotypic- and phenotypic-driven N-ethyl-N-nitrosourea (ENU) screens Direct evidence for axonal transport defects in a novel mouse model of mutant spastin-induced hereditary spastic paraplegia (HSP) and human HSP patients The polymorphism Trp719Arg in the kinesin-like protein 6 is associated with the presence of late outgrowth endothelial progenitor cells in acute myocardial infarction",
+    "entities": [
+        {
+            "entityId": "39_50",
+            "span": {
+                "begin": 39,
+                "end": 50
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 Mutant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "51_55",
+            "span": {
+                "begin": 51,
+                "end": 55
+            },
+            "entityType": "species",
+            "entityName": "Mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "58_70",
+            "span": {
+                "begin": 58,
+                "end": 70
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 variant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "74_77",
+            "span": {
+                "begin": 74,
+                "end": 77
+            },
+            "entityType": "species",
+            "entityName": "man",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "156_177",
+            "span": {
+                "begin": 156,
+                "end": 177
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "231_235",
+            "span": {
+                "begin": 231,
+                "end": 235
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "290_294",
+            "span": {
+                "begin": 290,
+                "end": 294
+            },
+            "entityType": "gene",
+            "entityName": "KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "327_331",
+            "span": {
+                "begin": 327,
+                "end": 331
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "333_344",
+            "span": {
+                "begin": 333,
+                "end": 344
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 mutant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "345_349",
+            "span": {
+                "begin": 345,
+                "end": 349
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "581_585",
+            "span": {
+                "begin": 581,
+                "end": 585
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "593_597",
+            "span": {
+                "begin": 593,
+                "end": 597
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "623_637",
+            "span": {
+                "begin": 623,
+                "end": 637
+            },
+            "entityType": "disease",
+            "entityName": "dysfunction of",
+            "id": "UMLS:C3887505"
+        },
+        {
+            "entityId": "638_642",
+            "span": {
+                "begin": 638,
+                "end": 642
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "881_903",
+            "span": {
+                "begin": 881,
+                "end": 903
+            },
+            "entityType": "gene",
+            "entityName": "kinesin-like protein 6",
+            "id": "UMLS:C3537349"
+        },
+        {
+            "entityId": "905_909",
+            "span": {
+                "begin": 905,
+                "end": 909
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "914_937",
+            "span": {
+                "begin": 914,
+                "end": 937
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "1004_1019",
+            "span": {
+                "begin": 1004,
+                "end": 1019
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "1076_1091",
+            "span": {
+                "begin": 1076,
+                "end": 1091
+            },
+            "entityType": "disease",
+            "entityName": "coronary events",
+            "id": "UMLS:C0741923"
+        },
+        {
+            "entityId": "1136_1145",
+            "span": {
+                "begin": 1136,
+                "end": 1145
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 gene",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "1193_1205",
+            "span": {
+                "begin": 1193,
+                "end": 1205
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 protein",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "1367_1388",
+            "span": {
+                "begin": 1367,
+                "end": 1388
+            },
+            "entityType": "disease",
+            "entityName": "myocardial infarction",
+            "id": "UMLS:C0027051"
+        },
+        {
+            "entityId": "1412_1435",
+            "span": {
+                "begin": 1412,
+                "end": 1435
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "1491_1503",
+            "span": {
+                "begin": 1491,
+                "end": 1503
+            },
+            "entityType": "gene",
+            "entityName": "kif6 variant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "1508_1523",
+            "span": {
+                "begin": 1508,
+                "end": 1523
+            },
+            "entityType": "disease",
+            "entityName": "coronary events",
+            "id": "UMLS:C0741923"
+        },
+        {
+            "entityId": "1656_1663",
+            "span": {
+                "begin": 1656,
+                "end": 1663
+            },
+            "entityType": "drug",
+            "entityName": "statins",
+            "id": "UMLS:C0360714"
+        },
+        {
+            "entityId": "1737_1743",
+            "span": {
+                "begin": 1737,
+                "end": 1743
+            },
+            "entityType": "drug",
+            "entityName": "statin",
+            "id": "UMLS:C0360714"
+        },
+        {
+            "entityId": "1781_1794",
+            "span": {
+                "begin": 1781,
+                "end": 1794
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 genotype",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "2048_2054",
+            "span": {
+                "begin": 2048,
+                "end": 2054
+            },
+            "entityType": "drug",
+            "entityName": "statin",
+            "id": "UMLS:C0360714"
+        },
+        {
+            "entityId": "2071_2082",
+            "span": {
+                "begin": 2071,
+                "end": 2082
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 719Arg",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "2208_2217",
+            "span": {
+                "begin": 2208,
+                "end": 2217
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 gene",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "2310_2318",
+            "span": {
+                "begin": 2310,
+                "end": 2318
+            },
+            "entityType": "species",
+            "entityName": "patients",
+            "id": "NCBITaxon:9606"
+        },
+        {
+            "entityId": "2406_2413",
+            "span": {
+                "begin": 2406,
+                "end": 2413
+            },
+            "entityType": "drug",
+            "entityName": "statins",
+            "id": "UMLS:C0360714"
+        },
+        {
+            "entityId": "2499_2503",
+            "span": {
+                "begin": 2499,
+                "end": 2503
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "2523_2544",
+            "span": {
+                "begin": 2523,
+                "end": 2544
+            },
+            "entityType": "gene",
+            "entityName": "Kinesin 9 superfamily",
+            "id": "UMLS:C0085139"
+        },
+        {
+            "entityId": "2583_2587",
+            "span": {
+                "begin": 2583,
+                "end": 2587
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "2843_2852",
+            "span": {
+                "begin": 2843,
+                "end": 2852
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 gene",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "2875_2898",
+            "span": {
+                "begin": 2875,
+                "end": 2898
+            },
+            "entityType": "disease",
+            "entityName": "coronary artery disease",
+            "id": "UMLS:C1956346"
+        },
+        {
+            "entityId": "3057_3061",
+            "span": {
+                "begin": 3057,
+                "end": 3061
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "3091_3113",
+            "span": {
+                "begin": 3091,
+                "end": 3113
+            },
+            "entityType": "disease",
+            "entityName": "cardiovascular disease",
+            "id": "UMLS:C0007222"
+        },
+        {
+            "entityId": "3120_3124",
+            "span": {
+                "begin": 3120,
+                "end": 3124
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "3160_3177",
+            "span": {
+                "begin": 3160,
+                "end": 3177
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 motor domain",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "3246_3250",
+            "span": {
+                "begin": 3246,
+                "end": 3250
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "3259_3280",
+            "span": {
+                "begin": 3259,
+                "end": 3280
+            },
+            "entityType": "drug",
+            "entityName": "N-ethyl-N-nitrosourea",
+            "id": "UMLS:C0015111"
+        },
+        {
+            "entityId": "3282_3285",
+            "span": {
+                "begin": 3282,
+                "end": 3285
+            },
+            "entityType": "drug",
+            "entityName": "ENU",
+            "id": "UMLS:C0015111"
+        },
+        {
+            "entityId": "3311_3321",
+            "span": {
+                "begin": 3311,
+                "end": 3321
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 motor",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "3447_3458",
+            "span": {
+                "begin": 3447,
+                "end": 3458
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 mutant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "3459_3463",
+            "span": {
+                "begin": 3459,
+                "end": 3463
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "3773_3777",
+            "span": {
+                "begin": 3773,
+                "end": 3777
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "3836_3842",
+            "span": {
+                "begin": 3836,
+                "end": 3842
+            },
+            "entityType": "species",
+            "entityName": "rabbit",
+            "id": "UMLS:C3887509"
+        },
+        {
+            "entityId": "3864_3873",
+            "span": {
+                "begin": 3864,
+                "end": 3873
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 C165",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "3930_3941",
+            "span": {
+                "begin": 3930,
+                "end": 3941
+            },
+            "entityType": "drug",
+            "entityName": "amino acids",
+            "id": "UMLS:C0002520"
+        },
+        {
+            "entityId": "3945_3955",
+            "span": {
+                "begin": 3945,
+                "end": 3955
+            },
+            "entityType": "gene",
+            "entityName": "human Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "4111_4145",
+            "span": {
+                "begin": 4111,
+                "end": 4145
+            },
+            "entityType": "gene",
+            "entityName": "recombinant full length human Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "4274_4278",
+            "span": {
+                "begin": 4274,
+                "end": 4278
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4683_4693",
+            "span": {
+                "begin": 4683,
+                "end": 4693
+            },
+            "entityType": "drug",
+            "entityName": "isoflurane",
+            "id": "UMLS:C0022180"
+        },
+        {
+            "entityId": "4763_4767",
+            "span": {
+                "begin": 4763,
+                "end": 4767
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "4782_4787",
+            "span": {
+                "begin": 4782,
+                "end": 4787
+            },
+            "entityType": "species",
+            "entityName": "Mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4815_4828",
+            "span": {
+                "begin": 4815,
+                "end": 4828
+            },
+            "entityType": "gene",
+            "entityName": "kif6 Mutation",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "4832_4836",
+            "span": {
+                "begin": 4832,
+                "end": 4836
+            },
+            "entityType": "species",
+            "entityName": "Mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "4896_4908",
+            "span": {
+                "begin": 4896,
+                "end": 4908
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 protein",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "4966_4983",
+            "span": {
+                "begin": 4966,
+                "end": 4983
+            },
+            "entityType": "cell",
+            "entityName": "endothelial cells",
+            "id": "UMLS:C0225336"
+        },
+        {
+            "entityId": "5026_5030",
+            "span": {
+                "begin": 5026,
+                "end": 5030
+            },
+            "entityType": "gene",
+            "entityName": "KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "5043_5047",
+            "span": {
+                "begin": 5043,
+                "end": 5047
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5107_5110",
+            "span": {
+                "begin": 5107,
+                "end": 5110
+            },
+            "entityType": "drug",
+            "entityName": "ENU",
+            "id": "UMLS:C0015111"
+        },
+        {
+            "entityId": "5123_5127",
+            "span": {
+                "begin": 5123,
+                "end": 5127
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5272_5277",
+            "span": {
+                "begin": 5272,
+                "end": 5277
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5363_5372",
+            "span": {
+                "begin": 5363,
+                "end": 5372
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 mRNA",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "5394_5398",
+            "span": {
+                "begin": 5394,
+                "end": 5398
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "5420_5425",
+            "span": {
+                "begin": 5420,
+                "end": 5425
+            },
+            "entityType": "cell",
+            "entityName": "sperm",
+            "id": "UMLS:C0037868"
+        },
+        {
+            "entityId": "5534_5538",
+            "span": {
+                "begin": 5534,
+                "end": 5538
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "6844_6847",
+            "span": {
+                "begin": 6844,
+                "end": 6847
+            },
+            "entityType": "DNA",
+            "entityName": "RNA",
+            "id": "UMLS:C0035668"
+        },
+        {
+            "entityId": "6853_6864",
+            "span": {
+                "begin": 6853,
+                "end": 6864
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 mutant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "7035_7044",
+            "span": {
+                "begin": 7035,
+                "end": 7044
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 mRNA",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "7151_7155",
+            "span": {
+                "begin": 7151,
+                "end": 7155
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "7310_7319",
+            "span": {
+                "begin": 7310,
+                "end": 7319
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 mRNA",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "7385_7397",
+            "span": {
+                "begin": 7385,
+                "end": 7397
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 protein",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "7408_7418",
+            "span": {
+                "begin": 7408,
+                "end": 7418
+            },
+            "entityType": "drug",
+            "entityName": "amino acid",
+            "id": "UMLS:C2917660"
+        },
+        {
+            "entityId": "7492_7504",
+            "span": {
+                "begin": 7492,
+                "end": 7504
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 DeltaE3",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "7522_7526",
+            "span": {
+                "begin": 7522,
+                "end": 7526
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "7548_7558",
+            "span": {
+                "begin": 7548,
+                "end": 7558
+            },
+            "entityType": "drug",
+            "entityName": "amino acid",
+            "id": "UMLS:C2917660"
+        },
+        {
+            "entityId": "7573_7583",
+            "span": {
+                "begin": 7573,
+                "end": 7583
+            },
+            "entityType": "gene",
+            "entityName": "human Kif9",
+            "id": "UMLS:C1424476"
+        },
+        {
+            "entityId": "7585_7606",
+            "span": {
+                "begin": 7585,
+                "end": 7606
+            },
+            "entityType": "gene",
+            "entityName": "Kinesin motor domains",
+            "id": "UMLS:C0085139"
+        },
+        {
+            "entityId": "7887_7896",
+            "span": {
+                "begin": 7887,
+                "end": 7896
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 gene",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "8036_8041",
+            "span": {
+                "begin": 8036,
+                "end": 8041
+            },
+            "entityType": "gene",
+            "entityName": "beta2",
+            "id": "UMLS:C1417683"
+        },
+        {
+            "entityId": "8042_8048",
+            "span": {
+                "begin": 8042,
+                "end": 8048
+            },
+            "entityType": "gene",
+            "entityName": "alpha1",
+            "id": "UMLS:C1979844"
+        },
+        {
+            "entityId": "8068_8078",
+            "span": {
+                "begin": 8068,
+                "end": 8078
+            },
+            "entityType": "drug",
+            "entityName": "nucleotide",
+            "id": "mesh:D009711"
+        },
+        {
+            "entityId": "8168_8187",
+            "span": {
+                "begin": 8168,
+                "end": 8187
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 mutant protein",
+            "id": "UMLS:C1564139"
+        },
+        {
+            "entityId": "8255_8265",
+            "span": {
+                "begin": 8255,
+                "end": 8265
+            },
+            "entityType": "drug",
+            "entityName": "nucleotide",
+            "id": "mesh:D009711"
+        },
+        {
+            "entityId": "8332_8340",
+            "span": {
+                "begin": 8332,
+                "end": 8340
+            },
+            "entityType": "gene",
+            "entityName": "kinesins",
+            "id": "UMLS:C0085139"
+        },
+        {
+            "entityId": "8345_8352",
+            "span": {
+                "begin": 8345,
+                "end": 8352
+            },
+            "entityType": "gene",
+            "entityName": "myosins",
+            "id": "UMLS:C0027096"
+        },
+        {
+            "entityId": "8404_8411",
+            "span": {
+                "begin": 8404,
+                "end": 8411
+            },
+            "entityType": "gene",
+            "entityName": "kinesin",
+            "id": "UMLS:C0085139"
+        },
+        {
+            "entityId": "8416_8431",
+            "span": {
+                "begin": 8416,
+                "end": 8431
+            },
+            "entityType": "gene",
+            "entityName": "myosin families",
+            "id": "UMLS:C0027096"
+        },
+        {
+            "entityId": "8763_8766",
+            "span": {
+                "begin": 8763,
+                "end": 8766
+            },
+            "entityType": "drug",
+            "entityName": "ATP",
+            "id": "UMLS:CHEBI:30616"
+        },
+        {
+            "entityId": "8799_8810",
+            "span": {
+                "begin": 8799,
+                "end": 8810
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 Mutant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "8811_8815",
+            "span": {
+                "begin": 8811,
+                "end": 8815
+            },
+            "entityType": "species",
+            "entityName": "Mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "8886_8898",
+            "span": {
+                "begin": 8886,
+                "end": 8898
+            },
+            "entityType": "drug",
+            "entityName": "triglyceride",
+            "id": "UMLS:C0041004"
+        },
+        {
+            "entityId": "8916_8920",
+            "span": {
+                "begin": 8916,
+                "end": 8920
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9254_9268",
+            "span": {
+                "begin": 9254,
+                "end": 9268
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 DeltaE3/+",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "9269_9273",
+            "span": {
+                "begin": 9269,
+                "end": 9273
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9364_9368",
+            "span": {
+                "begin": 9364,
+                "end": 9368
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "9992_9996",
+            "span": {
+                "begin": 9992,
+                "end": 9996
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10111_10115",
+            "span": {
+                "begin": 10111,
+                "end": 10115
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10214_10227",
+            "span": {
+                "begin": 10214,
+                "end": 10227
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 DeltaE3/",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "10229_10233",
+            "span": {
+                "begin": 10229,
+                "end": 10233
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10310_10314",
+            "span": {
+                "begin": 10310,
+                "end": 10314
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10393_10397",
+            "span": {
+                "begin": 10393,
+                "end": 10397
+            },
+            "entityType": "gene",
+            "entityName": "KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "10425_10429",
+            "span": {
+                "begin": 10425,
+                "end": 10429
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10490_10494",
+            "span": {
+                "begin": 10490,
+                "end": 10494
+            },
+            "entityType": "species",
+            "entityName": "Mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10664_10677",
+            "span": {
+                "begin": 10664,
+                "end": 10677
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 DeltaE3/",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "10685_10689",
+            "span": {
+                "begin": 10685,
+                "end": 10689
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10808_10812",
+            "span": {
+                "begin": 10808,
+                "end": 10812
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "10981_10992",
+            "span": {
+                "begin": 10981,
+                "end": 10992
+            },
+            "entityType": "gene",
+            "entityName": "mutant KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "10993_10997",
+            "span": {
+                "begin": 10993,
+                "end": 10997
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11082_11086",
+            "span": {
+                "begin": 11082,
+                "end": 11086
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11140_11153",
+            "span": {
+                "begin": 11140,
+                "end": 11153
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 genotype",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11197_11224",
+            "span": {
+                "begin": 11197,
+                "end": 11224
+            },
+            "entityType": "cell",
+            "entityName": "endothelial progenitor cell",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "11226_11229",
+            "span": {
+                "begin": 11226,
+                "end": 11229
+            },
+            "entityType": "cell",
+            "entityName": "EPC",
+            "id": "UMLS:C3850017"
+        },
+        {
+            "entityId": "11245_11251",
+            "span": {
+                "begin": 11245,
+                "end": 11251
+            },
+            "entityType": "species",
+            "entityName": "humans",
+            "id": "UMLS:C1300203"
+        },
+        {
+            "entityId": "11290_11294",
+            "span": {
+                "begin": 11290,
+                "end": 11294
+            },
+            "entityType": "gene",
+            "entityName": "KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11413_11417",
+            "span": {
+                "begin": 11413,
+                "end": 11417
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11492_11501",
+            "span": {
+                "begin": 11492,
+                "end": 11501
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 mRNA",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11635_11640",
+            "span": {
+                "begin": 11635,
+                "end": 11640
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11681_11685",
+            "span": {
+                "begin": 11681,
+                "end": 11685
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11787_11791",
+            "span": {
+                "begin": 11787,
+                "end": 11791
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "11822_11827",
+            "span": {
+                "begin": 11822,
+                "end": 11827
+            },
+            "entityType": "species",
+            "entityName": "human",
+            "id": "UMLS:C0086418"
+        },
+        {
+            "entityId": "11918_11935",
+            "span": {
+                "begin": 11918,
+                "end": 11935
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 motor domain",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "11979_11983",
+            "span": {
+                "begin": 11979,
+                "end": 11983
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "12091_12104",
+            "span": {
+                "begin": 12091,
+                "end": 12104
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 mutation",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "12189_12207",
+            "span": {
+                "begin": 12189,
+                "end": 12207
+            },
+            "entityType": "gene",
+            "entityName": "Kif6 motor protein",
+            "id": "UMLS:C1179106"
+        },
+        {
+            "entityId": "12386_12413",
+            "span": {
+                "begin": 12386,
+                "end": 12413
+            },
+            "entityType": "disease",
+            "entityName": "acute myocardial infarction",
+            "id": "UMLS:C0155626"
+        },
+        {
+            "entityId": "12429_12433",
+            "span": {
+                "begin": 12429,
+                "end": 12433
+            },
+            "entityType": "gene",
+            "entityName": "KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "12558_12567",
+            "span": {
+                "begin": 12558,
+                "end": 12567
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 gene",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "12600_12606",
+            "span": {
+                "begin": 12600,
+                "end": 12606
+            },
+            "entityType": "species",
+            "entityName": "humans",
+            "id": "UMLS:C1300203"
+        },
+        {
+            "entityId": "12741_12750",
+            "span": {
+                "begin": 12741,
+                "end": 12750
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 gene",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "12831_12835",
+            "span": {
+                "begin": 12831,
+                "end": 12835
+            },
+            "entityType": "gene",
+            "entityName": "kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "12898_12902",
+            "span": {
+                "begin": 12898,
+                "end": 12902
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "12924_12928",
+            "span": {
+                "begin": 12924,
+                "end": 12928
+            },
+            "entityType": "gene",
+            "entityName": "kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "13009_13024",
+            "span": {
+                "begin": 13009,
+                "end": 13024
+            },
+            "entityType": "disease",
+            "entityName": "atherosclerosis",
+            "id": "UMLS:C0004153"
+        },
+        {
+            "entityId": "13084_13088",
+            "span": {
+                "begin": 13084,
+                "end": 13088
+            },
+            "entityType": "gene",
+            "entityName": "KIF6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "13105_13109",
+            "span": {
+                "begin": 13105,
+                "end": 13109
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13299_13305",
+            "span": {
+                "begin": 13299,
+                "end": 13305
+            },
+            "entityType": "species",
+            "entityName": "humans",
+            "id": "UMLS:C1300203"
+        },
+        {
+            "entityId": "13307_13311",
+            "span": {
+                "begin": 13307,
+                "end": 13311
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13379_13391",
+            "span": {
+                "begin": 13379,
+                "end": 13391
+            },
+            "entityType": "gene",
+            "entityName": "kif6 variant",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "13427_13442",
+            "span": {
+                "begin": 13427,
+                "end": 13442
+            },
+            "entityType": "disease",
+            "entityName": "coronary events",
+            "id": "UMLS:C0741923"
+        },
+        {
+            "entityId": "13475_13479",
+            "span": {
+                "begin": 13475,
+                "end": 13479
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "13521_13526",
+            "span": {
+                "begin": 13521,
+                "end": 13526
+            },
+            "entityType": "species",
+            "entityName": "mouse",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13547_13551",
+            "span": {
+                "begin": 13547,
+                "end": 13551
+            },
+            "entityType": "gene",
+            "entityName": "apoE",
+            "id": "UMLS:C1412481"
+        },
+        {
+            "entityId": "13555_13567",
+            "span": {
+                "begin": 13555,
+                "end": 13567
+            },
+            "entityType": "gene",
+            "entityName": "LDL-receptor",
+            "id": "UMLS:C3493221"
+        },
+        {
+            "entityId": "13573_13577",
+            "span": {
+                "begin": 13573,
+                "end": 13577
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13657_13661",
+            "span": {
+                "begin": 13657,
+                "end": 13661
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        },
+        {
+            "entityId": "13705_13709",
+            "span": {
+                "begin": 13705,
+                "end": 13709
+            },
+            "entityType": "gene",
+            "entityName": "Kif6",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "13711_13723",
+            "span": {
+                "begin": 13711,
+                "end": 13723
+            },
+            "entityType": "gene",
+            "entityName": "KIF6 DeltaE3",
+            "id": "UMLS:C1427410"
+        },
+        {
+            "entityId": "13732_13736",
+            "span": {
+                "begin": 13732,
+                "end": 13736
+            },
+            "entityType": "species",
+            "entityName": "mice",
+            "id": "UMLS:C0025914"
+        }
+    ],
+    "relation_info": [
+        {
+            "subjectID": "58_70",
+            "subjectText": "KIF6 variant",
+            "rel_name": "associate",
+            "objectId": "156_177",
+            "objectText": "myocardial infarction"
+        }
+    ]
+}
