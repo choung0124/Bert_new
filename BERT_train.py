@@ -101,13 +101,13 @@ relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_rel
 # Iterate through all JSON files in the directory
 for file_name in os.listdir(json_directory):
     if file_name.endswith(".json"):
-        #print(f"Processing: {file_name}")
         json_path = os.path.join(json_directory, file_name)
 
-        # Load the JSON data
         with open(json_path, "r") as json_file:
             json_data = json.load(json_file)
 
+        ner_data, re_data = preprocess_data(json_data, tokenizer, label_to_id)  # pass label_to_id here
+        
         # Preprocess the data for NER and RE tasks
         ner_data, re_data, _, _ = preprocess_data(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
