@@ -29,9 +29,10 @@ def preprocess_re(json_data, relation_dict, tokenizer):
             if obj_id not in json_data["entities"]:
                 continue
             obj = json_data["entities"][obj_id]["entityName"]
-            re_data.append((subject, relation_name, obj))
+            re_data.append((subject_id, obj_id, relation_name))
 
     return re_data
+
 
 def preprocess_ner(json_data, tokenizer):
     ner_data = []
@@ -183,7 +184,9 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.tensor(padded_ner_labels))
 
     # Tokenize RE data
-    for subject, relation, obj in re_data:
+    for subject_id, obj_id, relation in re_data:
+        subject = json_data["entities"][subject_id]["entityName"]
+        obj = json_data["entities"][obj_id]["entityName"]
         tokens = tokenizer.tokenize(f"{subject} [SEP] {obj}")
         encoded_re = tokenizer.encode_plus(tokens, add_special_tokens=True, padding="max_length", truncation=True, max_length=128, return_tensors="pt")
 
