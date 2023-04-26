@@ -112,10 +112,10 @@ for file_name in os.listdir(json_directory):
         re_data = preprocess_re(json_data, relation_dict, tokenizer)  # <-- Call preprocess_re
         preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
-        print(f"Processed: {file_name}")
-        print(f"Number of entities: {len(json_data['entities'])}")
-        for entity in json_data['entities']:
-            print(entity)
+        #print(f"Processed: {file_name}")
+        #print(f"Number of entities: {len(json_data['entities'])}")
+        #for entity in json_data['entities']:
+        #    print(entity)
 
             
 label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
