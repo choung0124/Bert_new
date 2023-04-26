@@ -1,5 +1,6 @@
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
+from train_ner_re import BertForNERAndRE
 import json
 import sys
 
