@@ -13,6 +13,12 @@ with open(os.path.join(model_path, "label_to_id.json"), "r") as f:
 
 with open(os.path.join(model_path, "relation_to_id.json"), "r") as f:
     relation_to_id = json.load(f)
+    
+# Invert the label_to_id dictionary to get the id_to_label mapping
+id_to_label = {v: k for k, v in label_to_id.items()}
+
+# Create a list of NER labels in the correct order
+ner_labels = [id_to_label[i] for i in range(len(label_to_id))]
 
 # Load the fine-tuned model with the correct number of labels
 config = BertConfig.from_pretrained(os.path.join(model_path, "config.json"))
@@ -50,7 +56,7 @@ def extract_relationships(text, max_length=512, batch_size=8):
         ner_label_ids = ner_logits.argmax(dim=2)
         for j in range(len(input_ids)):
             ner_tokens = tokenizer.convert_ids_to_tokens(input_ids[j])
-            ner_labels = [label_list[label_id] for label_id in ner_label_ids[j].tolist()]
+            ner_labels = [ner_labels[label_id] for label_id in ner_label_ids[j].tolist()]
             entities = extract_entities(ner_tokens, ner_labels)
             if len(entities) >= 2:
                 # Extract relations between entities
