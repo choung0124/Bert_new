@@ -28,10 +28,13 @@ def preprocess_re(json_data, relation_dict, tokenizer):
             if obj_id not in json_data["entities"]:
                 continue
             obj = json_data["entities"][obj_id]["entityName"]
-            unique_relation_labels.add(relation_name)  # <-- Add this line
+            unique_relation_labels.add(relation_name)
             re_data.append((subject_id, obj_id, relation_name, obj))
             print(f"Processed relation: ({subject}, {obj}, {relation_name})")
             
+    if not re_data:
+        print("No relations found for entities in the text.")
+    
     return re_data
 
 def preprocess_ner(json_data, tokenizer):
