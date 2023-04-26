@@ -58,6 +58,8 @@ def preprocess_data(json_data, tokenizer):
         # Process RE data
         if entity_id in relation_dict:
             for obj_id, rel_name in relation_dict[entity_id].items():
+                print("entities_dict:", entities_dict)
+                print("relation_dict:", relation_dict)
                 obj_entity = entities_dict[obj_id]
                 re_data.append({
                     'id': (entity_id, obj_id),
@@ -92,8 +94,8 @@ for file_name in os.listdir(json_directory):
         preprocessed_ner_data.append(ner_data)
         
         # Preprocess the data for RE tasks
-        re_data = preprocess_data(json_data, tokenizer)
-        #print(re_data)# <-- Call preprocess_re
+# Preprocess the data for RE tasks
+        _, re_data = preprocess_data(json_data, tokenizer)
         preprocessed_re_data.append(re_data)  # <-- Store the processed RE data
 
         #print(f"Processed: {file_name}")
