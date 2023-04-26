@@ -244,27 +244,25 @@ for epoch in range(num_epochs):
     ner_num_batches = 0
     re_num_batches = 0
 
-    # Training loop for NER
-    for batch in tqdm(ner_loader, desc="Training NER", unit="batch"):
-        input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in batch)
+    # Training loop for NER and RE combined
+    for ner_batch, re_batch in tqdm(zip(ner_loader, re_loader), desc="Training NER and RE", unit="batch"):
+        # Training NER
+        input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
         outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels)
-        loss = outputs[0]
-        ner_epoch_loss += loss.item()
+        ner_loss = outputs[0]
+        ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
 
-        loss.backward()
-        optimizer.step()
-        optimizer.zero_grad()
-
-    # Training loop for RE
-    for batch in tqdm(re_loader, desc="Training RE", unit="batch"):
-        input_ids, attention_masks, re_labels = tuple(t.to(device) for t in batch)
+        # Training RE
+        input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
         outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels)
-        loss = outputs[0]
-        re_epoch_loss += loss.item()
+        re_loss = outputs[0]
+        re_epoch_loss += re_loss.item()
         re_num_batches += 1
 
-        loss.backward()
+        # Combine losses and backpropagate
+        total_loss = ner_loss + re_loss
+        total_loss.backward()
         optimizer.step()
         optimizer.zero_grad()
 
