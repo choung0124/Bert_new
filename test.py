@@ -8,6 +8,13 @@ args = parser.parse_args()
 
 text = args.text
 
+with open("models/combined/relation_to_id.json", "r") as f:
+    relation_to_id = json.load(f)
+    
+with open("models/combined/label_to_id.json", "r") as f:
+    label_to_id = json.load(f)
+
+
 entities = predict_ner(text)
 relations = predict_re(text, entities)
 
