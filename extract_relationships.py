@@ -17,7 +17,12 @@ with open(f"{args.model_dir}/relation_to_id.json", "r") as f:
     relation_to_id = json.load(f)
 
 # Load the fine-tuned model and tokenizer
-model = BertForNERAndRE.from_pretrained(args.model_dir, num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
+# Initialize the custom BERT model
+model = BertForNERAndRE(
+    config=BertConfig.from_pretrained(args.model_dir),
+    num_ner_labels=len(label_to_id),
+    num_re_labels=len(relation_to_id)
+)
 tokenizer = BertTokenizer.from_pretrained(args.model_dir)
 
 # Tokenize the input text
