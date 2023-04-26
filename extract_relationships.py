@@ -34,7 +34,10 @@ model.to(device)
 def extract_relationships(text, model_path, max_length=512, batch_size=8):
     # Load the pretrained model and tokenizer
     tokenizer = BertTokenizer.from_pretrained(model_path)
-    model = BertForNERAndRE.from_pretrained(model_path)
+    config = BertConfig.from_pretrained(os.path.join(model_path, "config.json"))
+    num_ner_labels = len(label_to_id)
+    num_re_labels = len(relation_to_id)
+    model = BertForNERAndRE.from_pretrained(model_path, config=config, num_ner_labels=num_ner_labels, num_re_labels=num_re_labels)
     
     # Split the input text into chunks of length max_length
     chunks = []
@@ -73,6 +76,7 @@ def extract_relationships(text, model_path, max_length=512, batch_size=8):
                         if relation:
                             relationships.append((entities[i], relation, entities[j]))
     return relationships
+
 
 
 # Get the input text from the command line argument
