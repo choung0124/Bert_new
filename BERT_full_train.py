@@ -5,6 +5,11 @@ from torch.utils.data import DataLoader, TensorDataset
 from transformers import BertTokenizer, BertModel, BertPreTrainedModel
 from tqdm import tqdm
 from torch import nn
+import warnings
+from transformers import logging
+
+warnings.filterwarnings("ignore", message=".*Some weights of the model checkpoint.*", category=UserWarning, module="transformers")
+logging.set_verbosity_warning()
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -263,7 +268,7 @@ model.to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 total_steps = len(ner_loader) * num_epochs  # You can adjust this based on your requirements
 
-for epoch in range(num_epochs):
+for epoch in tqdm(range(num_epochs), desc="Training epochs"):
     print(f'Epoch {epoch+1}/{num_epochs}')
     print('-' * 40)
 
@@ -272,7 +277,7 @@ for epoch in range(num_epochs):
     ner_num_batches = 0
     re_num_batches = 0
 
-    for ner_batch, re_batch in zip(ner_loader, re_loader) if re_loader is not None else zip(ner_loader, [None] * len(ner_loader)):
+    for ner_batch, re_batch in tqdm(zip(ner_loader, re_loader) if re_loader is not None else zip(ner_loader, [None] * len(ner_loader)), desc="Training batches"):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
