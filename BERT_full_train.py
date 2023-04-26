@@ -14,6 +14,7 @@ learning_rate = 5e-5
 
 unique_ner_labels = set()
 unique_relation_labels = set()
+unique_ner_labels.add("O")
 
 
 # Existing preprocessing functions
