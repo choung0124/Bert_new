@@ -71,7 +71,7 @@ def extract_relationships(text, model_path, max_length=512, batch_size=8):
 text = sys.argv[1]
 
 # Extract the relationships from the input text
-relationships = extract_relationships(text, "models/combined")
+relationships = extract_relationships(text, "models/combined", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 
 # Print the extracted relationships
 print("Extracted relationships:")
