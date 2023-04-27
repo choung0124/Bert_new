@@ -338,7 +338,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         re_indices = re_indices.to(device)  # Add this line to move re_indices to the correct device
 
 
-        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels_batch, re_labels=re_labels_batch, re_indices=re_indices)
+        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels_batch, re_labels=re_labels_batch, re_indices=re_indices_batch)
         ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
