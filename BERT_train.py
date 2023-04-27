@@ -118,6 +118,7 @@ for file_name in os.listdir(json_directory):
         
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
+        print(re_data)
 
 
 class BertForNERAndRE(BertPreTrainedModel):
