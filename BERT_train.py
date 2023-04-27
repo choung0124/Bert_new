@@ -105,7 +105,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
     # Return a list of dictionaries
     preprocessed_data = []
-    for ner_data, re_data, re_indices in zip(preprocessed_ner_data, preprocessed_re_data, preprocessed_re_indices):
+    for ner_data, re_data, re_indices in zip(preprocessed_data):
         preprocessed_data.append({
             'ner_data': ner_data,
             're_data': re_data,
