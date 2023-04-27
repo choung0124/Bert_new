@@ -163,6 +163,10 @@ class BertForNERAndRE(BertPreTrainedModel):
 
         ner_logits = self.ner_classifier(sequence_output)
         re_logits = self.re_classifier(pooled_output)
+        
+        print("re_logits:", re_logits.shape)
+        print("re_labels:", re_labels.shape)
+
 
         total_loss = 0
         if ner_labels is not None:
