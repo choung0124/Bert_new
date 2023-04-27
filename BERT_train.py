@@ -269,10 +269,10 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
     re_batch_sampler = BatchSampler(SequentialSampler(re_sorted_indices), batch_size=batch_size, drop_last=False)
     re_loader = DataLoader(re_dataset, batch_sampler=re_batch_sampler)
     for batch in re_loader:
-        input_ids, attention_masks, re_labels = batch
+        input_ids, attention_masks, re_labels_batch = batch
         print(f"Shape of RE input ids batch: {input_ids.shape}")
         print(f"Shape of RE attention masks batch: {attention_masks.shape}")
-        print(f"Shape of RE labels batch: {re_labels.shape}")
+        print(f"Shape of RE labels batch: {re_labels_batch.shape}")
         break
 else:
     re_loader = None
@@ -285,10 +285,10 @@ batch_size = 8
 ner_batch_sampler = BatchSampler(SequentialSampler(ner_sorted_indices), batch_size=batch_size, drop_last=False)
 ner_dataloader = DataLoader(ner_dataset, batch_sampler=ner_batch_sampler)
 for batch in ner_dataloader:
-    input_ids, attention_masks, labels = batch
+    input_ids, attention_masks, ner_labels_batch = batch
     print(f"Shape of NER input ids batch: {input_ids.shape}")
     print(f"Shape of NER attention masks batch: {attention_masks.shape}")
-    print(f"Shape of NER labels batch: {ner_labels.shape}")
+    print(f"Shape of NER labels batch: {ner_labels_batch.shape}")
     break
 
 # Initialize the custom BERT model
