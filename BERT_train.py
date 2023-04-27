@@ -148,7 +148,6 @@ class BertForNERAndRE(BertPreTrainedModel):
         re_labels=None,
         re_indices=None,
     ):
-
         outputs = self.bert(
             input_ids,
             attention_mask=attention_mask,
@@ -174,9 +173,16 @@ class BertForNERAndRE(BertPreTrainedModel):
             total_loss += ner_loss
 
         if re_labels is not None:
-            re_logits_0 = torch.gather(re_logits, 1, re_indices[:, 0].unsqueeze(1)).squeeze(1)
-            re_logits_1 = torch.gather(re_logits, 1, re_indices[:, 1].unsqueeze(1)).squeeze(1)
+            # Get the current batch size
+            batch_size = input_ids.size(0)
+
+            # Slice the re_indices tensor to match the current batch size
+            re_indices_batch = re_indices[:batch_size]
+
+            re_logits_0 = torch.gather(re_logits, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)
+            re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
             re_logits = re_logits_0 + re_logits_1
+
             print(f"re_logits shape: {re_logits.shape}")
             print(f"re_indices shape: {re_indices.shape}")
 
