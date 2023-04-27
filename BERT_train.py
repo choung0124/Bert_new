@@ -201,7 +201,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_attention_masks.append(encoded_ner["attention_mask"])
 
     aligned_ner_labels = [label_to_id[label] for label in ner_labels_]
-    padded_ner_labels = aligned_ner_labels[:512] + [-100] * (512 - len(aligned_ner_labels))
+    padded_ner_labels = aligned_ner_labels[:len(encoded_ner['input_ids'][0])] + [-100] * (len(encoded_ner['input_ids'][0]) - len(aligned_ner_labels))
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
