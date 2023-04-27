@@ -232,7 +232,7 @@ re_labels = torch.LongTensor(re_labels)
 
 print(f"Current RE input ids shape: {encoded_re['input_ids'].shape}")
 print(f"Current RE attention masks shape: {encoded_re['attention_mask'].shape}")
-print(f"Current padded RE labels length: {len(padded_re_labels)}")
+print(f"Current RE labels length: {len(re_labels)}")
 
 print(f"Concatenated RE input ids shape: {re_input_ids.shape}")
 print(f"Concatenated RE attention masks shape: {re_attention_masks.shape}")
