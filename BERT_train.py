@@ -143,7 +143,7 @@ class NERRE_Dataset(Dataset):
         attention_mask = inputs['attention_mask'].squeeze()
         token_type_ids = inputs['token_type_ids'].squeeze()
 
-        re_label_ids = [self.relation_to_id[relation['relation']] for relation in re_data]
+        re_label_ids = [self.relation_to_id[relation['relation']] for relation in item['re_data']]
 
         # Split the re_indices tuples into separate lists of subject and object indices
         subject_indices, object_indices = zip(*re_indices)
