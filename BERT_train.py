@@ -163,9 +163,6 @@ class BertForNERAndRE(BertPreTrainedModel):
 
         ner_logits = self.ner_classifier(sequence_output)
         re_logits = self.re_classifier(pooled_output)
-        
-        print("re_logits:", re_logits.shape)
-        print("re_labels:", re_labels.shape)
 
 
         total_loss = 0
@@ -175,6 +172,8 @@ class BertForNERAndRE(BertPreTrainedModel):
             total_loss += ner_loss
 
         if re_labels is not None:
+            print("re_logits:", re_logits.shape)
+            print("re_labels:", re_labels.shape)
             loss_fct = nn.CrossEntropyLoss()
             re_loss = loss_fct(re_logits.view(-1, self.config.num_re_labels), re_labels.view(-1))
             total_loss += re_loss
