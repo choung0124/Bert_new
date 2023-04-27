@@ -125,16 +125,12 @@ class NERRE_Dataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.data[idx]
-        print("index:",idx, "item:", item)
-        ner_data = item['ner_data']
-        re_indices = item['re_indices']
+        print("index:", idx, "item:", item)
 
         # Tokenize the text and prepare inputs
-        tokens = [token for token, _, _ in ner_data]
-        ner_labels = [label for _, label, _ in ner_data]
-
-        # Convert labels to their corresponding IDs
-        ner_label_ids = [label_to_id[label] for label in ner_labels]
+        tokens = [token for token, _, _ in item['ner_data']]
+        ner_labels = [label for _, label, _ in item['ner_data']]
+        ner_label_ids = [self.label_to_id[label] for label in ner_labels]
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt')
 
@@ -142,23 +138,13 @@ class NERRE_Dataset(Dataset):
         attention_mask = inputs['attention_mask'].squeeze()
         token_type_ids = inputs['token_type_ids'].squeeze()
 
-        re_label_ids = [self.relation_to_id[relation['relation']] for relation in item['re_data']]
-        
-        if re_indices:
-            subject_indices, object_indices = zip(*re_indices)
-        else:
-            subject_indices, object_indices = [], []
-        if len(re_indices) == 0:
+        if len(item['re_indices']) == 0:
             # Handle the case when re_indices is empty
             # You can return a default value or raise an exception, depending on your needs
             return None
 
         # Split the re_indices tuples into separate lists of subject and object indices
-        subject_indices, object_indices = zip(*re_indices)
-
-        # Convert the subject and object indices to integers
-        subject_indices = [int(index) for index in subject_indices]
-        object_indices = [int(index) for index in object_indices]
+        subject_indices, object_indices = zip(*item['re_indices'])
 
         return {
             'input_ids': input_ids,
@@ -170,6 +156,27 @@ class NERRE_Dataset(Dataset):
             'object_indices': torch.tensor(object_indices, dtype=torch.long)
         }
 
+def custom_collate_fn(batch):
+    # Remove None values from the batch
+    batch = [item for item in batch if item is not None]
+
+    input_ids = torch.stack([item['input_ids'] for item in batch])
+    attention_mask = torch.stack([item['attention_mask'] for item in batch])
+    token_type_ids = torch.stack([item['token_type_ids'] for item in batch])
+    ner_labels = torch.stack([item['ner_labels'] for item in batch])
+    re_labels = torch.stack([item['re_labels'] for item in batch])
+    subject_indices = torch.stack([item['subject_indices'] for item in batch])
+    object_indices = torch.stack([item['object_indices'] for item in batch])
+
+    return {
+        'input_ids': input_ids,
+        'attention_mask': attention_mask,
+        'token_type_ids': token_type_ids,
+        'ner_labels': ner_labels,
+        're_labels': re_labels,
+        'subject_indices': subject_indices,
+        'object_indices': object_indices
+    }
 
 label_to_id = {}
 relation_to_id = {}
@@ -192,7 +199,7 @@ for file_name in os.listdir(json_directory):
 
 max_length = 128
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
-dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn)
 
 
 class BertForNERAndRE(BertPreTrainedModel):
