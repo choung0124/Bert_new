@@ -31,6 +31,15 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     # Build a set of entity IDs for faster lookup
     entity_ids = set(entities_dict.keys())
 
+    # Build relation_dict
+    relation_dict = {}
+    for relation in json_data["relation_info"]:
+        subject_id = relation["subjectID"].strip('"')  # Remove extra quotes
+        obj_id = relation["objectId"].strip('"')  # Remove extra quotes
+        if subject_id not in relation_dict:
+            relation_dict[subject_id] = {}
+        relation_dict[subject_id][obj_id] = relation["rel_name"]
+
     text = json_data["text"]
     current_idx = 0
     for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
@@ -95,13 +104,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
     return ner_data, re_data
 
-json_directory = "test"
-preprocessed_ner_data = []
-preprocessed_re_data = []
-
-label_to_id = {}
-relation_to_id = {}
-
 
 json_directory = "test"
 preprocessed_ner_data = []
@@ -122,6 +124,9 @@ for file_name in os.listdir(json_directory):
         
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
+        
+print(preprocessed_ner_data)
+print(preprocessed_re_data)
 
 
 class BertForNERAndRE(BertPreTrainedModel):
