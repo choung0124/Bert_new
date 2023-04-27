@@ -165,6 +165,10 @@ def custom_collate_fn(batch):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
+    # If the batch is empty, return an empty dictionary
+    if len(batch) == 0:
+        return {}
+
     # Pad input_ids, attention_mask, and token_type_ids
     input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
     attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
@@ -195,6 +199,7 @@ def custom_collate_fn(batch):
         'subject_indices': subject_indices,
         'object_indices': object_indices
     }
+
 
 
 label_to_id = {}
