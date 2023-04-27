@@ -230,13 +230,13 @@ re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
 re_labels = torch.LongTensor(re_labels)
 
-print(f"Current NER input ids shape: {encoded_ner['input_ids'].shape}")
-print(f"Current NER attention masks shape: {encoded_ner['attention_mask'].shape}")
-print(f"Current padded NER labels length: {len(padded_ner_labels)}")
+print(f"Current RE input ids shape: {encoded_re['input_ids'].shape}")
+print(f"Current RE attention masks shape: {encoded_re['attention_mask'].shape}")
+print(f"Current padded RE labels length: {len(padded_re_labels)}")
 
-print(f"Concatenated NER input ids shape: {ner_input_ids.shape}")
-print(f"Concatenated NER attention masks shape: {ner_attention_masks.shape}")
-print(f"Concatenated NER labels shape: {ner_labels.shape}")
+print(f"Concatenated RE input ids shape: {re_input_ids.shape}")
+print(f"Concatenated RE attention masks shape: {re_attention_masks.shape}")
+print(f"Concatenated RE labels shape: {re_labels.shape}")
 
 
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
