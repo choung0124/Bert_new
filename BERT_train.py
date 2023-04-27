@@ -216,13 +216,14 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
-    for re_data_dict in re_data:
-        subject_tokens = re_data_dict['subject_tokens']
-        object_tokens = re_data_dict['object_tokens']
+for re_data_dict in re_data:
+    subject_tokens = re_data_dict['subject_tokens']
+    object_tokens = re_data_dict['object_tokens']
 
-        subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
-        object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
+    subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
+    object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
 
+    if subject_index != -1 and object_index != -1:
         re_indices_list.append([subject_index, object_index])
         
         encoded_re = tokenizer.encode_plus(
@@ -238,14 +239,14 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
         re_labels.append([relation_to_id[re_data_dict["relation"]]])
-        
 
+       
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
 re_labels = torch.stack([torch.tensor(labels) for labels in re_labels])
 padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
-print(f"re_labels shape: {re_labels.shape}")
+#print(f"re_labels shape: {re_labels.shape}")
 
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
@@ -327,11 +328,11 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
 
         # Training RE
         if re_batch is not None:
-            print(f"Length of re_batch: {len(re_batch)}")
+            #print(f"Length of re_batch: {len(re_batch)}")
             optimizer.zero_grad()
             input_ids, attention_masks, re_labels, re_indices = tuple(t.to(device) for t in re_batch)  # Move re_indices to the correct device
-            print(f"input_ids shape: {input_ids.shape}")
-            print(f"re_labels shape: {re_labels.shape}")
+            #print(f"input_ids shape: {input_ids.shape}")
+            #print(f"re_labels shape: {re_labels.shape}")
 
             outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels, re_indices=re_indices)
             re_loss = outputs['loss']
