@@ -22,21 +22,20 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
+import itertools
+
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     ner_data = []
     re_data = []
     re_indices = []
 
     entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
-
-    # Build a set of entity IDs for faster lookup
     entity_ids = set(entities_dict.keys())
 
-    # Build relation_dict
     relation_dict = {}
     for relation in json_data["relation_info"]:
-        subject_id = relation["subjectID"].strip('"')  # Remove extra quotes
-        obj_id = relation["objectId"].strip('"')  # Remove extra quotes
+        subject_id = relation["subjectID"].strip('"')
+        obj_id = relation["objectId"].strip('"')
         if subject_id not in relation_dict:
             relation_dict[subject_id] = {}
         relation_dict[subject_id][obj_id] = relation["rel_name"]
@@ -49,7 +48,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         entity_id = entity["entityId"].strip('"')
         entity_name = entity["entityName"]
 
-        # Process NER data
         entity_text = text[begin:end]
         entity_tokens = tokenizer.tokenize(entity_text)
 
@@ -63,7 +61,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             else:
                 label = f"I-{entity_type}-{entity_name}"
 
-            # Add the label to the label_to_id dictionary if it's not present
             if label not in label_to_id:
                 label_to_id[label] = len(label_to_id)
 
@@ -72,14 +69,11 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
         current_idx = end
 
-        # Add any new labels to the label_to_id mapping
         if f"{entity_type}-{entity_name}" not in label_to_id:
             label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
 
-    # Process RE data
     for entity_id_1, entity_id_2 in itertools.combinations(entity_ids, 2):
         if entity_id_1 in relation_dict and entity_id_2 in relation_dict[entity_id_1]:
-            # There is a relation between these entities
             rel_name = relation_dict[entity_id_1][entity_id_2]
             entity_1 = entities_dict[entity_id_1]
             entity_2 = entities_dict[entity_id_2]
@@ -92,9 +86,12 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
                 'object_tokens': tokenizer.tokenize(text[entity_2["span"]["begin"]:entity_2["span"]["end"]])
             })
 
-            # Add any new relations to the relation_to_id mapping
             if rel_name not in relation_to_id:
                 relation_to_id[rel_name] = len(relation_to_id)
+
+            subject_start_idx = [idx for token, label, idx in ner_data if label == f"B-{entity_1['entityType']}-{entity_1['entityName']}"][0]
+            object_start_idx = [idx for token, label, idx in ner_data if label == f"B-{entity_2['entityType']}-{entity_2['entityName']}"][0]
+            re_indices.append((subject_start_idx, object_start_idx))
 
     while current_idx < len(text):
         ner_data.append((text[current_idx], "O", len(ner_data)))
@@ -103,9 +100,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     if "O" not in label_to_id:
         label_to_id["O"] = len(label_to_id)
 
-    # Return a list of dictionaries
     preprocessed_data = []
-    
+
     preprocessed_data.append({
         'ner_data': ner_data,
         're_data': re_data,
@@ -113,6 +109,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     })
 
     return preprocessed_data
+
 
 class NERRE_Dataset(Dataset):
     def __init__(self, data, tokenizer, max_length, label_to_id, relation_to_id):
