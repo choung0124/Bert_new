@@ -179,8 +179,10 @@ class BertForNERAndRE(BertPreTrainedModel):
             print("re_logits:", re_logits.shape)
             print("re_labels:", re_labels.shape)
 
+            selected_re_labels = re_labels[re_indices[:, 0]] + re_labels[re_indices[:, 1]]
+
             loss_fct = nn.CrossEntropyLoss()
-            re_loss = loss_fct(re_logits, re_labels)
+            re_loss = loss_fct(re_logits, selected_re_labels)
             total_loss += re_loss
 
         output_dict = {
@@ -261,9 +263,9 @@ assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Misma
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
-    re_loader = DataLoader(re_dataset, batch_size=batch_size)
+    re_loader = DataLoader(re_dataset, batch_size=8)
     for batch in re_loader:
-        input_ids, attention_masks, labels = batch
+        input_ids, attention_masks, re_labels, re_indices = batch
         print(f"Shape of RE input ids batch: {input_ids.shape}")
         print(f"Shape of RE attention masks batch: {attention_masks.shape}")
         print(f"Shape of RE labels batch: {labels.shape}")
@@ -275,7 +277,7 @@ else:
 
 # Create separate DataLoaders for NER and RE tasks
 ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
-ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
+ner_loader = DataLoader(ner_dataset, batch_size=8)
 
 for batch in ner_loader:
     input_ids, attention_masks, labels = batch
