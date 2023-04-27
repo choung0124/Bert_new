@@ -232,7 +232,7 @@ assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mi
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
 
 # Defining re_loader if there is relation data
-if len(re_input_ids) > 0 and len(re_dataset) > 0:
+if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
     re_loader = DataLoader(re_dataset, batch_size=batch_size)
 else:
