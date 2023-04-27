@@ -234,7 +234,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
-re_labels = torch.stack(re_labels)
+re_labels = torch.stack([torch.tensor(labels) for labels in re_labels])
 padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
 
