@@ -11,7 +11,6 @@ import torch.nn as nn
 import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
-from apex import amp
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -308,7 +307,6 @@ model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
 if torch.cuda.device_count() > 1:
     model = nn.DataParallel(model)
-model, optimizer = amp.initialize(model, optimizer, opt_level="O1")
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=3e-5)
