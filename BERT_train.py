@@ -52,9 +52,15 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
         for i, token in enumerate(entity_tokens):
             if i == 0:
-                ner_data.append((token, f"B-{entity_type}-{entity_name}"))
+                label = f"B-{entity_type}-{entity_name}"
             else:
-                ner_data.append((token, f"I-{entity_type}-{entity_name}"))
+                label = f"I-{entity_type}-{entity_name}"
+
+            # Add the label to the label_to_id dictionary if it's not present
+            if label not in label_to_id:
+                label_to_id[label] = len(label_to_id)
+
+            ner_data.append((token, label))
             current_idx += 1
 
         current_idx = end
