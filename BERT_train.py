@@ -191,7 +191,6 @@ class BertForNERAndRE(BertPreTrainedModel):
         ner_logits = self.ner_classifier(sequence_output)
         re_logits = self.re_classifier(pooled_output)
 
-
         total_loss = 0
         if ner_labels is not None:
             loss_fct = nn.CrossEntropyLoss()
@@ -199,6 +198,7 @@ class BertForNERAndRE(BertPreTrainedModel):
             total_loss += ner_loss
 
         if re_labels is not None:
+            re_indices = re_indices.to(device=input_ids.device)  # Move re_indices to the same device as input_ids
             # Get the current batch size
             batch_size = input_ids.size(0)
 
@@ -207,8 +207,6 @@ class BertForNERAndRE(BertPreTrainedModel):
 
             # Slice the re_labels tensor to match the current batch size
             re_labels_batch = re_labels[:batch_size]
-            
-            print("re_indices_batch:", re_indices_batch)
 
             re_logits_0 = torch.gather(re_logits, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)
             re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
@@ -231,6 +229,7 @@ class BertForNERAndRE(BertPreTrainedModel):
 
         return output_dict
 
+
 # Preprocess and tokenize the NER and RE data
 ner_input_ids, ner_attention_masks, ner_labels = [], [], []
 re_input_ids, re_attention_masks, re_labels, re_indices_list = [], [], [], []
@@ -238,7 +237,7 @@ re_input_ids, re_attention_masks, re_labels, re_indices_list = [], [], [], []
 for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels", total=len(preprocessed_ner_data)):
     # Tokenize and align NER labels
     ner_tokens, ner_labels_ = zip(*ner_data)
-    encoded_ner = tokenizer.encode_plus(ner_tokens, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
+    encoded_ner = tokenizer.encode_plus(list(ner_tokens), is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
 
     ner_input_ids.append(encoded_ner["input_ids"])
     ner_attention_masks.append(encoded_ner["attention_mask"])
@@ -248,41 +247,38 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
-for re_data_dict in re_data:
-    subject_tokens = re_data_dict['subject_tokens']
-    object_tokens = re_data_dict['object_tokens']
+    for re_data_dict, ner_tokens in zip(re_data, ner_tokens):
+        subject_tokens = re_data_dict['subject_tokens']
+        object_tokens = re_data_dict['object_tokens']
 
-    subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
-    object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
-    
-    print(f"subject_index: {subject_index}, object_index: {object_index}")
+        subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
+        object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
 
-    if subject_index != -1 and object_index != -1:
-        re_indices_list.append([subject_index, object_index])
-        
-        encoded_re = tokenizer.encode_plus(
-            re_data_dict["subject_tokens"],
-            re_data_dict["object_tokens"],
-            add_special_tokens=True,
-            padding="max_length",
-            truncation=True,
-            max_length=512,
-            return_tensors="pt"
-        )
+        print(f"subject_index: {subject_index}, object_index: {object_index}")
 
-        re_input_ids.append(encoded_re["input_ids"])
-        re_attention_masks.append(encoded_re["attention_mask"])
-        re_labels.append([relation_to_id[re_data_dict["relation"]]])
+        if subject_index != -1 and object_index != -1:
+            re_indices_list.append([subject_index, object_index])
 
-print(re_labels)
-print(ner_data)
+            encoded_re = tokenizer.encode_plus(
+                list(subject_tokens),
+                list(object_tokens),
+                add_special_tokens=True,
+                padding="max_length",
+                truncation=True,
+                max_length=512,
+                return_tensors="pt"
+            )
+
+            re_input_ids.append(encoded_re["input_ids"])
+            re_attention_masks.append(encoded_re["attention_mask"])
+            re_labels.append(torch.LongTensor([relation_to_id[re_data_dict["relation"]]]))
+
        
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
 re_labels = torch.stack([torch.tensor(labels) for labels in re_labels])
 padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
-#print(f"re_labels shape: {re_labels.shape}")
 
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
@@ -290,12 +286,11 @@ ner_attention_masks = torch.cat(ner_attention_masks)
 ner_labels = torch.stack(ner_labels)
 re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
-re_labels = torch.stack(tuple(re_labels))
 
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
 
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0 and len(re_data) > 0:
@@ -305,12 +300,6 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
     batch_size = 8
     re_batch_sampler = BatchSampler(SequentialSampler(re_sorted_indices), batch_size=batch_size, drop_last=False)
     re_loader = DataLoader(re_dataset, batch_sampler=re_batch_sampler)
-    for batch in re_loader:
-        input_ids, attention_masks, re_labels_batch, re_indices_batch = batch
-        input_ids = input_ids.to(device)
-        attention_masks = attention_masks.to(device)
-        re_labels_batch = re_labels_batch.to(device)
-        break
 else:
     re_loader = None
     
@@ -321,16 +310,9 @@ ner_sorted_indices = sorted(ner_dataset_indices, key=lambda i: len(ner_input_ids
 batch_size = 8
 ner_batch_sampler = BatchSampler(SequentialSampler(ner_sorted_indices), batch_size=batch_size, drop_last=False)
 ner_dataloader = DataLoader(ner_dataset, batch_sampler=ner_batch_sampler)
-for batch in ner_dataloader:
-    input_ids, attention_masks, ner_labels_batch = batch
-    input_ids = input_ids.to(device)
-    attention_masks = attention_masks.to(device)
-    ner_labels_batch = ner_labels_batch.to(device)
-    break
 
 # Initialize the custom BERT model
 model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
-
 model.config.num_ner_labels = len(label_to_id)
 model.config.num_re_labels = len(relation_to_id)
 
@@ -364,11 +346,8 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
 
         # Training RE
         if re_batch is not None:
-            #print(f"Length of re_batch: {len(re_batch)}")
             optimizer.zero_grad()
-            input_ids, attention_masks, re_labels, re_indices = tuple(t.to(device) for t in re_batch)  # Move re_indices to the correct device
-            #print(f"input_ids shape: {input_ids.shape}")
-            #print(f"re_labels shape: {re_labels.shape}")
+            input_ids, attention_masks, re_labels, re_indices = tuple(t.to(device) for t in re_batch)
 
             outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels, re_indices=re_indices)
             re_loss = outputs['loss']
