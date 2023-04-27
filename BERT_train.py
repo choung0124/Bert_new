@@ -7,12 +7,13 @@ from tqdm import tqdm
 from torch import nn
 import warnings
 import logging
+import torch.nn as nn
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
 tokenizer = BertTokenizer.from_pretrained("bert-large-uncased")
 
 batch_size = 8
-num_epochs = 4
+num_epochs = 10
 learning_rate = 5e-5
 
 unique_ner_labels = set()
@@ -125,10 +126,6 @@ for file_name in os.listdir(json_directory):
         #    print(entity)
 
 
-# New custom model based on BERT
-from transformers import BertPreTrainedModel, BertModel
-import torch.nn as nn
-
 class BertForNERAndRE(BertPreTrainedModel):
     def __init__(self, config, num_ner_labels, num_re_labels):
         super().__init__(config)
@@ -235,7 +232,7 @@ assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mi
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
 
 # Defining re_loader if there is relation data
-if len(re_input_ids) > 0:
+if len(re_input_ids) > 0 and len(re_dataset) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
     re_loader = DataLoader(re_dataset, batch_size=batch_size)
 else:
@@ -244,7 +241,6 @@ else:
 # Create separate DataLoaders for NER and RE tasks
 ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
 ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
-
 
 # Initialize the custom BERT model
 model = BertForNERAndRE.from_pretrained("bert-large-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
@@ -274,7 +270,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
         outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels)
         print(outputs.keys())
-        ner_loss = outputs[0]
+        ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
         ner_loss.backward()
