@@ -167,7 +167,7 @@ def pad_relation_data(data, max_relations, padding_value=-1):
     return padded_data
 
 def custom_collate_fn(batch):
-# Remove None values from the batch
+    # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
     # Pad input_ids, attention_mask, and token_type_ids
@@ -185,13 +185,18 @@ def custom_collate_fn(batch):
     padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
     re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
 
+    # Pad re_indices
+    re_indices = [item['re_indices'] for item in batch if item['re_indices'] is not None]
+
     return {
         'input_ids': input_ids,
         'attention_mask': attention_mask,
         'token_type_ids': token_type_ids,
         'ner_labels': ner_labels,
-        're_labels': re_labels
+        're_labels': re_labels,
+        're_indices': re_indices  # Add the 're_indices' key here
     }
+
 
 
 
