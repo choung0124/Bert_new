@@ -174,28 +174,22 @@ def custom_collate_fn(batch):
     token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
 
     # Pad ner_labels
-    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-1)
+    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
 
-    re_labels = torch.cat([item['re_labels'].unsqueeze(0) for item in batch], dim=0)
+    # Find the maximum number of relations in the batch
+    max_relations = max([len(item['re_labels']) for item in batch])
 
-    # Check if 're_indices' exists in the batch
-    if all('re_indices' in item for item in batch):
-        subject_indices, object_indices = zip(*[item['re_indices'] for item in batch])
-        subject_indices = torch.stack(subject_indices)
-        object_indices = torch.stack(object_indices)
-    else:
-        subject_indices, object_indices = None, None
+    # Pad re_labels
+    padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
+    re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
 
     return {
         'input_ids': input_ids,
         'attention_mask': attention_mask,
         'token_type_ids': token_type_ids,
         'ner_labels': ner_labels,
-        're_labels': re_labels,
-        'subject_indices': subject_indices,
-        'object_indices': object_indices
+        're_labels': re_labels
     }
-
 
 
 
