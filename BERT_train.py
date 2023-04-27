@@ -272,7 +272,7 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
         input_ids, attention_masks, re_labels = batch
         print(f"Shape of RE input ids batch: {input_ids.shape}")
         print(f"Shape of RE attention masks batch: {attention_masks.shape}")
-        print(f"Shape of RE labels batch: {labels.shape}")
+        print(f"Shape of RE labels batch: {re_labels.shape}")
         break
 else:
     re_loader = None
@@ -289,7 +289,7 @@ for batch in ner_loader:
     input_ids, attention_masks, labels = batch
     print(f"Shape of NER input ids batch: {input_ids.shape}")
     print(f"Shape of NER attention masks batch: {attention_masks.shape}")
-    print(f"Shape of NER labels batch: {labels.shape}")
+    print(f"Shape of NER labels batch: {ner_labels.shape}")
     break
 
 # Initialize the custom BERT model
