@@ -284,8 +284,7 @@ ner_sorted_indices = sorted(ner_dataset_indices, key=lambda i: len(ner_input_ids
 batch_size = 8
 ner_batch_sampler = BatchSampler(SequentialSampler(ner_sorted_indices), batch_size=batch_size, drop_last=False)
 ner_dataloader = DataLoader(ner_dataset, batch_sampler=ner_batch_sampler)
-
-for batch in ner_loader:
+for batch in ner_dataloader:
     input_ids, attention_masks, labels = batch
     print(f"Shape of NER input ids batch: {input_ids.shape}")
     print(f"Shape of NER attention masks batch: {attention_masks.shape}")
