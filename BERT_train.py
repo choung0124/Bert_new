@@ -161,6 +161,33 @@ class NERRE_Dataset(Dataset):
             'object_indices': torch.tensor(object_indices, dtype=torch.long) if object_indices is not None else None
         }
 
+def custom_collate_fn(batch):
+# Remove None values from the batch
+batch = [item for item in batch if item is not None]
+
+# Pad input_ids, attention_mask, and token_type_ids
+input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
+attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
+token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
+
+# Pad ner_labels
+ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
+
+# Find the maximum number of relations in the batch
+max_relations = max([len(item['re_labels']) for item in batch])
+
+# Pad re_labels
+padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
+re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
+
+return {
+    'input_ids': input_ids,
+    'attention_mask': attention_mask,
+    'token_type_ids': token_type_ids,
+    'ner_labels': ner_labels,
+    're_labels': re_labels
+}
+
 
 
 label_to_id = {}
