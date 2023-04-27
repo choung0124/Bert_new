@@ -260,6 +260,8 @@ print(f"Shape of RE indices: {re_indices.shape}")
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
