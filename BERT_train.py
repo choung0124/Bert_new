@@ -174,7 +174,8 @@ class BertForNERAndRE(BertPreTrainedModel):
             total_loss += ner_loss
 
         if re_labels is not None:
-            re_logits = re_logits[torch.arange(re_logits.size(0)), re_indices[:, 0]] + re_logits[torch.arange(re_logits.size(0)), re_indices[:, 1]]
+            re_logits = re_logits[:, re_indices[:, 0]] + re_logits[:, re_indices[:, 1]]
+
             print("re_logits:", re_logits.shape)
             print("re_labels:", re_labels.shape)
 
@@ -224,7 +225,8 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
-        re_labels.append(torch.tensor([relation_to_id[re_data_dict["relation"]]], dtype=torch.long))  # Append a tensor directly to the re_labels list
+        re_labels.append([relation_to_id[re_data_dict["relation"]]])
+
 
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long)
