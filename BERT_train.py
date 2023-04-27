@@ -209,8 +209,8 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     # Tokenize RE data
     for re_data_dict in re_data:
-        subject_index = re_data_dict['subject_tokens'][0]['idx']
-        object_index = re_data_dict['object_tokens'][0]['idx']
+        subject_index = re_data_dict['subject_tokens'][0]
+        object_index = re_data_dict['object_tokens'][0]
         re_indices_list.append((subject_index, object_index))
         
         encoded_re = tokenizer.encode_plus(
