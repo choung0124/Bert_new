@@ -209,14 +209,17 @@ for file_name in os.listdir(json_directory):
     if file_name.endswith(".json"):
         json_path = os.path.join(json_directory, file_name)
 
-        with open(json_path, "r") as json_file:
-            json_data = json.load(json_file)
+        try:
+            with open(json_path, "r") as json_file:
+                json_data = json.load(json_file)
 
-        preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
-        preprocessed_data.extend(preprocessed_file_data)
-        print(preprocessed_data)
+            preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
+            preprocessed_data.extend(preprocessed_file_data)
+        except json.JSONDecodeError as e:
+            print(f"Error loading {json_path}: {e}")
+            continue
+
         
-
 max_length = 128
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn)
