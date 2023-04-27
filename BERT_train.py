@@ -125,6 +125,7 @@ class NERRE_Dataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.data[idx]
+        print("index:",idx, "item:", item)
         ner_data = item['ner_data']
         re_indices = item['re_indices']
 
