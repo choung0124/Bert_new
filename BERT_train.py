@@ -145,7 +145,7 @@ class NERRE_Dataset(Dataset):
 
         re_label_ids = [self.relation_to_id[relation['relation']] for relation in re_data]
 
-    # Split the re_indices tuples into separate lists of subject and object indices
+        # Split the re_indices tuples into separate lists of subject and object indices
         subject_indices, object_indices = zip(*re_indices)
 
         # Convert the subject and object indices to integers
@@ -161,7 +161,6 @@ class NERRE_Dataset(Dataset):
             'subject_indices': torch.tensor(subject_indices, dtype=torch.long),
             'object_indices': torch.tensor(object_indices, dtype=torch.long)
         }
-
 
 
 label_to_id = {}
