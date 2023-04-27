@@ -212,8 +212,8 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
         subject_tokens = re_data_dict['subject_tokens']
         object_tokens = re_data_dict['object_tokens']
 
-        subject_index = next(i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens)
-        object_index = next(i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens)
+        subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
+        object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
 
         re_indices_list.append([subject_index, object_index])
         
