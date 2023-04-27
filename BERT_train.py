@@ -318,24 +318,28 @@ for epoch in range(num_epochs):
         re_labels = batch['re_labels']
         re_indices = batch['re_indices']
 
-        # Forward pass
-        outputs = model(
-            input_ids=input_ids,
-            attention_mask=attention_mask,
-            token_type_ids=token_type_ids,
-            ner_labels=ner_labels,
-            re_labels=re_labels,
-            re_indices=re_indices,
-        )
+        try:
+            # Forward pass
+            outputs = model(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                token_type_ids=token_type_ids,
+                ner_labels=ner_labels,
+                re_labels=re_labels,
+                re_indices=re_indices,
+            )
 
-        loss = outputs["loss"]
-        loss.backward()
+            loss = outputs["loss"]
+            loss.backward()
 
-        # Update parameters and the learning rate
-        optimizer.step()
-        scheduler.step()
-        optimizer.zero_grad()
+            # Update parameters and the learning rate
+            optimizer.step()
+            scheduler.step()
+            optimizer.zero_grad()
 
+        except Exception as e:
+            print(f"Skipping batch due to error: {e}")
+            continue
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
 os.makedirs(output_dir, exist_ok=True)
