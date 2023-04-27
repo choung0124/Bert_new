@@ -137,14 +137,14 @@ class NERRE_Dataset(Dataset):
         attention_mask = inputs['attention_mask'].squeeze()
         token_type_ids = inputs['token_type_ids'].squeeze()
 
-    return {
-        'input_ids': input_ids,
-        'attention_mask': attention_mask,
-        'token_type_ids': token_type_ids,
-        'ner_labels': torch.tensor(ner_labels, dtype=torch.long),
-        're_labels': torch.tensor(item['re_labels'], dtype=torch.long),
-        're_indices': torch.tensor(re_indices, dtype=torch.long)
-    }
+        return {
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'token_type_ids': token_type_ids,
+            'ner_labels': torch.tensor(ner_labels, dtype=torch.long),
+            're_labels': torch.tensor(item['re_labels'], dtype=torch.long),
+            're_indices': torch.tensor(re_indices, dtype=torch.long)
+        }
 
 
 label_to_id = {}
