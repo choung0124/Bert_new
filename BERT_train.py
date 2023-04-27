@@ -118,7 +118,6 @@ for file_name in os.listdir(json_directory):
         
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
-        print(re_data)
 
 
 class BertForNERAndRE(BertPreTrainedModel):
@@ -240,6 +239,8 @@ for re_data_dict in re_data:
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
         re_labels.append([relation_to_id[re_data_dict["relation"]]])
+        
+print(re_labels)
 
        
 # Stack RE labels and pad the tensor
