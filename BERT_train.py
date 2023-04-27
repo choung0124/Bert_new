@@ -164,6 +164,7 @@ for file_name in os.listdir(json_directory):
         preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
         preprocessed_data.extend(preprocessed_file_data)
 
+max_length = 128
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
