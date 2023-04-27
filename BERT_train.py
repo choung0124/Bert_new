@@ -247,7 +247,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
 re_labels = torch.stack([torch.tensor(labels) for labels in re_labels])
-padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
+#padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
 print(f"re_labels shape: {re_labels.shape}")
 
@@ -274,7 +274,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0 and len(re_data) > 0:
-    re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
+    re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels, re_indices)
     re_dataset_indices = list(range(len(re_input_ids)))
     re_sorted_indices = sorted(re_dataset_indices, key=lambda i: len(re_input_ids[i]))
     batch_size = 8
