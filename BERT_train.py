@@ -237,6 +237,7 @@ re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
 re_labels = torch.stack([torch.tensor(labels) for labels in re_labels])
 padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
+print(f"re_labels shape: {re_labels.shape}")
 
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
@@ -286,7 +287,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
-        outputs = outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels, re_labels=re_labels, re_indices=re_indices)
+        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels, re_labels=re_batch[2], re_indices=re_batch[3])
         ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
@@ -297,6 +298,10 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         if re_batch is not None:
             optimizer.zero_grad()
             input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
+            
+            print(f"input_ids shape: {input_ids.shape}")
+            print(f"re_labels shape: {re_labels.shape}")
+        
             outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels, re_indices=re_indices)
             re_loss = outputs[0]
             re_epoch_loss += re_loss.item()
