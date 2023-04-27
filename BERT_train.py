@@ -178,6 +178,9 @@ class BertForNERAndRE(BertPreTrainedModel):
 
             # Slice the re_indices tensor to match the current batch size
             re_indices_batch = re_indices[:batch_size]
+            
+            print(f"re_indices_batch: {re_indices_batch}")  # Add this line
+            print(f"re_logits shape: {re_logits.shape}") 
 
             re_logits_0 = torch.gather(re_logits, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)
             re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
