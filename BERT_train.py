@@ -103,12 +103,15 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
     preprocessed_data = []
     re_labels = [relation_to_id[relation['relation']] for relation in re_data]
-    preprocessed_data.append({
-        'ner_data': ner_data,
-        're_data': re_data,
-        're_indices': re_indices,
-        're_labels': re_labels  # Add the re_labels list here
-    })
+    
+    # Check if there are relations before appending the data
+    if len(re_data) > 0:
+        preprocessed_data.append({
+            'ner_data': ner_data,
+            're_data': re_data,
+            're_indices': re_indices,
+            're_labels': re_labels  # Add the re_labels list here
+        })
 
     return preprocessed_data
 
