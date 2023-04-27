@@ -158,7 +158,8 @@ class NERRE_Dataset(Dataset):
         }
     
 def pad_relation_data(data, max_relations, padding_value=-1):
-    return [(*item, padding_value) for item in itertools.chain(data, itertools.repeat((), max_relations - len(data)))]
+    padded_data = list(data) + [padding_value] * (max_relations - len(data))
+    return padded_data
 
 def custom_collate_fn(batch):
     # Remove None values from the batch
@@ -194,7 +195,6 @@ def custom_collate_fn(batch):
         'subject_indices': subject_indices,
         'object_indices': object_indices
     }
-
 
 
 label_to_id = {}
