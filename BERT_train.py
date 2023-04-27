@@ -247,6 +247,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
+    re_data_dict = {}
     for re_data_dict, ner_tokens in zip(re_data, ner_tokens):
         subject_tokens = re_data_dict['subject_tokens']
         object_tokens = re_data_dict['object_tokens']
