@@ -131,7 +131,9 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         item = self.data[idx]
         print("index:", idx, "item:", item)
-
+        # If re_labels is empty, return None
+        if len(item['re_labels']) == 0:
+            return None
         # Tokenize the text and prepare inputs
         tokens = [token for token, _, _ in item['ner_data']]
         ner_labels = [label for _, label, _ in item['ner_data']]
@@ -222,6 +224,7 @@ for file_name in os.listdir(json_directory):
 
         
 max_length = 128
+num_workers = 12
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn)
 
@@ -303,22 +306,29 @@ num_ner_labels = len(label_to_id)
 num_re_labels = len(relation_to_id)
 model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
+if torch.cuda.device_count() > 1:
+    model = nn.DataParallel(model)
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=3e-5)
 num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
 
-# Train the model using the dataloader
-model.train()
 for epoch in range(num_epochs):
     for batch in dataloader:
+        # Skip the iteration if the batch is empty
+        if not batch:
+            continue
+            
         input_ids = batch['input_ids'].to(device)
         attention_mask = batch['attention_mask'].to(device)
         token_type_ids = batch['token_type_ids'].to(device)
         ner_labels = batch['ner_labels'].to(device)
         re_labels = batch['re_labels'].to(device)
-        re_indices = batch['re_indices'].to(device)
+        if batch['re_indices'] is not None:
+            re_indices = batch['re_indices'].to(device)
+        else:
+            re_indices = None
 
         try:
             # Forward pass
@@ -342,6 +352,7 @@ for epoch in range(num_epochs):
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
+
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
 os.makedirs(output_dir, exist_ok=True)
