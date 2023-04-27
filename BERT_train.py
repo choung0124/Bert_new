@@ -61,6 +61,11 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             if label not in label_to_id:
                 label_to_id[label] = len(label_to_id)
 
+        # Only add the "O" label if it's not present in the dictionary
+        if "O" not in label_to_id:
+            label_to_id["O"] = len(label_to_id)
+
+        for token in entity_tokens:
             ner_data.append((token, label))
             current_idx += 1
 
@@ -94,10 +99,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         ner_data.append((text[current_idx], "O"))
         current_idx += 1
         
-    if "O" not in label_to_id:
-        label_to_id["O"] = len(label_to_id)
-
     return ner_data, re_data
+
 
 json_directory = "test"
 preprocessed_ner_data = []
