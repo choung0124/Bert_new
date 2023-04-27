@@ -247,10 +247,9 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
-    re_data_dict = {}
-    for re_data_dict, ner_tokens in zip(re_data, ner_tokens):
-        subject_tokens = re_data_dict['subject_tokens']
-        object_tokens = re_data_dict['object_tokens']
+    for relation_dict, ner_tokens in zip(re_data, ner_tokens):
+        subject_tokens = relation_dict['subject_tokens']
+        object_tokens = relation_dict['object_tokens']
 
         subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
         object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
