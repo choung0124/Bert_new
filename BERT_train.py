@@ -166,7 +166,9 @@ def custom_collate_fn(batch):
     attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
     token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
 
-    ner_labels = torch.stack([item['ner_labels'] for item in batch])
+    # Pad ner_labels
+    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-1)
+
     re_labels = torch.stack([item['re_labels'] for item in batch])
     subject_indices = torch.stack([item['subject_indices'] for item in batch])
     object_indices = torch.stack([item['object_indices'] for item in batch])
@@ -180,6 +182,7 @@ def custom_collate_fn(batch):
         'subject_indices': subject_indices,
         'object_indices': object_indices
     }
+
 
 
 label_to_id = {}
@@ -257,10 +260,10 @@ class BertForNERAndRE(BertPreTrainedModel):
             ner_loss = loss_fct(ner_logits.view(-1, self.config.num_ner_labels), ner_labels.view(-1))
             total_loss += ner_loss
 
-        if re_labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            re_loss = loss_fct(re_logits, re_labels.view(-1))
-            total_loss += re_loss
+        if ner_labels is not None:
+            loss_fct = nn.CrossEntropyLoss(ignore_index=-1)
+            ner_loss = loss_fct(ner_logits.view(-1, self.config.num_ner_labels), ner_labels.view(-1))
+            total_loss += ner_loss
 
         output_dict = {
             "loss": total_loss if total_loss > 0 else None,
