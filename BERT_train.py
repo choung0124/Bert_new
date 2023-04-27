@@ -209,11 +209,11 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     # Tokenize RE data
     for re_data_dict in re_data:
-        subject_text = re_data_dict['subject']
-        object_text = re_data_dict['object']
+        subject_tokens = re_data_dict['subject_tokens']
+        object_tokens = re_data_dict['object_tokens']
 
-        subject_index = ner_tokens.index(subject_text)
-        object_index = ner_tokens.index(object_text)
+        subject_index = next(i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens)
+        object_index = next(i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens)
 
         re_indices_list.append([subject_index, object_index])
         
