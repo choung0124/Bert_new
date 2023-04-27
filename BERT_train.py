@@ -84,7 +84,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
                         'object_tokens': tokenizer.tokenize(text[obj_entity["span"]["begin"]:obj_entity["span"]["end"]])
                     })
                 else:
-                    #print(f"Warning: obj_id '{obj_id}' not found in entities_dict. Skipping this relation.")
                     continue
 
                 # Add any new relations to the relation_to_id mapping
@@ -119,11 +118,6 @@ for file_name in os.listdir(json_directory):
         
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
-
-        #print(f"Processed: {file_name}")
-        #print(f"Number of entities: {len(json_data['entities'])}")
-        #for entity in json_data['entities']:
-        #    print(entity)
 
 
 class BertForNERAndRE(BertPreTrainedModel):
@@ -181,10 +175,6 @@ class BertForNERAndRE(BertPreTrainedModel):
 
             # Slice the re_labels tensor to match the current batch size
             re_labels_batch = re_labels[:batch_size]
-
-            # In the forward method of your model
-            assert torch.all(re_indices_batch[:, 0] < re_logits.size(1)), "Index out of bounds in re_indices_batch[:, 0]"
-            assert torch.all(re_indices_batch[:, 1] < re_logits.size(1)), "Index out of bounds in re_indices_batch[:, 1]"
 
             re_logits_0 = torch.gather(re_logits, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)
             re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
@@ -264,18 +254,10 @@ re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
 re_labels = torch.stack(tuple(re_labels))
 
-print(f"Shape of NER input ids: {ner_input_ids.shape}")
-print(f"Shape of NER attention masks: {ner_attention_masks.shape}")
-print(f"Shape of NER labels: {ner_labels.shape}")
-print(f"Shape of RE input ids: {re_input_ids.shape}")
-print(f"Shape of RE attention masks: {re_attention_masks.shape}")
-print(f"Shape of RE labels: {re_labels.shape}")
-print(f"Shape of RE indices: {re_indices.shape}")
-
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0 and len(re_data) > 0:
@@ -290,9 +272,6 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
         input_ids = input_ids.to(device)
         attention_masks = attention_masks.to(device)
         re_labels_batch = re_labels_batch.to(device)
-        print(f"Shape of RE input ids batch: {input_ids.shape}")
-        print(f"Shape of RE attention masks batch: {attention_masks.shape}")
-        print(f"Shape of RE labels batch: {re_labels_batch.shape}")
         break
 else:
     re_loader = None
@@ -309,9 +288,6 @@ for batch in ner_dataloader:
     input_ids = input_ids.to(device)
     attention_masks = attention_masks.to(device)
     ner_labels_batch = ner_labels_batch.to(device)
-    print(f"Shape of NER input ids batch: {input_ids.shape}")
-    print(f"Shape of NER attention masks batch: {attention_masks.shape}")
-    print(f"Shape of NER labels batch: {ner_labels_batch.shape}")
     break
 
 # Initialize the custom BERT model
@@ -321,7 +297,7 @@ model.config.num_ner_labels = len(label_to_id)
 model.config.num_re_labels = len(relation_to_id)
 
 # Fine-tune the custom BERT model
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 model.to(device)
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
