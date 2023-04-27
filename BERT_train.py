@@ -226,8 +226,7 @@ for file_name in os.listdir(json_directory):
 max_length = 128
 num_workers = 12
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn)
-
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers)
 
 class BertForNERAndRE(BertPreTrainedModel):
     def __init__(self, config, num_ner_labels, num_re_labels):
@@ -326,7 +325,7 @@ for epoch in range(num_epochs):
         ner_labels = batch['ner_labels'].to(device)
         re_labels = batch['re_labels'].to(device)
         if batch['re_indices'] is not None:
-            re_indices = batch['re_indices'].to(device)
+            re_indices = torch.tensor(batch['re_indices'], dtype=torch.long).to(device)
         else:
             re_indices = None
 
