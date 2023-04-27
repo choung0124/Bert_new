@@ -144,11 +144,12 @@ class NERRE_Dataset(Dataset):
 
         if len(item['re_indices']) == 0:
             # Handle the case when re_indices is empty
-            # You can return a default value or raise an exception, depending on your needs
-            return None
-
-        # Split the re_indices tuples into separate lists of subject and object indices
-        subject_indices, object_indices = zip(*item['re_indices'])
+            # Return None for subject_indices and object_indices
+            subject_indices = None
+            object_indices = None
+        else:
+            # Split the re_indices tuples into separate lists of subject and object indices
+            subject_indices, object_indices = zip(*item['re_indices'])
 
         return {
             'input_ids': input_ids,
@@ -156,40 +157,9 @@ class NERRE_Dataset(Dataset):
             'token_type_ids': token_type_ids,
             'ner_labels': torch.tensor(ner_label_ids, dtype=torch.long),
             're_labels': torch.tensor(item['re_labels'], dtype=torch.long),
-            'subject_indices': torch.tensor(subject_indices, dtype=torch.long),
-            'object_indices': torch.tensor(object_indices, dtype=torch.long)
+            'subject_indices': torch.tensor(subject_indices, dtype=torch.long) if subject_indices is not None else None,
+            'object_indices': torch.tensor(object_indices, dtype=torch.long) if object_indices is not None else None
         }
-    
-def pad_relation_data(data, max_relations, padding_value=-1):
-    padded_data = list(data) + [padding_value] * (max_relations - len(data))
-    return padded_data
-
-def custom_collate_fn(batch):
-    # Remove None values from the batch
-    batch = [item for item in batch if item is not None]
-
-    # Pad input_ids, attention_mask, and token_type_ids
-    input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
-    attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
-    token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
-
-    # Pad ner_labels
-    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
-
-    # Find the maximum number of relations in the batch
-    max_relations = max([len(item['re_labels']) for item in batch])
-
-    # Pad re_labels
-    padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
-    re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
-
-    return {
-        'input_ids': input_ids,
-        'attention_mask': attention_mask,
-        'token_type_ids': token_type_ids,
-        'ner_labels': ner_labels,
-        're_labels': re_labels
-    }
 
 
 
