@@ -186,13 +186,14 @@ class BertForNERAndRE(BertPreTrainedModel):
             re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
             re_logits = re_logits_0 + re_logits_1
 
-            selected_re_labels_0 = torch.gather(re_labels_batch, 1, re_indices[:, 0].unsqueeze(1)).squeeze(1)  # Modified line
-            selected_re_labels_1 = torch.gather(re_labels_batch, 1, re_indices[:, 1].unsqueeze(1)).squeeze(1)  # Modified line
+            selected_re_labels_0 = torch.gather(re_labels_batch, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)  # Updated line
+            selected_re_labels_1 = torch.gather(re_labels_batch, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)  # Updated line
             selected_re_labels = selected_re_labels_0 + selected_re_labels_1
 
             loss_fct = nn.CrossEntropyLoss()
             re_loss = loss_fct(re_logits, selected_re_labels)
             total_loss += re_loss
+
 
         output_dict = {
             "loss": total_loss if total_loss > 0 else None,
