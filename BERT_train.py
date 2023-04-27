@@ -302,7 +302,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
-total_steps = len(ner_loader) * num_epochs  # You can adjust this based on your requirements
+total_steps = len(ner_dataloader) * num_epochs  # You can adjust this based on your requirements
 
 for epoch in tqdm(range(num_epochs), desc="Training epochs"):
     print(f'Epoch {epoch+1}/{num_epochs}')
@@ -313,7 +313,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
     ner_num_batches = 0
     re_num_batches = 0
 
-    for ner_batch, re_batch in tqdm(zip(ner_loader, re_loader) if re_loader is not None else zip(ner_loader, [None] * len(ner_loader)), desc="Training batches"):
+    for ner_batch, re_batch in tqdm(zip(ner_dataloader, re_loader) if re_loader is not None else zip(ner_dataloader, [None] * len(ner_dataloader)), desc="Training batches"):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
