@@ -140,8 +140,8 @@ for file_name in os.listdir(json_directory):
         re_indices = []
         for re_instance in re_data:
             id_1, id_2 = re_instance['id']
-            id_1_tokens = [token for token, label in ner_data if id_1 in label]
-            id_2_tokens = [token for token, label in ner_data if id_2 in label]
+            id_1_tokens = [token for token, label, idx in ner_data if id_1 in label]
+            id_2_tokens = [token for token, label, idx in ner_data if id_2 in label]
             if id_1_tokens and id_2_tokens:
                 id_1_start_index = next(idx for token, label, idx in ner_data if id_1 in label)
                 id_2_start_index = next(idx for token, label, idx in ner_data if id_2 in label)
