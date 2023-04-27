@@ -169,7 +169,7 @@ def custom_collate_fn(batch):
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-1)
 
-    re_labels = torch.stack([item['re_labels'] for item in batch])
+    re_labels = torch.cat([item['re_labels'].unsqueeze(0) for item in batch], dim=0)
     subject_indices = torch.stack([item['subject_indices'] for item in batch])
     object_indices = torch.stack([item['object_indices'] for item in batch])
 
