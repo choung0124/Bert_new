@@ -232,14 +232,6 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
         re_labels.append([relation_to_id[re_data_dict["relation"]]])
         
 
-print(f"Shape of NER input ids: {ner_input_ids.shape}")
-print(f"Shape of NER attention masks: {ner_attention_masks.shape}")
-print(f"Shape of NER labels: {ner_labels.shape}")
-print(f"Shape of RE input ids: {re_input_ids.shape}")
-print(f"Shape of RE attention masks: {re_attention_masks.shape}")
-print(f"Shape of RE labels: {re_labels.shape}")
-print(f"Shape of RE indices: {re_indices.shape}")
-
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
 re_labels = torch.stack([torch.tensor(labels) for labels in re_labels])
@@ -254,6 +246,14 @@ ner_labels = torch.stack(ner_labels)
 re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
 re_labels = torch.stack(tuple(re_labels))
+
+print(f"Shape of NER input ids: {ner_input_ids.shape}")
+print(f"Shape of NER attention masks: {ner_attention_masks.shape}")
+print(f"Shape of NER labels: {ner_labels.shape}")
+print(f"Shape of RE input ids: {re_input_ids.shape}")
+print(f"Shape of RE attention masks: {re_attention_masks.shape}")
+print(f"Shape of RE labels: {re_labels.shape}")
+print(f"Shape of RE indices: {re_indices.shape}")
 
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
