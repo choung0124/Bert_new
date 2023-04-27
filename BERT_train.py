@@ -234,6 +234,11 @@ print(f"Current NER input ids shape: {encoded_ner['input_ids'].shape}")
 print(f"Current NER attention masks shape: {encoded_ner['attention_mask'].shape}")
 print(f"Current padded NER labels length: {len(padded_ner_labels)}")
 
+print(f"Concatenated NER input ids shape: {ner_input_ids.shape}")
+print(f"Concatenated NER attention masks shape: {ner_attention_masks.shape}")
+print(f"Concatenated NER labels shape: {ner_labels.shape}")
+
+
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
 
