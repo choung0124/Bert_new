@@ -209,9 +209,13 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     # Tokenize RE data
     for re_data_dict in re_data:
-        subject_index = re_data_dict['subject_tokens'][0]
-        object_index = re_data_dict['object_tokens'][0]
-        re_indices_list.append((subject_index, object_index))
+        subject_text = re_data_dict['subject']
+        object_text = re_data_dict['object']
+
+        subject_index = ner_tokens.index(subject_text)
+        object_index = ner_tokens.index(object_text)
+
+        re_indices_list.append([subject_index, object_index])
         
         encoded_re = tokenizer.encode_plus(
             re_data_dict["subject_tokens"],
@@ -229,7 +233,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
 
 # Stack RE labels and pad the tensor
-re_indices = torch.tensor(re_indices_list, dtype=torch.long)
+re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
 re_labels = torch.stack(re_labels)
 padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
