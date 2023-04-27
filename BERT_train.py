@@ -169,9 +169,18 @@ def custom_collate_fn(batch):
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-1)
 
-    re_labels = torch.cat([item['re_labels'].unsqueeze(0) for item in batch], dim=0)
-    subject_indices = torch.stack([item['subject_indices'] for item in batch])
-    object_indices = torch.stack([item['object_indices'] for item in batch])
+    # Find the maximum number of relations in the batch
+    max_relations = max(len(item['re_labels']) for item in batch)
+
+    # Pad re_labels, subject_indices, and object_indices
+    padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
+    padded_subject_indices = [pad_relation_data(item['subject_indices'], max_relations) for item in batch]
+    padded_object_indices = [pad_relation_data(item['object_indices'], max_relations) for item in batch]
+
+    # Stack the padded tensors
+    re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
+    subject_indices = torch.tensor(padded_subject_indices, dtype=torch.long)
+    object_indices = torch.tensor(padded_object_indices, dtype=torch.long)
 
     return {
         'input_ids': input_ids,
