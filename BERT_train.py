@@ -283,7 +283,7 @@ ner_dataset_indices = list(range(len(ner_input_ids)))
 ner_sorted_indices = sorted(ner_dataset_indices, key=lambda i: len(ner_input_ids[i]))
 batch_size = 8
 ner_batch_sampler = BatchSampler(SequentialSampler(ner_sorted_indices), batch_size=batch_size, drop_last=False)
-ner_dataloader = DataLoader(ner_dataset, batch_sampler=batch_sampler)
+ner_dataloader = DataLoader(ner_dataset, batch_sampler=ner_batch_sampler)
 
 for batch in ner_loader:
     input_ids, attention_masks, labels = batch
