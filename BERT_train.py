@@ -222,6 +222,8 @@ for re_data_dict in re_data:
 
     subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
     object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
+    
+    print(f"subject_index: {subject_index}, object_index: {object_index}")
 
     if subject_index != -1 and object_index != -1:
         re_indices_list.append([subject_index, object_index])
@@ -239,7 +241,7 @@ for re_data_dict in re_data:
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
         re_labels.append([relation_to_id[re_data_dict["relation"]]])
-        
+
 print(re_labels)
 
        
