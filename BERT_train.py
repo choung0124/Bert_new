@@ -54,7 +54,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         entity_tokens = tokenizer.tokenize(entity_text)
 
         while current_idx < begin:
-            ner_data.append((text[current_idx], "O"))
+            ner_data.append((token, label, len(ner_data)))
             current_idx += 1
 
         for i, token in enumerate(entity_tokens):
@@ -97,7 +97,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
                 relation_to_id[rel_name] = len(relation_to_id)
 
     while current_idx < len(text):
-        ner_data.append((text[current_idx], "O"))
+        ner_data.append((token, label, len(ner_data)))
         current_idx += 1
 
     if "O" not in label_to_id:
