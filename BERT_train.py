@@ -225,7 +225,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
 ner_attention_masks = torch.cat(ner_attention_masks)
-ner_labels = torch.cat(ner_labels)
+ner_labels = torch.stack(ner_labels)
 re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
 re_labels = torch.LongTensor(re_labels)
