@@ -156,6 +156,9 @@ class NERRE_Dataset(Dataset):
             'subject_indices': torch.tensor(subject_indices, dtype=torch.long),
             'object_indices': torch.tensor(object_indices, dtype=torch.long)
         }
+    
+def pad_relation_data(data, max_relations, padding_value=-1):
+    return [(*item, padding_value) for item in itertools.chain(data, itertools.repeat((), max_relations - len(data)))]
 
 def custom_collate_fn(batch):
     # Remove None values from the batch
