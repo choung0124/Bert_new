@@ -10,6 +10,7 @@ import logging
 import torch.nn as nn
 import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
+from torch.nn.utils.rnn import pad_sequence
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -160,9 +161,11 @@ def custom_collate_fn(batch):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
-    input_ids = torch.stack([item['input_ids'] for item in batch])
-    attention_mask = torch.stack([item['attention_mask'] for item in batch])
-    token_type_ids = torch.stack([item['token_type_ids'] for item in batch])
+    # Pad input_ids, attention_mask, and token_type_ids
+    input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
+    attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
+    token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
+
     ner_labels = torch.stack([item['ner_labels'] for item in batch])
     re_labels = torch.stack([item['re_labels'] for item in batch])
     subject_indices = torch.stack([item['subject_indices'] for item in batch])
@@ -177,6 +180,7 @@ def custom_collate_fn(batch):
         'subject_indices': subject_indices,
         'object_indices': object_indices
     }
+
 
 label_to_id = {}
 relation_to_id = {}
