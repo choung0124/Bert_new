@@ -327,6 +327,9 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
         re_indices = re_indices.to(device)  # Add this line to move re_indices to the correct device
+        print(f"re_logits shape: {re_logits.shape}")
+        print(f"re_indices shape: {re_indices.shape}")
+
         outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels_batch, re_labels=re_labels_batch, re_indices=re_indices)
         ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
@@ -339,16 +342,17 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
             print(f"Length of re_batch: {len(re_batch)}")
             optimizer.zero_grad()
             input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
-            
+            re_indices = re_indices.to(device)  # Add this line to move re_indices to the correct device
             print(f"input_ids shape: {input_ids.shape}")
             print(f"re_labels shape: {re_labels.shape}")
-        
+
             outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels, re_indices=re_indices)
             re_loss = outputs[0]
             re_epoch_loss += re_loss.item()
             re_num_batches += 1
             re_loss.backward()
             optimizer.step()
+
 
     ner_epoch_loss /= ner_num_batches
     re_epoch_loss /= re_num_batches if re_num_batches > 0 else 1
