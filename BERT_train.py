@@ -205,6 +205,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
+    re_labels_list = []
     for re_data_dict in re_data:
         encoded_re = tokenizer.encode_plus(
             re_data_dict["subject_tokens"],
@@ -220,15 +221,19 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
-        re_labels.append(relation_to_id[re_data_dict["relation"]])
+        re_labels_list.append([relation_to_id[re_data_dict["relation"]]])
 
+# Pad RE labels and convert to tensor
+re_labels = [label + [-100] * (512 - len(label)) for label in re_labels_list]
+re_labels = torch.tensor(re_labels, dtype=torch.long)
+        
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
 ner_attention_masks = torch.cat(ner_attention_masks)
 ner_labels = torch.stack(ner_labels)
 re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
-re_labels = torch.LongTensor(re_labels)
+re_labels = torch.cat(re_labels)
 
 print(f"Current RE input ids shape: {encoded_re['input_ids'].shape}")
 print(f"Current RE attention masks shape: {encoded_re['attention_mask'].shape}")
