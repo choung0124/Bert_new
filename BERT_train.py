@@ -1,7 +1,7 @@
 import os
 import torch
 import json
-from torch.utils.data import DataLoader, TensorDataset
+from torch.utils.data import DataLoader, TensorDataset, BatchSampler, SequentialSampler
 from transformers import BertTokenizer, BertModel, BertPreTrainedModel
 from tqdm import tqdm
 from torch import nn
@@ -263,9 +263,13 @@ assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Misma
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
-    re_loader = DataLoader(re_dataset, batch_size=8)
+    re_dataset_indices = list(range(len(re_input_ids)))
+    re_sorted_indices = sorted(re_dataset_indices, key=lambda i: len(ner_input_ids[i]))
+    batch_size = 8
+    re_batch_sampler = BatchSampler(SequentialSampler(re_sorted_indices), batch_size=batch_size, drop_last=False)
+    re_loader = DataLoader(re_dataset, batch_sampler=re_batch_sampler)
     for batch in re_loader:
-        input_ids, attention_masks, re_labels, re_indices = batch
+        input_ids, attention_masks, re_labels = batch
         print(f"Shape of RE input ids batch: {input_ids.shape}")
         print(f"Shape of RE attention masks batch: {attention_masks.shape}")
         print(f"Shape of RE labels batch: {labels.shape}")
@@ -273,11 +277,13 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
 else:
     re_loader = None
     
-    
-
 # Create separate DataLoaders for NER and RE tasks
 ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
-ner_loader = DataLoader(ner_dataset, batch_size=8)
+ner_dataset_indices = list(range(len(ner_input_ids)))
+ner_sorted_indices = sorted(ner_dataset_indices, key=lambda i: len(ner_input_ids[i]))
+batch_size = 8
+ner_batch_sampler = BatchSampler(SequentialSampler(ner_sorted_indices), batch_size=batch_size, drop_last=False)
+ner_dataloader = DataLoader(ner_dataset, batch_sampler=batch_sampler)
 
 for batch in ner_loader:
     input_ids, attention_masks, labels = batch
