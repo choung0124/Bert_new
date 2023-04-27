@@ -174,12 +174,13 @@ class BertForNERAndRE(BertPreTrainedModel):
             total_loss += ner_loss
 
         if re_labels is not None:
-            re_logits = re_logits[:, re_indices[:, 0]] + re_logits[:, re_indices[:, 1]]
+            re_logits_0 = torch.gather(re_logits, 1, re_indices[:, 0].unsqueeze(1)).squeeze(1)
+            re_logits_1 = torch.gather(re_logits, 1, re_indices[:, 1].unsqueeze(1)).squeeze(1)
+            re_logits = re_logits_0 + re_logits_1
 
-            print("re_logits:", re_logits.shape)
-            print("re_labels:", re_labels.shape)
-
-            selected_re_labels = re_labels[re_indices[:, 0]] + re_labels[re_indices[:, 1]]
+            selected_re_labels_0 = torch.gather(re_labels, 1, re_indices[:, 0].unsqueeze(1)).squeeze(1)
+            selected_re_labels_1 = torch.gather(re_labels, 1, re_indices[:, 1].unsqueeze(1)).squeeze(1)
+            selected_re_labels = selected_re_labels_0 + selected_re_labels_1
 
             loss_fct = nn.CrossEntropyLoss()
             re_loss = loss_fct(re_logits, selected_re_labels)
