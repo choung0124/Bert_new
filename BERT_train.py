@@ -8,6 +8,7 @@ from torch import nn
 import warnings
 import logging
 import torch.nn as nn
+import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
