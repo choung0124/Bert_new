@@ -281,7 +281,7 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
     re_batch_sampler = BatchSampler(SequentialSampler(re_sorted_indices), batch_size=batch_size, drop_last=False)
     re_loader = DataLoader(re_dataset, batch_sampler=re_batch_sampler)
     for batch in re_loader:
-        input_ids, attention_masks, re_labels_batch = batch
+        input_ids, attention_masks, re_labels_batch, re_indices_batch = batch
         input_ids = input_ids.to(device)
         attention_masks = attention_masks.to(device)
         re_labels_batch = re_labels_batch.to(device)
