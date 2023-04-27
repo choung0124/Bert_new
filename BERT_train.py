@@ -182,8 +182,13 @@ class BertForNERAndRE(BertPreTrainedModel):
             # Slice the re_labels tensor to match the current batch size
             re_labels_batch = re_labels[:batch_size]
 
+            # In the forward method of your model
+            assert torch.all(re_indices_batch[:, 0] < re_logits.size(1)), "Index out of bounds in re_indices_batch[:, 0]"
+            assert torch.all(re_indices_batch[:, 1] < re_logits.size(1)), "Index out of bounds in re_indices_batch[:, 1]"
+
             re_logits_0 = torch.gather(re_logits, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)
             re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
+
             re_logits = re_logits_0 + re_logits_1
 
             selected_re_labels_0 = torch.gather(re_labels_batch, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)  # Updated line
@@ -191,7 +196,7 @@ class BertForNERAndRE(BertPreTrainedModel):
             selected_re_labels = selected_re_labels_0 + selected_re_labels_1
 
             loss_fct = nn.CrossEntropyLoss()
-            re_loss = loss_fct(re_logits, selected_re_labels)
+            re_loss = loss_fct(re_logits, selected_re_labels.float())  # Convert selected_re_labels to float
             total_loss += re_loss
 
 
