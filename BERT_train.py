@@ -10,7 +10,7 @@ import logging
 import torch.nn as nn
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
-tokenizer = BertTokenizer.from_pretrained("bert-large-uncased")
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 batch_size = 8
 num_epochs = 10
@@ -243,7 +243,7 @@ ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
 ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
 
 # Initialize the custom BERT model
-model = BertForNERAndRE.from_pretrained("bert-large-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
+model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
 
 model.config.num_ner_labels = len(label_to_id)
 model.config.num_re_labels = len(relation_to_id)
