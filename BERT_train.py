@@ -14,7 +14,7 @@ from torch.nn.utils.rnn import pad_sequence
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 batch_size = 8
 num_epochs = 10
 learning_rate = 5e-5
