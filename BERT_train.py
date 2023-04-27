@@ -129,10 +129,10 @@ for file_name in os.listdir(json_directory):
         with open(json_path, "r") as json_file:
             json_data = json.load(json_file)
 
-        ner_data, re_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
-        
+        ner_data, re_data, re_indices = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
+        preprocessed_re_data.append(re_indices)
         
         # Create re_indices for this file
         re_indices = []
