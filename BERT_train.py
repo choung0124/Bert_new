@@ -175,6 +175,8 @@ class BertForNERAndRE(BertPreTrainedModel):
 
             # Slice the re_labels tensor to match the current batch size
             re_labels_batch = re_labels[:batch_size]
+            
+            print("re_indices_batch:", re_indices_batch)
 
             re_logits_0 = torch.gather(re_logits, 1, re_indices_batch[:, 0].unsqueeze(1)).squeeze(1)
             re_logits_1 = torch.gather(re_logits, 1, re_indices_batch[:, 1].unsqueeze(1)).squeeze(1)
