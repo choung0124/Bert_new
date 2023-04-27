@@ -264,7 +264,7 @@ assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Misma
 if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
     re_dataset_indices = list(range(len(re_input_ids)))
-    re_sorted_indices = sorted(re_dataset_indices, key=lambda i: len(ner_input_ids[i]))
+    re_sorted_indices = sorted(re_dataset_indices, key=lambda i: len(re_input_ids[i]))
     batch_size = 8
     re_batch_sampler = BatchSampler(SequentialSampler(re_sorted_indices), batch_size=batch_size, drop_last=False)
     re_loader = DataLoader(re_dataset, batch_sampler=re_batch_sampler)
