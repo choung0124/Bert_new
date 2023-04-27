@@ -205,7 +205,6 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
-    re_labels_list = []
     for re_data_dict in re_data:
         encoded_re = tokenizer.encode_plus(
             re_data_dict["subject_tokens"],
@@ -221,7 +220,8 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
-        re_labels_list.append([relation_to_id[re_data_dict["relation"]]])
+        re_labels.append([relation_to_id[re_data_dict["relation"]]])  # Append the labels directly to the re_labels list
+
 
 # Pad RE labels and convert to tensor
 re_labels_padded = [label + [-100] * (512 - len(label)) for label in re_labels_list]
