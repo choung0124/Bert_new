@@ -263,11 +263,11 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
     re_loader = DataLoader(re_dataset, batch_size=batch_size)
     for batch in re_loader:
-    input_ids, attention_masks, labels = batch
-    print(f"Shape of RE input ids batch: {input_ids.shape}")
-    print(f"Shape of RE attention masks batch: {attention_masks.shape}")
-    print(f"Shape of RE labels batch: {labels.shape}")
-    break
+        input_ids, attention_masks, labels = batch
+        print(f"Shape of RE input ids batch: {input_ids.shape}")
+        print(f"Shape of RE attention masks batch: {attention_masks.shape}")
+        print(f"Shape of RE labels batch: {labels.shape}")
+        break
 else:
     re_loader = None
     
