@@ -193,7 +193,7 @@ class BertForNERAndRE(BertPreTrainedModel):
 
 # Preprocess and tokenize the NER and RE data
 ner_input_ids, ner_attention_masks, ner_labels = [], [], []
-re_input_ids, re_attention_masks, re_labels, re_indicies_list = [], [], [], []
+re_input_ids, re_attention_masks, re_labels, re_indices_list = [], [], [], []
 
 for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels", total=len(preprocessed_ner_data)):
     # Tokenize and align NER labels
