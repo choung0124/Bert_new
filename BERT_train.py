@@ -146,7 +146,9 @@ class BertForNERAndRE(BertPreTrainedModel):
         inputs_embeds=None,
         ner_labels=None,
         re_labels=None,
+        re_indices=None,
     ):
+
         outputs = self.bert(
             input_ids,
             attention_mask=attention_mask,
@@ -172,10 +174,12 @@ class BertForNERAndRE(BertPreTrainedModel):
             total_loss += ner_loss
 
         if re_labels is not None:
+            re_logits = re_logits[torch.arange(re_logits.size(0)), re_indices[:, 0]] + re_logits[torch.arange(re_logits.size(0)), re_indices[:, 1]]
             print("re_logits:", re_logits.shape)
             print("re_labels:", re_labels.shape)
+
             loss_fct = nn.CrossEntropyLoss()
-            re_loss = loss_fct(re_logits.view(-1, self.config.num_re_labels), re_labels.view(-1))
+            re_loss = loss_fct(re_logits, re_labels)
             total_loss += re_loss
 
         output_dict = {
@@ -188,7 +192,7 @@ class BertForNERAndRE(BertPreTrainedModel):
 
 # Preprocess and tokenize the NER and RE data
 ner_input_ids, ner_attention_masks, ner_labels = [], [], []
-re_input_ids, re_attention_masks, re_labels = [], [], []
+re_input_ids, re_attention_masks, re_labels, re_indicies_list = [], [], [], []
 
 for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels", total=len(preprocessed_ner_data)):
     # Tokenize and align NER labels
@@ -204,6 +208,10 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     # Tokenize RE data
     for re_data_dict in re_data:
+        subject_index = re_data_dict['subject_tokens'][0]['idx']
+        object_index = re_data_dict['object_tokens'][0]['idx']
+        re_indices_list.append((subject_index, object_index))
+        
         encoded_re = tokenizer.encode_plus(
             re_data_dict["subject_tokens"],
             re_data_dict["object_tokens"],
@@ -219,6 +227,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
         re_labels.append(torch.tensor([relation_to_id[re_data_dict["relation"]]], dtype=torch.long))  # Append a tensor directly to the re_labels list
 
 # Stack RE labels and pad the tensor
+re_indices = torch.tensor(re_indices_list, dtype=torch.long)
 re_labels = torch.stack(re_labels)
 padding = torch.full((re_labels.shape[0], 512 - re_labels.shape[1]), -100, dtype=torch.long)
 re_labels = torch.cat((re_labels, padding), dim=1)
@@ -271,8 +280,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
-        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels)
-        print(outputs.keys())
+        outputs = outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels, re_labels=re_labels, re_indices=re_indices)
         ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
@@ -283,7 +291,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         if re_batch is not None:
             optimizer.zero_grad()
             input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
-            outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels)
+            outputs = model(input_ids, attention_mask=attention_masks, re_labels=re_labels, re_indices=re_indices)
             re_loss = outputs[0]
             re_epoch_loss += re_loss.item()
             re_num_batches += 1
