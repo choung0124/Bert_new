@@ -224,7 +224,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
 
 # Pad RE labels and convert to tensor
-re_labels_padded = [label + [-100] * (512 - len(label)) for label in re_labels_list]
+re_labels_padded = [label + [-100] * (512 - len(label)) for label in re_labels]
 re_labels = torch.stack([torch.tensor(label, dtype=torch.long) for label in re_labels_padded])
 
 # Convert lists to tensors
