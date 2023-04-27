@@ -326,6 +326,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
+        re_indices = re_indices.to(device)  # Add this line to move re_indices to the correct device
         outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels_batch, re_labels=re_labels_batch, re_indices=re_indices)
         ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
