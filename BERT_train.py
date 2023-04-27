@@ -230,7 +230,15 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
         re_labels.append([relation_to_id[re_data_dict["relation"]]])
+        
 
+print(f"Shape of NER input ids: {ner_input_ids.shape}")
+print(f"Shape of NER attention masks: {ner_attention_masks.shape}")
+print(f"Shape of NER labels: {ner_labels.shape}")
+print(f"Shape of RE input ids: {re_input_ids.shape}")
+print(f"Shape of RE attention masks: {re_attention_masks.shape}")
+print(f"Shape of RE labels: {re_labels.shape}")
+print(f"Shape of RE indices: {re_indices.shape}")
 
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
@@ -254,12 +262,27 @@ assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Misma
 if len(re_input_ids) > 0 and len(re_data) > 0:
     re_dataset = TensorDataset(re_input_ids, re_attention_masks, re_labels)
     re_loader = DataLoader(re_dataset, batch_size=batch_size)
+    for batch in re_loader:
+    input_ids, attention_masks, labels = batch
+    print(f"Shape of RE input ids batch: {input_ids.shape}")
+    print(f"Shape of RE attention masks batch: {attention_masks.shape}")
+    print(f"Shape of RE labels batch: {labels.shape}")
+    break
 else:
     re_loader = None
+    
+    
 
 # Create separate DataLoaders for NER and RE tasks
 ner_dataset = TensorDataset(ner_input_ids, ner_attention_masks, ner_labels)
 ner_loader = DataLoader(ner_dataset, batch_size=batch_size)
+
+for batch in ner_loader:
+    input_ids, attention_masks, labels = batch
+    print(f"Shape of NER input ids batch: {input_ids.shape}")
+    print(f"Shape of NER attention masks batch: {attention_masks.shape}")
+    print(f"Shape of NER labels batch: {labels.shape}")
+    break
 
 # Initialize the custom BERT model
 model = BertForNERAndRE.from_pretrained("bert-base-uncased", num_ner_labels=len(label_to_id), num_re_labels=len(relation_to_id))
