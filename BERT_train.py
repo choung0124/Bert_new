@@ -25,6 +25,7 @@ unique_ner_labels.add("O")
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     ner_data = []
     re_data = []
+    re_indices = []
 
     entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
 
@@ -101,8 +102,16 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
     if "O" not in label_to_id:
         label_to_id["O"] = len(label_to_id)
+        
+    for re_instance in re_data:
+        entity_id_1, entity_id_2 = re_instance['id']
+        entity_1 = entities_dict[entity_id_1]
+        entity_2 = entities_dict[entity_id_2]
+        begin_1, end_1 = entity_1["span"]["begin"], entity_1["span"]["end"]
+        begin_2, end_2 = entity_2["span"]["begin"], entity_2["span"]["end"]
+        re_indices.append((begin_1, end_1, begin_2, end_2, relation_to_id[re_instance['relation']]))
 
-    return ner_data, re_data
+    return ner_data, re_data, re_indices
 
 
 json_directory = "test"
@@ -124,6 +133,20 @@ for file_name in os.listdir(json_directory):
         
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
+        
+        # Create re_indices for this file
+        re_indices = []
+        for re_instance in re_data:
+            id_1, id_2 = re_instance['id']
+            id_1_tokens = [token for token, label in ner_data if id_1 in label]
+            id_2_tokens = [token for token, label in ner_data if id_2 in label]
+            if id_1_tokens and id_2_tokens:
+                id_1_start_index = ner_data.index((id_1_tokens[0], f'B-{entities_dict[id_1]["entityType"]}-{entities_dict[id_1]["entityName"]}'))
+                id_2_start_index = ner_data.index((id_2_tokens[0], f'B-{entities_dict[id_2]["entityType"]}-{entities_dict[id_2]["entityName"]}'))
+                re_indices.append((id_1_start_index, id_2_start_index))
+                
+        # Append the re_indices to preprocessed_re_data
+        preprocessed_re_data.append(re_indices)
         
 print(preprocessed_ner_data)
 print(preprocessed_re_data)
