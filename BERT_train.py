@@ -287,7 +287,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         # Training NER
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
-        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels, re_labels=re_batch[2], re_indices=re_batch[3])
+        outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels, re_labels=re_labels, re_indices=re_indices)
         ner_loss = outputs['loss']
         ner_epoch_loss += ner_loss.item()
         ner_num_batches += 1
@@ -296,6 +296,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
 
         # Training RE
         if re_batch is not None:
+            print(f"Length of re_batch: {len(re_batch)}")
             optimizer.zero_grad()
             input_ids, attention_masks, re_labels = tuple(t.to(device) for t in re_batch)
             
