@@ -115,10 +115,12 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     return preprocessed_data
 
 class NERRE_Dataset(Dataset):
-    def __init__(self, data, tokenizer, max_length):
+    def __init__(self, data, tokenizer, max_length, label_to_id, relation_to_id):
         self.data = data
         self.tokenizer = tokenizer
         self.max_length = max_length
+        self.label_to_id = label_to_id
+        self.relation_to_id = relation_to_id
 
     def __len__(self):
         return len(self.data)
@@ -131,20 +133,35 @@ class NERRE_Dataset(Dataset):
         # Tokenize the text and prepare inputs
         tokens = [token for token, _, _ in ner_data]
         ner_labels = [label for _, label, _ in ner_data]
+
+        # Convert labels to their corresponding IDs
+        ner_label_ids = [label_to_id[label] for label in ner_labels]
+
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt')
 
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
         token_type_ids = inputs['token_type_ids'].squeeze()
 
+        re_label_ids = [self.relation_to_id[relation['relation']] for relation in re_data]
+
+    # Split the re_indices tuples into separate lists of subject and object indices
+        subject_indices, object_indices = zip(*re_indices)
+
+        # Convert the subject and object indices to integers
+        subject_indices = [int(index) for index in subject_indices]
+        object_indices = [int(index) for index in object_indices]
+
         return {
             'input_ids': input_ids,
             'attention_mask': attention_mask,
             'token_type_ids': token_type_ids,
-            'ner_labels': torch.tensor(ner_labels, dtype=torch.long),
+            'ner_labels': torch.tensor(ner_label_ids, dtype=torch.long),
             're_labels': torch.tensor(item['re_labels'], dtype=torch.long),
-            're_indices': torch.tensor(re_indices, dtype=torch.long)
+            'subject_indices': torch.tensor(subject_indices, dtype=torch.long),
+            'object_indices': torch.tensor(object_indices, dtype=torch.long)
         }
+
 
 
 label_to_id = {}
@@ -167,7 +184,7 @@ for file_name in os.listdir(json_directory):
         
 
 max_length = 128
-dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length)
+dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
 
