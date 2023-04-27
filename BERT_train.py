@@ -14,6 +14,7 @@ from torch.nn.utils.rnn import pad_sequence
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 batch_size = 8
 num_epochs = 10
 learning_rate = 5e-5
@@ -301,6 +302,7 @@ tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 num_ner_labels = len(label_to_id)
 num_re_labels = len(relation_to_id)
 model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
+model = model.to(device)
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=3e-5)
@@ -311,12 +313,12 @@ scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_t
 model.train()
 for epoch in range(num_epochs):
     for batch in dataloader:
-        input_ids = batch['input_ids']
-        attention_mask = batch['attention_mask']
-        token_type_ids = batch['token_type_ids']
-        ner_labels = batch['ner_labels']
-        re_labels = batch['re_labels']
-        re_indices = batch['re_indices']
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        token_type_ids = batch['token_type_ids'].to(device)
+        ner_labels = batch['ner_labels'].to(device)
+        re_labels = batch['re_labels'].to(device)
+        re_indices = batch['re_indices'].to(device)
 
         try:
             # Forward pass
