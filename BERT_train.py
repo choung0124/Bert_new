@@ -177,6 +177,8 @@ class BertForNERAndRE(BertPreTrainedModel):
             re_logits_0 = torch.gather(re_logits, 1, re_indices[:, 0].unsqueeze(1)).squeeze(1)
             re_logits_1 = torch.gather(re_logits, 1, re_indices[:, 1].unsqueeze(1)).squeeze(1)
             re_logits = re_logits_0 + re_logits_1
+            print(f"re_logits shape: {re_logits.shape}")
+            print(f"re_indices shape: {re_indices.shape}")
 
             selected_re_labels_0 = torch.gather(re_labels, 1, re_indices[:, 0].unsqueeze(1)).squeeze(1)
             selected_re_labels_1 = torch.gather(re_labels, 1, re_indices[:, 1].unsqueeze(1)).squeeze(1)
@@ -327,8 +329,7 @@ for epoch in tqdm(range(num_epochs), desc="Training epochs"):
         optimizer.zero_grad()
         input_ids, attention_masks, ner_labels = tuple(t.to(device) for t in ner_batch)
         re_indices = re_indices.to(device)  # Add this line to move re_indices to the correct device
-        print(f"re_logits shape: {re_logits.shape}")
-        print(f"re_indices shape: {re_indices.shape}")
+
 
         outputs = model(input_ids, attention_mask=attention_masks, ner_labels=ner_labels_batch, re_labels=re_labels_batch, re_indices=re_indices)
         ner_loss = outputs['loss']
