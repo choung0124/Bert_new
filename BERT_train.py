@@ -11,6 +11,7 @@ import torch.nn as nn
 import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
+from apex import amp
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -224,7 +225,7 @@ for file_name in os.listdir(json_directory):
 
         
 max_length = 128
-num_workers = 12
+num_workers = 8
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers)
 
@@ -307,6 +308,7 @@ model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
 if torch.cuda.device_count() > 1:
     model = nn.DataParallel(model)
+model, optimizer = amp.initialize(model, optimizer, opt_level="O1")
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=3e-5)
@@ -341,7 +343,10 @@ for epoch in range(num_epochs):
             )
 
             loss = outputs["loss"]
-            loss.backward()
+
+            # Backward pass and optimization using AMP
+            with amp.scale_loss(loss, optimizer) as scaled_loss:
+                scaled_loss.backward()
 
             # Update parameters and the learning rate
             optimizer.step()
@@ -351,6 +356,7 @@ for epoch in range(num_epochs):
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
+
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
