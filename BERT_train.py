@@ -146,6 +146,10 @@ class NERRE_Dataset(Dataset):
             subject_indices, object_indices = zip(*re_indices)
         else:
             subject_indices, object_indices = [], []
+        if len(re_indices) == 0:
+            # Handle the case when re_indices is empty
+            # You can return a default value or raise an exception, depending on your needs
+            return None
 
         # Split the re_indices tuples into separate lists of subject and object indices
         subject_indices, object_indices = zip(*re_indices)
