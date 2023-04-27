@@ -186,7 +186,7 @@ def custom_collate_fn(batch):
     re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
 
     # Pad re_indices
-    re_indices = [item['re_indices'] for item in batch if item['re_indices'] is not None]
+    re_indices = [item['re_indices'] for item in batch if 're_indices' in item and item['re_indices'] is not None]
 
     return {
         'input_ids': input_ids,
@@ -196,8 +196,6 @@ def custom_collate_fn(batch):
         're_labels': re_labels,
         're_indices': re_indices  # Add the 're_indices' key here
     }
-
-
 
 
 label_to_id = {}
