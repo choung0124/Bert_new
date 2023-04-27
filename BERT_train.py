@@ -224,9 +224,9 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
         re_labels_list.append([relation_to_id[re_data_dict["relation"]]])
 
 # Pad RE labels and convert to tensor
-re_labels = [label + [-100] * (512 - len(label)) for label in re_labels_list]
-re_labels = torch.tensor(re_labels, dtype=torch.long)
-        
+re_labels_padded = [label + [-100] * (512 - len(label)) for label in re_labels_list]
+re_labels = torch.stack([torch.tensor(label, dtype=torch.long) for label in re_labels_padded])
+
 # Convert lists to tensors
 ner_input_ids = torch.cat(ner_input_ids)
 ner_attention_masks = torch.cat(ner_attention_masks)
