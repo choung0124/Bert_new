@@ -67,7 +67,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             if label not in label_to_id:
                 label_to_id[label] = len(label_to_id)
 
-            ner_data.append((token, label))
+            ner_data.append((token, label, len(ner_data)))
             current_idx += 1
 
         current_idx = end
@@ -117,6 +117,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 json_directory = "test"
 preprocessed_ner_data = []
 preprocessed_re_data = []
+preprocessed_re_indices = []
+
 
 label_to_id = {}
 relation_to_id = {}
@@ -132,7 +134,7 @@ for file_name in os.listdir(json_directory):
         ner_data, re_data, re_indices = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
-        preprocessed_re_data.append(re_indices)
+        preprocessed_re_indices.append(re_indices)
         
         # Create re_indices for this file
         re_indices = []
@@ -141,15 +143,14 @@ for file_name in os.listdir(json_directory):
             id_1_tokens = [token for token, label in ner_data if id_1 in label]
             id_2_tokens = [token for token, label in ner_data if id_2 in label]
             if id_1_tokens and id_2_tokens:
-                id_1_start_index = ner_data.index((id_1_tokens[0], f'B-{entities_dict[id_1]["entityType"]}-{entities_dict[id_1]["entityName"]}'))
-                id_2_start_index = ner_data.index((id_2_tokens[0], f'B-{entities_dict[id_2]["entityType"]}-{entities_dict[id_2]["entityName"]}'))
+                id_1_start_index = next(idx for token, label, idx in ner_data if id_1 in label)
+                id_2_start_index = next(idx for token, label, idx in ner_data if id_2 in label)
                 re_indices.append((id_1_start_index, id_2_start_index))
                 
-        # Append the re_indices to preprocessed_re_data
-        preprocessed_re_data.append(re_indices)
         
 print(preprocessed_ner_data)
 print(preprocessed_re_data)
+print(preprocessed_re_indices)
 
 
 class BertForNERAndRE(BertPreTrainedModel):
@@ -247,9 +248,9 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
-    for relation_dict, ner_tokens in zip(re_data, ner_tokens):
-        subject_tokens = relation_dict['subject_tokens']
-        object_tokens = relation_dict['object_tokens']
+    for re_data_dict, ner_tokens in zip(re_data, ner_tokens):
+        subject_tokens = re_data_dict['subject_tokens']
+        object_tokens = re_data_dict['object_tokens']
 
         subject_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(subject_tokens)] == subject_tokens), -1)
         object_index = next((i for i, token in enumerate(ner_tokens) if ner_tokens[i:i+len(object_tokens)] == object_tokens), -1)
