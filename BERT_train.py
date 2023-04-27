@@ -194,8 +194,6 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
     # Tokenize and align NER labels
     ner_tokens, ner_labels_ = zip(*ner_data)
     encoded_ner = tokenizer.encode_plus(ner_tokens, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
-    print(f"Encoded NER input ids shape: {encoded_ner['input_ids'].shape}")
-    print(f"Encoded NER attention masks shape: {encoded_ner['attention_mask'].shape}")
 
     ner_input_ids.append(encoded_ner["input_ids"])
     ner_attention_masks.append(encoded_ner["attention_mask"])
@@ -215,8 +213,6 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
             max_length=512,
             return_tensors="pt"
         )
-        print(f"Encoded RE input ids shape: {encoded_re['input_ids'].shape}")
-        print(f"Encoded RE attention masks shape: {encoded_re['attention_mask'].shape}")
 
         re_input_ids.append(encoded_re["input_ids"])
         re_attention_masks.append(encoded_re["attention_mask"])
@@ -235,24 +231,8 @@ re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
 re_labels = torch.stack(tuple(re_labels))
 
-print(f"Current RE input ids shape: {encoded_re['input_ids'].shape}")
-print(f"Current RE attention masks shape: {encoded_re['attention_mask'].shape}")
-print(f"Current RE labels length: {len(re_labels)}")
-
-print(f"Concatenated RE input ids shape: {re_input_ids.shape}")
-print(f"Concatenated RE attention masks shape: {re_attention_masks.shape}")
-print(f"Concatenated RE labels shape: {re_labels.shape}")
-
-
 assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
 assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
-
-print(f"NER input ids shape: {ner_input_ids.shape}")
-print(f"NER attention masks shape: {ner_attention_masks.shape}")
-print(f"NER labels shape: {ner_labels.shape}")
-print(f"RE input ids shape: {re_input_ids.shape}")
-print(f"RE attention masks shape: {re_attention_masks.shape}")
-print(f"RE labels shape: {re_labels.shape}")
 
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0:
