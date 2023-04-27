@@ -243,7 +243,7 @@ for re_data_dict in re_data:
         re_labels.append([relation_to_id[re_data_dict["relation"]]])
 
 print(re_labels)
-
+print(ner_data)
        
 # Stack RE labels and pad the tensor
 re_indices = torch.tensor(re_indices_list, dtype=torch.long).reshape(-1, 2)
