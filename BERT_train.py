@@ -267,7 +267,7 @@ if len(re_input_ids) > 0 and len(re_data) > 0:
     re_sorted_indices = sorted(re_dataset_indices, key=lambda i: len(re_input_ids[i]))
     batch_size = 8
     re_batch_sampler = BatchSampler(SequentialSampler(re_sorted_indices), batch_size=batch_size, drop_last=False)
-    re_loader = DataLoader(re_dataset, BatchSampler=re_batch_sampler)
+    re_loader = DataLoader(re_dataset, batch_sampler=re_batch_sampler)
     for batch in re_loader:
         input_ids, attention_masks, re_labels = batch
         print(f"Shape of RE input ids batch: {input_ids.shape}")
@@ -283,7 +283,7 @@ ner_dataset_indices = list(range(len(ner_input_ids)))
 ner_sorted_indices = sorted(ner_dataset_indices, key=lambda i: len(ner_input_ids[i]))
 batch_size = 8
 ner_batch_sampler = BatchSampler(SequentialSampler(ner_sorted_indices), batch_size=batch_size, drop_last=False)
-ner_dataloader = DataLoader(ner_dataset, BatchSampler=batch_sampler)
+ner_dataloader = DataLoader(ner_dataset, batch_sampler=batch_sampler)
 
 for batch in ner_loader:
     input_ids, attention_masks, labels = batch
