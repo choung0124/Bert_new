@@ -20,7 +20,7 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-def preprocess_data(json_data, tokenizer, label_to_id):
+def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     ner_data = []
     re_data = []
 
@@ -84,7 +84,6 @@ def preprocess_data(json_data, tokenizer, label_to_id):
                 if rel_name not in relation_to_id:
                     relation_to_id[rel_name] = len(relation_to_id)
 
-
     while current_idx < len(text):
         ner_data.append((text[current_idx], "O"))
         current_idx += 1
@@ -95,8 +94,8 @@ json_directory = "test"
 preprocessed_ner_data = []
 preprocessed_re_data = []
 
-label_to_id = {label: idx for idx, label in enumerate(sorted(unique_ner_labels))}
-relation_to_id = {relation: idx for idx, relation in enumerate(sorted(unique_relation_labels))}
+label_to_id = {}
+relation_to_id = {}
 
 # Iterate through all JSON files in the directory
 for file_name in os.listdir(json_directory):
@@ -106,10 +105,8 @@ for file_name in os.listdir(json_directory):
         with open(json_path, "r") as json_file:
             json_data = json.load(json_file)
 
-        ner_data, re_data = preprocess_data(json_data, tokenizer, label_to_id)  # pass label_to_id here
+        ner_data, re_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
         
-        # Preprocess the data for NER and RE tasks
-        ner_data, re_data, _, _ = preprocess_data(json_data, tokenizer)
         preprocessed_ner_data.append(ner_data)
         preprocessed_re_data.append(re_data)
 
@@ -120,6 +117,9 @@ for file_name in os.listdir(json_directory):
 
 
 # New custom model based on BERT
+from transformers import BertPreTrainedModel, BertModel
+import torch.nn as nn
+
 class BertForNERAndRE(BertPreTrainedModel):
     def __init__(self, config, num_ner_labels, num_re_labels):
         super().__init__(config)
@@ -127,6 +127,8 @@ class BertForNERAndRE(BertPreTrainedModel):
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.ner_classifier = nn.Linear(config.hidden_size, num_ner_labels)
         self.re_classifier = nn.Linear(config.hidden_size, num_re_labels)
+        self.config.num_ner_labels = num_ner_labels
+        self.config.num_re_labels = num_re_labels
 
     def forward(
         self,
@@ -148,8 +150,7 @@ class BertForNERAndRE(BertPreTrainedModel):
             inputs_embeds=inputs_embeds,
         )
 
-        sequence_output = outputs[0]
-        pooled_output = outputs[1]
+        sequence_output, pooled_output = outputs.last_hidden_state, outputs.pooler_output
 
         sequence_output = self.dropout(sequence_output)
         pooled_output = self.dropout(pooled_output)
@@ -168,17 +169,19 @@ class BertForNERAndRE(BertPreTrainedModel):
             re_loss = loss_fct(re_logits.view(-1, self.config.num_re_labels), re_labels.view(-1))
             total_loss += re_loss
 
-        return (total_loss, ner_logits, re_logits) if total_loss > 0 else (ner_logits, re_logits)
+        output_dict = {
+            "loss": total_loss if total_loss > 0 else None,
+            "ner_logits": ner_logits,
+            "re_logits": re_logits
+        }
+
+        return output_dict
 
 # Preprocess and tokenize the NER and RE data
 ner_input_ids, ner_attention_masks, ner_labels = [], [], []
 re_input_ids, re_attention_masks, re_labels = [], [], []
 
-# Tokenize NER and RE data more efficiently
-ner_input_ids, ner_attention_masks, ner_labels = [], [], []
-re_input_ids, re_attention_masks, re_labels = [], [], []
-
-for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels"):
+for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), desc="Tokenizing and aligning labels", total=len(preprocessed_ner_data)):
     # Tokenize and align NER labels
     ner_tokens, ner_labels_ = zip(*ner_data)
     encoded_ner = tokenizer.encode_plus(ner_tokens, is_split_into_words=True, add_special_tokens=True, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
@@ -187,7 +190,7 @@ for ner_data, re_data in tqdm(zip(preprocessed_ner_data, preprocessed_re_data), 
 
     aligned_ner_labels = [label_to_id[label] for label in ner_labels_]
     padded_ner_labels = aligned_ner_labels[:512] + [-100] * (512 - len(aligned_ner_labels))
-    ner_labels.append(torch.tensor(padded_ner_labels))
+    ner_labels.append(torch.LongTensor(padded_ner_labels))
 
     # Tokenize RE data
     for re_data_dict in re_data:
@@ -211,7 +214,7 @@ ner_attention_masks = torch.cat(ner_attention_masks)
 ner_labels = torch.cat(ner_labels)
 re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
-re_labels = torch.tensor(re_labels)
+re_labels = torch.LongTensor(re_labels)
 
 # Defining re_loader if there is relation data
 if len(re_input_ids) > 0:
