@@ -230,6 +230,9 @@ re_input_ids = torch.cat(re_input_ids)
 re_attention_masks = torch.cat(re_attention_masks)
 re_labels = torch.LongTensor(re_labels)
 
+assert ner_input_ids.shape == ner_attention_masks.shape == ner_labels.shape, "Mismatched shapes for NER input tensors"
+assert re_input_ids.shape == re_attention_masks.shape == re_labels.shape, "Mismatched shapes for RE input tensors"
+
 print(f"NER input ids shape: {ner_input_ids.shape}")
 print(f"NER attention masks shape: {ner_attention_masks.shape}")
 print(f"NER labels shape: {ner_labels.shape}")
