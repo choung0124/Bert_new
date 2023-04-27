@@ -136,7 +136,7 @@ class NERRE_Dataset(Dataset):
         ner_labels = [label for _, label, _ in item['ner_data']]
         ner_label_ids = [self.label_to_id[label] for label in ner_labels]
 
-        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt')
+        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
 
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
