@@ -361,19 +361,19 @@ for epoch in range(num_epochs):
             )
 
             loss = outputs["loss"]
+            other_outputs = {k: v for k, v in outputs.items() if k != "loss"}  # Store other outputs in a dictionary, if any
             loss.backward()
 
             # Update parameters and the learning rate
             optimizer.step()
             scheduler.step()
             optimizer.zero_grad()
-            
+
             progress_bar.set_postfix({"loss": loss.item()})
 
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
-    progress_bar.close()
 
 
 # Save the fine-tuned custom BERT model and tokenizer
