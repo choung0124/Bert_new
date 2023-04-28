@@ -164,8 +164,8 @@ class NERRE_Dataset(Dataset):
         }
 
 def pad_relation_data(data, max_relations, padding_value=-1):
-    print(f"data: {data}, shape: {data.shape}")  # Update the print statement
-    padding_tensor = torch.full((max_relations - len(data), 1), padding_value, dtype=torch.long)
+    print(f"data: {data}, shape: {data.shape}")
+    padding_tensor = torch.full((max_relations - len(data),), padding_value, dtype=torch.long)
     print(f"padding_tensor: {padding_tensor}, shape: {padding_tensor.shape}")
     padded_data = torch.cat([data, padding_tensor], dim=0)
     return padded_data
