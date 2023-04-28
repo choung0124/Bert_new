@@ -164,7 +164,6 @@ class NERRE_Dataset(Dataset):
         }
 
 def pad_relation_data(data, max_relations, padding_value=-1):
-    data = torch.stack(data)  # Convert the list of tensors to a single tensor
     padding_tensor = torch.tensor([padding_value, padding_value], dtype=torch.long)
     padded_data = torch.cat([data, padding_tensor.repeat(max_relations - len(data), 1)], dim=0)
     return padded_data
