@@ -130,7 +130,7 @@ class NERRE_Dataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.data[idx]
-        print("index:", idx, "item:", item)
+        #print("index:", idx, "item:", item)
         # If re_labels is empty, return None
         if len(item['re_labels']) == 0:
             return None
@@ -314,6 +314,9 @@ num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
 
 for epoch in range(num_epochs):
+    
+    progress_bar = tqdm(dataloader, desc=f"Epoch {epoch + 1}/{num_epochs}")
+    
     for batch in dataloader:
         # Skip the iteration if the batch is empty
         if not batch:
@@ -347,10 +350,13 @@ for epoch in range(num_epochs):
             optimizer.step()
             scheduler.step()
             optimizer.zero_grad()
+            
+            progress_bar.set_postfix({"loss": loss.item()})
 
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
+    progress_bar.close()
 
 
 # Save the fine-tuned custom BERT model and tokenizer
