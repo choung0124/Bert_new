@@ -153,6 +153,13 @@ class NERRE_Dataset(Dataset):
         else:
             # Split the re_indices tuples into separate lists of subject and object indices
             subject_indices, object_indices = zip(*item['re_indices'])
+        print("input_ids:", input_ids.shape, input_ids.dtype)
+        print("attention_mask:", attention_mask.shape, attention_mask.dtype)
+        print("token_type_ids:", token_type_ids.shape, token_type_ids.dtype)
+        print("ner_labels:", ner_labels.shape, ner_labels.dtype)
+        print("re_labels:", re_labels.shape, re_labels.dtype)
+        print("re_indices:", re_indices.shape if re_indices is not None else None, re_indices.dtype if re_indices is not None else None)
+
 
         return {
             'input_ids': input_ids,
@@ -304,14 +311,10 @@ class BertForNERAndRE(BertPreTrainedModel):
 
         total_loss = 0
         if ner_labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            ner_loss = loss_fct(ner_logits.view(-1, self.config.num_ner_labels), ner_labels.view(-1))
-            total_loss += ner_loss
-
-        if ner_labels is not None:
             loss_fct = nn.CrossEntropyLoss(ignore_index=-1)
             ner_loss = loss_fct(ner_logits.view(-1, self.config.num_ner_labels), ner_labels.view(-1))
             total_loss += ner_loss
+
 
         output_dict = {
             "loss": total_loss if total_loss > 0 else None,
