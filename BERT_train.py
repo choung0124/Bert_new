@@ -16,7 +16,7 @@ tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 batch_size = 8
-num_epochs = 10
+num_epochs = 4
 learning_rate = 5e-5
 
 unique_ner_labels = set()
