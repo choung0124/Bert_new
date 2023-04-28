@@ -164,7 +164,8 @@ class NERRE_Dataset(Dataset):
         }
 
 def pad_relation_data(data, max_relations, padding_value=-1):
-    padded_data = data + [torch.tensor([padding_value, padding_value], dtype=torch.long)] * (max_relations - len(data))
+    padding_tensor = torch.tensor([padding_value, padding_value], dtype=torch.long)
+    padded_data = data + [padding_tensor] * (max_relations - len(data))
     return padded_data
 
 def custom_collate_fn(batch):
@@ -197,18 +198,17 @@ def custom_collate_fn(batch):
 
         # Pad re_indices
         padded_re_indices = [pad_relation_data(item, max_re_indices_relations, padding_value=(-1, -1)) for item in re_indices]
-        re_indices = torch.tensor(padded_re_indices, dtype=torch.long)
-        
-        
-    return {
-        'input_ids': input_ids,
-        'attention_mask': attention_mask,
-        'token_type_ids': token_type_ids,
-        'ner_labels': ner_labels,
-        're_labels': re_labels,
-        're_indices': re_indices  # Add the 're_indices' key here
-    }
+        re_indices = torch.stack(padded_re_indices)
 
+    # Return the final dictionary
+    return {
+        "input_ids": input_ids,
+        "attention_mask": attention_mask,
+        "token_type_ids": token_type_ids,
+        "ner_labels": ner_labels,
+        "re_labels": re_labels,
+        "re_indices": re_indices,
+    }
 
 label_to_id = {}
 relation_to_id = {}
