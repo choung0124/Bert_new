@@ -209,9 +209,16 @@ preprocessed_data = []
 
 # Iterate through all JSON files in the directory
 def validate_json(json_data):
-    # Add your custom validation criteria based on your data format
+    # Check if the necessary keys are present
     if "entities" not in json_data or "relation_info" not in json_data or "text" not in json_data:
         return False
+
+    # Check if there are entities and relations
+    if len(json_data["entities"]) == 0 or len(json_data["relation_info"]) == 0:
+        return False
+
+    # Additional validation criteria can be added here based on your data format
+
     return True
 
 for file_name in os.listdir(json_directory):
