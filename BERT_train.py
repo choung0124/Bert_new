@@ -160,9 +160,9 @@ class NERRE_Dataset(Dataset):
             'token_type_ids': token_type_ids,
             'ner_labels': torch.tensor(ner_label_ids, dtype=torch.long),
             're_labels': torch.tensor(item['re_labels'], dtype=torch.long),
-            'subject_indices': torch.tensor(subject_indices, dtype=torch.long) if subject_indices is not None else None,
-            'object_indices': torch.tensor(object_indices, dtype=torch.long) if object_indices is not None else None
+            're_indices': torch.tensor(list(zip(subject_indices, object_indices)), dtype=torch.long) if subject_indices is not None and object_indices is not None else None
         }
+
 
     
 def pad_relation_data(data, max_relations, padding_value=-1):
