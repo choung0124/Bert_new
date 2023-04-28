@@ -341,10 +341,7 @@ for epoch in range(num_epochs):
             )
 
             loss = outputs["loss"]
-
-            # Backward pass and optimization using AMP
-            with amp.scale_loss(loss, optimizer) as scaled_loss:
-                scaled_loss.backward()
+            loss.backward()
 
             # Update parameters and the learning rate
             optimizer.step()
