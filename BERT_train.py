@@ -154,7 +154,6 @@ class NERRE_Dataset(Dataset):
             # Split the re_indices tuples into separate lists of subject and object indices
             subject_indices, object_indices = zip(*item['re_indices'])
 
-
         return {
             'input_ids': input_ids,
             'attention_mask': attention_mask,
@@ -164,10 +163,8 @@ class NERRE_Dataset(Dataset):
             're_indices': torch.tensor(list(zip(subject_indices, object_indices)), dtype=torch.long) if subject_indices is not None and object_indices is not None else None
         }
 
-
-    
 def pad_relation_data(data, max_relations, padding_value=-1):
-    padded_data = list(data) + [padding_value] * (max_relations - len(data))
+    padded_data = data + [torch.tensor([padding_value, padding_value], dtype=torch.long)] * (max_relations - len(data))
     return padded_data
 
 def custom_collate_fn(batch):
@@ -187,8 +184,8 @@ def custom_collate_fn(batch):
 
     # Pad re_labels
     padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
-    re_labels = torch.tensor(padded_re_labels, dtype=torch.long)
-
+    re_indices = torch.stack(padded_re_indices)
+    
     # Pad re_indices
     re_indices = [item['re_indices'] for item in batch if 're_indices' in item and item['re_indices'] is not None]
 
@@ -202,14 +199,7 @@ def custom_collate_fn(batch):
         padded_re_indices = [pad_relation_data(item, max_re_indices_relations, padding_value=(-1, -1)) for item in re_indices]
         re_indices = torch.tensor(padded_re_indices, dtype=torch.long)
         
-        print("input_ids:", input_ids.shape, input_ids.dtype)
-        print("attention_mask:", attention_mask.shape, attention_mask.dtype)
-        print("token_type_ids:", token_type_ids.shape, token_type_ids.dtype)
-        print("ner_labels:", ner_labels.shape, ner_labels.dtype)
-        print("re_labels:", re_labels.shape, re_labels.dtype)
-        print("re_indices:", re_indices.shape if re_indices is not None else None, re_indices.dtype if re_indices is not None else None)
         
-
     return {
         'input_ids': input_ids,
         'attention_mask': attention_mask,
@@ -218,7 +208,6 @@ def custom_collate_fn(batch):
         're_labels': re_labels,
         're_indices': re_indices  # Add the 're_indices' key here
     }
-
 
 
 label_to_id = {}
