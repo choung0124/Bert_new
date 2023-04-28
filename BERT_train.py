@@ -349,6 +349,11 @@ for epoch in range(num_epochs):
         else:
             re_indices = None
 
+        extra_args = {}
+        for key, value in batch.items():
+            if key not in ['input_ids', 'attention_mask', 'token_type_ids', 'ner_labels', 're_labels', 're_indices']:
+                extra_args[key] = value.to(device)
+
         try:
             # Forward pass
             outputs = model(
@@ -358,6 +363,7 @@ for epoch in range(num_epochs):
                 ner_labels=ner_labels,
                 re_labels=re_labels,
                 re_indices=re_indices,
+                **extra_args
             )
 
             loss = outputs["loss"]
@@ -374,6 +380,7 @@ for epoch in range(num_epochs):
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
+
 
 
 # Save the fine-tuned custom BERT model and tokenizer
