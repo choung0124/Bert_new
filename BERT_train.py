@@ -308,8 +308,8 @@ num_ner_labels = len(label_to_id)
 num_re_labels = len(relation_to_id)
 model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
-if torch.cuda.device_count() > 1:
-    model = nn.DataParallel(model)
+#if torch.cuda.device_count() > 1:
+    #model = nn.DataParallel(model)
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=3e-5)
