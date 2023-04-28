@@ -190,6 +190,13 @@ def custom_collate_fn(batch):
 
     # Pad re_indices
     re_indices = [item['re_indices'] for item in batch if 're_indices' in item and item['re_indices'] is not None]
+    
+    # Find the maximum number of relations for re_indices in the batch
+    max_re_indices_relations = max([len(item) for item in re_indices])
+
+    # Pad re_indices
+    padded_re_indices = [pad_relation_data(item, max_re_indices_relations, padding_value=(-1, -1)) for item in re_indices]
+    re_indices = torch.tensor(padded_re_indices, dtype=torch.long)
 
     return {
         'input_ids': input_ids,
@@ -199,6 +206,7 @@ def custom_collate_fn(batch):
         're_labels': re_labels,
         're_indices': re_indices  # Add the 're_indices' key here
     }
+
 
 
 label_to_id = {}
