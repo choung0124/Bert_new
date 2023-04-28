@@ -153,12 +153,6 @@ class NERRE_Dataset(Dataset):
         else:
             # Split the re_indices tuples into separate lists of subject and object indices
             subject_indices, object_indices = zip(*item['re_indices'])
-        print("input_ids:", input_ids.shape, input_ids.dtype)
-        print("attention_mask:", attention_mask.shape, attention_mask.dtype)
-        print("token_type_ids:", token_type_ids.shape, token_type_ids.dtype)
-        print("ner_labels:", ner_labels.shape, ner_labels.dtype)
-        print("re_labels:", re_labels.shape, re_labels.dtype)
-        print("re_indices:", re_indices.shape if re_indices is not None else None, re_indices.dtype if re_indices is not None else None)
 
 
         return {
@@ -207,6 +201,14 @@ def custom_collate_fn(batch):
         # Pad re_indices
         padded_re_indices = [pad_relation_data(item, max_re_indices_relations, padding_value=(-1, -1)) for item in re_indices]
         re_indices = torch.tensor(padded_re_indices, dtype=torch.long)
+        
+        print("input_ids:", input_ids.shape, input_ids.dtype)
+        print("attention_mask:", attention_mask.shape, attention_mask.dtype)
+        print("token_type_ids:", token_type_ids.shape, token_type_ids.dtype)
+        print("ner_labels:", ner_labels.shape, ner_labels.dtype)
+        print("re_labels:", re_labels.shape, re_labels.dtype)
+        print("re_indices:", re_indices.shape if re_indices is not None else None, re_indices.dtype if re_indices is not None else None)
+        
 
     return {
         'input_ids': input_ids,
