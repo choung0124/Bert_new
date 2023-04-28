@@ -182,6 +182,8 @@ def custom_collate_fn(batch):
 
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
+    
+    padded_re_indices =[]
 
     # Find the maximum number of relations in the batch
     max_relations = max([len(item['re_labels']) for item in batch])
