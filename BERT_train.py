@@ -357,7 +357,7 @@ for epoch in range(num_epochs):
         ner_labels = batch['ner_labels'].to(device)
         re_labels = batch['re_labels'].to(device)
         if batch['re_indices'] is not None:
-            re_indices = torch.tensor(batch['re_indices'], dtype=torch.long).to(device)
+            re_indices = batch['re_indices'].to(device) 
         else:
             re_indices = None
 
