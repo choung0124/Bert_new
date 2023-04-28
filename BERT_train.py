@@ -164,9 +164,12 @@ class NERRE_Dataset(Dataset):
         }
 
 def pad_relation_data(data, max_relations, padding_value=-1):
+    print(f"data: {data}, shape: {data.shape}")  # Add this print statement
     padding_tensor = torch.full((max_relations - len(data), 2), padding_value, dtype=torch.long)
+    print(f"padding_tensor: {padding_tensor}, shape: {padding_tensor.shape}")  # Add this print statement
     padded_data = torch.cat([data, padding_tensor], dim=0)
     return padded_data
+
 
 def custom_collate_fn(batch):
     # Remove None values from the batch
