@@ -203,7 +203,10 @@ def custom_collate_fn(batch):
 
         # Pad re_indices
         padded_re_indices = [pad_relation_data(item, max_re_indices_relations, padding_value=(-1, -1)) for item in re_indices]
-        re_indices = torch.stack(padded_re_indices)
+        if len(padded_re_indices) > 0:
+            re_indices = torch.stack(padded_re_indices)
+        else:
+            re_indices = None
 
     # Return the final dictionary
     return {
