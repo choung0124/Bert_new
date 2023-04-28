@@ -208,6 +208,12 @@ json_directory = "test"
 preprocessed_data = []
 
 # Iterate through all JSON files in the directory
+def validate_json(json_data):
+    # Add your custom validation criteria based on your data format
+    if "entities" not in json_data or "relation_info" not in json_data or "text" not in json_data:
+        return False
+    return True
+
 for file_name in os.listdir(json_directory):
     if file_name.endswith(".json"):
         json_path = os.path.join(json_directory, file_name)
@@ -216,13 +222,15 @@ for file_name in os.listdir(json_directory):
             with open(json_path, "r") as json_file:
                 json_data = json.load(json_file)
 
-            preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
-            preprocessed_data.extend(preprocessed_file_data)
+            if validate_json(json_data):
+                preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
+                preprocessed_data.extend(preprocessed_file_data)
+            else:
+                print(f"Skipping {json_path} due to invalid JSON data")
         except json.JSONDecodeError as e:
             print(f"Error loading {json_path}: {e}")
             continue
 
-        
 max_length = 128
 if device.type == "cuda":
     num_workers = 0
