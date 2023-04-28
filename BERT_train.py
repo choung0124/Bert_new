@@ -183,30 +183,16 @@ def custom_collate_fn(batch):
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
     
-    padded_re_indices =[]
-
-    # Find the maximum number of relations in the batch
-    max_relations = max([len(item['re_labels']) for item in batch])
-
     # Pad re_labels
-    padded_re_labels = [pad_relation_data(item['re_labels'], max_relations) for item in batch]
-    re_indices = torch.stack(padded_re_indices)
-    
+    re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
+
     # Pad re_indices
-    re_indices = [item['re_indices'] for item in batch if 're_indices' in item and item['re_indices'] is not None]
+    re_indices_list = [item['re_indices'] for item in batch if item['re_indices'] is not None]
 
-    if not re_indices:
-        re_indices = None
+    if len(re_indices_list) > 0:
+        re_indices = pad_sequence(re_indices_list, batch_first=True, padding_value=-1)
     else:
-        # Find the maximum number of relations for re_indices in the batch
-        max_re_indices_relations = max([len(item) for item in re_indices])
-
-        # Pad re_indices
-        padded_re_indices = [pad_relation_data(item, max_re_indices_relations, padding_value=(-1, -1)) for item in re_indices]
-        if len(padded_re_indices) > 0:
-            re_indices = torch.stack(padded_re_indices)
-        else:
-            re_indices = None
+        re_indices = None
 
     # Return the final dictionary
     return {
