@@ -164,8 +164,8 @@ class NERRE_Dataset(Dataset):
         }
 
 def pad_relation_data(data, max_relations, padding_value=-1):
-    padding_tensor = torch.tensor([padding_value, padding_value], dtype=torch.long)
-    padded_data = torch.cat([data, padding_tensor.repeat(max_relations - len(data), 1)], dim=0)
+    padding_tensor = torch.full((max_relations - len(data), 2), padding_value, dtype=torch.long)
+    padded_data = torch.cat([data, padding_tensor], dim=0)
     return padded_data
 
 def custom_collate_fn(batch):
