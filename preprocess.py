@@ -42,6 +42,10 @@ def preprocess_data(json_data):
         object_id = relation["objectId"]
         rel_name = relation["rel_name"]
 
+        if subject_id not in entity_map or object_id not in entity_map:
+            print(f"Error: Entity IDs {subject_id} or {object_id} not found in the entity_map.")
+            continue
+
         subject = entity_map[subject_id]["text"]
         subject_start = entity_map[subject_id]["start"]
         subject_end = entity_map[subject_id]["end"]
