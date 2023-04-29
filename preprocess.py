@@ -6,6 +6,7 @@ from nltk import sent_tokenize
 import itertools
 import spacy
 import nltk
+from fuzzywuzzy import fuzz
 nlp = spacy.load("en_core_web_sm")
 
 # Initialize the tokenizer
@@ -16,6 +17,17 @@ preprocessed_ner_data = []
 preprocessed_re_data = []
 
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
+
+def find_best_match(entity_text, sentence_text, sentence_tokens, sentence_token_offsets):
+    best_match = None
+    best_score = 0
+    for i, (token_start, token_end) in enumerate(sentence_token_offsets):
+        token_text = sentence_text[token_start:token_end]
+        score = fuzz.ratio(entity_text, token_text)
+        if score > best_score:
+            best_score = score
+            best_match = (i, token_start, token_end)
+    return best_match
 
 # Existing preprocessing functions
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
@@ -72,18 +84,19 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         entity_text = text[begin:end]
         entity_tokens = tokenizer.tokenize(entity_text)
 
-        # Find the first occurrence of the entity tokens in the sentence tokens
-        entity_start_idx = None
-        entity_end_idx = None
+        for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
+            # ... (rest of the code remains unchanged)
 
-        for i, token in enumerate(sentence_tokens):
-            if sentence_tokens[i:i+len(entity_tokens)] == entity_tokens:
-                entity_start_idx = i
-                entity_end_idx = i + len(entity_tokens) - 1
-                break
+            # Find the first occurrence of the entity tokens in the sentence tokens
+            best_match = find_best_match(entity_text, sentence_text, sentence_tokens, sentence_token_offsets)
+            if best_match:
+                entity_start_idx, begin, end = best_match
+                entity_end_idx = entity_start_idx + len(entity_tokens) - 1
+            else:
+                raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
 
-        if entity_start_idx is None or entity_end_idx is None:
-            raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
+
+
 
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
