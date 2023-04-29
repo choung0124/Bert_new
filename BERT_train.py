@@ -14,7 +14,7 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-tokenizer = BertTokenizerFast.from_pretrained("bert-mini-uncased")
+tokenizer = BertTokenizerFast.from_pretrained("distilbert-base-uncased")
 device = torch.device("cpu")
 batch_size = 8
 num_epochs = 4
@@ -332,8 +332,8 @@ class BertForNERAndRE(BertPreTrainedModel):
         return {'ner_logits': ner_logits, 're_logits': re_logits, 'ner_loss': ner_loss}
 
 # Set up the configuration, model, and tokenizer
-config = BertConfig.from_pretrained("bert-mini-uncased")
-tokenizer = BertTokenizerFast.from_pretrained("bert-mini-uncased")
+config = BertConfig.from_pretrained("distilbert-base-uncased")
+tokenizer = BertTokenizerFast.from_pretrained("distilbert-base-uncased")
 
 # Initialize the model with the given configuration
 num_ner_labels = len(label_to_id)
