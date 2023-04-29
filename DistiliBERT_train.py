@@ -333,7 +333,6 @@ for epoch in range(num_epochs):
 
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
-            print(traceback.format_exc())
             continue
 
 
