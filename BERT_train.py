@@ -199,7 +199,7 @@ def custom_collate_fn(batch):
     return {
         "input_ids": input_ids,
         "attention_mask": attention_mask,
-        #"token_type_ids": token_type_ids,
+        "token_type_ids": token_type_ids,
         "ner_labels": ner_labels,
         "re_labels": re_labels,
         "re_indices": re_indices,
