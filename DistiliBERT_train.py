@@ -9,11 +9,41 @@ from torch.nn import CrossEntropyLoss
 import warnings
 import logging
 import torch.nn as nn
-import itertools
+import pickle
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
-from nltk import sent_tokenize
+
+with open("preprocessed_ner_data.pkl", "rb") as f:
+    preprocessed_ner_data = pickle.load(f)
+
+with open("preprocessed_re_data.pkl", "rb") as f:
+    preprocessed_re_data = pickle.load(f)
+    
+unique_ner_labels = set()
+unique_relation_labels = set()
+
+for item in preprocessed_ner_data:
+    for _, ner_label, _ in item:
+        unique_ner_labels.add(ner_label)
+
+for relations in preprocessed_re_data:
+    for relation in relations:
+        unique_relation_types.add(relation['relation'])
+
+# Create label_to_id and relation_to_id mappings
+label_to_id = {label: idx for idx, label in enumerate(unique_ner_labels)}
+relation_to_id = {relation: idx for idx, relation in enumerate(unique_relation_types)}
+
+# You can also save these mappings to pickle files if needed
+with open("label_to_id.pkl", "wb") as f:
+    pickle.dump(label_to_id, f)
+
+with open("relation_to_id.pkl", "wb") as f:
+    pickle.dump(relation_to_id, f)
+
+
+
 
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -23,105 +53,6 @@ device = torch.device('cpu')
 batch_size = 8
 num_epochs = 4
 learning_rate = 5e-5
-
-unique_ner_labels = set()
-unique_relation_labels = set()
-unique_ner_labels.add("O")
-
-# Existing preprocessing functions
-def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
-    ner_data = []
-    re_data = []
-
-    entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
-    entity_ids = set(entities_dict.keys())
-
-    relation_dict = {}
-    for relation in json_data["relation_info"]:
-        subject_id = relation["subjectID"]
-        obj_id = relation["objectId"]
-        if subject_id not in relation_dict:
-            relation_dict[subject_id] = {}
-        relation_dict[subject_id][obj_id] = relation["rel_name"]
-
-    text = json_data["text"]
-
-    # Load spaCy's small English model for sentence tokenization
-    tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-cased')
-
-    # Split the text into sentences
-    sentences = sent_tokenize(text)
-    # Find sentence boundaries
-    sentence_boundaries = [0]
-    for sentence in sentences[:-1]:
-        sentence_boundaries.append(sentence_boundaries[-1] + len(sentence) + 1)
-
-    # Filter sentences containing entities
-    relevant_sentences = []
-    for i, (sentence, boundary) in enumerate(zip(sentences, sentence_boundaries)):
-        if any(boundary <= entity["span"]["begin"] < boundary + len(sentence) for entity in json_data["entities"]):
-            relevant_sentences.append((sentence, i, boundary))
-
-    # Process entities
-    for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
-        begin, end = entity["span"]["begin"], entity["span"]["end"]
-        entity_type = entity["entityType"]
-        entity_id = entity["entityId"]
-        entity_name = entity["entityName"]
-
-        # Find the relevant sentence index containing the entity
-        sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin)
-
-        # Tokenize the relevant sentence
-        sentence_doc = nlp(relevant_sentences[sentence_idx][0])
-        sentence_tokens = tokenizer.tokenize(relevant_sentences[sentence_idx][0])
-
-        # Find the token index of the entity
-        entity_start_idx = next(i for i, token in enumerate(sentence_tokens) if token.idx == begin - boundary)
-        entity_end_idx = next((i for i, token in enumerate(sentence_tokens) if token.idx == end - boundary), None)
-        entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
-
-        # Annotate the tokens with the entity label
-        for i, token in enumerate(sentence_tokens):
-            if i == entity_start_idx:
-                label = f"B-{entity_type}-{entity_name}"
-            elif (entity_start_idx is not None and entity_end_idx is not None) and (entity_start_idx < i <= entity_end_idx):
-                label = f"I-{entity_type}-{entity_name}"
-            else:
-                label = "O"
-
-            if label not in label_to_id:
-                label_to_id[label] = len(label_to_id)
-
-            ner_data.append((token.text, label, len(ner_data)))
-
-        if f"{entity_type}-{entity_name}" not in label_to_id:
-            label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
-
-    # Process relations
-    for entity_id_1, entity_id_2 in itertools.combinations(entity_ids, 2):
-        if entity_id_1 in relation_dict and entity_id_2 in relation_dict[entity_id_1]:
-            rel_name = relation_dict[entity_id_1][entity_id_2]
-            entity_1 = entities_dict[entity_id_1]
-            entity_2 = entities_dict[entity_id_2]
-
-            # Find the relevant sentence index containing the entities
-            sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= entity_1["span"]["begin"])
-
-            re_data.append({
-                'id': (entity_id_1, entity_id_2),
-                'subject': relevant_sentences[sentence_idx][0][entity_1["span"]["begin"] - boundary:entity_1["span"]["end"] - boundary],
-                'object': relevant_sentences[sentence_idx][0][entity_2["span"]["begin"] - boundary:entity_2["span"]["end"] - boundary],
-                'relation': rel_name,
-                'subject_tokens': tokenizer.tokenize(relevant_sentences[sentence_idx][0][entity_1["span"]["begin"] - boundary:entity_1["span"]["end"] - boundary]),
-                'object_tokens': tokenizer.tokenize(relevant_sentences[sentence_idx][0][entity_2["span"]["begin"] - boundary:entity_2["span"]["end"] - boundary])
-            })
-
-            if rel_name not in relation_to_id:
-                relation_to_id[rel_name] = len(relation_to_id)
-
-    return ner_data, re_data, label_to_id, relation_to_id
-
 
 class NERRE_Dataset(Dataset):
     def __init__(self, ner_data, re_data, tokenizer, max_length, label_to_id, relation_to_id):
@@ -181,49 +112,12 @@ def custom_collate_fn(batch):
     }
 
 
-label_to_id = {}
-relation_to_id = {}
-
-json_directory = "test"
-preprocessed_data = []
-
-# Iterate through all JSON files in the directory
-def validate_json(json_data):
-    # Check if the necessary keys are present
-    if "entities" not in json_data or "relation_info" not in json_data or "text" not in json_data:
-        return False
-
-    # Check if there are entities and relations
-    if len(json_data["entities"]) == 0 or len(json_data["relation_info"]) == 0:
-        return False
-
-    # Additional validation criteria can be added here based on your data format
-
-    return True
-
-for file_name in os.listdir(json_directory):
-    if file_name.endswith(".json"):
-        json_path = os.path.join(json_directory, file_name)
-
-        try:
-            with open(json_path, "r") as json_file:
-                json_data = json.load(json_file)
-
-            if validate_json(json_data):
-                preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
-                preprocessed_data.extend(preprocessed_file_data)
-            else:
-                print(f"Skipping {json_path} due to invalid JSON data")
-        except json.JSONDecodeError as e:
-            print(f"Error loading {json_path}: {e}")
-            continue
-
 max_length = 128
 if device.type == "cuda":
     num_workers = 2
 else:
     num_workers = 6
-dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
+dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
 
 # Print the first 5 batches from the DataLoader
