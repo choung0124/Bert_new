@@ -149,7 +149,7 @@ if device.type == "cuda":
 else:
     num_workers = 6
 dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda b: custom_collate_fn(b, max_length), num_workers=num_workers, shuffle=True)
 
 # Print the first 5 batches from the DataLoader
 for i, batch in enumerate(dataloader):
