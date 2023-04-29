@@ -139,7 +139,7 @@ def custom_collate_fn(batch, max_length):
         print("Skipping problematic data during padding")
         return None
 
-    ner_labels = torch.cat([item["ner_labels"].unsqueeze(0) for item in batch], dim=0)
+    ner_labels = torch.cat([item["ner_labels"].unsqueeze(0) for item in valid_batch], dim=0)
 
     return {
         'input_ids': input_ids,
