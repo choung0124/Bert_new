@@ -169,13 +169,14 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         ner_logits = self.classifier(sequence_output)
 
         if ner_labels is not None:
+            
             loss_fct = nn.CrossEntropyLoss(ignore_index=-1)
+            print("Attention mask shape:", attention_mask.shape)
+            print("NER logits shape:", ner_logits.shape)
+            print("NER labels shape:", ner_labels.shape)
             active_loss = attention_mask.view(-1).bool()
             active_logits = ner_logits.view(-1, self.num_ner_labels)[active_loss]
             active_labels = ner_labels.view(-1)[active_loss]
-            print("Active loss shape:", active_loss.shape)
-            print("Active logits shape:", active_logits.shape)
-            print("Active labels shape:", active_labels.shape)
 
             # Check if there are any active logits and labels before calculating the loss
             if active_logits.shape[0] > 0 and active_labels.shape[0] > 0:
