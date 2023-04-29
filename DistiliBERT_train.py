@@ -67,7 +67,7 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
         tokens = re_item["sentence_tokens"]
-        print(f"Input tokens: {tokens}") 
+        #print(f"Input tokens: {tokens}") 
         
         if not tokens:
         # You can either return a default value or skip this item
@@ -75,7 +75,7 @@ class NERRE_Dataset(Dataset):
             tokens = ["[UNK]"]
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
-        print(f"Tokenized output: {inputs}")
+        #print(f"Tokenized output: {inputs}")
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
         offsets = inputs['offset_mapping'].squeeze()
@@ -183,8 +183,8 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         re_labels=None,
         re_data=None,
     ):
-        print("input_ids shape in forward:", input_ids.shape)
-        print("attention_mask shape in forward:", attention_mask.shape)
+        #print("input_ids shape in forward:", input_ids.shape)
+        #print("attention_mask shape in forward:", attention_mask.shape)
         outputs = self.distilbert(
             input_ids,
             attention_mask=attention_mask,
@@ -199,9 +199,9 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         if ner_labels is not None:
             
             loss_fct = nn.CrossEntropyLoss(ignore_index=dataset.ignore_label_index)
-            print("Attention mask shape:", attention_mask.shape)
-            print("NER logits shape:", ner_logits.shape)
-            print("NER labels shape:", ner_labels.shape)
+            #print("Attention mask shape:", attention_mask.shape)
+            #print("NER logits shape:", ner_logits.shape)
+            #print("NER labels shape:", ner_labels.shape)
             active_loss = attention_mask.view(-1).bool()
             active_logits = ner_logits.view(-1, self.num_ner_labels)[active_loss]
             active_labels = ner_labels.view(-1)[active_loss]
@@ -215,12 +215,12 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             ner_loss = None
 
         if re_data is not None and len(re_data) > 0:
-            print(f"re_data: {re_data}")
+            #print(f"re_data: {re_data}")
             re_logits = []
             for b, batch_re_data in enumerate(re_data):
                 batch_re_logits = []
                 for rel in batch_re_data:
-                    print(f"rel: {rel}")
+                    #print(f"rel: {rel}")
                     subject_start_idx = rel["subject_start_idx"]
                     subject_end_idx = rel["subject_end_idx"]
                     object_start_idx = rel["object_start_idx"]
@@ -260,7 +260,7 @@ model = model.to(device)
 optimizer = AdamW(model.parameters(), lr=learning_rate)
 num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
-accumulation_steps = 32  # Increase this value based on the desired accumulation steps.
+accumulation_steps = 1  # Increase this value based on the desired accumulation steps.
 accumulation_counter = 0
 
 # Define separate loss functions for NER and RE tasks
