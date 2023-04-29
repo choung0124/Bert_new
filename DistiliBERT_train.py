@@ -24,12 +24,11 @@ unique_ner_labels = set()
 unique_relation_labels = set()
 
 for item in preprocessed_ner_data:
-    for _, ner_label, _ in item:
-        unique_ner_labels.add(ner_label)
+    unique_ner_labels.add(item["subject_text"])
+    unique_ner_labels.add(item["object_text"])
 
-for relations in preprocessed_re_data:
-    for relation in relations:
-        unique_relation_labels.add(relation['relation'])
+for item in preprocessed_re_data:
+    unique_relation_labels.add(item["rel_name"])
 
 # Create label_to_id and relation_to_id mappings
 label_to_id = {label: idx for idx, label in enumerate(unique_ner_labels)}
@@ -64,9 +63,12 @@ class NERRE_Dataset(Dataset):
         return len(self.ner_data)
 
     def __getitem__(self, idx):
-        item = self.ner_data[idx]
-        tokens = [token for token, label, _ in item]
-        ner_labels = [label for _, label, _ in item]
+        ner_item = self.ner_data[idx]
+        subject_text = ner_item["subject_text"]
+        object_text = ner_item["object_text"]
+
+        tokens = subject_text + " " + object_text
+        ner_labels = [subject_text, object_text]
         ner_label_ids = [self.label_to_id[label] for label in ner_labels]
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt')
