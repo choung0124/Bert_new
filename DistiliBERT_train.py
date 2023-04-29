@@ -108,22 +108,25 @@ class NERRE_Dataset(Dataset):
         }
 
 
+from torch.nn.functional import pad
+
 def custom_collate_fn(batch):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
-    # Pad input_ids, attention_mask, and token_type_ids
-    input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
-    attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
-    print("input_ids shape:", input_ids.shape)
-    print("attention_mask shape:", attention_mask.shape)
+    # Find the maximum sequence length in the batch
+    max_length = max([item['input_ids'].shape[0] for item in batch])
+
+    # Pad input_ids, attention_mask, and ner_labels
+    input_ids = torch.stack([pad(item['input_ids'], (0, max_length - item['input_ids'].shape[0])) for item in batch])
+    attention_mask = torch.stack([pad(item['attention_mask'], (0, max_length - item['attention_mask'].shape[0])) for item in batch])
 
     # Pad ner_labels
-    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
-    
+    ner_labels = torch.stack([pad(item['ner_labels'], (0, max_length - item['ner_labels'].shape[0]), value=-100) for item in batch])
+
     # Pad re_labels
     re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
-    print("Batch attention mask shape:", attention_mask.shape)
+
     # Return the final dictionary
     return {
         "input_ids": input_ids,
@@ -132,6 +135,7 @@ def custom_collate_fn(batch):
         "re_labels": re_labels,
         "re_data": [item['re_data'] for item in batch],
     }
+
 
 max_length = 128
 if device.type == "cuda":
