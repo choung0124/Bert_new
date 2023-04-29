@@ -4,6 +4,7 @@ import socket
 import torch
 import torch.distributed as dist
 import argparse
+import torch.nn as nn
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
