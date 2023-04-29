@@ -33,7 +33,7 @@ for relations in preprocessed_re_data:
 
 # Create label_to_id and relation_to_id mappings
 label_to_id = {label: idx for idx, label in enumerate(unique_ner_labels)}
-relation_to_id = {relation: idx for idx, relation in enumerate(unique_relation_types)}
+relation_to_id = {relation: idx for idx, relation in enumerate(unique_relation_labels)}
 
 # You can also save these mappings to pickle files if needed
 with open("label_to_id.pkl", "wb") as f:
