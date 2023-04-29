@@ -5,6 +5,7 @@ import os
 from nltk import sent_tokenize
 import itertools
 import spacy
+import nltk
 nlp = spacy.load("en_core_web_sm")
 
 # Initialize the tokenizer
@@ -43,9 +44,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-cased')
 
     # Split the text into sentences
-    doc = nlp(text)
-    sentences = [sent.text for sent in doc.sents]
-    sentence_boundaries = [sent.start_char for sent in doc.sents]
+    sentences = sent_tokenize(text)
+
                  
     for sentence in sentences[:-1]:
         sentence_boundaries.append(sentence_boundaries[-1] + len(sentence) + 1)
