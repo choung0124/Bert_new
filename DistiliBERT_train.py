@@ -116,15 +116,22 @@ import torch.nn.functional as F
 
 def custom_collate_fn(batch, max_length):
     valid_batch = []
-    
-    for item in batch:
+
+    for idx, item in enumerate(batch):
         try:
             if len(item['input_ids']) <= max_length:
                 valid_batch.append(item)
         except KeyError:
-            print("Skipping problematic data")
+            print(f"Skipping problematic data at index {idx} due to KeyError")
             continue
-    
+        except TypeError:
+            print(f"Skipping problematic data at index {idx} due to TypeError")
+            continue
+
+    if not valid_batch:
+        print("All items in the batch are problematic. Skipping the entire batch.")
+        return None
+
     try:
         input_ids = pad_sequence([item['input_ids'] for item in valid_batch], batch_first=True, padding_value=0)
         attention_mask = pad_sequence([item['attention_mask'] for item in valid_batch], batch_first=True, padding_value=0)
@@ -133,6 +140,13 @@ def custom_collate_fn(batch, max_length):
         return None
 
     ner_labels = [item['ner_labels'] for item in valid_batch]
+
+    return {
+        'input_ids': input_ids,
+        'attention_mask': attention_mask,
+        'ner_labels': ner_labels,
+    }
+
 
 
 
