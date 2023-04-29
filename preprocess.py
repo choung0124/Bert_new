@@ -40,9 +40,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
     text = json_data["text"]
 
-    # Load spaCy's small English model for sentence tokenization
-    tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-cased')
-
     # Split the text into sentences
     sentences = sent_tokenize(text)
 
@@ -73,6 +70,21 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence = relevant_sentences[sentence_idx][0]
         sentence_tokens = tokenizer.tokenize(sentence)
         sentence_token_offsets = tokenizer(sentence, return_offsets_mapping=True).offset_mapping
+        
+        print(f"sentence_token_offsets: {sentence_token_offsets}")
+        print(f"boundary: {sentence_end - sentence_start}")
+
+        for entity, token_span in zip(sentence["entities"], token_spans):
+            entity_type = entity["entityType"]
+            entity_start = token_span[0]
+            entity_end = token_span[1]
+
+            # Check that entity_end can be found in sentence_token_offsets
+            print(f"Entity text: {entity['entityName']}")
+            print(f"Sentence text: {sentence_text}")
+            print(f"Entity span: ({entity['span']['begin'] - sentence_start}, {entity['span']['end'] - sentence_start})")
+            print(f"sentence_token_offsets: {sentence_token_offsets}")
+            print(f"boundary: {sentence_end - sentence_start}")
 
         # Find the token index of the entity
         try:
