@@ -2,7 +2,7 @@ import os
 import torch
 import json
 from torch.utils.data import DataLoader, Dataset
-from transformers import BertTokenizer, BertModel, BertPreTrainedModel, BertConfig, get_linear_schedule_with_warmup, AdamW, BertTokenizerFast
+from transformers import BertTokenizer, BertModel, BertPreTrainedModel, BertConfig, get_linear_schedule_with_warmup, AdamW, BertTokenizerFast, DistilBertConfig, DistilBertTokenizerFast, DistilBertModel
 from tqdm import tqdm
 from torch import nn
 from torch.nn import CrossEntropyLoss
@@ -15,7 +15,7 @@ from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-tokenizer = BertTokenizerFast.from_pretrained("distilbert-base-uncased")
+tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 batch_size = 2
 num_epochs = 4
@@ -141,7 +141,7 @@ class NERRE_Dataset(Dataset):
 
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
-        token_type_ids = inputs['token_type_ids'].squeeze()
+        #token_type_ids = inputs['token_type_ids'].squeeze()
 
         if len(item['re_indices']) == 0:
             # Handle the case when re_indices is empty
@@ -155,7 +155,7 @@ class NERRE_Dataset(Dataset):
         return {
             'input_ids': input_ids,
             'attention_mask': attention_mask,
-            'token_type_ids': token_type_ids,
+            #'token_type_ids': token_type_ids,
             'ner_labels': torch.tensor(ner_label_ids, dtype=torch.long),
             're_labels': torch.tensor(item['re_labels'], dtype=torch.long),
             're_indices': torch.tensor(list(zip(subject_indices, object_indices)), dtype=torch.long) if subject_indices is not None and object_indices is not None else None
@@ -177,7 +177,7 @@ def custom_collate_fn(batch):
     # Pad input_ids, attention_mask, and token_type_ids
     input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
     attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
-    token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
+    #token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
 
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
@@ -199,7 +199,7 @@ def custom_collate_fn(batch):
     return {
         "input_ids": input_ids,
         "attention_mask": attention_mask,
-        "token_type_ids": token_type_ids,
+        #"token_type_ids": token_type_ids,
         "ner_labels": ner_labels,
         "re_labels": re_labels,
         "re_indices": re_indices,
@@ -261,14 +261,14 @@ for i, batch in enumerate(dataloader):
 # Check the length of the DataLoader
 print(f"Number of batches in DataLoader: {len(dataloader)}")
 
-class BertForNERAndRE(BertPreTrainedModel):
+class DistilBertForNERAndRE(DistilBertPreTrainedModel):
     def __init__(self, config, num_ner_labels, num_re_labels):
         super().__init__(config)
 
         self.num_ner_labels = num_ner_labels
         self.num_re_labels = num_re_labels
 
-        self.bert = BertModel(config)
+        self.distilbert = DistilBertModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size, self.num_ner_labels)
 
@@ -281,7 +281,7 @@ class BertForNERAndRE(BertPreTrainedModel):
         self,
         input_ids=None,
         attention_mask=None,
-        token_type_ids=None,
+        #token_type_ids=None,
         position_ids=None,
         head_mask=None,
         inputs_embeds=None,
@@ -289,10 +289,10 @@ class BertForNERAndRE(BertPreTrainedModel):
         re_labels=None,
         re_indices=None,
     ):
-        outputs = self.bert(
+        outputs = self.distilbert(
             input_ids,
             attention_mask=attention_mask,
-            token_type_ids=token_type_ids,
+            #token_type_ids=token_type_ids,
             position_ids=position_ids,
             head_mask=head_mask,
             inputs_embeds=inputs_embeds,
@@ -333,13 +333,13 @@ class BertForNERAndRE(BertPreTrainedModel):
         return {'ner_logits': ner_logits, 're_logits': re_logits, 'ner_loss': ner_loss}
 
 # Set up the configuration, model, and tokenizer
-config = BertConfig.from_pretrained("distilbert-base-uncased")
-tokenizer = BertTokenizerFast.from_pretrained("distilbert-base-uncased")
+config = DistilBertConfig.from_pretrained("distilbert-base-uncased")
+tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 
 # Initialize the model with the given configuration
 num_ner_labels = len(label_to_id)
 num_re_labels = len(relation_to_id)
-model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
+model = DistilBertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
 
 # Mixed precision training
@@ -365,7 +365,7 @@ for epoch in range(num_epochs):
 
             input_ids = batch['input_ids'].view(-1, batch['input_ids'].size(-1)).to(device)
             attention_mask = batch['attention_mask'].view(-1, batch['attention_mask'].size(-1)).to(device)
-            token_type_ids = batch['token_type_ids'].view(-1, batch['token_type_ids'].size(-1)).to(device)
+            #token_type_ids = batch['token_type_ids'].view(-1, batch['token_type_ids'].size(-1)).to(device)
             ner_labels = batch['ner_labels'].view(-1).to(device)
             re_labels = batch['re_labels'].to(device)
             re_indices = batch['re_indices']
@@ -380,7 +380,7 @@ for epoch in range(num_epochs):
                 outputs = model(
                     input_ids=input_ids,
                     attention_mask=attention_mask,
-                    token_type_ids=token_type_ids,
+                    #token_type_ids=token_type_ids,
                     ner_labels=ner_labels,
                     re_labels=re_labels,
                     re_indices=re_indices if re_indices is not None else None,
