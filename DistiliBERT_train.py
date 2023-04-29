@@ -137,16 +137,15 @@ def custom_collate_fn(batch, max_length):
         if len(replacement_item['input_ids']) <= max_length:
             valid_batch.append(replacement_item)
 
-
-
     try:
+        for item in valid_batch:
+            print(f"Item shapes - Input_ids: {item['input_ids'].shape}, Attention_mask: {item['attention_mask'].shape}, NER_labels: {item['ner_labels'].shape}")
+
         input_ids = torch.stack([item['input_ids'] for item in valid_batch], dim=0)
         attention_mask = torch.stack([item['attention_mask'] for item in valid_batch], dim=0)
         ner_labels = torch.stack([item['ner_labels'] for item in valid_batch], dim=0)
         re_labels = torch.stack([item['re_labels'] for item in valid_batch], dim=0)
-        re_data = [item['re_data'] for item in valid_batch]  # Add re_data to the collated batch
-        print(f"Collated Batch - Padded Input_ids shape: {input_ids.shape}, Padded Attention_mask shape: {attention_mask.shape}, Padded NER_labels shape: {ner_labels.shape}")
-
+        re_data = [item['re_data'] for item in valid_batch] 
     except RuntimeError:
         print("Skipping problematic data during padding")
         print(f"Problematic batch shapes: {[(item['input_ids'].shape, item['attention_mask'].shape, item['ner_labels'].shape) for item in batch]}")
