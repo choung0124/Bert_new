@@ -46,7 +46,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     # Split the text into sentences
     sentences = sent_tokenize(text)
 
-                 
+    sentence_boundaries = [0]
     for sentence in sentences[:-1]:
         sentence_boundaries.append(sentence_boundaries[-1] + len(sentence) + 1)
 
