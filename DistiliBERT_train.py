@@ -114,18 +114,14 @@ import torch
 from torch.nn.utils.rnn import pad_sequence
 import torch.nn.functional as F
 
-import torch
-from torch.nn.utils.rnn import pad_sequence
-import torch.nn.functional as F
-
 def custom_collate_fn(batch, max_length):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
     # Pad input_ids, attention_mask, and ner_labels
-    input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True, padding_value=0)
-    attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True, padding_value=0)
-    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
+    input_ids = torch.stack([F.pad(item['input_ids'], (0, max_length - len(item['input_ids'])), "constant", 0) for item in batch])
+    attention_mask = torch.stack([F.pad(item['attention_mask'], (0, max_length - len(item['attention_mask'])), "constant", 0) for item in batch])
+    ner_labels = torch.stack([F.pad(item['ner_labels'], (0, max_length - len(item['ner_labels'])), "constant", -100) for item in batch])
 
     # Pad re_labels
     re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
@@ -138,6 +134,7 @@ def custom_collate_fn(batch, max_length):
         "re_labels": re_labels,
         "re_data": [item['re_data'] for item in batch],
     }
+
 
 
 max_length = 128
