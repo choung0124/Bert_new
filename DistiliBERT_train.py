@@ -79,7 +79,7 @@ class NERRE_Dataset(Dataset):
             # Here's an example of returning a default value:
             tokens = ["[UNK]"]
 
-        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, is_pretokenized=True, return_tensors='pt', return_offsets_mapping=True)
+        inputs = self.tokenizer([tokens], padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
         #print(f"Tokenized output: {inputs}")
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
