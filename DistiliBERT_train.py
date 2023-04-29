@@ -114,26 +114,34 @@ import torch
 from torch.nn.utils.rnn import pad_sequence
 import torch.nn.functional as F
 
-def custom_collate_fn(batch):
-    max_length = max([len(item['input_ids']) for item in batch])
+def custom_collate_fn(batch, max_length):
+    valid_batch = []
+    
+    for item in batch:
+        try:
+            if len(item['input_ids']) <= max_length:
+                valid_batch.append(item)
+        except KeyError:
+            print("Skipping problematic data")
+            continue
+            
+    input_ids = pad_sequence([item['input_ids'] for item in valid_batch], batch_first=True, padding_value=0)
+    attention_mask = pad_sequence([item['attention_mask'] for item in valid_batch], batch_first=True, padding_value=0)
+    token_type_ids = pad_sequence([item['token_type_ids'] for item in valid_batch], batch_first=True, padding_value=0)
+    offset_mapping = pad_sequence([item['offset_mapping'] for item in valid_batch], batch_first=True, padding_value=(0, 0))
 
-    input_ids = [F.pad(item['input_ids'], (0, max_length - len(item['input_ids'])), "constant", 0) for item in batch]
-    attention_mask = [F.pad(item['attention_mask'], (0, max_length - len(item['attention_mask'])), "constant", 0) for item in batch]
-
-    input_ids = torch.stack(input_ids)
-    attention_mask = torch.stack(attention_mask)
-    offset_mapping = torch.stack(offset_mapping)
-
-    labels = [item['labels'] for item in batch]
-    relations = [item['relations'] for item in batch]
+    labels = [item['labels'] for item in valid_batch]
+    relations = [item['relations'] for item in valid_batch]
 
     return {
         'input_ids': input_ids,
         'attention_mask': attention_mask,
+        'token_type_ids': token_type_ids,
         'offset_mapping': offset_mapping,
-        'labels': torch.tensor(labels, dtype=torch.long),
-        'relations': torch.tensor(relations, dtype=torch.long),
+        'labels': labels,
+        'relations': relations
     }
+
 
 max_length = 128
 if device.type == "cuda":
