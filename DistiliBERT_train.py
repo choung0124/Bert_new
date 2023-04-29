@@ -118,8 +118,7 @@ def custom_collate_fn(batch, max_length):
 
     for idx, item in enumerate(batch):
         try:
-            if len(item['input_ids']) <= max_length:
-                valid_batch.append(item)
+            valid_batch.append(item)  # No length check needed
         except KeyError:
             print(f"Skipping problematic data at index {idx} due to KeyError")
             continue
@@ -137,6 +136,8 @@ def custom_collate_fn(batch, max_length):
         replacement_item = random.choice(batch)
         if len(replacement_item['input_ids']) <= max_length:
             valid_batch.append(replacement_item)
+
+
 
     try:
         input_ids = torch.stack([item['input_ids'] for item in valid_batch], dim=0)
@@ -158,9 +159,6 @@ def custom_collate_fn(batch, max_length):
         're_labels': re_labels,
         're_data': re_data
     }
-
-
-
 
 
 max_length = 128
