@@ -127,7 +127,8 @@ def custom_collate_fn(batch, max_length):
             
     input_ids = pad_sequence([item['input_ids'] for item in valid_batch], batch_first=True, padding_value=0)
     attention_mask = pad_sequence([item['attention_mask'] for item in valid_batch], batch_first=True, padding_value=0)
-    token_type_ids = pad_sequence([item['token_type_ids'] for item in valid_batch], batch_first=True, padding_value=0)
+    # Remove the line below
+    # token_type_ids = pad_sequence([item['token_type_ids'] for item in valid_batch], batch_first=True, padding_value=0)
     offset_mapping = pad_sequence([item['offset_mapping'] for item in valid_batch], batch_first=True, padding_value=(0, 0))
 
     labels = [item['labels'] for item in valid_batch]
@@ -136,11 +137,13 @@ def custom_collate_fn(batch, max_length):
     return {
         'input_ids': input_ids,
         'attention_mask': attention_mask,
-        'token_type_ids': token_type_ids,
+        # Remove the line below
+        # 'token_type_ids': token_type_ids,
         'offset_mapping': offset_mapping,
         'labels': labels,
         'relations': relations
     }
+
 
 
 max_length = 128
