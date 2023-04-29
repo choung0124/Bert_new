@@ -50,7 +50,7 @@ with open("relation_to_id.pkl", "wb") as f:
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')  #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 batch_size = 8
 num_epochs = 4
 learning_rate = 5e-5
@@ -149,9 +149,9 @@ def custom_collate_fn(batch):
 
 max_length = 128
 if device.type == "cuda":
-    num_workers = 2
-else:
     num_workers = 6
+else:
+    num_workers = 10
 dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True, drop_last=False)
 
