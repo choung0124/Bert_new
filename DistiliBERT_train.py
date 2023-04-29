@@ -139,7 +139,7 @@ def custom_collate_fn(batch, max_length):
         print("Skipping problematic data during padding")
         return None
 
-    ner_labels = [item['ner_labels'] for item in valid_batch]
+    ner_labels = torch.cat([item["ner_labels"].unsqueeze(0) for item in batch], dim=0)
 
     return {
         'input_ids': input_ids,
@@ -296,7 +296,7 @@ for epoch in range(num_epochs):
 
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
-            ner_labels = batch['ner_labels'].view(-1).to(device)
+            ner_labels = batch['ner_labels'].to(device)
             re_labels = batch['re_labels'].to(device)
             re_data = batch['re_data']
 
