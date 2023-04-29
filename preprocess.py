@@ -106,7 +106,9 @@ def preprocess_data(json_data):
             "subject_end_idx": subject_end_idx,
             "object_start_idx": object_start_idx,
             "object_end_idx": object_end_idx,
-            "rel_name": rel_name
+            "rel_name": rel_name,
+            "subject_text": subject,  # Add subject_text
+            "object_text": obj,  # Add object_text
         })
 
         # Assuming you want to store the subject and object entities for ner_data
