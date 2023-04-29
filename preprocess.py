@@ -72,9 +72,10 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_token_offsets = tokenizer(sentence, return_offsets_mapping=True).offset_mapping
 
         # Find the token index of the entity
-        entity_start_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if start == begin - boundary)
+        entity_start_idx = next((i for i, (start, end) in enumerate(sentence_token_offsets) if start == begin - boundary), None)
         entity_end_idx = next((i for i, (start, end) in enumerate(sentence_token_offsets) if end == end - boundary), None)
         entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
+
 
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
