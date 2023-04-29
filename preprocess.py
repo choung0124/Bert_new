@@ -70,8 +70,16 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
         sentence_text = text[sentence_start:sentence_end].strip()
 
         # Tokenize the sentence
-        sentence_tokens = tokenizer.tokenize(sentence_text)
-        sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
+        sentence_encoding = tokenizer(
+            sentence_text,
+            return_offsets_mapping=True,
+            padding='max_length',
+            truncation=True,
+            max_length=max_seq_length,
+            return_tensors='pt'
+        )
+        sentence_tokens = tokenizer.convert_ids_to_tokens(sentence_encoding['input_ids'][0])
+        sentence_token_offsets = sentence_encoding['offset_mapping'][0]
 
         # Find the entity token indices using the token offsets
         subject_start_idx, subject_end_idx, object_start_idx, object_end_idx = None, None, None, None
