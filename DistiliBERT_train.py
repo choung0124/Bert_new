@@ -69,7 +69,7 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
         tokens = re_item["sentence_tokens"]
-        #print(f"Input tokens: {tokens}") 
+        print(f"Input tokens: {tokens}") 
         
         if not tokens:
         # You can either return a default value or skip this item
@@ -84,6 +84,7 @@ class NERRE_Dataset(Dataset):
 
         # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
         ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
+        print(f"Item {idx} - Input_ids shape: {input_ids.shape}, Attention_mask shape: {attention_mask.shape}, NER_label_ids shape: {ner_label_ids.shape}")
 
         # Assign the indices of the subject and object tokens using the re_item values
         subject_start_idx = re_item['subject_start_idx']
@@ -140,6 +141,7 @@ def custom_collate_fn(batch, max_length):
         ner_labels = pad_sequence([item['ner_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for ner_labels
         re_labels = pad_sequence([item['re_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for re_labels
         re_data = [item['re_data'] for item in valid_batch]  # Add re_data to the collated batch
+        print(f"Collated Batch - Padded Input_ids shape: {input_ids.shape}, Padded Attention_mask shape: {attention_mask.shape}, Padded NER_labels shape: {ner_labels.shape}")
 
         
     except RuntimeError:
@@ -299,6 +301,7 @@ for epoch in range(num_epochs):
     progress_bar = tqdm(dataloader, desc=f"Epoch {epoch + 1}/{num_epochs}")
 
     for step, batch in enumerate(progress_bar):
+        
         try:
             model.train()
 
