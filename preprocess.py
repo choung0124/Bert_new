@@ -1,9 +1,9 @@
 import json
 import pickle
-from DistiliBERT_train import preprocess_data
 from transformers import DistilBertTokenizerFast
 import os
-
+from nltk import sent_tokenize
+import itertools
 # Load the input data from a JSON file
 with open("input_data.json", "r") as f:
     json_data_list = json.load(f)
@@ -16,6 +16,98 @@ preprocessed_ner_data = []
 preprocessed_re_data = []
 
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
+
+# Existing preprocessing functions
+def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
+    ner_data = []
+    re_data = []
+
+    entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
+    entity_ids = set(entities_dict.keys())
+
+    relation_dict = {}
+    for relation in json_data["relation_info"]:
+        subject_id = relation["subjectID"]
+        obj_id = relation["objectId"]
+        if subject_id not in relation_dict:
+            relation_dict[subject_id] = {}
+        relation_dict[subject_id][obj_id] = relation["rel_name"]
+
+    text = json_data["text"]
+
+    # Load spaCy's small English model for sentence tokenization
+    tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-cased')
+
+    # Split the text into sentences
+    sentences = sent_tokenize(text)
+    # Find sentence boundaries
+    sentence_boundaries = [0]
+    for sentence in sentences[:-1]:
+        sentence_boundaries.append(sentence_boundaries[-1] + len(sentence) + 1)
+
+    # Filter sentences containing entities
+    relevant_sentences = []
+    for i, (sentence, boundary) in enumerate(zip(sentences, sentence_boundaries)):
+        if any(boundary <= entity["span"]["begin"] < boundary + len(sentence) for entity in json_data["entities"]):
+            relevant_sentences.append((sentence, i, boundary))
+
+    # Process entities
+    for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
+        begin, end = entity["span"]["begin"], entity["span"]["end"]
+        entity_type = entity["entityType"]
+        entity_id = entity["entityId"]
+        entity_name = entity["entityName"]
+
+        # Find the relevant sentence index containing the entity
+        sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin)
+
+        # Tokenize the relevant sentence
+        sentence_tokens = tokenizer.tokenize(relevant_sentences[sentence_idx][0])
+        # Find the token index of the entity
+        entity_start_idx = next(i for i, token in enumerate(sentence_tokens) if token.idx == begin - boundary)
+        entity_end_idx = next((i for i, token in enumerate(sentence_tokens) if token.idx == end - boundary), None)
+        entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
+
+        # Annotate the tokens with the entity label
+        for i, token in enumerate(sentence_tokens):
+            if i == entity_start_idx:
+                label = f"B-{entity_type}-{entity_name}"
+            elif (entity_start_idx is not None and entity_end_idx is not None) and (entity_start_idx < i <= entity_end_idx):
+                label = f"I-{entity_type}-{entity_name}"
+            else:
+                label = "O"
+
+            if label not in label_to_id:
+                label_to_id[label] = len(label_to_id)
+
+            ner_data.append((token.text, label, len(ner_data)))
+
+        if f"{entity_type}-{entity_name}" not in label_to_id:
+            label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
+
+    # Process relations
+    for entity_id_1, entity_id_2 in itertools.combinations(entity_ids, 2):
+        if entity_id_1 in relation_dict and entity_id_2 in relation_dict[entity_id_1]:
+            rel_name = relation_dict[entity_id_1][entity_id_2]
+            entity_1 = entities_dict[entity_id_1]
+            entity_2 = entities_dict[entity_id_2]
+
+            # Find the relevant sentence index containing the entities
+            sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= entity_1["span"]["begin"])
+
+            re_data.append({
+                'id': (entity_id_1, entity_id_2),
+                'subject': relevant_sentences[sentence_idx][0][entity_1["span"]["begin"] - boundary:entity_1["span"]["end"] - boundary],
+                'object': relevant_sentences[sentence_idx][0][entity_2["span"]["begin"] - boundary:entity_2["span"]["end"] - boundary],
+                'relation': rel_name,
+                'subject_tokens': tokenizer.tokenize(relevant_sentences[sentence_idx][0][entity_1["span"]["begin"] - boundary:entity_1["span"]["end"] - boundary]),
+                'object_tokens': tokenizer.tokenize(relevant_sentences[sentence_idx][0][entity_2["span"]["begin"] - boundary:entity_2["span"]["end"] - boundary])
+            })
+
+            if rel_name not in relation_to_id:
+                relation_to_id[rel_name] = len(relation_to_id)
+
+    return ner_data, re_data, label_to_id, relation_to_id
 
 # Iterate through all JSON files in the directory
 def validate_json(json_data):
