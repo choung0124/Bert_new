@@ -423,9 +423,9 @@ for epoch in range(num_epochs):
                 # Update progress bar
                 progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
 
-            except Exception as e:
-                print(f"Skipping batch due to error: {e}")
-                continue
+        except Exception as e:
+            print(f"Skipping batch due to error: {e}")
+            continue
 
 
 # Save the fine-tuned custom BERT model and tokenizer
