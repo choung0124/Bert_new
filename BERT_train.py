@@ -159,14 +159,6 @@ class NERRE_Dataset(Dataset):
             're_indices': torch.tensor(list(zip(subject_indices, object_indices)), dtype=torch.long) if subject_indices is not None and object_indices is not None else None
         }
 
-
-def pad_relation_data(data, max_relations, padding_value=-1):
-    print(f"data: {data}, shape: {data.shape}")
-    padding_tensor = torch.full((max_relations - len(data),), padding_value, dtype=torch.long)
-    print(f"padding_tensor: {padding_tensor}, shape: {padding_tensor.shape}")
-    padded_data = torch.cat([data, padding_tensor], dim=0)
-    return padded_data
-
 def pad_relation_indices(re_indices_list, max_relations, padding_value=-1):
     padded_re_indices = []
     for re_indices in re_indices_list:
