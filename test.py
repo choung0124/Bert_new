@@ -21,7 +21,7 @@ num_ner_labels = len(label_to_id)
 num_re_labels = len(relation_to_id)
 model = DistilBertForNERAndRE(config, num_ner_labels, num_re_labels)
 
-model_path = "models/combined"  # Replace with the path to your trained model
+model_path = "models/combined/pytorch_model.bin"  # Replace with the path to your trained model
 model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
 model.eval()
 
