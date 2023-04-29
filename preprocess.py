@@ -112,15 +112,15 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
                 entity_end_idx = entity_start_idx + len(entity_tokens) - 1
             else:
                 raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
-
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
             if i == entity_start_idx:
-                label = f"B-{entity_type}-{entity_name}"
+                label = f"B-{entity['entityType']}-{entity['entityName']}"
             elif (entity_start_idx is not None and entity_end_idx is not None) and (entity_start_idx < i <= entity_end_idx):
-                label = f"I-{entity_type}-{entity_name}"
+                label = f"I-{entity['entityType']}-{entity['entityName']}"
             else:
                 label = "O"
+
 
             if label not in label_to_id:
                 label_to_id[label] = len(label_to_id)
