@@ -77,7 +77,7 @@ class NERRE_Dataset(Dataset):
         attention_mask = inputs['attention_mask'].squeeze()
 
         re_item = self.re_data[idx]
-        re_labels = [self.relation_to_id[relation] for relation in re_item['relation']]
+        re_labels = self.relation_to_id[re_item['rel_name']]
         return {
             'input_ids': input_ids,
             'attention_mask': attention_mask,
