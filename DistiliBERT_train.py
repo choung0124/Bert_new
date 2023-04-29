@@ -135,12 +135,6 @@ def custom_collate_fn(batch):
         "re_data": [item['re_data'] for item in batch],
     }
 
-# Usage
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
-
-
-
-
 max_length = 128
 if device.type == "cuda":
     num_workers = 2
