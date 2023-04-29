@@ -77,7 +77,7 @@ def preprocess_data(json_data):
         entity_text = json_data["text"][begin:end]
 
         # Find the relevant sentence index containing the entity
-        sentence_idx_boundary = next(((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin), (None, None))
+        sentence_idx_boundary = next(((i, boundary) for i, (sentence, _, boundary) in enumerate(relevant_sentences) if boundary <= begin < boundary + len(sentence)), (None, None))
         if sentence_idx_boundary[0] is not None:
             sentence_idx, boundary = sentence_idx_boundary
         else:
