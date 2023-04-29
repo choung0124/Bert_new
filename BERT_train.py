@@ -241,7 +241,7 @@ for file_name in os.listdir(json_directory):
             print(f"Error loading {json_path}: {e}")
             continue
 
-max_length = 64
+max_length = 128
 if device.type == "cuda":
     num_workers = 0
 else:
@@ -347,7 +347,7 @@ model = model.to(device)
 optimizer = AdamW(model.parameters(), lr=3e-5)
 num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
-accumulation_steps = 4  # Adjust this value based on the desired accumulation steps.
+accumulation_steps = 8  # Adjust this value based on the desired accumulation steps.
 accumulation_counter = 0
 # Define separate loss functions for NER and RE tasks
 ner_loss_fn = CrossEntropyLoss(ignore_index=-100)
