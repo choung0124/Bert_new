@@ -51,6 +51,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
     # Load spaCy's small English model for sentence tokenization
     nlp = spacy.load("en_core_web_sm", disable=["tagger", "parser", "ner", "lemmatizer", "attribute_ruler"])
+    nlp.add_pipe('sentencizer')
     doc = nlp(text)
 
     # Break the text into sentences
