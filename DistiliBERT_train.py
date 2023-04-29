@@ -58,6 +58,7 @@ class NERRE_Dataset(Dataset):
         self.max_length = max_length
         self.label_to_id = label_to_id
         self.relation_to_id = relation_to_id
+        self.ignore_label_index = max(self.label_to_id.values())  # Define ignore_label_index here
 
     def __len__(self):
         return len(self.ner_data)
@@ -74,9 +75,9 @@ class NERRE_Dataset(Dataset):
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
 
-        ignore_label_index = max(self.label_to_id.values())
-        ner_label_ids = torch.full_like(input_ids, ignore_label_index, dtype=torch.long)
 
+        # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
+        ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
 
         # Assign appropriate labels for the subject and object tokens
         # You may need to adjust this part if your label assignment logic is different
@@ -178,7 +179,7 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
 
         if ner_labels is not None:
             
-            loss_fct = nn.CrossEntropyLoss(ignore_index=ignore_label_index)
+            loss_fct = nn.CrossEntropyLoss(ignore_index=dataset.ignore_label_index)
             print("Attention mask shape:", attention_mask.shape)
             print("NER logits shape:", ner_logits.shape)
             print("NER labels shape:", ner_labels.shape)
