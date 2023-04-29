@@ -204,10 +204,12 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             ner_loss = None
 
         if re_data is not None and len(re_data) > 0:
+            print(f"re_data: {re_data}")
             re_logits = []
             for b, batch_re_data in enumerate(re_data):
                 batch_re_logits = []
                 for rel in batch_re_data:
+                    print(f"rel: {rel}")
                     subject_start_idx = rel["subject_start_idx"]
                     subject_end_idx = rel["subject_end_idx"]
                     object_start_idx = rel["object_start_idx"]
