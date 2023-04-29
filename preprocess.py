@@ -19,8 +19,10 @@ preprocessed_re_data = []
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
 def preprocess_data(json_data):
-    text = json_data["text"]
-    entities = json_data["entities"]
+    text = data["text"]
+
+    # Find entities in the full text
+    entities = data["entities"]
     entity_map = {}
 
     for entity in entities:
@@ -29,22 +31,15 @@ def preprocess_data(json_data):
             "text": entity_text,
             "start": entity["span"]["begin"],
             "end": entity["span"]["end"],
-            "type": entity["entityType"],
-            "name": entity["entityName"]
         }
 
-    relations = json_data["relation_info"]
-    ner_data = []
-    re_data = []
+    # Find relations in the full text
+    relations = data["relation_info"]
 
     for relation in relations:
         subject_id = relation["subjectID"]
         object_id = relation["objectId"]
         rel_name = relation["rel_name"]
-
-        if subject_id not in entity_map or object_id not in entity_map:
-            print(f"Error: Entity IDs {subject_id} or {object_id} not found in the entity_map.")
-            continue
 
         subject = entity_map[subject_id]["text"]
         subject_start = entity_map[subject_id]["start"]
@@ -65,6 +60,9 @@ def preprocess_data(json_data):
 
         # Find the entity token indices using the token offsets
         subject_start_idx, subject_end_idx, object_start_idx, object_end_idx = None, None, None, None
+        subject_tokens = tokenizer.tokenize(subject)
+        object_tokens = tokenizer.tokenize(obj)
+
         for i, (token_start, token_end) in enumerate(sentence_token_offsets):
             if token_start == subject_start - sentence_start:
                 subject_start_idx = i
@@ -74,6 +72,21 @@ def preprocess_data(json_data):
                 object_start_idx = i
             if token_end == object_end - sentence_start:
                 object_end_idx = i
+
+        # Handle cases when token indices are not found
+        if subject_start_idx is None or subject_end_idx is None:
+            subject_start_idx, subject_end_idx = -1, -1
+            for i, token in enumerate(sentence_tokens):
+                if subject_tokens == sentence_tokens[i:i+len(subject_tokens)]:
+                    subject_start_idx, subject_end_idx = i, i + len(subject_tokens) - 1
+                    break
+
+        if object_start_idx is None or object_end_idx is None:
+            object_start_idx, object_end_idx = -1, -1
+            for i, token in enumerate(sentence_tokens):
+                if object_tokens == sentence_tokens[i:i+len(object_tokens)]:
+                    object_start_idx, object_end_idx = i, i + len(object_tokens) - 1
+                    break
 
         print(f"Subject: {subject}, Object: {obj}, Relation: {rel_name}")
         print(f"Sentence: {sentence_text}")
