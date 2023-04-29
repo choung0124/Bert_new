@@ -14,7 +14,7 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
+tokenizer = BertTokenizerFast.from_pretrained("bert-mini-uncased")
 device = torch.device("cpu")
 batch_size = 8
 num_epochs = 4
@@ -332,8 +332,8 @@ class BertForNERAndRE(BertPreTrainedModel):
         return {'ner_logits': ner_logits, 're_logits': re_logits, 'ner_loss': ner_loss}
 
 # Set up the configuration, model, and tokenizer
-config = BertConfig.from_pretrained("bert-base-uncased")
-tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
+config = BertConfig.from_pretrained("bert-mini-uncased")
+tokenizer = BertTokenizerFast.from_pretrained("bert-mini-uncased")
 
 # Initialize the model with the given configuration
 num_ner_labels = len(label_to_id)
@@ -344,10 +344,10 @@ model = model.to(device)
     #model = nn.DataParallel(model)
 
 # Prepare the optimizer and learning rate scheduler
-optimizer = AdamW(model.parameters(), lr=3e-5)
+optimizer = AdamW(model.parameters(), lr=learning_rate)
 num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
-accumulation_steps = 8  # Adjust this value based on the desired accumulation steps.
+accumulation_steps = 16  # Adjust this value based on the desired accumulation steps.
 accumulation_counter = 0
 # Define separate loss functions for NER and RE tasks
 ner_loss_fn = CrossEntropyLoss(ignore_index=-100)
