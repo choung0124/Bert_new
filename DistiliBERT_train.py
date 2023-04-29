@@ -143,7 +143,6 @@ def custom_collate_fn(batch, max_length):
         re_data = [item['re_data'] for item in valid_batch]  # Add re_data to the collated batch
         print(f"Collated Batch - Padded Input_ids shape: {input_ids.shape}, Padded Attention_mask shape: {attention_mask.shape}, Padded NER_labels shape: {ner_labels.shape}")
 
-        
     except RuntimeError:
         print("Skipping problematic data during padding")
         return None
@@ -155,8 +154,6 @@ def custom_collate_fn(batch, max_length):
         're_labels': re_labels,
         're_data': re_data
     }
-
-
 
 
 
