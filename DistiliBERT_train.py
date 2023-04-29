@@ -246,7 +246,7 @@ for file_name in os.listdir(json_directory):
 
 max_length = 32
 if device.type == "cuda":
-    num_workers = 6
+    num_workers = 2
 else:
     num_workers = 6
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
