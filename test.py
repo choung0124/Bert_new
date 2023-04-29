@@ -3,7 +3,7 @@ import logging
 import pickle
 import os
 from transformers import DistilBertConfig, DistilBertTokenizerFast
-from model import DistilBertForNERAndRE  # Assuming the model is defined in a separate file called 'model.py'
+from DistiliBERT_train import DistilBertForNERAndRE  # Assuming the model is defined in a separate file called 'model.py'
 
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
