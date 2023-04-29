@@ -17,7 +17,7 @@ os.environ['MASTER_ADDR'] = '192.168.100.60'
 os.environ['MASTER_PORT'] = str(get_unused_port())
 os.environ['RANK'] = '0'
 os.environ['WORLD_SIZE'] = '2'
-os.environ['LOCAL_RANK'] = str(local_rank)
+os.environ['LOCAL_RANK'] = '0'
 
 # Rest of the script remains the same
 
