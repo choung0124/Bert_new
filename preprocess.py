@@ -46,13 +46,6 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
         object_id = relation["objectId"]
         rel_name = relation["rel_name"]
         
-        if subject not in label_to_id:
-            label_to_id[subject] = len(label_to_id)
-        if obj not in label_to_id:
-            label_to_id[obj] = len(label_to_id)
-        if rel_name not in relation_to_id:
-            relation_to_id[rel_name] = len(relation_to_id)
-        
         if subject_id not in entity_map or object_id not in entity_map:
             print(f"Error: Entity IDs {subject_id} or {object_id} not found in the entity_map.")
             continue
@@ -64,6 +57,13 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
         obj = entity_map[object_id]["text"]
         object_start = entity_map[object_id]["start"]
         object_end = entity_map[object_id]["end"]
+        
+        if subject not in label_to_id:
+            label_to_id[subject] = len(label_to_id)
+        if obj not in label_to_id:
+            label_to_id[obj] = len(label_to_id)
+        if rel_name not in relation_to_id:
+            relation_to_id[rel_name] = len(relation_to_id)
 
         # Find sentence containing the relation
         sentence_start = text.rfind(".", 0, subject_start) + 1
