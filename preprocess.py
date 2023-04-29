@@ -72,7 +72,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_token_offsets = tokenizer(sentence, return_offsets_mapping=True).offset_mapping
         
         print(f"sentence_token_offsets: {sentence_token_offsets}")
-        print(f"boundary: {sentence_end - sentence_start}")
+        print(f"boundary: {boundary}")
 
         for entity, token_span in zip(sentence["entities"], token_spans):
             entity_type = entity["entityType"]
@@ -84,7 +84,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             print(f"Sentence text: {sentence_text}")
             print(f"Entity span: ({entity['span']['begin'] - sentence_start}, {entity['span']['end'] - sentence_start})")
             print(f"sentence_token_offsets: {sentence_token_offsets}")
-            print(f"boundary: {sentence_end - sentence_start}")
+            print(f"boundary: {boundary}")
 
         # Find the token index of the entity
         try:
