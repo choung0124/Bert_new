@@ -45,7 +45,7 @@ with open("relation_to_id.pkl", "wb") as f:
 
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
+tokenizer = BertTokenizerFast.from_pretrained('distilbert-base-uncased')  # Use BertTokenizerFast instead of DistilBertTokenizer
 #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
 batch_size = 8
