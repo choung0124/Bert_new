@@ -19,114 +19,63 @@ preprocessed_re_data = []
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
 def preprocess_data(json_data):
-    # Check and fix misplaced "relation_info" field
-    if "relation_info" not in json_data and "relation_info" in json_data["entities"][-1]:
-        json_data["relation_info"] = json_data["entities"][-1]["relation_info"]
-        del json_data["entities"][-1]["relation_info"]
+    text = json_data["text"]
+    entities = json_data["entities"]
+    entity_map = {}
 
-    entity_dict = {}
-    relation_dict = {}
-    label_to_id = {}
-    relation_to_id = {}
-    
+    for entity in entities:
+        entity_text = text[entity["span"]["begin"]:entity["span"]["end"]]
+        entity_map[entity["entityId"]] = {
+            "text": entity_text,
+            "start": entity["span"]["begin"],
+            "end": entity["span"]["end"],
+            "type": entity["entityType"],
+            "name": entity["entityName"]
+        }
+
+    relations = json_data["relation_info"]
     ner_data = []
     re_data = []
 
-    # Extract entities
-    entities = json_data["entities"]
-    for entity in entities:
-        entity_id = entity["entityId"]
-        entity_dict[entity_id] = {
-            "name": entity["entityName"],
-            "type": entity["entityType"],
-            "span": entity["span"]
-        }
+    for relation in relations:
+        subject_id = relation["subjectID"]
+        object_id = relation["objectId"]
+        rel_name = relation["rel_name"]
 
-    # Get entities from full text
-    text = json_data["text"]
-    entity_spans = [entity["span"] for entity in entities]
-    entity_texts = [text[span["begin"]:span["end"]] for span in entity_spans]
+        subject = entity_map[subject_id]["text"]
+        subject_start = entity_map[subject_id]["start"]
+        subject_end = entity_map[subject_id]["end"]
 
-    # Split the text into sentences
-    sentences = sent_tokenize(text)
+        obj = entity_map[object_id]["text"]
+        object_start = entity_map[object_id]["start"]
+        object_end = entity_map[object_id]["end"]
 
-    # Filter sentences containing entities
-    relevant_sentences = []
-    for sentence in sentences:
-        if any(entity_text in sentence for entity_text in entity_texts):
-            relevant_sentences.append(sentence)
+        # Find sentence containing the relation
+        sentence_start = text.rfind(".", 0, subject_start) + 1
+        sentence_end = text.find(".", object_end) + 1
+        sentence_text = text[sentence_start:sentence_end].strip()
 
-    # Process entities
-    entity_positions = {}
-    for entity_id, entity in entity_dict.items():
-        entity_text = text[entity["span"]["begin"]:entity["span"]["end"]]
+        # Tokenize the sentence
+        sentence_tokens = tokenizer.tokenize(sentence_text)
+        sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
 
-        # Find the relevant sentence index containing the entity
-        sentence_idx = next((i for i, sentence in enumerate(relevant_sentences) if entity_text in sentence), None)
-        if sentence_idx is not None:
-            sentence_text = relevant_sentences[sentence_idx]
-            sentence_tokens = tokenizer.tokenize(sentence_text)
-            sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
+        # Find the entity token indices using the token offsets
+        subject_start_idx, subject_end_idx, object_start_idx, object_end_idx = None, None, None, None
+        for i, (token_start, token_end) in enumerate(sentence_token_offsets):
+            if token_start == subject_start - sentence_start:
+                subject_start_idx = i
+            if token_end == subject_end - sentence_start:
+                subject_end_idx = i
+            if token_start == object_start - sentence_start:
+                object_start_idx = i
+            if token_end == object_end - sentence_start:
+                object_end_idx = i
 
-            # Find the entity token indices using the token offsets
-            entity_start_idx, entity_end_idx = None, None
-            for i, (token_start, token_end) in enumerate(sentence_token_offsets):
-                if token_start == entity["span"]["begin"]:
-                    entity_start_idx = i
-                if token_end == entity["span"]["end"]:
-                    entity_end_idx = i
-                    break
-
-            if entity_start_idx is None or entity_end_idx is None:
-                print(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
-                continue
-
-            entity_positions[entity_id] = (sentence_idx, entity_start_idx, entity_end_idx)
-
-        # Annotate the tokens with the entity label
-            for i, token in enumerate(sentence_tokens):
-                if i == entity_start_idx:
-                    label = f"B-{entity['type']}-{entity['name']}"
-                elif (entity_start_idx is not None and entity_end_idx is not None) and (entity_start_idx < i <= entity_end_idx):
-                    label = f"I-{entity['type']}-{entity['name']}"
-                else:
-                    label = "O"
-
-                if label not in label_to_id:
-                    label_to_id[label] = len(label_to_id)
-                ner_data.append((token, label_to_id[label]))
-
-    # Process relations
-    if "relation_info" in json_data:
-        relations = json_data["relation_info"]
-        for relation in relations:
-            relation_id = relation["relationId"]
-            relation_type = relation["relationType"]
-            if relation_type not in relation_to_id:
-                relation_to_id[relation_type] = len(relation_to_id)
-            relation_dict[relation_id] = {
-                "type": relation_type,
-                "entity_pair": relation["entityPair"]
-            }
-
-            # Get sentence, start, and end indices for both entities
-            entity1_id, entity2_id = relation["entityPair"]
-            entity1_pos = entity_positions.get(entity1_id)
-            entity2_pos = entity_positions.get(entity2_id)
-
-            if entity1_pos is None or entity2_pos is None:
-                continue
-
-            # Check if entities are in the same sentence
-            if entity1_pos[0] == entity2_pos[0]:
-                sentence_idx = entity1_pos[0]
-                sentence = relevant_sentences[sentence_idx]
-                re_data.append({
-                    "tokens": tokenizer.tokenize(sentence),
-                    "relation_type": relation_to_id[relation_type],
-                    "entity1_pos": (entity1_pos[1], entity1_pos[2]),
-                    "entity2_pos": (entity2_pos[1], entity2_pos[2])
-                })
+        print(f"Subject: {subject}, Object: {obj}, Relation: {rel_name}")
+        print(f"Sentence: {sentence_text}")
+        print(f"Tokenized sentence: {sentence_tokens}")
+        print(f"Subject token indices: {subject_start_idx}-{subject_end_idx}")
+        print(f"Object token indices: {object_start_idx}-{object_end_idx}\n")
 
     return ner_data, re_data
 
