@@ -12,7 +12,9 @@ import torch.nn as nn
 import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
+from accelerate import Accelerator
 
+accelerator = Accelerator(gradient_accumulation_steps=4)  # Adjust this value based on the desired accumulation steps.
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 device = torch.device("cpu")
 batch_size = 8
@@ -246,7 +248,7 @@ if device.type == "cuda":
 else:
     num_workers = 0
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers)
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
 
 # Print the first 5 batches from the DataLoader
 for i, batch in enumerate(dataloader):
@@ -346,7 +348,8 @@ model = model.to(device)
 optimizer = AdamW(model.parameters(), lr=3e-5)
 num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
-
+accumulation_steps = 4  # Adjust this value based on the desired accumulation steps.
+accumulation_counter = 0
 # Define separate loss functions for NER and RE tasks
 ner_loss_fn = CrossEntropyLoss(ignore_index=-100)
 re_loss_fn = CrossEntropyLoss(ignore_index=-1)
@@ -400,11 +403,17 @@ for epoch in range(num_epochs):
             loss_weight = 0.5  # Adjust this value based on the importance of each task
             total_loss = loss_weight * ner_loss + (1 - loss_weight) * re_loss
 
-            # Perform optimization
-            optimizer.zero_grad()
+            # Backward pass
             total_loss.backward()
-            optimizer.step()
-            scheduler.step()
+
+            # Update counter
+            accumulation_counter += 1
+
+            # Perform optimization step and zero gradients if counter has reached accumulation steps
+            if accumulation_counter % accumulation_steps == 0:
+                optimizer.step()
+                scheduler.step()
+                optimizer.zero_grad()
 
             # Update progress bar
             progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
@@ -412,6 +421,7 @@ for epoch in range(num_epochs):
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
+
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
