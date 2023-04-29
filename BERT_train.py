@@ -242,7 +242,7 @@ for file_name in os.listdir(json_directory):
             print(f"Error loading {json_path}: {e}")
             continue
 
-max_length = 128
+max_length = 64
 if device.type == "cuda":
     num_workers = 8
 else:
