@@ -55,49 +55,63 @@ batch_size = 8
 num_epochs = 4
 learning_rate = 5e-5
 
-def __getitem__(self, idx):
-    re_item = self.re_data[idx]
-    tokens = re_item["sentence_tokens"]
-    print(f"Item {idx} - Tokens: {tokens}")
+class NERRE_Dataset(Dataset):
+    def __init__(self, ner_data, re_data, tokenizer, max_length, label_to_id, relation_to_id):
+        self.ner_data = ner_data
+        self.re_data = re_data
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.label_to_id = label_to_id
+        self.relation_to_id = relation_to_id
+        self.ignore_label_index = max(self.label_to_id.values())  # Define ignore_label_index here
 
-    if not tokens:
-        # You can either return a default value or skip this item
-        # Here's an example of returning a default value:
-        tokens = ["[UNK]"]
+    def __len__(self):
+        return len(self.ner_data)
 
-    inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
-    #print(f"Tokenized output: {inputs}")
-    input_ids = inputs['input_ids'].squeeze()
-    attention_mask = inputs['attention_mask'].squeeze()
-    offsets = inputs['offset_mapping'].squeeze()
 
-    # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
-    ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
-    #print(f"Item {idx} - Input_ids shape: {input_ids.shape}, Attention_mask shape: {attention_mask.shape}, NER_label_ids shape: {ner_label_ids.shape}")
+    def __getitem__(self, idx):
+        re_item = self.re_data[idx]
+        tokens = re_item["sentence_tokens"]
+        print(f"Item {idx} - Tokens: {tokens}")
 
-    # Assign the indices of the subject and object tokens using the re_item values
-    subject_start_idx = re_item['subject_start_idx']
-    subject_end_idx = re_item['subject_end_idx']
-    object_start_idx = re_item['object_start_idx']
-    object_end_idx = re_item['object_end_idx']
+        if not tokens:
+            # You can either return a default value or skip this item
+            # Here's an example of returning a default value:
+            tokens = ["[UNK]"]
 
-    # Get the actual subject and object texts from the re_data
-    subject_text = re_item['subject_text']
-    object_text = re_item['object_text']
+        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
+        #print(f"Tokenized output: {inputs}")
+        input_ids = inputs['input_ids'].squeeze()
+        attention_mask = inputs['attention_mask'].squeeze()
+        offsets = inputs['offset_mapping'].squeeze()
 
-    # Assign appropriate labels for the subject and object tokens
-    ner_label_ids[subject_start_idx:subject_end_idx+1] = self.label_to_id[subject_text]
-    ner_label_ids[object_start_idx:object_end_idx+1] = self.label_to_id[object_text]
+        # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
+        ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
+        #print(f"Item {idx} - Input_ids shape: {input_ids.shape}, Attention_mask shape: {attention_mask.shape}, NER_label_ids shape: {ner_label_ids.shape}")
 
-    re_labels = [self.relation_to_id[re_item['rel_name']]]
+        # Assign the indices of the subject and object tokens using the re_item values
+        subject_start_idx = re_item['subject_start_idx']
+        subject_end_idx = re_item['subject_end_idx']
+        object_start_idx = re_item['object_start_idx']
+        object_end_idx = re_item['object_end_idx']
 
-    return {
-        'input_ids': input_ids,
-        'attention_mask': attention_mask,
-        'ner_labels': ner_label_ids,
-        're_labels': torch.tensor(re_labels, dtype=torch.long),
-        're_data': re_item
-    }
+        # Get the actual subject and object texts from the re_data
+        subject_text = re_item['subject_text']
+        object_text = re_item['object_text']
+
+        # Assign appropriate labels for the subject and object tokens
+        ner_label_ids[subject_start_idx:subject_end_idx+1] = self.label_to_id[subject_text]
+        ner_label_ids[object_start_idx:object_end_idx+1] = self.label_to_id[object_text]
+
+        re_labels = [self.relation_to_id[re_item['rel_name']]]
+
+        return {
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'ner_labels': ner_label_ids,
+            're_labels': torch.tensor(re_labels, dtype=torch.long),
+            're_data': re_item
+        }
 
 
 
