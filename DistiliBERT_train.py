@@ -84,7 +84,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
         # Find the token index of the entity
         entity_start_idx = next(i for i, token in enumerate(sentence_tokens) if token.idx == begin - boundary)
-        entity_end_idx = next((i for i, token in enumerate(sentence_tokens) if token.idx == end - boundary), None) - 1
+        entity_end_idx = next((i for i, token in enumerate(sentence_tokens) if token.idx == end - boundary), None)
+        entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
 
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
