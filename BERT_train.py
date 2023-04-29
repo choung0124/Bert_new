@@ -177,7 +177,7 @@ def custom_collate_fn(batch):
     # Pad input_ids, attention_mask, and token_type_ids
     input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
     attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
-    #token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
+    token_type_ids = pad_sequence([item['token_type_ids'] for item in batch], batch_first=True)
 
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
