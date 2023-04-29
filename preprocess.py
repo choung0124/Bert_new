@@ -73,7 +73,12 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         entity_name = entity["entityName"]
 
         # Find the relevant sentence index containing the entity
-        sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin)
+        sentence_idx_boundary = next(((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin), (None, None))
+        if sentence_idx_boundary[0] is not None:
+            sentence_idx, boundary = sentence_idx_boundary
+        else:
+            continue  # Skip the current entity if no relevant sentence is found
+
 
         # Tokenize the relevant sentence
         sentence_text = relevant_sentences[sentence_idx][0]
@@ -94,8 +99,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
                 entity_end_idx = entity_start_idx + len(entity_tokens) - 1
             else:
                 raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
-
-
 
 
         # Annotate the tokens with the entity label
