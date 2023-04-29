@@ -34,7 +34,7 @@ def main():
 
     # Replace the DataLoader with a DistributedSampler
     batch_size = 8  # Define the batch size
-    dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers)
+    dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=4)
 
     # Initialize the model
     model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
