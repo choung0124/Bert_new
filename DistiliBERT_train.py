@@ -135,17 +135,17 @@ def custom_collate_fn(batch, max_length):
     try:
         input_ids = pad_sequence([item['input_ids'] for item in valid_batch], batch_first=True, padding_value=0)
         attention_mask = pad_sequence([item['attention_mask'] for item in valid_batch], batch_first=True, padding_value=0)
+        ner_labels = pad_sequence([item['ner_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for ner_labels
     except RuntimeError:
         print("Skipping problematic data during padding")
         return None
-
-    ner_labels = torch.cat([item["ner_labels"].unsqueeze(0) for item in valid_batch], dim=0)
 
     return {
         'input_ids': input_ids,
         'attention_mask': attention_mask,
         'ner_labels': ner_labels,
     }
+
 
 
 
