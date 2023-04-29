@@ -20,7 +20,7 @@ from transformers import DistilBertTokenizerFast
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 
 
-def preprocess_data(json_data):
+def preprocess_data(json_data, label_to_id, relation_to_id):
     text = json_data["text"]
 
     # Find entities in the full text
@@ -45,6 +45,13 @@ def preprocess_data(json_data):
         subject_id = relation["subjectID"]
         object_id = relation["objectId"]
         rel_name = relation["rel_name"]
+        
+        if subject not in label_to_id:
+            label_to_id[subject] = len(label_to_id)
+        if obj not in label_to_id:
+            label_to_id[obj] = len(label_to_id)
+        if rel_name not in relation_to_id:
+            relation_to_id[rel_name] = len(relation_to_id)
         
         if subject_id not in entity_map or object_id not in entity_map:
             print(f"Error: Entity IDs {subject_id} or {object_id} not found in the entity_map.")
@@ -130,7 +137,7 @@ for file in os.listdir(json_directory):
     if file.endswith(".json"):
         with open(os.path.join(json_directory, file), "r") as json_file:
             json_data = json.load(json_file)
-            ner_data, re_data = preprocess_data(json_data)
+            ner_data, re_data = preprocess_data(json_data, label_to_id, relation_to_id)
             preprocessed_ner_data.extend(ner_data)
             preprocessed_re_data.extend(re_data)
 
@@ -140,5 +147,12 @@ with open("preprocessed_ner_data.pkl", "wb") as ner_file:
 
 with open("preprocessed_re_data.pkl", "wb") as re_file:
     pickle.dump(preprocessed_re_data, re_file)
+with open("label_to_id.pkl", "wb") as f:
+    pickle.dump(label_to_id, f)
+
+with open("relation_to_id.pkl", "wb") as f:
+    pickle.dump(relation_to_id, f)
+
+print("Preprocessing completed.")
 
 print("Preprocessing completed.")
