@@ -137,20 +137,21 @@ def custom_collate_fn(batch, max_length):
         if len(replacement_item['input_ids']) <= max_length:
             valid_batch.append(replacement_item)
 
-    try:
-        #for item in valid_batch:
-            #print(f"Item shapes - Input_ids: {item['input_ids'].shape}, Attention_mask: {item['attention_mask'].shape}, NER_labels: {item['ner_labels'].shape}")
+    # Print the lengths of the items in the batch before padding
+    print("Before padding:")
+    for item in valid_batch:
+        print(f"Item lengths - Input_ids: {len(item['input_ids'])}, Attention_mask: {len(item['attention_mask'])}, NER_labels: {len(item['ner_labels'])}")
 
-        input_ids = torch.stack([item['input_ids'] for item in valid_batch], dim=0)
-        attention_mask = torch.stack([item['attention_mask'] for item in valid_batch], dim=0)
-        ner_labels = torch.stack([item['ner_labels'] for item in valid_batch], dim=0)
-        re_labels = torch.stack([item['re_labels'] for item in valid_batch], dim=0)
-        re_data = [item['re_data'] for item in valid_batch] 
-    except RuntimeError:
-        print("Skipping problematic data during padding")
-        print(f"Problematic batch shapes: {[(item['input_ids'].shape, item['attention_mask'].shape, item['ner_labels'].shape) for item in batch]}")
-        return None
+    input_ids = torch.stack([item['input_ids'] for item in valid_batch], dim=0)
+    attention_mask = torch.stack([item['attention_mask'] for item in valid_batch], dim=0)
+    ner_labels = torch.stack([item['ner_labels'] for item in valid_batch], dim=0)
+    re_labels = torch.stack([item['re_labels'] for item in valid_batch], dim=0)
+    re_data = [item['re_data'] for item in valid_batch]
 
+    # Print the lengths of the items in the batch after padding
+    print("After padding:")
+    for item in valid_batch:
+        print(f"Item lengths - Input_ids: {len(item['input_ids'])}, Attention_mask: {len(item['attention_mask'])}, NER_labels: {len(item['ner_labels'])}")
 
     return {
         'input_ids': input_ids,
