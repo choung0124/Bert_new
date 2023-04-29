@@ -343,8 +343,9 @@ for epoch in range(num_epochs):
 
         except Exception as e:
             print(f"Error: {e}")
-            print("Current re_item:", batch["re_data"])
-            print("Types of elements in re_item:", {key: type(value) for key, value in batch["re_data"].items()})
+            print("Current re_data:", batch["re_data"])
+            for i, re_item in enumerate(batch["re_data"]):
+                print(f"Types of elements in re_item {i}:", {key: type(value) for key, value in re_item.items()})
             print("Skipping batch due to error.")
             continue
 
