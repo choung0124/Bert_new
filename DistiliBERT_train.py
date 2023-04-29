@@ -71,7 +71,7 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
         tokens = re_item["sentence_tokens"]
-        print(f"Input tokens: {tokens}") 
+        #print(f"Input tokens: {tokens}") 
         
         if not tokens:
         # You can either return a default value or skip this item
@@ -86,7 +86,7 @@ class NERRE_Dataset(Dataset):
 
         # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
         ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
-        print(f"Item {idx} - Input_ids shape: {input_ids.shape}, Attention_mask shape: {attention_mask.shape}, NER_label_ids shape: {ner_label_ids.shape}")
+        #print(f"Item {idx} - Input_ids shape: {input_ids.shape}, Attention_mask shape: {attention_mask.shape}, NER_label_ids shape: {ner_label_ids.shape}")
 
         # Assign the indices of the subject and object tokens using the re_item values
         subject_start_idx = re_item['subject_start_idx']
@@ -111,7 +111,6 @@ class NERRE_Dataset(Dataset):
             're_labels': torch.tensor(re_labels, dtype=torch.long),
             're_data': re_item
         }
-
 
 
 def custom_collate_fn(batch, max_length):
@@ -139,10 +138,10 @@ def custom_collate_fn(batch, max_length):
             valid_batch.append(replacement_item)
 
     try:
-        input_ids = pad_sequence([item['input_ids'] for item in valid_batch], batch_first=True, padding_value=0)
-        attention_mask = pad_sequence([item['attention_mask'] for item in valid_batch], batch_first=True, padding_value=0)
-        ner_labels = pad_sequence([item['ner_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for ner_labels
-        re_labels = pad_sequence([item['re_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for re_labels
+        input_ids = torch.stack([item['input_ids'] for item in valid_batch], dim=0)
+        attention_mask = torch.stack([item['attention_mask'] for item in valid_batch], dim=0)
+        ner_labels = torch.stack([item['ner_labels'] for item in valid_batch], dim=0)
+        re_labels = torch.stack([item['re_labels'] for item in valid_batch], dim=0)
         re_data = [item['re_data'] for item in valid_batch]  # Add re_data to the collated batch
         print(f"Collated Batch - Padded Input_ids shape: {input_ids.shape}, Padded Attention_mask shape: {attention_mask.shape}, Padded NER_labels shape: {ner_labels.shape}")
 
@@ -157,6 +156,7 @@ def custom_collate_fn(batch, max_length):
         're_labels': re_labels,
         're_data': re_data
     }
+
 
 
 
