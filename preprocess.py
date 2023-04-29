@@ -19,7 +19,7 @@ preprocessed_re_data = []
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
 def preprocess_data(json_data):
-    text = data["text"]
+    text = json_data["text"]
 
     # Find entities in the full text
     entities = data["entities"]
