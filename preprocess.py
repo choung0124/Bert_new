@@ -102,16 +102,14 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         entity_text = text[begin:end]
         entity_tokens = tokenizer.tokenize(entity_text)
 
-        for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
-            # ... (rest of the code remains unchanged)
+        # Find the first occurrence of the entity tokens in the sentence tokens
+        best_match = find_best_match(entity_text, sentence_text, sentence_tokens, sentence_token_offsets)
+        if best_match:
+            entity_start_idx, begin, end = best_match
+            entity_end_idx = entity_start_idx + len(entity_tokens) - 1
+        else:
+            raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
 
-            # Find the first occurrence of the entity tokens in the sentence tokens
-            best_match = find_best_match(entity_text, sentence_text, sentence_tokens, sentence_token_offsets)
-            if best_match:
-                entity_start_idx, begin, end = best_match
-                entity_end_idx = entity_start_idx + len(entity_tokens) - 1
-            else:
-                raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
             if i == entity_start_idx:
@@ -127,7 +125,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             ner_data.append((token, label, len(ner_data)))
 
         if f"{entity['entityType']}-{entity['entityName']}" not in label_to_id:
-            label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
+            label_to_id[f"{entity['entityType']}-{entity['entityName']}"] = len(label_to_id)
 
     # Process relations
     for relation in json_data["relation_info"]:
