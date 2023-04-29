@@ -268,7 +268,7 @@ class BertForNERAndRE(BertPreTrainedModel):
         self.num_ner_labels = num_ner_labels
         self.num_re_labels = num_re_labels
 
-        self.bert = DistilBertModel(config)
+        self.bert = BertModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         
         self.classifier = nn.Linear(config.hidden_size, self.num_ner_labels)
@@ -393,7 +393,6 @@ for epoch in range(num_epochs):
 
                 # Calculate NER loss
                 ner_loss = ner_loss_fn(ner_logits.view(-1, ner_logits.size(-1)), ner_labels.view(-1))
-
                 # Calculate RE loss
                 re_loss = 0
                 for b in range(re_logits.size(0)):
