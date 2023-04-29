@@ -71,7 +71,7 @@ class NERRE_Dataset(Dataset):
         print(f"Input tokens: {tokens}") 
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
-
+        print(f"Tokenized output: {inputs}")
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
         offsets = inputs['offset_mapping'].squeeze()
@@ -111,6 +111,8 @@ def custom_collate_fn(batch):
     # Pad input_ids, attention_mask, and token_type_ids
     input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True)
     attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True)
+    print("input_ids shape:", input_ids.shape)
+    print("attention_mask shape:", attention_mask.shape)
 
     # Pad ner_labels
     ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
@@ -174,6 +176,8 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         re_labels=None,
         re_data=None,
     ):
+        print("input_ids shape in forward:", input_ids.shape)
+        print("attention_mask shape in forward:", attention_mask.shape)
         outputs = self.distilbert(
             input_ids,
             attention_mask=attention_mask,
