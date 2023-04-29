@@ -14,6 +14,8 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
 import traceback
+import torch.nn.functional as F
+import random
 
 with open("preprocessed_ner_data.pkl", "rb") as f:
     preprocessed_ner_data = pickle.load(f)
@@ -111,11 +113,6 @@ class NERRE_Dataset(Dataset):
         }
 
 
-from torch.nn.functional import pad
-
-import torch
-from torch.nn.utils.rnn import pad_sequence
-import torch.nn.functional as F
 
 def custom_collate_fn(batch, max_length):
     valid_batch = []
@@ -134,6 +131,12 @@ def custom_collate_fn(batch, max_length):
     if not valid_batch:
         print("All items in the batch are problematic. Skipping the entire batch.")
         return None
+
+    # Ensure the valid_batch has the same size as the original batch size
+    while len(valid_batch) < len(batch):
+        replacement_item = random.choice(batch)
+        if len(replacement_item['input_ids']) <= max_length:
+            valid_batch.append(replacement_item)
 
     try:
         input_ids = pad_sequence([item['input_ids'] for item in valid_batch], batch_first=True, padding_value=0)
@@ -154,6 +157,7 @@ def custom_collate_fn(batch, max_length):
         're_labels': re_labels,
         're_data': re_data
     }
+
 
 
 
