@@ -12,10 +12,8 @@ import torch.nn as nn
 import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
-from accelerate import Accelerator
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-accelerator = Accelerator(gradient_accumulation_steps=4)  # Adjust this value based on the desired accumulation steps.
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 device = torch.device("cpu")
 batch_size = 8
