@@ -71,7 +71,7 @@ class NERRE_Dataset(Dataset):
 
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
-        print(f"Item {idx} - Type: {type(re_item)}, Contents: {re_item}")  # Add this line
+        #print(f"Item {idx} - Type: {type(re_item)}, Contents: {re_item}")  # Add this line
 
         required_keys = ["sentence_tokens", "subject_start_idx", "subject_end_idx", "object_start_idx", "object_end_idx", "rel_name", "subject_text", "object_text"]
 
@@ -292,7 +292,7 @@ for epoch in range(num_epochs):
     for step, batch in enumerate(progress_bar):
         
         try:
-            print("rel_data structure:", batch["re_data"])
+            #print("rel_data structure:", batch["re_data"])
             model.train()
 
             input_ids = batch['input_ids'].to(device)
@@ -347,7 +347,7 @@ for epoch in range(num_epochs):
 
         except Exception as e:
             print(f"Error: {e}")
-            print("Current re_data:", batch["re_data"])
+            #print("Current re_data:", batch["re_data"])
             for i, re_item in enumerate(batch["re_data"]):
                 print(f"Types of elements in re_item {i}:", {key: type(value) for key, value in re_item.items()})
             print("Skipping batch due to error.")
