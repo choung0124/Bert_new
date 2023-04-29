@@ -139,6 +139,9 @@ def custom_collate_fn(batch, max_length):
         attention_mask = pad_sequence([item['attention_mask'] for item in valid_batch], batch_first=True, padding_value=0)
         ner_labels = pad_sequence([item['ner_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for ner_labels
         re_labels = pad_sequence([item['re_labels'] for item in valid_batch], batch_first=True, padding_value=-1)  # Assuming -1 as padding value for re_labels
+        re_data = [item['re_data'] for item in valid_batch]  # Add re_data to the collated batch
+
+        
     except RuntimeError:
         print("Skipping problematic data during padding")
         return None
@@ -148,6 +151,7 @@ def custom_collate_fn(batch, max_length):
         'attention_mask': attention_mask,
         'ner_labels': ner_labels,
         're_labels': re_labels,
+        're_data': re_data
     }
 
 
