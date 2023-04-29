@@ -71,8 +71,13 @@ class NERRE_Dataset(Dataset):
 
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
-        tokens = re_item["sentence_tokens"]
-        #print(f"Item {idx} - Tokens: {tokens}")
+        required_keys = ["sentence_tokens", "subject_start_idx", "subject_end_idx", "object_start_idx", "object_end_idx", "rel_name", "subject_text", "object_text"]
+
+        if not all(key in re_item for key in required_keys):
+            print(f"Skipping item {idx} due to missing keys in re_item: {re_item}")
+            tokens = ["[UNK]"]  # Return a default value
+        else:
+            tokens = re_item["sentence_tokens"]
 
         if not tokens:
             # You can either return a default value or skip this item
