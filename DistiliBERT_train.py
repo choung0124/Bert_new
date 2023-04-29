@@ -110,16 +110,20 @@ class NERRE_Dataset(Dataset):
 
 from torch.nn.functional import pad
 
+import torch
+from torch.nn.utils.rnn import pad_sequence
+import torch.nn.functional as F
+
 def custom_collate_fn(batch, max_length):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
     # Pad input_ids, attention_mask, and ner_labels
-    input_ids = torch.stack([pad(item['input_ids'], (0, max_length - item['input_ids'].shape[0])) for item in batch])
-    attention_mask = torch.stack([pad(item['attention_mask'], (0, max_length - item['attention_mask'].shape[0])) for item in batch])
+    input_ids = torch.stack([F.pad(item['input_ids'], (0, max_length - item['input_ids'].shape[0])) for item in batch])
+    attention_mask = torch.stack([F.pad(item['attention_mask'], (0, max_length - item['attention_mask'].shape[0])) for item in batch])
 
     # Pad ner_labels
-    ner_labels = torch.stack([pad(item['ner_labels'], (0, max_length - item['ner_labels'].shape[0]), value=-100) for item in batch])
+    ner_labels = torch.stack([F.pad(item['ner_labels'], (0, max_length - item['ner_labels'].shape[0]), value=-100) for item in batch])
 
     # Pad re_labels
     re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
