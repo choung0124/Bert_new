@@ -13,6 +13,7 @@ import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
+import torch.distributed as dist
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
