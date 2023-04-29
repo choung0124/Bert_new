@@ -79,7 +79,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin)
 
         # Tokenize the relevant sentence
-        sentence_tokens = tokenizer.tokenize(relevant_sentences[sentence_idx][0])
+        sentence_doc = nlp(relevant_sentences[sentence_idx][0])
+        sentence_tokens = [token for token in sentence_doc]
 
         # Find the token index of the entity
         entity_start_idx = next(i for i, token in enumerate(sentence_tokens) if token.idx == begin - boundary)
