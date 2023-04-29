@@ -17,8 +17,8 @@ preprocessed_re_data = []
 
 from transformers import DistilBertTokenizerFast
 
-tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
-
+max_seq_length = 128
+tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased", max_length=max_seq_length, padding="max_length")
 
 def preprocess_data(json_data, label_to_id, relation_to_id):
     text = json_data["text"]
@@ -59,8 +59,10 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
         object_end = entity_map[object_id]["end"]
         
         if subject not in label_to_id:
+            label = subject[:max_label_length]
             label_to_id[subject] = len(label_to_id)
         if obj not in label_to_id:
+            label = obj[:max_label_length]
             label_to_id[obj] = len(label_to_id)
         if rel_name not in relation_to_id:
             relation_to_id[rel_name] = len(relation_to_id)
@@ -131,7 +133,7 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
         })
     return ner_data, re_data
 
-
+max_label_length = 10
 # Read JSON files
 for file in os.listdir(json_directory):
     if file.endswith(".json"):
