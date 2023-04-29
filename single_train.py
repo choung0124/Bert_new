@@ -28,10 +28,6 @@ def main():
     # Create the dataset
     dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length=128, label_to_id=label_to_id, relation_to_id=relation_to_id)
 
-    # Initialize the distributed environment
-    torch.cuda.set_device(local_rank)
-    dist.init_process_group(backend='gloo')
-
     # Set the device and rank for the current process
     device = torch.device("cuda", local_rank)
 
