@@ -119,7 +119,6 @@ def custom_collate_fn(batch):
 
     input_ids = [F.pad(item['input_ids'], (0, max_length - len(item['input_ids'])), "constant", 0) for item in batch]
     attention_mask = [F.pad(item['attention_mask'], (0, max_length - len(item['attention_mask'])), "constant", 0) for item in batch]
-    offset_mapping = [F.pad(item['offset_mapping'], (0, max_length - len(item['offset_mapping'])), "constant", 0) for item in batch]
 
     input_ids = torch.stack(input_ids)
     attention_mask = torch.stack(attention_mask)
