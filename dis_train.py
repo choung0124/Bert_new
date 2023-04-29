@@ -1,5 +1,6 @@
 import os
 import json
+import socket
 import torch
 import torch.distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
@@ -7,11 +8,19 @@ from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
 from BERT_train import train, BertForNERAndRE, config, num_ner_labels, num_re_labels, dataset, custom_collate_fn, num_workers, num_epochs, learning_rate, tokenizer, label_to_id, relation_to_id, NERRE_Dataset, preprocess_data, validate_json
 
+def get_unused_port():
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind(('', 0))
+        return s.getsockname()[1]
+
 os.environ['MASTER_ADDR'] = '192.168.100.60'
-os.environ['MASTER_PORT'] = '29500'
+os.environ['MASTER_PORT'] = str(get_unused_port())
 os.environ['RANK'] = '0'
 os.environ['WORLD_SIZE'] = '2'
-os.environ['LOCAL_RANK'] = str(local_rank)  # Add this line
+os.environ['LOCAL_RANK'] = str(local_rank)
+
+# Rest of the script remains the same
+
 
 # Load and preprocess data
 preprocessed_data = []
