@@ -14,11 +14,11 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
 
-os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+#os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
+#os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#device = torch.device('cpu')
+device = torch.device('cpu')
 batch_size = 1
 num_epochs = 4
 learning_rate = 5e-5
@@ -347,7 +347,7 @@ model = DistilBertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
 
 # Mixed precision training
-scaler = torch.cuda.amp.GradScaler()
+#scaler = torch.cuda.amp.GradScaler()
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=learning_rate)
@@ -410,24 +410,22 @@ for epoch in range(num_epochs):
                 loss_weight = 0.5  # Adjust this value based on the importance of each task
                 total_loss = loss_weight * ner_loss + (1 - loss_weight) * re_loss
 
-            scaler.scale(total_loss).backward()
+                # Update counter
+                accumulation_counter += 1
 
-            # Update counter
-            accumulation_counter += 1
+                # Perform optimization step and zero gradients if counter has reached accumulation steps
+                if accumulation_counter % accumulation_steps == 0:
+                    scaler.step(optimizer)
+                    scaler.update()
+                    scheduler.step()
+                    optimizer.zero_grad()
 
-            # Perform optimization step and zero gradients if counter has reached accumulation steps
-            if accumulation_counter % accumulation_steps == 0:
-                scaler.step(optimizer)
-                scaler.update()
-                scheduler.step()
-                optimizer.zero_grad()
+                # Update progress bar
+                progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
 
-            # Update progress bar
-            progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
-
-        except Exception as e:
-            print(f"Skipping batch due to error: {e}")
-            continue
+            except Exception as e:
+                print(f"Skipping batch due to error: {e}")
+                continue
 
 
 # Save the fine-tuned custom BERT model and tokenizer
