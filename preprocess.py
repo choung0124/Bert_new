@@ -35,6 +35,9 @@ def preprocess_data(json_data):
 
     # Find relations in the full text
     relations = json_data["relation_info"]
+    
+    ner_data = []
+    re_data = []
 
     for relation in relations:
         subject_id = relation["subjectID"]
