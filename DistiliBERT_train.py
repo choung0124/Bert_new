@@ -138,8 +138,8 @@ def custom_collate_fn(batch, max_length):
             valid_batch.append(replacement_item)
 
     try:
-        for item in valid_batch:
-            print(f"Item shapes - Input_ids: {item['input_ids'].shape}, Attention_mask: {item['attention_mask'].shape}, NER_labels: {item['ner_labels'].shape}")
+        #for item in valid_batch:
+            #print(f"Item shapes - Input_ids: {item['input_ids'].shape}, Attention_mask: {item['attention_mask'].shape}, NER_labels: {item['ner_labels'].shape}")
 
         input_ids = torch.stack([item['input_ids'] for item in valid_batch], dim=0)
         attention_mask = torch.stack([item['attention_mask'] for item in valid_batch], dim=0)
@@ -166,7 +166,7 @@ if device.type == "cuda":
     num_workers = 2
 else:
     num_workers = 6
-dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
+dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id, drop_last=False)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda b: custom_collate_fn(b, max_length), num_workers=num_workers, shuffle=True)
 
 # Print the first 5 batches from the DataLoader
