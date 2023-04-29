@@ -230,7 +230,8 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             for b, batch_re_data in enumerate(re_data):
                 batch_re_logits = []
                 for rel in batch_re_data:
-                    #print(f"rel: {rel}")
+                    print(f"Type of rel: {type(rel)}")
+                    print(f"Value of rel: {rel}")
                     subject_start_idx = rel["subject_start_idx"]
                     subject_end_idx = rel["subject_end_idx"]
                     object_start_idx = rel["object_start_idx"]
