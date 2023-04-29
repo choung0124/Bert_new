@@ -77,7 +77,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
         # Find the token index of the entity
         try:
-            entity_start_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if start == begin - boundary)
+            entity_start_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if abs(start - (entity["span"]["begin"] - boundary)) <= 1)
         except StopIteration:
             raise ValueError(f"Unable to find the start index of the entity with span ({begin}, {end}) in the sentence with boundary {boundary}")
 
