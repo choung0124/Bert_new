@@ -18,6 +18,11 @@ tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 
 # Existing preprocessing functions
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
+    # Check and fix misplaced "relation_info" field
+    if "relation_info" not in json_data and "relation_info" in json_data["entities"][-1]:
+        json_data["relation_info"] = json_data["entities"][-1]["relation_info"]
+        del json_data["entities"][-1]["relation_info"]
+
     ner_data = []
     re_data = []
 
