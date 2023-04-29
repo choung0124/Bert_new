@@ -67,15 +67,25 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin)
 
         # Tokenize the relevant sentence
+        print(f"sentence_idx: {sentence_idx}")
+        print(f"relevant_sentences: {relevant_sentences}")
+
         sentence = relevant_sentences[sentence_idx][0]
         sentence_tokens = tokenizer.tokenize(sentence)
         sentence_token_offsets = tokenizer(sentence, return_offsets_mapping=True).offset_mapping
 
         # Find the token index of the entity
-        entity_start_idx = next((i for i, (start, end) in enumerate(sentence_token_offsets) if start == begin - boundary), None)
-        entity_end_idx = next((i for i, (start, end) in enumerate(sentence_token_offsets) if end == end - boundary), None)
-        entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
+        try:
+            entity_start_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if start == begin - boundary)
+        except StopIteration:
+            raise ValueError(f"Unable to find the start index of the entity with span ({begin}, {end}) in the sentence with boundary {boundary}")
 
+        try:
+            entity_end_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if end == end - boundary)
+        except StopIteration:
+            raise ValueError(f"Unable to find the end index of the entity with span ({begin}, {end}) in the sentence with boundary {boundary}")
+
+        entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
 
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
