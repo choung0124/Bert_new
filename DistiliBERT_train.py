@@ -72,7 +72,7 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
         tokens = re_item["sentence_tokens"]
-        print(f"Item {idx} - Tokens: {tokens}")
+        #print(f"Item {idx} - Tokens: {tokens}")
 
         if not tokens:
             # You can either return a default value or skip this item
