@@ -110,12 +110,9 @@ class NERRE_Dataset(Dataset):
 
 from torch.nn.functional import pad
 
-def custom_collate_fn(batch):
+def custom_collate_fn(batch, max_length):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
-
-    # Find the maximum sequence length in the batch
-    max_length = max([item['input_ids'].shape[0] for item in batch])
 
     # Pad input_ids, attention_mask, and ner_labels
     input_ids = torch.stack([pad(item['input_ids'], (0, max_length - item['input_ids'].shape[0])) for item in batch])
@@ -143,7 +140,7 @@ if device.type == "cuda":
 else:
     num_workers = 6
 dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda b: custom_collate_fn(b, max_length), num_workers=num_workers, shuffle=True)
 
 # Print the first 5 batches from the DataLoader
 for i, batch in enumerate(dataloader):
