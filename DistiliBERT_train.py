@@ -13,7 +13,7 @@ import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
-import spacy
+from nltk import sent_tokenize
 
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -29,9 +29,6 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-import itertools
-import spacy
-
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     ner_data = []
     re_data = []
@@ -50,13 +47,10 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     text = json_data["text"]
 
     # Load spaCy's small English model for sentence tokenization
-    nlp = spacy.load("en_core_web_sm", disable=["tagger", "parser", "ner", "lemmatizer", "attribute_ruler"])
-    nlp.add_pipe('sentencizer')
-    doc = nlp(text)
+    tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-cased')
 
-    # Break the text into sentences
-    sentences = [sent.text for sent in doc.sents]
-
+    # Split the text into sentences
+    sentences = sent_tokenize(text)
     # Find sentence boundaries
     sentence_boundaries = [0]
     for sentence in sentences[:-1]:
@@ -80,7 +74,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
 
         # Tokenize the relevant sentence
         sentence_doc = nlp(relevant_sentences[sentence_idx][0])
-        sentence_tokens = [token for token in sentence_doc]
+        sentence_tokens = tokenizer.tokenize(relevant_sentences[sentence_idx][0])
 
         # Find the token index of the entity
         entity_start_idx = next(i for i, token in enumerate(sentence_tokens) if token.idx == begin - boundary)
