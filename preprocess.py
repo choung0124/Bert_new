@@ -1,6 +1,6 @@
 import json
 import pickle
-from transformers import BertTokenizer
+from transformers import BertTokenizerFast
 import os
 from nltk import sent_tokenize
 import itertools
@@ -15,7 +15,7 @@ json_directory = "test"
 preprocessed_ner_data = []
 preprocessed_re_data = []
 
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
 # Existing preprocessing functions
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
