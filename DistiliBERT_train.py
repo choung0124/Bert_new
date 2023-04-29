@@ -290,6 +290,7 @@ for epoch in range(num_epochs):
     for step, batch in enumerate(progress_bar):
         
         try:
+            print("rel_data structure:", batch["re_data"])
             model.train()
 
             input_ids = batch['input_ids'].to(device)
