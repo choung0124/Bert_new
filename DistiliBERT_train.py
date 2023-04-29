@@ -71,7 +71,7 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
         tokens = re_item["sentence_tokens"]
-        #print(f"Input tokens: {tokens}") 
+        print(f"Item {idx} - Tokens: {tokens}")
         
         if not tokens:
         # You can either return a default value or skip this item
@@ -129,6 +129,7 @@ def custom_collate_fn(batch, max_length):
 
     if not valid_batch:
         print("All items in the batch are problematic. Skipping the entire batch.")
+        print(f"Problematic batch: {batch}")
         return None
 
     # Ensure the valid_batch has the same size as the original batch size
@@ -147,6 +148,7 @@ def custom_collate_fn(batch, max_length):
 
     except RuntimeError:
         print("Skipping problematic data during padding")
+        print("f"problematic batch: {batch}")
         return None
 
     return {
