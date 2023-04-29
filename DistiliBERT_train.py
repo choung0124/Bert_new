@@ -238,8 +238,8 @@ for epoch in range(num_epochs):
         try:
             model.train()
 
-            input_ids = batch['input_ids'].view(-1, batch['input_ids'].size(-1)).to(device)
-            attention_mask = batch['attention_mask'].view(-1, batch['attention_mask'].size(-1)).to(device)
+            input_ids = batch['input_ids'].reshape(batch_size, -1).to(device)
+            attention_mask = batch['attention_mask'].reshape(batch_size, -1).to(device)
             ner_labels = batch['ner_labels'].view(-1).to(device)
             re_labels = batch['re_labels'].to(device)
             re_data = batch['re_data']
