@@ -150,8 +150,11 @@ for file_name in os.listdir(json_directory):
                 json_data = json.load(json_file)
 
             if validate_json(json_data):
-                preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
-                preprocessed_data.extend(preprocessed_file_data)
+                try:
+                    preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
+                    preprocessed_data.extend(preprocessed_file_data)
+                except ValueError as e:
+                    print(f"Error processing {json_path}: {e}")
             else:
                 print(f"Skipping {json_path} due to invalid JSON data")
         except json.JSONDecodeError as e:
