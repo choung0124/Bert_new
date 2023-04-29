@@ -12,10 +12,11 @@ import torch.nn as nn
 import itertools
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
+from torch.cuda.amp import autocast, GradScaler
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = BertTokenizerFast.from_pretrained("distilbert-base-uncased")
-device = torch.device("cuda")
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 batch_size = 4
 num_epochs = 4
 learning_rate = 5e-5
@@ -243,9 +244,9 @@ for file_name in os.listdir(json_directory):
 
 max_length = 128
 if device.type == "cuda":
-    num_workers = 0
+    num_workers = 8
 else:
-    num_workers = 6
+    num_workers = 8
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
 
@@ -349,6 +350,8 @@ num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
 accumulation_steps = 16  # Adjust this value based on the desired accumulation steps.
 accumulation_counter = 0
+scaler = GradScaler()
+
 # Define separate loss functions for NER and RE tasks
 ner_loss_fn = CrossEntropyLoss(ignore_index=-100)
 re_loss_fn = CrossEntropyLoss(ignore_index=-1)
@@ -372,45 +375,46 @@ for epoch in range(num_epochs):
             else:
                 re_indices = None
 
-            # Forward pass
-            outputs = model(
-                input_ids=input_ids,
-                attention_mask=attention_mask,
-                token_type_ids=token_type_ids,
-                ner_labels=ner_labels,
-                re_labels=re_labels,
-                re_indices=re_indices if re_indices is not None else None,
-            )
+            with autocast():
+                # Forward pass
+                outputs = model(
+                    input_ids=input_ids,
+                    attention_mask=attention_mask,
+                    token_type_ids=token_type_ids,
+                    ner_labels=ner_labels,
+                    re_labels=re_labels,
+                    re_indices=re_indices if re_indices is not None else None,
+                )
 
-            # Get NER and RE logits from model output
-            ner_logits = outputs["ner_logits"]
-            re_logits = outputs["re_logits"]
+                # Get NER and RE logits from model output
+                ner_logits = outputs["ner_logits"]
+                re_logits = outputs["re_logits"]
 
-            # Calculate NER loss
-            ner_loss = ner_loss_fn(ner_logits.view(-1, ner_logits.size(-1)), ner_labels.view(-1))
+                # Calculate NER loss
+                ner_loss = ner_loss_fn(ner_logits.view(-1, ner_logits.size(-1)), ner_labels.view(-1))
 
-            # Calculate RE loss
-            re_loss = 0
-            for b in range(re_logits.size(0)):
-                for s in range(re_logits.size(1)):
-                    re_loss += re_loss_fn(re_logits[b, s].view(-1, re_logits.size(-1)), re_labels[b, s].view(-1))
+                # Calculate RE loss
+                re_loss = 0
+                for b in range(re_logits.size(0)):
+                    for s in range(re_logits.size(1)):
+                        re_loss += re_loss_fn(re_logits[b, s].view(-1, re_logits.size(-1)), re_labels[b, s].view(-1))
 
-            # Normalize RE loss by the number of sentences
-            re_loss /= (re_logits.size(0) * re_logits.size(1))
+                # Normalize RE loss by the number of sentences
+                re_loss /= (re_logits.size(0) * re_logits.size(1))
 
-            # Combine NER and RE losses using a weighted sum
-            loss_weight = 0.5  # Adjust this value based on the importance of each task
-            total_loss = loss_weight * ner_loss + (1 - loss_weight) * re_loss
+                # Combine NER and RE losses using a weighted sum
+                loss_weight = 0.5  # Adjust this value based on the importance of each task
+                total_loss = loss_weight * ner_loss + (1 - loss_weight) * re_loss
 
-            # Backward pass
-            total_loss.backward()
+            scaler.scale(total_loss).backward()
 
             # Update counter
             accumulation_counter += 1
 
             # Perform optimization step and zero gradients if counter has reached accumulation steps
             if accumulation_counter % accumulation_steps == 0:
-                optimizer.step()
+                scaler.step(optimizer)
+                scaler.update()
                 scheduler.step()
                 optimizer.zero_grad()
 
