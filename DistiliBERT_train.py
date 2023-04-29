@@ -66,11 +66,8 @@ class NERRE_Dataset(Dataset):
         return len(self.ner_data)
 
     def __getitem__(self, idx):
-        ner_item = self.ner_data[idx]
-        subject_text = ner_item["subject_text"]
-        object_text = ner_item["object_text"]
-
-        tokens = subject_text + " " + object_text
+        re_item = self.re_data[idx]
+        tokens = re_item["sentence_tokens"]
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
 
@@ -81,18 +78,16 @@ class NERRE_Dataset(Dataset):
         # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
         ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
 
-        # Find the start and end indices of the subject and object tokens in the input_ids tensor
-        subject_start_idx = (offsets[:, 0] == 0).nonzero(as_tuple=True)[0][0]
-        subject_end_idx = (offsets[:, 1] == len(subject_text)).nonzero(as_tuple=True)[0][0]
-
-        object_start_idx = (offsets[:, 0] == len(subject_text) + 1).nonzero(as_tuple=True)[0][0]
-        object_end_idx = (offsets[:, 1] == len(subject_text) + 1 + len(object_text)).nonzero(as_tuple=True)[0][0]
+        # Assign the indices of the subject and object tokens using the re_item values
+        subject_start_idx = re_item['subject_start_idx']
+        subject_end_idx = re_item['subject_end_idx']
+        object_start_idx = re_item['object_start_idx']
+        object_end_idx = re_item['object_end_idx']
 
         # Assign appropriate labels for the subject and object tokens
-        ner_label_ids[subject_start_idx:subject_end_idx+1] = self.label_to_id[subject_text]
-        ner_label_ids[object_start_idx:object_end_idx+1] = self.label_to_id[object_text]
+        ner_label_ids[subject_start_idx:subject_end_idx+1] = self.label_to_id["subject"]
+        ner_label_ids[object_start_idx:object_end_idx+1] = self.label_to_id["object"]
 
-        re_item = self.re_data[idx]
         re_labels = [self.relation_to_id[re_item['rel_name']]]
 
         return {
@@ -102,6 +97,7 @@ class NERRE_Dataset(Dataset):
             're_labels': torch.tensor(re_labels, dtype=torch.long),
             're_data': re_item
         }
+
 
 
 
