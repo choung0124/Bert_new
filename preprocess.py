@@ -100,7 +100,24 @@ def preprocess_data(json_data):
         print(f"Tokenized sentence: {sentence_tokens}")
         print(f"Subject token indices: {subject_start_idx}-{subject_end_idx}")
         print(f"Object token indices: {object_start_idx}-{object_end_idx}\n")
+        re_data.append({
+            "sentence_tokens": sentence_tokens,
+            "subject_start_idx": subject_start_idx,
+            "subject_end_idx": subject_end_idx,
+            "object_start_idx": object_start_idx,
+            "object_end_idx": object_end_idx,
+            "rel_name": rel_name
+        })
 
+        # Assuming you want to store the subject and object entities for ner_data
+        ner_data.append({
+            "subject_text": subject,
+            "subject_start": subject_start,
+            "subject_end": subject_end,
+            "object_text": obj,
+            "object_start": object_start,
+            "object_end": object_end
+        })
     return ner_data, re_data
 
 
