@@ -23,14 +23,19 @@ os.environ['LOCAL_RANK'] = '0'
 
 
 # Load and preprocess data
+# Load and preprocess data
 preprocessed_data = []
 
-for filename in os.listdir("test"):
+json_directory = "test"  # Define the directory containing the JSON files
+
+for filename in os.listdir(json_directory):
     if filename.endswith(".json"):
         with open(os.path.join(json_directory, filename), "r") as f:
             json_data = json.load(f)
             if validate_json(json_data):
                 preprocessed_data.extend(preprocess_data(json_data, tokenizer, label_to_id, relation_to_id))
+
+
 
 # Create the dataset
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length=512, label_to_id=label_to_id, relation_to_id=relation_to_id)
