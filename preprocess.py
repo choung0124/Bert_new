@@ -18,37 +18,39 @@ preprocessed_re_data = []
 
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
-def find_best_match(entity_text, sentence_text, sentence_tokens, sentence_token_offsets):
-    best_match = None
-    best_score = 0
-    for i, (token_start, token_end) in enumerate(sentence_token_offsets):
-        token_text = sentence_text[token_start:token_end]
-        score = fuzz.ratio(entity_text, token_text)
-        if score > best_score:
-            best_score = score
-            best_match = (i, token_start, token_end)
-    return best_match
-
-# Existing preprocessing functions
-def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
+def preprocess_data(json_data):
     # Check and fix misplaced "relation_info" field
     if "relation_info" not in json_data and "relation_info" in json_data["entities"][-1]:
         json_data["relation_info"] = json_data["entities"][-1]["relation_info"]
         del json_data["entities"][-1]["relation_info"]
 
-    ner_data = []
-    re_data = []
-
-    entities_dict = {entity["entityId"]: entity for entity in json_data["entities"]}
-    entity_ids = set(entities_dict.keys())
-
+    entity_dict = {}
     relation_dict = {}
-    for relation in json_data["relation_info"]:
+    label_to_id = {}
+    relation_to_id = {}
+
+    # Extract entities
+    entities = json_data["entities"]
+    for entity in entities:
+        entity_id = entity["entityId"]
+        entity_dict[entity_id] = {
+            "name": entity["entityName"],
+            "type": entity["entityType"]
+        }
+
+    # Extract relations
+    relations = json_data.get("relation_info", [])
+    for relation in relations:
         subject_id = relation["subjectID"]
-        obj_id = relation["objectId"]
-        if subject_id not in relation_dict:
-            relation_dict[subject_id] = {}
-        relation_dict[subject_id][obj_id] = relation["rel_name"]
+        object_id = relation["objectId"]
+        relation_name = relation["rel_name"]
+        if subject_id in entity_dict and object_id in entity_dict:
+            if subject_id not in relation_dict:
+                relation_dict[subject_id] = {}
+            if object_id not in relation_dict[subject_id]:
+                relation_dict[subject_id][object_id] = []
+            relation_dict[subject_id][object_id].append(relation_name)
+
 
     text = json_data["text"]
 
@@ -83,15 +85,20 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_tokens = tokenizer.tokenize(sentence_text)
         sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
 
-        # Find the first occurrence of the entity text in the sentence text
-        entity_start = sentence_text.find(entity_text)
-        if entity_start != -1:
-            entity_end = entity_start + len(entity_text) - 1
-        else:
+        # Find the entity token indices using the token offsets
+        entity_start_idx, entity_end_idx = None, None
+        for i, (token_start, token_end) in enumerate(sentence_token_offsets):
+            if token_start == begin - boundary:
+                entity_start_idx = i
+            if token_end == end - boundary:
+                entity_end_idx = i
+                break
+
+        if entity_start_idx is None or entity_end_idx is None:
             print(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
             continue
 
-        entity_positions[entity["entityId"]] = (sentence_idx, entity_start, entity_end)
+        entity_positions[entity["entityId"]] = (sentence_idx, entity_start_idx, entity_end_idx)
 
         # Tokenize the relevant sentence
         sentence_text = relevant_sentences[sentence_idx][0]
