@@ -79,7 +79,7 @@ class NERRE_Dataset(Dataset):
             # Here's an example of returning a default value:
             tokens = ["[UNK]"]
 
-        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
+        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, is_pretokenized=True, return_tensors='pt', return_offsets_mapping=True)
         #print(f"Tokenized output: {inputs}")
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
@@ -137,8 +137,9 @@ if device.type == "cuda":
     num_workers = 2
 else:
     num_workers = 6
-dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
+dataset = NERRE_Dataset(ner_data, re_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True, drop_last=False)
+
 
 # Print the first 5 batches from the DataLoader
 for i, batch in enumerate(dataloader):
