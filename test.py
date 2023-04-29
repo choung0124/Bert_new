@@ -32,6 +32,38 @@ import nltk
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 
+def extract_entities_from_ner_labels(ner_labels, tokens):
+    entities = []
+    current_entity = None
+
+    for label, token in zip(ner_labels, tokens):
+        if label.startswith("B-"):
+            if current_entity is not None:
+                entities.append(current_entity)
+            current_entity = {"text": token, "label": label[2:]}
+        elif label.startswith("I-") and current_entity is not None:
+            current_entity["text"] += " " + token
+        else:
+            if current_entity is not None:
+                entities.append(current_entity)
+                current_entity = None
+
+    if current_entity is not None:
+        entities.append(current_entity)
+
+    return entities
+
+def generate_entity_pairs(entities):
+    entity_pairs = []
+
+    for i, entity1 in enumerate(entities):
+        for j, entity2 in enumerate(entities):
+            if i != j:
+                entity_pairs.append((entity1["text"], entity2["text"]))
+
+    return entity_pairs
+
+
 def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_relation):
     # Split the input text into sentences
     sentences = sent_tokenize(text)
@@ -47,29 +79,41 @@ def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_
         inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
         # Run the model on the input text
+        # Run the model on the input text
         with torch.no_grad():
             outputs = model(**inputs)
 
-        # Check if re_logits is not None
-        if outputs["re_logits"] is None:
-            print("Error: re_logits is None")
-            return None, None
-
         # Get the predicted NER and RE labels
         ner_predictions = torch.argmax(outputs["ner_logits"], dim=-1).squeeze().tolist()
-        re_predictions = torch.argmax(outputs["re_logits"], dim=-1).squeeze().tolist()
-
-        # Convert the predicted labels to their corresponding entity and relationship names
         ner_labels = [id_to_label[str(pred)] for pred in ner_predictions]
-        re_labels = [[id_to_relation[str(pred)] for pred in row] for row in re_predictions]
 
         all_ner_labels.extend(ner_labels)
+
+
+        # Extract entities from the NER layer output
+        tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"].squeeze())
+        entities = extract_entities_from_ner_labels(ner_labels, tokens)
+
+        # Generate entity pairs
+        entity_pairs = generate_entity_pairs(entities)
+
+        # Generate re_data based on the entity pairs
+        re_data = generate_re_data(sentence, entity_pairs, tokenizer)
+
+        # Run the model again with re_data
+        with torch.no_grad():
+            outputs = model(**inputs, re_data=re_data)
+
+        # Get the predicted RE labels
+        re_predictions = torch.argmax(outputs["re_logits"], dim=-1).squeeze().tolist()
+        re_labels = [[id_to_relation[str(pred)] for pred in row] for row in re_predictions]
+
         all_re_labels.extend(re_labels)
 
     # Locate and print the subject and object entities along with their relationships
     for i, row in enumerate(all_re_labels):
         for j, relation in enumerate(row):
-            if relation != "no_relation":  # Change this to the name of the "no relation" label in your dataset
+            if relation != "no_relation":
                 subject = all_ner_labels[i]
                 object = all_ner_labels[j]
                 print(f"{subject} entity: {object} entity: {relation}")
