@@ -59,3 +59,11 @@ with open("preprocessed_ner_data.pkl", "wb") as f:
 
 with open("preprocessed_re_data.pkl", "wb") as f:
     pickle.dump(preprocessed_re_data, f)
+    
+# Save the label dictionaries to disk
+with open("label_to_id.pkl", "wb") as f:
+    pickle.dump(label_to_id, f)
+
+with open("relation_to_id.pkl", "wb") as f:
+    pickle.dump(relation_to_id, f)
+
