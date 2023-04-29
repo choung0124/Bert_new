@@ -133,7 +133,7 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
         })
     return ner_data, re_data
 
-max_label_length = 10
+max_label_length = 20
 # Read JSON files
 for file in os.listdir(json_directory):
     if file.endswith(".json"):
