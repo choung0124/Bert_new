@@ -87,6 +87,17 @@ def preprocess_data(json_data, label_to_id, relation_to_id):
                 object_start_idx = i
             if token_end == object_end - sentence_start:
                 object_end_idx = i
+                
+        if len(sentence_tokens) > max_seq_length:
+            print(f"Skipping item due to long tokenized sentence length: {len(sentence_tokens)}")
+            continue
+
+        # Check if the entity token indices are found
+        if subject_start_idx is None or subject_end_idx is None or object_start_idx is None or object_end_idx is None:
+            print(f"Skipping item due to missing entity token indices")
+            print(f"Subject token indices: {subject_start_idx}-{subject_end_idx}")
+            print(f"Object token indices: {object_start_idx}-{object_end_idx}\n")
+            continue
 
         # Handle cases when token indices are not found
         if subject_start_idx is None or subject_end_idx is None:
