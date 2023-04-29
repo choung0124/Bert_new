@@ -68,13 +68,19 @@ class NERRE_Dataset(Dataset):
         object_text = ner_item["object_text"]
 
         tokens = subject_text + " " + object_text
-        ner_labels = [subject_text, object_text]
-        ner_label_ids = [self.label_to_id[label] for label in ner_labels]
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt')
 
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
+
+        # Create ner_label_ids tensor with the same length as input_ids and initialize with -100
+        ner_label_ids = torch.full_like(input_ids, -100, dtype=torch.long)
+
+        # Assign appropriate labels for the subject and object tokens
+        # You may need to adjust this part if your label assignment logic is different
+        ner_label_ids[input_ids == self.label_to_id[subject_text]] = self.label_to_id[subject_text]
+        ner_label_ids[input_ids == self.label_to_id[object_text]] = self.label_to_id[object_text]
 
         re_item = self.re_data[idx]
         re_labels = [self.relation_to_id[re_item['rel_name']]]
@@ -82,10 +88,11 @@ class NERRE_Dataset(Dataset):
         return {
             'input_ids': input_ids,
             'attention_mask': attention_mask,
-            'ner_labels': torch.tensor(ner_label_ids, dtype=torch.long),
+            'ner_labels': ner_label_ids,
             're_labels': torch.tensor(re_labels, dtype=torch.long),
             're_data': re_item
         }
+
 
 def custom_collate_fn(batch):
     # Remove None values from the batch
