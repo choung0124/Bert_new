@@ -47,7 +47,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     text = json_data["text"]
 
     # Load spaCy's small English model for sentence tokenization
-    tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-cased')
+    tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-cased')
 
     # Split the text into sentences
     sentences = sent_tokenize(text)
