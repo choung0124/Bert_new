@@ -28,7 +28,7 @@ def preprocess_data(json_data):
     relation_dict = {}
     label_to_id = {}
     relation_to_id = {}
-    
+
     ner_data = []
     re_data = []
 
@@ -38,7 +38,8 @@ def preprocess_data(json_data):
         entity_id = entity["entityId"]
         entity_dict[entity_id] = {
             "name": entity["entityName"],
-            "type": entity["entityType"]
+            "type": entity["entityType"],
+            "span": entity["span"]
         }
 
     # Extract relations
@@ -54,7 +55,6 @@ def preprocess_data(json_data):
                 relation_dict[subject_id][object_id] = []
             relation_dict[subject_id][object_id].append(relation_name)
 
-
     text = json_data["text"]
 
     # Split the text into sentences
@@ -64,27 +64,21 @@ def preprocess_data(json_data):
     for sentence in sentences[:-1]:
         sentence_boundaries.append(sentence_boundaries[-1] + len(sentence) + 1)
 
-    # Filter sentences containing entities
-    relevant_sentences = []
-    for i, (sentence, boundary) in enumerate(zip(sentences, sentence_boundaries)):
-        if any(boundary <= entity["span"]["begin"] < boundary + len(sentence) for entity in json_data["entities"]):
-            relevant_sentences.append((sentence, i, boundary))
-
     # Process entities
     entity_positions = {}
-    for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
+    for entity_id, entity in entity_dict.items():
         begin, end = entity["span"]["begin"], entity["span"]["end"]
-        entity_text = json_data["text"][begin:end]
+        entity_text = text[begin:end]
 
         # Find the relevant sentence index containing the entity
-        sentence_idx_boundary = next(((i, boundary) for i, (sentence, _, boundary) in enumerate(relevant_sentences) if boundary <= begin < boundary + len(sentence)), (None, None))
+        sentence_idx_boundary = next(((i, boundary) for i, (sentence, _, boundary) in enumerate(sentences) if boundary <= begin < boundary + len(sentence)), (None, None))
         if sentence_idx_boundary[0] is not None:
             sentence_idx, boundary = sentence_idx_boundary
         else:
-            print(f"Entity '{entity_text}' not found in any relevant sentence. Entity data: {entity}")
+            print(f"Entity '{entity_text}' not found in any sentence. Entity data: {entity}")
             continue  # Skip the current entity if no relevant sentence is found
 
-        sentence_text = relevant_sentences[sentence_idx][0]
+        sentence_text = sentences[sentence_idx]
         sentence_tokens = tokenizer.tokenize(sentence_text)
         sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
 
@@ -101,10 +95,10 @@ def preprocess_data(json_data):
             print(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
             continue
 
-        entity_positions[entity["entityId"]] = (sentence_idx, entity_start_idx, entity_end_idx)
+        entity_positions[entity_id] = (sentence_idx, entity_start_idx, entity_end_idx)
 
-        # Tokenize the relevant sentence
-        sentence_text = relevant_sentences[sentence_idx][0]
+        # Tokenize the sentence
+        sentence_text = sentences[sentence_idx]
         sentence_tokens = tokenizer.tokenize(sentence_text)
         sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
 
@@ -115,9 +109,9 @@ def preprocess_data(json_data):
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
             if i == entity_start_idx:
-                label = f"B-{entity['entityType']}-{entity['entityName']}"
+                label = f"B-{entity['type']}-{entity['name']}"
             elif (entity_start_idx is not None and entity_end_idx is not None) and (entity_start_idx < i <= entity_end_idx):
-                label = f"I-{entity['entityType']}-{entity['entityName']}"
+                label = f"I-{entity['type']}-{entity['name']}"
             else:
                 label = "O"
 
@@ -126,8 +120,8 @@ def preprocess_data(json_data):
 
             ner_data.append((token, label, len(ner_data)))
 
-        if f"{entity['entityType']}-{entity['entityName']}" not in label_to_id:
-            label_to_id[f"{entity['entityType']}-{entity['entityName']}"] = len(label_to_id)
+        if f"{entity['type']}-{entity['name']}" not in label_to_id:
+            label_to_id[f"{entity['type']}-{entity['name']}"] = len(label_to_id)
 
     # Process relations
     for relation in json_data["relation_info"]:
@@ -200,7 +194,6 @@ for json_data in json_data_list:
     ner_data, re_data, label_to_id, relation_to_id = preprocess_data(json_data)
     preprocessed_ner_data.append(ner_data)
     preprocessed_re_data.append(re_data)
-
 
 # Save the preprocessed data to disk
 with open("preprocessed_ner_data.pkl", "wb") as f:
