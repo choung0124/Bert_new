@@ -22,7 +22,7 @@ def preprocess_data(json_data):
     text = json_data["text"]
 
     # Find entities in the full text
-    entities = data["entities"]
+    entities = json_data["entities"]
     entity_map = {}
 
     for entity in entities:
@@ -34,7 +34,7 @@ def preprocess_data(json_data):
         }
 
     # Find relations in the full text
-    relations = data["relation_info"]
+    relations = json_data["relation_info"]
 
     for relation in relations:
         subject_id = relation["subjectID"]
