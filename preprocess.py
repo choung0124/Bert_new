@@ -109,14 +109,6 @@ def preprocess_data(json_data):
         entity_text = text[begin:end]
         entity_tokens = tokenizer.tokenize(entity_text)
 
-        # Find the first occurrence of the entity tokens in the sentence tokens
-        best_match = find_best_match(entity_text, sentence_text, sentence_tokens, sentence_token_offsets)
-        if best_match:
-            entity_start_idx, begin, end = best_match
-            entity_end_idx = entity_start_idx + len(entity_tokens) - 1
-        else:
-            raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
-
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
             if i == entity_start_idx:
