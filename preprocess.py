@@ -67,26 +67,23 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_text = relevant_sentences[sentence_idx][0]
         sentence_tokens = tokenizer.tokenize(sentence_text)
         sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
-        
-        print("Entity text:", entity_name)
-        print("Sentence text:", sentence_text)
-        print("Entity span:", (begin, end))
-        print("sentence_token_offsets:", sentence_token_offsets)
-        print("boundary:", boundary)
 
+        # Tokenize the entity text
+        entity_text = text[begin:end]
+        entity_tokens = tokenizer.tokenize(entity_text)
 
-        # Find the token index of the entity
-        try:
-            entity_start_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if abs(start - (entity["span"]["begin"] - boundary)) <= 10)
-        except StopIteration:
-            raise ValueError(f"Unable to find the start index of the entity with span ({begin}, {end}) in the sentence with boundary {boundary}")
+        # Find the first occurrence of the entity tokens in the sentence tokens
+        entity_start_idx = None
+        entity_end_idx = None
 
-        try:
-            entity_end_idx = next(i for i, (start, end) in enumerate(sentence_token_offsets) if abs(end - (entity["span"]["end"] - boundary)) <= 10)
-        except StopIteration:
-            raise ValueError(f"Unable to find the end index of the entity with span ({begin}, {end}) in the sentence with boundary {boundary}")
+        for i, token in enumerate(sentence_tokens):
+            if sentence_tokens[i:i+len(entity_tokens)] == entity_tokens:
+                entity_start_idx = i
+                entity_end_idx = i + len(entity_tokens) - 1
+                break
 
-        entity_end_idx = entity_end_idx - 1 if entity_end_idx is not None else None
+        if entity_start_idx is None or entity_end_idx is None:
+            raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
 
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
@@ -101,6 +98,8 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
                 label_to_id[label] = len(label_to_id)
 
             ner_data.append((token, label, len(ner_data)))
+
+    return ner_data, re_data, label_to_id, relation_to_id
 
         if f"{entity_type}-{entity_name}" not in label_to_id:
             label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
