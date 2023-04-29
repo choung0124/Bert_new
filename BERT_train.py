@@ -15,7 +15,7 @@ from torch.nn.utils.rnn import pad_sequence
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = BertTokenizerFast.from_pretrained("distilbert-base-uncased")
-device = torch.device("cpu")
+device = torch.device("cuda")
 batch_size = 4
 num_epochs = 4
 learning_rate = 5e-5
