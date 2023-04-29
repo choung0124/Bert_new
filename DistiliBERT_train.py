@@ -115,24 +115,25 @@ from torch.nn.utils.rnn import pad_sequence
 import torch.nn.functional as F
 
 def custom_collate_fn(batch):
-    # Remove None values from the batch
-    batch = [item for item in batch if item is not None]
+    max_length = max([len(item['input_ids']) for item in batch])
 
-    # Pad input_ids, attention_mask, and ner_labels
-    input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True, padding_value=0)
-    attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True, padding_value=0)
-    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
+    input_ids = [F.pad(item['input_ids'], (0, max_length - len(item['input_ids'])), "constant", 0) for item in batch]
+    attention_mask = [F.pad(item['attention_mask'], (0, max_length - len(item['attention_mask'])), "constant", 0) for item in batch]
+    offset_mapping = [F.pad(item['offset_mapping'], (0, max_length - len(item['offset_mapping'])), "constant", 0) for item in batch]
 
-    # Pad re_labels
-    re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
+    input_ids = torch.stack(input_ids)
+    attention_mask = torch.stack(attention_mask)
+    offset_mapping = torch.stack(offset_mapping)
 
-    # Return the final dictionary
+    labels = [item['labels'] for item in batch]
+    relations = [item['relations'] for item in batch]
+
     return {
-        "input_ids": input_ids,
-        "attention_mask": attention_mask,
-        "ner_labels": ner_labels,
-        "re_labels": re_labels,
-        "re_data": [item['re_data'] for item in batch],
+        'input_ids': input_ids,
+        'attention_mask': attention_mask,
+        'offset_mapping': offset_mapping,
+        'labels': torch.tensor(labels, dtype=torch.long),
+        'relations': torch.tensor(relations, dtype=torch.long),
     }
 
 max_length = 128
