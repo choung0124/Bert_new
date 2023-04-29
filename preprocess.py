@@ -67,6 +67,13 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         sentence_text = relevant_sentences[sentence_idx][0]
         sentence_tokens = tokenizer.tokenize(sentence_text)
         sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
+        
+        print("Entity text:", entity_name)
+        print("Sentence text:", sentence_text)
+        print("Entity span:", (begin, end))
+        print("sentence_token_offsets:", sentence_token_offsets)
+        print("boundary:", boundary)
+
 
         # Find the token index of the entity
         try:
