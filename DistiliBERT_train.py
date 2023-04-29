@@ -21,6 +21,11 @@ with open("preprocessed_ner_data.pkl", "rb") as f:
 with open("preprocessed_re_data.pkl", "rb") as f:
     preprocessed_re_data = pickle.load(f)
     
+with open("label_to_id.pkl", "rb") as f:
+    label_to_id = pickle.load(f)
+
+with open("relation_to_id.pkl", "rb") as f:
+    relation_to_id = pickle.load(f)
     
 unique_ner_labels = set()
 unique_relation_labels = set()
@@ -32,9 +37,6 @@ for item in preprocessed_ner_data:
 for item in preprocessed_re_data:
     unique_relation_labels.add(item["rel_name"])
 
-# Create label_to_id and relation_to_id mappings
-label_to_id = {label: idx for idx, label in enumerate(unique_ner_labels)}
-relation_to_id = {relation: idx for idx, relation in enumerate(unique_relation_labels)}
 
 # You can also save these mappings to pickle files if needed
 with open("label_to_id.pkl", "wb") as f:
