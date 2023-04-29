@@ -57,7 +57,7 @@ def main():
     device = torch.device("cuda", local_rank)
 
     # Replace the DataLoader with a DistributedSampler
-    batch_size = 32  # Define the batch size
+    batch_size = 8  # Define the batch size
     sampler = DistributedSampler(dataset, num_replicas=int(os.environ['WORLD_SIZE']), rank=local_rank)
     dataloader = DataLoader(dataset, batch_size=batch_size, sampler=sampler, collate_fn=custom_collate_fn, num_workers=num_workers)
 
