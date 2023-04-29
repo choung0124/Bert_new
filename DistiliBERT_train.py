@@ -114,14 +114,14 @@ import torch
 from torch.nn.utils.rnn import pad_sequence
 import torch.nn.functional as F
 
-def custom_collate_fn(batch, max_length):
+def custom_collate_fn(batch):
     # Remove None values from the batch
     batch = [item for item in batch if item is not None]
 
     # Pad input_ids, attention_mask, and ner_labels
-    input_ids = torch.stack([F.pad(item['input_ids'], (0, max_length - item['input_ids'].shape[-1]), "constant", 0) for item in batch])
-    attention_mask = torch.stack([F.pad(item['attention_mask'], (0, max_length - item['attention_mask'].shape[-1]), "constant", 0) for item in batch])
-    ner_labels = torch.stack([F.pad(item['ner_labels'], (0, max_length - item['ner_labels'].shape[-1]), "constant", -100) for item in batch])
+    input_ids = pad_sequence([item['input_ids'] for item in batch], batch_first=True, padding_value=0)
+    attention_mask = pad_sequence([item['attention_mask'] for item in batch], batch_first=True, padding_value=0)
+    ner_labels = pad_sequence([item['ner_labels'] for item in batch], batch_first=True, padding_value=-100)
 
     # Pad re_labels
     re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
@@ -135,6 +135,10 @@ def custom_collate_fn(batch, max_length):
         "re_data": [item['re_data'] for item in batch],
     }
 
+# Usage
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
+
+
 
 
 max_length = 128
@@ -143,7 +147,7 @@ if device.type == "cuda":
 else:
     num_workers = 6
 dataset = NERRE_Dataset(preprocessed_ner_data, preprocessed_re_data, tokenizer, max_length, label_to_id, relation_to_id)
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda b: custom_collate_fn(b, max_length), num_workers=num_workers, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
 
 # Print the first 5 batches from the DataLoader
 for i, batch in enumerate(dataloader):
