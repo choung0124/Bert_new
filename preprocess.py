@@ -66,6 +66,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             relevant_sentences.append((sentence, i, boundary))
 
     # Process entities
+# Process entities
     for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
         begin, end = entity["span"]["begin"], entity["span"]["end"]
         entity_type = entity["entityType"]
@@ -77,7 +78,9 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         if sentence_idx_boundary[0] is not None:
             sentence_idx, boundary = sentence_idx_boundary
         else:
+            print(f"Entity '{entity_text}' not found in any relevant sentence. Entity data: {entity}")
             continue  # Skip the current entity if no relevant sentence is found
+
 
 
         # Tokenize the relevant sentence
