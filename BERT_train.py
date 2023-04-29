@@ -244,9 +244,9 @@ for file_name in os.listdir(json_directory):
 
 max_length = 128
 if device.type == "cuda":
-    num_workers = 12
-else:
     num_workers = 0
+else:
+    num_workers = 12
 dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length, label_to_id, relation_to_id)
 dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers, shuffle=True)
 
