@@ -50,6 +50,11 @@ def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_
         with torch.no_grad():
             outputs = model(**inputs)
 
+        # Check if re_logits is not None
+        if outputs["re_logits"] is None:
+            print("Error: re_logits is None")
+            return None, None
+
         # Get the predicted NER and RE labels
         ner_predictions = torch.argmax(outputs["ner_logits"], dim=-1).squeeze().tolist()
         re_predictions = torch.argmax(outputs["re_logits"], dim=-1).squeeze().tolist()
