@@ -100,7 +100,7 @@ def custom_collate_fn(batch):
     
     # Pad re_labels
     re_labels = pad_sequence([item['re_labels'] for item in batch], batch_first=True, padding_value=-1)
-
+    print("Batch attention mask shape:", attention_mask.shape)
     # Return the final dictionary
     return {
         "input_ids": input_ids,
@@ -173,6 +173,9 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             active_loss = attention_mask.view(-1) == 1
             active_logits = ner_logits.view(-1, self.num_ner_labels)[active_loss]
             active_labels = ner_labels.view(-1)[active_loss]
+            print("Active loss shape:", active_loss.shape)
+            print("Active logits shape:", active_logits.shape)
+            print("Active labels shape:", active_labels.shape)
 
             # Check if there are any active logits and labels before calculating the loss
             if active_logits.shape[0] > 0 and active_labels.shape[0] > 0:
