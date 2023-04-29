@@ -120,7 +120,7 @@ for entity_id_1, entity_id_2 in itertools.combinations(entity_ids, 2):
         if rel_name not in relation_to_id:
             relation_to_id[rel_name] = len(relation_to_id)
 
-return ner_data, re_data, label_to_id, relation_to_id
+    return ner_data, re_data, label_to_id, relation_to_id
 
 
 # Iterate through all JSON files in the directory
