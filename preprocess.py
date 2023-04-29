@@ -28,6 +28,9 @@ def preprocess_data(json_data):
     relation_dict = {}
     label_to_id = {}
     relation_to_id = {}
+    
+    ner_data = []
+    re_data = []
 
     # Extract entities
     entities = json_data["entities"]
