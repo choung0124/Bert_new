@@ -24,10 +24,6 @@ unique_relation_labels = set()
 unique_ner_labels.add("O")
 
 # Existing preprocessing functions
-import itertools
-
-import itertools
-
 def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
     ner_data = []
     re_data = []
@@ -215,9 +211,6 @@ def custom_collate_fn(batch):
         "re_indices": re_indices,
     }
 
-
-
-
 label_to_id = {}
 relation_to_id = {}
 
@@ -273,7 +266,6 @@ for i, batch in enumerate(dataloader):
 
 # Check the length of the DataLoader
 print(f"Number of batches in DataLoader: {len(dataloader)}")
-
 
 class BertForNERAndRE(BertPreTrainedModel):
     def __init__(self, config, num_ner_labels, num_re_labels):
@@ -345,7 +337,6 @@ class BertForNERAndRE(BertPreTrainedModel):
             re_logits = None  # Set re_logits to None if re_indices is None or empty
 
         return {'ner_logits': ner_logits, 're_logits': re_logits, 'ner_loss': ner_loss}
-
 
 # Set up the configuration, model, and tokenizer
 config = BertConfig.from_pretrained("bert-base-uncased")
@@ -429,7 +420,6 @@ for epoch in range(num_epochs):
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
-
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
