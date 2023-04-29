@@ -2,7 +2,7 @@ import os
 import torch
 import json
 from torch.utils.data import DataLoader, Dataset
-from transformers import BertTokenizer, BertModel, BertPreTrainedModel, BertConfig, get_linear_schedule_with_warmup, AdamW, BertTokenizerFast, DistilBertConfig, DistilBertTokenizerFast, DistilBertModel
+from transformers import BertTokenizer, BertModel, BertPreTrainedModel, DistilBertPreTrainedModel, BertConfig, get_linear_schedule_with_warmup, AdamW, BertTokenizerFast, DistilBertConfig, DistilBertTokenizerFast, DistilBertModel
 from tqdm import tqdm
 from torch import nn
 from torch.nn import CrossEntropyLoss
