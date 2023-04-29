@@ -269,7 +269,9 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         self.num_re_labels = num_re_labels
 
         self.distilbert = DistilBertModel(config)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        #self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.dropout = nn.Dropout(config.dropout)
+        
         self.classifier = nn.Linear(config.hidden_size, self.num_ner_labels)
 
         # Define the bilinear layer for RE classification
