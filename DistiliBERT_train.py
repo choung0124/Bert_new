@@ -18,9 +18,9 @@ import spacy
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
-batch_size = 1
+batch_size = 8
 num_epochs = 4
 learning_rate = 5e-5
 
@@ -221,7 +221,7 @@ for file_name in os.listdir(json_directory):
             print(f"Error loading {json_path}: {e}")
             continue
 
-max_length = 32
+max_length = 128
 if device.type == "cuda":
     num_workers = 2
 else:
