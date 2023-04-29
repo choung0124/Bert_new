@@ -26,7 +26,7 @@ def main():
                     preprocessed_data.extend(preprocess_data(json_data, tokenizer, label_to_id, relation_to_id))
 
     # Create the dataset
-    dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length=512, label_to_id=label_to_id, relation_to_id=relation_to_id)
+    dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length=128, label_to_id=label_to_id, relation_to_id=relation_to_id)
 
     # Initialize the distributed environment
     torch.cuda.set_device(local_rank)
@@ -37,7 +37,7 @@ def main():
 
     # Replace the DataLoader with a DistributedSampler
     batch_size = 8  # Define the batch size
-dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers)
+    dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=custom_collate_fn, num_workers=num_workers)
 
     # Initialize the model
     model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
