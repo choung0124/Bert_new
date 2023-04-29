@@ -17,7 +17,7 @@ from torch.cuda.amp import autocast, GradScaler
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-batch_size = 8
+batch_size = 1
 num_epochs = 4
 learning_rate = 5e-5
 
@@ -137,7 +137,7 @@ class NERRE_Dataset(Dataset):
         ner_labels = [label for _, label, _ in item['ner_data']]
         ner_label_ids = [self.label_to_id[label] for label in ner_labels]
 
-        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
+        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=64, return_tensors='pt')
 
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
