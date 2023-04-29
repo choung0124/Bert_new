@@ -66,12 +66,10 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             relevant_sentences.append((sentence, i, boundary))
 
     # Process entities
-# Process entities
+    entity_positions = {}
     for entity in sorted(json_data["entities"], key=lambda x: x["span"]["begin"]):
         begin, end = entity["span"]["begin"], entity["span"]["end"]
-        entity_type = entity["entityType"]
-        entity_id = entity["entityId"]
-        entity_name = entity["entityName"]
+        entity_text = json_data["text"][begin:end]
 
         # Find the relevant sentence index containing the entity
         sentence_idx_boundary = next(((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= begin), (None, None))
@@ -81,7 +79,19 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             print(f"Entity '{entity_text}' not found in any relevant sentence. Entity data: {entity}")
             continue  # Skip the current entity if no relevant sentence is found
 
+        sentence_text = relevant_sentences[sentence_idx][0]
+        sentence_tokens = tokenizer.tokenize(sentence_text)
+        sentence_token_offsets = tokenizer(sentence_text, return_offsets_mapping=True).offset_mapping
 
+        # Find the first occurrence of the entity text in the sentence text
+        entity_start = sentence_text.find(entity_text)
+        if entity_start != -1:
+            entity_end = entity_start + len(entity_text) - 1
+        else:
+            print(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
+            continue
+
+        entity_positions[entity["entityId"]] = (sentence_idx, entity_start, entity_end)
 
         # Tokenize the relevant sentence
         sentence_text = relevant_sentences[sentence_idx][0]
@@ -103,7 +113,6 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             else:
                 raise ValueError(f"Unable to find the entity '{entity_text}' in the sentence '{sentence_text}'")
 
-
         # Annotate the tokens with the entity label
         for i, token in enumerate(sentence_tokens):
             if i == entity_start_idx:
@@ -122,29 +131,37 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
 
     # Process relations
-    for entity_id_1, entity_id_2 in itertools.combinations(entity_ids, 2):
-        if entity_id_1 in relation_dict and entity_id_2 in relation_dict[entity_id_1]:
-            rel_name = relation_dict[entity_id_1][entity_id_2]
-            entity_1 = entities_dict[entity_id_1]
-            entity_2 = entities_dict[entity_id_2]
+    for relation in json_data["relation_info"]:
+        subject_id = relation["subjectID"]
+        obj_id = relation["objectId"]
+        rel_name = relation["rel_name"]
 
-            # Find the relevant sentence index containing the entities
-            sentence_idx, boundary = next((i, boundary) for sentence, i, boundary in relevant_sentences if boundary + len(sentence) >= entity_1["span"]["begin"])
+        if subject_id not in entity_positions or obj_id not in entity_positions:
+            print(f"Skipping relation between '{subject_id}' and '{obj_id}' as one or both entities were not found in any relevant sentence.")
+            continue
 
-            re_data.append({
-                'id': (entity_id_1, entity_id_2),
-                'subject': relevant_sentences[sentence_idx][0][entity_1["span"]["begin"] - boundary:entity_1["span"]["end"] - boundary],
-                'object': relevant_sentences[sentence_idx][0][entity_2["span"]["begin"] - boundary:entity_2["span"]["end"] - boundary],
-                'relation': rel_name,
-                'subject_tokens': tokenizer.tokenize(relevant_sentences[sentence_idx][0][entity_1["span"]["begin"] - boundary:entity_1["span"]["end"] - boundary]),
-                'object_tokens': tokenizer.tokenize(relevant_sentences[sentence_idx][0][entity_2["span"]["begin"] - boundary:entity_2["span"]["end"] - boundary])
-            })
+        subject_sentence_idx, subject_start, subject_end = entity_positions[subject_id]
+        object_sentence_idx, object_start, object_end = entity_positions[obj_id]
 
-            if rel_name not in relation_to_id:
-                relation_to_id[rel_name] = len(relation_to_id)
+        if subject_sentence_idx != object_sentence_idx:
+            print(f"Skipping relation between '{subject_id}' and '{obj_id}' as they are not in the same sentence.")
+            continue
+
+        sentence_text = relevant_sentences[subject_sentence_idx][0]
+
+        re_data.append({
+            'id': (subject_id, obj_id),
+            'subject': sentence_text[subject_start:subject_end + 1],
+            'object': sentence_text[object_start:object_end + 1],
+            'relation': rel_name,
+            'subject_tokens': tokenizer.tokenize(sentence_text[subject_start:subject_end + 1]),
+            'object_tokens': tokenizer.tokenize(sentence_text[object_start:object_end + 1])
+        })
+
+        if rel_name not in relation_to_id:
+            relation_to_id[rel_name] = len(relation_to_id)
 
     return ner_data, re_data, label_to_id, relation_to_id
-
 
 # Iterate through all JSON files in the directory
 def validate_json(json_data):
