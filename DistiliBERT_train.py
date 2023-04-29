@@ -91,7 +91,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
         for i, token in enumerate(sentence_tokens):
             if i == entity_start_idx:
                 label = f"B-{entity_type}-{entity_name}"
-            elif entity_start_idx < i <= entity_end_idx:
+            elif (entity_start_idx is not None and entity_end_idx is not None) and (entity_start_idx < i <= entity_end_idx):
                 label = f"I-{entity_type}-{entity_name}"
             else:
                 label = "O"
