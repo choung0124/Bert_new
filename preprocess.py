@@ -3,10 +3,7 @@ import pickle
 import os
 from nltk import sent_tokenize
 import itertools
-import spacy
 import nltk
-from fuzzywuzzy import fuzz
-nlp = spacy.load("en_core_web_sm")
 
 # Initialize the tokenizer
 label_to_id = {}
