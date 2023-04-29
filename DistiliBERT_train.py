@@ -284,7 +284,7 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         input_ids=None,
         attention_mask=None,
         #token_type_ids=None,
-        position_ids=None,
+        #position_ids=None,
         head_mask=None,
         inputs_embeds=None,
         ner_labels=None,
@@ -295,7 +295,7 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             input_ids,
             attention_mask=attention_mask,
             #token_type_ids=token_type_ids,
-            position_ids=position_ids,
+            #position_ids=position_ids,
             head_mask=head_mask,
             inputs_embeds=inputs_embeds,
         )
