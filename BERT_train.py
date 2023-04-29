@@ -341,16 +341,16 @@ num_ner_labels = len(label_to_id)
 num_re_labels = len(relation_to_id)
 model = BertForNERAndRE(config, num_ner_labels, num_re_labels)
 model = model.to(device)
-#if torch.cuda.device_count() > 1:
-    #model = nn.DataParallel(model)
+
+# Mixed precision training
+scaler = torch.cuda.amp.GradScaler()
 
 # Prepare the optimizer and learning rate scheduler
 optimizer = AdamW(model.parameters(), lr=learning_rate)
 num_training_steps = len(dataloader) * num_epochs
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
-accumulation_steps = 16  # Adjust this value based on the desired accumulation steps.
+accumulation_steps = 32  # Increase this value based on the desired accumulation steps.
 accumulation_counter = 0
-scaler = GradScaler()
 
 # Define separate loss functions for NER and RE tasks
 ner_loss_fn = CrossEntropyLoss(ignore_index=-100)
