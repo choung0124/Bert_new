@@ -148,7 +148,7 @@ def custom_collate_fn(batch, max_length):
 
     except RuntimeError:
         print("Skipping problematic data during padding")
-        print("f"problematic batch: {batch}")
+        print(f"problematic batch: {batch}")
         return None
 
     return {
