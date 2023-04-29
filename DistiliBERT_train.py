@@ -238,44 +238,35 @@ for epoch in range(num_epochs):
         try:
             model.train()
 
-            input_ids = batch['input_ids'].reshape(batch_size, -1).to(device)
-            attention_mask = batch['attention_mask'].reshape(batch_size, -1).to(device)
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
             ner_labels = batch['ner_labels'].view(-1).to(device)
             re_labels = batch['re_labels'].to(device)
             re_data = batch['re_data']
 
-            if scaler is not None:
-                with autocast():
-                    outputs = model(
-                        input_ids=input_ids,
-                        attention_mask=attention_mask,
-                        ner_labels=ner_labels,
-                        re_labels=re_labels,
-                        re_data=re_data,
-                    )
-            else:
-                outputs = model(
-                    input_ids=input_ids,
-                    attention_mask=attention_mask,
-                    ner_labels=ner_labels,
-                    re_labels=re_labels,
-                    re_data=re_data,
-                )
+            outputs = model(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                ner_labels=ner_labels,
+                re_labels=re_labels if len(re_data) > 0 else None,  # Add this condition
+                re_data=re_data,
+            )
 
             # Get NER and RE logits from model output
             ner_logits = outputs["ner_logits"]
             re_logits = outputs["re_logits"]
 
             # Calculate NER loss
-            ner_loss = ner_loss_fn(ner_logits.view(-1, ner_logits.size(-1)), ner_labels.view(-1))
+            ner_loss = outputs["ner_loss"]
 
             # Calculate RE loss
             re_loss = 0
-            for b, batch_re_labels in enumerate(re_labels):
-                re_loss += re_loss_fn(re_logits[b].view(-1, re_logits.size(-1)), batch_re_labels.view(-1))
+            if re_logits is not None:  # Add this condition
+                for b, batch_re_labels in enumerate(re_labels):
+                    re_loss += re_loss_fn(re_logits[b].view(-1, re_logits.size(-1)), batch_re_labels.view(-1))
 
-            # Normalize RE loss by the number of samples
-            re_loss /= re_logits.size(0)
+                # Normalize RE loss by the number of samples
+                re_loss /= re_logits.size(0)
 
             # Combine NER and RE losses using a weighted sum
             loss_weight = 0.5  # Adjust this value based on the importance of each task
@@ -300,7 +291,6 @@ for epoch in range(num_epochs):
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
             continue
-
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
