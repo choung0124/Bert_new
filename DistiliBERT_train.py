@@ -149,8 +149,9 @@ def custom_collate_fn(batch, max_length):
 
     except RuntimeError:
         print("Skipping problematic data during padding")
-        print(f"problematic batch: {batch}")
+        print(f"Problematic batch shapes: {[(item['input_ids'].shape, item['attention_mask'].shape, item['ner_labels'].shape) for item in batch]}")
         return None
+
 
     return {
         'input_ids': input_ids,
