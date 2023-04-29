@@ -191,7 +191,7 @@ for file_name in os.listdir(json_directory):
 
             if validate_json(json_data):
                 try:
-                    preprocessed_file_data = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
+                    preprocessed_file_data = preprocess_data(json_data)
                     preprocessed_data.extend(preprocessed_file_data)
                 except ValueError as e:
                     print(f"Error processing {json_path}: {e}")
@@ -202,9 +202,10 @@ for file_name in os.listdir(json_directory):
             continue
 
 for json_data in json_data_list:
-    ner_data, re_data, label_to_id, relation_to_id = preprocess_data(json_data, tokenizer, label_to_id, relation_to_id)
+    ner_data, re_data, label_to_id, relation_to_id = preprocess_data(json_data)
     preprocessed_ner_data.append(ner_data)
     preprocessed_re_data.append(re_data)
+
 
 # Save the preprocessed data to disk
 with open("preprocessed_ner_data.pkl", "wb") as f:
