@@ -4,9 +4,6 @@ from transformers import DistilBertTokenizerFast
 import os
 from nltk import sent_tokenize
 import itertools
-# Load the input data from a JSON file
-with open("input_data.json", "r") as f:
-    json_data_list = json.load(f)
 
 # Initialize the tokenizer
 label_to_id = {}
