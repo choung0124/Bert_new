@@ -290,7 +290,12 @@ for epoch in range(num_epochs):
 
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
+            print(f"input_ids shape: {batch['input_ids'].shape}")
+            print(f"attention_mask shape: {batch['attention_mask'].shape}")
+            print(f"ner_labels shape: {batch['ner_labels'].shape}")
+            print(f"re_labels shape: {batch['re_labels'].shape}")
             continue
+
 
 # Save the fine-tuned custom BERT model and tokenizer
 output_dir = "models/combined"
