@@ -357,73 +357,75 @@ accumulation_counter = 0
 ner_loss_fn = CrossEntropyLoss(ignore_index=-100)
 re_loss_fn = CrossEntropyLoss(ignore_index=-1)
 
-for epoch in range(num_epochs):
-    progress_bar = tqdm(dataloader, desc=f"Epoch {epoch + 1}/{num_epochs}")
+def train(model, dataloader, device, num_epochs, learning_rate, accumulation_steps):
+    for epoch in range(num_epochs):
+        progress_bar = tqdm(dataloader, desc=f"Epoch {epoch + 1}/{num_epochs}")
 
-    for step, batch in enumerate(progress_bar):
-        try:
-            model.train()
+        for step, batch in enumerate(progress_bar):
+            try:
+                model.train()
 
-            input_ids = batch['input_ids'].view(-1, batch['input_ids'].size(-1)).to(device)
-            attention_mask = batch['attention_mask'].view(-1, batch['attention_mask'].size(-1)).to(device)
-            token_type_ids = batch['token_type_ids'].view(-1, batch['token_type_ids'].size(-1)).to(device)
-            ner_labels = batch['ner_labels'].view(-1).to(device)
-            re_labels = batch['re_labels'].to(device)
-            re_indices = batch['re_indices']
+                input_ids = batch['input_ids'].view(-1, batch['input_ids'].size(-1)).to(device)
+                attention_mask = batch['attention_mask'].view(-1, batch['attention_mask'].size(-1)).to(device)
+                token_type_ids = batch['token_type_ids'].view(-1, batch['token_type_ids'].size(-1)).to(device)
+                ner_labels = batch['ner_labels'].view(-1).to(device)
+                re_labels = batch['re_labels'].to(device)
+                re_indices = batch['re_indices']
 
-            if re_indices is not None:
-                re_indices = re_indices.to(device)
-            else:
-                re_indices = None
+                if re_indices is not None:
+                    re_indices = re_indices.to(device)
+                else:
+                    re_indices = None
 
-            with autocast():
-                # Forward pass
-                outputs = model(
-                    input_ids=input_ids,
-                    attention_mask=attention_mask,
-                    token_type_ids=token_type_ids,
-                    ner_labels=ner_labels,
-                    re_labels=re_labels,
-                    re_indices=re_indices if re_indices is not None else None,
-                )
+                with autocast():
+                    # Forward pass
+                    outputs = model(
+                        input_ids=input_ids,
+                        attention_mask=attention_mask,
+                        token_type_ids=token_type_ids,
+                        ner_labels=ner_labels,
+                        re_labels=re_labels,
+                        re_indices=re_indices if re_indices is not None else None,
+                    )
 
-                # Get NER and RE logits from model output
-                ner_logits = outputs["ner_logits"]
-                re_logits = outputs["re_logits"]
+                    # Get NER and RE logits from model output
+                    ner_logits = outputs["ner_logits"]
+                    re_logits = outputs["re_logits"]
 
-                # Calculate NER loss
-                ner_loss = ner_loss_fn(ner_logits.view(-1, ner_logits.size(-1)), ner_labels.view(-1))
-                # Calculate RE loss
-                re_loss = 0
-                for b in range(re_logits.size(0)):
-                    for s in range(re_logits.size(1)):
-                        re_loss += re_loss_fn(re_logits[b, s].view(-1, re_logits.size(-1)), re_labels[b, s].view(-1))
+                    # Calculate NER loss
+                    ner_loss = ner_loss_fn(ner_logits.view(-1, ner_logits.size(-1)), ner_labels.view(-1))
+                    # Calculate RE loss
+                    re_loss = 0
+                    for b in range(re_logits.size(0)):
+                        for s in range(re_logits.size(1)):
+                            re_loss += re_loss_fn(re_logits[b, s].view(-1, re_logits.size(-1)), re_labels[b, s].view(-1))
 
-                # Normalize RE loss by the number of sentences
-                re_loss /= (re_logits.size(0) * re_logits.size(1))
+                    # Normalize RE loss by the number of sentences
+                    re_loss /= (re_logits.size(0) * re_logits.size(1))
 
-                # Combine NER and RE losses using a weighted sum
-                loss_weight = 0.5  # Adjust this value based on the importance of each task
-                total_loss = loss_weight * ner_loss + (1 - loss_weight) * re_loss
+                    # Combine NER and RE losses using a weighted sum
+                    loss_weight = 0.5  # Adjust this value based on the importance of each task
+                    total_loss = loss_weight * ner_loss + (1 - loss_weight) * re_loss
 
-            scaler.scale(total_loss).backward()
+                scaler.scale(total_loss).backward()
 
-            # Update counter
-            accumulation_counter += 1
+                # Update counter
+                accumulation_counter += 1
 
-            # Perform optimization step and zero gradients if counter has reached accumulation steps
-            if accumulation_counter % accumulation_steps == 0:
-                scaler.step(optimizer)
-                scaler.update()
-                scheduler.step()
-                optimizer.zero_grad()
+                # Perform optimization step and zero gradients if counter has reached accumulation steps
+                if accumulation_counter % accumulation_steps == 0:
+                    scaler.step(optimizer)
+                    scaler.update()
+                    scheduler.step()
+                    optimizer.zero_grad()
 
-            # Update progress bar
-            progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
+                # Update progress bar
+                progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
 
-        except Exception as e:
-            print(f"Skipping batch due to error: {e}")
-            continue
+            except Exception as e:
+                print(f"Skipping batch due to error: {e}")
+                continue
+    return model
 
 
 # Save the fine-tuned custom BERT model and tokenizer
