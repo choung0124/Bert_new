@@ -342,7 +342,10 @@ for epoch in range(num_epochs):
             progress_bar.set_postfix({"NER Loss": ner_loss.item(), "RE Loss": re_loss.item(), "Total Loss": total_loss.item()})
 
         except Exception as e:
-            print(f"Skipping batch due to error: {e}")
+            print(f"Error: {e}")
+            print("Current re_item:", batch["re_data"])
+            print("Types of elements in re_item:", {key: type(value) for key, value in batch["re_data"].items()})
+            print("Skipping batch due to error.")
             continue
 
 
