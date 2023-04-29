@@ -29,7 +29,7 @@ def main():
     dataset = NERRE_Dataset(preprocessed_data, tokenizer, max_length=128, label_to_id=label_to_id, relation_to_id=relation_to_id)
 
     # Set the device and rank for the current process
-    device = torch.device("cuda", local_rank)
+    device = torch.device("cuda")
 
     # Replace the DataLoader with a DistributedSampler
     batch_size = 8  # Define the batch size
