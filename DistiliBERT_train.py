@@ -170,7 +170,7 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
 
         if ner_labels is not None:
             loss_fct = nn.CrossEntropyLoss(ignore_index=-1)
-            active_loss = attention_mask.view(-1) == 1
+            active_loss = attention_mask.view(-1).bool()
             active_logits = ner_logits.view(-1, self.num_ner_labels)[active_loss]
             active_labels = ner_labels.view(-1)[active_loss]
             print("Active loss shape:", active_loss.shape)
