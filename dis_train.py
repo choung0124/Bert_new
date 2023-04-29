@@ -25,7 +25,7 @@ def parse_arguments():
 def main():
     args = parse_arguments()
 
-    os.environ['MASTER_ADDR'] = '172.23.245.117'
+    os.environ['MASTER_ADDR'] = '192.168.100.60'
     os.environ['MASTER_PORT'] = str(get_unused_port())
     os.environ['RANK'] = str(args.rank)
     os.environ['WORLD_SIZE'] = str(args.world_size)
