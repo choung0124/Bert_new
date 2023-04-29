@@ -13,6 +13,7 @@ import pickle
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from torch.nn.utils.rnn import pad_sequence
 from torch.cuda.amp import autocast, GradScaler
+import traceback
 
 with open("preprocessed_ner_data.pkl", "rb") as f:
     preprocessed_ner_data = pickle.load(f)
@@ -70,19 +71,25 @@ class NERRE_Dataset(Dataset):
 
         tokens = subject_text + " " + object_text
 
-        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt')
+        inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
 
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
-
+        offsets = inputs['offset_mapping'].squeeze()
 
         # Create ner_label_ids tensor with the same length as input_ids and initialize with a valid label index
         ner_label_ids = torch.full_like(input_ids, self.ignore_label_index, dtype=torch.long)
 
+        # Find the start and end indices of the subject and object tokens in the input_ids tensor
+        subject_start_idx = (offsets[:, 0] == 0).nonzero(as_tuple=True)[0][0]
+        subject_end_idx = (offsets[:, 1] == len(subject_text)).nonzero(as_tuple=True)[0][0]
+
+        object_start_idx = (offsets[:, 0] == len(subject_text) + 1).nonzero(as_tuple=True)[0][0]
+        object_end_idx = (offsets[:, 1] == len(subject_text) + 1 + len(object_text)).nonzero(as_tuple=True)[0][0]
+
         # Assign appropriate labels for the subject and object tokens
-        # You may need to adjust this part if your label assignment logic is different
-        ner_label_ids[input_ids == self.label_to_id[subject_text]] = self.label_to_id[subject_text]
-        ner_label_ids[input_ids == self.label_to_id[object_text]] = self.label_to_id[object_text]
+        ner_label_ids[subject_start_idx:subject_end_idx+1] = self.label_to_id[subject_text]
+        ner_label_ids[object_start_idx:object_end_idx+1] = self.label_to_id[object_text]
 
         re_item = self.re_data[idx]
         re_labels = [self.relation_to_id[re_item['rel_name']]]
@@ -94,6 +101,7 @@ class NERRE_Dataset(Dataset):
             're_labels': torch.tensor(re_labels, dtype=torch.long),
             're_data': re_item
         }
+
 
 
 def custom_collate_fn(batch):
@@ -308,10 +316,7 @@ for epoch in range(num_epochs):
 
         except Exception as e:
             print(f"Skipping batch due to error: {e}")
-            print(f"input_ids shape: {batch['input_ids'].shape}")
-            print(f"attention_mask shape: {batch['attention_mask'].shape}")
-            print(f"ner_labels shape: {batch['ner_labels'].shape}")
-            print(f"re_labels shape: {batch['re_labels'].shape}")
+            print(traceback.format_exc())
             continue
 
 
