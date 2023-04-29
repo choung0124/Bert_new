@@ -173,7 +173,12 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             active_loss = attention_mask.view(-1) == 1
             active_logits = ner_logits.view(-1, self.num_ner_labels)[active_loss]
             active_labels = ner_labels.view(-1)[active_loss]
-            ner_loss = loss_fct(active_logits, active_labels)
+
+            # Check if there are any active logits and labels before calculating the loss
+            if active_logits.shape[0] > 0 and active_labels.shape[0] > 0:
+                ner_loss = loss_fct(active_logits, active_labels)
+            else:
+                ner_loss = None
         else:
             ner_loss = None
 
