@@ -84,15 +84,16 @@ class NERRE_Dataset(Dataset):
         object_start_idx = re_item['object_start_idx']
         object_end_idx = re_item['object_end_idx']
 
-        # Get the actual subject and object texts from the tokens
-        subject_text = " ".join(tokens[subject_start_idx:subject_end_idx+1])
-        object_text = " ".join(tokens[object_start_idx:object_end_idx+1])
+        # Get the actual subject and object texts from the re_data
+        subject_text = re_item['subject_text']
+        object_text = re_item['object_text']
 
         # Assign appropriate labels for the subject and object tokens
         ner_label_ids[subject_start_idx:subject_end_idx+1] = self.label_to_id[subject_text]
         ner_label_ids[object_start_idx:object_end_idx+1] = self.label_to_id[object_text]
 
         re_labels = [self.relation_to_id[re_item['rel_name']]]
+
 
         return {
             'input_ids': input_ids,
