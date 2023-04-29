@@ -39,3 +39,9 @@ for filename in os.listdir(json_dir):
 # Print entity and relation dictionaries
 print("Entity dictionary:\n", entity_dict)
 print("\nRelation dictionary:\n", relation_dict)
+
+with open('entity_dict.json', 'w') as f:
+    json.dump(entity_dict, f)
+
+with open('relation_dict.json', 'w') as f:
+    json.dump(relation_dict, f)
