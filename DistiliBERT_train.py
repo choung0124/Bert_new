@@ -208,12 +208,14 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             for b, batch_re_data in enumerate(re_data):
                 batch_re_logits = []
                 for rel in batch_re_data:
-                    print(f"re_data: {re_data}")
-                    subject_idx = rel["subject_idx"]
-                    object_idx = rel["object_idx"]
+                    subject_start_idx = rel["subject_start_idx"]
+                    subject_end_idx = rel["subject_end_idx"]
+                    object_start_idx = rel["object_start_idx"]
+                    object_end_idx = rel["object_end_idx"]
 
-                    subject_hidden_states = sequence_output[b, subject_idx]
-                    object_hidden_states = sequence_output[b, object_idx]
+                    # Use the average of the hidden states for the subject and object tokens
+                    subject_hidden_states = sequence_output[b, subject_start_idx:subject_end_idx+1].mean(dim=0)
+                    object_hidden_states = sequence_output[b, object_start_idx:object_end_idx+1].mean(dim=0)
 
                     relation_logits = self.re_classifier(subject_hidden_states, object_hidden_states)
                     batch_re_logits.append(relation_logits.unsqueeze(0))
