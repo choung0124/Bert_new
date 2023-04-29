@@ -68,6 +68,7 @@ class NERRE_Dataset(Dataset):
     def __getitem__(self, idx):
         re_item = self.re_data[idx]
         tokens = re_item["sentence_tokens"]
+        print(f"Input tokens: {tokens}") 
 
         inputs = self.tokenizer(tokens, padding='max_length', truncation=True, max_length=self.max_length, return_tensors='pt', return_offsets_mapping=True)
 
@@ -94,7 +95,6 @@ class NERRE_Dataset(Dataset):
 
         re_labels = [self.relation_to_id[re_item['rel_name']]]
 
-
         return {
             'input_ids': input_ids,
             'attention_mask': attention_mask,
@@ -102,9 +102,6 @@ class NERRE_Dataset(Dataset):
             're_labels': torch.tensor(re_labels, dtype=torch.long),
             're_data': re_item
         }
-
-
-
 
 
 def custom_collate_fn(batch):
