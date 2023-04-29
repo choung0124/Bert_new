@@ -80,7 +80,7 @@ def preprocess_data(json_data, tokenizer, label_to_id, relation_to_id):
             if label not in label_to_id:
                 label_to_id[label] = len(label_to_id)
 
-            ner_data.append((token.text, label, len(ner_data)))
+            ner_data.append((token, label, len(ner_data)))
 
         if f"{entity_type}-{entity_name}" not in label_to_id:
             label_to_id[f"{entity_type}-{entity_name}"] = len(label_to_id)
