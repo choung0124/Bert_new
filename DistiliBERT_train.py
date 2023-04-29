@@ -29,7 +29,7 @@ for item in preprocessed_ner_data:
 
 for relations in preprocessed_re_data:
     for relation in relations:
-        unique_relation_types.add(relation['relation'])
+        unique_relation_labels.add(relation['relation'])
 
 # Create label_to_id and relation_to_id mappings
 label_to_id = {label: idx for idx, label in enumerate(unique_ner_labels)}
@@ -41,9 +41,6 @@ with open("label_to_id.pkl", "wb") as f:
 
 with open("relation_to_id.pkl", "wb") as f:
     pickle.dump(relation_to_id, f)
-
-
-
 
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:64'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -110,7 +107,6 @@ def custom_collate_fn(batch):
         "re_labels": re_labels,
         "re_data": [item['re_data'] for item in batch],
     }
-
 
 max_length = 128
 if device.type == "cuda":
