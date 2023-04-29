@@ -16,7 +16,8 @@ from torch.cuda.amp import autocast, GradScaler
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 batch_size = 1
 num_epochs = 4
 learning_rate = 5e-5
