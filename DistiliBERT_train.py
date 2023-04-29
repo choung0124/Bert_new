@@ -79,8 +79,9 @@ class NERRE_Dataset(Dataset):
             # Here's an example of returning a default value:
             tokens = ["[UNK]"]
 
-        inputs = self.tokenizer.batch_encode_plus(
-            [tokens],
+        text = " ".join(tokens)
+        inputs = self.tokenizer(
+            text,
             padding='max_length',
             truncation=True,
             max_length=self.max_length,
