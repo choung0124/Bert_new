@@ -227,13 +227,12 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             ner_loss = None
 
         if re_data is not None and len(re_data) > 0:
-            #print(f"re_data: {re_data}")
             re_logits = []
             for b, batch_re_data in enumerate(re_data):
                 batch_re_logits = []
-                for rel in batch_re_data:
-                    print(f"Type of rel: {type(rel)}")
-                    print(f"Value of rel: {rel}")
+                # Ensure rel is a dictionary
+                if isinstance(batch_re_data, dict):
+                    rel = batch_re_data
                     subject_start_idx = rel["subject_start_idx"]
                     subject_end_idx = rel["subject_end_idx"]
                     object_start_idx = rel["object_start_idx"]
@@ -252,6 +251,7 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             re_logits = torch.cat(re_logits, dim=0)
         else:
             re_logits = None
+
 
         return {'ner_logits': ner_logits, 're_logits': re_logits, 'ner_loss': ner_loss}
 
