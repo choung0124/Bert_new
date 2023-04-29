@@ -21,6 +21,20 @@ with open("preprocessed_ner_data.pkl", "rb") as f:
 with open("preprocessed_re_data.pkl", "rb") as f:
     preprocessed_re_data = pickle.load(f)
     
+# Print the first 5 samples from preprocessed_re_data
+for i, sample in enumerate(preprocessed_re_data[:5]):
+    print(f"Sample {i + 1}:")
+    print(sample)
+    print()
+
+# Check if all samples have the required keys
+required_keys = {"sentence_tokens", "subject_start_idx", "subject_end_idx", "object_start_idx", "object_end_idx", "rel_name"}
+
+for i, sample in enumerate(preprocessed_re_data):
+    if not required_keys.issubset(sample.keys()):
+        print(f"Sample {i + 1} is missing one or more required keys.")
+
+    
 unique_ner_labels = set()
 unique_relation_labels = set()
 
