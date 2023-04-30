@@ -14,6 +14,9 @@ with open(os.path.join(output_dir, "label_to_id.pkl"), "rb") as f:
 with open(os.path.join(output_dir, "relation_to_id.pkl"), "rb") as f:
     relation_to_id = pickle.load(f)
 
+id_to_label = {str(v): k for k, v in label_to_id.items()}
+id_to_relation = {str(v): k for k, v in relation_to_id.items()}
+
 config = DistilBertConfig.from_pretrained("distilbert-base-uncased")
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
 
