@@ -88,7 +88,7 @@ def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_
 
         # Get the predicted NER and RE labels
         ner_predictions = torch.argmax(outputs["ner_logits"], dim=-1).squeeze().tolist()
-        ner_labels = [id_to_label[str(pred)] for pred in ner_predictions]
+        ner_labels = [id_to_label.get(str(pred), "unknown") for pred in ner_predictions]
 
         all_ner_labels.extend(ner_labels)
 
@@ -109,7 +109,7 @@ def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_
 
         # Get the predicted RE labels
         re_predictions = torch.argmax(outputs["re_logits"], dim=-1).squeeze().tolist()
-        re_labels = [[id_to_relation[str(pred)] for pred in row] for row in re_predictions]
+        re_labels = [[id_to_relation.get(str(pred), "no_relation") for pred in row] for row in re_predictions]
 
         all_re_labels.extend(re_labels)
 
