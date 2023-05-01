@@ -32,7 +32,6 @@ model.eval()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 import nltk
-nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 
 def extract_entities_from_ner_labels(ner_labels, tokens):
@@ -66,6 +65,48 @@ def generate_entity_pairs(entities):
 
     return entity_pairs
 
+def generate_re_data(sentence, entity_pairs, tokenizer):
+    tokenized_sentences = tokenizer.tokenize(sentence)
+    sentence_encoding = tokenizer(
+        sentence,
+        return_offsets_mapping=True,
+        padding='max_length',
+        truncation=True,
+        max_length=128,
+        return_tensors='pt'
+    )
+    sentence_tokens = tokenizer.convert_ids_to_tokens(sentence_encoding['input_ids'][0])
+    offsets = sentence_encoding['offset_mapping'][0].tolist()
+
+    re_data = []
+    for entity_pair in entity_pairs:
+        entity1, entity2 = entity_pair
+
+        subject_start_idx, subject_end_idx = None, None
+        object_start_idx, object_end_idx = None, None
+
+        for i, (offset_start, offset_end) in enumerate(offsets):
+            if subject_start_idx is None and offset_start == entity1["start"]:
+                subject_start_idx = i
+            if subject_end_idx is None and offset_end == entity1["end"]:
+                subject_end_idx = i
+            if object_start_idx is None and offset_start == entity2["start"]:
+                object_start_idx = i
+            if object_end_idx is None and offset_end == entity2["end"]:
+                object_end_idx = i
+
+            if subject_start_idx is not None and subject_end_idx is not None and object_start_idx is not None and object_end_idx is not None:
+                break
+
+        re_data.append({
+            "subject_start_idx": subject_start_idx,
+            "subject_end_idx": subject_end_idx,
+            "object_start_idx": object_start_idx,
+            "object_end_idx": object_end_idx
+        })
+
+    return re_data
+
 
 def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_relation):
     # Split the input text into sentences
@@ -81,7 +122,6 @@ def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_
         # Move inputs to the same device as the model
         inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
-        # Run the model on the input text
         # Run the model on the input text
         with torch.no_grad():
             outputs = model(**inputs)
