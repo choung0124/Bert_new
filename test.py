@@ -34,17 +34,18 @@ model.to(device)
 import nltk
 from nltk.tokenize import sent_tokenize
 
-def extract_entities_from_ner_labels(ner_labels, tokens):
+def extract_entities_from_ner_labels(ner_labels, tokens, offsets):
     entities = []
     current_entity = None
 
-    for label, token in zip(ner_labels, tokens):
+    for i, (label, token) in enumerate(zip(ner_labels, tokens)):
         if label.startswith("B-"):
             if current_entity is not None:
                 entities.append(current_entity)
-            current_entity = {"text": token, "label": label[2:]}
+            current_entity = {"text": token, "label": label[2:], "start": offsets[i][0], "end": offsets[i][1]}
         elif label.startswith("I-") and current_entity is not None:
             current_entity["text"] += " " + token
+            current_entity["end"] = offsets[i][1]
         else:
             if current_entity is not None:
                 entities.append(current_entity)
@@ -54,6 +55,7 @@ def extract_entities_from_ner_labels(ner_labels, tokens):
         entities.append(current_entity)
 
     return entities
+
 
 def generate_entity_pairs(entities):
     entity_pairs = []
@@ -135,7 +137,7 @@ def extract_relationships_large_text(text, model, tokenizer, id_to_label, id_to_
 
         # Extract entities from the NER layer output
         tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"].squeeze())
-        entities = extract_entities_from_ner_labels(ner_labels, tokens)
+        entities = extract_entities_from_ner_labels(ner_labels, tokens, sentence_encoding['offset_mapping'][0].tolist())
 
         # Generate entity pairs
         entity_pairs = generate_entity_pairs(entities)
