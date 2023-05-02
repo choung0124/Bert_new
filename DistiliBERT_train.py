@@ -251,19 +251,18 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             re_logits = []
             for b, batch_re_data in enumerate(re_data):
                 batch_re_logits = []
-                # Ensure rel is a dictionary
-                if isinstance(re_item, dict):
-                    subject_start_idx = re_item["subject_start_idx"]
-                    subject_end_idx = re_item["subject_end_idx"]
-                    object_start_idx = re_item["object_start_idx"]
-                    object_end_idx = re_item["object_end_idx"]
+                for rel in batch_re_data:
+                    subject_start_idx = rel["subject_start_idx"]
+                    subject_end_idx = rel["subject_end_idx"]
+                    object_start_idx = rel["object_start_idx"]
+                    object_end_idx = rel["object_end_idx"]
 
                     # Use the average of the hidden states for the subject and object tokens
-                    subject_hidden_states = sequence_output[subject_start_idx:subject_end_idx+1].mean(dim=0)
-                    object_hidden_states = sequence_output[object_start_idx:object_end_idx+1].mean(dim=0)
+                    subject_hidden_states = sequence_output[b, subject_start_idx:subject_end_idx+1].mean(dim=0)
+                    object_hidden_states = sequence_output[b, object_start_idx:object_end_idx+1].mean(dim=0)
 
                     relation_logits = self.re_classifier(subject_hidden_states, object_hidden_states)
-                    re_logits.append(relation_logits.unsqueeze(0))
+                    batch_re_logits.append(relation_logits.unsqueeze(0))
 
                 batch_re_logits = torch.cat(batch_re_logits, dim=0)
                 re_logits.append(batch_re_logits.unsqueeze(0))
@@ -271,6 +270,7 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
             re_logits = torch.cat(re_logits, dim=0)
         else:
             re_logits = None
+
 
         return {
             'ner_logits': ner_logits,
