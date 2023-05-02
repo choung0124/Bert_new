@@ -175,12 +175,15 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         self.num_re_labels = num_re_labels
 
         self.distilbert = DistilBertModel(config)
-        #self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.dropout = nn.Dropout(config.dropout)
         
-        self.classifier = nn.Linear(config.hidden_size, self.num_ner_labels)
+        self.ner_classifier = nn.Linear(config.hidden_size, self.num_ner_labels)
 
-        # Define the bilinear layer for RE classification
+        self.subject_start_classifier = nn.Linear(config.hidden_size, 1)
+        self.subject_end_classifier = nn.Linear(config.hidden_size, 1)
+        self.object_start_classifier = nn.Linear(config.hidden_size, 1)
+        self.object_end_classifier = nn.Linear(config.hidden_size, 1)
+
         self.re_classifier = nn.Bilinear(config.hidden_size, config.hidden_size, self.num_re_labels)
 
         self.init_weights()
@@ -193,10 +196,8 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         inputs_embeds=None,
         ner_labels=None,
         re_labels=None,
-        re_data=None,
+        re_data=None,  # Add re_data as an optional argument
     ):
-        #print("input_ids shape in forward:", input_ids.shape)
-        #print("attention_mask shape in forward:", attention_mask.shape)
         outputs = self.distilbert(
             input_ids,
             attention_mask=attention_mask,
@@ -206,7 +207,27 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
 
         sequence_output = outputs[0]
         sequence_output = self.dropout(sequence_output)
-        ner_logits = self.classifier(sequence_output)
+        ner_logits = self.ner_classifier(sequence_output)
+
+        if re_data is None:  # If re_data is not provided, predict subject and object indices
+            subject_start_logits = self.subject_start_classifier(sequence_output).squeeze(-1)
+            subject_end_logits = self.subject_end_classifier(sequence_output).squeeze(-1)
+            object_start_logits = self.object_start_classifier(sequence_output).squeeze(-1)
+            object_end_logits = self.object_end_classifier(sequence_output).squeeze(-1)
+
+            subject_start_idx = torch.argmax(subject_start_logits, dim=-1)
+            subject_end_idx = torch.argmax(subject_end_logits, dim=-1)
+            object_start_idx = torch.argmax(object_start_logits, dim=-1)
+            object_end_idx = torch.argmax(object_end_logits, dim=-1)
+        else:  # If re_data is provided, use the provided subject and object indices
+            subject_start_idx = re_data["subject_start_idx"]
+            subject_end_idx = re_data["subject_end_idx"]
+            object_start_idx = re_data["object_start_idx"]
+            object_end_idx = re_data["object_end_idx"]
+
+        subject_hidden_states = sequence_output[range(sequence_output.size(0)), subject_start_idx]
+        object_hidden_states = sequence_output[range(sequence_output.size(0)), object_start_idx]
+        re_logits = self.re_classifier(subject_hidden_states, object_hidden_states)
 
         if ner_labels is not None:
             
@@ -252,9 +273,15 @@ class DistilBertForNERAndRE(DistilBertPreTrainedModel):
         else:
             re_logits = None
 
-
-        return {'ner_logits': ner_logits, 're_logits': re_logits, 'ner_loss': ner_loss}
-
+        return {
+            'ner_logits': ner_logits,
+            'subject_start_logits': subject_start_logits if re_data is None else None,
+            'subject_end_logits': subject_end_logits if re_data is None else None,
+            'object_start_logits': object_start_logits if re_data is None else None,
+            'object_end_logits': object_end_logits if re_data is None else None,
+            're_logits': re_logits,
+            'ner_loss': ner_loss,
+        }
 
 # Set up the configuration, model, and tokenizer
 config = DistilBertConfig.from_pretrained("distilbert-base-uncased")
